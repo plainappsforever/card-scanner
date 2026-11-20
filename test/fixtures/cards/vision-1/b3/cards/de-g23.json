@@ -1,0 +1,242 @@
+{
+ "id": "de-g23",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Landeshauptstadt",
+     "box": {
+      "x": 0.0766693133158876,
+      "y": 0.045264380264105064,
+      "w": 0.1633247184753418,
+      "h": 0.03427312917230663
+     },
+     "height": 0.03427312917230663,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Falkenbruck",
+     "box": {
+      "x": 0.07677187685986972,
+      "y": 0.09012835361167348,
+      "w": 0.14454036712646484,
+      "h": 0.04115233550200581
+     },
+     "height": 0.04115233550200581,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Referat für Stadtplanung und Bauordnung",
+     "box": {
+      "x": 0.07505926430142938,
+      "y": 0.1748425882858473,
+      "w": 0.34264991760253904,
+      "h": 0.04752111250829505
+     },
+     "height": 0.04752111250829505,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Hauptabteilung II - Stadtentwicklungsplanung",
+     "box": {
+      "x": 0.07231105247133648,
+      "y": 0.230530898538993,
+      "w": 0.3206062698364258,
+      "h": 0.04137796600813115
+     },
+     "height": 0.04137796600813115,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dipl.-Ing. Sabine Krautwurst-Ilić",
+     "box": {
+      "x": 0.07352871238627777,
+      "y": 0.32001573178877707,
+      "w": 0.3789701080322265,
+      "h": 0.0588982998174129
+     },
+     "height": 0.0588982998174129,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Baudirektorin",
+     "box": {
+      "x": 0.07097993722405566,
+      "y": 0.3907303019660078,
+      "w": 0.11535933494567871,
+      "h": 0.028926451694090916
+     },
+     "height": 0.028926451694090916,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Blumenstraße 31 • Zimmer 412 • 80331 Falkenbruck",
+     "box": {
+      "x": 0.0694067278681533,
+      "y": 0.4741268298470134,
+      "w": 0.3393863296508789,
+      "h": 0.03817231682736899
+     },
+     "height": 0.03817231682736899,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel. 089 233-2 47 15 • Fax 089 233-2 47 99",
+     "box": {
+      "x": 0.06618798247109417,
+      "y": 0.5167445433633253,
+      "w": 0.300986270904541,
+      "h": 0.048242915090906946
+     },
+     "height": 0.048242915090906946,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "sabine.krautwurst-ilic@falkenbruck-de.example",
+     "box": {
+      "x": 0.06653286159534318,
+      "y": 0.5728297577802067,
+      "w": 0.2507179069519043,
+      "h": 0.03690963362174604
+     },
+     "height": 0.03690963362174604,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Besuchszeiten: Mo-Do 9-12 Uhr und nach Vereinbarung",
+     "box": {
+      "x": 0.06797709059360678,
+      "y": 0.6196830514211715,
+      "w": 0.3147488403320312,
+      "h": 0.03765003837673819
+     },
+     "height": 0.03765003837673819,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Ing.",
+   "given": "Sabine",
+   "middle": "",
+   "family": "Krautwurst-Ilić",
+   "suffix": "",
+   "full": "Dipl.-Ing. Sabine Krautwurst-Ilić"
+  },
+  "otherName": null,
+  "company": "Landeshauptstadt Falkenbruck",
+  "department": "Referat für Stadtplanung und Bauordnung",
+  "title": "Baudirektorin",
+  "phones": [
+   {
+    "printed": "089 233-2 47 15",
+    "e164": "+498923324715",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "089 233-2 47 99",
+    "e164": "+498923324799",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "sabine.krautwurst-ilic@falkenbruck-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Blumenstraße 31",
+    "extra": "Zimmer 412",
+    "pobox": "",
+    "postcode": "80331",
+    "city": "Falkenbruck",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Hauptabteilung II – Stadtentwicklungsplanung"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "government",
+  "referat",
+  "department-lines",
+  "prefix-title",
+  "diacritic-lost",
+  "opening-hours",
+  "company-split-lines",
+  "roman-numeral"
+ ],
+ "notes": "City administration: company \"Landeshauptstadt Falkenbruck\" over two lines, Referat = department, Hauptabteilung II also a department line. \"Zimmer 412\" sits between street and postcode. ć lost in OCR. Visiting hours are not phones.",
+ "o3": {
+  "source": "blind-3/cards/de-g23.json",
+  "images": [
+   {
+    "name": "b3-de-g23",
+    "font": "Baskerville",
+    "rotation": -1.54,
+    "noise": 2,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 126
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

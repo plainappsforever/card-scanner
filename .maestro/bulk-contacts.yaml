@@ -1,0 +1,48 @@
+appId: ${APP_ID}
+name: U4 - bulk add asks for Contacts only after the explanation
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+- tapOn:
+    id: select-mode
+- tapOn: ".*Jürgen Müller.*"
+- tapOn: ".*Delacroix-Whitfield.*"
+- tapOn:
+    id: selection-contacts
+- assertVisible:
+    id: contacts-explain
+# our explanation first; no system prompt yet
+- assertNotVisible: ".*would like to access your Contacts.*"
+- assertNotVisible: ".*access your contacts\\?.*"
+- tapOn:
+    id: contacts-continue
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn: "Continue"
+      - tapOn: "Share All.*"
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - tapOn: "Allow"
+- extendedWaitUntil:
+    visible:
+      id: bulk-add-button
+    timeout: 30000
+- takeScreenshot: u4-choices
+# On a re-run both people are already in the phone's Contacts (duplicate check → "Add to <name>" when the card has
+# something new, else Skip): make sure at least one card is added as a new contact.
+- tapOn:
+    text: "New contact"
+    index: 0
+    optional: true
+- tapOn:
+    id: bulk-add-button
+# the exact summary (SPEC §2): new contacts, additions to existing ones, skipped, failed
+- assertVisible: "\\d added, \\d added to existing contacts, \\d skipped, 0 failed"

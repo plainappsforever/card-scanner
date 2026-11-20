@@ -1,0 +1,104 @@
+{
+ "id": "sig-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "text",
+ "input": {
+  "text": "Hallo Herr Brandt,\n\nanbei wie besprochen das Angebot.\n\nMit freundlichen Grüßen\ni. A. Jasmin Okoro-Lindner\n\nJasmin Okoro-Lindner\nProjektleiterin Vertrieb Süd\nHydrotherm Anlagenbau GmbH & Co. KG\nIndustriestraße 18 | 70565 Stuttgart\nTel. +49 (0) 711 66 06-0 | Durchwahl -213 | Fax -299\nMobil +49 (0) 160 93 37 21 48\nj.okoro-lindner@hydrotherm-anlagenbau-de.example | www.hydrotherm-anlagenbau.de\n\nSitz der Gesellschaft: Stuttgart, Registergericht: Amtsgericht Stuttgart HRA 734512\nPersönlich haftende Gesellschafterin: Hydrotherm Verwaltungs GmbH, AG Stuttgart HRB 778201\nGeschäftsführer: Dr. Matthias Seeger, Annette Wolff-Brück\nUSt-IdNr.: DE 812 345 671",
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jasmin",
+   "middle": "",
+   "family": "Okoro-Lindner",
+   "suffix": "",
+   "full": "Jasmin Okoro-Lindner"
+  },
+  "otherName": null,
+  "company": "Hydrotherm Anlagenbau GmbH & Co. KG",
+  "department": "Vertrieb Süd",
+  "title": "Projektleiterin",
+  "phones": [
+   {
+    "printed": "+49 (0) 711 66 06-0",
+    "e164": "+4971166060",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-213",
+    "e164": "+497116606213",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "-299",
+    "e164": "+497116606299",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+49 (0) 160 93 37 21 48",
+    "e164": "+4916093372148",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "j.okoro-lindner@hydrotherm-anlagenbau-de.example"
+  ],
+  "urls": [
+   "www.hydrotherm-anlagenbau.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Industriestraße 18",
+    "extra": "",
+    "pobox": "",
+    "postcode": "70565",
+    "city": "Stuttgart",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Projektleiterin Vertrieb Süd"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "email-signature",
+  "shared-base",
+  "suffix-only-number",
+  "registry-number",
+  "vat-id",
+  "managing-director-line",
+  "salutation-name",
+  "title-department-line",
+  "second-company-in-footer",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "German signature. \"Herr Brandt\" is the recipient; \"i. A.\" (on behalf) precedes the name in the closing. Durchwahl -213 and Fax -299 replace the -0 of the base +49 (0) 711 66 06-0. The footer names a second company (Verwaltungs GmbH), two register numbers, two managing directors and the VAT id - all leftovers. \"Vertrieb Süd\" = department (title alone accepted as the whole line)."
+}

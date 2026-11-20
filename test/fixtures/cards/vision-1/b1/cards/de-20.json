@@ -1,0 +1,225 @@
+{
+ "id": "de-20",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Malerbetrieb Schärmer GmbH",
+     "box": {
+      "x": 0.06624477212141627,
+      "y": 0.04581082422752247,
+      "w": 0.5797122192382813,
+      "h": 0.07699649030177291
+     },
+     "height": 0.07699649030177291,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Benedikt Schärmer",
+     "box": {
+      "x": 0.06341688108093749,
+      "y": 0.2392376084107506,
+      "w": 0.30777654647827146,
+      "h": 0.056252691276285294
+     },
+     "height": 0.056252691276285294,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Malermeister",
+     "box": {
+      "x": 0.06189072990418319,
+      "y": 0.3330946786913469,
+      "w": 0.1625557518005371,
+      "h": 0.04233082288940904
+     },
+     "height": 0.04233082288940904,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Landsberger Str. 302",
+     "box": {
+      "x": 0.05613583736955228,
+      "y": 0.5180341566640755,
+      "w": 0.23067649841308593,
+      "h": 0.0470014539004292
+     },
+     "height": 0.0470014539004292,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "80687 München",
+     "box": {
+      "x": 0.0576167569357646,
+      "y": 0.5748120017390344,
+      "w": 0.17408273696899415,
+      "h": 0.04012554492729514
+     },
+     "height": 0.04012554492729514,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 089 / 54 32 10-0",
+     "box": {
+      "x": 0.056266432187559515,
+      "y": 0.6320992637611226,
+      "w": 0.2376973342895508,
+      "h": 0.045121119289324496
+     },
+     "height": 0.045121119289324496,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Fax 089 / 54 32 10-20",
+     "box": {
+      "x": 0.05479635980070427,
+      "y": 0.6907356388913566,
+      "w": 0.25082719802856446,
+      "h": 0.04543300208898127
+     },
+     "height": 0.04543300208898127,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "info@maler-schaermer-de.example",
+     "box": {
+      "x": 0.05324737894986402,
+      "y": 0.7456695876535959,
+      "w": 0.249693489074707,
+      "h": 0.04803817704837754
+     },
+     "height": 0.04803817704837754,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "www.maler-schaermer.de",
+     "box": {
+      "x": 0.0533912604991573,
+      "y": 0.8083460228034902,
+      "w": 0.2580424308776855,
+      "h": 0.044789627251938025
+     },
+     "height": 0.044789627251938025,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Benedikt",
+   "middle": "",
+   "family": "Schärmer",
+   "suffix": "",
+   "full": "Benedikt Schärmer"
+  },
+  "otherName": null,
+  "company": "Malerbetrieb Schärmer GmbH",
+  "department": null,
+  "title": "Malermeister",
+  "phones": [
+   {
+    "printed": "089 / 54 32 10-0",
+    "e164": "+49895432100",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "089 / 54 32 10-20",
+    "e164": "+498954321020",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@maler-schaermer-de.example"
+  ],
+  "urls": [
+   "www.maler-schaermer.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Landsberger Str. 302",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80687",
+    "city": "München",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "heavy-ocr-damage",
+  "ocr-0O",
+  "ocr-1l",
+  "digit-in-email",
+  "diacritic-lost",
+  "name-is-company"
+ ],
+ "notes": "Six OCR errors on one card. The e-mail domain reads \"ma1er\" (digit one) while the website shows \"maler\": a repair is possible only by cross-checking. Unrepaired e-mail is a confident-wrong risk.",
+ "o3": {
+  "source": "blind-1/cards/de-20.json",
+  "images": [
+   {
+    "name": "b1-de-20",
+    "font": "AmericanTypewriter",
+    "rotation": -1.5,
+    "noise": 9,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 82
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

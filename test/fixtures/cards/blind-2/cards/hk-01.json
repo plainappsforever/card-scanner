@@ -1,0 +1,623 @@
+{
+ "id": "hk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "zh"
+ ],
+ "card_country": "HK",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "zh-Hant",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HARBOURFRONT CAPITAL",
+     "box": {
+      "x": 0.07,
+      "y": 0.04,
+      "w": 0.4955,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "HARBOURFRONT",
+       "box": {
+        "x": 0.07,
+        "y": 0.04,
+        "w": 0.3044,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "CAPITAL",
+       "box": {
+        "x": 0.388,
+        "y": 0.04,
+        "w": 0.1776,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "海濱資本有限公司",
+     "box": {
+      "x": 0.07,
+      "y": 0.132,
+      "w": 0.2588,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "海濱資本有限公司",
+       "box": {
+        "x": 0.07,
+        "y": 0.132,
+        "w": 0.2588,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Peter CHAN Tai-rnan",
+     "box": {
+      "x": 0.07,
+      "y": 0.204,
+      "w": 0.4256,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Peter",
+       "box": {
+        "x": 0.07,
+        "y": 0.204,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "CHAN",
+       "box": {
+        "x": 0.2004,
+        "y": 0.204,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Tai-rnan",
+       "box": {
+        "x": 0.3072,
+        "y": 0.204,
+        "w": 0.1884,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "陳大文",
+     "box": {
+      "x": 0.07,
+      "y": 0.291,
+      "w": 0.1165,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "陳大文",
+       "box": {
+        "x": 0.07,
+        "y": 0.291,
+        "w": 0.1165,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Senior Vice President",
+     "box": {
+      "x": 0.07,
+      "y": 0.373,
+      "w": 0.3636,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Senior",
+       "box": {
+        "x": 0.07,
+        "y": 0.373,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Vice",
+       "box": {
+        "x": 0.1884,
+        "y": 0.373,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "President",
+       "box": {
+        "x": 0.2706,
+        "y": 0.373,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Harbourfront Capital Limited",
+     "box": {
+      "x": 0.07,
+      "y": 0.445,
+      "w": 0.4905,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Harbourfront",
+       "box": {
+        "x": 0.07,
+        "y": 0.445,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Capital",
+       "box": {
+        "x": 0.2971,
+        "y": 0.445,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Limited",
+       "box": {
+        "x": 0.4336,
+        "y": 0.445,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Suite 2301, 23/F, Two Pacific Place",
+     "box": {
+      "x": 0.07,
+      "y": 0.517,
+      "w": 0.5921,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Suite",
+       "box": {
+        "x": 0.07,
+        "y": 0.517,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2301,",
+       "box": {
+        "x": 0.1703,
+        "y": 0.517,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "23/F,",
+       "box": {
+        "x": 0.2706,
+        "y": 0.517,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Two",
+       "box": {
+        "x": 0.3709,
+        "y": 0.517,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Pacific",
+       "box": {
+        "x": 0.4349,
+        "y": 0.517,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Place",
+       "box": {
+        "x": 0.5715,
+        "y": 0.517,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "88 Queensway, Admiralty, Hong Kong",
+     "box": {
+      "x": 0.07,
+      "y": 0.589,
+      "w": 0.5824,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "88",
+       "box": {
+        "x": 0.07,
+        "y": 0.589,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Queensway,",
+       "box": {
+        "x": 0.1159,
+        "y": 0.589,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Admiralty,",
+       "box": {
+        "x": 0.3068,
+        "y": 0.589,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Hong",
+       "box": {
+        "x": 0.4977,
+        "y": 0.589,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Kong",
+       "box": {
+        "x": 0.5799,
+        "y": 0.589,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "T (852) 2123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.661,
+      "w": 0.2828,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.661,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(852)",
+       "box": {
+        "x": 0.0978,
+        "y": 0.661,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2123",
+       "box": {
+        "x": 0.1981,
+        "y": 0.661,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2803,
+        "y": 0.661,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "D (852) 2123 4580",
+     "box": {
+      "x": 0.07,
+      "y": 0.733,
+      "w": 0.2828,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "D",
+       "box": {
+        "x": 0.07,
+        "y": 0.733,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(852)",
+       "box": {
+        "x": 0.0978,
+        "y": 0.733,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2123",
+       "box": {
+        "x": 0.1981,
+        "y": 0.733,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4580",
+       "box": {
+        "x": 0.2803,
+        "y": 0.733,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "M (852) 9123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.805,
+      "w": 0.2828,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.805,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(852)",
+       "box": {
+        "x": 0.0978,
+        "y": 0.805,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9123",
+       "box": {
+        "x": 0.1981,
+        "y": 0.805,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2803,
+        "y": 0.805,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f11",
+     "text": "peter.chan@harbourfront-cap-com-hk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.877,
+      "w": 0.616,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "peter.chan@harbourfront-cap-com-hk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.877,
+        "w": 0.616,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "CN",
+  "uiLang": "zh-CN"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "大文",
+   "middle": "",
+   "family": "陳",
+   "suffix": "",
+   "full": "陳大文"
+  },
+  "otherName": "Peter CHAN Tai-man",
+  "company": "海濱資本有限公司",
+  "department": null,
+  "title": "Senior Vice President",
+  "phones": [
+   {
+    "printed": "(852) 2123 4567",
+    "e164": "+85221234567",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "(852) 2123 4580",
+    "e164": "+85221234580",
+    "type": "work",
+    "label": "D",
+    "ext": null
+   },
+   {
+    "printed": "(852) 9123 4567",
+    "e164": "+85291234567",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "peter.chan@harbourfront-cap-com-hk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "88 Queensway",
+    "extra": "Suite 2301, 23/F, Two Pacific Place",
+    "pobox": "",
+    "postcode": "",
+    "city": "Hong Kong",
+    "region": "",
+    "country": "",
+    "countryCode": "HK"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Harbourfront Capital Limited",
+   "HARBOURFRONT CAPITAL"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "otherName",
+   "printed": "Peter CHAN Tai-man",
+   "ocr": "Peter CHAN Tai-rnan",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "second-script",
+  "all-caps-family",
+  "no-postcode",
+  "cc-in-brackets",
+  "region-mismatch-ui-script",
+  "ocr-rnm"
+ ],
+ "notes": "UI zh-CN and Han script on the card → N7 primary = 陳大文, otherName = \"Peter CHAN Tai-man\" (OCR \"rn\" for \"m\"). \"(852)\" is the HK country code — not a Chinese area code. Hong Kong has no postcode."
+}

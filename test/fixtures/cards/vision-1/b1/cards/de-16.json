@@ -1,0 +1,166 @@
+{
+ "id": "de-16",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Notar Dr. Friedrich-Wilhelm von Ahlefeldt",
+     "box": {
+      "x": 0.07399192090410239,
+      "y": 0.06933351714822866,
+      "w": 0.555505599975586,
+      "h": 0.047185721084417986
+     },
+     "height": 0.047185721084417986,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Amtssitz Hamburg",
+     "box": {
+      "x": 0.07076121231721252,
+      "y": 0.17598021380526452,
+      "w": 0.15947970390319824,
+      "h": 0.03764401071320178
+     },
+     "height": 0.03764401071320178,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Jungfernstieg 7 • 20354 Hamburg",
+     "box": {
+      "x": 0.0681062538512544,
+      "y": 0.5483984737216782,
+      "w": 0.28239797592163085,
+      "h": 0.03699403932195833
+     },
+     "height": 0.03699403932195833,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Telefon 040 35 00 78-0",
+     "box": {
+      "x": 0.0681814663555053,
+      "y": 0.6070270156113962,
+      "w": 0.19503376007080075,
+      "h": 0.027872181306934696
+     },
+     "height": 0.027872181306934696,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "notariat@ahlefeldt-notar-de.example",
+     "box": {
+      "x": 0.06808895234181683,
+      "y": 0.6591545007805163,
+      "w": 0.2475869941711426,
+      "h": 0.03684076655325286
+     },
+     "height": 0.03684076655325286,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Friedrich-Wilhelm",
+   "middle": "",
+   "family": "von Ahlefeldt",
+   "suffix": "",
+   "full": "Dr. Friedrich-Wilhelm von Ahlefeldt"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Notar",
+  "phones": [
+   {
+    "printed": "040 35 00 78-0",
+    "e164": "+49403500780",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "notariat@ahlefeldt-notar-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Jungfernstieg 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20354",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "title-inside-name-line",
+  "nobility-particle",
+  "hyphenated-given",
+  "office-email",
+  "ocr-0O",
+  "absent-company"
+ ],
+ "notes": "\"Notar\" (title) is printed in front of the name on the same line; family name includes \"von\". No company line; \"Amtssitz Hamburg\" is the notary's official seat, not an address.",
+ "o3": {
+  "source": "blind-1/cards/de-16.json",
+  "images": [
+   {
+    "name": "b1-de-16",
+    "font": "AvenirNext-Regular",
+    "rotation": -0.73,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,570 @@
+{
+ "id": "us-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CORVALE",
+     "box": {
+      "x": 0.07,
+      "y": 0.0876,
+      "w": 0.2536,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "CORVALE",
+       "box": {
+        "x": 0.07,
+        "y": 0.0876,
+        "w": 0.2536,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "PHYSICAL THERAPY",
+     "box": {
+      "x": 0.07,
+      "y": 0.2096,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "PHYSICAL",
+       "box": {
+        "x": 0.07,
+        "y": 0.2096,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "THERAPY",
+       "box": {
+        "x": 0.2246,
+        "y": 0.2096,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Rebecca Lindqvist, PT, DPT",
+     "box": {
+      "x": 0.07,
+      "y": 0.2816,
+      "w": 0.535,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Rebecca",
+       "box": {
+        "x": 0.07,
+        "y": 0.2816,
+        "w": 0.1522,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Lindqvist,",
+       "box": {
+        "x": 0.2338,
+        "y": 0.2816,
+        "w": 0.2174,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "PT,",
+       "box": {
+        "x": 0.4629,
+        "y": 0.2816,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "DPT",
+       "box": {
+        "x": 0.5398,
+        "y": 0.2816,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Clinical Director",
+     "box": {
+      "x": 0.07,
+      "y": 0.3636,
+      "w": 0.2996,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Clinical",
+       "box": {
+        "x": 0.07,
+        "y": 0.3636,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Director",
+       "box": {
+        "x": 0.2246,
+        "y": 0.3636,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "2201 NE 45th St, Suite 300",
+     "box": {
+      "x": 0.07,
+      "y": 0.4356,
+      "w": 0.429,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "2201",
+       "box": {
+        "x": 0.07,
+        "y": 0.4356,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "NE",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4356,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45th",
+       "box": {
+        "x": 0.1981,
+        "y": 0.4356,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "St,",
+       "box": {
+        "x": 0.2803,
+        "y": 0.4356,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Suite",
+       "box": {
+        "x": 0.3444,
+        "y": 0.4356,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "300",
+       "box": {
+        "x": 0.4446,
+        "y": 0.4356,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Seattle, WA 98105",
+     "box": {
+      "x": 0.07,
+      "y": 0.5076,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Seattle,",
+       "box": {
+        "x": 0.07,
+        "y": 0.5076,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "WA",
+       "box": {
+        "x": 0.2246,
+        "y": 0.5076,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "98105",
+       "box": {
+        "x": 0.2706,
+        "y": 0.5076,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Phone 206-555-0134 | Fax 206-555-0135",
+     "box": {
+      "x": 0.07,
+      "y": 0.5796,
+      "w": 0.6367,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Phone",
+       "box": {
+        "x": 0.07,
+        "y": 0.5796,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "206-555-0134",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5796,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "|",
+       "box": {
+        "x": 0.3974,
+        "y": 0.5796,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.4252,
+        "y": 0.5796,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "206-555-0135",
+       "box": {
+        "x": 0.4893,
+        "y": 0.5796,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "rlindqvist@corvalept-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6516,
+      "w": 0.4348,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "rlindqvist@corvalept-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6516,
+        "w": 0.4348,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "NPI 1234567893 · WA License PT00012345",
+     "box": {
+      "x": 0.07,
+      "y": 0.7236,
+      "w": 0.3232,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "NPI",
+       "box": {
+        "x": 0.07,
+        "y": 0.7236,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "1234567893",
+       "box": {
+        "x": 0.102,
+        "y": 0.7236,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1975,
+        "y": 0.7236,
+        "w": 0.0091,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "WA",
+       "box": {
+        "x": 0.2114,
+        "y": 0.7236,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "License",
+       "box": {
+        "x": 0.2344,
+        "y": 0.7236,
+        "w": 0.0634,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "PT00012345",
+       "box": {
+        "x": 0.3026,
+        "y": 0.7236,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Part of the Evergreen Health Partners network",
+     "box": {
+      "x": 0.07,
+      "y": 0.7706,
+      "w": 0.3824,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Part",
+       "box": {
+        "x": 0.07,
+        "y": 0.7706,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1111,
+        "y": 0.7706,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.1341,
+        "y": 0.7706,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Evergreen",
+       "box": {
+        "x": 0.1661,
+        "y": 0.7706,
+        "w": 0.0815,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Health",
+       "box": {
+        "x": 0.2525,
+        "y": 0.7706,
+        "w": 0.0544,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Partners",
+       "box": {
+        "x": 0.3117,
+        "y": 0.7706,
+        "w": 0.0725,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "network",
+       "box": {
+        "x": 0.389,
+        "y": 0.7706,
+        "w": 0.0634,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rebecca",
+   "middle": "",
+   "family": "Lindqvist",
+   "suffix": "PT, DPT",
+   "full": "Rebecca Lindqvist, PT, DPT"
+  },
+  "otherName": null,
+  "company": "CORVALE PHYSICAL THERAPY",
+  "department": null,
+  "title": "Clinical Director",
+  "phones": [
+   {
+    "printed": "206-555-0134",
+    "e164": "+12065550134",
+    "type": "work",
+    "label": "Phone",
+    "ext": null
+   },
+   {
+    "printed": "206-555-0135",
+    "e164": "+12065550135",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "rlindqvist@corvalept-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2201 NE 45th St",
+    "extra": "Suite 300",
+    "pobox": "",
+    "postcode": "98105",
+    "city": "Seattle",
+    "region": "WA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "region-mismatch",
+  "credential-suffix",
+  "group-line-not-company",
+  "licence-number",
+  "ext-pair",
+  "region-from-address"
+ ],
+ "notes": "PT, DPT are suffixes — not a company. NPI 1234567893 and License PT00012345 are not phones. Region DE: the Seattle address makes the numbers +1."
+}

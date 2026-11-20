@@ -1,0 +1,30 @@
+{
+  "_doc": "Plaincard identity (D24). Sheet 7 in tasks-and-reports/DESIGN_IDENTITIES.md: ink navy, SF Pro Rounded, cream card pile. Field guide: docs/DESIGN_TOKENS.md. Read by src/constants/theme.ts (screens) and app.config.ts (splash, Android icon background).",
+  "light": {
+    "accent": "#22406F",
+    "onAccent": "#FFFFFF",
+    "accentText": "#22406F",
+    "background": "#F0EFEB",
+    "surface": "#FFFFFF",
+    "border": "#D8D7D4"
+  },
+  "dark": {
+    "accent": "#8FB0E8",
+    "onAccent": "#16181A",
+    "accentText": "#8FB0E8",
+    "background": "#202221",
+    "surface": "#303131",
+    "border": "#414342"
+  },
+  "fonts": {
+    "title": "rounded",
+    "body": "rounded",
+    "numerals": "rounded"
+  },
+  "radius": {
+    "control": 12,
+    "card": 4
+  },
+  "card": "flat",
+  "density": "compact"
+}

@@ -1,0 +1,205 @@
+{
+ "id": "de-18",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BROTZEIT",
+     "box": {
+      "x": 0.3158702725315311,
+      "y": 0.031778865979827486,
+      "w": 0.3725810623168945,
+      "h": 0.10655540112823125
+     },
+     "height": 0.10655540112823125,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Bäckerei • Konditorei",
+     "box": {
+      "x": 0.35994928237442836,
+      "y": 0.1924167355876909,
+      "w": 0.21767793655395506,
+      "h": 0.042797883965333905
+     },
+     "height": 0.042797883965333905,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Seit 1902 • Handwerklich gebacken",
+     "box": {
+      "x": 0.31212493933839086,
+      "y": 0.27991483943239137,
+      "w": 0.3365457916259766,
+      "h": 0.04804124795331921
+     },
+     "height": 0.04804124795331921,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Filialleitung: Petra Unterholzner",
+     "box": {
+      "x": 0.07958665612968599,
+      "y": 0.45063060032744795,
+      "w": 0.35980312347412113,
+      "h": 0.05329833896003633
+     },
+     "height": 0.05329833896003633,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "• Marktplatz 2 • 84028 Landshut",
+     "box": {
+      "x": 0.08239186486374755,
+      "y": 0.6199405568067937,
+      "w": 0.3192693138122559,
+      "h": 0.04945672893155961
+     },
+     "height": 0.04945672893155961,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "• 0871 / 9 66 55 44",
+     "box": {
+      "x": 0.08392637625534441,
+      "y": 0.6806821331280007,
+      "w": 0.1955684280395508,
+      "h": 0.03839979576788355
+     },
+     "height": 0.03839979576788355,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "• www.baeckerei-brotzeit.de",
+     "box": {
+      "x": 0.08383612471767804,
+      "y": 0.7309485579993652,
+      "w": 0.28579370498657225,
+      "h": 0.045826814349553824
+     },
+     "height": 0.045826814349553824,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mo-Sa 6-18 Uhr • So 7-11 Uhr",
+     "box": {
+      "x": 0.08526559832738301,
+      "y": 0.7809844406802187,
+      "w": 0.3221663284301758,
+      "h": 0.04842004812822376
+     },
+     "height": 0.04842004812822376,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Petra",
+   "middle": "",
+   "family": "Unterholzner",
+   "suffix": "",
+   "full": "Petra Unterholzner"
+  },
+  "otherName": null,
+  "company": "BROTZEIT",
+  "department": null,
+  "title": "Filialleitung",
+  "phones": [
+   {
+    "printed": "0871 / 9 66 55 44",
+    "e164": "+498719665544",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.baeckerei-brotzeit.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Marktplatz 2",
+    "extra": "",
+    "pobox": "",
+    "postcode": "84028",
+    "city": "Landshut",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "logo-company-only",
+  "name-after-label",
+  "icon-glyphs-as-text",
+  "at-icon-before-url",
+  "year-slogan",
+  "opening-hours",
+  "absent-email"
+ ],
+ "notes": "Pin/phone/globe icons were read as \"Q\", \"&\", \"@\". The \"@ www…\" line is a website, not an e-mail. Name follows the label \"Filialleitung:\" on the same line.",
+ "o3": {
+  "source": "blind-1/cards/de-18.json",
+  "images": [
+   {
+    "name": "b1-de-18",
+    "font": "ArialMT",
+    "rotation": 1.56,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 111
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

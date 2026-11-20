@@ -1,0 +1,278 @@
+{
+ "id": "de-06",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "AT",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KESSLER",
+     "box": {
+      "x": 0.06663570697483041,
+      "y": 0.02421163171941665,
+      "w": 0.3144315528869629,
+      "h": 0.09169842193485678
+     },
+     "height": 0.09169842193485678,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Logistik GmbH",
+     "box": {
+      "x": 0.06675728393330246,
+      "y": 0.17473233458888804,
+      "w": 0.1994042205810547,
+      "h": 0.053354305650276546
+     },
+     "height": 0.053354305650276546,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Tobias Engel",
+     "box": {
+      "x": 0.0667932405977431,
+      "y": 0.24732908071060689,
+      "w": 0.2109878158569336,
+      "h": 0.06374314208748721
+     },
+     "height": 0.06374314208748721,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Vertrieb Süd",
+     "box": {
+      "x": 0.06668929039135797,
+      "y": 0.3297976505183762,
+      "w": 0.25470609664916993,
+      "h": 0.04730246702216312
+     },
+     "height": 0.04730246702216312,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Bürgermeister-Wegele-Str. 12",
+     "box": {
+      "x": 0.06815040803611812,
+      "y": 0.39934052275915377,
+      "w": 0.3957108688354492,
+      "h": 0.058752411580914266
+     },
+     "height": 0.058752411580914266,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "86167 Augsburg",
+     "box": {
+      "x": 0.06686046527357803,
+      "y": 0.4775784747386038,
+      "w": 0.216569766998291,
+      "h": 0.05156950784926251
+     },
+     "height": 0.05156950784926251,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel.: +49 821 650 43-17",
+     "box": {
+      "x": 0.06666333226195263,
+      "y": 0.5448874175178172,
+      "w": 0.3012862396240234,
+      "h": 0.047910443604222586
+     },
+     "height": 0.047910443604222586,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fax: +49 821 650 43-99",
+     "box": {
+      "x": 0.06674684874816637,
+      "y": 0.6183211557184471,
+      "w": 0.302570514678955,
+      "h": 0.04590925931010004
+     },
+     "height": 0.04590925931010004,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Mobil: +49 160 9 12 34 56",
+     "box": {
+      "x": 0.06816194968326798,
+      "y": 0.6887029969285424,
+      "w": 0.3375563049316406,
+      "h": 0.050103231746717825
+     },
+     "height": 0.050103231746717825,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "tobias.engel@kessler-logistik-de.example",
+     "box": {
+      "x": 0.06813348591971366,
+      "y": 0.758404828357601,
+      "w": 0.4334999465942382,
+      "h": 0.05932237927057571
+     },
+     "height": 0.05932237927057571,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "www.kessler-logistik.de",
+     "box": {
+      "x": 0.06976743848128955,
+      "y": 0.8363228693762138,
+      "w": 0.31395349502563474,
+      "h": 0.05156950784926251
+     },
+     "height": 0.05156950784926251,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f11",
+     "text": "A member of the Nordwind Group",
+     "box": {
+      "x": 0.07105686350478681,
+      "y": 0.906286986204405,
+      "w": 0.27217468261718747,
+      "h": 0.0378866269321515
+     },
+     "height": 0.0378866269321515,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Tobias",
+   "middle": "",
+   "family": "Engel",
+   "suffix": "",
+   "full": "Tobias Engel"
+  },
+  "otherName": null,
+  "company": "KESSLER Logistik GmbH",
+  "department": "Vertrieb Süd",
+  "title": "Leiter",
+  "phones": [
+   {
+    "printed": "+49 821 650 43-17",
+    "e164": "+498216504317",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+49 821 650 43-99",
+    "e164": "+498216504399",
+    "type": "fax",
+    "label": "Fax:",
+    "ext": null
+   },
+   {
+    "printed": "+49 160 9 12 34 56",
+    "e164": "+491609123456",
+    "type": "mobile",
+    "label": "Mobil:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "tobias.engel@kessler-logistik-de.example"
+  ],
+  "urls": [
+   "www.kessler-logistik.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bürgermeister-Wegele-Str. 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "86167",
+    "city": "Augsburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Leiter Vertrieb Süd"
+  ],
+  "company": [
+   "KESSLER Logistik"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "group-line-not-company",
+  "title-dept-one-line",
+  "ext-pair",
+  "glued-label",
+  "region-from-plus-cc",
+  "dropped-space"
+ ],
+ "notes": "Title Leiter, department Vertrieb Süd (the whole line as title is accepted). \"Nordwind Group\" is not the company. Region AT is irrelevant because every number has +49.",
+ "o3": {
+  "source": "blind-2/cards/de-06.json",
+  "images": [
+   {
+    "name": "b2-de-06",
+    "font": "Palatino-Roman",
+    "rotation": 0.33,
+    "noise": 7,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 107
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

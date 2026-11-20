@@ -1,0 +1,40 @@
+appId: ${APP_ID}
+name: Release dev links - the seed and self-test routes do nothing in a Release build (library untouched)
+tags:
+  - release
+---
+# D49: debug routes are not in the bundle and the dev scheme is not registered. The own scheme with a debug path must
+# not clear the library (the dev seed would).
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 90000
+# a wait, not an assert: right after a restart the iOS accessibility tree can come back empty once (L14, P8)
+- extendedWaitUntil:
+    visible: "Anna Weber.*"
+    timeout: 15000
+- openLink: ${SCHEME}://debug/seed?set=empty
+- tapOn:
+    text: Open
+    optional: true
+- waitForAnimationToEnd
+- takeScreenshot: release-dev-link
+# src/app/+not-found.tsx redirects unknown links to Cards (before P9 the generic "Unmatched Route" page appeared)
+- assertNotVisible: ".*(Unmatched|Sitemap).*"
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 20000
+# a wait, not an assert: right after a restart the iOS accessibility tree can come back empty once (L14, P8)
+- extendedWaitUntil:
+    visible: "Anna Weber.*"
+    timeout: 15000
+- openLink: ${SCHEME}://debug/self-test
+- tapOn:
+    text: Open
+    optional: true
+- waitForAnimationToEnd
+- assertNotVisible:
+    id: self-test-screen

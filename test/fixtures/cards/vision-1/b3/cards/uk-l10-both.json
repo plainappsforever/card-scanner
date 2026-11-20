@@ -1,0 +1,297 @@
+{
+ "id": "uk-l10-both",
+ "group": "uk-l10",
+ "side": "both",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PEMBERTON ASHE",
+     "box": {
+      "x": 0.07107462880461397,
+      "y": 0.053055482301486934,
+      "w": 0.3767425537109375,
+      "h": 0.05395065955673872
+     },
+     "height": 0.05395065955673872,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Oliver Whitcombe",
+     "box": {
+      "x": 0.07104738914587898,
+      "y": 0.2000143135505682,
+      "w": 0.2808889579772949,
+      "h": 0.04912094351867913
+     },
+     "height": 0.04912094351867913,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Partner, Commercial Property",
+     "box": {
+      "x": 0.06976744486004563,
+      "y": 0.2825112099873832,
+      "w": 0.28197673797607425,
+      "h": 0.04035874591370803
+     },
+     "height": 0.04035874591370803,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "DD +44 (0)113 245 6710",
+     "box": {
+      "x": 0.07122093033154815,
+      "y": 0.3811659198576085,
+      "w": 0.21656976699829106,
+      "h": 0.033891994520504065
+     },
+     "height": 0.033891994520504065,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "M +44 (0)7723 418 902",
+     "box": {
+      "x": 0.06961549933980211,
+      "y": 0.4343115836631257,
+      "w": 0.21250505447387696,
+      "h": 0.036357933029705025
+     },
+     "height": 0.036357933029705025,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "oliver. whitcombe@pembertonashe-co-uk.example",
+     "box": {
+      "x": 0.06822915468371363,
+      "y": 0.49476381149677007,
+      "w": 0.2981262588500977,
+      "h": 0.032628295044180966
+     },
+     "height": 0.032628295044180966,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "PEMBERTON ASHE LLP",
+     "box": {
+      "x": 0.07099341422453541,
+      "y": 0.04561807277565921,
+      "w": 0.3376737976074219,
+      "h": 0.046531842942403645
+     },
+     "height": 0.046531842942403645,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Park Row House • 19 Park Row • Leeds LS1 5JF",
+     "box": {
+      "x": 0.07090618318334023,
+      "y": 0.13427310499070133,
+      "w": 0.3682609176635742,
+      "h": 0.043661772974669666
+     },
+     "height": 0.043661772974669666,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "T +44 (0)113 245 6700 • pembertonashe.co.uk",
+     "box": {
+      "x": 0.07093585715513175,
+      "y": 0.1879751262730166,
+      "w": 0.3348350143432617,
+      "h": 0.04237564190013987
+     },
+     "height": 0.04237564190013987,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "Partners: H. Pemberton -J. Ashe • O. Whitcombe • R. Bhattacharya",
+     "box": {
+      "x": 0.0704730424229103,
+      "y": 0.29160742793150796,
+      "w": 0.41323337554931644,
+      "h": 0.05039538379801756
+     },
+     "height": 0.05039538379801756,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "Authorised and regulated by the Solicitors Regulation Authority (SRA No. 523411).",
+     "box": {
+      "x": 0.06958062031376006,
+      "y": 0.3470827985886563,
+      "w": 0.414606819152832,
+      "h": 0.03364534267587549
+     },
+     "height": 0.03364534267587549,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b5",
+     "text": "Registered in England and Wales, No. OC312456.",
+     "box": {
+      "x": 0.06810225856627128,
+      "y": 0.38724274809793835,
+      "w": 0.2620596122741699,
+      "h": 0.031893995277669895
+     },
+     "height": 0.031893995277669895,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Oliver",
+   "middle": "",
+   "family": "Whitcombe",
+   "suffix": "",
+   "full": "Oliver Whitcombe"
+  },
+  "otherName": null,
+  "company": "PEMBERTON ASHE LLP",
+  "department": "Commercial Property",
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "+44 (0)113 245 6710",
+    "e164": "+441132456710",
+    "type": "work",
+    "label": "DD",
+    "ext": null
+   },
+   {
+    "printed": "+44 (0)7723 418 902",
+    "e164": "+447723418902",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   },
+   {
+    "printed": "+44 (0)113 245 6700",
+    "e164": "+441132456700",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "oliver.whitcombe@pembertonashe-co-uk.example"
+  ],
+  "urls": [
+   "pembertonashe.co.uk"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "19 Park Row",
+    "extra": "Park Row House",
+    "pobox": "",
+    "postcode": "LS1 5JF",
+    "city": "Leeds",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "PEMBERTON ASHE"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "law-firm",
+  "title-department-line",
+  "partner-list",
+  "registry-number",
+  "foreign-region",
+  "no-address-foreign",
+  "building-name-extra",
+  "ocr-pipe-for-l",
+  "unknown-phone-label",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "Company: the back adds \"LLP\". The partner initials on the back must not replace the front name.",
+ "o3": {
+  "source": "blind-3/cards/uk-l10-both.json",
+  "images": [
+   {
+    "name": "b3-uk-l10-front",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -0.43,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 82
+   },
+   {
+    "name": "b3-uk-l10-back",
+    "font": "Baskerville",
+    "rotation": -0.86,
+    "noise": 11,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 97
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

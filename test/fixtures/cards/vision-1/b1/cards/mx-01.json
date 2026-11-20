@@ -1,0 +1,214 @@
+{
+ "id": "mx-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "novawake",
+     "box": {
+      "x": 0.06831395828963878,
+      "y": 0.0739910317135245,
+      "w": 0.23110464096069339,
+      "h": 0.06053811518842189
+     },
+     "height": 0.06053811518842189,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Building robots that care.",
+     "box": {
+      "x": 0.06831395228488418,
+      "y": 0.20173745130574594,
+      "w": 0.22965116500854493,
+      "h": 0.031853281853281956
+     },
+     "height": 0.031853281853281956,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Aylin Demirtaş",
+     "box": {
+      "x": 0.06787844926156986,
+      "y": 0.36620258378663084,
+      "w": 0.24357717514038088,
+      "h": 0.06477583513296714
+     },
+     "height": 0.06477583513296714,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Co-Founder & CTO",
+     "box": {
+      "x": 0.06976744291343585,
+      "y": 0.46188340836035224,
+      "w": 0.20784883499145512,
+      "h": 0.03811659131731293
+     },
+     "height": 0.03811659131731293,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Novawake Robotics GmbH • Torstraße 140 • 10119 Berlin",
+     "box": {
+      "x": 0.07066996392399233,
+      "y": 0.6206649614161673,
+      "w": 0.5003103637695312,
+      "h": 0.044555190907482056
+     },
+     "height": 0.044555190907482056,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "M +49 151 1234 5678",
+     "box": {
+      "x": 0.0697674455883334,
+      "y": 0.6833976837269606,
+      "w": 0.18168603897094723,
+      "h": 0.027364647986806045
+     },
+     "height": 0.027364647986806045,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "aylin@novawake-io.example • novawake.io",
+     "box": {
+      "x": 0.0695923245055112,
+      "y": 0.7329610426439602,
+      "w": 0.2953767967224121,
+      "h": 0.03642025877610133
+     },
+     "height": 0.03642025877610133,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "linkedin.com/in/aylindemirtas",
+     "box": {
+      "x": 0.06963377225527825,
+      "y": 0.7855505444608631,
+      "w": 0.2807833671569824,
+      "h": 0.035327918741233644
+     },
+     "height": 0.035327918741233644,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Aylin",
+   "middle": "",
+   "family": "Demirtaş",
+   "suffix": "",
+   "full": "Aylin Demirtaş"
+  },
+  "otherName": null,
+  "company": "Novawake Robotics GmbH",
+  "department": null,
+  "title": "Co-Founder & CTO",
+  "phones": [
+   {
+    "printed": "+49 151 1234 5678",
+    "e164": "+4915112345678",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "aylin@novawake-io.example"
+  ],
+  "urls": [
+   "novawake.io"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/aylindemirtas"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Torstraße 140",
+    "extra": "",
+    "pobox": "",
+    "postcode": "10119",
+    "city": "Berlin",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department"
+ ],
+ "accept": {
+  "company": [
+   "novawake"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "lowercase-logo",
+  "english-slogan",
+  "company-in-address-line",
+  "io-tld",
+  "first-name-email",
+  "linkedin"
+ ],
+ "notes": "Lower-case logo equals the domain stem; the legal name is inside the address line. E-mail local part is the given name only.",
+ "o3": {
+  "source": "blind-1/cards/mx-01.json",
+  "images": [
+   {
+    "name": "b1-mx-01",
+    "font": "TrebuchetMS",
+    "rotation": 0.3,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 105
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

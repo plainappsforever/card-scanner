@@ -1,0 +1,445 @@
+{
+ "id": "at-02-front",
+ "group": "at-02",
+ "side": "front",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SPORT HOFER",
+     "box": {
+      "x": 0.07,
+      "y": 0.1113,
+      "w": 0.4199,
+      "h": 0.11
+     },
+     "height": 0.11,
+     "words": [
+      {
+       "text": "SPORT",
+       "box": {
+        "x": 0.07,
+        "y": 0.1113,
+        "w": 0.1993,
+        "h": 0.11
+       }
+      },
+      {
+       "text": "HOFER",
+       "box": {
+        "x": 0.2906,
+        "y": 0.1113,
+        "w": 0.1993,
+        "h": 0.11
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Ski · Bike · Outdoor",
+     "box": {
+      "x": 0.07,
+      "y": 0.2433,
+      "w": 0.3287,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Ski",
+       "box": {
+        "x": 0.07,
+        "y": 0.2433,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1341,
+        "y": 0.2433,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bike",
+       "box": {
+        "x": 0.1619,
+        "y": 0.2433,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2441,
+        "y": 0.2433,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Outdoor",
+       "box": {
+        "x": 0.2719,
+        "y": 0.2433,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Andreas Hofer",
+     "box": {
+      "x": 0.07,
+      "y": 0.3153,
+      "w": 0.2953,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Andreas",
+       "box": {
+        "x": 0.07,
+        "y": 0.3153,
+        "w": 0.1649,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Hofer",
+       "box": {
+        "x": 0.2475,
+        "y": 0.3153,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Inhaber",
+     "box": {
+      "x": 0.07,
+      "y": 0.4023,
+      "w": 0.1268,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Inhaber",
+       "box": {
+        "x": 0.07,
+        "y": 0.4023,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Dorfstraße 22 · 6450 Solden",
+     "box": {
+      "x": 0.07,
+      "y": 0.4743,
+      "w": 0.4555,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Dorfstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.4743,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.2609,
+        "y": 0.4743,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3068,
+        "y": 0.4743,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6450",
+       "box": {
+        "x": 0.3346,
+        "y": 0.4743,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Solden",
+       "box": {
+        "x": 0.4168,
+        "y": 0.4743,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +43 5254 22 14",
+     "box": {
+      "x": 0.07,
+      "y": 0.5463,
+      "w": 0.3106,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5463,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5463,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "5254",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5463,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.2984,
+        "y": 0.5463,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "14",
+       "box": {
+        "x": 0.3444,
+        "y": 0.5463,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0676 432 18 90",
+     "box": {
+      "x": 0.07,
+      "y": 0.6183,
+      "w": 0.3287,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.6183,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0676",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6183,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "432",
+       "box": {
+        "x": 0.2525,
+        "y": 0.6183,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "18",
+       "box": {
+        "x": 0.3165,
+        "y": 0.6183,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "90",
+       "box": {
+        "x": 0.3625,
+        "y": 0.6183,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "info@sport-hofer-at.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6903,
+      "w": 0.3442,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "info@sport-hofer-at.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6903,
+        "w": 0.3442,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Andreas",
+   "middle": "",
+   "family": "Hofer",
+   "suffix": "",
+   "full": "Andreas Hofer"
+  },
+  "otherName": null,
+  "company": "SPORT HOFER",
+  "department": null,
+  "title": "Inhaber",
+  "phones": [
+   {
+    "printed": "+43 5254 22 14",
+    "e164": "+4352542214",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0676 432 18 90",
+    "e164": "+436764321890",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@sport-hofer-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Dorfstraße 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "6450",
+    "city": "Sölden",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].city",
+   "printed": "Sölden",
+   "ocr": "Solden",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "tagline-not-title",
+  "iban-bic",
+  "opening-hours",
+  "region-from-address",
+  "handle-social",
+  "name-is-company",
+  "diacritic-lost"
+ ],
+ "notes": "Front: German phone region; the national mobile 0676… is Austrian because the address is in Sölden (and +43 is on the card). \"Ski · Bike · Outdoor\" is a tagline."
+}

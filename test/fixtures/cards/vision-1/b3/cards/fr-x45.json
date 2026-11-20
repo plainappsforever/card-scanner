@@ -1,0 +1,249 @@
+{
+ "id": "fr-x45",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "FR",
+  "uiLang": "fr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CABINET DUBOIS-MARCHETTI",
+     "box": {
+      "x": 0.07789553301212764,
+      "y": 0.028968119796896508,
+      "w": 0.5477354049682618,
+      "h": 0.06550834537933237
+     },
+     "height": 0.06550834537933237,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "& ASSOCIÉS",
+     "box": {
+      "x": 0.07373344516360242,
+      "y": 0.07869724744515494,
+      "w": 0.15918724060058592,
+      "h": 0.04874093928392331
+     },
+     "height": 0.04874093928392331,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Maître Hélène Dubois-Marchetti",
+     "box": {
+      "x": 0.07500272956424794,
+      "y": 0.18821483872796763,
+      "w": 0.5173451232910157,
+      "h": 0.07143212101174146
+     },
+     "height": 0.07143212101174146,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Avocate au Barreau de Paris",
+     "box": {
+      "x": 0.07229978911939476,
+      "y": 0.2657992540162125,
+      "w": 0.2654181098937988,
+      "h": 0.041885935661875595
+     },
+     "height": 0.041885935661875595,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Associée fondatrice",
+     "box": {
+      "x": 0.07085151410332323,
+      "y": 0.3204908614650447,
+      "w": 0.17387172698974607,
+      "h": 0.03735276446839564
+     },
+     "height": 0.03735276446839564,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "42, avenue Kléber • 75116 Paris",
+     "box": {
+      "x": 0.0696179495890516,
+      "y": 0.40828289362404013,
+      "w": 0.24306623458862303,
+      "h": 0.03479874732411492
+     },
+     "height": 0.03479874732411492,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tél. 01 45 61 27 80 • Fax 0I 45 61 27 81",
+     "box": {
+      "x": 0.06932982056238401,
+      "y": 0.4542721680777668,
+      "w": 0.2842009735107422,
+      "h": 0.042333129750255494
+     },
+     "height": 0.042333129750255494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Port. 06 88 12 44 39",
+     "box": {
+      "x": 0.06771970421412458,
+      "y": 0.4990893200306967,
+      "w": 0.15846637725830076,
+      "h": 0.042322558325690096
+     },
+     "height": 0.042322558325690096,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "h.dubois-marchetti@dubois-marchetti-avocats-fr.example",
+     "box": {
+      "x": 0.06794031437163817,
+      "y": 0.5506333628842085,
+      "w": 0.33935726165771485,
+      "h": 0.03842231205531532
+     },
+     "height": 0.03842231205531532,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "Toque C 1234",
+     "box": {
+      "x": 0.06655216808415662,
+      "y": 0.5975346537069701,
+      "w": 0.08926520347595215,
+      "h": 0.027603775377899487
+     },
+     "height": 0.027603775377899487,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Maître",
+   "given": "Hélène",
+   "middle": "",
+   "family": "Dubois-Marchetti",
+   "suffix": "",
+   "full": "Maître Hélène Dubois-Marchetti"
+  },
+  "otherName": null,
+  "company": "CABINET DUBOIS-MARCHETTI & ASSOCIÉS",
+  "department": null,
+  "title": "Associée fondatrice",
+  "phones": [
+   {
+    "printed": "01 45 61 27 80",
+    "e164": "+33145612780",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "01 45 61 27 81",
+    "e164": "+33145612781",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "06 88 12 44 39",
+    "e164": "+33688124439",
+    "type": "mobile",
+    "label": "Port.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "h.dubois-marchetti@dubois-marchetti-avocats-fr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "42, avenue Kléber",
+    "extra": "",
+    "pobox": "",
+    "postcode": "75116",
+    "city": "Paris",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Avocate au Barreau de Paris"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "law-firm",
+  "member-of",
+  "prefix-title",
+  "diacritic-lost",
+  "family-name-in-company",
+  "company-split-lines",
+  "hyphenated-family"
+ ],
+ "notes": "\"Maître\" is a prefix. Company over two lines, second starts with \"&\". \"Avocate au Barreau de Paris\" is the bar membership (also accepted as title). \"Toque C 1234\" is a court locker number, a leftover.",
+ "o3": {
+  "source": "blind-3/cards/fr-x45.json",
+  "images": [
+   {
+    "name": "b3-fr-x45",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.64,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 87
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

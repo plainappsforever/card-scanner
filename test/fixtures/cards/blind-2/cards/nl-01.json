@@ -1,0 +1,503 @@
+{
+ "id": "nl-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "nl"
+ ],
+ "card_country": "NL",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "nl-NL"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Havenbouw Rijnmond B.V.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1107,
+      "w": 0.5598,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Havenbouw",
+       "box": {
+        "x": 0.07,
+        "y": 0.1107,
+        "w": 0.2283,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Rijnmond",
+       "box": {
+        "x": 0.3119,
+        "y": 0.1107,
+        "w": 0.2029,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "B.V.",
+       "box": {
+        "x": 0.5284,
+        "y": 0.1107,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "ir. Pieter van der Berg",
+     "box": {
+      "x": 0.07,
+      "y": 0.2027,
+      "w": 0.4597,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "ir.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2027,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Pieter",
+       "box": {
+        "x": 0.1469,
+        "y": 0.2027,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "van",
+       "box": {
+        "x": 0.289,
+        "y": 0.2027,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "der",
+       "box": {
+        "x": 0.3658,
+        "y": 0.2027,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Berg",
+       "box": {
+        "x": 0.4427,
+        "y": 0.2027,
+        "w": 0.087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Projectmanager",
+     "box": {
+      "x": 0.07,
+      "y": 0.2847,
+      "w": 0.2536,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Projectmanager",
+       "box": {
+        "x": 0.07,
+        "y": 0.2847,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Wilhelminakade 91",
+     "box": {
+      "x": 0.07,
+      "y": 0.3567,
+      "w": 0.2996,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Wilhelminakade",
+       "box": {
+        "x": 0.07,
+        "y": 0.3567,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "91",
+       "box": {
+        "x": 0.3334,
+        "y": 0.3567,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "3072 AP Rotterdam",
+     "box": {
+      "x": 0.07,
+      "y": 0.4287,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "3072",
+       "box": {
+        "x": 0.07,
+        "y": 0.4287,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "AP",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4287,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Rotterdam",
+       "box": {
+        "x": 0.1981,
+        "y": 0.4287,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "T +31 (0)10 123 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.5007,
+      "w": 0.3384,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.5007,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+31",
+       "box": {
+        "x": 0.0978,
+        "y": 0.5007,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(0)10",
+       "box": {
+        "x": 0.1619,
+        "y": 0.5007,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.2622,
+        "y": 0.5007,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3262,
+        "y": 0.5007,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3722,
+        "y": 0.5007,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "M O6 123 456 78",
+     "box": {
+      "x": 0.07,
+      "y": 0.5727,
+      "w": 0.2381,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.5727,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "O6",
+       "box": {
+        "x": 0.0978,
+        "y": 0.5727,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.1438,
+        "y": 0.5727,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.2078,
+        "y": 0.5727,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.2719,
+        "y": 0.5727,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "p.vanderberg@havenbouw-rijnmond-nl.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6447,
+      "w": 0.616,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "p.vanderberg@havenbouw-rijnmond-nl.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6447,
+        "w": 0.616,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "KvK 24123456 · BTW NL123456789B01",
+     "box": {
+      "x": 0.07,
+      "y": 0.7167,
+      "w": 0.2821,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "KvK",
+       "box": {
+        "x": 0.07,
+        "y": 0.7167,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "24123456",
+       "box": {
+        "x": 0.102,
+        "y": 0.7167,
+        "w": 0.0725,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1794,
+        "y": 0.7167,
+        "w": 0.0091,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "BTW",
+       "box": {
+        "x": 0.1933,
+        "y": 0.7167,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "NL123456789B01",
+       "box": {
+        "x": 0.2253,
+        "y": 0.7167,
+        "w": 0.1268,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "ir.",
+   "given": "Pieter",
+   "middle": "",
+   "family": "van der Berg",
+   "suffix": "",
+   "full": "ir. Pieter van der Berg"
+  },
+  "otherName": null,
+  "company": "Havenbouw Rijnmond B.V.",
+  "department": null,
+  "title": "Projectmanager",
+  "phones": [
+   {
+    "printed": "+31 (0)10 123 45 67",
+    "e164": "+31101234567",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "06 123 456 78",
+    "e164": "+31612345678",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "p.vanderberg@havenbouw-rijnmond-nl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Wilhelminakade 91",
+    "extra": "",
+    "pobox": "",
+    "postcode": "3072 AP",
+    "city": "Rotterdam",
+    "region": "",
+    "country": "",
+    "countryCode": "NL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[1].printed",
+   "printed": "06 123 456 78",
+   "ocr": "O6 123 456 78",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "family-particle",
+  "trunk-in-brackets",
+  "registry-id",
+  "vat-id",
+  "region-from-address",
+  "ocr-0O"
+ ],
+ "notes": "Family name van der Berg (particles belong to it). 06 123 456 78 is a Dutch mobile (address NL, +31 on the card) — not a German 06… number. KvK 24123456 is not a phone."
+}

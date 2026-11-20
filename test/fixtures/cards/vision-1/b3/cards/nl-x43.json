@@ -1,0 +1,242 @@
+{
+ "id": "nl-x43",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "nl"
+ ],
+ "card_country": "NL",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "nl-NL",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Installatiebedrijf",
+     "box": {
+      "x": 0.07512727806841113,
+      "y": 0.040675024561034445,
+      "w": 0.18102373123168947,
+      "h": 0.04300699639044214
+     },
+     "height": 0.04300699639044214,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Van der Berg B.V.",
+     "box": {
+      "x": 0.07390889698932966,
+      "y": 0.07579871195533294,
+      "w": 0.3150601768493652,
+      "h": 0.07919822972713753
+     },
+     "height": 0.07919822972713753,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Loodgieter • CV • Sanitair",
+     "box": {
+      "x": 0.07412790826148942,
+      "y": 0.17264573983480958,
+      "w": 0.20348836898803713,
+      "h": 0.029147982137083583
+     },
+     "height": 0.029147982137083583,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "ing. Pieter van der Berg",
+     "box": {
+      "x": 0.07069912085284798,
+      "y": 0.2572183671496018,
+      "w": 0.31357793807983403,
+      "h": 0.05711832746115442
+     },
+     "height": 0.05711832746115442,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Directeur",
+     "box": {
+      "x": 0.07238702397502866,
+      "y": 0.33340252407654236,
+      "w": 0.08191220283508299,
+      "h": 0.025922918872023137
+     },
+     "height": 0.025922918872023137,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "T 020 - 612 34 56 • M 06 - 41 28 73 90 ę",
+     "box": {
+      "x": 0.07030404967464655,
+      "y": 0.40757434161425077,
+      "w": 0.309317569732666,
+      "h": 0.04874251523993656
+     },
+     "height": 0.04874251523993656,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "pieter@vanderberg-installatie-nl.example",
+     "box": {
+      "x": 0.06806676448093672,
+      "y": 0.4634757456175711,
+      "w": 0.23156309127807617,
+      "h": 0.03535116777456859
+     },
+     "height": 0.03535116777456859,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Hoofdweg 212, 1057 DE Amsterdam",
+     "box": {
+      "x": 0.06798839651710431,
+      "y": 0.5119290308693061,
+      "w": 0.25935232162475585,
+      "h": 0.03811056917698685
+     },
+     "height": 0.03811056917698685,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "KvK 34123456 • BTW NL001234567B01",
+     "box": {
+      "x": 0.06798537055257974,
+      "y": 0.5602192284007581,
+      "w": 0.24624895095825194,
+      "h": 0.03288031176710682
+     },
+     "height": 0.03288031176710682,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "IBAN NL91 ABNA 0417 1643 00",
+     "box": {
+      "x": 0.06649960108500473,
+      "y": 0.6028917638074287,
+      "w": 0.19691911697387693,
+      "h": 0.030949393754760246
+     },
+     "height": 0.030949393754760246,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "ing.",
+   "given": "Pieter",
+   "middle": "",
+   "family": "van der Berg",
+   "suffix": "",
+   "full": "ing. Pieter van der Berg"
+  },
+  "otherName": null,
+  "company": "Installatiebedrijf Van der Berg B.V.",
+  "department": null,
+  "title": "Directeur",
+  "phones": [
+   {
+    "printed": "020 - 612 34 56",
+    "e164": "+31206123456",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "06 - 41 28 73 90",
+    "e164": "+31641287390",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "pieter@vanderberg-installatie-nl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hoofdweg 212",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1057 DE",
+    "city": "Amsterdam",
+    "region": "",
+    "country": "",
+    "countryCode": "NL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "name-particle",
+  "lowercase-prefix",
+  "postcode-with-letters",
+  "registry-number",
+  "vat-id",
+  "iban",
+  "foreign-region",
+  "ocr-dropped-space",
+  "single-letter-labels",
+  "family-name-in-company"
+ ],
+ "notes": "Family name \"van der Berg\" with particles; \"ing.\" is a lower-case title prefix. Dutch postcode \"1057 DE\" contains \"DE\" (not a country). KvK (8 digits), BTW and IBAN are not phones. OCR dropped the space before the house number.",
+ "o3": {
+  "source": "blind-3/cards/nl-x43.json",
+  "images": [
+   {
+    "name": "b3-nl-x43",
+    "font": "Georgia",
+    "rotation": -1.23,
+    "noise": 0,
+    "blur": 0,
+    "langs": [
+     "nl-NL",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

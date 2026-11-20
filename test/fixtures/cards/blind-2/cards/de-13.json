@@ -1,0 +1,260 @@
+{
+ "id": "de-13",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Jonas Albrecht",
+     "box": {
+      "x": 0.07,
+      "y": 0.168,
+      "w": 0.3924,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Jonas",
+       "box": {
+        "x": 0.07,
+        "y": 0.168,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Albrecht",
+       "box": {
+        "x": 0.2305,
+        "y": 0.168,
+        "w": 0.2319,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Service Designer",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Service",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Designer",
+       "box": {
+        "x": 0.2065,
+        "y": 0.27,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "jonas@aibrecht-design.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.342,
+      "w": 0.3805,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "jonas@aibrecht-design.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.342,
+        "w": 0.3805,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "albrecht.design",
+     "box": {
+      "x": 0.07,
+      "y": 0.414,
+      "w": 0.2718,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "albrecht.design",
+       "box": {
+        "x": 0.07,
+        "y": 0.414,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "linkedin.com/in/jonasalbrecht",
+     "box": {
+      "x": 0.07,
+      "y": 0.486,
+      "w": 0.5254,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "linkedin.com/in/jonasalbrecht",
+       "box": {
+        "x": 0.07,
+        "y": 0.486,
+        "w": 0.5254,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Berlin · Lissabon",
+     "box": {
+      "x": 0.07,
+      "y": 0.558,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Berlin",
+       "box": {
+        "x": 0.07,
+        "y": 0.558,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1884,
+        "y": 0.558,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Lissabon",
+       "box": {
+        "x": 0.2162,
+        "y": 0.558,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jonas",
+   "middle": "",
+   "family": "Albrecht",
+   "suffix": "",
+   "full": "Jonas Albrecht"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Service Designer",
+  "phones": [],
+  "emails": [
+   "jonas@albrecht-design.example"
+  ],
+  "urls": [
+   "albrecht.design"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/jonasalbrecht"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "phones",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "jonas@albrecht-design.example",
+   "ocr": "jonas@aibrecht-design.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "cities-not-address",
+  "new-gtld",
+  "absent-company",
+  "absent-phones",
+  "absent-addresses",
+  "ocr-1l"
+ ],
+ "notes": "Phones, company and address are absent. \"Berlin · Lissabon\" are where he works, not an address. The e-mail domain must be repaired to albrecht.design (same as the printed website)."
+}

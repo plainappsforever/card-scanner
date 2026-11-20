@@ -1,0 +1,815 @@
+{
+ "id": "cn-01-both",
+ "group": "cn-01",
+ "side": "both",
+ "card_langs": [
+  "zh",
+  "en"
+ ],
+ "card_country": "CN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "zh-Hans",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "深圳市华光电子有限公司",
+     "box": {
+      "x": 0.07,
+      "y": 0.0696,
+      "w": 0.4982,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "深圳市华光电子有限公司",
+       "box": {
+        "x": 0.07,
+        "y": 0.0696,
+        "w": 0.4982,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "王建国",
+     "box": {
+      "x": 0.07,
+      "y": 0.1616,
+      "w": 0.1941,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "王建国",
+       "box": {
+        "x": 0.07,
+        "y": 0.1616,
+        "w": 0.1941,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "销售总监",
+     "box": {
+      "x": 0.07,
+      "y": 0.2836,
+      "w": 0.1294,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "销售总监",
+       "box": {
+        "x": 0.07,
+        "y": 0.2836,
+        "w": 0.1294,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "地址：深圳市南山区科技园科苑路15号",
+     "box": {
+      "x": 0.07,
+      "y": 0.3556,
+      "w": 0.5539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "地址：深圳市南山区科技园科苑路15号",
+       "box": {
+        "x": 0.07,
+        "y": 0.3556,
+        "w": 0.5539,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "邮编：518057",
+     "box": {
+      "x": 0.07,
+      "y": 0.4276,
+      "w": 0.2058,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "邮编：518057",
+       "box": {
+        "x": 0.07,
+        "y": 0.4276,
+        "w": 0.2058,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "电话：0755-8612 3456",
+     "box": {
+      "x": 0.07,
+      "y": 0.4996,
+      "w": 0.3423,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "电话：0755-8612",
+       "box": {
+        "x": 0.07,
+        "y": 0.4996,
+        "w": 0.2601,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3456",
+       "box": {
+        "x": 0.3398,
+        "y": 0.4996,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "传真：0755-8612 3457",
+     "box": {
+      "x": 0.07,
+      "y": 0.5716,
+      "w": 0.3423,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "传真：0755-8612",
+       "box": {
+        "x": 0.07,
+        "y": 0.5716,
+        "w": 0.2601,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3457",
+       "box": {
+        "x": 0.3398,
+        "y": 0.5716,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "手机：139 2345 6789",
+     "box": {
+      "x": 0.07,
+      "y": 0.6436,
+      "w": 0.3158,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "手机：139",
+       "box": {
+        "x": 0.07,
+        "y": 0.6436,
+        "w": 0.1514,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2345",
+       "box": {
+        "x": 0.2311,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.3133,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "邮箱：wangjg@huaguang-elec-cn.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7156,
+      "w": 0.5138,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "邮箱：wangjg@huaguang-elec-cn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7156,
+        "w": 0.5138,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "微信：wjg_huaguang",
+     "box": {
+      "x": 0.07,
+      "y": 0.7876,
+      "w": 0.3145,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "微信：wjg_huaguang",
+       "box": {
+        "x": 0.07,
+        "y": 0.7876,
+        "w": 0.3145,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "back": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Shenzhen Huaguang Electronics Co., Ltd.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1002,
+      "w": 0.8075,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Shenzhen",
+       "box": {
+        "x": 0.07,
+        "y": 0.1002,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Huaguang",
+       "box": {
+        "x": 0.2556,
+        "y": 0.1002,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Electronics",
+       "box": {
+        "x": 0.4412,
+        "y": 0.1002,
+        "w": 0.2392,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Co.,",
+       "box": {
+        "x": 0.692,
+        "y": 0.1002,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.7906,
+        "y": 0.1002,
+        "w": 0.087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b1",
+     "text": "Jianguo Wang",
+     "box": {
+      "x": 0.07,
+      "y": 0.1822,
+      "w": 0.3344,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Jianguo",
+       "box": {
+        "x": 0.07,
+        "y": 0.1822,
+        "w": 0.2029,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Wang",
+       "box": {
+        "x": 0.2884,
+        "y": 0.1822,
+        "w": 0.116,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b2",
+     "text": "Sales Director",
+     "box": {
+      "x": 0.07,
+      "y": 0.2842,
+      "w": 0.2452,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.07,
+        "y": 0.2842,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Director",
+       "box": {
+        "x": 0.1703,
+        "y": 0.2842,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b3",
+     "text": "No. 15 Keyuan Road, Science Park, Nanshan District",
+     "box": {
+      "x": 0.07,
+      "y": 0.3562,
+      "w": 0.847,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.07,
+        "y": 0.3562,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.1341,
+        "y": 0.3562,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Keyuan",
+       "box": {
+        "x": 0.18,
+        "y": 0.3562,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Road,",
+       "box": {
+        "x": 0.2984,
+        "y": 0.3562,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Science",
+       "box": {
+        "x": 0.3987,
+        "y": 0.3562,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Park,",
+       "box": {
+        "x": 0.5352,
+        "y": 0.3562,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Nanshan",
+       "box": {
+        "x": 0.6355,
+        "y": 0.3562,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "District",
+       "box": {
+        "x": 0.7721,
+        "y": 0.3562,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b4",
+     "text": "Shenzhen 518057, China",
+     "box": {
+      "x": 0.07,
+      "y": 0.4282,
+      "w": 0.3818,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Shenzhen",
+       "box": {
+        "x": 0.07,
+        "y": 0.4282,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "518057,",
+       "box": {
+        "x": 0.2246,
+        "y": 0.4282,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "China",
+       "box": {
+        "x": 0.3612,
+        "y": 0.4282,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b5",
+     "text": "Tel: +86 755 86l2 3456",
+     "box": {
+      "x": 0.07,
+      "y": 0.5002,
+      "w": 0.3649,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5002,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+86",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5002,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "755",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5002,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "86l2",
+       "box": {
+        "x": 0.2803,
+        "y": 0.5002,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3456",
+       "box": {
+        "x": 0.3625,
+        "y": 0.5002,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b6",
+     "text": "Mobile: +86 139 2345 6789",
+     "box": {
+      "x": 0.07,
+      "y": 0.5722,
+      "w": 0.4193,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5722,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+86",
+       "box": {
+        "x": 0.2065,
+        "y": 0.5722,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "139",
+       "box": {
+        "x": 0.2706,
+        "y": 0.5722,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2345",
+       "box": {
+        "x": 0.3346,
+        "y": 0.5722,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.4168,
+        "y": 0.5722,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b7",
+     "text": "wangjg@huaguang-elec-cn.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6442,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "wangjg@huaguang-elec-cn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6442,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b8",
+     "text": "www.huaguang-elec.cn",
+     "box": {
+      "x": 0.07,
+      "y": 0.7162,
+      "w": 0.3624,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.huaguang-elec.cn",
+       "box": {
+        "x": 0.07,
+        "y": 0.7162,
+        "w": 0.3624,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jianguo",
+   "middle": "",
+   "family": "Wang",
+   "suffix": "",
+   "full": "Jianguo Wang"
+  },
+  "otherName": "王建国",
+  "company": "Shenzhen Huaguang Electronics Co., Ltd.",
+  "department": null,
+  "title": "Sales Director",
+  "phones": [
+   {
+    "printed": "0755-8612 3456",
+    "e164": "+8675586123456",
+    "type": "work",
+    "label": "电话",
+    "ext": null
+   },
+   {
+    "printed": "0755-8612 3457",
+    "e164": "+8675586123457",
+    "type": "fax",
+    "label": "传真",
+    "ext": null
+   },
+   {
+    "printed": "139 2345 6789",
+    "e164": "+8613923456789",
+    "type": "mobile",
+    "label": "手机",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "wangjg@huaguang-elec-cn.example"
+  ],
+  "urls": [
+   "www.huaguang-elec.cn"
+  ],
+  "socials": [
+   {
+    "service": "wechat",
+    "value": "wjg_huaguang"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "No. 15 Keyuan Road",
+    "extra": "Science Park, Nanshan District",
+    "pobox": "",
+    "postcode": "518057",
+    "city": "Shenzhen",
+    "region": "",
+    "country": "China",
+    "countryCode": "CN"
+   }
+  ]
+ },
+ "absent": [
+  "department"
+ ],
+ "accept": {
+  "company": [
+   "深圳市华光电子有限公司"
+  ],
+  "title": [
+   "销售总监"
+  ],
+  "addresses[0].street": [
+   "科苑路15号"
+  ],
+  "addresses[0].city": [
+   "深圳市"
+  ],
+  "addresses[0].extra": [
+   "南山区科技园"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "+86 755 8612 3456",
+   "ocr": "+86 755 86l2 3456",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "ext-pair",
+  "handle-social",
+  "region-from-address",
+  "ocr-1l"
+ ],
+ "notes": "Both sides, UI German → Latin values primary, Chinese name = otherName; Chinese variants accepted. Fax only on the front."
+}

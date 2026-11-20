@@ -1,0 +1,26 @@
+appId: ${APP_ID}
+name: Self-test - card-kit OCR and barcodes on O3 images
+tags:
+  - p6
+---
+- runFlow: subflows/launch.yaml
+- openLink: cardkeep-dev://debug/self-test
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- tapOn:
+    id: selftest-ocr
+- extendedWaitUntil:
+    visible:
+      id: ocr-done
+    timeout: 180000
+- takeScreenshot: selftest-ocr
+# Latin OCR + extraction and the QR code must pass on both platforms. Japanese and the US card are reported, not
+# asserted: Android's Japanese model is a Play-services download the emulator never gets, and ML Kit misreads the US
+# card's mobile number (V1_LOG P6/P7 findings).
+- assertVisible: "b1-de-01: PASS.*"
+- assertVisible: "b1-de-11: PASS.*"

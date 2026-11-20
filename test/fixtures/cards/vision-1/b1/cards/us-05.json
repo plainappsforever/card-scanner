@@ -1,0 +1,212 @@
+{
+ "id": "us-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "es"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Villaseñor Plumbing & Drain LLC",
+     "box": {
+      "x": 0.053779074683595024,
+      "y": 0.03363228849852529,
+      "w": 0.6438953399658203,
+      "h": 0.10089685741998977
+     },
+     "height": 0.10089685741998977,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Serving Greater Phoenix since 1998",
+     "box": {
+      "x": 0.05833333948028809,
+      "y": 0.16666666692645604,
+      "w": 0.3458333206176758,
+      "h": 0.038931789545479045
+     },
+     "height": 0.038931789545479045,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Ernesto Villaseñor",
+     "box": {
+      "x": 0.06104651126701885,
+      "y": 0.3251121077158683,
+      "w": 0.30087209701538087,
+      "h": 0.049405267339875714
+     },
+     "height": 0.049405267339875714,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Owner • Master Plumber",
+     "box": {
+      "x": 0.059593019406277176,
+      "y": 0.41891891929419556,
+      "w": 0.25581396102905274,
+      "h": 0.027269421397028815
+     },
+     "height": 0.027269421397028815,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "1-800-GO-PLUMB",
+     "box": {
+      "x": 0.05959302030372326,
+      "y": 0.5695067264050663,
+      "w": 0.1845930290222168,
+      "h": 0.029147982137083472
+     },
+     "height": 0.029147982137083472,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "(480) 555-0161",
+     "box": {
+      "x": 0.058139533696478264,
+      "y": 0.6274131280902983,
+      "w": 0.16715116500854493,
+      "h": 0.03402184887742443
+     },
+     "height": 0.03402184887742443,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "evillasenor@vpd-plumbing-com.example",
+     "box": {
+      "x": 0.0595930187310347,
+      "y": 0.686098655289385,
+      "w": 0.29360466003417973,
+      "h": 0.03363228580666322
+     },
+     "height": 0.03363228580666322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "ROC #312845 • Licensed • Bonded • Insured",
+     "box": {
+      "x": 0.06104650698813113,
+      "y": 0.7399103139950555,
+      "w": 0.4636627960205078,
+      "h": 0.03811659131731304
+     },
+     "height": 0.03811659131731304,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ernesto",
+   "middle": "",
+   "family": "Villaseñor",
+   "suffix": "",
+   "full": "Ernesto Villaseñor"
+  },
+  "otherName": null,
+  "company": "Villaseñor Plumbing & Drain LLC",
+  "department": null,
+  "title": "Owner",
+  "phones": [
+   {
+    "printed": "1-800-GO-PLUMB",
+    "e164": "+18004675862",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "composed": true,
+    "type_accept": [
+     "other"
+    ]
+   },
+   {
+    "printed": "(480) 555-0161",
+    "e164": "+14805550161",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "evillasenor@vpd-plumbing-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Master Plumber",
+   "Owner · Master Plumber"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "vanity-number",
+  "license-number",
+  "year-slogan",
+  "absent-address",
+  "name-is-company",
+  "ocr-0O",
+  "absent-url"
+ ],
+ "notes": "Vanity number 1-800-GO-PLUMB = +18004675862 (letters on the keypad); a letter-to-digit repair must not be confused with O->0 repair. No address.",
+ "o3": {
+  "source": "blind-1/cards/us-05.json",
+  "images": [
+   {
+    "name": "b1-us-05",
+    "font": "Verdana",
+    "rotation": -0.02,
+    "noise": 6,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 85
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

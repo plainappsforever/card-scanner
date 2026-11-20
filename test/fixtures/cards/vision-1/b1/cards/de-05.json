@@ -1,0 +1,244 @@
+{
+ "id": "de-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Wöhrle Seidenfaden",
+     "box": {
+      "x": 0.06803744809370706,
+      "y": 0.07219478178331618,
+      "w": 0.32753269195556645,
+      "h": 0.052963779699848446
+     },
+     "height": 0.052963779699848446,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Rechtsanwälte und Notare",
+     "box": {
+      "x": 0.06831394963770741,
+      "y": 0.16367712984944527,
+      "w": 0.25581396102905274,
+      "h": 0.03139013489240838
+     },
+     "height": 0.03139013489240838,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "RA Dr. Konstantin Wöhrle",
+     "box": {
+      "x": 0.06956098310626427,
+      "y": 0.3108157548518493,
+      "w": 0.41177898406982427,
+      "h": 0.060465052321150514
+     },
+     "height": 0.060465052321150514,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Rechtsanwalt und Notar",
+     "box": {
+      "x": 0.06959019855170652,
+      "y": 0.40228062721815616,
+      "w": 0.2619609260559082,
+      "h": 0.03755418490258877
+     },
+     "height": 0.03755418490258877,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Fachanwalt für Arbeitsrecht",
+     "box": {
+      "x": 0.0695470271121433,
+      "y": 0.45891322387060074,
+      "w": 0.3085454750061035,
+      "h": 0.041749111013522966
+     },
+     "height": 0.041749111013522966,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Niederwall 22 • 33602 Bielefeld",
+     "box": {
+      "x": 0.0711139441669208,
+      "y": 0.6475923951786726,
+      "w": 0.30979990005493163,
+      "h": 0.034899111420031215
+     },
+     "height": 0.034899111420031215,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Postfach 10 05 23 • 33505 Bielefeld",
+     "box": {
+      "x": 0.06666668308024082,
+      "y": 0.698717948520421,
+      "w": 0.3291666412353516,
+      "h": 0.038733789819548115
+     },
+     "height": 0.038733789819548115,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Telefon (0521) 9 64 33-0 • Telefax (0521) 9 64 33-33",
+     "box": {
+      "x": 0.07105916652513698,
+      "y": 0.7532146347176286,
+      "w": 0.5119909286499024,
+      "h": 0.044834551203665085
+     },
+     "height": 0.044834551203665085,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "woehrle@wsf-recht-de.example",
+     "box": {
+      "x": 0.07249296096021524,
+      "y": 0.8135507389798259,
+      "w": 0.21107738494873046,
+      "h": 0.03679609851027088
+     },
+     "height": 0.03679609851027088,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Konstantin",
+   "middle": "",
+   "family": "Wöhrle",
+   "suffix": "",
+   "full": "Dr. Konstantin Wöhrle"
+  },
+  "otherName": null,
+  "company": "Wöhrle Seidenfaden",
+  "department": null,
+  "title": "Rechtsanwalt und Notar",
+  "phones": [
+   {
+    "printed": "(0521) 9 64 33-0",
+    "e164": "+49521964330",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   },
+   {
+    "printed": "(0521) 9 64 33-33",
+    "e164": "+495219643333",
+    "type": "fax",
+    "label": "Telefax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "woehrle@wsf-recht-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Niederwall 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "33602",
+    "city": "Bielefeld",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   },
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postfach 10 05 23",
+    "postcode": "33505",
+    "city": "Bielefeld",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.prefix": [
+   "RA Dr."
+  ],
+  "company": [
+   "Wöhrle Seidenfaden Rechtsanwälte und Notare"
+  ],
+  "title": [
+   "Fachanwalt für Arbeitsrecht"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "ra-prefix",
+  "postfach-digits-look-like-phone",
+  "two-addresses",
+  "name-is-company",
+  "two-title-lines",
+  "parens-area-code"
+ ],
+ "notes": "\"RA\" = Rechtsanwalt, printed before Dr.; \"Postfach 10 05 23\" has 6 digits and must not be a phone. Two addresses (street + PO box).",
+ "o3": {
+  "source": "blind-1/cards/de-05.json",
+  "images": [
+   {
+    "name": "b1-de-05",
+    "font": "TrebuchetMS",
+    "rotation": 0.59,
+    "noise": 11,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 97
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

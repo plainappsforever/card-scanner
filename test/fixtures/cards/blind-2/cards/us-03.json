@@ -1,0 +1,470 @@
+{
+ "id": "us-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "O'KEARN",
+     "box": {
+      "x": 0.07,
+      "y": 0.1017,
+      "w": 0.2536,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "O'KEARN",
+       "box": {
+        "x": 0.07,
+        "y": 0.1017,
+        "w": 0.2536,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "PLUMBING & HEATING",
+     "box": {
+      "x": 0.07,
+      "y": 0.2237,
+      "w": 0.3093,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "PLUMBING",
+       "box": {
+        "x": 0.07,
+        "y": 0.2237,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2246,
+        "y": 0.2237,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "HEATING",
+       "box": {
+        "x": 0.2525,
+        "y": 0.2237,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Family owned since 1979",
+     "box": {
+      "x": 0.07,
+      "y": 0.2957,
+      "w": 0.3915,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Family",
+       "box": {
+        "x": 0.07,
+        "y": 0.2957,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "owned",
+       "box": {
+        "x": 0.1884,
+        "y": 0.2957,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "since",
+       "box": {
+        "x": 0.2887,
+        "y": 0.2957,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1979",
+       "box": {
+        "x": 0.389,
+        "y": 0.2957,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Mike 0'Kearn, Owner",
+     "box": {
+      "x": 0.07,
+      "y": 0.3677,
+      "w": 0.3929,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Mike",
+       "box": {
+        "x": 0.07,
+        "y": 0.3677,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "0'Kearn,",
+       "box": {
+        "x": 0.1686,
+        "y": 0.3677,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Owner",
+       "box": {
+        "x": 0.3542,
+        "y": 0.3677,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "1-800-GO-PLUMB",
+     "box": {
+      "x": 0.07,
+      "y": 0.4497,
+      "w": 0.2536,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "1-800-GO-PLUMB",
+       "box": {
+        "x": 0.07,
+        "y": 0.4497,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Cell (720) 555-0112",
+     "box": {
+      "x": 0.07,
+      "y": 0.5217,
+      "w": 0.3274,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Cell",
+       "box": {
+        "x": 0.07,
+        "y": 0.5217,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(720)",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5217,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "555-0112",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5217,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "mike@okearnplumbing-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.5937,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "mike@okearnplumbing-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5937,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Serving the Denver Metro Area",
+     "box": {
+      "x": 0.07,
+      "y": 0.6657,
+      "w": 0.4918,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Serving",
+       "box": {
+        "x": 0.07,
+        "y": 0.6657,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.2065,
+        "y": 0.6657,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Denver",
+       "box": {
+        "x": 0.2706,
+        "y": 0.6657,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Metro",
+       "box": {
+        "x": 0.389,
+        "y": 0.6657,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Area",
+       "box": {
+        "x": 0.4893,
+        "y": 0.6657,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "CO Master Plumber Lic. #MP-204718",
+     "box": {
+      "x": 0.07,
+      "y": 0.7377,
+      "w": 0.2821,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "CO",
+       "box": {
+        "x": 0.07,
+        "y": 0.7377,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Master",
+       "box": {
+        "x": 0.093,
+        "y": 0.7377,
+        "w": 0.0544,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Plumber",
+       "box": {
+        "x": 0.1522,
+        "y": 0.7377,
+        "w": 0.0634,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Lic.",
+       "box": {
+        "x": 0.2204,
+        "y": 0.7377,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "#MP-204718",
+       "box": {
+        "x": 0.2615,
+        "y": 0.7377,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mike",
+   "middle": "",
+   "family": "O'Kearn",
+   "suffix": "",
+   "full": "Mike O'Kearn"
+  },
+  "otherName": null,
+  "company": "O'KEARN PLUMBING & HEATING",
+  "department": null,
+  "title": "Owner",
+  "phones": [
+   {
+    "printed": "1-800-GO-PLUMB",
+    "e164": "+18004675862",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "composed": true,
+    "type_accept": [
+     "other"
+    ]
+   },
+   {
+    "printed": "(720) 555-0112",
+    "e164": "+17205550112",
+    "type": "mobile",
+    "label": "Cell",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mike@okearnplumbing-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Mike O'Kearn",
+   "ocr": "Mike 0'Kearn",
+   "kinds": [
+    "0/O"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "O'Kearn",
+   "ocr": "0'Kearn",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "vanity-number",
+  "toll-free",
+  "tagline-not-title",
+  "licence-number",
+  "name-is-company",
+  "cities-not-address",
+  "year-in-tagline",
+  "absent-addresses",
+  "ocr-0O"
+ ],
+ "notes": "1-800-GO-PLUMB = +1 800 467 5862. Name and title share one line (\"Mike O'Kearn, Owner\"). The \"0\" in the name must not be taken as a digit. Address absent. Licence #MP-204718 is not a phone."
+}

@@ -1,0 +1,24 @@
+appId: ${APP_ID}
+name: Two-sided card - front and back
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: twosided
+- assertVisible: "To check \\(1\\)"
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- assertVisible:
+    id: side-toggle
+- scrollUntilVisible:
+    element: "t.yamada@sakuratech-co-jp.example"
+- scrollUntilVisible:
+    element:
+      id: side-toggle
+    direction: UP
+- tapOn:
+    id: side-toggle
+- assertVisible: ".*Show front.*"

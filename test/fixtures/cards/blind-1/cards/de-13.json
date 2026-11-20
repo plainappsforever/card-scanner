@@ -1,0 +1,490 @@
+{
+ "id": "de-13",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "tr"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ACME",
+     "box": {
+      "x": 0.06,
+      "y": 0.05,
+      "w": 0.175,
+      "h": 0.13
+     },
+     "height": 0.13,
+     "words": [
+      {
+       "text": "ACME",
+       "box": {
+        "x": 0.06,
+        "y": 0.05,
+        "w": 0.175,
+        "h": 0.13
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Werkzeugmaschinen Vertriebs GmbH",
+     "box": {
+      "x": 0.06,
+      "y": 0.21,
+      "w": 0.3983,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Werkzeugmaschinen",
+       "box": {
+        "x": 0.06,
+        "y": 0.21,
+        "w": 0.2174,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Vertriebs",
+       "box": {
+        "x": 0.2847,
+        "y": 0.21,
+        "w": 0.1151,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.4072,
+        "y": 0.21,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Kemal Yıldırım",
+     "box": {
+      "x": 0.06,
+      "y": 0.38,
+      "w": 0.2969,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Kemal",
+       "box": {
+        "x": 0.06,
+        "y": 0.38,
+        "w": 0.1094,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Yıldırım",
+       "box": {
+        "x": 0.182,
+        "y": 0.38,
+        "w": 0.175,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Technischer Vertrieb",
+     "box": {
+      "x": 0.06,
+      "y": 0.4743,
+      "w": 0.2767,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Technischer",
+       "box": {
+        "x": 0.06,
+        "y": 0.4743,
+        "w": 0.1554,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Vertrieb",
+       "box": {
+        "x": 0.2236,
+        "y": 0.4743,
+        "w": 0.1131,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Gutenbergstr. 3a",
+     "box": {
+      "x": 0.06,
+      "y": 0.63,
+      "w": 0.1992,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Gutenbergstr.",
+       "box": {
+        "x": 0.06,
+        "y": 0.63,
+        "w": 0.1662,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "3a",
+       "box": {
+        "x": 0.2336,
+        "y": 0.63,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "42697 Solingen",
+     "box": {
+      "x": 0.06,
+      "y": 0.6851,
+      "w": 0.1736,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "42697",
+       "box": {
+        "x": 0.06,
+        "y": 0.6851,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Solingen",
+       "box": {
+        "x": 0.1313,
+        "y": 0.6851,
+        "w": 0.1023,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "T: 0212 / 2 33 44-0  F: -19",
+     "box": {
+      "x": 0.06,
+      "y": 0.7402,
+      "w": 0.3019,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "T:",
+       "box": {
+        "x": 0.06,
+        "y": 0.7402,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "0212",
+       "box": {
+        "x": 0.0929,
+        "y": 0.7402,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.1515,
+        "y": 0.7402,
+        "w": 0.0128,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "2",
+       "box": {
+        "x": 0.1716,
+        "y": 0.7402,
+        "w": 0.0128,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.1918,
+        "y": 0.7402,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "44-0",
+       "box": {
+        "x": 0.2247,
+        "y": 0.7402,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "F:",
+       "box": {
+        "x": 0.2906,
+        "y": 0.7402,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "-19",
+       "box": {
+        "x": 0.3236,
+        "y": 0.7402,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "M: O152 23 45 67 89",
+     "box": {
+      "x": 0.06,
+      "y": 0.7953,
+      "w": 0.2159,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "M:",
+       "box": {
+        "x": 0.06,
+        "y": 0.7953,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "O152",
+       "box": {
+        "x": 0.0929,
+        "y": 0.7953,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.1515,
+        "y": 0.7953,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.1844,
+        "y": 0.7953,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.2174,
+        "y": 0.7953,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.2503,
+        "y": 0.7953,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "k.yildirim@acme-wzm-de.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.8504,
+      "w": 0.2813,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "k.yildirim@acme-wzm-de.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.8504,
+        "w": 0.2813,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kemal",
+   "middle": "",
+   "family": "Yıldırım",
+   "suffix": "",
+   "full": "Kemal Yıldırım"
+  },
+  "otherName": null,
+  "company": "ACME Werkzeugmaschinen Vertriebs GmbH",
+  "department": "Technischer Vertrieb",
+  "title": null,
+  "phones": [
+   {
+    "printed": "0212 / 2 33 44-0",
+    "e164": "+49212233440",
+    "type": "work",
+    "label": "T:",
+    "ext": null
+   },
+   {
+    "printed": "-19",
+    "e164": "+492122334419",
+    "type": "fax",
+    "label": "F:",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "0152 23 45 67 89",
+    "e164": "+4915223456789",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.yildirim@acme-wzm-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gutenbergstr. 3a",
+    "extra": "",
+    "pobox": "",
+    "postcode": "42697",
+    "city": "Solingen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "title",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Werkzeugmaschinen Vertriebs GmbH",
+   "ACME"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[2].printed",
+   "printed": "0152 23 45 67 89",
+   "ocr": "O152 23 45 67 89",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "logo-word",
+  "company-before-name",
+  "fax-as-extension-suffix",
+  "double-space-segments",
+  "dotless-i",
+  "absent-title",
+  "ocr-0O"
+ ],
+ "notes": "\"F: -19\" is the fax as an extension of the T: number (+492122334419). \"Technischer Vertrieb\" is a department; no job title."
+}

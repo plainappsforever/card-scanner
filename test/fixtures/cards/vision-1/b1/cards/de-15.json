@@ -1,0 +1,194 @@
+{
+ "id": "de-15",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Physiotherapie Lichtblick",
+     "box": {
+      "x": 0.05712171701468037,
+      "y": 0.05193586274937989,
+      "w": 0.5236403656005859,
+      "h": 0.11256158305871444
+     },
+     "height": 0.11256158305871444,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Anja Rauscher-Diallo",
+     "box": {
+      "x": 0.060979381487813275,
+      "y": 0.27074962639695976,
+      "w": 0.3443299102783203,
+      "h": 0.0931425683746927
+     },
+     "height": 0.0931425683746927,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Physiotherapeutin • Osteopathin",
+     "box": {
+      "x": 0.06174163340289276,
+      "y": 0.36320170936918617,
+      "w": 0.38484714508056644,
+      "h": 0.074710057969259
+     },
+     "height": 0.074710057969259,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Bahnhofstraße 8",
+     "box": {
+      "x": 0.07070190704422584,
+      "y": 0.5656787178478594,
+      "w": 0.17395488739013676,
+      "h": 0.04518453310815518
+     },
+     "height": 0.04518453310815518,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "55116 Mainz",
+     "box": {
+      "x": 0.07093492378032401,
+      "y": 0.6326428515623457,
+      "w": 0.13427785873413087,
+      "h": 0.03621831547799714
+     },
+     "height": 0.03621831547799714,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Termine: 06131 / 23 45 67",
+     "box": {
+      "x": 0.072168626971045,
+      "y": 0.6801295933855654,
+      "w": 0.28016534805297855,
+      "h": 0.049263449709387785
+     },
+     "height": 0.049263449709387785,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mo-Fr 7:30-19:00 Uhr",
+     "box": {
+      "x": 0.07558139087129988,
+      "y": 0.7442084942965703,
+      "w": 0.23110466003417968,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Anja",
+   "middle": "",
+   "family": "Rauscher-Diallo",
+   "suffix": "",
+   "full": "Anja Rauscher-Diallo"
+  },
+  "otherName": null,
+  "company": "Physiotherapie Lichtblick",
+  "department": null,
+  "title": "Physiotherapeutin",
+  "phones": [
+   {
+    "printed": "06131 / 23 45 67",
+    "e164": "+496131234567",
+    "type": "work",
+    "label": "Termine:",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bahnhofstraße 8",
+    "extra": "",
+    "pobox": "",
+    "postcode": "55116",
+    "city": "Mainz",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Physiotherapeutin · Osteopathin",
+   "Osteopathin"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "absent-email",
+  "absent-url",
+  "opening-hours",
+  "unusual-phone-label",
+  "slash-inside-phone"
+ ],
+ "notes": "No e-mail and no website. Opening hours contain digit runs (7:30–19:00) that are not phones.",
+ "o3": {
+  "source": "blind-1/cards/de-15.json",
+  "images": [
+   {
+    "name": "b1-de-15",
+    "font": "Palatino-Roman",
+    "rotation": 1.63,
+    "noise": 6,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 116
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

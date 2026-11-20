@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- The ML Kit install-time model list (com.google.mlkit.vision.DEPENDENCIES) is set in the APP manifest by
+       plugins/with-mlkit-models.js: expo-dev-launcher declares the same key and the merger refuses two library values. -->
+</manifest>

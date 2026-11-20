@@ -1,0 +1,235 @@
+{
+ "id": "de-06",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hartmann Logistik AG",
+     "box": {
+      "x": 0.0675731044469908,
+      "y": 0.04631711784341308,
+      "w": 0.40676273345947267,
+      "h": 0.07384343681188166
+     },
+     "height": 0.07384343681188166,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Wiebke Sonnleitner",
+     "box": {
+      "x": 0.0649283362994909,
+      "y": 0.24737502761018415,
+      "w": 0.26852979660034176,
+      "h": 0.05220918029431665
+     },
+     "height": 0.05220918029431665,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Leiterin Strategischer Einkauf",
+     "box": {
+      "x": 0.0622408354212854,
+      "y": 0.3470162851790737,
+      "w": 0.25920270919799804,
+      "h": 0.03682217542729327
+     },
+     "height": 0.03682217542729327,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Abteilung Einkauf",
+     "box": {
+      "x": 0.06081005663776578,
+      "y": 0.4056112028975829,
+      "w": 0.16318191528320314,
+      "h": 0.03543470448968944
+     },
+     "height": 0.03543470448968944,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Speicherstraße 12 • 3. OG • 28217 Bremen",
+     "box": {
+      "x": 0.05640887768179006,
+      "y": 0.5791532585591164,
+      "w": 0.32908462524414067,
+      "h": 0.04015788516482788
+     },
+     "height": 0.04015788516482788,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Zentrale +49 421 39 77-0",
+     "box": {
+      "x": 0.05630132570162065,
+      "y": 0.6319577034993981,
+      "w": 0.2056723594665527,
+      "h": 0.03449155373002577
+     },
+     "height": 0.03449155373002577,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Direkt +49 421 39 77-412",
+     "box": {
+      "x": 0.05636981546762843,
+      "y": 0.684285843908581,
+      "w": 0.21136110305786132,
+      "h": 0.03229214325834884
+     },
+     "height": 0.03229214325834884,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil +49 151 2345 6789",
+     "box": {
+      "x": 0.05630962734604971,
+      "y": 0.7361134215909036,
+      "w": 0.21725671768188476,
+      "h": 0.03576396883224431
+     },
+     "height": 0.03576396883224431,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "w.sonnleitner@hartmann-logistik-com.example • hartmann-logistik.com",
+     "box": {
+      "x": 0.05342445322114834,
+      "y": 0.7905662273546393,
+      "w": 0.5094651412963868,
+      "h": 0.05133164159119352
+     },
+     "height": 0.05133164159119352,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Wiebke",
+   "middle": "",
+   "family": "Sonnleitner",
+   "suffix": "",
+   "full": "Wiebke Sonnleitner"
+  },
+  "otherName": null,
+  "company": "Hartmann Logistik AG",
+  "department": "Abteilung Einkauf",
+  "title": "Leiterin Strategischer Einkauf",
+  "phones": [
+   {
+    "printed": "+49 421 39 77-0",
+    "e164": "+4942139770",
+    "type": "work",
+    "label": "Zentrale",
+    "ext": null
+   },
+   {
+    "printed": "+49 421 39 77-412",
+    "e164": "+494213977412",
+    "type": "work",
+    "label": "Direkt",
+    "ext": null
+   },
+   {
+    "printed": "+49 151 2345 6789",
+    "e164": "+4915123456789",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "w.sonnleitner@hartmann-logistik-com.example"
+  ],
+  "urls": [
+   "hartmann-logistik.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Speicherstraße 12",
+    "extra": "3. OG",
+    "pobox": "",
+    "postcode": "28217",
+    "city": "Bremen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Einkauf"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "floor",
+  "switchboard-vs-direct",
+  "title-contains-department-word",
+  "bare-domain",
+  "ocr-dropped-space",
+  "address-one-line"
+ ],
+ "notes": "Title and department share the word \"Einkauf\". Floor \"3. OG\" inside the address line.",
+ "o3": {
+  "source": "blind-1/cards/de-06.json",
+  "images": [
+   {
+    "name": "b1-de-06",
+    "font": "AvenirNext-Regular",
+    "rotation": -1.5,
+    "noise": 14,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 104
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

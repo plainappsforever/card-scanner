@@ -1,0 +1,428 @@
+{
+ "id": "mx-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Raphael Odenwälder",
+     "box": {
+      "x": 0.08,
+      "y": 0.17,
+      "w": 0.414,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Raphael",
+       "box": {
+        "x": 0.08,
+        "y": 0.17,
+        "w": 0.1649,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Odenwälder",
+       "box": {
+        "x": 0.2585,
+        "y": 0.17,
+        "w": 0.2355,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Dipl.-Inf. (FH)",
+     "box": {
+      "x": 0.08,
+      "y": 0.2715,
+      "w": 0.1962,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Dipl.-Inf.",
+       "box": {
+        "x": 0.08,
+        "y": 0.2715,
+        "w": 0.1346,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "(FH)",
+       "box": {
+        "x": 0.2224,
+        "y": 0.2715,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Freelance Cloud Architect",
+     "box": {
+      "x": 0.08,
+      "y": 0.3295,
+      "w": 0.3657,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Freelance",
+       "box": {
+        "x": 0.08,
+        "y": 0.3295,
+        "w": 0.1363,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Cloud",
+       "box": {
+        "x": 0.225,
+        "y": 0.3295,
+        "w": 0.0757,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Architect",
+       "box": {
+        "x": 0.3094,
+        "y": 0.3295,
+        "w": 0.1363,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "AWS · Azure · Kubernetes · Terraform",
+     "box": {
+      "x": 0.08,
+      "y": 0.51,
+      "w": 0.3941,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "AWS",
+       "box": {
+        "x": 0.08,
+        "y": 0.51,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1221,
+        "y": 0.51,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Azure",
+       "box": {
+        "x": 0.1407,
+        "y": 0.51,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2064,
+        "y": 0.51,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Kubernetes",
+       "box": {
+        "x": 0.2249,
+        "y": 0.51,
+        "w": 0.1178,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3495,
+        "y": 0.51,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Terraform",
+       "box": {
+        "x": 0.3681,
+        "y": 0.51,
+        "w": 0.106,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "+49 (0)176 / 98 76 54 32",
+     "box": {
+      "x": 0.08,
+      "y": 0.65,
+      "w": 0.2744,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.08,
+        "y": 0.65,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "(0)176",
+       "box": {
+        "x": 0.1257,
+        "y": 0.65,
+        "w": 0.0767,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2098,
+        "y": 0.65,
+        "w": 0.0128,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "98",
+       "box": {
+        "x": 0.23,
+        "y": 0.65,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "76",
+       "box": {
+        "x": 0.2629,
+        "y": 0.65,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.2959,
+        "y": 0.65,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.3288,
+        "y": 0.65,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "raphael@odenwaelder-dev.example",
+     "box": {
+      "x": 0.08,
+      "y": 0.7051,
+      "w": 0.2941,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "raphael@odenwaelder-dev.example",
+       "box": {
+        "x": 0.08,
+        "y": 0.7051,
+        "w": 0.2941,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "github.com/rodenwaelder",
+     "box": {
+      "x": 0.08,
+      "y": 0.7602,
+      "w": 0.2941,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "github.com/rodenwaelder",
+       "box": {
+        "x": 0.08,
+        "y": 0.7602,
+        "w": 0.2941,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Remote · Karlsruhe",
+     "box": {
+      "x": 0.08,
+      "y": 0.8153,
+      "w": 0.2193,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Remote",
+       "box": {
+        "x": 0.08,
+        "y": 0.8153,
+        "w": 0.0767,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1641,
+        "y": 0.8153,
+        "w": 0.0128,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Karlsruhe",
+       "box": {
+        "x": 0.1843,
+        "y": 0.8153,
+        "w": 0.1151,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Raphael",
+   "middle": "",
+   "family": "Odenwälder",
+   "suffix": "",
+   "full": "Raphael Odenwälder"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Freelance Cloud Architect",
+  "phones": [
+   {
+    "printed": "+49 (0)176 / 98 76 54 32",
+    "e164": "+4917698765432",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "raphael@odenwaelder-dev.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "github",
+    "value": "github.com/rodenwaelder"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "addresses"
+ ],
+ "accept": {
+  "name.prefix": [
+   "Dipl.-Inf. (FH)"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "degree-line-below-name",
+  "keyword-slogan",
+  "city-only-not-address",
+  "dev-tld",
+  "github",
+  "trunk-0-paren-and-slash",
+  "absent-company",
+  "absent-address"
+ ],
+ "notes": "Degree printed on its own line below the name. \"Remote · Karlsruhe\" is not a postal address (no street/postcode). Domain stem equals family name."
+}

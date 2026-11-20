@@ -1,0 +1,530 @@
+{
+ "id": "de-10",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Stadtwerke Rabenau GmbH",
+     "box": {
+      "x": 0.06,
+      "y": 0.06,
+      "w": 0.5218,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Stadtwerke",
+       "box": {
+        "x": 0.06,
+        "y": 0.06,
+        "w": 0.2355,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Rabenau",
+       "box": {
+        "x": 0.3091,
+        "y": 0.06,
+        "w": 0.1649,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.4876,
+        "y": 0.06,
+        "w": 0.0942,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Energie · Wasser · Wärme",
+     "box": {
+      "x": 0.06,
+      "y": 0.15,
+      "w": 0.3002,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Energie",
+       "box": {
+        "x": 0.06,
+        "y": 0.15,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.162,
+        "y": 0.15,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Wasser",
+       "box": {
+        "x": 0.1832,
+        "y": 0.15,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2717,
+        "y": 0.15,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Wärme",
+       "box": {
+        "x": 0.2929,
+        "y": 0.15,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Margarete Pfefferkorn",
+     "box": {
+      "x": 0.06,
+      "y": 0.3,
+      "w": 0.4154,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Margarete",
+       "box": {
+        "x": 0.06,
+        "y": 0.3,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Pfefferkorn",
+       "box": {
+        "x": 0.2533,
+        "y": 0.3,
+        "w": 0.2221,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Sachbearbeiterin",
+     "box": {
+      "x": 0.06,
+      "y": 0.387,
+      "w": 0.2153,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Sachbearbeiterin",
+       "box": {
+        "x": 0.06,
+        "y": 0.387,
+        "w": 0.2153,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Kundenservice",
+     "box": {
+      "x": 0.06,
+      "y": 0.445,
+      "w": 0.175,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Kundenservice",
+       "box": {
+        "x": 0.06,
+        "y": 0.445,
+        "w": 0.175,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Postfach 11 62 · 35466 Rabenau",
+     "box": {
+      "x": 0.06,
+      "y": 0.62,
+      "w": 0.3378,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Postfach",
+       "box": {
+        "x": 0.06,
+        "y": 0.62,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.1639,
+        "y": 0.62,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "62",
+       "box": {
+        "x": 0.1951,
+        "y": 0.62,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2263,
+        "y": 0.62,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "35466",
+       "box": {
+        "x": 0.2454,
+        "y": 0.62,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Rabenau",
+       "box": {
+        "x": 0.313,
+        "y": 0.62,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Zentrale 0049 6407 9 13-0 · Durchwahl -127",
+     "box": {
+      "x": 0.06,
+      "y": 0.6722,
+      "w": 0.4729,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Zentrale",
+       "box": {
+        "x": 0.06,
+        "y": 0.6722,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "0049",
+       "box": {
+        "x": 0.1639,
+        "y": 0.6722,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "6407",
+       "box": {
+        "x": 0.2193,
+        "y": 0.6722,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.2748,
+        "y": 0.6722,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "13-0",
+       "box": {
+        "x": 0.2939,
+        "y": 0.6722,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3493,
+        "y": 0.6722,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Durchwahl",
+       "box": {
+        "x": 0.3684,
+        "y": 0.6722,
+        "w": 0.109,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "-127",
+       "box": {
+        "x": 0.4844,
+        "y": 0.6722,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Störungsdienst 24h: 0800 123 45 67",
+     "box": {
+      "x": 0.06,
+      "y": 0.7244,
+      "w": 0.3862,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Störungsdienst",
+       "box": {
+        "x": 0.06,
+        "y": 0.7244,
+        "w": 0.1696,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "24h:",
+       "box": {
+        "x": 0.2366,
+        "y": 0.7244,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "0800",
+       "box": {
+        "x": 0.292,
+        "y": 0.7244,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.3474,
+        "y": 0.7244,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3908,
+        "y": 0.7244,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.422,
+        "y": 0.7244,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "m.pfefferkom@stadtwerke-rabenau-de.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.7766,
+      "w": 0.4118,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "m.pfefferkom@stadtwerke-rabenau-de.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.7766,
+        "w": 0.4118,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Margarete",
+   "middle": "",
+   "family": "Pfefferkorn",
+   "suffix": "",
+   "full": "Margarete Pfefferkorn"
+  },
+  "otherName": null,
+  "company": "Stadtwerke Rabenau GmbH",
+  "department": "Kundenservice",
+  "title": "Sachbearbeiterin",
+  "phones": [
+   {
+    "printed": "0049 6407 9 13-0",
+    "e164": "+4964079130",
+    "type": "work",
+    "label": "Zentrale",
+    "ext": null
+   },
+   {
+    "printed": "-127",
+    "e164": "+496407913127",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "0800 123 45 67",
+    "e164": "+498001234567",
+    "type": "other",
+    "label": "Störungsdienst 24h:",
+    "ext": null,
+    "type_accept": [
+     "work"
+    ]
+   }
+  ],
+  "emails": [
+   "m.pfefferkorn@stadtwerke-rabenau-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postfach 11 62",
+    "postcode": "35466",
+    "city": "Rabenau",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "m.pfefferkorn@stadtwerke-rabenau-de.example",
+   "ocr": "m.pfefferkom@stadtwerke-rabenau-de.example",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "0049-prefix",
+  "extension-only-number",
+  "postfach-only",
+  "freephone",
+  "ocr-rnm",
+  "digits-in-label",
+  "absent-url"
+ ],
+ "notes": "\"Durchwahl -127\" is only an extension of the Zentrale number (full number +496407913127). \"24h\" in the label is not part of the number. The e-mail lost \"rn\" -> \"m\"; the printed name shows the correct spelling."
+}

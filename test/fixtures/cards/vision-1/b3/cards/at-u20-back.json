@@ -1,0 +1,163 @@
+{
+ "id": "at-u20-back",
+ "group": "at-u20",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Wendau University of Technology",
+     "box": {
+      "x": 0.07923222055170143,
+      "y": 0.028805255569934185,
+      "w": 0.35896274566650394,
+      "h": 0.06428790736842793
+     },
+     "height": 0.06428790736842793,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Institute of Electric Power Systems",
+     "box": {
+      "x": 0.07631390222743033,
+      "y": 0.08644774123442445,
+      "w": 0.3270471572875977,
+      "h": 0.05950336934977052
+     },
+     "height": 0.05950336934977052,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Matthias Edlinger",
+     "box": {
+      "x": 0.07423132167363392,
+      "y": 0.1780618905301472,
+      "w": 0.29632198333740234,
+      "h": 0.08519212435571388
+     },
+     "height": 0.08519212435571388,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Head of Institute",
+     "box": {
+      "x": 0.07214426903586287,
+      "y": 0.26563202087173843,
+      "w": 0.15658228874206542,
+      "h": 0.03830857074398786
+     },
+     "height": 0.03830857074398786,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "matthias.edlinger@tuwendau-at.example • www.tuwendau.at",
+     "box": {
+      "x": 0.07037525571224915,
+      "y": 0.34231391190929383,
+      "w": 0.34270252227783204,
+      "h": 0.051594726827614124
+     },
+     "height": 0.051594726827614124,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "ORCID 0000-0002-5591-3046",
+     "box": {
+      "x": 0.0706473307581939,
+      "y": 0.3969912229052106,
+      "w": 0.22184438705444337,
+      "h": 0.040260664744727004
+     },
+     "height": 0.040260664744727004,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Edlinger",
+   "suffix": "",
+   "full": "Matthias Edlinger"
+  },
+  "otherName": null,
+  "company": "Wendau University of Technology",
+  "department": "Institute of Electric Power Systems",
+  "title": "Head of Institute",
+  "phones": [],
+  "emails": [
+   "matthias.edlinger@tuwendau-at.example"
+  ],
+  "urls": [
+   "www.tuwendau.at"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "phones",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "academic",
+  "prefix-stack",
+  "faculty-line",
+  "orcid",
+  "second-language-back",
+  "foreign-region",
+  "ocr-1l",
+  "roman-numeral-door",
+  "gasse-street"
+ ],
+ "notes": "English side: no phone, no address. ORCID is not a phone.",
+ "o3": {
+  "source": "blind-3/cards/at-u20-back.json",
+  "images": [
+   {
+    "name": "b3-at-u20-back",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.77,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 99
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

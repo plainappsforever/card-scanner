@@ -1,0 +1,38 @@
+appId: ${APP_ID}
+name: U7 - paste an e-mail signature
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: empty
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-paste
+- tapOn:
+    id: paste-input
+# one line at a time: Maestro's inputText drops "\n" on Android (L14 — the probe, not the product)
+- inputText: "Anna Weber"
+- pressKey: Enter
+- inputText: "Head of Sales"
+- pressKey: Enter
+- inputText: "ACME Robotics GmbH"
+- pressKey: Enter
+- inputText: "anna.weber@acme-robotics-de.example"
+- pressKey: Enter
+- inputText: "+49 30 1234567"
+- tapOn:
+    id: paste-read
+- assertVisible:
+    id: review-screen
+- scrollUntilVisible:
+    element: "anna.weber@acme-robotics-de.example"
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed

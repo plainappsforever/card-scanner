@@ -1,0 +1,329 @@
+{
+ "id": "kr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ko"
+ ],
+ "card_country": "KR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "korean"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "(주)새봄랩",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.1631,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "(주)새봄랩",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "박서연",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.165,
+      "h": 0.085
+     },
+     "height": 0.085,
+     "words": [
+      {
+       "text": "박서연",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.165,
+        "h": 0.085
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "개발팀 팀장",
+     "box": {
+      "x": 0.07,
+      "y": 0.36,
+      "w": 0.1372,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "개발팀",
+       "box": {
+        "x": 0.07,
+        "y": 0.36,
+        "w": 0.0776,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "팀장",
+       "box": {
+        "x": 0.1554,
+        "y": 0.36,
+        "w": 0.0518,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "서울특별시 강남구 테헤란로 152, 12층 (06236)",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.4677,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "서울특별시",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.11,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "강남구",
+       "box": {
+        "x": 0.1866,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "테헤란로",
+       "box": {
+        "x": 0.2592,
+        "y": 0.54,
+        "w": 0.088,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "152,",
+       "box": {
+        "x": 0.3538,
+        "y": 0.54,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "12층",
+       "box": {
+        "x": 0.4062,
+        "y": 0.54,
+        "w": 0.0449,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "(06236)",
+       "box": {
+        "x": 0.4576,
+        "y": 0.54,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "T. 02-555-1234  M. 010-9876-5432",
+     "box": {
+      "x": 0.07,
+      "y": 0.5893,
+      "w": 0.3467,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "T.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5893,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "02-555-1234",
+       "box": {
+        "x": 0.0995,
+        "y": 0.5893,
+        "w": 0.1258,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "M.",
+       "box": {
+        "x": 0.2385,
+        "y": 0.5893,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "010-9876-5432",
+       "box": {
+        "x": 0.268,
+        "y": 0.5893,
+        "w": 0.1487,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "seoyeon.park@saebomlab-co-kr.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6386,
+      "w": 0.2974,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "seoyeon.park@saebomlab-co-kr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6386,
+        "w": 0.2974,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "www.saebomlab.co.kr",
+     "box": {
+      "x": 0.07,
+      "y": 0.6879,
+      "w": 0.1945,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "www.saebomlab.co.kr",
+       "box": {
+        "x": 0.07,
+        "y": 0.6879,
+        "w": 0.1945,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "서연",
+   "middle": "",
+   "family": "박",
+   "suffix": "",
+   "full": "박서연"
+  },
+  "otherName": null,
+  "company": "(주)새봄랩",
+  "department": "개발팀",
+  "title": "팀장",
+  "phones": [
+   {
+    "printed": "02-555-1234",
+    "e164": "+8225551234",
+    "type": "work",
+    "label": "T.",
+    "ext": null
+   },
+   {
+    "printed": "010-9876-5432",
+    "e164": "+821098765432",
+    "type": "mobile",
+    "label": "M.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "seoyeon.park@saebomlab-co-kr.example"
+  ],
+  "urls": [
+   "www.saebomlab.co.kr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "테헤란로 152",
+    "extra": "12층",
+    "pobox": "",
+    "postcode": "06236",
+    "city": "강남구",
+    "region": "서울특별시",
+    "country": "",
+    "countryCode": "KR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "hangul-no-space-name",
+  "(주)-prefix",
+  "postcode-in-parens-at-end",
+  "department-and-title-one-line",
+  "given-family-email-order",
+  "two-phones-one-line"
+ ],
+ "notes": "Korean name without space: first syllable = family. Postcode in parentheses at the end of the address line."
+}

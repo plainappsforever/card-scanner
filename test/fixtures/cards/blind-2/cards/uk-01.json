@@ -1,0 +1,635 @@
+{
+ "id": "uk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ASHWORTH & PRYCE",
+     "box": {
+      "x": 0.07,
+      "y": 0.087,
+      "w": 0.4369,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "ASHWORTH",
+       "box": {
+        "x": 0.07,
+        "y": 0.087,
+        "w": 0.2319,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3174,
+        "y": 0.087,
+        "w": 0.029,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "PRYCE",
+       "box": {
+        "x": 0.362,
+        "y": 0.087,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Chartered Surveyors",
+     "box": {
+      "x": 0.07,
+      "y": 0.189,
+      "w": 0.3358,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Chartered",
+       "box": {
+        "x": 0.07,
+        "y": 0.189,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Surveyors",
+       "box": {
+        "x": 0.2428,
+        "y": 0.189,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Oliver Pryce MRICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.261,
+      "w": 0.3712,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Oliver",
+       "box": {
+        "x": 0.07,
+        "y": 0.261,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Pryce",
+       "box": {
+        "x": 0.2121,
+        "y": 0.261,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "MRICS",
+       "box": {
+        "x": 0.3324,
+        "y": 0.261,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Director",
+     "box": {
+      "x": 0.07,
+      "y": 0.343,
+      "w": 0.1449,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Director",
+       "box": {
+        "x": 0.07,
+        "y": 0.343,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Head Office",
+     "box": {
+      "x": 0.07,
+      "y": 0.415,
+      "w": 0.1909,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.415,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Office",
+       "box": {
+        "x": 0.1522,
+        "y": 0.415,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "14 Bedford Row, London WClR 4ED",
+     "box": {
+      "x": 0.07,
+      "y": 0.487,
+      "w": 0.5196,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "14",
+       "box": {
+        "x": 0.07,
+        "y": 0.487,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bedford",
+       "box": {
+        "x": 0.1159,
+        "y": 0.487,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Row,",
+       "box": {
+        "x": 0.2525,
+        "y": 0.487,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "London",
+       "box": {
+        "x": 0.3346,
+        "y": 0.487,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "WClR",
+       "box": {
+        "x": 0.4531,
+        "y": 0.487,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4ED",
+       "box": {
+        "x": 0.5352,
+        "y": 0.487,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "T/F +44 (0)20 7405 1234",
+     "box": {
+      "x": 0.07,
+      "y": 0.559,
+      "w": 0.3831,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "T/F",
+       "box": {
+        "x": 0.07,
+        "y": 0.559,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.1341,
+        "y": 0.559,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(0)20",
+       "box": {
+        "x": 0.1981,
+        "y": 0.559,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7405",
+       "box": {
+        "x": 0.2984,
+        "y": 0.559,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1234",
+       "box": {
+        "x": 0.3806,
+        "y": 0.559,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "M +44 (0)7812 345 678",
+     "box": {
+      "x": 0.07,
+      "y": 0.631,
+      "w": 0.3468,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.631,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.0978,
+        "y": 0.631,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(0)7812",
+       "box": {
+        "x": 0.1619,
+        "y": 0.631,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2984,
+        "y": 0.631,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "678",
+       "box": {
+        "x": 0.3625,
+        "y": 0.631,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "o.pryce@ashworthpryce-co-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.703,
+      "w": 0.4892,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "o.pryce@ashworthpryce-co-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.703,
+        "w": 0.4892,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Ashworth & Pryce Ltd · Registered in England No. 04123456 · Regulated by RICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.775,
+      "w": 0.5657,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Ashworth",
+       "box": {
+        "x": 0.07,
+        "y": 0.775,
+        "w": 0.0638,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.138,
+        "y": 0.775,
+        "w": 0.008,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Pryce",
+       "box": {
+        "x": 0.1503,
+        "y": 0.775,
+        "w": 0.0399,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Ltd",
+       "box": {
+        "x": 0.1944,
+        "y": 0.775,
+        "w": 0.0239,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2226,
+        "y": 0.775,
+        "w": 0.008,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Registered",
+       "box": {
+        "x": 0.2348,
+        "y": 0.775,
+        "w": 0.0797,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "in",
+       "box": {
+        "x": 0.3188,
+        "y": 0.775,
+        "w": 0.0159,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "England",
+       "box": {
+        "x": 0.339,
+        "y": 0.775,
+        "w": 0.0558,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.3991,
+        "y": 0.775,
+        "w": 0.0239,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "04123456",
+       "box": {
+        "x": 0.4273,
+        "y": 0.775,
+        "w": 0.0638,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4954,
+        "y": 0.775,
+        "w": 0.008,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Regulated",
+       "box": {
+        "x": 0.5076,
+        "y": 0.775,
+        "w": 0.0717,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "by",
+       "box": {
+        "x": 0.5836,
+        "y": 0.775,
+        "w": 0.0159,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "RICS",
+       "box": {
+        "x": 0.6038,
+        "y": 0.775,
+        "w": 0.0319,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Oliver",
+   "middle": "",
+   "family": "Pryce",
+   "suffix": "MRICS",
+   "full": "Oliver Pryce MRICS"
+  },
+  "otherName": null,
+  "company": "ASHWORTH & PRYCE",
+  "department": null,
+  "title": "Director",
+  "phones": [
+   {
+    "printed": "+44 (0)20 7405 1234",
+    "e164": "+442074051234",
+    "type": "work",
+    "label": "T/F",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "+44 (0)7812 345 678",
+    "e164": "+447812345678",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "o.pryce@ashworthpryce-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "14 Bedford Row",
+    "extra": "",
+    "pobox": "",
+    "postcode": "WC1R 4ED",
+    "city": "London",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Ashworth & Pryce Ltd"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].postcode",
+   "printed": "WC1R 4ED",
+   "ocr": "WClR 4ED",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "combined-label",
+  "trunk-in-brackets",
+  "credential-suffix",
+  "registry-id",
+  "name-is-company",
+  "region-from-plus-cc",
+  "ocr-1l"
+ ],
+ "notes": "\"Head Office\" is not a title (title = Director). The (0) must be dropped: +44 20 7405 1234. MRICS is a suffix. Postcode WC1R 4ED (OCR \"WClR\")."
+}

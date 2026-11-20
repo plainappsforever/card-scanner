@@ -1,0 +1,176 @@
+{
+ "id": "uk-l10-back",
+ "group": "uk-l10",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PEMBERTON ASHE LLP",
+     "box": {
+      "x": 0.07099341422453541,
+      "y": 0.04561807277565921,
+      "w": 0.3376737976074219,
+      "h": 0.046531842942403645
+     },
+     "height": 0.046531842942403645,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Park Row House • 19 Park Row • Leeds LS1 5JF",
+     "box": {
+      "x": 0.07090618318334023,
+      "y": 0.13427310499070133,
+      "w": 0.3682609176635742,
+      "h": 0.043661772974669666
+     },
+     "height": 0.043661772974669666,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "T +44 (0)113 245 6700 • pembertonashe.co.uk",
+     "box": {
+      "x": 0.07093585715513175,
+      "y": 0.1879751262730166,
+      "w": 0.3348350143432617,
+      "h": 0.04237564190013987
+     },
+     "height": 0.04237564190013987,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Partners: H. Pemberton -J. Ashe • O. Whitcombe • R. Bhattacharya",
+     "box": {
+      "x": 0.0704730424229103,
+      "y": 0.29160742793150796,
+      "w": 0.41323337554931644,
+      "h": 0.05039538379801756
+     },
+     "height": 0.05039538379801756,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Authorised and regulated by the Solicitors Regulation Authority (SRA No. 523411).",
+     "box": {
+      "x": 0.06958062031376006,
+      "y": 0.3470827985886563,
+      "w": 0.414606819152832,
+      "h": 0.03364534267587549
+     },
+     "height": 0.03364534267587549,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Registered in England and Wales, No. OC312456.",
+     "box": {
+      "x": 0.06810225856627128,
+      "y": 0.38724274809793835,
+      "w": 0.2620596122741699,
+      "h": 0.031893995277669895
+     },
+     "height": 0.031893995277669895,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "PEMBERTON ASHE LLP",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "+44 (0)113 245 6700",
+    "e164": "+441132456700",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "pembertonashe.co.uk"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "19 Park Row",
+    "extra": "Park Row House",
+    "pobox": "",
+    "postcode": "LS1 5JF",
+    "city": "Leeds",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "law-firm",
+  "title-department-line",
+  "partner-list",
+  "registry-number",
+  "foreign-region",
+  "no-address-foreign",
+  "building-name-extra",
+  "ocr-pipe-for-l",
+  "unknown-phone-label",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "Back only: no person (the partner list is not a name). SRA number and company number OC312456 are not phones. Building name \"Park Row House\" goes to extra.",
+ "o3": {
+  "source": "blind-3/cards/uk-l10-back.json",
+  "images": [
+   {
+    "name": "b3-uk-l10-back",
+    "font": "Baskerville",
+    "rotation": -0.86,
+    "noise": 11,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 97
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

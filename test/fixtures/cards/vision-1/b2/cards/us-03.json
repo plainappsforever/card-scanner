@@ -1,0 +1,219 @@
+{
+ "id": "us-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "O'KEARN",
+     "box": {
+      "x": 0.07378999215591747,
+      "y": 0.07322821674713276,
+      "w": 0.2101354217529297,
+      "h": 0.0857489744208495
+     },
+     "height": 0.0857489744208495,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "PLUMBING & HEATING",
+     "box": {
+      "x": 0.07122093121212128,
+      "y": 0.20627802738477707,
+      "w": 0.2703488349914551,
+      "h": 0.04951347807659601
+     },
+     "height": 0.04951347807659601,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Family owned since 1979",
+     "box": {
+      "x": 0.0707161135120274,
+      "y": 0.27758006746848385,
+      "w": 0.32067378997802737,
+      "h": 0.056740757121082286
+     },
+     "height": 0.056740757121082286,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Mike O'Kearn, Owner",
+     "box": {
+      "x": 0.06902105307874506,
+      "y": 0.348636448971158,
+      "w": 0.30508798599243164,
+      "h": 0.07501166943877813
+     },
+     "height": 0.07501166943877813,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "1-800-GO-PLUMB",
+     "box": {
+      "x": 0.06796470702602221,
+      "y": 0.4307756140773845,
+      "w": 0.20856208801269532,
+      "h": 0.04756729022876638
+     },
+     "height": 0.04756729022876638,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Cell (720) 555-0112",
+     "box": {
+      "x": 0.06636230404857059,
+      "y": 0.5051418268082263,
+      "w": 0.2363365936279297,
+      "h": 0.05277287361704708
+     },
+     "height": 0.05277287361704708,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "mike@okearnplumbing-com.example",
+     "box": {
+      "x": 0.06625775091406311,
+      "y": 0.5722404065760102,
+      "w": 0.3312006378173828,
+      "h": 0.06356625207142486
+     },
+     "height": 0.06356625207142486,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Serving the Denver Metro Area",
+     "box": {
+      "x": 0.06342413120124206,
+      "y": 0.6451605191073869,
+      "w": 0.4007529067993164,
+      "h": 0.06276872995737437
+     },
+     "height": 0.06276872995737437,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "CO Master Plumber Lic. #MP-204718",
+     "box": {
+      "x": 0.06367422128283262,
+      "y": 0.7191042011005435,
+      "w": 0.22436597824096682,
+      "h": 0.03252971310413022
+     },
+     "height": 0.03252971310413022,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mike",
+   "middle": "",
+   "family": "O'Kearn",
+   "suffix": "",
+   "full": "Mike O'Kearn"
+  },
+  "otherName": null,
+  "company": "O'KEARN PLUMBING & HEATING",
+  "department": null,
+  "title": "Owner",
+  "phones": [
+   {
+    "printed": "1-800-GO-PLUMB",
+    "e164": "+18004675862",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "composed": true,
+    "type_accept": [
+     "other"
+    ]
+   },
+   {
+    "printed": "(720) 555-0112",
+    "e164": "+17205550112",
+    "type": "mobile",
+    "label": "Cell",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mike@okearnplumbing-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "vanity-number",
+  "toll-free",
+  "tagline-not-title",
+  "licence-number",
+  "name-is-company",
+  "cities-not-address",
+  "year-in-tagline",
+  "absent-addresses",
+  "ocr-0O"
+ ],
+ "notes": "1-800-GO-PLUMB = +1 800 467 5862. Name and title share one line (\"Mike O'Kearn, Owner\"). The \"0\" in the name must not be taken as a digit. Address absent. Licence #MP-204718 is not a phone.",
+ "o3": {
+  "source": "blind-2/cards/us-03.json",
+  "images": [
+   {
+    "name": "b2-us-03",
+    "font": "TrebuchetMS",
+    "rotation": -1.32,
+    "noise": 12,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 139
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

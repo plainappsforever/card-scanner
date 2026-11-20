@@ -1,0 +1,640 @@
+{
+ "id": "mx-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en",
+  "fi"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Institut für Angewandte Sensorik",
+     "box": {
+      "x": 0.06,
+      "y": 0.06,
+      "w": 0.517,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Institut",
+       "box": {
+        "x": 0.06,
+        "y": 0.06,
+        "w": 0.1346,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.2043,
+        "y": 0.06,
+        "w": 0.0505,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Angewandte",
+       "box": {
+        "x": 0.2645,
+        "y": 0.06,
+        "w": 0.1682,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sensorik",
+       "box": {
+        "x": 0.4424,
+        "y": 0.06,
+        "w": 0.1346,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Institute of Applied Sensing",
+     "box": {
+      "x": 0.06,
+      "y": 0.13,
+      "w": 0.3148,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Institute",
+       "box": {
+        "x": 0.06,
+        "y": 0.13,
+        "w": 0.106,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1728,
+        "y": 0.13,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Applied",
+       "box": {
+        "x": 0.2031,
+        "y": 0.13,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Sensing",
+       "box": {
+        "x": 0.2924,
+        "y": 0.13,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Prof. Dr. rer. nat. Eero Väisänen",
+     "box": {
+      "x": 0.06,
+      "y": 0.26,
+      "w": 0.6235,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Prof.",
+       "box": {
+        "x": 0.06,
+        "y": 0.26,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.1726,
+        "y": 0.26,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "rer.",
+       "box": {
+        "x": 0.2448,
+        "y": 0.26,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "nat.",
+       "box": {
+        "x": 0.3372,
+        "y": 0.26,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Eero",
+       "box": {
+        "x": 0.4296,
+        "y": 0.26,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Väisänen",
+       "box": {
+        "x": 0.522,
+        "y": 0.26,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Abteilungsleiter / Head of Department",
+     "box": {
+      "x": 0.06,
+      "y": 0.347,
+      "w": 0.4514,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Abteilungsleiter",
+       "box": {
+        "x": 0.06,
+        "y": 0.347,
+        "w": 0.2046,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.272,
+        "y": 0.347,
+        "w": 0.0128,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.2921,
+        "y": 0.347,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.3506,
+        "y": 0.347,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Department",
+       "box": {
+        "x": 0.3836,
+        "y": 0.347,
+        "w": 0.1279,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Optische Messtechnik / Optical Metrology",
+     "box": {
+      "x": 0.06,
+      "y": 0.4021,
+      "w": 0.4898,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Optische",
+       "box": {
+        "x": 0.06,
+        "y": 0.4021,
+        "w": 0.1023,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Messtechnik",
+       "box": {
+        "x": 0.1697,
+        "y": 0.4021,
+        "w": 0.1406,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.3177,
+        "y": 0.4021,
+        "w": 0.0128,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Optical",
+       "box": {
+        "x": 0.3378,
+        "y": 0.4021,
+        "w": 0.0895,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Metrology",
+       "box": {
+        "x": 0.4347,
+        "y": 0.4021,
+        "w": 0.1151,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Albert-Einstein-Str. 7, 07745 Jena, Germany",
+     "box": {
+      "x": 0.06,
+      "y": 0.61,
+      "w": 0.4865,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Albert-Einstein-Str.",
+       "box": {
+        "x": 0.06,
+        "y": 0.61,
+        "w": 0.2355,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "7,",
+       "box": {
+        "x": 0.3023,
+        "y": 0.61,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "07745",
+       "box": {
+        "x": 0.3327,
+        "y": 0.61,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Jena,",
+       "box": {
+        "x": 0.3983,
+        "y": 0.61,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Germany",
+       "box": {
+        "x": 0.464,
+        "y": 0.61,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 (0) 3641 94 77-210",
+     "box": {
+      "x": 0.06,
+      "y": 0.6607,
+      "w": 0.2931,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.06,
+        "y": 0.6607,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1139,
+        "y": 0.6607,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "(0)",
+       "box": {
+        "x": 0.156,
+        "y": 0.6607,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "3641",
+       "box": {
+        "x": 0.1981,
+        "y": 0.6607,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "94",
+       "box": {
+        "x": 0.252,
+        "y": 0.6607,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "77-210",
+       "box": {
+        "x": 0.2824,
+        "y": 0.6607,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Fax +49 (0) 3641 94 77-299",
+     "box": {
+      "x": 0.06,
+      "y": 0.7115,
+      "w": 0.2813,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.06,
+        "y": 0.7115,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1021,
+        "y": 0.7115,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "(0)",
+       "box": {
+        "x": 0.1442,
+        "y": 0.7115,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "3641",
+       "box": {
+        "x": 0.1864,
+        "y": 0.7115,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "94",
+       "box": {
+        "x": 0.2403,
+        "y": 0.7115,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "77-299",
+       "box": {
+        "x": 0.2706,
+        "y": 0.7115,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "eero.vaeisaenen@ias-wehra-de.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.7622,
+      "w": 0.318,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "eero.vaeisaenen@ias-wehra-de.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.7622,
+        "w": 0.318,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "www.ias-wehra.de",
+     "box": {
+      "x": 0.06,
+      "y": 0.813,
+      "w": 0.1766,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "www.ias-wehra.de",
+       "box": {
+        "x": 0.06,
+        "y": 0.813,
+        "w": 0.1766,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Prof. Dr. rer. nat.",
+   "given": "Eero",
+   "middle": "",
+   "family": "Väisänen",
+   "suffix": "",
+   "full": "Prof. Dr. rer. nat. Eero Väisänen"
+  },
+  "otherName": null,
+  "company": "Institut für Angewandte Sensorik",
+  "department": "Optische Messtechnik",
+  "title": "Abteilungsleiter",
+  "phones": [
+   {
+    "printed": "+49 (0) 3641 94 77-210",
+    "e164": "+4936419477210",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 (0) 3641 94 77-299",
+    "e164": "+4936419477299",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "eero.vaeisaenen@ias-wehra-de.example"
+  ],
+  "urls": [
+   "www.ias-wehra.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Albert-Einstein-Str. 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "07745",
+    "city": "Jena",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Institute of Applied Sensing"
+  ],
+  "department": [
+   "Optical Metrology",
+   "Optische Messtechnik / Optical Metrology"
+  ],
+  "title": [
+   "Head of Department",
+   "Abteilungsleiter / Head of Department"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "bilingual-lines-with-slash",
+  "trunk-0-in-parens",
+  "transliterated-email",
+  "leading-zero-postcode",
+  "no-legal-form",
+  "person-name-street",
+  "prefix-chain"
+ ],
+ "notes": "Title and department lines are \"German / English\". \"+49 (0) 3641\": the (0) must be dropped. ä→ae in the e-mail."
+}

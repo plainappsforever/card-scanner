@@ -1,0 +1,157 @@
+{
+ "id": "us-y02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "portrait",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "pixelpond",
+     "box": {
+      "x": 0.31352974895223334,
+      "y": 0.11804020330911336,
+      "w": 0.3034337754415269,
+      "h": 0.04444284915924068
+     },
+     "height": 0.04444284915924068,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "hey, I'm Sam",
+     "box": {
+      "x": 0.2958543850657253,
+      "y": 0.28743067419372026,
+      "w": 0.29394145361705165,
+      "h": 0.038510743379592816
+     },
+     "height": 0.038510743379592816,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Design Lead",
+     "box": {
+      "x": 0.36293084760854843,
+      "y": 0.34902737634419245,
+      "w": 0.20904557217041952,
+      "h": 0.026657499074935975
+     },
+     "height": 0.026657499074935975,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "sam@pixelpond-co.example",
+     "box": {
+      "x": 0.3066263419665031,
+      "y": 0.475642912738899,
+      "w": 0.31054060063306893,
+      "h": 0.030482747554779088
+     },
+     "height": 0.030482747554779088,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "IG @sam.draws • github.com/samdraws",
+     "box": {
+      "x": 0.13871242639623085,
+      "y": 0.5227693122879996,
+      "w": 0.5701296891024674,
+      "h": 0.027295744419097878
+     },
+     "height": 0.027295744419097878,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sam",
+   "middle": "",
+   "family": "",
+   "suffix": "",
+   "full": "Sam"
+  },
+  "otherName": null,
+  "company": "pixelpond",
+  "department": null,
+  "title": "Design Lead",
+  "phones": [],
+  "emails": [
+   "sam@pixelpond-co.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@sam.draws"
+   },
+   {
+    "service": "github",
+    "value": "github.com/samdraws"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "urls",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "startup",
+  "first-name-only",
+  "greeting-line",
+  "lowercase-logo",
+  "labelled-handle",
+  "absent-phone",
+  "absent-address",
+  "portrait",
+  "company-equals-domain-stem"
+ ],
+ "notes": "The name is inside a greeting \"hey, I'm Sam\" (an emoji after it was dropped by OCR). Company = logo = e-mail domain stem. No phone, no address.",
+ "o3": {
+  "source": "blind-3/cards/us-y02.json",
+  "images": [
+   {
+    "name": "b3-us-y02",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -0.7,
+    "noise": 6,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 85
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

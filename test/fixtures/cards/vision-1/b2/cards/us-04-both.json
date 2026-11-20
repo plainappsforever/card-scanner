@@ -1,0 +1,299 @@
+{
+ "id": "us-04-both",
+ "group": "us-04",
+ "side": "both",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "NORTHWIND",
+     "box": {
+      "x": 0.06183952700626101,
+      "y": 0.11167818666107732,
+      "w": 0.3066246795654297,
+      "h": 0.07691788397240362
+     },
+     "height": 0.07691788397240362,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ANALYTICS",
+     "box": {
+      "x": 0.06510380982685993,
+      "y": 0.24387144413099227,
+      "w": 0.12415710449218753,
+      "h": 0.03488863204897141
+     },
+     "height": 0.03488863204897141,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dana Whitfield",
+     "box": {
+      "x": 0.06626632133705651,
+      "y": 0.3105500561402357,
+      "w": 0.20614292144775392,
+      "h": 0.05217562126837172
+     },
+     "height": 0.05217562126837172,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Chief Data Officer",
+     "box": {
+      "x": 0.06783532248694762,
+      "y": 0.39891315465701016,
+      "w": 0.19280767440795898,
+      "h": 0.04245375482271996
+     },
+     "height": 0.04245375482271996,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Direct +1 (312) 555-0198",
+     "box": {
+      "x": 0.0693169298722377,
+      "y": 0.4651264200482368,
+      "w": 0.2830245780944824,
+      "h": 0.050993985651082596
+     },
+     "height": 0.050993985651082596,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Main +1 (312) 555-0100",
+     "box": {
+      "x": 0.07081089684981912,
+      "y": 0.5395552676589671,
+      "w": 0.2611302947998047,
+      "h": 0.04758043362827369
+     },
+     "height": 0.04758043362827369,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "dana.whitfield@northwind-analytics-com.example",
+     "box": {
+      "x": 0.07234814202416309,
+      "y": 0.6036630384541766,
+      "w": 0.4555491256713867,
+      "h": 0.05030049872674536
+     },
+     "height": 0.05030049872674536,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "northwind-analytics.com",
+     "box": {
+      "x": 0.07412791224360504,
+      "y": 0.6883408071627186,
+      "w": 0.26453487396240233,
+      "h": 0.03811659131731304
+     },
+     "height": 0.03811659131731304,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Northwind Analytics LLC",
+     "box": {
+      "x": 0.0666166861491401,
+      "y": 0.20145758994753282,
+      "w": 0.3086824607849121,
+      "h": 0.049507015920513764
+     },
+     "height": 0.049507015920513764,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Est. 2009",
+     "box": {
+      "x": 0.06786150901760585,
+      "y": 0.2803606277102819,
+      "w": 0.12447757720947267,
+      "h": 0.0431867253366125
+     },
+     "height": 0.0431867253366125,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "233 S Wacker Dr, Suite 8400",
+     "box": {
+      "x": 0.06808661785543421,
+      "y": 0.3411108484844654,
+      "w": 0.3813326644897461,
+      "h": 0.057511160272428974
+     },
+     "height": 0.057511160272428974,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "Chicago, IL 60606",
+     "box": {
+      "x": 0.06969333926530204,
+      "y": 0.4202931344695915,
+      "w": 0.23428760528564457,
+      "h": 0.05030175433655959
+     },
+     "height": 0.05030175433655959,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "Chicago • Austin • Toronto",
+     "box": {
+      "x": 0.06945202438675085,
+      "y": 0.48675919503757437,
+      "w": 0.32917751312255855,
+      "h": 0.053759462584860085
+     },
+     "height": 0.053759462584860085,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dana",
+   "middle": "",
+   "family": "Whitfield",
+   "suffix": "",
+   "full": "Dana Whitfield"
+  },
+  "otherName": null,
+  "company": "Northwind Analytics LLC",
+  "department": null,
+  "title": "Chief Data Officer",
+  "phones": [
+   {
+    "printed": "+1 (312) 555-0198",
+    "e164": "+13125550198",
+    "type": "work",
+    "label": "Direct",
+    "ext": null
+   },
+   {
+    "printed": "+1 (312) 555-0100",
+    "e164": "+13125550100",
+    "type": "work",
+    "label": "Main",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dana.whitfield@northwind-analytics-com.example"
+  ],
+  "urls": [
+   "northwind-analytics.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "233 S Wacker Dr",
+    "extra": "Suite 8400",
+    "pobox": "",
+    "postcode": "60606",
+    "city": "Chicago",
+    "region": "IL",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "NORTHWIND ANALYTICS"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "qr-vcard",
+  "tagline-not-title",
+  "year-in-tagline",
+  "cities-not-address",
+  "ocr-1l"
+ ],
+ "notes": "Both sides: the vCard e-mail confirms and repairs the damaged OCR e-mail; one address (back).",
+ "o3": {
+  "source": "blind-2/cards/us-04-both.json",
+  "images": [
+   {
+    "name": "b2-us-04-front",
+    "font": "AvenirNext-Regular",
+    "rotation": 1.51,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 118
+   },
+   {
+    "name": "b2-us-04-back",
+    "font": "Georgia",
+    "rotation": 1.07,
+    "noise": 4,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 0
+ }
+}

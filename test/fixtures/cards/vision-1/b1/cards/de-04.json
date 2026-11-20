@@ -1,0 +1,258 @@
+{
+ "id": "de-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "DACHDECKEREI",
+     "box": {
+      "x": 0.26423176312871965,
+      "y": 0.06176254909798462,
+      "w": 0.6509344034673624,
+      "h": 0.04000365257263183
+     },
+     "height": 0.04000365257263183,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "KERSCHNER",
+     "box": {
+      "x": 0.3228699517662276,
+      "y": 0.13662790723154472,
+      "w": 0.4910313963429808,
+      "h": 0.036337208747863836
+     },
+     "height": 0.036337208747863836,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "GmbH & Co. KG",
+     "box": {
+      "x": 0.38340807384034115,
+      "y": 0.2106249996796985,
+      "w": 0.2937219686029501,
+      "h": 0.02937499999999993
+     },
+     "height": 0.02937499999999993,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Hauke Kerschner",
+     "box": {
+      "x": 0.2638451555440073,
+      "y": 0.31447748058470104,
+      "w": 0.4790558391556316,
+      "h": 0.04173927783966058
+     },
+     "height": 0.04173927783966058,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dachdeckermeister",
+     "box": {
+      "x": 0.3111013130872838,
+      "y": 0.3767350483557952,
+      "w": 0.36886110637178754,
+      "h": 0.028870420455932688
+     },
+     "height": 0.028870420455932688,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Gewerbering 7",
+     "box": {
+      "x": 0.3662953677255024,
+      "y": 0.515576637596049,
+      "w": 0.26320586333403717,
+      "h": 0.03719060420989995
+     },
+     "height": 0.03719060420989995,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "D-83301 Traunreut",
+     "box": {
+      "x": 0.32459668632991673,
+      "y": 0.5607526406450859,
+      "w": 0.3036602712506032,
+      "h": 0.02909022569656372
+     },
+     "height": 0.02909022569656372,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fon 08669 / 3 47 12",
+     "box": {
+      "x": 0.31725161086846637,
+      "y": 0.6552298139483077,
+      "w": 0.34317255204248615,
+      "h": 0.038380322456359806
+     },
+     "height": 0.038380322456359806,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Handy 0160 9 12 34 56",
+     "box": {
+      "x": 0.29768281938428115,
+      "y": 0.6996141958695182,
+      "w": 0.37091703672666804,
+      "h": 0.03148776769638062
+     },
+     "height": 0.03148776769638062,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "kerschner@dach-kerschner-de.example",
+     "box": {
+      "x": 0.21260008626946933,
+      "y": 0.7361660666733687,
+      "w": 0.4873613040879886,
+      "h": 0.02743105411529534
+     },
+     "height": 0.02743105411529534,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "Ihr Dach in besten Händen",
+     "box": {
+      "x": 0.2687203993188517,
+      "y": 0.8907277209673151,
+      "w": 0.45132752643128615,
+      "h": 0.02490841150283818
+     },
+     "height": 0.02490841150283818,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Hauke",
+   "middle": "",
+   "family": "Kerschner",
+   "suffix": "",
+   "full": "Hauke Kerschner"
+  },
+  "otherName": null,
+  "company": "DACHDECKEREI KERSCHNER GmbH & Co. KG",
+  "department": null,
+  "title": "Dachdeckermeister",
+  "phones": [
+   {
+    "printed": "08669 / 3 47 12",
+    "e164": "+49866934712",
+    "type": "work",
+    "label": "Fon",
+    "ext": null
+   },
+   {
+    "printed": "0160 9 12 34 56",
+    "e164": "+491609123456",
+    "type": "mobile",
+    "label": "Handy",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kerschner@dach-kerschner-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gewerbering 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "83301",
+    "city": "Traunreut",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "DACHDECKEREI KERSCHNER"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "portrait",
+  "logo-split-across-lines",
+  "company-before-name",
+  "name-is-company",
+  "D-postcode",
+  "fon-label",
+  "handy-label",
+  "slash-inside-phone",
+  "slogan",
+  "ocr-1l"
+ ],
+ "notes": "Company is spread over three centred lines. Postcode printed with \"D-\" prefix. Surname-only e-mail local part.",
+ "o3": {
+  "source": "blind-1/cards/de-04.json",
+  "images": [
+   {
+    "name": "b1-de-04",
+    "font": "HoeflerText-Regular",
+    "rotation": -0.51,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 90
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

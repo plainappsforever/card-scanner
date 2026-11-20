@@ -1,0 +1,451 @@
+{
+ "id": "mx-s14",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "voltloop",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2563,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "voltloop",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2563,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Kofi",
+     "box": {
+      "x": 0.07,
+      "y": 0.22,
+      "w": 0.0997,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Kofi",
+       "box": {
+        "x": 0.07,
+        "y": 0.22,
+        "w": 0.0997,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Co-founder · Hardware",
+     "box": {
+      "x": 0.07,
+      "y": 0.31,
+      "w": 0.2617,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Co-founder",
+       "box": {
+        "x": 0.07,
+        "y": 0.31,
+        "w": 0.1246,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2071,
+        "y": 0.31,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Hardware",
+       "box": {
+        "x": 0.232,
+        "y": 0.31,
+        "w": 0.0997,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "+49 1577 3920 418",
+     "box": {
+      "x": 0.07,
+      "y": 0.395,
+      "w": 0.23,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.07,
+        "y": 0.395,
+        "w": 0.0406,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "1577",
+       "box": {
+        "x": 0.1241,
+        "y": 0.395,
+        "w": 0.0541,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "3920",
+       "box": {
+        "x": 0.1918,
+        "y": 0.395,
+        "w": 0.0541,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "418",
+       "box": {
+        "x": 0.2594,
+        "y": 0.395,
+        "w": 0.0406,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "kofi@voltloop-io.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.453,
+      "w": 0.1994,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "kofi@voltloop-io.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.453,
+        "w": 0.1994,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "IG kofi.ships · TG @kofi_berlin",
+     "box": {
+      "x": 0.07,
+      "y": 0.508,
+      "w": 0.3532,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "IG",
+       "box": {
+        "x": 0.07,
+        "y": 0.508,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "kofi.ships",
+       "box": {
+        "x": 0.1042,
+        "y": 0.508,
+        "w": 0.1139,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2295,
+        "y": 0.508,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "TG",
+       "box": {
+        "x": 0.2523,
+        "y": 0.508,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "@kofi_berlin",
+       "box": {
+        "x": 0.2865,
+        "y": 0.508,
+        "w": 0.1367,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "voltloop GmbH · c/o Factory Berlin · Rheinsberger Str. 76/77 · 10115 Berlin",
+     "box": {
+      "x": 0.07,
+      "y": 0.62,
+      "w": 0.5874,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "voltloop",
+       "box": {
+        "x": 0.07,
+        "y": 0.62,
+        "w": 0.0627,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.1405,
+        "y": 0.62,
+        "w": 0.0313,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1796,
+        "y": 0.62,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "c/o",
+       "box": {
+        "x": 0.1953,
+        "y": 0.62,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Factory",
+       "box": {
+        "x": 0.2266,
+        "y": 0.62,
+        "w": 0.0548,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Berlin",
+       "box": {
+        "x": 0.2893,
+        "y": 0.62,
+        "w": 0.047,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3441,
+        "y": 0.62,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Rheinsberger",
+       "box": {
+        "x": 0.3598,
+        "y": 0.62,
+        "w": 0.094,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Str.",
+       "box": {
+        "x": 0.4616,
+        "y": 0.62,
+        "w": 0.0313,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "76/77",
+       "box": {
+        "x": 0.5008,
+        "y": 0.62,
+        "w": 0.0392,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5478,
+        "y": 0.62,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "10115",
+       "box": {
+        "x": 0.5634,
+        "y": 0.62,
+        "w": 0.0392,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Berlin",
+       "box": {
+        "x": 0.6104,
+        "y": 0.62,
+        "w": 0.047,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kofi",
+   "middle": "",
+   "family": "",
+   "suffix": "",
+   "full": "Kofi"
+  },
+  "otherName": null,
+  "company": "voltloop GmbH",
+  "department": "Hardware",
+  "title": "Co-founder",
+  "phones": [
+   {
+    "printed": "+49 1577 3920 418",
+    "e164": "+4915773920418",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kofi@voltloop-io.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "kofi.ships"
+   },
+   {
+    "service": "other",
+    "value": "@kofi_berlin"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Rheinsberger Str. 76/77",
+    "extra": "c/o Factory Berlin",
+    "pobox": "",
+    "postcode": "10115",
+    "city": "Berlin",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls"
+ ],
+ "accept": {
+  "company": [
+   "voltloop"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "startup",
+  "first-name-only",
+  "labelled-handle",
+  "title-department-line",
+  "co-address",
+  "lowercase-logo",
+  "unlabelled-mobile"
+ ],
+ "notes": "First name only. \"IG\" = Instagram, \"TG\" = Telegram (social other). The footer line holds legal name and address in one segmented line with a c/o part. \"Co-founder · Hardware\" = title + department."
+}

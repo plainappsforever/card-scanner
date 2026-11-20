@@ -1,0 +1,571 @@
+{
+ "id": "no-n29",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "no"
+ ],
+ "card_country": "NO",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "nb-NO"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "H A U G E N",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2741,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "H",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "A",
+       "box": {
+        "x": 0.1198,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "U",
+       "box": {
+        "x": 0.1697,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "G",
+       "box": {
+        "x": 0.2195,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.2693,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "N",
+       "box": {
+        "x": 0.3192,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "RØR & VARME AS",
+     "box": {
+      "x": 0.07,
+      "y": 0.135,
+      "w": 0.1994,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "RØR",
+       "box": {
+        "x": 0.07,
+        "y": 0.135,
+        "w": 0.0427,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.127,
+        "y": 0.135,
+        "w": 0.0142,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "VARME",
+       "box": {
+        "x": 0.1555,
+        "y": 0.135,
+        "w": 0.0712,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "AS",
+       "box": {
+        "x": 0.2409,
+        "y": 0.135,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Rørlegger siden 1968",
+     "box": {
+      "x": 0.07,
+      "y": 0.195,
+      "w": 0.2492,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Rørlegger",
+       "box": {
+        "x": 0.07,
+        "y": 0.195,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "siden",
+       "box": {
+        "x": 0.1946,
+        "y": 0.195,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "1968",
+       "box": {
+        "x": 0.2694,
+        "y": 0.195,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Bjørn-Erik Haugen",
+     "box": {
+      "x": 0.07,
+      "y": 0.3,
+      "w": 0.3329,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Bjørn-Erik",
+       "box": {
+        "x": 0.07,
+        "y": 0.3,
+        "w": 0.1958,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Haugen",
+       "box": {
+        "x": 0.2854,
+        "y": 0.3,
+        "w": 0.1175,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Daglig leder",
+     "box": {
+      "x": 0.07,
+      "y": 0.375,
+      "w": 0.1495,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Daglig",
+       "box": {
+        "x": 0.07,
+        "y": 0.375,
+        "w": 0.0747,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "leder",
+       "box": {
+        "x": 0.1572,
+        "y": 0.375,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tlf. 22 18 40 55 · Mob. 912 36 480",
+     "box": {
+      "x": 0.07,
+      "y": 0.46,
+      "w": 0.3873,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Tlf.",
+       "box": {
+        "x": 0.07,
+        "y": 0.46,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.127,
+        "y": 0.46,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "18",
+       "box": {
+        "x": 0.1611,
+        "y": 0.46,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "40",
+       "box": {
+        "x": 0.1953,
+        "y": 0.46,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "55",
+       "box": {
+        "x": 0.2295,
+        "y": 0.46,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2636,
+        "y": 0.46,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Mob.",
+       "box": {
+        "x": 0.2864,
+        "y": 0.46,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "912",
+       "box": {
+        "x": 0.3434,
+        "y": 0.46,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "36",
+       "box": {
+        "x": 0.389,
+        "y": 0.46,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "480",
+       "box": {
+        "x": 0.4231,
+        "y": 0.46,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "bj0rn.erik@haugen-r0r-no.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.512,
+      "w": 0.2392,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "bj0rn.erik@haugen-r0r-no.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.512,
+        "w": 0.2392,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Trondheimsveien 136, 0570 Oslo",
+     "box": {
+      "x": 0.07,
+      "y": 0.56,
+      "w": 0.299,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Trondheimsveien",
+       "box": {
+        "x": 0.07,
+        "y": 0.56,
+        "w": 0.1495,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "136,",
+       "box": {
+        "x": 0.2295,
+        "y": 0.56,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "0570",
+       "box": {
+        "x": 0.2793,
+        "y": 0.56,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Oslo",
+       "box": {
+        "x": 0.3291,
+        "y": 0.56,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Org.nr. 912 345 678 MVA",
+     "box": {
+      "x": 0.07,
+      "y": 0.608,
+      "w": 0.2129,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Org.nr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.608,
+        "w": 0.0648,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "912",
+       "box": {
+        "x": 0.1441,
+        "y": 0.608,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.1811,
+        "y": 0.608,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "678",
+       "box": {
+        "x": 0.2181,
+        "y": 0.608,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "MVA",
+       "box": {
+        "x": 0.2551,
+        "y": 0.608,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Bjørn-Erik",
+   "middle": "",
+   "family": "Haugen",
+   "suffix": "",
+   "full": "Bjørn-Erik Haugen"
+  },
+  "otherName": null,
+  "company": "HAUGEN RØR & VARME AS",
+  "department": null,
+  "title": "Daglig leder",
+  "phones": [
+   {
+    "printed": "22 18 40 55",
+    "e164": "+4722184055",
+    "type": "work",
+    "label": "Tlf.",
+    "ext": null
+   },
+   {
+    "printed": "912 36 480",
+    "e164": "+4791236480",
+    "type": "mobile",
+    "label": "Mob.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bjorn.erik@haugen-ror-no.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Trondheimsveien 136",
+    "extra": "",
+    "pobox": "",
+    "postcode": "0570",
+    "city": "Oslo",
+    "region": "",
+    "country": "",
+    "countryCode": "NO"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [
+  "company"
+ ],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "bjorn.erik@haugen-ror-no.example",
+   "ocr": "bj0rn.erik@haugen-r0r-no.example",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "trade",
+  "letter-spaced-logo",
+  "scandinavian-name",
+  "registry-number-phone-like",
+  "tagline",
+  "year-in-tagline",
+  "foreign-region",
+  "ocr-0O-in-word",
+  "hyphenated-given",
+  "family-name-in-company",
+  "street-without-keyword"
+ ],
+ "notes": "Norwegian plumber; logo letter-spaced \"H A U G E N\" over \"RØR & VARME AS\" = company \"HAUGEN RØR & VARME AS\". Org.nr. \"912 345 678\" has 9 digits starting with 9 and looks exactly like the Norwegian mobile \"912 36 480\" - it is a company number (MVA = VAT). \"0\" for \"o\" twice inside the e-mail. \"-veien\" street suffix not in the SPEC list."
+}

@@ -1,0 +1,221 @@
+{
+ "id": "mx-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Sensorik Nord GmbH",
+     "box": {
+      "x": 0.07369969478481928,
+      "y": 0.10493776747737893,
+      "w": 0.3758117294311524,
+      "h": 0.05885954160948059
+     },
+     "height": 0.05885954160948059,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ole Hansen, PhD",
+     "box": {
+      "x": 0.0738912609010977,
+      "y": 0.20091705175835417,
+      "w": 0.2749618148803711,
+      "h": 0.06254736705176156
+     },
+     "height": 0.06254736705176156,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Senior Engineer, R&D",
+     "box": {
+      "x": 0.0721147553796133,
+      "y": 0.2815725264005299,
+      "w": 0.2799949836730957,
+      "h": 0.05944985864705565
+     },
+     "height": 0.05944985864705565,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Wissenschaftspark 4 • 24118 Kiel",
+     "box": {
+      "x": 0.07219300382405795,
+      "y": 0.3562201499399562,
+      "w": 0.38165248870849605,
+      "h": 0.05666162240459194
+     },
+     "height": 0.05666162240459194,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Phone/Fax +49 431 98 76 54-0",
+     "box": {
+      "x": 0.07088000181665312,
+      "y": 0.42757843764205394,
+      "w": 0.35817447662353513,
+      "h": 0.05067120371638112
+     },
+     "height": 0.05067120371638112,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobile +49 151 51 23 45 67",
+     "box": {
+      "x": 0.06831395373232915,
+      "y": 0.5044843049208466,
+      "w": 0.308139533996582,
+      "h": 0.04281299178664755
+     },
+     "height": 0.04281299178664755,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "o.hansen@sensorik-nord-com.example",
+     "box": {
+      "x": 0.06802292255007895,
+      "y": 0.5700172893356096,
+      "w": 0.35970989227294925,
+      "h": 0.05073507227952867
+     },
+     "height": 0.05073507227952867,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "xing.com/profile/Ole_Hansen",
+     "box": {
+      "x": 0.0666281511653407,
+      "y": 0.644161853527777,
+      "w": 0.3522069549560547,
+      "h": 0.05049607560441305
+     },
+     "height": 0.05049607560441305,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ole",
+   "middle": "",
+   "family": "Hansen",
+   "suffix": "PhD",
+   "full": "Ole Hansen, PhD"
+  },
+  "otherName": null,
+  "company": "Sensorik Nord GmbH",
+  "department": "R&D",
+  "title": "Senior Engineer",
+  "phones": [
+   {
+    "printed": "+49 431 98 76 54-0",
+    "e164": "+494319876540",
+    "type": "work",
+    "label": "Phone/Fax",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "+49 151 51 23 45 67",
+    "e164": "+4915151234567",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "o.hansen@sensorik-nord-com.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "xing",
+    "value": "xing.com/profile/Ole_Hansen"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Wissenschaftspark 4",
+    "extra": "",
+    "pobox": "",
+    "postcode": "24118",
+    "city": "Kiel",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls"
+ ],
+ "accept": {
+  "title": [
+   "Senior Engineer, R&D"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "combined-label",
+  "title-dept-one-line",
+  "credential-suffix",
+  "second-language",
+  "ocr-rnm"
+ ],
+ "notes": "Title Senior Engineer, department R&D. Phone/Fax = one number, work (fax accepted). \".corn\" is OCR damage of \".com\" — not a valid TLD to keep.",
+ "o3": {
+  "source": "blind-2/cards/mx-02.json",
+  "images": [
+   {
+    "name": "b2-mx-02",
+    "font": "Didot",
+    "rotation": -1,
+    "noise": 10,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 150
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

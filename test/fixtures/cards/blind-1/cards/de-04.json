@@ -1,0 +1,549 @@
+{
+ "id": "de-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "DACHDECKEREI",
+     "box": {
+      "x": 0.2589,
+      "y": 0.07,
+      "w": 0.4822,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "DACHDECKEREI",
+       "box": {
+        "x": 0.2589,
+        "y": 0.07,
+        "w": 0.4822,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "KERSCHNER",
+     "box": {
+      "x": 0.3192,
+      "y": 0.1425,
+      "w": 0.3616,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "KERSCHNER",
+       "box": {
+        "x": 0.3192,
+        "y": 0.1425,
+        "w": 0.3616,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "GmbH & Co. KG",
+     "box": {
+      "x": 0.3822,
+      "y": 0.22,
+      "w": 0.2357,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.3822,
+        "y": 0.22,
+        "w": 0.0804,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.4741,
+        "y": 0.22,
+        "w": 0.0201,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Co.",
+       "box": {
+        "x": 0.5058,
+        "y": 0.22,
+        "w": 0.0603,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "KG",
+       "box": {
+        "x": 0.5777,
+        "y": 0.22,
+        "w": 0.0402,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Hauke Kerschner",
+     "box": {
+      "x": 0.2657,
+      "y": 0.33,
+      "w": 0.4686,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Hauke",
+       "box": {
+        "x": 0.2657,
+        "y": 0.33,
+        "w": 0.1607,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Kerschner",
+       "box": {
+        "x": 0.445,
+        "y": 0.33,
+        "w": 0.2893,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Dachdeckermeister",
+     "box": {
+      "x": 0.3087,
+      "y": 0.388,
+      "w": 0.3825,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Dachdeckermeister",
+       "box": {
+        "x": 0.3087,
+        "y": 0.388,
+        "w": 0.3825,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Gewerbering 7",
+     "box": {
+      "x": 0.3686,
+      "y": 0.53,
+      "w": 0.2628,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Gewerbering",
+       "box": {
+        "x": 0.3686,
+        "y": 0.53,
+        "w": 0.2298,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.6105,
+        "y": 0.53,
+        "w": 0.0209,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "D-83301 Traunreut",
+     "box": {
+      "x": 0.3268,
+      "y": 0.5677,
+      "w": 0.3464,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "D-83301",
+       "box": {
+        "x": 0.3268,
+        "y": 0.5677,
+        "w": 0.1463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Traunreut",
+       "box": {
+        "x": 0.4851,
+        "y": 0.5677,
+        "w": 0.1881,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Fon 08669 / 3 47 l2",
+     "box": {
+      "x": 0.3236,
+      "y": 0.67,
+      "w": 0.3528,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Fon",
+       "box": {
+        "x": 0.3236,
+        "y": 0.67,
+        "w": 0.0627,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "08669",
+       "box": {
+        "x": 0.3983,
+        "y": 0.67,
+        "w": 0.1045,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.5149,
+        "y": 0.67,
+        "w": 0.0209,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.5478,
+        "y": 0.67,
+        "w": 0.0209,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.5808,
+        "y": 0.67,
+        "w": 0.0418,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "l2",
+       "box": {
+        "x": 0.6346,
+        "y": 0.67,
+        "w": 0.0418,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "Handy 0160 9 12 34 56",
+     "box": {
+      "x": 0.3027,
+      "y": 0.7077,
+      "w": 0.3946,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Handy",
+       "box": {
+        "x": 0.3027,
+        "y": 0.7077,
+        "w": 0.1045,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "0160",
+       "box": {
+        "x": 0.4192,
+        "y": 0.7077,
+        "w": 0.0836,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.5149,
+        "y": 0.7077,
+        "w": 0.0209,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.5478,
+        "y": 0.7077,
+        "w": 0.0418,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.6017,
+        "y": 0.7077,
+        "w": 0.0418,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.6555,
+        "y": 0.7077,
+        "w": 0.0418,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "kerschner@dach-kerschner-de.example",
+     "box": {
+      "x": 0.2179,
+      "y": 0.7454,
+      "w": 0.5642,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "kerschner@dach-kerschner-de.example",
+       "box": {
+        "x": 0.2179,
+        "y": 0.7454,
+        "w": 0.5642,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "Ihr Dach in besten Händen",
+     "box": {
+      "x": 0.2752,
+      "y": 0.9,
+      "w": 0.4495,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Ihr",
+       "box": {
+        "x": 0.2752,
+        "y": 0.9,
+        "w": 0.0579,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Dach",
+       "box": {
+        "x": 0.3442,
+        "y": 0.9,
+        "w": 0.0771,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "in",
+       "box": {
+        "x": 0.4325,
+        "y": 0.9,
+        "w": 0.0386,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "besten",
+       "box": {
+        "x": 0.4822,
+        "y": 0.9,
+        "w": 0.1157,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Händen",
+       "box": {
+        "x": 0.609,
+        "y": 0.9,
+        "w": 0.1157,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Hauke",
+   "middle": "",
+   "family": "Kerschner",
+   "suffix": "",
+   "full": "Hauke Kerschner"
+  },
+  "otherName": null,
+  "company": "DACHDECKEREI KERSCHNER GmbH & Co. KG",
+  "department": null,
+  "title": "Dachdeckermeister",
+  "phones": [
+   {
+    "printed": "08669 / 3 47 12",
+    "e164": "+49866934712",
+    "type": "work",
+    "label": "Fon",
+    "ext": null
+   },
+   {
+    "printed": "0160 9 12 34 56",
+    "e164": "+491609123456",
+    "type": "mobile",
+    "label": "Handy",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kerschner@dach-kerschner-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gewerbering 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "83301",
+    "city": "Traunreut",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "DACHDECKEREI KERSCHNER"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "08669 / 3 47 12",
+   "ocr": "08669 / 3 47 l2",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "portrait",
+  "logo-split-across-lines",
+  "company-before-name",
+  "name-is-company",
+  "D-postcode",
+  "fon-label",
+  "handy-label",
+  "slash-inside-phone",
+  "slogan",
+  "ocr-1l"
+ ],
+ "notes": "Company is spread over three centred lines. Postcode printed with \"D-\" prefix. Surname-only e-mail local part."
+}

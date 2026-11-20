@@ -1,0 +1,543 @@
+{
+ "id": "de-22",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SEIDEL",
+     "box": {
+      "x": 0.07,
+      "y": 0.048,
+      "w": 0.2609,
+      "h": 0.12
+     },
+     "height": 0.12,
+     "words": [
+      {
+       "text": "SEIDEL",
+       "box": {
+        "x": 0.07,
+        "y": 0.048,
+        "w": 0.2609,
+        "h": 0.12
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Dichtungstechnik",
+     "box": {
+      "x": 0.07,
+      "y": 0.19,
+      "w": 0.2899,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Dichtungstechnik",
+       "box": {
+        "x": 0.07,
+        "y": 0.19,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.262,
+      "w": 0.058,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.07,
+        "y": 0.262,
+        "w": 0.058,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Der Marktführer für Industriedichtungen",
+     "box": {
+      "x": 0.07,
+      "y": 0.324,
+      "w": 0.6814,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Der",
+       "box": {
+        "x": 0.07,
+        "y": 0.324,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Marktführer",
+       "box": {
+        "x": 0.1341,
+        "y": 0.324,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.3431,
+        "y": 0.324,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Industriedichtungen",
+       "box": {
+        "x": 0.4071,
+        "y": 0.324,
+        "w": 0.3442,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Komelia Seidel",
+     "box": {
+      "x": 0.07,
+      "y": 0.396,
+      "w": 0.2943,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Komelia",
+       "box": {
+        "x": 0.07,
+        "y": 0.396,
+        "w": 0.1522,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Seidel",
+       "box": {
+        "x": 0.2338,
+        "y": 0.396,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Vertriebsleiterin",
+     "box": {
+      "x": 0.07,
+      "y": 0.478,
+      "w": 0.308,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Vertriebsleiterin",
+       "box": {
+        "x": 0.07,
+        "y": 0.478,
+        "w": 0.308,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Eppelheimer Straße 78 · 69123 Heidelberg",
+     "box": {
+      "x": 0.07,
+      "y": 0.55,
+      "w": 0.6826,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Eppelheimer",
+       "box": {
+        "x": 0.07,
+        "y": 0.55,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Straße",
+       "box": {
+        "x": 0.279,
+        "y": 0.55,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.3974,
+        "y": 0.55,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4434,
+        "y": 0.55,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "69123",
+       "box": {
+        "x": 0.4712,
+        "y": 0.55,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Heidelberg",
+       "box": {
+        "x": 0.5715,
+        "y": 0.55,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +49 6221 3 45 67-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.622,
+      "w": 0.3746,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.622,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.622,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6221",
+       "box": {
+        "x": 0.2162,
+        "y": 0.622,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.2984,
+        "y": 0.622,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3262,
+        "y": 0.622,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67-0",
+       "box": {
+        "x": 0.3722,
+        "y": 0.622,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Mobil 0151 12 34 56 78",
+     "box": {
+      "x": 0.07,
+      "y": 0.694,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.694,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0151",
+       "box": {
+        "x": 0.1703,
+        "y": 0.694,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.2525,
+        "y": 0.694,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.2984,
+        "y": 0.694,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.3444,
+        "y": 0.694,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.3903,
+        "y": 0.694,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "k.seidel@seidel-dichtungen-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.766,
+      "w": 0.5254,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "k.seidel@seidel-dichtungen-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.766,
+        "w": 0.5254,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "www.seidel-dichtungen.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.838,
+      "w": 0.4348,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.seidel-dichtungen.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.838,
+        "w": 0.4348,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kornelia",
+   "middle": "",
+   "family": "Seidel",
+   "suffix": "",
+   "full": "Kornelia Seidel"
+  },
+  "otherName": null,
+  "company": "SEIDEL Dichtungstechnik GmbH",
+  "department": null,
+  "title": "Vertriebsleiterin",
+  "phones": [
+   {
+    "printed": "+49 6221 3 45 67-0",
+    "e164": "+496221345670",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0151 12 34 56 78",
+    "e164": "+4915112345678",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.seidel@seidel-dichtungen-de.example"
+  ],
+  "urls": [
+   "www.seidel-dichtungen.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Eppelheimer Straße 78",
+    "extra": "",
+    "pobox": "",
+    "postcode": "69123",
+    "city": "Heidelberg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "SEIDEL Dichtungstechnik"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Kornelia Seidel",
+   "ocr": "Komelia Seidel",
+   "kinds": [
+    "rn/m"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Kornelia",
+   "ocr": "Komelia",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "tagline-not-title",
+  "legal-form-line",
+  "name-is-company",
+  "ocr-rnm"
+ ],
+ "notes": "Title Vertriebsleiterin, never the \"Marktführer\" tagline. Company = SEIDEL + Dichtungstechnik + GmbH. Given name Kornelia (OCR \"Komelia\")."
+}

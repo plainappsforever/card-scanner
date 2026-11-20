@@ -1,0 +1,440 @@
+{
+ "id": "uk-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Thistle Wellbeing Clinic",
+     "box": {
+      "x": 0.08,
+      "y": 0.1,
+      "w": 0.4674,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Thistle",
+       "box": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Wellbeing",
+       "box": {
+        "x": 0.233,
+        "y": 0.1,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Clinic",
+       "box": {
+        "x": 0.4263,
+        "y": 0.1,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Dr Isla MacLennan",
+     "box": {
+      "x": 0.08,
+      "y": 0.33,
+      "w": 0.3533,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Dr",
+       "box": {
+        "x": 0.08,
+        "y": 0.33,
+        "w": 0.0437,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Isla",
+       "box": {
+        "x": 0.1364,
+        "y": 0.33,
+        "w": 0.0875,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "MacLennan",
+       "box": {
+        "x": 0.2365,
+        "y": 0.33,
+        "w": 0.1968,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Consultant Clinical Psychologist",
+     "box": {
+      "x": 0.08,
+      "y": 0.4243,
+      "w": 0.4193,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Consultant",
+       "box": {
+        "x": 0.08,
+        "y": 0.4243,
+        "w": 0.1346,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Clinical",
+       "box": {
+        "x": 0.2224,
+        "y": 0.4243,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Psychologist",
+       "box": {
+        "x": 0.3378,
+        "y": 0.4243,
+        "w": 0.1615,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "DClinPsy, CPsychol",
+     "box": {
+      "x": 0.08,
+      "y": 0.4823,
+      "w": 0.207,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "DClinPsy,",
+       "box": {
+        "x": 0.08,
+        "y": 0.4823,
+        "w": 0.106,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "CPsychol",
+       "box": {
+        "x": 0.1928,
+        "y": 0.4823,
+        "w": 0.0942,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "2nd Floor, 14 Queen Street",
+     "box": {
+      "x": 0.08,
+      "y": 0.66,
+      "w": 0.2944,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "2nd",
+       "box": {
+        "x": 0.08,
+        "y": 0.66,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Floor,",
+       "box": {
+        "x": 0.1233,
+        "y": 0.66,
+        "w": 0.0727,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "14",
+       "box": {
+        "x": 0.203,
+        "y": 0.66,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Queen",
+       "box": {
+        "x": 0.2342,
+        "y": 0.66,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Street",
+       "box": {
+        "x": 0.3018,
+        "y": 0.66,
+        "w": 0.0727,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Edinburgh EH2 1JX",
+     "box": {
+      "x": 0.08,
+      "y": 0.7122,
+      "w": 0.1957,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Edinburgh",
+       "box": {
+        "x": 0.08,
+        "y": 0.7122,
+        "w": 0.109,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "EH2",
+       "box": {
+        "x": 0.196,
+        "y": 0.7122,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "1JX",
+       "box": {
+        "x": 0.2393,
+        "y": 0.7122,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel: 0131 496 0055",
+     "box": {
+      "x": 0.08,
+      "y": 0.7644,
+      "w": 0.2027,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Tel:",
+       "box": {
+        "x": 0.08,
+        "y": 0.7644,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "0131",
+       "box": {
+        "x": 0.1354,
+        "y": 0.7644,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "496",
+       "box": {
+        "x": 0.1909,
+        "y": 0.7644,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "0055",
+       "box": {
+        "x": 0.2342,
+        "y": 0.7644,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "isla@thistlewellbeing-scot.example · thistlewellbeing.scot",
+     "box": {
+      "x": 0.08,
+      "y": 0.8166,
+      "w": 0.5954,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "isla@thistlewellbeing-scot.example",
+       "box": {
+        "x": 0.08,
+        "y": 0.8166,
+        "w": 0.3149,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4019,
+        "y": 0.8166,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "thistlewellbeing.scot",
+       "box": {
+        "x": 0.421,
+        "y": 0.8166,
+        "w": 0.2544,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Isla",
+   "middle": "",
+   "family": "MacLennan",
+   "suffix": "",
+   "full": "Dr Isla MacLennan"
+  },
+  "otherName": null,
+  "company": "Thistle Wellbeing Clinic",
+  "department": null,
+  "title": "Consultant Clinical Psychologist",
+  "phones": [
+   {
+    "printed": "0131 496 0055",
+    "e164": "+441314960055",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "isla@thistlewellbeing-scot.example"
+  ],
+  "urls": [
+   "thistlewellbeing.scot"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "14 Queen Street",
+    "extra": "2nd Floor",
+    "pobox": "",
+    "postcode": "EH2 1JX",
+    "city": "Edinburgh",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "name.suffix": [
+   "DClinPsy, CPsychol"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "dr-without-dot",
+  "mac-capitalisation",
+  "floor-before-street",
+  "scot-tld",
+  "postnominal-line",
+  "region-mismatch"
+ ],
+ "notes": "Phone region is DE but the number is a UK national number without +44: the country must come from the UK postcode."
+}

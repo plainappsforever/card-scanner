@@ -1,0 +1,200 @@
+{
+ "id": "vn-v41",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "vi-VT",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CÔNG TY TNHH CƠ ĐIỆN SAO MAI",
+     "box": {
+      "x": 0.07373587287575006,
+      "y": 0.030150859817715037,
+      "w": 0.46163810729980465,
+      "h": 0.0604180516423406
+     },
+     "height": 0.0604180516423406,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "TRẦN QUỐC BẢO",
+     "box": {
+      "x": 0.07352870260467796,
+      "y": 0.1390910384563967,
+      "w": 0.28906179428100587,
+      "h": 0.07110734519811202
+     },
+     "height": 0.07110734519811202,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Trưởng phòng Kỹ thuật",
+     "box": {
+      "x": 0.07227669899894203,
+      "y": 0.22596981678238015,
+      "w": 0.2231099891662598,
+      "h": 0.044960180304685626
+     },
+     "height": 0.044960180304685626,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "ĐT: (024) 3 762 4410 - Di động: 0912 345 078",
+     "box": {
+      "x": 0.07032008793151817,
+      "y": 0.3065165288708669,
+      "w": 0.31774795532226563,
+      "h": 0.05043070288698637
+     },
+     "height": 0.05043070288698637,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "bao.tq@saomai-me-vn.example",
+     "box": {
+      "x": 0.07072671982100247,
+      "y": 0.3606148177786185,
+      "w": 0.16655498504638672,
+      "h": 0.037172818275952424
+     },
+     "height": 0.037172818275952424,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Số 25 Ngõ 102 Trường Chinh, Phường Kim Liên, Hà Nội",
+     "box": {
+      "x": 0.0702714716382199,
+      "y": 0.4018629839696297,
+      "w": 0.39679653167724616,
+      "h": 0.0528005099204516
+     },
+     "height": 0.0528005099204516,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "MST: 0101234567",
+     "box": {
+      "x": 0.06666591662475026,
+      "y": 0.45704723905738653,
+      "w": 0.11231217384338381,
+      "h": 0.027216319411877965
+     },
+     "height": 0.027216319411877965,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "BẢO",
+   "middle": "QUỐC",
+   "family": "TRẦN",
+   "suffix": "",
+   "full": "TRẦN QUỐC BẢO"
+  },
+  "otherName": null,
+  "company": "CÔNG TY TNHH CƠ ĐIỆN SAO MAI",
+  "department": null,
+  "title": "Trưởng phòng Kỹ thuật",
+  "phones": [
+   {
+    "printed": "(024) 3 762 4410",
+    "e164": "+842437624410",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0912 345 078",
+    "e164": "+84912345078",
+    "type": "mobile",
+    "label": "Di động:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bao.tq@saomai-me-vn.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Số 25 Ngõ 102 Trường Chinh",
+    "extra": "Phường Kim Liên",
+    "pobox": "",
+    "postcode": "",
+    "city": "Hà Nội",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "vietnamese-order",
+  "name-caps",
+  "diacritic-lost",
+  "vat-id",
+  "legal-form-in-company",
+  "no-postcode",
+  "foreign-region",
+  "title-department-word"
+ ],
+ "notes": "Vietnamese order in caps: family TRẦN, middle QUỐC, given BẢO (e-mail bao.tq = given.initials). OCR lost every diacritic on the name line only. \"Trưởng phòng Kỹ thuật\" = head of the technical department. MST (tax code, 10 digits starting 01) is not a phone. No postcode.",
+ "o3": {
+  "source": "blind-3/cards/vn-v41.json",
+  "images": [
+   {
+    "name": "b3-vn-v41",
+    "font": "Palatino-Roman",
+    "rotation": -1.2,
+    "noise": 10,
+    "blur": 0,
+    "langs": [
+     "vi-VT",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

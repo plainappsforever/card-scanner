@@ -1,0 +1,153 @@
+{
+ "id": "uk-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "REID AUDIO",
+     "box": {
+      "x": 0.06636775013582913,
+      "y": 0.17691956474830572,
+      "w": 0.31726449966430664,
+      "h": 0.09487881899800532
+     },
+     "height": 0.09487881899800532,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Callum Reid",
+     "box": {
+      "x": 0.06642372501319237,
+      "y": 0.31046407915956564,
+      "w": 0.19560976028442384,
+      "h": 0.04997043904190368
+     },
+     "height": 0.04997043904190368,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Sound Engineer & Producer",
+     "box": {
+      "x": 0.06487698943721817,
+      "y": 0.3706834544482541,
+      "w": 0.36729064941406253,
+      "h": 0.07463313806010952
+     },
+     "height": 0.07463313806010952,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "07834 567890",
+     "box": {
+      "x": 0.06767019337318005,
+      "y": 0.45894621517862855,
+      "w": 0.1945208549499512,
+      "h": 0.05084910816207355
+     },
+     "height": 0.05084910816207355,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "callum@reidaudio-co-uk.example",
+     "box": {
+      "x": 0.06666666345650228,
+      "y": 0.5256410260329667,
+      "w": 0.3083333396911621,
+      "h": 0.06410256315842555
+     },
+     "height": 0.06410256315842555,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Callum",
+   "middle": "",
+   "family": "Reid",
+   "suffix": "",
+   "full": "Callum Reid"
+  },
+  "otherName": null,
+  "company": "REID AUDIO",
+  "department": null,
+  "title": "Sound Engineer & Producer",
+  "phones": [
+   {
+    "printed": "07834 567890",
+    "e164": "+447834567890",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "callum@reidaudio-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "region-from-cctld",
+  "name-is-company",
+  "absent-addresses"
+ ],
+ "notes": "07834 567890 with region DE would be a (wrong) German number; the .uk ccTLD gives +44 7834 567890. Company REID AUDIO matches the domain stem.",
+ "o3": {
+  "source": "blind-2/cards/uk-03.json",
+  "images": [
+   {
+    "name": "b2-uk-03",
+    "font": "ArialMT",
+    "rotation": 1.9,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 123
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,213 @@
+{
+ "id": "at-u20-front",
+ "group": "at-u20",
+ "side": "front",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TU Graz",
+     "box": {
+      "x": 0.06388102203622481,
+      "y": 0.0694090689706639,
+      "w": 0.15858309745788574,
+      "h": 0.043761036110660734
+     },
+     "height": 0.043761036110660734,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Technische Universität Graz",
+     "box": {
+      "x": 0.06509404018462725,
+      "y": 0.15458816053382618,
+      "w": 0.24765001296997072,
+      "h": 0.03392936824371462
+     },
+     "height": 0.03392936824371462,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Fakultät für Elektrotechnik und Informationstechnik",
+     "box": {
+      "x": 0.06515033310454328,
+      "y": 0.21423094253722708,
+      "w": 0.3449776840209961,
+      "h": 0.03249731763449404
+     },
+     "height": 0.03249731763449404,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Institut für Elektrische Anlagen und Netze",
+     "box": {
+      "x": 0.0651495091503262,
+      "y": 0.2610185060788188,
+      "w": 0.29701076507568364,
+      "h": 0.03289625175210953
+     },
+     "height": 0.03289625175210953,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Univ.-Prof. Dipl.-Ing. Dr.techn. Matthias Edlinger",
+     "box": {
+      "x": 0.06795667566196925,
+      "y": 0.3357296395495638,
+      "w": 0.537068977355957,
+      "h": 0.05395118794386
+     },
+     "height": 0.05395118794386,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Institutsvorstand",
+     "box": {
+      "x": 0.06653504058521151,
+      "y": 0.40994724351657064,
+      "w": 0.15914758682250976,
+      "h": 0.0313834959935958
+     },
+     "height": 0.0313834959935958,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Inffeldgasse 18/I, 8010 Graz",
+     "box": {
+      "x": 0.06802561260352555,
+      "y": 0.4915573510062998,
+      "w": 0.20262020111083986,
+      "h": 0.035395780585447234
+     },
+     "height": 0.035395780585447234,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +43 316 873-7550",
+     "box": {
+      "x": 0.06806246908527593,
+      "y": 0.5387915802071823,
+      "w": 0.1619418716430664,
+      "h": 0.031829959177142375
+     },
+     "height": 0.031829959177142375,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Univ.-Prof. Dipl.-Ing. Dr.techn.",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Edlinger",
+   "suffix": "",
+   "full": "Univ.-Prof. Dipl.-Ing. Dr.techn. Matthias Edlinger"
+  },
+  "otherName": null,
+  "company": "Technische Universität Graz",
+  "department": "Institut für Elektrische Anlagen und Netze",
+  "title": "Institutsvorstand",
+  "phones": [
+   {
+    "printed": "+43 316 873-7550",
+    "e164": "+433168737550",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Inffeldgasse 18/I",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8010",
+    "city": "Graz",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "TU Graz"
+  ],
+  "department": [
+   "Fakultät für Elektrotechnik und Informationstechnik"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "academic",
+  "prefix-stack",
+  "faculty-line",
+  "orcid",
+  "second-language-back",
+  "foreign-region",
+  "ocr-1l",
+  "roman-numeral-door",
+  "gasse-street"
+ ],
+ "notes": "Prefix stack \"Univ.-Prof. Dipl.-Ing. Dr.techn.\" (three titles). Logo \"TU Graz\" + full name. Title begins with \"l\" for \"I\". \"18/I\" = house 18, staircase I.",
+ "o3": {
+  "source": "blind-3/cards/at-u20-front.json",
+  "images": [
+   {
+    "name": "b3-at-u20-front",
+    "font": "AmericanTypewriter",
+    "rotation": 1.22,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 100
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,65 @@
+appId: ${APP_ID}
+name: P8 - add a back side to a card from Photos (Review)
+tags:
+  - p8
+---
+# P7 L11 "retake / add back side, not exercised": Review → "Add back side" → Photos → the system picker (no permission) →
+# the card has two sides ("Retake back" replaces the button, the front/back toggle appears) and is read again.
+# Needs the O3 image in the device's photo library (as U3).
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: one
+- tapOn:
+    id: filter-draft
+- tapOn: "Jürgen Müller"
+- assertVisible:
+    id: review-screen
+- scrollUntilVisible:
+    element:
+      id: add-back-button
+- tapOn:
+    id: add-back-button
+# P8: the user chooses the scanner or a photo (with the camera denied, iOS's scanner only says "Camera Unavailable")
+- tapOn:
+    id: choice-photos
+- extendedWaitUntil:
+    visible: ".*(Photo|Photos|Recent).*"
+    timeout: 20000
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn: "Photo, October 16, .*"
+      - tapOn:
+          text: "Done"
+          optional: true
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - tapOn:
+          id: ".*:id/icon_thumbnail"
+          index: 0
+          optional: true
+      - tapOn:
+          text: "Photo taken on.*"
+          index: 0
+          optional: true
+      - tapOn:
+          text: "Done"
+          optional: true
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 60000
+- scrollUntilVisible:
+    element:
+      id: retake-back-button
+    timeout: 30000
+- scrollUntilVisible:
+    element:
+      id: side-toggle
+    direction: UP
+    timeout: 20000
+- takeScreenshot: p8-add-back

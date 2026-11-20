@@ -1,0 +1,696 @@
+{
+ "id": "kr-02-both",
+ "group": "kr-02",
+ "side": "both",
+ "card_langs": [
+  "en",
+  "ko"
+ ],
+ "card_country": "KR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ko-KR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SARIM BIO",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.153,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "SARIM",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "BIO",
+       "box": {
+        "x": 0.1624,
+        "y": 0.07,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Sarim Bio Co., Ltd.",
+     "box": {
+      "x": 0.07,
+      "y": 0.16,
+      "w": 0.1801,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Sarim",
+       "box": {
+        "x": 0.07,
+        "y": 0.16,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Bio",
+       "box": {
+        "x": 0.1193,
+        "y": 0.16,
+        "w": 0.0323,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Co.,",
+       "box": {
+        "x": 0.1578,
+        "y": 0.16,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.2071,
+        "y": 0.16,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Lee Ji-hoon, Ph.D.",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.3463,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Lee",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ji-hoon,",
+       "box": {
+        "x": 0.1422,
+        "y": 0.29,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ph.D.",
+       "box": {
+        "x": 0.3154,
+        "y": 0.29,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Senior Researcher",
+     "box": {
+      "x": 0.07,
+      "y": 0.377,
+      "w": 0.2343,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Senior",
+       "box": {
+        "x": 0.07,
+        "y": 0.377,
+        "w": 0.0848,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Researcher",
+       "box": {
+        "x": 0.1629,
+        "y": 0.377,
+        "w": 0.1413,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Antibody Discovery Team",
+     "box": {
+      "x": 0.07,
+      "y": 0.4379,
+      "w": 0.2683,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Antibody",
+       "box": {
+        "x": 0.07,
+        "y": 0.4379,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Discovery",
+       "box": {
+        "x": 0.1739,
+        "y": 0.4379,
+        "w": 0.109,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Team",
+       "box": {
+        "x": 0.2899,
+        "y": 0.4379,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "123 Pangyo-ro, Bundang-gu, Seongnam-si,",
+     "box": {
+      "x": 0.07,
+      "y": 0.6,
+      "w": 0.4062,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "123",
+       "box": {
+        "x": 0.07,
+        "y": 0.6,
+        "w": 0.0323,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Pangyo-ro,",
+       "box": {
+        "x": 0.1085,
+        "y": 0.6,
+        "w": 0.1077,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Bundang-gu,",
+       "box": {
+        "x": 0.2224,
+        "y": 0.6,
+        "w": 0.1184,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Seongnam-si,",
+       "box": {
+        "x": 0.347,
+        "y": 0.6,
+        "w": 0.1292,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Gyeonggi-do 13494, Korea",
+     "box": {
+      "x": 0.07,
+      "y": 0.6464,
+      "w": 0.2493,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Gyeonggi-do",
+       "box": {
+        "x": 0.07,
+        "y": 0.6464,
+        "w": 0.1184,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "13494,",
+       "box": {
+        "x": 0.1946,
+        "y": 0.6464,
+        "w": 0.0646,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Korea",
+       "box": {
+        "x": 0.2655,
+        "y": 0.6464,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "M +82 10 2345 6789",
+     "box": {
+      "x": 0.07,
+      "y": 0.6928,
+      "w": 0.1756,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.6928,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+82",
+       "box": {
+        "x": 0.087,
+        "y": 0.6928,
+        "w": 0.0323,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "10",
+       "box": {
+        "x": 0.1255,
+        "y": 0.6928,
+        "w": 0.0215,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "2345",
+       "box": {
+        "x": 0.1532,
+        "y": 0.6928,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.2025,
+        "y": 0.6928,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "jihoon.lee@sarimbio-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7392,
+      "w": 0.2369,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "jihoon.lee@sarimbio-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7392,
+        "w": 0.2369,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "ko-KR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "사림바이오 주식회사",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3009,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "사림바이오",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1618,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "주식회사",
+       "box": {
+        "x": 0.2415,
+        "y": 0.07,
+        "w": 0.1294,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b1",
+     "text": "이지훈",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.165,
+      "h": 0.085
+     },
+     "height": 0.085,
+     "words": [
+      {
+       "text": "이지훈",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.165,
+        "h": 0.085
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b2",
+     "text": "항체발굴팀 책임연구원",
+     "box": {
+      "x": 0.07,
+      "y": 0.36,
+      "w": 0.2666,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "항체발굴팀",
+       "box": {
+        "x": 0.07,
+        "y": 0.36,
+        "w": 0.1294,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "책임연구원",
+       "box": {
+        "x": 0.2072,
+        "y": 0.36,
+        "w": 0.1294,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b3",
+     "text": "경기도 성남시 분당구 판교로 123 (13494)",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.4114,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "경기도",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "성남시",
+       "box": {
+        "x": 0.1426,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "분당구",
+       "box": {
+        "x": 0.2152,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "판교로",
+       "box": {
+        "x": 0.2878,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.3604,
+        "y": 0.54,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "(13494)",
+       "box": {
+        "x": 0.4013,
+        "y": 0.54,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b4",
+     "text": "휴대폰 010-2345-6789",
+     "box": {
+      "x": 0.07,
+      "y": 0.5893,
+      "w": 0.2213,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "휴대폰",
+       "box": {
+        "x": 0.07,
+        "y": 0.5893,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "010-2345-6789",
+       "box": {
+        "x": 0.1426,
+        "y": 0.5893,
+        "w": 0.1487,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b5",
+     "text": "jihoon.lee@sarimbio-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6386,
+      "w": 0.2517,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "jihoon.lee@sarimbio-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6386,
+        "w": 0.2517,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ji-hoon",
+   "middle": "",
+   "family": "Lee",
+   "suffix": "Ph.D.",
+   "full": "Lee Ji-hoon, Ph.D."
+  },
+  "otherName": "이지훈",
+  "company": "Sarim Bio Co., Ltd.",
+  "department": "Antibody Discovery Team",
+  "title": "Senior Researcher",
+  "phones": [
+   {
+    "printed": "+82 10 2345 6789",
+    "e164": "+821023456789",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jihoon.lee@sarimbio-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "123 Pangyo-ro",
+    "extra": "Bundang-gu",
+    "pobox": "",
+    "postcode": "13494",
+    "city": "Seongnam-si",
+    "region": "Gyeonggi-do",
+    "country": "Korea",
+    "countryCode": "KR"
+   }
+  ]
+ },
+ "absent": [
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "SARIM BIO",
+   "사림바이오 주식회사"
+  ],
+  "department": [
+   "항체발굴팀"
+  ],
+  "title": [
+   "책임연구원"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "latin-family-first",
+  "comma-phd-suffix",
+  "korean-back",
+  "korean-legal-form-suffix",
+  "address-two-scripts",
+  "other-name-n7",
+  "two-sided",
+  "combined"
+ ],
+ "notes": "English front writes the name family-first (\"Lee Ji-hoon\"); the e-mail jihoon.lee confirms Lee = family. \", Ph.D.\" is a suffix, not \"FAMILY, Given\". Back: Korean with the same data; UI English -> Latin primary."
+}

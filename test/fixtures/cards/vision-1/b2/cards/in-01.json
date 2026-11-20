@@ -1,0 +1,255 @@
+{
+ "id": "in-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "region": "AE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SAHYADRI INFOTECH",
+     "box": {
+      "x": 0.07496894454006192,
+      "y": 0.049731421893919325,
+      "w": 0.4647988510131836,
+      "h": 0.07228281323053654
+     },
+     "height": 0.07228281323053654,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Pvt. Ltd.",
+     "box": {
+      "x": 0.07313329187603645,
+      "y": 0.1472776093320367,
+      "w": 0.11417766571044921,
+      "h": 0.052997773218338984
+     },
+     "height": 0.052997773218338984,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Dr. Venkatesh Raghunathan",
+     "box": {
+      "x": 0.07335023283430239,
+      "y": 0.21888633772504107,
+      "w": 0.4316487503051758,
+      "h": 0.07366675299567149
+     },
+     "height": 0.07366675299567149,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Head - Engineering",
+     "box": {
+      "x": 0.07320341053914468,
+      "y": 0.30027727676237426,
+      "w": 0.244571475982666,
+      "h": 0.059011319429257636
+     },
+     "height": 0.059011319429257636,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "No. 42, 3rd Cross, Koramangala 5th Block",
+     "box": {
+      "x": 0.07214722268638113,
+      "y": 0.3762408251868399,
+      "w": 0.5503479385375976,
+      "h": 0.06767276999572991
+     },
+     "height": 0.06767276999572991,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Bengaluru - 560 095",
+     "box": {
+      "x": 0.0707002585046574,
+      "y": 0.4502011788200142,
+      "w": 0.2552956008911133,
+      "h": 0.05272042705285507
+     },
+     "height": 0.05272042705285507,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Karnataka, India",
+     "box": {
+      "x": 0.06926667215739983,
+      "y": 0.5220558314063372,
+      "w": 0.2057440185546875,
+      "h": 0.05257292419787074
+     },
+     "height": 0.05257292419787074,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "+91 80 4123 4567",
+     "box": {
+      "x": 0.06527754867558343,
+      "y": 0.5952525993039212,
+      "w": 0.22560354232788082,
+      "h": 0.040076903855018164
+     },
+     "height": 0.040076903855018164,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "M: +91 98450 12345",
+     "box": {
+      "x": 0.06793106752712483,
+      "y": 0.6675593624411303,
+      "w": 0.24497793197631837,
+      "h": 0.044261124143269104
+     },
+     "height": 0.044261124143269104,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "venkatesh.r@sahyadri-infotech-in.example",
+     "box": {
+      "x": 0.06500598009999753,
+      "y": 0.7378094910400842,
+      "w": 0.3976667785644531,
+      "h": 0.05618471344465448
+     },
+     "height": 0.05618471344465448,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f10",
+     "text": "GSTIN: 29AABCS1234F1Z5 • CIN: U72200KA2005PTC036789",
+     "box": {
+      "x": 0.06369645840737323,
+      "y": 0.8086473025616145,
+      "w": 0.3362381362915039,
+      "h": 0.030867652082995467
+     },
+     "height": 0.030867652082995467,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Venkatesh",
+   "middle": "",
+   "family": "Raghunathan",
+   "suffix": "",
+   "full": "Dr. Venkatesh Raghunathan"
+  },
+  "otherName": null,
+  "company": "SAHYADRI INFOTECH Pvt. Ltd.",
+  "department": "Engineering",
+  "title": "Head",
+  "phones": [
+   {
+    "printed": "+91 80 4123 4567",
+    "e164": "+918041234567",
+    "type": "work",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "+91 98450 12345",
+    "e164": "+919845012345",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "venkatesh.r@sahyadri-infotech-in.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "No. 42, 3rd Cross",
+    "extra": "Koramangala 5th Block",
+    "pobox": "",
+    "postcode": "560 095",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "country": "India",
+    "countryCode": "IN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Head – Engineering"
+  ],
+  "company": [
+   "SAHYADRI INFOTECH"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "title-dept-one-line",
+  "tax-id",
+  "registry-id",
+  "legal-form-line",
+  "region-from-plus-cc",
+  "ocr-0O"
+ ],
+ "notes": "Title Head, department Engineering. GSTIN/CIN are not phones. PIN code 560 095. Unlabelled +91 80… is a landline (work).",
+ "o3": {
+  "source": "blind-2/cards/in-01.json",
+  "images": [
+   {
+    "name": "b2-in-01",
+    "font": "HelveticaNeue",
+    "rotation": -1.3,
+    "noise": 9,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 90
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,337 @@
+{
+ "id": "jp-01-front",
+ "group": "jp-01",
+ "side": "front",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "株式会社きりはねテック",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3235,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "株式会社きりはねテック",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.3235,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "営業部 部長",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.1372,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "営業部",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.0776,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "部長",
+       "box": {
+        "x": 0.1554,
+        "y": 0.24,
+        "w": 0.0518,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "山田 太郎",
+     "box": {
+      "x": 0.07,
+      "y": 0.33,
+      "w": 0.2504,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "山田",
+       "box": {
+        "x": 0.07,
+        "y": 0.33,
+        "w": 0.1165,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "太郎",
+       "box": {
+        "x": 0.2039,
+        "y": 0.33,
+        "w": 0.1165,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "〒150-0002 東京都渋谷区渋谷2-21-1 渋谷桜ビル8F",
+     "box": {
+      "x": 0.07,
+      "y": 0.6,
+      "w": 0.5042,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "〒150-0002",
+       "box": {
+        "x": 0.07,
+        "y": 0.6,
+        "w": 0.1135,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "東京都渋谷区渋谷2-21-1",
+       "box": {
+        "x": 0.1901,
+        "y": 0.6,
+        "w": 0.2446,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "渋谷桜ビル8F",
+       "box": {
+        "x": 0.4414,
+        "y": 0.6,
+        "w": 0.1329,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "TEL 03-1234-5678 FAX 03-1234-5679",
+     "box": {
+      "x": 0.07,
+      "y": 0.6493,
+      "w": 0.363,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "TEL",
+       "box": {
+        "x": 0.07,
+        "y": 0.6493,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "03-1234-5678",
+       "box": {
+        "x": 0.1109,
+        "y": 0.6493,
+        "w": 0.1373,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "FAX",
+       "box": {
+        "x": 0.2548,
+        "y": 0.6493,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "03-1234-5679",
+       "box": {
+        "x": 0.2957,
+        "y": 0.6493,
+        "w": 0.1373,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "携帯 090-1234-5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.6986,
+      "w": 0.1993,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "携帯",
+       "box": {
+        "x": 0.07,
+        "y": 0.6986,
+        "w": 0.044,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "090-1234-5678",
+       "box": {
+        "x": 0.1206,
+        "y": 0.6986,
+        "w": 0.1487,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "t.yamada@kirihanetech-co-jp.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7479,
+      "w": 0.286,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "t.yamada@kirihanetech-co-jp.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7479,
+        "w": 0.286,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "太郎",
+   "middle": "",
+   "family": "山田",
+   "suffix": "",
+   "full": "山田 太郎"
+  },
+  "otherName": null,
+  "company": "株式会社きりはねテック",
+  "department": "営業部",
+  "title": "部長",
+  "phones": [
+   {
+    "printed": "03-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "TEL",
+    "ext": null
+   },
+   {
+    "printed": "03-1234-5679",
+    "e164": "+81312345679",
+    "type": "fax",
+    "label": "FAX",
+    "ext": null
+   },
+   {
+    "printed": "090-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "携帯",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihanetech-co-jp.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "渋谷2-21-1",
+    "extra": "渋谷桜ビル8F",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "渋谷区",
+    "region": "東京都",
+    "country": "",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "cjk-name-with-space",
+  "postal-mark",
+  "department-and-title-one-line",
+  "other-name-n7",
+  "address-two-scripts",
+  "comma-in-title",
+  "legal-form-prefix",
+  "two-sided"
+ ],
+ "notes": "Front Japanese, back English. Both-sides fixture: UI German -> Latin name primary, Japanese name = otherName (N7). The same office address is printed in both scripts: one address in truth; a second (Japanese) address from the extractor is a duplicate, not a wrong value. 株式会社 precedes the company name."
+}

@@ -1,0 +1,252 @@
+{
+ "id": "mx-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en",
+  "fi"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Institut für Angewandte Sensorik",
+     "box": {
+      "x": 0.05349553104461247,
+      "y": 0.05588354288413555,
+      "w": 0.4294015502929688,
+      "h": 0.058023806244249965
+     },
+     "height": 0.058023806244249965,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Institute of Applied Sensing",
+     "box": {
+      "x": 0.05523255567597353,
+      "y": 0.13416988397600238,
+      "w": 0.24273256301879886,
+      "h": 0.033991550386642366
+     },
+     "height": 0.033991550386642366,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Prof. Dr. rer. nat. Eero Väisänen",
+     "box": {
+      "x": 0.0577909850393376,
+      "y": 0.251527246650732,
+      "w": 0.5414006423950196,
+      "h": 0.06706807420060446
+     },
+     "height": 0.06706807420060446,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Abteilungsleiter / Head of Department",
+     "box": {
+      "x": 0.057894817370383544,
+      "y": 0.3453928296274955,
+      "w": 0.3581113433837891,
+      "h": 0.04450501806487439
+     },
+     "height": 0.04450501806487439,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Optische Messtechnik / Optical Metrology",
+     "box": {
+      "x": 0.057902693991012485,
+      "y": 0.3962217763053154,
+      "w": 0.42346061706542965,
+      "h": 0.04838812213146548
+     },
+     "height": 0.04838812213146548,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Albert-Einstein-Str. 7, 07745 Jena, Germany",
+     "box": {
+      "x": 0.058098383311280415,
+      "y": 0.5998660227974868,
+      "w": 0.4212870788574219,
+      "h": 0.047906544217731994
+     },
+     "height": 0.047906544217731994,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 (0) 3641 94 77-210",
+     "box": {
+      "x": 0.06085456286021596,
+      "y": 0.6605856521077932,
+      "w": 0.2533119583129883,
+      "h": 0.038422404108820696
+     },
+     "height": 0.038422404108820696,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fax +49 (0) 3641 94 77-299",
+     "box": {
+      "x": 0.06082195352089652,
+      "y": 0.7122796162884664,
+      "w": 0.24319494247436524,
+      "h": 0.038776548672827094
+     },
+     "height": 0.038776548672827094,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "eero.vaeisaenen@ias-wehra-de.example",
+     "box": {
+      "x": 0.060801132811988054,
+      "y": 0.759422514440235,
+      "w": 0.29118745803833007,
+      "h": 0.04159271578991275
+     },
+     "height": 0.04159271578991275,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "www.ias-wehra.de",
+     "box": {
+      "x": 0.061046513303700235,
+      "y": 0.8161434983112588,
+      "w": 0.15552325248718263,
+      "h": 0.03363228580666322
+     },
+     "height": 0.03363228580666322,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Prof. Dr. rer. nat.",
+   "given": "Eero",
+   "middle": "",
+   "family": "Väisänen",
+   "suffix": "",
+   "full": "Prof. Dr. rer. nat. Eero Väisänen"
+  },
+  "otherName": null,
+  "company": "Institut für Angewandte Sensorik",
+  "department": "Optische Messtechnik",
+  "title": "Abteilungsleiter",
+  "phones": [
+   {
+    "printed": "+49 (0) 3641 94 77-210",
+    "e164": "+4936419477210",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 (0) 3641 94 77-299",
+    "e164": "+4936419477299",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "eero.vaeisaenen@ias-wehra-de.example"
+  ],
+  "urls": [
+   "www.ias-wehra.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Albert-Einstein-Str. 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "07745",
+    "city": "Jena",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Institute of Applied Sensing"
+  ],
+  "department": [
+   "Optical Metrology",
+   "Optische Messtechnik / Optical Metrology"
+  ],
+  "title": [
+   "Head of Department",
+   "Abteilungsleiter / Head of Department"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "bilingual-lines-with-slash",
+  "trunk-0-in-parens",
+  "transliterated-email",
+  "leading-zero-postcode",
+  "no-legal-form",
+  "person-name-street",
+  "prefix-chain"
+ ],
+ "notes": "Title and department lines are \"German / English\". \"+49 (0) 3641\": the (0) must be dropped. ä→ae in the e-mail.",
+ "o3": {
+  "source": "blind-1/cards/mx-02.json",
+  "images": [
+   {
+    "name": "b1-mx-02",
+    "font": "ArialMT",
+    "rotation": 0.82,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 138
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

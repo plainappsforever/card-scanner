@@ -1,0 +1,243 @@
+{
+ "id": "es-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "region": "ES",
+  "uiLang": "es",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GRUPO ALMORAZ",
+     "box": {
+      "x": 0.06934491353980811,
+      "y": 0.05837544986804932,
+      "w": 0.28706707000732423,
+      "h": 0.05850747377255716
+     },
+     "height": 0.05850747377255716,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Hoteles",
+     "box": {
+      "x": 0.06831395245373274,
+      "y": 0.15022421530912067,
+      "w": 0.06395349025726317,
+      "h": 0.026905829381758672
+     },
+     "height": 0.026905829381758672,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "María José Fernández Gutiérrez",
+     "box": {
+      "x": 0.06976744931845609,
+      "y": 0.29147982112269877,
+      "w": 0.4883720779418946,
+      "h": 0.04932735325286752
+     },
+     "height": 0.04932735325286752,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Directora de Marketing",
+     "box": {
+      "x": 0.069518319244216,
+      "y": 0.37169404382270965,
+      "w": 0.22733806610107424,
+      "h": 0.04118683715584659
+     },
+     "height": 0.04118683715584659,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Grupo Almoraz Hoteles S.L.",
+     "box": {
+      "x": 0.06966339770869634,
+      "y": 0.5364148791989547,
+      "w": 0.24000595092773436,
+      "h": 0.03583909185696754
+     },
+     "height": 0.03583909185696754,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Paseo de la Castellana, 95, planta 12",
+     "box": {
+      "x": 0.06976744112280919,
+      "y": 0.5941704041732465,
+      "w": 0.28779069900512694,
+      "h": 0.03363228580666333
+     },
+     "height": 0.03363228580666333,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "28046 Madrid",
+     "box": {
+      "x": 0.06976744326903202,
+      "y": 0.640926641069389,
+      "w": 0.12645348548889163,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +34 912 345 678 • Móvil +34 612 345 678",
+     "box": {
+      "x": 0.06958076335358633,
+      "y": 0.686181627482908,
+      "w": 0.398599853515625,
+      "h": 0.040922720920165134
+     },
+     "height": 0.040922720920165134,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "mjfernandez@grupoalmoraz-es.example",
+     "box": {
+      "x": 0.06976744369923235,
+      "y": 0.7466367718718389,
+      "w": 0.26162790298461913,
+      "h": 0.03363228580666322
+     },
+     "height": 0.03363228580666322,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "CIF B-12345678",
+     "box": {
+      "x": 0.06976744288399629,
+      "y": 0.7982062779715366,
+      "w": 0.14534883499145507,
+      "h": 0.029147982137083583
+     },
+     "height": 0.029147982137083583,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "María José",
+   "middle": "",
+   "family": "Fernández Gutiérrez",
+   "suffix": "",
+   "full": "María José Fernández Gutiérrez"
+  },
+  "otherName": null,
+  "company": "Grupo Almoraz Hoteles S.L.",
+  "department": null,
+  "title": "Directora de Marketing",
+  "phones": [
+   {
+    "printed": "+34 912 345 678",
+    "e164": "+34912345678",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+34 612 345 678",
+    "e164": "+34612345678",
+    "type": "mobile",
+    "label": "Móvil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mjfernandez@grupoalmoraz-es.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Paseo de la Castellana, 95",
+    "extra": "planta 12",
+    "pobox": "",
+    "postcode": "28046",
+    "city": "Madrid",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "GRUPO ALMORAZ Hoteles",
+   "GRUPO ALMORAZ"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "compound-given",
+  "two-surnames",
+  "paseo-street",
+  "planta-floor",
+  "cif",
+  "glued-label",
+  "absent-url"
+ ],
+ "notes": "Two given names and two surnames: given \"María José\", family \"Fernández Gutiérrez\" (N4 would wrongly split 1+3).",
+ "o3": {
+  "source": "blind-1/cards/es-01.json",
+  "images": [
+   {
+    "name": "b1-es-01",
+    "font": "Baskerville",
+    "rotation": 0.21,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 91
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

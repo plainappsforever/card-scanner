@@ -1,0 +1,216 @@
+{
+ "id": "jp-01-back",
+ "group": "jp-01",
+ "side": "back",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kirihane System Co., Ltd.",
+     "box": {
+      "x": 0.07195889034328509,
+      "y": 0.09898585196509724,
+      "w": 0.38374862670898435,
+      "h": 0.07895667764671066
+     },
+     "height": 0.07895667764671066,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Taro Yamada",
+     "box": {
+      "x": 0.07227726188114865,
+      "y": 0.19052898650479044,
+      "w": 0.2813493537902832,
+      "h": 0.06793366804086098
+     },
+     "height": 0.06793366804086098,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "General Manager, Sales Department",
+     "box": {
+      "x": 0.07219439634952905,
+      "y": 0.3023331718160145,
+      "w": 0.43397865295410154,
+      "h": 0.06273103220582477
+     },
+     "height": 0.06273103220582477,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Shibuya Square Bldg. 18F, 2-21-1 Shibuya",
+     "box": {
+      "x": 0.06937867120329724,
+      "y": 0.37551257329338195,
+      "w": 0.49926937103271485,
+      "h": 0.06180406077027789
+     },
+     "height": 0.06180406077027789,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Shibuya-ku, Tokyo 150-0002, Japan",
+     "box": {
+      "x": 0.06640270637920487,
+      "y": 0.44457615696539676,
+      "w": 0.4412562561035156,
+      "h": 0.06675731997692447
+     },
+     "height": 0.06675731997692447,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel +81-3-1234-5678 Mobile +81-90-1234-5678",
+     "box": {
+      "x": 0.06801203272211474,
+      "y": 0.5193485522807065,
+      "w": 0.6095914840698241,
+      "h": 0.05582510826670528
+     },
+     "height": 0.05582510826670528,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "t.yamada@kirihane-sys-co-jp.example",
+     "box": {
+      "x": 0.06643558010788798,
+      "y": 0.591075979402472,
+      "w": 0.3105078887939453,
+      "h": 0.05527980907543284
+     },
+     "height": 0.05527980907543284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "www.kirihane-sys.co.jp",
+     "box": {
+      "x": 0.06773390830019106,
+      "y": 0.6593296589319381,
+      "w": 0.2470723152160645,
+      "h": 0.05941764360229018
+     },
+     "height": 0.05941764360229018,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Taro",
+   "middle": "",
+   "family": "Yamada",
+   "suffix": "",
+   "full": "Taro Yamada"
+  },
+  "otherName": null,
+  "company": "Kirihane System Co., Ltd.",
+  "department": "Sales Department",
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "+81-3-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+81-90-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihane-sys-co-jp.example"
+  ],
+  "urls": [
+   "www.kirihane-sys.co.jp"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2-21-1 Shibuya",
+    "extra": "Shibuya Square Bldg. 18F",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "Shibuya-ku",
+    "region": "Tokyo",
+    "country": "Japan",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "General Manager, Sales Department"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "title-dept-one-line",
+  "ext-pair",
+  "region-from-address",
+  "spaced-at"
+ ],
+ "notes": "English back alone: title General Manager, department Sales Department. Latin address with postcode after the prefecture. \" @ \" in the e-mail.",
+ "o3": {
+  "source": "blind-2/cards/jp-01-back.json",
+  "images": [
+   {
+    "name": "b2-jp-01-back",
+    "font": "Optima-Regular",
+    "rotation": -0.92,
+    "noise": 4,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 86
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,577 @@
+{
+ "id": "es-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GRUPO ALMORAZ",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2539,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "GRUPO",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "ALMORAZ",
+       "box": {
+        "x": 0.1826,
+        "y": 0.07,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Hoteles",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.0824,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Hoteles",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "María José Fernández Gutiérrez",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.58,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "María",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "José",
+       "box": {
+        "x": 0.1826,
+        "y": 0.29,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Fernández",
+       "box": {
+        "x": 0.275,
+        "y": 0.29,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Gutiérrez",
+       "box": {
+        "x": 0.4683,
+        "y": 0.29,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Directora de Marketing",
+     "box": {
+      "x": 0.07,
+      "y": 0.377,
+      "w": 0.2989,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Directora",
+       "box": {
+        "x": 0.07,
+        "y": 0.377,
+        "w": 0.1272,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.2053,
+        "y": 0.377,
+        "w": 0.0283,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Marketing",
+       "box": {
+        "x": 0.2418,
+        "y": 0.377,
+        "w": 0.1272,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Grupo Almoraz Hoteles S.L.",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.2996,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Grupo",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Almoraz",
+       "box": {
+        "x": 0.1376,
+        "y": 0.54,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Hoteles",
+       "box": {
+        "x": 0.2293,
+        "y": 0.54,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "S.L.",
+       "box": {
+        "x": 0.3211,
+        "y": 0.54,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Paseo de la Castellana, 95, planta 12",
+     "box": {
+      "x": 0.07,
+      "y": 0.5922,
+      "w": 0.4174,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Paseo",
+       "box": {
+        "x": 0.07,
+        "y": 0.5922,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.1376,
+        "y": 0.5922,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "la",
+       "box": {
+        "x": 0.1688,
+        "y": 0.5922,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Castellana,",
+       "box": {
+        "x": 0.2,
+        "y": 0.5922,
+        "w": 0.1332,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "95,",
+       "box": {
+        "x": 0.3402,
+        "y": 0.5922,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "planta",
+       "box": {
+        "x": 0.3835,
+        "y": 0.5922,
+        "w": 0.0727,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.4632,
+        "y": 0.5922,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "28046 Madrid",
+     "box": {
+      "x": 0.07,
+      "y": 0.6444,
+      "w": 0.1402,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "28046",
+       "box": {
+        "x": 0.07,
+        "y": 0.6444,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Madrid",
+       "box": {
+        "x": 0.1376,
+        "y": 0.6444,
+        "w": 0.0727,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +34 912 345 678 · Móvil+34 612 345 678",
+     "box": {
+      "x": 0.07,
+      "y": 0.6966,
+      "w": 0.4747,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6966,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+34",
+       "box": {
+        "x": 0.1254,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "912",
+       "box": {
+        "x": 0.1688,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2121,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "678",
+       "box": {
+        "x": 0.2554,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2987,
+        "y": 0.6966,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Móvil+34",
+       "box": {
+        "x": 0.3178,
+        "y": 0.6966,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "612",
+       "box": {
+        "x": 0.4217,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.4651,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "678",
+       "box": {
+        "x": 0.5084,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "mjfernandez@grupoalmoraz-es.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7488,
+      "w": 0.327,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "mjfernandez@grupoalmoraz-es.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7488,
+        "w": 0.327,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "CIF B-12345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.801,
+      "w": 0.1645,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "CIF",
+       "box": {
+        "x": 0.07,
+        "y": 0.801,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "B-12345678",
+       "box": {
+        "x": 0.1133,
+        "y": 0.801,
+        "w": 0.1211,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "ES",
+  "uiLang": "es"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "María José",
+   "middle": "",
+   "family": "Fernández Gutiérrez",
+   "suffix": "",
+   "full": "María José Fernández Gutiérrez"
+  },
+  "otherName": null,
+  "company": "Grupo Almoraz Hoteles S.L.",
+  "department": null,
+  "title": "Directora de Marketing",
+  "phones": [
+   {
+    "printed": "+34 912 345 678",
+    "e164": "+34912345678",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+34 612 345 678",
+    "e164": "+34612345678",
+    "type": "mobile",
+    "label": "Móvil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mjfernandez@grupoalmoraz-es.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Paseo de la Castellana, 95",
+    "extra": "planta 12",
+    "pobox": "",
+    "postcode": "28046",
+    "city": "Madrid",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "GRUPO ALMORAZ Hoteles",
+   "GRUPO ALMORAZ"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Móvil +34",
+   "ocr": "Móvil+34",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "compound-given",
+  "two-surnames",
+  "paseo-street",
+  "planta-floor",
+  "cif",
+  "glued-label",
+  "absent-url"
+ ],
+ "notes": "Two given names and two surnames: given \"María José\", family \"Fernández Gutiérrez\" (N4 would wrongly split 1+3)."
+}

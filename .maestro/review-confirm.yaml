@@ -1,0 +1,61 @@
+appId: ${APP_ID}
+name: U1 - review, confirm, system new-contact form without permission
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: one
+- tapOn:
+    id: filter-draft
+- tapOn: "Jürgen Müller"
+- assertVisible:
+    id: review-screen
+- assertVisible:
+    id: card-image
+- assertVisible:
+    id: field-name-given
+- scrollUntilVisible:
+    element: "info@mueller-elektro-hn-de.example"
+- takeScreenshot: u1-review
+# Nothing is checked before "Looks right" (L26): the To-check badge is still on the list
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed
+- tapOn:
+    id: add-to-contacts-button
+# The system form (out of process; Maestro cannot read it on iOS) — no permission prompt before it
+- waitForAnimationToEnd
+- takeScreenshot: u1-system-form
+- assertNotVisible:
+    text: ".*would like to access your Contacts.*"
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - extendedWaitUntil:
+          visible: "nothing-here-wait-for-the-remote-form"
+          timeout: 4000
+          optional: true
+      - tapOn:
+          text: Continue
+          optional: true
+      - tapOn:
+          point: 38,100
+      - tapOn:
+          text: "Discard Changes"
+          optional: true
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - back
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 15000

@@ -1,0 +1,237 @@
+{
+ "id": "mx-y06",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "celvyon",
+     "box": {
+      "x": 0.06831395141570681,
+      "y": 0.058295963677461815,
+      "w": 0.17587209701538087,
+      "h": 0.06278026978481699
+     },
+     "height": 0.06278026978481699,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Diagnostics GmbH",
+     "box": {
+      "x": 0.06831395408177862,
+      "y": 0.15919282506038201,
+      "w": 0.14970930099487303,
+      "h": 0.029147982137083472
+     },
+     "height": 0.029147982137083472,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr. Ngozi Adeyemi-Schulz",
+     "box": {
+      "x": 0.06967013885565883,
+      "y": 0.25739702825239474,
+      "w": 0.3170670127868653,
+      "h": 0.0467961396029557
+     },
+     "height": 0.0467961396029557,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Head of Regulatory Affairs EMEA",
+     "box": {
+      "x": 0.06966945764424558,
+      "y": 0.32698591100093544,
+      "w": 0.28074228286743164,
+      "h": 0.0350751766366848
+     },
+     "height": 0.0350751766366848,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Phone +49 6221 3 45 67-0 • Direct -312",
+     "box": {
+      "x": 0.06831395743602471,
+      "y": 0.4121621618524549,
+      "w": 0.2732558059692383,
+      "h": 0.02316602316602312
+     },
+     "height": 0.02316602316602312,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobile +49 172 6 18 40 93",
+     "box": {
+      "x": 0.06831395639222607,
+      "y": 0.46188340818776397,
+      "w": 0.17877906799316406,
+      "h": 0.02267257679383261
+     },
+     "height": 0.02267257679383261,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "• ngozi.adeyemi-schulz@celvyon-com.example",
+     "box": {
+      "x": 0.06821199348320114,
+      "y": 0.5088076119019292,
+      "w": 0.23711191177368166,
+      "h": 0.027425265220141326
+     },
+     "height": 0.027425265220141326,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Im Neuenheimer Feld 582 • 69120 Heidelberg • Germany",
+     "box": {
+      "x": 0.06686046800854388,
+      "y": 0.5538116594083605,
+      "w": 0.34883720397949214,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Amtsgericht Mannheim HRB 712345 • Geschäftsführer: Dr. Tobias Renz",
+     "box": {
+      "x": 0.06819426209642128,
+      "y": 0.5959206419065366,
+      "w": 0.3606890487670899,
+      "h": 0.027963837141235848
+     },
+     "height": 0.027963837141235848,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Ngozi",
+   "middle": "",
+   "family": "Adeyemi-Schulz",
+   "suffix": "",
+   "full": "Dr. Ngozi Adeyemi-Schulz"
+  },
+  "otherName": null,
+  "company": "celvyon Diagnostics GmbH",
+  "department": null,
+  "title": "Head of Regulatory Affairs EMEA",
+  "phones": [
+   {
+    "printed": "+49 6221 3 45 67-0",
+    "e164": "+496221345670",
+    "type": "work",
+    "label": "Phone",
+    "ext": null
+   },
+   {
+    "printed": "-312",
+    "e164": "+49622134567312",
+    "type": "work",
+    "label": "Direct",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+49 172 6 18 40 93",
+    "e164": "+491726184093",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ngozi.adeyemi-schulz@celvyon-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Im Neuenheimer Feld 582",
+    "extra": "",
+    "pobox": "",
+    "postcode": "69120",
+    "city": "Heidelberg",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "mixed-de-en",
+  "shared-base",
+  "suffix-only-number",
+  "registry-number",
+  "managing-director-line",
+  "stray-symbol",
+  "nigerian-name",
+  "street-without-keyword",
+  "lowercase-logo",
+  "company-split-lines"
+ ],
+ "notes": "English labels on a German card. \"Direct -312\" replaces the -0 of the base. The e-mail icon was read as \"@ \" in front of the address (not a handle). The managing director in the register line is not the name. \"Im Neuenheimer Feld\" has no street keyword.",
+ "o3": {
+  "source": "blind-3/cards/mx-y06.json",
+  "images": [
+   {
+    "name": "b3-mx-y06",
+    "font": "TrebuchetMS",
+    "rotation": 0.25,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 91
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

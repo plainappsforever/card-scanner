@@ -1,0 +1,548 @@
+{
+ "id": "de-06",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hartmann Logistik AG",
+     "box": {
+      "x": 0.06,
+      "y": 0.07,
+      "w": 0.5156,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Hartmann",
+       "box": {
+        "x": 0.06,
+        "y": 0.07,
+        "w": 0.2153,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Logistik",
+       "box": {
+        "x": 0.2909,
+        "y": 0.07,
+        "w": 0.2153,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "AG",
+       "box": {
+        "x": 0.5217,
+        "y": 0.07,
+        "w": 0.0538,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Wiebke Sonnleitner",
+     "box": {
+      "x": 0.06,
+      "y": 0.27,
+      "w": 0.3844,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Wiebke",
+       "box": {
+        "x": 0.06,
+        "y": 0.27,
+        "w": 0.1312,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Sonnleitner",
+       "box": {
+        "x": 0.2038,
+        "y": 0.27,
+        "w": 0.2406,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Leiterin Strategischer Einkauf",
+     "box": {
+      "x": 0.06,
+      "y": 0.3643,
+      "w": 0.412,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Leiterin",
+       "box": {
+        "x": 0.06,
+        "y": 0.3643,
+        "w": 0.1131,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Strategischer",
+       "box": {
+        "x": 0.1812,
+        "y": 0.3643,
+        "w": 0.1837,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Einkauf",
+       "box": {
+        "x": 0.3731,
+        "y": 0.3643,
+        "w": 0.0989,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Abteilung Einkauf",
+     "box": {
+      "x": 0.06,
+      "y": 0.4252,
+      "w": 0.2343,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Abteilung",
+       "box": {
+        "x": 0.06,
+        "y": 0.4252,
+        "w": 0.1272,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Einkauf",
+       "box": {
+        "x": 0.1953,
+        "y": 0.4252,
+        "w": 0.0989,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Speicherstraße 12 · 3.OG · 28217 Bremen",
+     "box": {
+      "x": 0.06,
+      "y": 0.6,
+      "w": 0.4539,
+      "h": 0.037
+     },
+     "height": 0.037,
+     "words": [
+      {
+       "text": "Speicherstraße",
+       "box": {
+        "x": 0.06,
+        "y": 0.6,
+        "w": 0.1743,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.2415,
+        "y": 0.6,
+        "w": 0.0249,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2736,
+        "y": 0.6,
+        "w": 0.0124,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "3.OG",
+       "box": {
+        "x": 0.2932,
+        "y": 0.6,
+        "w": 0.0498,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3502,
+        "y": 0.6,
+        "w": 0.0124,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "28217",
+       "box": {
+        "x": 0.3698,
+        "y": 0.6,
+        "w": 0.0622,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "Bremen",
+       "box": {
+        "x": 0.4392,
+        "y": 0.6,
+        "w": 0.0747,
+        "h": 0.037
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Zentrale +49 421 39 77-0",
+     "box": {
+      "x": 0.06,
+      "y": 0.6536,
+      "w": 0.2777,
+      "h": 0.037
+     },
+     "height": 0.037,
+     "words": [
+      {
+       "text": "Zentrale",
+       "box": {
+        "x": 0.06,
+        "y": 0.6536,
+        "w": 0.0996,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1668,
+        "y": 0.6536,
+        "w": 0.0373,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "421",
+       "box": {
+        "x": 0.2113,
+        "y": 0.6536,
+        "w": 0.0373,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "39",
+       "box": {
+        "x": 0.2558,
+        "y": 0.6536,
+        "w": 0.0249,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "77-0",
+       "box": {
+        "x": 0.2879,
+        "y": 0.6536,
+        "w": 0.0498,
+        "h": 0.037
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Direkt +49 421 39 77-412",
+     "box": {
+      "x": 0.06,
+      "y": 0.7073,
+      "w": 0.2777,
+      "h": 0.037
+     },
+     "height": 0.037,
+     "words": [
+      {
+       "text": "Direkt",
+       "box": {
+        "x": 0.06,
+        "y": 0.7073,
+        "w": 0.0747,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1419,
+        "y": 0.7073,
+        "w": 0.0373,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "421",
+       "box": {
+        "x": 0.1864,
+        "y": 0.7073,
+        "w": 0.0373,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "39",
+       "box": {
+        "x": 0.2309,
+        "y": 0.7073,
+        "w": 0.0249,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "77-412",
+       "box": {
+        "x": 0.263,
+        "y": 0.7073,
+        "w": 0.0747,
+        "h": 0.037
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Mobil +49 151 2345 6789",
+     "box": {
+      "x": 0.06,
+      "y": 0.7609,
+      "w": 0.2653,
+      "h": 0.037
+     },
+     "height": 0.037,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.06,
+        "y": 0.7609,
+        "w": 0.0622,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1294,
+        "y": 0.7609,
+        "w": 0.0373,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "151",
+       "box": {
+        "x": 0.174,
+        "y": 0.7609,
+        "w": 0.0373,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "2345",
+       "box": {
+        "x": 0.2185,
+        "y": 0.7609,
+        "w": 0.0498,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.2755,
+        "y": 0.7609,
+        "w": 0.0498,
+        "h": 0.037
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "w.sonnleitner@hartmann-logistik-com.example · hartmann-logistik.com",
+     "box": {
+      "x": 0.06,
+      "y": 0.8146,
+      "w": 0.724,
+      "h": 0.037
+     },
+     "height": 0.037,
+     "words": [
+      {
+       "text": "w.sonnleitner@hartmann-logistik-com.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.8146,
+        "w": 0.4357,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5029,
+        "y": 0.8146,
+        "w": 0.0124,
+        "h": 0.037
+       }
+      },
+      {
+       "text": "hartmann-logistik.com",
+       "box": {
+        "x": 0.5225,
+        "y": 0.8146,
+        "w": 0.2614,
+        "h": 0.037
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Wiebke",
+   "middle": "",
+   "family": "Sonnleitner",
+   "suffix": "",
+   "full": "Wiebke Sonnleitner"
+  },
+  "otherName": null,
+  "company": "Hartmann Logistik AG",
+  "department": "Abteilung Einkauf",
+  "title": "Leiterin Strategischer Einkauf",
+  "phones": [
+   {
+    "printed": "+49 421 39 77-0",
+    "e164": "+4942139770",
+    "type": "work",
+    "label": "Zentrale",
+    "ext": null
+   },
+   {
+    "printed": "+49 421 39 77-412",
+    "e164": "+494213977412",
+    "type": "work",
+    "label": "Direkt",
+    "ext": null
+   },
+   {
+    "printed": "+49 151 2345 6789",
+    "e164": "+4915123456789",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "w.sonnleitner@hartmann-logistik-com.example"
+  ],
+  "urls": [
+   "hartmann-logistik.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Speicherstraße 12",
+    "extra": "3. OG",
+    "pobox": "",
+    "postcode": "28217",
+    "city": "Bremen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Einkauf"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].extra",
+   "printed": "3. OG",
+   "ocr": "3.OG",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "floor",
+  "switchboard-vs-direct",
+  "title-contains-department-word",
+  "bare-domain",
+  "ocr-dropped-space",
+  "address-one-line"
+ ],
+ "notes": "Title and department share the word \"Einkauf\". Floor \"3. OG\" inside the address line."
+}

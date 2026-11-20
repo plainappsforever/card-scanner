@@ -1,0 +1,645 @@
+{
+ "id": "fr-x45",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CABINET DUBOIS-MARCHETTI",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4272,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "CABINET",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1246,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "DUBOIS-MARCHETTI",
+       "box": {
+        "x": 0.2124,
+        "y": 0.06,
+        "w": 0.2848,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "& ASSOCIÉS",
+     "box": {
+      "x": 0.07,
+      "y": 0.115,
+      "w": 0.1424,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "&",
+       "box": {
+        "x": 0.07,
+        "y": 0.115,
+        "w": 0.0142,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "ASSOCIÉS",
+       "box": {
+        "x": 0.0985,
+        "y": 0.115,
+        "w": 0.1139,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Maître Hélène Dubois-Marchetti",
+     "box": {
+      "x": 0.07,
+      "y": 0.225,
+      "w": 0.534,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Maître",
+       "box": {
+        "x": 0.07,
+        "y": 0.225,
+        "w": 0.1068,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Hélène",
+       "box": {
+        "x": 0.1946,
+        "y": 0.225,
+        "w": 0.1068,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Dubois-Marchetti",
+       "box": {
+        "x": 0.3192,
+        "y": 0.225,
+        "w": 0.2848,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Avocate au Barreau de Paris",
+     "box": {
+      "x": 0.07,
+      "y": 0.295,
+      "w": 0.3268,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Avocate",
+       "box": {
+        "x": 0.07,
+        "y": 0.295,
+        "w": 0.0847,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "au",
+       "box": {
+        "x": 0.1668,
+        "y": 0.295,
+        "w": 0.0242,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Barreau",
+       "box": {
+        "x": 0.2031,
+        "y": 0.295,
+        "w": 0.0847,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.3,
+        "y": 0.295,
+        "w": 0.0242,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Paris",
+       "box": {
+        "x": 0.3363,
+        "y": 0.295,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Associée fondatrice",
+     "box": {
+      "x": 0.07,
+      "y": 0.349,
+      "w": 0.2164,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Associée",
+       "box": {
+        "x": 0.07,
+        "y": 0.349,
+        "w": 0.0911,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "fondatrice",
+       "box": {
+        "x": 0.1725,
+        "y": 0.349,
+        "w": 0.1139,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "42, avenue Kleber · 75116 Paris",
+     "box": {
+      "x": 0.07,
+      "y": 0.431,
+      "w": 0.3311,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "42,",
+       "box": {
+        "x": 0.07,
+        "y": 0.431,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "avenue",
+       "box": {
+        "x": 0.1127,
+        "y": 0.431,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Kleber",
+       "box": {
+        "x": 0.1875,
+        "y": 0.431,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2623,
+        "y": 0.431,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "75116",
+       "box": {
+        "x": 0.2836,
+        "y": 0.431,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Paris",
+       "box": {
+        "x": 0.3477,
+        "y": 0.431,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Tél. 01 45 61 27 80 · Fax 01 45 61 27 81",
+     "box": {
+      "x": 0.07,
+      "y": 0.481,
+      "w": 0.3987,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Tél.",
+       "box": {
+        "x": 0.07,
+        "y": 0.481,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "01",
+       "box": {
+        "x": 0.1198,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.1497,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.1796,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "27",
+       "box": {
+        "x": 0.2095,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "80",
+       "box": {
+        "x": 0.2394,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2693,
+        "y": 0.481,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.2893,
+        "y": 0.481,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "01",
+       "box": {
+        "x": 0.3292,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3591,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.389,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "27",
+       "box": {
+        "x": 0.4189,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "81",
+       "box": {
+        "x": 0.4488,
+        "y": 0.481,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Port. 06 88 12 44 39",
+     "box": {
+      "x": 0.07,
+      "y": 0.529,
+      "w": 0.1994,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Port.",
+       "box": {
+        "x": 0.07,
+        "y": 0.529,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "06",
+       "box": {
+        "x": 0.1298,
+        "y": 0.529,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "88",
+       "box": {
+        "x": 0.1597,
+        "y": 0.529,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.1896,
+        "y": 0.529,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "44",
+       "box": {
+        "x": 0.2196,
+        "y": 0.529,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "39",
+       "box": {
+        "x": 0.2495,
+        "y": 0.529,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "h.dubois-marchetti@dubois-marchetti-avocats-fr.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.577,
+      "w": 0.4258,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "h.dubois-marchetti@dubois-marchetti-avocats-fr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.577,
+        "w": 0.4258,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Toque C 1234",
+     "box": {
+      "x": 0.07,
+      "y": 0.623,
+      "w": 0.1025,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Toque",
+       "box": {
+        "x": 0.07,
+        "y": 0.623,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "C",
+       "box": {
+        "x": 0.1212,
+        "y": 0.623,
+        "w": 0.0085,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "1234",
+       "box": {
+        "x": 0.1383,
+        "y": 0.623,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "FR",
+  "uiLang": "fr"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Maître",
+   "given": "Hélène",
+   "middle": "",
+   "family": "Dubois-Marchetti",
+   "suffix": "",
+   "full": "Maître Hélène Dubois-Marchetti"
+  },
+  "otherName": null,
+  "company": "CABINET DUBOIS-MARCHETTI & ASSOCIÉS",
+  "department": null,
+  "title": "Associée fondatrice",
+  "phones": [
+   {
+    "printed": "01 45 61 27 80",
+    "e164": "+33145612780",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "01 45 61 27 81",
+    "e164": "+33145612781",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "06 88 12 44 39",
+    "e164": "+33688124439",
+    "type": "mobile",
+    "label": "Port.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "h.dubois-marchetti@dubois-marchetti-avocats-fr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "42, avenue Kléber",
+    "extra": "",
+    "pobox": "",
+    "postcode": "75116",
+    "city": "Paris",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Avocate au Barreau de Paris"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].street",
+   "printed": "42, avenue Kléber",
+   "ocr": "42, avenue Kleber",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "law-firm",
+  "member-of",
+  "prefix-title",
+  "diacritic-lost",
+  "family-name-in-company",
+  "company-split-lines",
+  "hyphenated-family"
+ ],
+ "notes": "\"Maître\" is a prefix. Company over two lines, second starts with \"&\". \"Avocate au Barreau de Paris\" is the bar membership (also accepted as title). \"Toque C 1234\" is a court locker number, a leftover."
+}

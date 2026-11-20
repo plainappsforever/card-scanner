@@ -1,0 +1,501 @@
+{
+ "id": "us-a21",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "UNIVERSITY of WESTMERE",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4272,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "UNIVERSITY",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.178,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.2658,
+        "y": 0.06,
+        "w": 0.0356,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "WESTMERE",
+       "box": {
+        "x": 0.3192,
+        "y": 0.06,
+        "w": 0.178,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Lakshmi V. Ramaswamy, Ph.D.",
+     "box": {
+      "x": 0.07,
+      "y": 0.18,
+      "w": 0.5287,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Lakshmi",
+       "box": {
+        "x": 0.07,
+        "y": 0.18,
+        "w": 0.1371,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "V.",
+       "box": {
+        "x": 0.2267,
+        "y": 0.18,
+        "w": 0.0392,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Ramaswamy,",
+       "box": {
+        "x": 0.2854,
+        "y": 0.18,
+        "w": 0.1958,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Ph.D.",
+       "box": {
+        "x": 0.5008,
+        "y": 0.18,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Associate Professor of Computational Linguistics",
+     "box": {
+      "x": 0.07,
+      "y": 0.255,
+      "w": 0.5126,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Associate",
+       "box": {
+        "x": 0.07,
+        "y": 0.255,
+        "w": 0.0961,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Professor",
+       "box": {
+        "x": 0.1768,
+        "y": 0.255,
+        "w": 0.0961,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.2836,
+        "y": 0.255,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Computational",
+       "box": {
+        "x": 0.3156,
+        "y": 0.255,
+        "w": 0.1388,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Linguistics",
+       "box": {
+        "x": 0.4651,
+        "y": 0.255,
+        "w": 0.1175,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Department of Linguistics · College of Arts & Sciences",
+     "box": {
+      "x": 0.07,
+      "y": 0.305,
+      "w": 0.5383,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Department",
+       "box": {
+        "x": 0.07,
+        "y": 0.305,
+        "w": 0.0997,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1797,
+        "y": 0.305,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Linguistics",
+       "box": {
+        "x": 0.2096,
+        "y": 0.305,
+        "w": 0.1097,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3292,
+        "y": 0.305,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "College",
+       "box": {
+        "x": 0.3491,
+        "y": 0.305,
+        "w": 0.0698,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.4289,
+        "y": 0.305,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Arts",
+       "box": {
+        "x": 0.4588,
+        "y": 0.305,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.5086,
+        "y": 0.305,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Sciences",
+       "box": {
+        "x": 0.5286,
+        "y": 0.305,
+        "w": 0.0797,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Box 352425 · Seattle, WA 98195-2425",
+     "box": {
+      "x": 0.07,
+      "y": 0.383,
+      "w": 0.3738,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Box",
+       "box": {
+        "x": 0.07,
+        "y": 0.383,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "352425",
+       "box": {
+        "x": 0.1127,
+        "y": 0.383,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1875,
+        "y": 0.383,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Seattle,",
+       "box": {
+        "x": 0.2088,
+        "y": 0.383,
+        "w": 0.0854,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "WA",
+       "box": {
+        "x": 0.305,
+        "y": 0.383,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "98195-2425",
+       "box": {
+        "x": 0.337,
+        "y": 0.383,
+        "w": 0.1068,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "206.543.2046 · lvr@uwsm-edu.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.433,
+      "w": 0.267,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "206.543.2046",
+       "box": {
+        "x": 0.07,
+        "y": 0.433,
+        "w": 0.1282,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2088,
+        "y": 0.433,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "lvr@uwsm-edu.example",
+       "box": {
+        "x": 0.2302,
+        "y": 0.433,
+        "w": 0.1068,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "ORCID 0000-0002-6631-8854 · x.com/lvr_nlp",
+     "box": {
+      "x": 0.07,
+      "y": 0.483,
+      "w": 0.3795,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "ORCID",
+       "box": {
+        "x": 0.07,
+        "y": 0.483,
+        "w": 0.0463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "0000-0002-6631-8854",
+       "box": {
+        "x": 0.1255,
+        "y": 0.483,
+        "w": 0.1759,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3107,
+        "y": 0.483,
+        "w": 0.0093,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "x.com/lvr_nlp",
+       "box": {
+        "x": 0.3292,
+        "y": 0.483,
+        "w": 0.1203,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lakshmi",
+   "middle": "V.",
+   "family": "Ramaswamy",
+   "suffix": "Ph.D.",
+   "full": "Lakshmi V. Ramaswamy, Ph.D."
+  },
+  "otherName": null,
+  "company": "UNIVERSITY of WESTMERE",
+  "department": "Department of Linguistics",
+  "title": "Associate Professor of Computational Linguistics",
+  "phones": [
+   {
+    "printed": "206.543.2046",
+    "e164": "+12065432046",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "lvr@uwsm-edu.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "x",
+    "value": "x.com/lvr_nlp"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Box 352425",
+    "postcode": "98195-2425",
+    "city": "Seattle",
+    "region": "WA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls"
+ ],
+ "accept": {
+  "department": [
+   "College of Arts & Sciences"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "academic",
+  "orcid",
+  "faculty-line",
+  "indian-initials",
+  "credential-suffix",
+  "pobox",
+  "zip-plus-four",
+  "dot-separated-phone",
+  "initials-email"
+ ],
+ "notes": "Campus box \"Box 352425\" (6 digits) is a PO box, not a phone; ZIP+4. Unlabelled US number with dots. E-mail local part = initials (lvr). Department + college on one line."
+}

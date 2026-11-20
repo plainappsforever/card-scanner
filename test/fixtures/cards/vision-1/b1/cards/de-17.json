@@ -1,0 +1,143 @@
+{
+ "id": "de-17",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Gisela Hoffmeister",
+     "box": {
+      "x": 0.25967785537301274,
+      "y": 0.28837414203428413,
+      "w": 0.41958419799804686,
+      "h": 0.07237667834896844
+     },
+     "height": 0.07237667834896844,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Heilpraktikerin",
+     "box": {
+      "x": 0.3719477784783916,
+      "y": 0.41393772067924595,
+      "w": 0.17762910842895513,
+      "h": 0.04756012478390259
+     },
+     "height": 0.04756012478390259,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Termine nach Vereinbarung",
+     "box": {
+      "x": 0.3298151483860765,
+      "y": 0.693844642797065,
+      "w": 0.2778574562072754,
+      "h": 0.04192082946364939
+     },
+     "height": 0.04192082946364939,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "0 61 51 / 7 89 01",
+     "box": {
+      "x": 0.3994476625479511,
+      "y": 0.7549789344516296,
+      "w": 0.1676632499694824,
+      "h": 0.03614423449895554
+     },
+     "height": 0.03614423449895554,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gisela",
+   "middle": "",
+   "family": "Hoffmeister",
+   "suffix": "",
+   "full": "Gisela Hoffmeister"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Heilpraktikerin",
+  "phones": [
+   {
+    "printed": "0 61 51 / 7 89 01",
+    "e164": "+49615178901",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "emails",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "minimal-card",
+  "spaced-area-code",
+  "unlabelled-landline",
+  "absent-company",
+  "absent-email",
+  "absent-address",
+  "absent-url"
+ ],
+ "notes": "Only name, profession and one landline. Area code printed with spaces (\"0 61 51\").",
+ "o3": {
+  "source": "blind-1/cards/de-17.json",
+  "images": [
+   {
+    "name": "b1-de-17",
+    "font": "Baskerville",
+    "rotation": 1.26,
+    "noise": 4,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 106
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

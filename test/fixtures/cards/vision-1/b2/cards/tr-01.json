@@ -1,0 +1,247 @@
+{
+ "id": "tr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "tr-TR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TEZKAN HUKUK BÜROSU",
+     "box": {
+      "x": 0.06686046001718719,
+      "y": 0.07818532742844986,
+      "w": 0.3735465240478516,
+      "h": 0.04961736229856051
+     },
+     "height": 0.04961736229856051,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Av. Zeynep Tezkan",
+     "box": {
+      "x": 0.06960763624341475,
+      "y": 0.17428085164591978,
+      "w": 0.22272243499755856,
+      "h": 0.04953412015465697
+     },
+     "height": 0.04953412015465697,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Kurucu Ortak",
+     "box": {
+      "x": 0.06976744256495167,
+      "y": 0.25772200818250046,
+      "w": 0.14970930099487306,
+      "h": 0.03378378378378388
+     },
+     "height": 0.03378378378378388,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Büyükdere Cad. No: 127 Kat: 8",
+     "box": {
+      "x": 0.06946263321386806,
+      "y": 0.3204957998521324,
+      "w": 0.3451317596435547,
+      "h": 0.05298781671119013
+     },
+     "height": 0.05298781671119013,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "34394 Şişli / İstanbul",
+     "box": {
+      "x": 0.06923831520780371,
+      "y": 0.39455651448576934,
+      "w": 0.2235548973083496,
+      "h": 0.05243571844800565
+     },
+     "height": 0.05243571844800565,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel: +90 212 345 67 89",
+     "box": {
+      "x": 0.06831395341700322,
+      "y": 0.47490347575960556,
+      "w": 0.24999999999999997,
+      "h": 0.03667953667953672
+     },
+     "height": 0.03667953667953672,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Faks: +90 212 345 67 90",
+     "box": {
+      "x": 0.0704300366005677,
+      "y": 0.535926979964717,
+      "w": 0.2798828315734863,
+      "h": 0.048975951883323376
+     },
+     "height": 0.048975951883323376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Cep: +90 532 123 45 67",
+     "box": {
+      "x": 0.07105188177888795,
+      "y": 0.6172675238640711,
+      "w": 0.2576277351379394,
+      "h": 0.042533712497549114
+     },
+     "height": 0.042533712497549114,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "zeynep@tezkanhukuk-com-tr.example",
+     "box": {
+      "x": 0.06953632620639727,
+      "y": 0.686284815558412,
+      "w": 0.29696300506591794,
+      "h": 0.045288649304953355
+     },
+     "height": 0.045288649304953355,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "Vergi No: 1234567890",
+     "box": {
+      "x": 0.06812384378256646,
+      "y": 0.7617437241732,
+      "w": 0.126957426071167,
+      "h": 0.026365919002694915
+     },
+     "height": 0.026365919002694915,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Av.",
+   "given": "Zeynep",
+   "middle": "",
+   "family": "Tezkan",
+   "suffix": "",
+   "full": "Av. Zeynep Tezkan"
+  },
+  "otherName": null,
+  "company": "TEZKAN HUKUK BÜROSU",
+  "department": null,
+  "title": "Kurucu Ortak",
+  "phones": [
+   {
+    "printed": "+90 212 345 67 89",
+    "e164": "+902123456789",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "+90 212 345 67 90",
+    "e164": "+902123456790",
+    "type": "fax",
+    "label": "Faks:",
+    "ext": null
+   },
+   {
+    "printed": "+90 532 123 45 67",
+    "e164": "+905321234567",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "zeynep@tezkanhukuk-com-tr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Büyükdere Cad. No: 127",
+    "extra": "Kat: 8",
+    "pobox": "",
+    "postcode": "34394",
+    "city": "İstanbul",
+    "region": "",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "tax-id",
+  "ext-pair",
+  "glued-label",
+  "name-is-company",
+  "slash-in-address",
+  "region-from-plus-cc",
+  "dropped-space"
+ ],
+ "notes": "Vergi No 1234567890 (10 digits) is a tax number, not a phone. City İstanbul (district Şişli before the slash). Floor \"Kat: 8\" is the address extra.",
+ "o3": {
+  "source": "blind-2/cards/tr-01.json",
+  "images": [
+   {
+    "name": "b2-tr-01",
+    "font": "AvenirNext-Regular",
+    "rotation": 0.22,
+    "noise": 2,
+    "blur": 1,
+    "langs": [
+     "tr-TR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 123
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

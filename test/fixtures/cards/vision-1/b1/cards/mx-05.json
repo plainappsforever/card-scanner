@@ -1,0 +1,242 @@
+{
+ "id": "mx-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "EASTGABLE",
+     "box": {
+      "x": 0.07769889642344698,
+      "y": 0.042936648037654845,
+      "w": 0.23260978698730472,
+      "h": 0.05647074577891231
+     },
+     "height": 0.05647074577891231,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "a Eastgable Inc. company",
+     "box": {
+      "x": 0.07648311757371694,
+      "y": 0.13635058865969163,
+      "w": 0.2772663116455078,
+      "h": 0.045684472014084765
+     },
+     "height": 0.045684472014084765,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Florian Achterholt",
+     "box": {
+      "x": 0.0734416636232583,
+      "y": 0.2619217295658782,
+      "w": 0.3575706100463867,
+      "h": 0.0660490382131923
+     },
+     "height": 0.0660490382131923,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Regional Sales Director DACH",
+     "box": {
+      "x": 0.07231522141705607,
+      "y": 0.3528615743669996,
+      "w": 0.3873582839965821,
+      "h": 0.048785117602256234
+     },
+     "height": 0.048785117602256234,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Eastgable Software GmbH",
+     "box": {
+      "x": 0.06621541908513805,
+      "y": 0.520883770533068,
+      "w": 0.3092974853515625,
+      "h": 0.05183186033977971
+     },
+     "height": 0.05183186033977971,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mies-van-der-Rohe-Straße 6, 80807 München",
+     "box": {
+      "x": 0.06178693827037438,
+      "y": 0.5691994440471019,
+      "w": 0.4971226119995117,
+      "h": 0.06747727412514704
+     },
+     "height": 0.06747727412514704,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Phone +49 89 4161 7700",
+     "box": {
+      "x": 0.06641775985334174,
+      "y": 0.6282380125001592,
+      "w": 0.2523127746582031,
+      "h": 0.03860665472317848
+     },
+     "height": 0.03860665472317848,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobile +49 162 901 2345",
+     "box": {
+      "x": 0.06492864028435363,
+      "y": 0.6777149968551179,
+      "w": 0.27277225494384766,
+      "h": 0.04076727937087121
+     },
+     "height": 0.04076727937087121,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "florian.achterholt@eastgable-com.example",
+     "box": {
+      "x": 0.06172505239306545,
+      "y": 0.719557030614133,
+      "w": 0.393094482421875,
+      "h": 0.0597345396358534
+     },
+     "height": 0.0597345396358534,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "eastgable.com/de",
+     "box": {
+      "x": 0.06342057063962592,
+      "y": 0.7790011918135933,
+      "w": 0.20601417541503908,
+      "h": 0.04260804017998532
+     },
+     "height": 0.04260804017998532,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Florian",
+   "middle": "",
+   "family": "Achterholt",
+   "suffix": "",
+   "full": "Florian Achterholt"
+  },
+  "otherName": null,
+  "company": "Eastgable Software GmbH",
+  "department": null,
+  "title": "Regional Sales Director DACH",
+  "phones": [
+   {
+    "printed": "+49 89 4161 7700",
+    "e164": "+498941617700",
+    "type": "work",
+    "label": "Phone",
+    "ext": null
+   },
+   {
+    "printed": "+49 162 901 2345",
+    "e164": "+491629012345",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "florian.achterholt@eastgable-com.example"
+  ],
+  "urls": [
+   "eastgable.com/de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Mies-van-der-Rohe-Straße 6",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80807",
+    "city": "München",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "EASTGABLE"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "parent-company-line",
+  "two-legal-forms",
+  "url-with-path",
+  "street-with-particles",
+  "english-labels-german-card"
+ ],
+ "notes": "Two legal forms on the card: \"Eastgable Inc.\" (parent, in a tagline) and \"Eastgable Software GmbH\" (the employer). URL has a path (/de).",
+ "o3": {
+  "source": "blind-1/cards/mx-05.json",
+  "images": [
+   {
+    "name": "b1-mx-05",
+    "font": "Menlo-Regular",
+    "rotation": -1.85,
+    "noise": 7,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 97
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

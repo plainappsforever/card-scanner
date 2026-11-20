@@ -1,0 +1,242 @@
+{
+ "id": "it-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VORINI",
+     "box": {
+      "x": 0.06503536885012601,
+      "y": 0.08164748565503299,
+      "w": 0.21719322204589842,
+      "h": 0.07456589481545228
+     },
+     "height": 0.07456589481545228,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "MECCANICA S.r.1.",
+     "box": {
+      "x": 0.06652073701532529,
+      "y": 0.2191912631900219,
+      "w": 0.23459352493286134,
+      "h": 0.04847912806801813
+     },
+     "height": 0.04847912806801813,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dott. Alessandro Vorini",
+     "box": {
+      "x": 0.06644027809467634,
+      "y": 0.28280771111346104,
+      "w": 0.37307209014892573,
+      "h": 0.060817828970066046
+     },
+     "height": 0.060817828970066046,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Direttore Tecnico",
+     "box": {
+      "x": 0.06807970400262313,
+      "y": 0.3723840717617195,
+      "w": 0.22863018035888671,
+      "h": 0.04041598478339359
+     },
+     "height": 0.04041598478339359,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Via Giuseppe Mazzini, 45",
+     "box": {
+      "x": 0.06807908641856585,
+      "y": 0.43883995385630725,
+      "w": 0.3581265640258789,
+      "h": 0.05978726051949179
+     },
+     "height": 0.05978726051949179,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "20123 Milano (MI)",
+     "box": {
+      "x": 0.06831395706129825,
+      "y": 0.5179372196787424,
+      "w": 0.24854650497436523,
+      "h": 0.04287359060928164
+     },
+     "height": 0.04287359060928164,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +39 02 8645 1290",
+     "box": {
+      "x": 0.06936822075405502,
+      "y": 0.5843951793037697,
+      "w": 0.3046512031555176,
+      "h": 0.054039016193404676
+     },
+     "height": 0.054039016193404676,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Cell. 347 812 3456",
+     "box": {
+      "x": 0.07095403473781381,
+      "y": 0.6602645338054862,
+      "w": 0.24476627349853514,
+      "h": 0.04735530757535833
+     },
+     "height": 0.04735530757535833,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "a.vorini@vorinimeccanica-it.example",
+     "box": {
+      "x": 0.07237259775915582,
+      "y": 0.726237257175931,
+      "w": 0.34655754089355467,
+      "h": 0.04787234818152941
+     },
+     "height": 0.04787234818152941,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "PIVA 01234567890",
+     "box": {
+      "x": 0.07096254711984219,
+      "y": 0.805865823840441,
+      "w": 0.13714726448059084,
+      "h": 0.02744576921794406
+     },
+     "height": 0.02744576921794406,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dott.",
+   "given": "Alessandro",
+   "middle": "",
+   "family": "Vorini",
+   "suffix": "",
+   "full": "Dott. Alessandro Vorini"
+  },
+  "otherName": null,
+  "company": "VORINI MECCANICA S.r.l.",
+  "department": null,
+  "title": "Direttore Tecnico",
+  "phones": [
+   {
+    "printed": "+39 02 8645 1290",
+    "e164": "+390286451290",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "347 812 3456",
+    "e164": "+393478123456",
+    "type": "mobile",
+    "label": "Cell.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "a.vorini@vorinimeccanica-it.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via Giuseppe Mazzini, 45",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20123",
+    "city": "Milano",
+    "region": "MI",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "VORINI MECCANICA"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "italian-leading-zero",
+  "prefix-title",
+  "vat-id",
+  "name-is-company",
+  "region-from-address",
+  "ocr-0O"
+ ],
+ "notes": "+39 02 8645 1290 → +390286451290 (the 0 stays). 347 812 3456 is an Italian mobile by address. P.IVA is not a phone. Dott. is a prefix.",
+ "o3": {
+  "source": "blind-2/cards/it-01.json",
+  "images": [
+   {
+    "name": "b2-it-01",
+    "font": "AmericanTypewriter",
+    "rotation": 0.91,
+    "noise": 9,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 88
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

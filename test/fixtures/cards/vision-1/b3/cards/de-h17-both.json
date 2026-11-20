@@ -1,0 +1,256 @@
+{
+ "id": "de-h17-both",
+ "group": "de-h17",
+ "side": "both",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HOTEL SEEBLICK",
+     "box": {
+      "x": 0.2614171860569948,
+      "y": 0.0413661745054128,
+      "w": 0.45254245758056644,
+      "h": 0.10190569019685847
+     },
+     "height": 0.10190569019685847,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ankommen. Durchatmen.",
+     "box": {
+      "x": 0.34244263345219755,
+      "y": 0.15955450108745695,
+      "w": 0.27564418792724615,
+      "h": 0.05065093169341217
+     },
+     "height": 0.05065093169341217,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Seestraße 3 • 82319 Brunnsee",
+     "box": {
+      "x": 0.3149929406156475,
+      "y": 0.32365648260077196,
+      "w": 0.2754941749572754,
+      "h": 0.042645824461830184
+     },
+     "height": 0.042645824461830184,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 08151 97 76-0 • www.hotel-seeblick-brunnsee.de",
+     "box": {
+      "x": 0.20000575440469134,
+      "y": 0.37113547312623796,
+      "w": 0.4589040756225585,
+      "h": 0.05577032722561526
+     },
+     "height": 0.05577032722561526,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Ingrid Sørensen",
+     "box": {
+      "x": 0.07665874555072129,
+      "y": 0.04684998236375881,
+      "w": 0.24341289520263676,
+      "h": 0.053749603654426936
+     },
+     "height": 0.053749603654426936,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Leitung Bankett & Veranstaltungen",
+     "box": {
+      "x": 0.07378044400518384,
+      "y": 0.12419987603565597,
+      "w": 0.3131720161437988,
+      "h": 0.04263973604297999
+     },
+     "height": 0.04263973604297999,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "b2",
+     "text": "Mobil 0151 42 87 33 19",
+     "box": {
+      "x": 0.07383041135686697,
+      "y": 0.2295989650295065,
+      "w": 0.20411169052124023,
+      "h": 0.03424174260909041
+     },
+     "height": 0.03424174260909041,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "Durchwahl -214",
+     "box": {
+      "x": 0.07236377029883176,
+      "y": 0.2876451116991121,
+      "w": 0.12707980155944823,
+      "h": 0.029742333879802185
+     },
+     "height": 0.029742333879802185,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "b4",
+     "text": "i.sorensen@hotel-seeblick-brunnsee-de.example",
+     "box": {
+      "x": 0.06934502067557811,
+      "y": 0.33770961234649843,
+      "w": 0.29884162902832034,
+      "h": 0.04500178848914649
+     },
+     "height": 0.04500178848914649,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ingrid",
+   "middle": "",
+   "family": "Sørensen",
+   "suffix": "",
+   "full": "Ingrid Sørensen"
+  },
+  "otherName": null,
+  "company": "HOTEL SEEBLICK",
+  "department": null,
+  "title": "Leitung Bankett & Veranstaltungen",
+  "phones": [
+   {
+    "printed": "08151 97 76-0",
+    "e164": "+49815197760",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0151 42 87 33 19",
+    "e164": "+4915142873319",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "-214",
+    "e164": "+4981519776214",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   }
+  ],
+  "emails": [
+   "i.sorensen@hotel-seeblick-brunnsee-de.example"
+  ],
+  "urls": [
+   "www.hotel-seeblick-brunnsee.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Seestraße 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "82319",
+    "city": "Brunnsee",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "tagline",
+  "cross-side-extension",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "suffix-only-number"
+ ],
+ "notes": "The Durchwahl -214 on the back belongs to the base 08151 97 76-0 on the front: +49 8151 9776214.",
+ "o3": {
+  "source": "blind-3/cards/de-h17-both.json",
+  "images": [
+   {
+    "name": "b3-de-h17-front",
+    "font": "ArialMT",
+    "rotation": 1.95,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 103
+   },
+   {
+    "name": "b3-de-h17-back",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -1.23,
+    "noise": 13,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

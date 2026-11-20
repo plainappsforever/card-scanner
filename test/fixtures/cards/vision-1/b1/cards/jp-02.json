@@ -1,0 +1,186 @@
+{
+ "id": "jp-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ja"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "JP",
+  "uiLang": "ja",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "有限会社 佐藤計画事務所",
+     "box": {
+      "x": 0.06148781692448175,
+      "y": 0.0705249006165739,
+      "w": 0.2977520179748535,
+      "h": 0.07169566651568904
+     },
+     "height": 0.07169566651568904,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "代表取締役 一級建築士",
+     "box": {
+      "x": 0.06501079450852956,
+      "y": 0.22804202589164557,
+      "w": 0.21157896041870114,
+      "h": 0.046004151745652644
+     },
+     "height": 0.046004151745652644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "佐藤花子",
+     "box": {
+      "x": 0.0667129552110594,
+      "y": 0.3164887791660439,
+      "w": 0.19651624679565427,
+      "h": 0.07781726144915846
+     },
+     "height": 0.07781726144915846,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "〒530-0001 大阪府大阪市北区梅田1-2-3",
+     "box": {
+      "x": 0.07239450922396078,
+      "y": 0.6051031347220741,
+      "w": 0.35372661590576165,
+      "h": 0.04235192891713735
+     },
+     "height": 0.04235192891713735,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "電話 06-6123-4567",
+     "box": {
+      "x": 0.07239490296881869,
+      "y": 0.6588789005616984,
+      "w": 0.18085018157958987,
+      "h": 0.037169415978391185
+     },
+     "height": 0.037169415978391185,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "hanako@sato-keikaku-jp.example",
+     "box": {
+      "x": 0.07122093056630079,
+      "y": 0.7104247106547367,
+      "w": 0.216569766998291,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "花子",
+   "middle": "",
+   "family": "佐藤",
+   "suffix": "",
+   "full": "佐藤花子"
+  },
+  "otherName": null,
+  "company": "有限会社 佐藤計画事務所",
+  "department": null,
+  "title": "代表取締役",
+  "phones": [
+   {
+    "printed": "06-6123-4567",
+    "e164": "+81661234567",
+    "type": "work",
+    "label": "電話",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "hanako@sato-keikaku-jp.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "梅田1-2-3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "530-0001",
+    "city": "大阪市北区",
+    "region": "大阪府",
+    "country": "",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "一級建築士",
+   "代表取締役 一級建築士"
+  ],
+  "addresses[0].city": [
+   "大阪市"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "jp-name-no-space",
+  "two-titles-one-line",
+  "legal-form-prefix-with-space",
+  "given-name-email",
+  "name-is-company",
+  "absent-url"
+ ],
+ "notes": "Name without a space: truth is the real split (family 佐藤, given 花子); spec N5 says a Japanese name without a space cannot be split reliably and should come out as family = full with low confidence (\"check name\").",
+ "o3": {
+  "source": "blind-1/cards/jp-02.json",
+  "images": [
+   {
+    "name": "b1-jp-02",
+    "font": "AmericanTypewriter",
+    "rotation": 1.02,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "ja-JP",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 190
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

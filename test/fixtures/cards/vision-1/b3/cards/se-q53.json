@@ -1,0 +1,126 @@
+{
+ "id": "se-q53",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "sv"
+ ],
+ "card_country": "SE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "sv-SE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Linnea Nyström",
+     "box": {
+      "x": 0.07101449279816385,
+      "y": 0.38999207897053045,
+      "w": 0.28090404510498046,
+      "h": 0.061865228483575674
+     },
+     "height": 0.061865228483575674,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Illustratör",
+     "box": {
+      "x": 0.0682223967761223,
+      "y": 0.48130037917667345,
+      "w": 0.09175288200378418,
+      "h": 0.028430631261994965
+     },
+     "height": 0.028430631261994965,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Nyström,Linnea;TEL:+46701234567;EMAIL:linnea@nystrom-illustration-se.example;URL:https://nystrom-illustration.se;;",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Linnea",
+   "middle": "",
+   "family": "Nyström",
+   "suffix": "",
+   "full": "Linnea Nyström"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Illustratör",
+  "phones": [
+   {
+    "printed": "+46701234567",
+    "e164": "+46701234567",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "linnea@nystrom-illustration-se.example"
+  ],
+  "urls": [
+   "https://nystrom-illustration.se"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "qr-only",
+  "mecard",
+  "scandinavian-name",
+  "foreign-region",
+  "no-address-foreign",
+  "absent-company",
+  "absent-address"
+ ],
+ "notes": "Only name and title printed; phone, e-mail and URL are in a MECARD (N:Family,Given). No company and no address anywhere; the domain stem must not become a company.",
+ "o3": {
+  "source": "blind-3/cards/se-q53.json",
+  "images": [
+   {
+    "name": "b3-se-q53",
+    "font": "TrebuchetMS",
+    "rotation": -0.64,
+    "noise": 7,
+    "blur": 1,
+    "langs": [
+     "sv-SE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 77
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

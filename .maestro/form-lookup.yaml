@@ -1,0 +1,66 @@
+appId: ${APP_ID}
+name: P8 - Android, In Contacts after the system form (its result, or a lookup when access was granted anyway)
+tags:
+  - p8
+  - android-only
+---
+# S4 (D46/D51): P6 saw Google Contacts return no "saved" result; in P8 it returned OK (with and without the permission).
+# Either way the card must end "In Contacts": by the form's result ("Saved to Contacts.") or, when a Contacts app gives
+# no result and the user granted Contacts anyway (here through the bulk screen), by looking the person up ("This person
+# is in your Contacts."). A fresh e-mail per run, so a lookup can only find the contact saved in this run.
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - stopApp
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - runFlow:
+          file: subflows/seed.yaml
+          env:
+            SET: empty
+      - evalScript: ${output.tag = String(100000 + Math.floor(Math.random() * 899999))}
+      - tapOn:
+          id: add-menu
+      - tapOn:
+          id: choice-paste
+      - tapOn:
+          id: paste-input
+      - inputText: "Nora Lindqvist"
+      - pressKey: Enter
+      - inputText: "nora.${output.tag}@lindqvist-test.se"
+      - tapOn:
+          id: paste-read
+      - scrollUntilVisible:
+          element:
+            id: confirm-button
+      - tapOn:
+          id: confirm-button
+      - assertVisible:
+          id: review-confirmed
+      # grant Contacts the way a user does: the bulk screen (our explanation, then the system prompt)
+      - runFlow: subflows/launch.yaml
+      - tapOn:
+          id: "card-row-.*"
+          index: 0
+      - tapOn:
+          id: add-to-existing-button
+      - runFlow: subflows/contacts-access.yaml
+      - back
+      # the one-card path: the system form, Save there
+      - tapOn:
+          id: add-to-contacts-button
+      - extendedWaitUntil:
+          visible: "Save"
+          timeout: 20000
+      - tapOn: "Save"
+      - extendedWaitUntil:
+          visible:
+            id: card-note
+          timeout: 20000
+      - assertVisible: "Saved to Contacts\\.|This person is in your Contacts\\."
+      - assertVisible:
+          id: card-in-contacts
+      - takeScreenshot: s4-android-found

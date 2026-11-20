@@ -1,0 +1,478 @@
+{
+ "id": "dk-n30",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "da"
+ ],
+ "card_country": "DK",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "da-DK"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Mette Kjærgaard Arkitekter ApS",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.534,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mette",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.089,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Kjærgaard",
+       "box": {
+        "x": 0.1768,
+        "y": 0.06,
+        "w": 0.1602,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Arkitekter",
+       "box": {
+        "x": 0.3548,
+        "y": 0.06,
+        "w": 0.178,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "ApS",
+       "box": {
+        "x": 0.5506,
+        "y": 0.06,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Mette Kjærgaard",
+     "box": {
+      "x": 0.07,
+      "y": 0.19,
+      "w": 0.3204,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Mette",
+       "box": {
+        "x": 0.07,
+        "y": 0.19,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Kjærgaard",
+       "box": {
+        "x": 0.1982,
+        "y": 0.19,
+        "w": 0.1922,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Arkitekt MAA",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.1495,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Arkitekt",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.0997,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "MAA",
+       "box": {
+        "x": 0.1821,
+        "y": 0.27,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Tlf. +45 33 12 48 90 · Mobil +45 26 83 41 07",
+     "box": {
+      "x": 0.07,
+      "y": 0.355,
+      "w": 0.4699,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Tlf.",
+       "box": {
+        "x": 0.07,
+        "y": 0.355,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+45",
+       "box": {
+        "x": 0.1234,
+        "y": 0.355,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.1661,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.1982,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "48",
+       "box": {
+        "x": 0.2302,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "90",
+       "box": {
+        "x": 0.2622,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2943,
+        "y": 0.355,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.3156,
+        "y": 0.355,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+45",
+       "box": {
+        "x": 0.3797,
+        "y": 0.355,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "26",
+       "box": {
+        "x": 0.4224,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "83",
+       "box": {
+        "x": 0.4545,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "41",
+       "box": {
+        "x": 0.4865,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "07",
+       "box": {
+        "x": 0.5185,
+        "y": 0.355,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "mette@kjaergaard-ark-dk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.405,
+      "w": 0.2293,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "mette@kjaergaard-ark-dk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.405,
+        "w": 0.2293,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Overgaden oven Vandet 48, 1415 København K",
+     "box": {
+      "x": 0.07,
+      "y": 0.453,
+      "w": 0.4187,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Overgaden",
+       "box": {
+        "x": 0.07,
+        "y": 0.453,
+        "w": 0.0897,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "oven",
+       "box": {
+        "x": 0.1697,
+        "y": 0.453,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Vandet",
+       "box": {
+        "x": 0.2195,
+        "y": 0.453,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "48,",
+       "box": {
+        "x": 0.2893,
+        "y": 0.453,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "1415",
+       "box": {
+        "x": 0.3292,
+        "y": 0.453,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "København",
+       "box": {
+        "x": 0.379,
+        "y": 0.453,
+        "w": 0.0897,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "K",
+       "box": {
+        "x": 0.4787,
+        "y": 0.453,
+        "w": 0.01,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "CVR 3456 7812",
+     "box": {
+      "x": 0.07,
+      "y": 0.501,
+      "w": 0.1203,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "CVR",
+       "box": {
+        "x": 0.07,
+        "y": 0.501,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "3456",
+       "box": {
+        "x": 0.107,
+        "y": 0.501,
+        "w": 0.037,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "7812",
+       "box": {
+        "x": 0.1533,
+        "y": 0.501,
+        "w": 0.037,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mette",
+   "middle": "",
+   "family": "Kjærgaard",
+   "suffix": "",
+   "full": "Mette Kjærgaard"
+  },
+  "otherName": null,
+  "company": "Mette Kjærgaard Arkitekter ApS",
+  "department": null,
+  "title": "Arkitekt MAA",
+  "phones": [
+   {
+    "printed": "+45 33 12 48 90",
+    "e164": "+4533124890",
+    "type": "work",
+    "label": "Tlf.",
+    "ext": null
+   },
+   {
+    "printed": "+45 26 83 41 07",
+    "e164": "+4526834107",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mette@kjaergaard-ark-dk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Overgaden oven Vandet 48",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1415",
+    "city": "København K",
+    "region": "",
+    "country": "",
+    "countryCode": "DK"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Arkitekt"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "name-equals-company",
+  "scandinavian-name",
+  "registry-number-phone-like",
+  "credential-in-title",
+  "street-without-keyword",
+  "foreign-region",
+  "city-with-district-letter"
+ ],
+ "notes": "Company = the person's full name + \"Arkitekter ApS\"; the name line below repeats it. CVR \"3456 7812\" has 8 digits like a Danish phone number but is the company register. MAA = member of the Danish architects' association. City \"København K\" (K = district letter)."
+}

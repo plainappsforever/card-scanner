@@ -1,0 +1,227 @@
+{
+ "id": "de-12-back",
+ "group": "de-12",
+ "side": "back",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIX Drive Technology",
+     "box": {
+      "x": 0.06196992834094047,
+      "y": 0.09839314218496376,
+      "w": 0.5750510025024413,
+      "h": 0.08147719099714945
+     },
+     "height": 0.08147719099714945,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Est. 1988",
+     "box": {
+      "x": 0.06508424510106937,
+      "y": 0.2243436397726395,
+      "w": 0.14319626808166502,
+      "h": 0.0426771797268547
+     },
+     "height": 0.0426771797268547,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr Matthias Krüger",
+     "box": {
+      "x": 0.06499241567841167,
+      "y": 0.27841344011792346,
+      "w": 0.3772514724731445,
+      "h": 0.0633036418310925
+     },
+     "height": 0.0633036418310925,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Head of Research & Development",
+     "box": {
+      "x": 0.06638752218274696,
+      "y": 0.35375379293415843,
+      "w": 0.48784004211425785,
+      "h": 0.06583911939937626
+     },
+     "height": 0.06583911939937626,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Head Office",
+     "box": {
+      "x": 0.06608656973417887,
+      "y": 0.43874245719778715,
+      "w": 0.1903905487060547,
+      "h": 0.05282321031489423
+     },
+     "height": 0.05282321031489423,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Robert-Bosch-Strasse 22, 73037 Goeppingen, Germany",
+     "box": {
+      "x": 0.06779322942802998,
+      "y": 0.47606530388611845,
+      "w": 0.8822139739990233,
+      "h": 0.10309905711288159
+     },
+     "height": 0.10309905711288159,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Phone +49 7161 60218-214",
+     "box": {
+      "x": 0.07060713205308275,
+      "y": 0.574259474912889,
+      "w": 0.4040299224853515,
+      "h": 0.06628684555701769
+     },
+     "height": 0.06628684555701769,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobile +49 170 4829137",
+     "box": {
+      "x": 0.07056886100053156,
+      "y": 0.6463548645642925,
+      "w": 0.38080326080322263,
+      "h": 0.061883594998981994
+     },
+     "height": 0.061883594998981994,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "A member of the Bergmann Group",
+     "box": {
+      "x": 0.07046922369012115,
+      "y": 0.7224476364058957,
+      "w": 0.31328592300415037,
+      "h": 0.04734338480533318
+     },
+     "height": 0.04734338480533318,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Krüger",
+   "suffix": "",
+   "full": "Dr Matthias Krüger"
+  },
+  "otherName": null,
+  "company": "HELIX Drive Technology",
+  "department": "Research & Development",
+  "title": "Head",
+  "phones": [
+   {
+    "printed": "+49 7161 60218-214",
+    "e164": "+49716160218214",
+    "type": "work",
+    "label": "Phone",
+    "ext": null
+   },
+   {
+    "printed": "+49 170 4829137",
+    "e164": "+491704829137",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Robert-Bosch-Strasse 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "73037",
+    "city": "Goeppingen",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Head of Research & Development"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "second-language",
+  "title-dept-one-line",
+  "durchwahl-composed",
+  "tagline-not-title",
+  "group-line-not-company",
+  "absent-emails",
+  "diacritic-lost"
+ ],
+ "notes": "English back alone: \"Est. 1988\" and \"Head Office\" are not titles; \"A member of the Bergmann Group\" is not the company; no e-mail on this side. ML Kit dropped the umlaut in Krüger.",
+ "o3": {
+  "source": "blind-2/cards/de-12-back.json",
+  "images": [
+   {
+    "name": "b2-de-12-back",
+    "font": "Menlo-Regular",
+    "rotation": 1.89,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 103
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

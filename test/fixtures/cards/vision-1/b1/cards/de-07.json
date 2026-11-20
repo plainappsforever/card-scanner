@@ -1,0 +1,175 @@
+{
+ "id": "de-07",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Jannik Oberländer",
+     "box": {
+      "x": 0.0749999998313492,
+      "y": 0.2692307678530128,
+      "w": 0.4125,
+      "h": 0.07053757082081202
+     },
+     "height": 0.07053757082081202,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Fotograf & Videograf",
+     "box": {
+      "x": 0.07994185825103052,
+      "y": 0.39864864777308306,
+      "w": 0.23837209701538087,
+      "h": 0.05212355212355213
+     },
+     "height": 0.05212355212355213,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "0176 / 23 45 67 89",
+     "box": {
+      "x": 0.07994185764489252,
+      "y": 0.6300448428095673,
+      "w": 0.2136627960205078,
+      "h": 0.03139013489240838
+     },
+     "height": 0.03139013489240838,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "hallo@jannikoberlaender-de.example",
+     "box": {
+      "x": 0.07994186255094946,
+      "y": 0.6973094173283431,
+      "w": 0.29069766998291013,
+      "h": 0.03811659131731304
+     },
+     "height": 0.03811659131731304,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f4",
+     "text": "jannikoberlaender.de",
+     "box": {
+      "x": 0.07558139322907355,
+      "y": 0.7600896863635741,
+      "w": 0.23837209701538087,
+      "h": 0.03811659131731304
+     },
+     "height": 0.03811659131731304,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f5",
+     "text": "Instagram: @jannik.shoots",
+     "box": {
+      "x": 0.07703488429972317,
+      "y": 0.8291505793118144,
+      "w": 0.27470930099487306,
+      "h": 0.03861003861003853
+     },
+     "height": 0.03861003861003853,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jannik",
+   "middle": "",
+   "family": "Oberländer",
+   "suffix": "",
+   "full": "Jannik Oberländer"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Fotograf & Videograf",
+  "phones": [
+   {
+    "printed": "0176 / 23 45 67 89",
+    "e164": "+4917623456789",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "hallo@jannikoberlaender-de.example"
+  ],
+  "urls": [
+   "jannikoberlaender.de"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@jannik.shoots"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "no-company",
+  "domain-equals-name",
+  "unlabelled-mobile",
+  "slash-inside-phone",
+  "labelled-handle",
+  "absent-address",
+  "absent-company"
+ ],
+ "notes": "The web domain is the person's name (ä→ae); the \"domain stem = company\" rule must not turn the name into a company. No address.",
+ "o3": {
+  "source": "blind-1/cards/de-07.json",
+  "images": [
+   {
+    "name": "b1-de-07",
+    "font": "Optima-Regular",
+    "rotation": -0.38,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 88
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

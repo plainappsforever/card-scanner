@@ -1,0 +1,245 @@
+{
+ "id": "mex-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "MX",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "es",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "es-ES",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ACEROS DEL VARUEL",
+     "box": {
+      "x": 0.07370172112043384,
+      "y": 0.0656553041729202,
+      "w": 0.38025272369384766,
+      "h": 0.06003310597541245
+     },
+     "height": 0.06003310597541245,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "S.A. de C.V.",
+     "box": {
+      "x": 0.07248375844093946,
+      "y": 0.17055253777747947,
+      "w": 0.12982428550720215,
+      "h": 0.03940585036995792
+     },
+     "height": 0.03940585036995792,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Lic. Daniela Garza Treviño",
+     "box": {
+      "x": 0.07386545223056672,
+      "y": 0.24180962469916634,
+      "w": 0.3406512451171875,
+      "h": 0.04650556350766921
+     },
+     "height": 0.04650556350766921,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Gerente de Compras",
+     "box": {
+      "x": 0.07196174888590195,
+      "y": 0.3175187987518724,
+      "w": 0.23827980041503904,
+      "h": 0.053356932857322015
+     },
+     "height": 0.053356932857322015,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Av. Constitución 2050 Ote.",
+     "box": {
+      "x": 0.0695396285090402,
+      "y": 0.395919240952068,
+      "w": 0.29266197204589844,
+      "h": 0.04372098547151193
+     },
+     "height": 0.04372098547151193,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Col. Centro, 64000 Monterrey, N.L.",
+     "box": {
+      "x": 0.06932398081846611,
+      "y": 0.4650715527657805,
+      "w": 0.38317722320556646,
+      "h": 0.057007469265617394
+     },
+     "height": 0.057007469265617394,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +52 (81) 8123 4567",
+     "box": {
+      "x": 0.06831395229676715,
+      "y": 0.542471041734525,
+      "w": 0.24563953399658203,
+      "h": 0.03600429475997868
+     },
+     "height": 0.03600429475997868,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Cel. 81 1234 5678",
+     "box": {
+      "x": 0.06831394888080922,
+      "y": 0.6119691117044874,
+      "w": 0.19767442703247073,
+      "h": 0.03601295147163064
+     },
+     "height": 0.03601295147163064,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "dgarza@acerosdelvaruel-com-mx.example",
+     "box": {
+      "x": 0.0666666671911623,
+      "y": 0.6794871790697647,
+      "w": 0.35833332061767575,
+      "h": 0.04487179421089793
+     },
+     "height": 0.04487179421089793,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "RFC ANO850101AB1",
+     "box": {
+      "x": 0.06524001576127134,
+      "y": 0.7575231130381316,
+      "w": 0.11661420822143556,
+      "h": 0.02294041291166915
+     },
+     "height": 0.02294041291166915,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Lic.",
+   "given": "Daniela",
+   "middle": "",
+   "family": "Garza Treviño",
+   "suffix": "",
+   "full": "Lic. Daniela Garza Treviño"
+  },
+  "otherName": null,
+  "company": "ACEROS DEL VARUEL S.A. de C.V.",
+  "department": "Compras",
+  "title": "Gerente",
+  "phones": [
+   {
+    "printed": "+52 (81) 8123 4567",
+    "e164": "+528181234567",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "81 1234 5678",
+    "e164": "+528112345678",
+    "type": "mobile",
+    "label": "Cel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dgarza@acerosdelvaruel-com-mx.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Av. Constitución 2050 Ote.",
+    "extra": "Col. Centro",
+    "pobox": "",
+    "postcode": "64000",
+    "city": "Monterrey",
+    "region": "N.L.",
+    "country": "",
+    "countryCode": "MX"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Gerente de Compras"
+  ],
+  "company": [
+   "ACEROS DEL VARUEL"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "two-given-two-family",
+  "legal-form-line",
+  "tax-id",
+  "title-dept-one-line",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "With region US the 10-digit mobile looks NANP but 811 is not a US area code; card has +52 and a Monterrey address → +52 81 1234 5678. Family Garza Treviño. RFC is not a phone.",
+ "o3": {
+  "source": "blind-2/cards/mex-01.json",
+  "images": [
+   {
+    "name": "b2-mex-01",
+    "font": "AvenirNext-Regular",
+    "rotation": -1.09,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "es-ES",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 93
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

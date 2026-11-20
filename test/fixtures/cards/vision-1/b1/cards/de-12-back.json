@@ -1,0 +1,123 @@
+{
+ "id": "de-12-back",
+ "group": "de-12",
+ "side": "back",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Räume, die erzählen.",
+     "box": {
+      "x": 0.33964473774244086,
+      "y": 0.09565594268149846,
+      "w": 0.26103908538818354,
+      "h": 0.06318780906412136
+     },
+     "height": 0.06318780906412136,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Wohnen • Hotel • Gastronomie",
+     "box": {
+      "x": 0.34569260731787593,
+      "y": 0.26320321369191757,
+      "w": 0.25195203781127934,
+      "h": 0.03620705181107109
+     },
+     "height": 0.03620705181107109,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "instagram.com/brandstetter.interior",
+     "box": {
+      "x": 0.28768649362747467,
+      "y": 0.8720973125636164,
+      "w": 0.29380561828613283,
+      "h": 0.03812863191582516
+     },
+     "height": 0.03812863191582516,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": null,
+  "phones": [],
+  "emails": [],
+  "urls": [
+   "https://brandstetter-interior.de/portfolio"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "instagram.com/brandstetter.interior"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "company",
+  "department",
+  "title",
+  "phones",
+  "emails",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "name-split-lines",
+  "hyphenated-title-split",
+  "ug-legal-form",
+  "qr-url",
+  "slogan-only-back",
+  "absent-name-on-back",
+  "two-sided"
+ ],
+ "notes": "Given and family name on separate lines; title hyphenated across two lines (\"Gesell-\" / \"schafterin\"). Back has only a slogan, an Instagram URL and a QR with a portfolio URL (no name, no phone): back-only fixture has almost everything absent.",
+ "o3": {
+  "source": "blind-1/cards/de-12-back.json",
+  "images": [
+   {
+    "name": "b1-de-12-back",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -0.59,
+    "noise": 13,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 77
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 0
+ }
+}

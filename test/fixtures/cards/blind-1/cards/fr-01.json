@@ -1,0 +1,667 @@
+{
+ "id": "fr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "LEFÈVRE & FILS",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2656,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "LEFÈVRE",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.223,
+        "y": 0.07,
+        "w": 0.0202,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "FILS",
+       "box": {
+        "x": 0.2548,
+        "y": 0.07,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Société Lefèvre & Fils SARL",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.298,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Société",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Lefèvre",
+       "box": {
+        "x": 0.1592,
+        "y": 0.15,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2485,
+        "y": 0.15,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Fils",
+       "box": {
+        "x": 0.267,
+        "y": 0.15,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "SARL",
+       "box": {
+        "x": 0.3209,
+        "y": 0.15,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Jean-Baptiste LEFÈVRE",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.4154,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Jean-Baptiste",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.2624,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "LEFÈVRE",
+       "box": {
+        "x": 0.3441,
+        "y": 0.29,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Directeur commercial",
+     "box": {
+      "x": 0.07,
+      "y": 0.377,
+      "w": 0.2767,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Directeur",
+       "box": {
+        "x": 0.07,
+        "y": 0.377,
+        "w": 0.1272,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "commercial",
+       "box": {
+        "x": 0.2053,
+        "y": 0.377,
+        "w": 0.1413,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "12, rue du Faubourg Saint-Honoré",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.3671,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "12,",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "rue",
+       "box": {
+        "x": 0.1133,
+        "y": 0.54,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "du",
+       "box": {
+        "x": 0.1567,
+        "y": 0.54,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Faubourg",
+       "box": {
+        "x": 0.1879,
+        "y": 0.54,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Saint-Honoré",
+       "box": {
+        "x": 0.2918,
+        "y": 0.54,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "75008 Paris",
+     "box": {
+      "x": 0.07,
+      "y": 0.5922,
+      "w": 0.1281,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "75008",
+       "box": {
+        "x": 0.07,
+        "y": 0.5922,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Paris",
+       "box": {
+        "x": 0.1376,
+        "y": 0.5922,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tél. : +33 (0)1 42 68 53 00",
+     "box": {
+      "x": 0.07,
+      "y": 0.6444,
+      "w": 0.2912,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Tél.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6444,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": ":",
+       "box": {
+        "x": 0.1254,
+        "y": 0.6444,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+33",
+       "box": {
+        "x": 0.1445,
+        "y": 0.6444,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "(0)1",
+       "box": {
+        "x": 0.1879,
+        "y": 0.6444,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "42",
+       "box": {
+        "x": 0.2433,
+        "y": 0.6444,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "68",
+       "box": {
+        "x": 0.2745,
+        "y": 0.6444,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "53",
+       "box": {
+        "x": 0.3057,
+        "y": 0.6444,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "00",
+       "box": {
+        "x": 0.337,
+        "y": 0.6444,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Port. : 06 12 34 56 78",
+     "box": {
+      "x": 0.07,
+      "y": 0.6966,
+      "w": 0.2357,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Port.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6966,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": ":",
+       "box": {
+        "x": 0.1376,
+        "y": 0.6966,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "06",
+       "box": {
+        "x": 0.1567,
+        "y": 0.6966,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.1879,
+        "y": 0.6966,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.2191,
+        "y": 0.6966,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.2503,
+        "y": 0.6966,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.2815,
+        "y": 0.6966,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "jb.lefevre@lefevre-fils-fr.example · www.lefevre-fils.fr",
+     "box": {
+      "x": 0.07,
+      "y": 0.7488,
+      "w": 0.5712,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "jb.lefevre@lefevre-fils-fr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7488,
+        "w": 0.3149,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3919,
+        "y": 0.7488,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "www.lefevre-fils.fr",
+       "box": {
+        "x": 0.411,
+        "y": 0.7488,
+        "w": 0.2301,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "SIRET 123 456 789 00012 · TVA FR 12 123456789",
+     "box": {
+      "x": 0.07,
+      "y": 0.91,
+      "w": 0.3326,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "SIRET",
+       "box": {
+        "x": 0.07,
+        "y": 0.91,
+        "w": 0.0404,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.115,
+        "y": 0.91,
+        "w": 0.0242,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.1439,
+        "y": 0.91,
+        "w": 0.0242,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "789",
+       "box": {
+        "x": 0.1728,
+        "y": 0.91,
+        "w": 0.0242,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "00012",
+       "box": {
+        "x": 0.2017,
+        "y": 0.91,
+        "w": 0.0404,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2467,
+        "y": 0.91,
+        "w": 0.0081,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "TVA",
+       "box": {
+        "x": 0.2595,
+        "y": 0.91,
+        "w": 0.0242,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "FR",
+       "box": {
+        "x": 0.2883,
+        "y": 0.91,
+        "w": 0.0162,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.3092,
+        "y": 0.91,
+        "w": 0.0162,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "123456789",
+       "box": {
+        "x": 0.33,
+        "y": 0.91,
+        "w": 0.0727,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "FR",
+  "uiLang": "fr"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jean-Baptiste",
+   "middle": "",
+   "family": "LEFÈVRE",
+   "suffix": "",
+   "full": "Jean-Baptiste LEFÈVRE"
+  },
+  "otherName": null,
+  "company": "Société Lefèvre & Fils SARL",
+  "department": null,
+  "title": "Directeur commercial",
+  "phones": [
+   {
+    "printed": "+33 (0)1 42 68 53 00",
+    "e164": "+33142685300",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "06 12 34 56 78",
+    "e164": "+33612345678",
+    "type": "mobile",
+    "label": "Port.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jb.lefevre@lefevre-fils-fr.example"
+  ],
+  "urls": [
+   "www.lefevre-fils.fr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "12, rue du Faubourg Saint-Honoré",
+    "extra": "",
+    "pobox": "",
+    "postcode": "75008",
+    "city": "Paris",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "LEFÈVRE & FILS"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "all-caps-family",
+  "french-colon-spacing",
+  "siret-14digits",
+  "tva",
+  "comma-after-house-number",
+  "initials-email",
+  "name-is-company"
+ ],
+ "notes": "Family name in capitals (French convention). \"Tél. :\" with a space before the colon. SIRET (14 digits) and TVA are not phones."
+}

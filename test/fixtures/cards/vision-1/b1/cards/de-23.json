@@ -1,0 +1,197 @@
+{
+ "id": "de-23",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Praxis für Kieferorthopädie",
+     "box": {
+      "x": 0.07772230997260653,
+      "y": 0.0575582497422491,
+      "w": 0.3633497619628906,
+      "h": 0.06467783128893057
+     },
+     "height": 0.06467783128893057,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dr. Lea Brennekamp",
+     "box": {
+      "x": 0.07475885440031568,
+      "y": 0.24499049679081952,
+      "w": 0.27770660400390623,
+      "h": 0.05850686621942114
+     },
+     "height": 0.05850686621942114,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr. Jonas Brennekamp",
+     "box": {
+      "x": 0.07324177838335277,
+      "y": 0.31226428804868667,
+      "w": 0.306912727355957,
+      "h": 0.06485796895266505
+     },
+     "height": 0.06485796895266505,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Fachzahnärzte für Kieferorthopädie",
+     "box": {
+      "x": 0.0706524881842482,
+      "y": 0.4172087839525014,
+      "w": 0.29172161102294925,
+      "h": 0.047142514851102435
+     },
+     "height": 0.047142514851102435,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Poppelsdorfer Allee 41 • 53115 Bonn",
+     "box": {
+      "x": 0.06779517419735448,
+      "y": 0.5982763853725809,
+      "w": 0.3207367706298828,
+      "h": 0.04706174526435525
+     },
+     "height": 0.04706174526435525,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "0228 / 63 52 41",
+     "box": {
+      "x": 0.06501424794718279,
+      "y": 0.6515361116095227,
+      "w": 0.13017632484436037,
+      "h": 0.033921343019109984
+     },
+     "height": 0.033921343019109984,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "praxis@kfo-brennekamp-de.example • kfo-brennekamp.de",
+     "box": {
+      "x": 0.06499548242866225,
+      "y": 0.7065574116607701,
+      "w": 0.4892539215087891,
+      "h": 0.05693674087524414
+     },
+     "height": 0.05693674087524414,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Lea",
+   "middle": "",
+   "family": "Brennekamp",
+   "suffix": "",
+   "full": "Dr. Lea Brennekamp"
+  },
+  "otherName": null,
+  "company": "Praxis für Kieferorthopädie",
+  "department": null,
+  "title": "Fachzahnärzte für Kieferorthopädie",
+  "phones": [
+   {
+    "printed": "0228 / 63 52 41",
+    "e164": "+49228635241",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "praxis@kfo-brennekamp-de.example"
+  ],
+  "urls": [
+   "kfo-brennekamp.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Poppelsdorfer Allee 41",
+    "extra": "",
+    "pobox": "",
+    "postcode": "53115",
+    "city": "Bonn",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "name.given": [
+   "Jonas"
+  ],
+  "name.full": [
+   "Dr. Jonas Brennekamp"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-people",
+  "plural-title",
+  "title-word-in-company",
+  "allee-street"
+ ],
+ "notes": "Two doctors on one card. Spec: one contact per card, the second name goes to leftovers; either name is accepted.",
+ "o3": {
+  "source": "blind-1/cards/de-23.json",
+  "images": [
+   {
+    "name": "b1-de-23",
+    "font": "Didot",
+    "rotation": -1.58,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 107
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

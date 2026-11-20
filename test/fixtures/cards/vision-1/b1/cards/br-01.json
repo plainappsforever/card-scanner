@@ -1,0 +1,244 @@
+{
+ "id": "br-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pt"
+ ],
+ "card_country": "BR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Ferreira & Taveral",
+     "box": {
+      "x": 0.06686046474538401,
+      "y": 0.06467181530091404,
+      "w": 0.19186046600341797,
+      "h": 0.04295150285521987
+     },
+     "height": 0.04295150285521987,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Comércio Ltda.",
+     "box": {
+      "x": 0.06831395384992328,
+      "y": 0.14092664136722755,
+      "w": 0.120639533996582,
+      "h": 0.025096525096525157
+     },
+     "height": 0.025096525096525157,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Ana Paula Gonçalves Ferreira",
+     "box": {
+      "x": 0.06976745025707193,
+      "y": 0.25965250976053844,
+      "w": 0.41715114593505853,
+      "h": 0.05019305019305009
+     },
+     "height": 0.05019305019305009,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Diretora Comercial",
+     "box": {
+      "x": 0.071057645874432,
+      "y": 0.3437378779484176,
+      "w": 0.19800952911376954,
+      "h": 0.03358702678017633
+     },
+     "height": 0.03358702678017633,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Av. Paulista, 1578 - 10° andar - Bela Vista",
+     "box": {
+      "x": 0.06953064323740296,
+      "y": 0.504814749659607,
+      "w": 0.31150184631347655,
+      "h": 0.04039139545101922
+     },
+     "height": 0.04039139545101922,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "01310-200 São Paulo - SP",
+     "box": {
+      "x": 0.06831395498506161,
+      "y": 0.5605381168327231,
+      "w": 0.20348836898803713,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel.: +55 11 3251-4400",
+     "box": {
+      "x": 0.06956691909496353,
+      "y": 0.6056925894108741,
+      "w": 0.17921279907226562,
+      "h": 0.03180135262979045
+     },
+     "height": 0.03180135262979045,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Cel.: +55 11 98765-4321",
+     "box": {
+      "x": 0.0709341680833279,
+      "y": 0.6548545838472442,
+      "w": 0.1822470664978027,
+      "h": 0.03243416340654881
+     },
+     "height": 0.03243416340654881,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "anapaula@ferreirataveral-com-br.example",
+     "box": {
+      "x": 0.06941193167187272,
+      "y": 0.6994462821220074,
+      "w": 0.25353069305419923,
+      "h": 0.03975568867097956
+     },
+     "height": 0.03975568867097956,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "CNPJ 12.345.678/0001-90",
+     "box": {
+      "x": 0.07122093129963894,
+      "y": 0.7556053811140463,
+      "w": 0.2078488349914551,
+      "h": 0.029147982137083583
+     },
+     "height": 0.029147982137083583,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ana Paula",
+   "middle": "",
+   "family": "Gonçalves Ferreira",
+   "suffix": "",
+   "full": "Ana Paula Gonçalves Ferreira"
+  },
+  "otherName": null,
+  "company": "Ferreira & Taveral Comércio Ltda.",
+  "department": null,
+  "title": "Diretora Comercial",
+  "phones": [
+   {
+    "printed": "+55 11 3251-4400",
+    "e164": "+551132514400",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+55 11 98765-4321",
+    "e164": "+5511987654321",
+    "type": "mobile",
+    "label": "Cel.:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "anapaula@ferreirataveral-com-br.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Av. Paulista, 1578",
+    "extra": "10º andar - Bela Vista",
+    "pobox": "",
+    "postcode": "01310-200",
+    "city": "São Paulo",
+    "region": "SP",
+    "country": "",
+    "countryCode": "BR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.family": [
+   "Ferreira"
+  ],
+  "company": [
+   "Ferreira & Taveral"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "compound-given",
+  "cnpj",
+  "hyphen-separated-address",
+  "name-is-company",
+  "ordinal-andar",
+  "absent-url"
+ ],
+ "notes": "Brazil: compound given \"Ana Paula\", CNPJ with dots/slash is a company id. Address parts separated by \" - \".",
+ "o3": {
+  "source": "blind-1/cards/br-01.json",
+  "images": [
+   {
+    "name": "b1-br-01",
+    "font": "Didot",
+    "rotation": 0.43,
+    "noise": 8,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 201
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

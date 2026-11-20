@@ -1,0 +1,29 @@
+# Flows share one simulator/emulator and one database, so run them sequentially in this order (by flow name).
+# Each flow starts from the dev seed route (subflows/seed.yaml), which clears the library first.
+flows:
+  - "*"
+executionOrder:
+  continueOnFailure: true
+  flowsOrder:
+    - "Zero prompt - empty library, no onboarding, no permission prompt"
+    - "Self-test - card-kit OCR and barcodes on O3 images"
+    - "U1 - review, confirm, system new-contact form without permission"
+    - "U2 - batch with current event, save and next"
+    - "U3 - photo import through the system picker"
+    - "U6 - QR card fills fields"
+    - "U7 - paste an e-mail signature"
+    - "U10 - duplicate banner and merge"
+    - "Library - search, tags, events, delete with undo"
+    - "U5 - export vCard and CSV via the share sheet"
+    - "U8 - my card QR and share"
+    - "Two-sided card - front and back"
+    - "Follow-up - reminder asks for notifications only now"
+    - "U4 - bulk add asks for Contacts only after the explanation"
+    - "P8 - add a card to an existing contact (new values only) and the exact summary"
+    - "P8 - follow-up reminders follow the card (text after a language switch, cancelled on delete)"
+    - "P8 - language switch in Settings (15 languages), kept after a restart, back to the device language"
+    - "P8 - Android, In Contacts after the system form (its result, or a lookup when access was granted anyway)"
+    - "P8 - add a back side to a card from Photos (Review)"
+    - "P8 - S2 spike, iOS limited Contacts access (share one contact, add two cards, see them afterwards)"
+    # last: it answers "Don't allow" (on Android a second denial makes it "don't ask again"; e2e.sh clears our flags)
+    - "P8 - Contacts denied, one by one with the system form instead (no repeated prompt)"

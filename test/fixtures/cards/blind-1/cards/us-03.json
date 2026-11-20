@@ -1,0 +1,301 @@
+{
+ "id": "us-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "quillmate",
+     "box": {
+      "x": 0.283,
+      "y": 0.1,
+      "w": 0.434,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "quillmate",
+       "box": {
+        "x": 0.283,
+        "y": 0.1,
+        "w": 0.434,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Priyanka",
+     "box": {
+      "x": 0.3875,
+      "y": 0.32,
+      "w": 0.225,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Priyanka",
+       "box": {
+        "x": 0.3875,
+        "y": 0.32,
+        "w": 0.225,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Venkataraman",
+     "box": {
+      "x": 0.3312,
+      "y": 0.3708,
+      "w": 0.3375,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Venkataraman",
+       "box": {
+        "x": 0.3312,
+        "y": 0.3708,
+        "w": 0.3375,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Founder & CEO",
+     "box": {
+      "x": 0.373,
+      "y": 0.4215,
+      "w": 0.2539,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Founder",
+       "box": {
+        "x": 0.373,
+        "y": 0.4215,
+        "w": 0.1463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.5313,
+        "y": 0.4215,
+        "w": 0.0209,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "CEO",
+       "box": {
+        "x": 0.5643,
+        "y": 0.4215,
+        "w": 0.0627,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "priyanka@quillmate-ai.example",
+     "box": {
+      "x": 0.2975,
+      "y": 0.58,
+      "w": 0.405,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "priyanka@quillmate-ai.example",
+       "box": {
+        "x": 0.2975,
+        "y": 0.58,
+        "w": 0.405,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "quillmate.ai",
+     "box": {
+      "x": 0.3843,
+      "y": 0.6148,
+      "w": 0.2314,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "quillmate.ai",
+       "box": {
+        "x": 0.3843,
+        "y": 0.6148,
+        "w": 0.2314,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "x.com/pvenkat",
+     "box": {
+      "x": 0.3746,
+      "y": 0.6496,
+      "w": 0.2507,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "x.com/pvenkat",
+       "box": {
+        "x": 0.3746,
+        "y": 0.6496,
+        "w": 0.2507,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "linkedin.com/in/priyanka-venkataraman",
+     "box": {
+      "x": 0.1432,
+      "y": 0.6844,
+      "w": 0.7136,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "linkedin.com/in/priyanka-venkataraman",
+       "box": {
+        "x": 0.1432,
+        "y": 0.6844,
+        "w": 0.7136,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Venkataraman,Priyanka;EMAIL:priyanka@quillmate-ai.example;URL:https://quillmate.ai;NOTE:Founder & CEO;;",
+    "box": {
+     "x": 0.35,
+     "y": 0.78,
+     "w": 0.3,
+     "h": 0.18
+    }
+   }
+  ],
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Priyanka",
+   "middle": "",
+   "family": "Venkataraman",
+   "suffix": "",
+   "full": "Priyanka Venkataraman"
+  },
+  "otherName": null,
+  "company": "quillmate",
+  "department": null,
+  "title": "Founder & CEO",
+  "phones": [],
+  "emails": [
+   "priyanka@quillmate-ai.example"
+  ],
+  "urls": [
+   "quillmate.ai"
+  ],
+  "socials": [
+   {
+    "service": "x",
+    "value": "x.com/pvenkat"
+   },
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/priyanka-venkataraman"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "addresses"
+ ],
+ "accept": {
+  "urls[0]": [
+   "https://quillmate.ai"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "portrait",
+  "name-split-lines",
+  "absent-phone",
+  "absent-address",
+  "mecard-qr",
+  "x-social",
+  "ai-tld",
+  "logo-company-equals-domain"
+ ],
+ "notes": "No phone and no address at all. Name split over two centred lines. MECARD QR repeats name/e-mail/URL (N with comma = family,given)."
+}

@@ -1,0 +1,208 @@
+{
+ "id": "de-11",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Gärtnerei Blum",
+     "box": {
+      "x": 0.07654941173725156,
+      "y": 0.1127978677109116,
+      "w": 0.37605987548828124,
+      "h": 0.0757290829102506
+     },
+     "height": 0.0757290829102506,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Stauden • Gehölze • Gartenplanung",
+     "box": {
+      "x": 0.07226267076519094,
+      "y": 0.230394299031361,
+      "w": 0.3975730514526367,
+      "h": 0.05249356302975683
+     },
+     "height": 0.05249356302975683,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Schwarzwaldstraße 155 • 79117 Freiburg",
+     "box": {
+      "x": 0.0708251700511424,
+      "y": 0.2951535855449894,
+      "w": 0.48204223632812504,
+      "h": 0.059649104777450335
+     },
+     "height": 0.059649104777450335,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 0761 4 56 78 90 • Fax 0761 4 56 78 99",
+     "box": {
+      "x": 0.07094719036890482,
+      "y": 0.3741531434151446,
+      "w": 0.5019825744628906,
+      "h": 0.04987087949362512
+     },
+     "height": 0.04987087949362512,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "info@gaertnerei-blum-de.example • www.gaertnerei-blum.de",
+     "box": {
+      "x": 0.06789794049670697,
+      "y": 0.44534483378649825,
+      "w": 0.6053540802001952,
+      "h": 0.059750358110228996
+     },
+     "height": 0.059750358110228996,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Öffnungszeiten: Mo-Fr 8-18 Uhr, Sa 8-13 Uhr",
+     "box": {
+      "x": 0.06768260418958405,
+      "y": 0.5083438330545997,
+      "w": 0.5737841796875,
+      "h": 0.0740843813391725
+     },
+     "height": 0.0740843813391725,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "IBAN DE89 3704 0044 0532 0130 00 • BIC COBADEFFXXX",
+     "box": {
+      "x": 0.06629659633898811,
+      "y": 0.5830434183586607,
+      "w": 0.7424374389648437,
+      "h": 0.06157510529153598
+     },
+     "height": 0.06157510529153598,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "St.-Nr. 06/123/45678 • USt-IdNr. DE 145 678 912",
+     "box": {
+      "x": 0.06946526214493673,
+      "y": 0.6611997636384833,
+      "w": 0.5863219451904297,
+      "h": 0.05203916115190066
+     },
+     "height": 0.05203916115190066,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "Gärtnerei Blum",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "0761 4 56 78 90",
+    "e164": "+497614567890",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0761 4 56 78 99",
+    "e164": "+497614567899",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@gaertnerei-blum-de.example"
+  ],
+  "urls": [
+   "www.gaertnerei-blum.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Schwarzwaldstraße 155",
+    "extra": "",
+    "pobox": "",
+    "postcode": "79117",
+    "city": "Freiburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "iban-bic",
+  "tax-id",
+  "vat-id",
+  "opening-hours",
+  "ext-pair",
+  "absent-name",
+  "absent-title"
+ ],
+ "notes": "Name and title are absent (a produced name is a false positive — \"Blum\" is part of the company). Only the two Freiburg numbers are phones.",
+ "o3": {
+  "source": "blind-2/cards/de-11.json",
+  "images": [
+   {
+    "name": "b2-de-11",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -0.83,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 100
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

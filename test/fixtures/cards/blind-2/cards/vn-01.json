@@ -1,0 +1,584 @@
+{
+ "id": "vn-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "vi-VN"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CÔNG TY TNHH SAO VĨNH",
+     "box": {
+      "x": 0.07,
+      "y": 0.1122,
+      "w": 0.4162,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "CÔNG",
+       "box": {
+        "x": 0.07,
+        "y": 0.1122,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "TY",
+       "box": {
+        "x": 0.1686,
+        "y": 0.1122,
+        "w": 0.0435,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "TNHH",
+       "box": {
+        "x": 0.2237,
+        "y": 0.1122,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "SAO",
+       "box": {
+        "x": 0.3224,
+        "y": 0.1122,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "VIỆT",
+       "box": {
+        "x": 0.3992,
+        "y": 0.1122,
+        "w": 0.087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Tran Minh Quan",
+     "box": {
+      "x": 0.07,
+      "y": 0.1942,
+      "w": 0.3079,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Tran",
+       "box": {
+        "x": 0.07,
+        "y": 0.1942,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Minh",
+       "box": {
+        "x": 0.1768,
+        "y": 0.1942,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Quan",
+       "box": {
+        "x": 0.2837,
+        "y": 0.1942,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Giám đốc Kinh doanh",
+     "box": {
+      "x": 0.07,
+      "y": 0.2812,
+      "w": 0.319,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Giám",
+       "box": {
+        "x": 0.07,
+        "y": 0.2812,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "đốc",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2812,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Kinh",
+       "box": {
+        "x": 0.2162,
+        "y": 0.2812,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "doanh",
+       "box": {
+        "x": 0.2984,
+        "y": 0.2812,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Tầng 12, 235 Nguyễn Văn Cừ",
+     "box": {
+      "x": 0.07,
+      "y": 0.3532,
+      "w": 0.429,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tầng",
+       "box": {
+        "x": 0.07,
+        "y": 0.3532,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12,",
+       "box": {
+        "x": 0.1522,
+        "y": 0.3532,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "235",
+       "box": {
+        "x": 0.2162,
+        "y": 0.3532,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Nguyễn",
+       "box": {
+        "x": 0.2803,
+        "y": 0.3532,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Văn",
+       "box": {
+        "x": 0.3987,
+        "y": 0.3532,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Cừ",
+       "box": {
+        "x": 0.4628,
+        "y": 0.3532,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Phường 4, Quận 5, TP. Hồ Chí Minh",
+     "box": {
+      "x": 0.07,
+      "y": 0.4252,
+      "w": 0.539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Phường",
+       "box": {
+        "x": 0.07,
+        "y": 0.4252,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4,",
+       "box": {
+        "x": 0.1884,
+        "y": 0.4252,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Quận",
+       "box": {
+        "x": 0.2344,
+        "y": 0.4252,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "5,",
+       "box": {
+        "x": 0.3165,
+        "y": 0.4252,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "TP.",
+       "box": {
+        "x": 0.3625,
+        "y": 0.4252,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Hồ",
+       "box": {
+        "x": 0.4265,
+        "y": 0.4252,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Chí",
+       "box": {
+        "x": 0.4725,
+        "y": 0.4252,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Minh",
+       "box": {
+        "x": 0.5365,
+        "y": 0.4252,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "ĐT: (028) 3833 1234",
+     "box": {
+      "x": 0.07,
+      "y": 0.4972,
+      "w": 0.319,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "ĐT:",
+       "box": {
+        "x": 0.07,
+        "y": 0.4972,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(028)",
+       "box": {
+        "x": 0.1341,
+        "y": 0.4972,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3833",
+       "box": {
+        "x": 0.2344,
+        "y": 0.4972,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1234",
+       "box": {
+        "x": 0.3165,
+        "y": 0.4972,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "DĐ: 0903 456 789",
+     "box": {
+      "x": 0.07,
+      "y": 0.5692,
+      "w": 0.2646,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "DĐ:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5692,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0903",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5692,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5692,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "789",
+       "box": {
+        "x": 0.2803,
+        "y": 0.5692,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "quan.tran@saovinh-com-vn.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6412,
+      "w": 0.4348,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "quan.tran@saovinh-com-vn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6412,
+        "w": 0.4348,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "MST: 0312345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.7132,
+      "w": 0.1317,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "MST:",
+       "box": {
+        "x": 0.07,
+        "y": 0.7132,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "0312345678",
+       "box": {
+        "x": 0.1111,
+        "y": 0.7132,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Quân",
+   "middle": "Minh",
+   "family": "Trần",
+   "suffix": "",
+   "full": "Trần Minh Quân"
+  },
+  "otherName": null,
+  "company": "CÔNG TY TNHH SAO VĨNH",
+  "department": "Kinh doanh",
+  "title": "Giám đốc",
+  "phones": [
+   {
+    "printed": "(028) 3833 1234",
+    "e164": "+842838331234",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0903 456 789",
+    "e164": "+84903456789",
+    "type": "mobile",
+    "label": "DĐ:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "quan.tran@saovinh-com-vn.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "235 Nguyễn Văn Cừ",
+    "extra": "Tầng 12",
+    "pobox": "",
+    "postcode": "",
+    "city": "TP. Hồ Chí Minh",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Giám đốc Kinh doanh"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Trần Minh Quân",
+   "ocr": "Tran Minh Quan",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Quân",
+   "ocr": "Quan",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Trần",
+   "ocr": "Tran",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "family-first",
+  "no-postcode",
+  "tax-id",
+  "title-dept-one-line",
+  "region-from-address",
+  "diacritic-lost"
+ ],
+ "notes": "Family Trần, middle Minh, given Quân (Vietnamese order — Latin N4 would swap them). MST 0312345678 (03x… is a mobile prefix) is a tax code, not a phone. Vietnam prints no postcode."
+}

@@ -1,0 +1,210 @@
+{
+ "id": "us-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ABERNATHY & KOWALSKI, P.C.",
+     "box": {
+      "x": 0.05959301436487511,
+      "y": 0.06053811776111273,
+      "w": 0.4622093200683593,
+      "h": 0.06726457161332644
+     },
+     "height": 0.06726457161332644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Attorneys at Law",
+     "box": {
+      "x": 0.062295609070914894,
+      "y": 0.16350320340365643,
+      "w": 0.14140124320983888,
+      "h": 0.03189130363317061
+     },
+     "height": 0.03189130363317061,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Theodore J. Abernathy III, Esq.",
+     "box": {
+      "x": 0.0648961905440117,
+      "y": 0.30969940334957446,
+      "w": 0.43996150970458986,
+      "h": 0.07244982038225445
+     },
+     "height": 0.07244982038225445,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Managing Partner",
+     "box": {
+      "x": 0.06675363975840588,
+      "y": 0.4047957987363511,
+      "w": 0.1835819244384766,
+      "h": 0.04204326983124129
+     },
+     "height": 0.04204326983124129,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "1100 Peachtree St NE, Suite 900",
+     "box": {
+      "x": 0.07072537135325291,
+      "y": 0.5712385594491127,
+      "w": 0.2700714111328125,
+      "h": 0.051364825038836326
+     },
+     "height": 0.051364825038836326,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Atlanta, GA 30309",
+     "box": {
+      "x": 0.07216862310885297,
+      "y": 0.6288295762189692,
+      "w": 0.15097915649414062,
+      "h": 0.04517479752941944
+     },
+     "height": 0.04517479752941944,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel 404-555-0126 • Fax 404-555-0127",
+     "box": {
+      "x": 0.07416666625380287,
+      "y": 0.6657598593122019,
+      "w": 0.2974203872680664,
+      "h": 0.05607623391169836
+     },
+     "height": 0.05607623391169836,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "tabernathy@abkolaw-com.example • abkolaw.com",
+     "box": {
+      "x": 0.07218675817644264,
+      "y": 0.7273593133771167,
+      "w": 0.29886678695678714,
+      "h": 0.04911067771175204
+     },
+     "height": 0.04911067771175204,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Theodore",
+   "middle": "J.",
+   "family": "Abernathy",
+   "suffix": "III, Esq.",
+   "full": "Theodore J. Abernathy III, Esq."
+  },
+  "otherName": null,
+  "company": "ABERNATHY & KOWALSKI, P.C.",
+  "department": null,
+  "title": "Managing Partner",
+  "phones": [
+   {
+    "printed": "404-555-0126",
+    "e164": "+14045550126",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "404-555-0127",
+    "e164": "+14045550127",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "tabernathy@abkolaw-com.example"
+  ],
+  "urls": [
+   "abkolaw.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "1100 Peachtree St NE",
+    "extra": "Suite 900",
+    "pobox": "",
+    "postcode": "30309",
+    "city": "Atlanta",
+    "region": "GA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "multiple-suffixes",
+  "pc-legal-form",
+  "flast-email",
+  "directional-NE",
+  "name-is-company",
+  "comma-before-suffix"
+ ],
+ "notes": "Two suffixes \"III, Esq.\" after a comma — must not trigger the \"FAMILY, Given\" rule. P.C. is a legal form.",
+ "o3": {
+  "source": "blind-1/cards/us-04.json",
+  "images": [
+   {
+    "name": "b1-us-04",
+    "font": "Didot",
+    "rotation": 1.74,
+    "noise": 10,
+    "blur": 0.6,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 93
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

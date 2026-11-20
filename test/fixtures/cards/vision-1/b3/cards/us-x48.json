@@ -1,0 +1,226 @@
+{
+ "id": "us-x48",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "LONE SPUR",
+     "box": {
+      "x": 0.06379895732137453,
+      "y": 0.06698916322573911,
+      "w": 0.2125568389892578,
+      "h": 0.05048418781471986
+     },
+     "height": 0.05048418781471986,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ROOFING & GUTTERS LLC",
+     "box": {
+      "x": 0.062499998495404545,
+      "y": 0.13416988363165383,
+      "w": 0.29215116500854493,
+      "h": 0.04968661783284667
+     },
+     "height": 0.04968661783284667,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Storm damage? We've got you covered.",
+     "box": {
+      "x": 0.06370680934581444,
+      "y": 0.1950367840111965,
+      "w": 0.3550817108154297,
+      "h": 0.040655404904634374
+     },
+     "height": 0.040655404904634374,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Dustin Waller",
+     "box": {
+      "x": 0.0664009439462706,
+      "y": 0.28893605017039437,
+      "w": 0.22034753799438478,
+      "h": 0.0448103577013641
+     },
+     "height": 0.0448103577013641,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Owner / Estimator",
+     "box": {
+      "x": 0.06647652402624356,
+      "y": 0.35965262635296247,
+      "w": 0.20426916122436523,
+      "h": 0.039139521168005564
+     },
+     "height": 0.039139521168005564,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "1-800-ROOF-PRO",
+     "box": {
+      "x": 0.06922575727372042,
+      "y": 0.429031963976928,
+      "w": 0.22054592132568357,
+      "h": 0.047065679631178026
+     },
+     "height": 0.047065679631178026,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Office (512) 448-0917 • Cell (512) 630-2284",
+     "box": {
+      "x": 0.0661216958618467,
+      "y": 0.48229063351941637,
+      "w": 0.44277965545654296,
+      "h": 0.05599809521413679
+     },
+     "height": 0.05599809521413679,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "dustin@lonespurroofingtx-com.example",
+     "box": {
+      "x": 0.06953024931690532,
+      "y": 0.5508245129895485,
+      "w": 0.2534004974365235,
+      "h": 0.03201155496840313
+     },
+     "height": 0.03201155496840313,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "BBB Accredited Business • Licensed & Insured",
+     "box": {
+      "x": 0.07241569077949205,
+      "y": 0.5916908176508894,
+      "w": 0.3508443069458008,
+      "h": 0.03395618711199078
+     },
+     "height": 0.03395618711199078,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dustin",
+   "middle": "",
+   "family": "Waller",
+   "suffix": "",
+   "full": "Dustin Waller"
+  },
+  "otherName": null,
+  "company": "LONE SPUR ROOFING & GUTTERS LLC",
+  "department": null,
+  "title": "Owner / Estimator",
+  "phones": [
+   {
+    "printed": "1-800-ROOF-PRO",
+    "e164": "+18007663776",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "(512) 448-0917",
+    "e164": "+15124480917",
+    "type": "work",
+    "label": "Office",
+    "ext": null
+   },
+   {
+    "printed": "(512) 630-2284",
+    "e164": "+15126302284",
+    "type": "mobile",
+    "label": "Cell",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dustin@lonespurroofingtx-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Owner",
+   "Estimator"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "trade",
+  "vanity-number",
+  "member-of",
+  "tagline",
+  "company-split-lines",
+  "absent-address",
+  "title-with-slash"
+ ],
+ "notes": "Roofer. 1-800-ROOF-PRO is a vanity number = 1-800-766-3776. Title \"Owner / Estimator\" is split by the pre-normaliser at \" / \". No street address. BBB line is a leftover.",
+ "o3": {
+  "source": "blind-3/cards/us-x48.json",
+  "images": [
+   {
+    "name": "b3-us-x48",
+    "font": "Menlo-Regular",
+    "rotation": 1.44,
+    "noise": 6,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

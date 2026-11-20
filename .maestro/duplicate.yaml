@@ -1,0 +1,46 @@
+appId: ${APP_ID}
+name: U10 - duplicate banner and merge
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: one
+      QUERY: "&keep=1"
+- tapOn:
+    id: filter-draft
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- extendedWaitUntil:
+    visible:
+      id: duplicate-banner
+    timeout: 15000
+- takeScreenshot: u10-banner
+# P8: what the user wrote on the incoming card survives the merge (tags, notes are added to the stored card)
+- scrollUntilVisible:
+    element:
+      id: tag-input
+- tapOn:
+    id: tag-input
+- inputText: "fairlead"
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - hideKeyboard
+- scrollUntilVisible:
+    element:
+      id: merge-button
+    direction: UP
+- tapOn:
+    id: merge-button
+- assertVisible:
+    id: card-screen
+- scrollUntilVisible:
+    element: ".*fairlead.*"

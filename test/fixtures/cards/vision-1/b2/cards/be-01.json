@@ -1,0 +1,237 @@
+{
+ "id": "be-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "nl",
+  "en"
+ ],
+ "card_country": "BE",
+ "layout": "landscape",
+ "input": {
+  "region": "NL",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "nl-NL",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "DIAMANT LOGISTICS",
+     "box": {
+      "x": 0.07858786679290042,
+      "y": 0.06077427265379243,
+      "w": 0.4748336791992187,
+      "h": 0.09920825000895495
+     },
+     "height": 0.09920825000895495,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "NV",
+     "box": {
+      "x": 0.07675610053534467,
+      "y": 0.1663096961208309,
+      "w": 0.035449836254119876,
+      "h": 0.030437846901794186
+     },
+     "height": 0.030437846901794186,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f2",
+     "text": "Sophie Peeters",
+     "box": {
+      "x": 0.07526372693722991,
+      "y": 0.23253516974036814,
+      "w": 0.238974609375,
+      "h": 0.054943740137755714
+     },
+     "height": 0.054943740137755714,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Account Manager",
+     "box": {
+      "x": 0.07009236615003267,
+      "y": 0.2986835171251301,
+      "w": 0.24370119094848636,
+      "h": 0.07106103492059312
+     },
+     "height": 0.07106103492059312,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Italiëlei 112",
+     "box": {
+      "x": 0.06812662075711629,
+      "y": 0.38224515859976504,
+      "w": 0.14438321113586425,
+      "h": 0.04225133284638749
+     },
+     "height": 0.04225133284638749,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "2000 Antwerpen",
+     "box": {
+      "x": 0.0674064305718352,
+      "y": 0.44519761023125015,
+      "w": 0.21725595474243165,
+      "h": 0.06896149329697299
+     },
+     "height": 0.06896149329697299,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel +32 3 231 45 67",
+     "box": {
+      "x": 0.06636558724096751,
+      "y": 0.5225608848011464,
+      "w": 0.26115497589111325,
+      "h": 0.054168458150620546
+     },
+     "height": 0.054168458150620546,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "GSM +32 475 12 34 56",
+     "box": {
+      "x": 0.06542459021628137,
+      "y": 0.5862105604149115,
+      "w": 0.30656175613403314,
+      "h": 0.0751426763055868
+     },
+     "height": 0.0751426763055868,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "sophie.peeters@diamantlogistics-be.example",
+     "box": {
+      "x": 0.05720398038509693,
+      "y": 0.6564699919970965,
+      "w": 0.4731794738769531,
+      "h": 0.09323519997615148
+     },
+     "height": 0.09323519997615148,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "BTW BE 0123.456.749 • RPR Antwerpen",
+     "box": {
+      "x": 0.06340865102879732,
+      "y": 0.7377027286967746,
+      "w": 0.2729036331176758,
+      "h": 0.042102879999227016
+     },
+     "height": 0.042102879999227016,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sophie",
+   "middle": "",
+   "family": "Peeters",
+   "suffix": "",
+   "full": "Sophie Peeters"
+  },
+  "otherName": null,
+  "company": "DIAMANT LOGISTICS NV",
+  "department": null,
+  "title": "Account Manager",
+  "phones": [
+   {
+    "printed": "+32 3 231 45 67",
+    "e164": "+3232314567",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+32 475 12 34 56",
+    "e164": "+32475123456",
+    "type": "mobile",
+    "label": "GSM",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "sophie.peeters@diamantlogistics-be.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Italiëlei 112",
+    "extra": "",
+    "pobox": "",
+    "postcode": "2000",
+    "city": "Antwerpen",
+    "region": "",
+    "country": "",
+    "countryCode": "BE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "legal-form-line",
+  "vat-id",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Company DIAMANT LOGISTICS NV (two lines). BE 0123.456.749 (10 digits) is the VAT/enterprise number, not a phone.",
+ "o3": {
+  "source": "blind-2/cards/be-01.json",
+  "images": [
+   {
+    "name": "b2-be-01",
+    "font": "ArialMT",
+    "rotation": -2,
+    "noise": 0,
+    "blur": 1.4,
+    "langs": [
+     "nl-NL",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

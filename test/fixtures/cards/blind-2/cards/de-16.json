@@ -1,0 +1,471 @@
+{
+ "id": "de-16",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TELLMANN METALLBAU",
+     "box": {
+      "x": 0.07,
+      "y": 0.1218,
+      "w": 0.5393,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "TELLMANN",
+       "box": {
+        "x": 0.07,
+        "y": 0.1218,
+        "w": 0.2283,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "METALLBAU",
+       "box": {
+        "x": 0.3158,
+        "y": 0.1218,
+        "w": 0.2935,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "GmbH & Co. KG",
+     "box": {
+      "x": 0.07,
+      "y": 0.2338,
+      "w": 0.2103,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.07,
+        "y": 0.2338,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2338,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Co.",
+       "box": {
+        "x": 0.18,
+        "y": 0.2338,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "KG",
+       "box": {
+        "x": 0.2441,
+        "y": 0.2338,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Thomas Tellmann Tel. 0231 98765-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.3058,
+      "w": 0.5461,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Thomas",
+       "box": {
+        "x": 0.07,
+        "y": 0.3058,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Tellmann",
+       "box": {
+        "x": 0.1884,
+        "y": 0.3058,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.3249,
+        "y": 0.3058,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0231",
+       "box": {
+        "x": 0.4071,
+        "y": 0.3058,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "98765-0",
+       "box": {
+        "x": 0.4893,
+        "y": 0.3058,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Geschäftsführender Gesellschafter",
+     "box": {
+      "x": 0.07,
+      "y": 0.3778,
+      "w": 0.5895,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Geschäftsführender",
+       "box": {
+        "x": 0.07,
+        "y": 0.3778,
+        "w": 0.3261,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Gesellschafter",
+       "box": {
+        "x": 0.4058,
+        "y": 0.3778,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Fax 0231 98765-10",
+     "box": {
+      "x": 0.6,
+      "y": 0.4498,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.6,
+        "y": 0.4498,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0231",
+       "box": {
+        "x": 0.6641,
+        "y": 0.4498,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "98765-10",
+       "box": {
+        "x": 0.7462,
+        "y": 0.4498,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Mobil 0160 91 23 45 67",
+     "box": {
+      "x": 0.6,
+      "y": 0.5218,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.6,
+        "y": 0.5218,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0160",
+       "box": {
+        "x": 0.7003,
+        "y": 0.5218,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "91",
+       "box": {
+        "x": 0.7825,
+        "y": 0.5218,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.8284,
+        "y": 0.5218,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.8744,
+        "y": 0.5218,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.9203,
+        "y": 0.5218,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Hafenstraße 9 · 44147 Dortmund",
+     "box": {
+      "x": 0.07,
+      "y": 0.5938,
+      "w": 0.5099,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Hafenstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.5938,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.279,
+        "y": 0.5938,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3068,
+        "y": 0.5938,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "44147",
+       "box": {
+        "x": 0.3346,
+        "y": 0.5938,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Dortmund",
+       "box": {
+        "x": 0.4349,
+        "y": 0.5938,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "t.tellmann@tellmann-metallbau-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6658,
+      "w": 0.5435,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "t.tellmann@tellmann-metallbau-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6658,
+        "w": 0.5435,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Thomas",
+   "middle": "",
+   "family": "Tellmann",
+   "suffix": "",
+   "full": "Thomas Tellmann"
+  },
+  "otherName": null,
+  "company": "TELLMANN METALLBAU GmbH & Co. KG",
+  "department": null,
+  "title": "Geschäftsführender Gesellschafter",
+  "phones": [
+   {
+    "printed": "0231 98765-0",
+    "e164": "+49231987650",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0231 98765-10",
+    "e164": "+492319876510",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "0160 91 23 45 67",
+    "e164": "+4916091234567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.tellmann@tellmann-metallbau-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hafenstraße 9",
+    "extra": "",
+    "pobox": "",
+    "postcode": "44147",
+    "city": "Dortmund",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "TELLMANN METALLBAU"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Thomas Tellmann",
+   "ocr": "Thomas Tellmann Tel. 0231 98765-0",
+   "kinds": [
+    "merged-line"
+   ]
+  }
+ ],
+ "traps": [
+  "legal-form-line",
+  "name-is-company",
+  "ext-pair",
+  "two-columns",
+  "merged-line"
+ ],
+ "notes": "The OCR joined the left column (name) and right column (Tel.) into one line: name Thomas Tellmann and the phone must both be taken from it. Company = logo + legal-form line."
+}

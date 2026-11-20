@@ -1,0 +1,505 @@
+{
+ "id": "uk-a20",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "The University of Wrexley",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4984,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "The",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "University",
+       "box": {
+        "x": 0.1412,
+        "y": 0.06,
+        "w": 0.178,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.337,
+        "y": 0.06,
+        "w": 0.0356,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Wrexley",
+       "box": {
+        "x": 0.3904,
+        "y": 0.06,
+        "w": 0.178,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Dr Chidi Okonkwo-Hale FRSC",
+     "box": {
+      "x": 0.07,
+      "y": 0.18,
+      "w": 0.5091,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Dr",
+       "box": {
+        "x": 0.07,
+        "y": 0.18,
+        "w": 0.0392,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Chidi",
+       "box": {
+        "x": 0.1287,
+        "y": 0.18,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Okonkwo-Hale",
+       "box": {
+        "x": 0.2462,
+        "y": 0.18,
+        "w": 0.235,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "FRSC",
+       "box": {
+        "x": 0.5008,
+        "y": 0.18,
+        "w": 0.0783,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Reader in Materials Chemistry",
+     "box": {
+      "x": 0.07,
+      "y": 0.255,
+      "w": 0.3613,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Reader",
+       "box": {
+        "x": 0.07,
+        "y": 0.255,
+        "w": 0.0748,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "in",
+       "box": {
+        "x": 0.1572,
+        "y": 0.255,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Materials",
+       "box": {
+        "x": 0.1946,
+        "y": 0.255,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Chemistry",
+       "box": {
+        "x": 0.3192,
+        "y": 0.255,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Department of Chemistry · Faculty of Science and Engineering",
+     "box": {
+      "x": 0.07,
+      "y": 0.31,
+      "w": 0.5767,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "Department",
+       "box": {
+        "x": 0.07,
+        "y": 0.31,
+        "w": 0.0961,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1757,
+        "y": 0.31,
+        "w": 0.0192,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Chemistry",
+       "box": {
+        "x": 0.2046,
+        "y": 0.31,
+        "w": 0.0865,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3007,
+        "y": 0.31,
+        "w": 0.0096,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Faculty",
+       "box": {
+        "x": 0.3199,
+        "y": 0.31,
+        "w": 0.0673,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.3968,
+        "y": 0.31,
+        "w": 0.0192,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Science",
+       "box": {
+        "x": 0.4256,
+        "y": 0.31,
+        "w": 0.0673,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "and",
+       "box": {
+        "x": 0.5025,
+        "y": 0.31,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Engineering",
+       "box": {
+        "x": 0.541,
+        "y": 0.31,
+        "w": 0.1057,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Oxford Road, Wrexley M13 9PL",
+     "box": {
+      "x": 0.07,
+      "y": 0.387,
+      "w": 0.3311,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Oxford",
+       "box": {
+        "x": 0.07,
+        "y": 0.387,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Road,",
+       "box": {
+        "x": 0.1448,
+        "y": 0.387,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Wrexley",
+       "box": {
+        "x": 0.2088,
+        "y": 0.387,
+        "w": 0.1068,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "M13",
+       "box": {
+        "x": 0.3263,
+        "y": 0.387,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "9PL",
+       "box": {
+        "x": 0.3691,
+        "y": 0.387,
+        "w": 0.032,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "+44 (0)161 275 4683",
+     "box": {
+      "x": 0.07,
+      "y": 0.437,
+      "w": 0.2029,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.07,
+        "y": 0.437,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "(0)161",
+       "box": {
+        "x": 0.1127,
+        "y": 0.437,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "275",
+       "box": {
+        "x": 0.1875,
+        "y": 0.437,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "4683",
+       "box": {
+        "x": 0.2302,
+        "y": 0.437,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "chidi.okonkwo-ha1e@wrexley-ac-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.487,
+      "w": 0.3489,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "chidi.okonkwo-ha1e@wrexley-ac-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.487,
+        "w": 0.3489,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "ORCID 0000-0001-7745-2310",
+     "box": {
+      "x": 0.07,
+      "y": 0.535,
+      "w": 0.2314,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "ORCID",
+       "box": {
+        "x": 0.07,
+        "y": 0.535,
+        "w": 0.0463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "0000-0001-7745-2310",
+       "box": {
+        "x": 0.1255,
+        "y": 0.535,
+        "w": 0.1759,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Chidi",
+   "middle": "",
+   "family": "Okonkwo-Hale",
+   "suffix": "FRSC",
+   "full": "Dr Chidi Okonkwo-Hale FRSC"
+  },
+  "otherName": null,
+  "company": "The University of Wrexley",
+  "department": "Department of Chemistry",
+  "title": "Reader in Materials Chemistry",
+  "phones": [
+   {
+    "printed": "+44 (0)161 275 4683",
+    "e164": "+441612754683",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "chidi.okonkwo-hale@wrexley-ac-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Oxford Road",
+    "extra": "",
+    "pobox": "",
+    "postcode": "M13 9PL",
+    "city": "Wrexley",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Faculty of Science and Engineering"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "chidi.okonkwo-hale@wrexley-ac-uk.example",
+   "ocr": "chidi.okonkwo-ha1e@wrexley-ac-uk.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "academic",
+  "orcid",
+  "faculty-line",
+  "credential-suffix",
+  "prefix-no-dot",
+  "foreign-region",
+  "ocr-1l",
+  "hyphenated-family",
+  "nigerian-name",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "\"Reader\" is a UK academic rank (title). Department and faculty on one line split by \" · \". FRSC is a post-nominal. \"1\" for \"l\" inside the e-mail. ORCID is not a phone."
+}

@@ -1,0 +1,416 @@
+{
+ "id": "de-12-both",
+ "group": "de-12",
+ "side": "both",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIX",
+     "box": {
+      "x": 0.08088902159809731,
+      "y": 0.013967663189397905,
+      "w": 0.2013850212097168,
+      "h": 0.08851660356558422
+     },
+     "height": 0.08851660356558422,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Antriebstechnik GmbH",
+     "box": {
+      "x": 0.07505760596315281,
+      "y": 0.16864179356611364,
+      "w": 0.27723628997802735,
+      "h": 0.04918883482001457
+     },
+     "height": 0.04918883482001457,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr.-Ing. Matthias Krüger",
+     "box": {
+      "x": 0.07629944270206668,
+      "y": 0.24606170773813907,
+      "w": 0.3239551925659179,
+      "h": 0.06405811236171643
+     },
+     "height": 0.06405811236171643,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Forschung & Entwicklung",
+     "box": {
+      "x": 0.0706062692000642,
+      "y": 0.3191250114058327,
+      "w": 0.369122543334961,
+      "h": 0.06932343295182031
+     },
+     "height": 0.06932343295182031,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Robert-Bosch-Straße 22",
+     "box": {
+      "x": 0.0720625084291109,
+      "y": 0.39245816380449083,
+      "w": 0.280233154296875,
+      "h": 0.0520544825373469
+     },
+     "height": 0.0520544825373469,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "73037 Göppingen",
+     "box": {
+      "x": 0.06921710573192115,
+      "y": 0.4687532591373378,
+      "w": 0.22327184677124023,
+      "h": 0.05083892704437132
+     },
+     "height": 0.05083892704437132,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 7161 6 02 18-0",
+     "box": {
+      "x": 0.06800381177304893,
+      "y": 0.5396275630573016,
+      "w": 0.28548370361328124,
+      "h": 0.04636599934699448
+     },
+     "height": 0.04636599934699448,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Durchwahl -214",
+     "box": {
+      "x": 0.0678148364673352,
+      "y": 0.6067362573773918,
+      "w": 0.20014511108398436,
+      "h": 0.04783517329389064
+     },
+     "height": 0.04783517329389064,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Mobil +49 170 4 82 91 37",
+     "box": {
+      "x": 0.06616017066842446,
+      "y": 0.6784258778767417,
+      "w": 0.32108707427978517,
+      "h": 0.06099643486346973
+     },
+     "height": 0.06099643486346973,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "m.krueger@helix-antrieb-de.example",
+     "box": {
+      "x": 0.06490464758546625,
+      "y": 0.7515909435028071,
+      "w": 0.33826457977294916,
+      "h": 0.05879550919109322
+     },
+     "height": 0.05879550919109322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "www.helix-antrieb.de",
+     "box": {
+      "x": 0.06360477229297334,
+      "y": 0.8249535076507869,
+      "w": 0.2653000450134277,
+      "h": 0.050624847412109375
+     },
+     "height": 0.050624847412109375,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "HELIX Drive Technology",
+     "box": {
+      "x": 0.06196992834094047,
+      "y": 0.09839314218496376,
+      "w": 0.5750510025024413,
+      "h": 0.08147719099714945
+     },
+     "height": 0.08147719099714945,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Est. 1988",
+     "box": {
+      "x": 0.06508424510106937,
+      "y": 0.2243436397726395,
+      "w": 0.14319626808166502,
+      "h": 0.0426771797268547
+     },
+     "height": 0.0426771797268547,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "Dr Matthias Krüger",
+     "box": {
+      "x": 0.06499241567841167,
+      "y": 0.27841344011792346,
+      "w": 0.3772514724731445,
+      "h": 0.0633036418310925
+     },
+     "height": 0.0633036418310925,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "Head of Research & Development",
+     "box": {
+      "x": 0.06638752218274696,
+      "y": 0.35375379293415843,
+      "w": 0.48784004211425785,
+      "h": 0.06583911939937626
+     },
+     "height": 0.06583911939937626,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "Head Office",
+     "box": {
+      "x": 0.06608656973417887,
+      "y": 0.43874245719778715,
+      "w": 0.1903905487060547,
+      "h": 0.05282321031489423
+     },
+     "height": 0.05282321031489423,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b5",
+     "text": "Robert-Bosch-Strasse 22, 73037 Goeppingen, Germany",
+     "box": {
+      "x": 0.06779322942802998,
+      "y": 0.47606530388611845,
+      "w": 0.8822139739990233,
+      "h": 0.10309905711288159
+     },
+     "height": 0.10309905711288159,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b6",
+     "text": "Phone +49 7161 60218-214",
+     "box": {
+      "x": 0.07060713205308275,
+      "y": 0.574259474912889,
+      "w": 0.4040299224853515,
+      "h": 0.06628684555701769
+     },
+     "height": 0.06628684555701769,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b7",
+     "text": "Mobile +49 170 4829137",
+     "box": {
+      "x": 0.07056886100053156,
+      "y": 0.6463548645642925,
+      "w": 0.38080326080322263,
+      "h": 0.061883594998981994
+     },
+     "height": 0.061883594998981994,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b8",
+     "text": "A member of the Bergmann Group",
+     "box": {
+      "x": 0.07046922369012115,
+      "y": 0.7224476364058957,
+      "w": 0.31328592300415037,
+      "h": 0.04734338480533318
+     },
+     "height": 0.04734338480533318,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.-Ing.",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Krüger",
+   "suffix": "",
+   "full": "Dr.-Ing. Matthias Krüger"
+  },
+  "otherName": null,
+  "company": "HELIX Antriebstechnik GmbH",
+  "department": "Forschung & Entwicklung",
+  "title": "Leiter",
+  "phones": [
+   {
+    "printed": "+49 7161 6 02 18-0",
+    "e164": "+497161602180",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-214",
+    "e164": "+49716160218214",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+49 170 4 82 91 37",
+    "e164": "+491704829137",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "m.krueger@helix-antrieb-de.example"
+  ],
+  "urls": [
+   "www.helix-antrieb.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Robert-Bosch-Straße 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "73037",
+    "city": "Göppingen",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Leiter Forschung & Entwicklung",
+   "Head of Research & Development",
+   "Head"
+  ],
+  "department": [
+   "Research & Development"
+  ],
+  "company": [
+   "HELIX Antriebstechnik",
+   "HELIX Drive Technology"
+  ],
+  "addresses[0].street": [
+   "Robert-Bosch-Strasse 22"
+  ],
+  "addresses[0].city": [
+   "Goeppingen"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "second-language",
+  "title-dept-one-line",
+  "durchwahl-composed",
+  "tagline-not-title",
+  "group-line-not-company",
+  "diacritic-lost"
+ ],
+ "notes": "Both sides: UI language German → German values primary, English ones accepted. The back's \"Phone …-214\" is the same number as the front's Durchwahl -214 (one phone, not two).",
+ "o3": {
+  "source": "blind-2/cards/de-12-both.json",
+  "images": [
+   {
+    "name": "b2-de-12-front",
+    "font": "Optima-Regular",
+    "rotation": -1.75,
+    "noise": 10,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 93
+   },
+   {
+    "name": "b2-de-12-back",
+    "font": "Menlo-Regular",
+    "rotation": 1.89,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 103
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

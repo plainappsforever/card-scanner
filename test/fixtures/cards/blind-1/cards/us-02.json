@@ -1,0 +1,513 @@
+{
+ "id": "us-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "LONE STAR REALTY GROUP",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4185,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "LONE",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "STAR",
+       "box": {
+        "x": 0.1624,
+        "y": 0.06,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "REALTY",
+       "box": {
+        "x": 0.2548,
+        "y": 0.06,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "GROUP",
+       "box": {
+        "x": 0.3876,
+        "y": 0.06,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Rosalind “Roz” Okafor",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.4408,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Rosalind",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.175,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "“Roz”",
+       "box": {
+        "x": 0.2576,
+        "y": 0.27,
+        "w": 0.1094,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Okafor",
+       "box": {
+        "x": 0.3796,
+        "y": 0.27,
+        "w": 0.1312,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "REALTOR® | Broker Associate",
+     "box": {
+      "x": 0.07,
+      "y": 0.3643,
+      "w": 0.3463,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "REALTOR®",
+       "box": {
+        "x": 0.07,
+        "y": 0.3643,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "|",
+       "box": {
+        "x": 0.1854,
+        "y": 0.3643,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Broker",
+       "box": {
+        "x": 0.2067,
+        "y": 0.3643,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Associate",
+       "box": {
+        "x": 0.2952,
+        "y": 0.3643,
+        "w": 0.1211,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "TREC Lic. #0654321",
+     "box": {
+      "x": 0.07,
+      "y": 0.4223,
+      "w": 0.1847,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "TREC",
+       "box": {
+        "x": 0.07,
+        "y": 0.4223,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Lic.",
+       "box": {
+        "x": 0.1193,
+        "y": 0.4223,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "#0654321",
+       "box": {
+        "x": 0.1686,
+        "y": 0.4223,
+        "w": 0.0861,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Direct: 5l2-555-0172",
+     "box": {
+      "x": 0.07,
+      "y": 0.6,
+      "w": 0.2371,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Direct:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "5l2-555-0172",
+       "box": {
+        "x": 0.1618,
+        "y": 0.6,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Office: 512.555.0100",
+     "box": {
+      "x": 0.07,
+      "y": 0.6522,
+      "w": 0.2371,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Office:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6522,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "512.555.0100",
+       "box": {
+        "x": 0.1618,
+        "y": 0.6522,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "roz@lonestarrealtygroup-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7044,
+      "w": 0.327,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "roz@lonestarrealtygroup-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7044,
+        "w": 0.327,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "12400 Ranch Rd 620 N, Ste 200, Austin, TX 78750",
+     "box": {
+      "x": 0.07,
+      "y": 0.7566,
+      "w": 0.5232,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "12400",
+       "box": {
+        "x": 0.07,
+        "y": 0.7566,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Ranch",
+       "box": {
+        "x": 0.1376,
+        "y": 0.7566,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Rd",
+       "box": {
+        "x": 0.2051,
+        "y": 0.7566,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "620",
+       "box": {
+        "x": 0.2363,
+        "y": 0.7566,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "N,",
+       "box": {
+        "x": 0.2796,
+        "y": 0.7566,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Ste",
+       "box": {
+        "x": 0.3109,
+        "y": 0.7566,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "200,",
+       "box": {
+        "x": 0.3542,
+        "y": 0.7566,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Austin,",
+       "box": {
+        "x": 0.4096,
+        "y": 0.7566,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "TX",
+       "box": {
+        "x": 0.5014,
+        "y": 0.7566,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "78750",
+       "box": {
+        "x": 0.5326,
+        "y": 0.7566,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "@RozSellsATX",
+     "box": {
+      "x": 0.07,
+      "y": 0.8088,
+      "w": 0.1454,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "@RozSellsATX",
+       "box": {
+        "x": 0.07,
+        "y": 0.8088,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rosalind",
+   "middle": "",
+   "family": "Okafor",
+   "suffix": "",
+   "full": "Rosalind “Roz” Okafor"
+  },
+  "otherName": null,
+  "company": "LONE STAR REALTY GROUP",
+  "department": null,
+  "title": "Broker Associate",
+  "phones": [
+   {
+    "printed": "512-555-0172",
+    "e164": "+15125550172",
+    "type": "work",
+    "label": "Direct:",
+    "ext": null
+   },
+   {
+    "printed": "512.555.0100",
+    "e164": "+15125550100",
+    "type": "work",
+    "label": "Office:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "roz@lonestarrealtygroup-com.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "other",
+    "value": "@RozSellsATX"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "12400 Ranch Rd 620 N",
+    "extra": "Ste 200",
+    "pobox": "",
+    "postcode": "78750",
+    "city": "Austin",
+    "region": "TX",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls"
+ ],
+ "accept": {
+  "title": [
+   "REALTOR® | Broker Associate",
+   "REALTOR®"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "512-555-0172",
+   "ocr": "5l2-555-0172",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "nickname-quotes",
+  "registered-sign",
+  "license-number",
+  "highway-number-in-street",
+  "one-line-us-address",
+  "lone-handle",
+  "ocr-1l",
+  "nickname-email"
+ ],
+ "notes": "Nickname in curly quotes between given and family name; e-mail uses the nickname. \"Ranch Rd 620\" has a number inside the street name. TREC licence number is not a phone."
+}

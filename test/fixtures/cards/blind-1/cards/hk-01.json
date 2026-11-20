@@ -1,0 +1,540 @@
+{
+ "id": "hk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "zh"
+ ],
+ "card_country": "HK",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "zh-Hant",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "海線航運(香港)有限公司",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3215,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "海線航運(香港)有限公司",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.3215,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Harbourline Shipping (HK) Limited",
+     "box": {
+      "x": 0.07,
+      "y": 0.13,
+      "w": 0.3416,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Harbourline",
+       "box": {
+        "x": 0.07,
+        "y": 0.13,
+        "w": 0.1184,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Shipping",
+       "box": {
+        "x": 0.1946,
+        "y": 0.13,
+        "w": 0.0861,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "(HK)",
+       "box": {
+        "x": 0.287,
+        "y": 0.13,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Limited",
+       "box": {
+        "x": 0.3363,
+        "y": 0.13,
+        "w": 0.0754,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Kelvin WONG Ka-Ming",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.3665,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Kelvin",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "WONG",
+       "box": {
+        "x": 0.2028,
+        "y": 0.27,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ka-Ming",
+       "box": {
+        "x": 0.2952,
+        "y": 0.27,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "黃家明",
+     "box": {
+      "x": 0.07,
+      "y": 0.36,
+      "w": 0.0971,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "黃家明",
+       "box": {
+        "x": 0.07,
+        "y": 0.36,
+        "w": 0.0971,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Operations Manager",
+     "box": {
+      "x": 0.07,
+      "y": 0.45,
+      "w": 0.2129,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Operations",
+       "box": {
+        "x": 0.07,
+        "y": 0.45,
+        "w": 0.1211,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Manager",
+       "box": {
+        "x": 0.1981,
+        "y": 0.45,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Unit 1203, 12/F, Tower 2, Times Square",
+     "box": {
+      "x": 0.07,
+      "y": 0.59,
+      "w": 0.3818,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Unit",
+       "box": {
+        "x": 0.07,
+        "y": 0.59,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "1203,",
+       "box": {
+        "x": 0.1193,
+        "y": 0.59,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "12/F,",
+       "box": {
+        "x": 0.1793,
+        "y": 0.59,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Tower",
+       "box": {
+        "x": 0.2394,
+        "y": 0.59,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "2,",
+       "box": {
+        "x": 0.2994,
+        "y": 0.59,
+        "w": 0.0215,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Times",
+       "box": {
+        "x": 0.3272,
+        "y": 0.59,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Square",
+       "box": {
+        "x": 0.3872,
+        "y": 0.59,
+        "w": 0.0646,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "1 Matheson Street, Causeway Bay, Hong Kong",
+     "box": {
+      "x": 0.07,
+      "y": 0.6364,
+      "w": 0.4249,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "1",
+       "box": {
+        "x": 0.07,
+        "y": 0.6364,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Matheson",
+       "box": {
+        "x": 0.087,
+        "y": 0.6364,
+        "w": 0.0861,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Street,",
+       "box": {
+        "x": 0.1793,
+        "y": 0.6364,
+        "w": 0.0754,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Causeway",
+       "box": {
+        "x": 0.2609,
+        "y": 0.6364,
+        "w": 0.0861,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Bay,",
+       "box": {
+        "x": 0.3533,
+        "y": 0.6364,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Hong",
+       "box": {
+        "x": 0.4025,
+        "y": 0.6364,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Kong",
+       "box": {
+        "x": 0.4518,
+        "y": 0.6364,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "T +852 2345 6789  M +852 9123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.6828,
+      "w": 0.3296,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.6828,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+852",
+       "box": {
+        "x": 0.087,
+        "y": 0.6828,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "2345",
+       "box": {
+        "x": 0.1363,
+        "y": 0.6828,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.1855,
+        "y": 0.6828,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "M",
+       "box": {
+        "x": 0.241,
+        "y": 0.6828,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+852",
+       "box": {
+        "x": 0.258,
+        "y": 0.6828,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "9123",
+       "box": {
+        "x": 0.3073,
+        "y": 0.6828,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.3566,
+        "y": 0.6828,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "kelvin.wong@harbourline-com-hk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7292,
+      "w": 0.323,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "kelvin.wong@harbourline-com-hk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7292,
+        "w": 0.323,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kelvin",
+   "middle": "Ka-Ming",
+   "family": "WONG",
+   "suffix": "",
+   "full": "Kelvin WONG Ka-Ming"
+  },
+  "otherName": "黃家明",
+  "company": "Harbourline Shipping (HK) Limited",
+  "department": null,
+  "title": "Operations Manager",
+  "phones": [
+   {
+    "printed": "+852 2345 6789",
+    "e164": "+85223456789",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+852 9123 4567",
+    "e164": "+85291234567",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kelvin.wong@harbourline-com-hk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "1 Matheson Street",
+    "extra": "Unit 1203, 12/F, Tower 2, Times Square",
+    "pobox": "",
+    "postcode": "",
+    "city": "Causeway Bay",
+    "region": "",
+    "country": "Hong Kong",
+    "countryCode": "HK"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "海線航運(香港)有限公司"
+  ],
+  "name.given": [
+   "Ka-Ming"
+  ],
+  "addresses[0].city": [
+   "Hong Kong"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "hk-no-postcode",
+  "english-plus-chinese-given",
+  "caps-family-in-middle",
+  "floor-12/F",
+  "unit-line",
+  "other-name-script",
+  "two-phones-one-line"
+ ],
+ "notes": "Hong Kong style: English given name, family in caps, Chinese given name romanised after it. Hong Kong has no postcode. \"12/F\" = 12th floor."
+}

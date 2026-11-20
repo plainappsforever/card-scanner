@@ -1,0 +1,27 @@
+appId: ${APP_ID}
+---
+# `expo run:ios` / a dev-client link leaves an "Open in ...?" prompt that blocks launchApp (L14 test setup, Offscan).
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+# Maestro's launchApp GRANTS every permission by default (iOS) — that hid the real Contacts state in the first S1 run
+# (L14). `unset` keeps the app's real permission state, so prompts and "no permission" paths are tested for real.
+- launchApp:
+    stopApp: true
+    permissions:
+      all: unset
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 120000

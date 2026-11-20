@@ -1,0 +1,449 @@
+{
+ "id": "at-g25",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Stadt Kremsau",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2136,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Stadt",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Kremsau",
+       "box": {
+        "x": 0.1982,
+        "y": 0.06,
+        "w": 0.0854,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "MA 48 – Abfallwirtschaft, Straßenreinigung und Fuhrpark",
+     "box": {
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.5482,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "MA",
+       "box": {
+        "x": 0.07,
+        "y": 0.14,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "48",
+       "box": {
+        "x": 0.0999,
+        "y": 0.14,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.1298,
+        "y": 0.14,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Abfallwirtschaft,",
+       "box": {
+        "x": 0.1497,
+        "y": 0.14,
+        "w": 0.1694,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Straßenreinigung",
+       "box": {
+        "x": 0.3291,
+        "y": 0.14,
+        "w": 0.1595,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.4986,
+        "y": 0.14,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Fuhrpark",
+       "box": {
+        "x": 0.5385,
+        "y": 0.14,
+        "w": 0.0797,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Referat Öffentlichkeitsarbeit",
+     "box": {
+      "x": 0.07,
+      "y": 0.188,
+      "w": 0.3304,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Referat",
+       "box": {
+        "x": 0.07,
+        "y": 0.188,
+        "w": 0.0798,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Öffentlichkeitsarbeit",
+       "box": {
+        "x": 0.1611,
+        "y": 0.188,
+        "w": 0.2393,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Mag.a Elif Kaya-Brunner",
+     "box": {
+      "x": 0.07,
+      "y": 0.28,
+      "w": 0.4094,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mag.a",
+       "box": {
+        "x": 0.07,
+        "y": 0.28,
+        "w": 0.089,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Elif",
+       "box": {
+        "x": 0.1768,
+        "y": 0.28,
+        "w": 0.0712,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Kaya-Brunner",
+       "box": {
+        "x": 0.2658,
+        "y": 0.28,
+        "w": 0.2136,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Referentin",
+     "box": {
+      "x": 0.07,
+      "y": 0.35,
+      "w": 0.1246,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Referentin",
+       "box": {
+        "x": 0.07,
+        "y": 0.35,
+        "w": 0.1246,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Einsiedlergas5e 2 · 1050 Kremsau",
+     "box": {
+      "x": 0.07,
+      "y": 0.435,
+      "w": 0.3097,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Einsiedlergas5e",
+       "box": {
+        "x": 0.07,
+        "y": 0.435,
+        "w": 0.1602,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "2",
+       "box": {
+        "x": 0.2409,
+        "y": 0.435,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2622,
+        "y": 0.435,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "1050",
+       "box": {
+        "x": 0.2836,
+        "y": 0.435,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Kremsau",
+       "box": {
+        "x": 0.337,
+        "y": 0.435,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "+43 1 4000-48123",
+     "box": {
+      "x": 0.07,
+      "y": 0.485,
+      "w": 0.1709,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.07,
+        "y": 0.485,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "1",
+       "box": {
+        "x": 0.1127,
+        "y": 0.485,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "4000-48123",
+       "box": {
+        "x": 0.1341,
+        "y": 0.485,
+        "w": 0.1068,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "elif.kaya-brunner@kremsau-gv-at.example · kremsau.gv.at/ma48",
+     "box": {
+      "x": 0.07,
+      "y": 0.535,
+      "w": 0.4585,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "elif.kaya-brunner@kremsau-gv-at.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.535,
+        "w": 0.2791,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3591,
+        "y": 0.535,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "kremsau.gv.at/ma48",
+       "box": {
+        "x": 0.379,
+        "y": 0.535,
+        "w": 0.1495,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "AT",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Mag.a",
+   "given": "Elif",
+   "middle": "",
+   "family": "Kaya-Brunner",
+   "suffix": "",
+   "full": "Mag.a Elif Kaya-Brunner"
+  },
+  "otherName": null,
+  "company": "Stadt Kremsau",
+  "department": "MA 48 – Abfallwirtschaft, Straßenreinigung und Fuhrpark",
+  "title": "Referentin",
+  "phones": [
+   {
+    "printed": "+43 1 4000-48123",
+    "e164": "+431400048123",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "elif.kaya-brunner@kremsau-gv-at.example"
+  ],
+  "urls": [
+   "kremsau.gv.at/ma48"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Einsiedlergasse 2",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1050",
+    "city": "Kremsau",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Referat Öffentlichkeitsarbeit"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].street",
+   "printed": "Einsiedlergasse 2",
+   "ocr": "Einsiedlergas5e 2",
+   "kinds": [
+    "5/S"
+   ]
+  }
+ ],
+ "traps": [
+  "government",
+  "referat",
+  "prefix-title",
+  "turkish-name",
+  "ocr-5S",
+  "department-lines",
+  "gasse-street",
+  "url-with-path"
+ ],
+ "notes": "\"Mag.a\" is the Austrian female Magister prefix. \"MA 48\" (Magistratsabteilung) department line contains a number and commas. \"5\" for \"s\" in \"Einsiedlergasse\" (street keyword \"gasse\" not in the SPEC list). URL with a path."
+}

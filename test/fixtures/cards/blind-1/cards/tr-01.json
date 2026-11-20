@@ -1,0 +1,508 @@
+{
+ "id": "tr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KARAOSMANOĞLU",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2187,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "KARAOSMANOĞLU",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.2187,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Hukuk Bürosu",
+     "box": {
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.1324,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Hukuk",
+       "box": {
+        "x": 0.07,
+        "y": 0.14,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Bürosu",
+       "box": {
+        "x": 0.1338,
+        "y": 0.14,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Av. Zeynep Karaosmanoğlu",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.4674,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Zeynep",
+       "box": {
+        "x": 0.1422,
+        "y": 0.27,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Karaosmanoğlu",
+       "box": {
+        "x": 0.275,
+        "y": 0.27,
+        "w": 0.2624,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Kurucu Ortak",
+     "box": {
+      "x": 0.07,
+      "y": 0.357,
+      "w": 0.1636,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Kurucu",
+       "box": {
+        "x": 0.07,
+        "y": 0.357,
+        "w": 0.0848,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Ortak",
+       "box": {
+        "x": 0.1629,
+        "y": 0.357,
+        "w": 0.0707,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Büyükdere Cad. No: 185 Kat: 7",
+     "box": {
+      "x": 0.07,
+      "y": 0.53,
+      "w": 0.3257,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Büyükdere",
+       "box": {
+        "x": 0.07,
+        "y": 0.53,
+        "w": 0.109,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Cad.",
+       "box": {
+        "x": 0.186,
+        "y": 0.53,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.2414,
+        "y": 0.53,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "185",
+       "box": {
+        "x": 0.2848,
+        "y": 0.53,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Kat:",
+       "box": {
+        "x": 0.3281,
+        "y": 0.53,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.3835,
+        "y": 0.53,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "34394 Şişli / İstanbul",
+     "box": {
+      "x": 0.07,
+      "y": 0.5822,
+      "w": 0.2511,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "34394",
+       "box": {
+        "x": 0.07,
+        "y": 0.5822,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Şişli",
+       "box": {
+        "x": 0.1376,
+        "y": 0.5822,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2051,
+        "y": 0.5822,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "İstanbul",
+       "box": {
+        "x": 0.2242,
+        "y": 0.5822,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "T: +90 212 345 67 89",
+     "box": {
+      "x": 0.07,
+      "y": 0.6344,
+      "w": 0.2166,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "T:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6344,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.1012,
+        "y": 0.6344,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "212",
+       "box": {
+        "x": 0.1445,
+        "y": 0.6344,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.1879,
+        "y": 0.6344,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.2312,
+        "y": 0.6344,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.2624,
+        "y": 0.6344,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Cep: +90 532 123 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.6866,
+      "w": 0.2409,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Cep:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6866,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.1254,
+        "y": 0.6866,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "532",
+       "box": {
+        "x": 0.1688,
+        "y": 0.6866,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.2121,
+        "y": 0.6866,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.2554,
+        "y": 0.6866,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.2866,
+        "y": 0.6866,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "zeynep@karaosmanoglu-av-tr.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7388,
+      "w": 0.3149,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "zeynep@karaosmanoglu-av-tr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7388,
+        "w": 0.3149,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "TR",
+  "uiLang": "tr"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Av.",
+   "given": "Zeynep",
+   "middle": "",
+   "family": "Karaosmanoğlu",
+   "suffix": "",
+   "full": "Av. Zeynep Karaosmanoğlu"
+  },
+  "otherName": null,
+  "company": "KARAOSMANOĞLU Hukuk Bürosu",
+  "department": null,
+  "title": "Kurucu Ortak",
+  "phones": [
+   {
+    "printed": "+90 212 345 67 89",
+    "e164": "+902123456789",
+    "type": "work",
+    "label": "T:",
+    "ext": null
+   },
+   {
+    "printed": "+90 532 123 45 67",
+    "e164": "+905321234567",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "zeynep@karaosmanoglu-av-tr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Büyükdere Cad. No: 185",
+    "extra": "Kat: 7",
+    "pobox": "",
+    "postcode": "34394",
+    "city": "İstanbul",
+    "region": "Şişli",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Şişli / İstanbul"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "slash-district-city",
+  "no-colon-numbers",
+  "kat-floor",
+  "av-prefix",
+  "av.tr-domain",
+  "dotted-capital-I",
+  "name-is-company",
+  "absent-url"
+ ],
+ "notes": "\"Şişli / İstanbul\" = district / city with a spaced slash (segment-split trap). \"No: 185\" and \"Kat: 7\" contain colons."
+}

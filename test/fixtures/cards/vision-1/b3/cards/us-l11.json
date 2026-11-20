@@ -1,0 +1,225 @@
+{
+ "id": "us-l11",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "DELGADO, MARSH & KIM LLP",
+     "box": {
+      "x": 0.06032840698314324,
+      "y": 0.04783943038056648,
+      "w": 0.4452150726318359,
+      "h": 0.08649735469155329
+     },
+     "height": 0.08649735469155329,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Attorneys at Law",
+     "box": {
+      "x": 0.06221983400388868,
+      "y": 0.14867349680594444,
+      "w": 0.14456327438354494,
+      "h": 0.035981730604724094
+     },
+     "height": 0.035981730604724094,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Rosa M. Delgado, Esq.",
+     "box": {
+      "x": 0.06488492940916352,
+      "y": 0.2437289267181647,
+      "w": 0.2947642517089844,
+      "h": 0.06690307381530525
+     },
+     "height": 0.06690307381530525,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Managing Partner",
+     "box": {
+      "x": 0.06643515234454718,
+      "y": 0.3286121934432801,
+      "w": 0.15645971298217776,
+      "h": 0.03963960920061382
+     },
+     "height": 0.03963960920061382,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "233 S. Wacker Drive, Suite 5400",
+     "box": {
+      "x": 0.06644318375401237,
+      "y": 0.4098766203537363,
+      "w": 0.24222768783569337,
+      "h": 0.042097828102848234
+     },
+     "height": 0.042097828102848234,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Chicago, IL 60606",
+     "box": {
+      "x": 0.06919915048309072,
+      "y": 0.4635481850401031,
+      "w": 0.14521342277526855,
+      "h": 0.04339839684917213
+     },
+     "height": 0.04339839684917213,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel (312) 782-4410 x 204źšŚ",
+     "box": {
+      "x": 0.06787512294869917,
+      "y": 0.514265843026094,
+      "w": 0.18577484130859373,
+      "h": 0.043736536990721775
+     },
+     "height": 0.043736536990721775,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fax (312) 782-4419",
+     "box": {
+      "x": 0.07076868899854932,
+      "y": 0.573527684515027,
+      "w": 0.13760306358337404,
+      "h": 0.03544161218473807
+     },
+     "height": 0.03544161218473807,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "rdelgado@dmkllp-law-com.example • dmkllp-law.com",
+     "box": {
+      "x": 0.07065786725213187,
+      "y": 0.6178117851246804,
+      "w": 0.25388124465942385,
+      "h": 0.04385869015137667
+     },
+     "height": 0.04385869015137667,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rosa",
+   "middle": "M.",
+   "family": "Delgado",
+   "suffix": "Esq.",
+   "full": "Rosa M. Delgado, Esq."
+  },
+  "otherName": null,
+  "company": "DELGADO, MARSH & KIM LLP",
+  "department": null,
+  "title": "Managing Partner",
+  "phones": [
+   {
+    "printed": "(312) 782-4410 x 204",
+    "e164": "+13127824410",
+    "type": "work",
+    "label": "Tel",
+    "ext": "204"
+   },
+   {
+    "printed": "(312) 782-4419",
+    "e164": "+13127824419",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "rdelgado@dmkllp-law-com.example"
+  ],
+  "urls": [
+   "dmkllp-law.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "233 S. Wacker Drive",
+    "extra": "Suite 5400",
+    "pobox": "",
+    "postcode": "60606",
+    "city": "Chicago",
+    "region": "IL",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "law-firm",
+  "company-with-commas",
+  "credential-suffix",
+  "extension",
+  "tagline",
+  "family-name-in-company",
+  "suite-extra",
+  "name-comma-suffix"
+ ],
+ "notes": "Company name contains commas (not \"FAMILY, Given\"); the name line has a comma before \"Esq.\" (also not N2). Extension \"x 204\" is not part of the number. Suite goes to extra.",
+ "o3": {
+  "source": "blind-3/cards/us-l11.json",
+  "images": [
+   {
+    "name": "b3-us-l11",
+    "font": "Didot",
+    "rotation": 1.85,
+    "noise": 0,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 121
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

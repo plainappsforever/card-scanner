@@ -1,0 +1,139 @@
+appId: ${APP_ID}
+name: P8 - follow-up reminders follow the card (text after a language switch, cancelled on delete)
+tags:
+  - p8
+---
+# The dev self-test route lists the notifications the system holds for the app (title | body | due time), so this flow
+# watches the reconciler on the device: one reminder after setting it, its text rewritten after a language switch
+# (German "Nachfassen"), none after the card is deleted (D48).
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+- tapOn: ".*Jürgen Müller.*"
+- assertVisible:
+    id: card-screen
+- tapOn:
+    id: edit-button
+- scrollUntilVisible:
+    element:
+      id: follow-up-button
+- tapOn:
+    id: follow-up-button
+- tapOn:
+    id: choice-tomorrow
+- tapOn:
+    text: "Allow"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      text: ".*Reminder: .*"
+    timeout: 15000
+- openLink: cardkeep-dev://debug/self-test
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- tapOn:
+    id: selftest-reminders
+- extendedWaitUntil:
+    visible:
+      id: reminders-done
+    timeout: 15000
+- assertVisible: "reminders: 1"
+- assertVisible: "reminder: Follow up: Jürgen Müller.*"
+# language switch → the reconciler rewrites the reminder in German
+- openLink: cardkeep-dev://settings
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- tapOn:
+    id: language-button
+- tapOn:
+    id: choice-de
+- extendedWaitUntil:
+    visible: "Sprache.*"
+    timeout: 10000
+- openLink: cardkeep-dev://debug/self-test
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- tapOn:
+    id: selftest-reminders
+- extendedWaitUntil:
+    visible:
+      id: reminders-done
+    timeout: 15000
+- assertVisible: "reminders: 1"
+- assertVisible: "reminder: Nachfassen: Jürgen Müller.*"
+# back to the device language, then delete the card → no reminder left
+- openLink: cardkeep-dev://settings
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- tapOn:
+    id: language-button
+- tapOn:
+    id: choice-system
+- extendedWaitUntil:
+    visible: "Language.*"
+    timeout: 10000
+- runFlow: subflows/launch.yaml
+- tapOn: ".*Jürgen Müller.*"
+- scrollUntilVisible:
+    element:
+      id: delete-button
+- tapOn:
+    id: delete-button
+# P9 (REVIEW_V1 M3): Delete asks first. "Delete" is also the covered button's label and the alert's title. Maestro's
+# rightOf sorts by distance to "Cancel": on iOS the alert title is nearer than the alert's own button (P9b, L14), so
+# iOS takes the second match; on Android the nearest one is the button.
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: "Delete"
+          rightOf:
+            text: "Cancel"
+          index: 1
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - tapOn:
+          text: "Delete"
+          rightOf:
+            text: "Cancel"
+- assertVisible:
+    id: cards-screen
+- openLink: cardkeep-dev://debug/self-test
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- tapOn:
+    id: selftest-reminders
+- extendedWaitUntil:
+    visible:
+      id: reminders-done
+    timeout: 15000
+- assertVisible: "reminders: 0"

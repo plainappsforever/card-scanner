@@ -1,0 +1,540 @@
+{
+ "id": "id-y04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "id"
+ ],
+ "card_country": "ID",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "id-ID"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PT SINAR TEBING ABADI Tbk",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3685,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "PT",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.032,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "SINAR",
+       "box": {
+        "x": 0.1181,
+        "y": 0.06,
+        "w": 0.0801,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "LAUT",
+       "box": {
+        "x": 0.2142,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "ABADI",
+       "box": {
+        "x": 0.2943,
+        "y": 0.06,
+        "w": 0.0801,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Tbk",
+       "box": {
+        "x": 0.3904,
+        "y": 0.06,
+        "w": 0.0481,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Ir. Bambang 5etiawan, M.T.",
+     "box": {
+      "x": 0.07,
+      "y": 0.175,
+      "w": 0.4628,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Ir.",
+       "box": {
+        "x": 0.07,
+        "y": 0.175,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bambang",
+       "box": {
+        "x": 0.1412,
+        "y": 0.175,
+        "w": 0.1246,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "5etiawan,",
+       "box": {
+        "x": 0.2836,
+        "y": 0.175,
+        "w": 0.1602,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "M.T.",
+       "box": {
+        "x": 0.4616,
+        "y": 0.175,
+        "w": 0.0712,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Direktur Operasional",
+     "box": {
+      "x": 0.07,
+      "y": 0.245,
+      "w": 0.2421,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Direktur",
+       "box": {
+        "x": 0.07,
+        "y": 0.245,
+        "w": 0.0968,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Operasional",
+       "box": {
+        "x": 0.1789,
+        "y": 0.245,
+        "w": 0.1332,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Telp. (021) 5790 4412 · HP 0812 8833 4417",
+     "box": {
+      "x": 0.07,
+      "y": 0.329,
+      "w": 0.4233,
+      "h": 0.029
+     },
+     "height": 0.029,
+     "words": [
+      {
+       "text": "Telp.",
+       "box": {
+        "x": 0.07,
+        "y": 0.329,
+        "w": 0.0516,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "(021)",
+       "box": {
+        "x": 0.1319,
+        "y": 0.329,
+        "w": 0.0516,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "5790",
+       "box": {
+        "x": 0.1939,
+        "y": 0.329,
+        "w": 0.0413,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "4412",
+       "box": {
+        "x": 0.2455,
+        "y": 0.329,
+        "w": 0.0413,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2971,
+        "y": 0.329,
+        "w": 0.0103,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "HP",
+       "box": {
+        "x": 0.3178,
+        "y": 0.329,
+        "w": 0.0206,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "0812",
+       "box": {
+        "x": 0.3488,
+        "y": 0.329,
+        "w": 0.0413,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "8833",
+       "box": {
+        "x": 0.4004,
+        "y": 0.329,
+        "w": 0.0413,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "4417",
+       "box": {
+        "x": 0.452,
+        "y": 0.329,
+        "w": 0.0413,
+        "h": 0.029
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "bambang.setiawan@sinartebingabadi-co-id.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.378,
+      "w": 0.3425,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "bambang.setiawan@sinartebingabadi-co-id.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.378,
+        "w": 0.3425,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Menara Sentraya Lt. 18, Jl. Iskandarsyah Raya No. 1A",
+     "box": {
+      "x": 0.07,
+      "y": 0.424,
+      "w": 0.4628,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Menara",
+       "box": {
+        "x": 0.07,
+        "y": 0.424,
+        "w": 0.0534,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Sentraya",
+       "box": {
+        "x": 0.1323,
+        "y": 0.424,
+        "w": 0.0712,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Lt.",
+       "box": {
+        "x": 0.2124,
+        "y": 0.424,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "18,",
+       "box": {
+        "x": 0.248,
+        "y": 0.424,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Jl.",
+       "box": {
+        "x": 0.2836,
+        "y": 0.424,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Iskandarsyah",
+       "box": {
+        "x": 0.3192,
+        "y": 0.424,
+        "w": 0.1068,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Raya",
+       "box": {
+        "x": 0.4349,
+        "y": 0.424,
+        "w": 0.0356,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.4794,
+        "y": 0.424,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "1A",
+       "box": {
+        "x": 0.515,
+        "y": 0.424,
+        "w": 0.0178,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Jakarta Selatan 12160",
+     "box": {
+      "x": 0.07,
+      "y": 0.469,
+      "w": 0.1944,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Jakarta",
+       "box": {
+        "x": 0.07,
+        "y": 0.469,
+        "w": 0.0648,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Selatan",
+       "box": {
+        "x": 0.1441,
+        "y": 0.469,
+        "w": 0.0648,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "12160",
+       "box": {
+        "x": 0.2181,
+        "y": 0.469,
+        "w": 0.0463,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "NPWP 01.234.567.8-012.000",
+     "box": {
+      "x": 0.07,
+      "y": 0.515,
+      "w": 0.2136,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "NPWP",
+       "box": {
+        "x": 0.07,
+        "y": 0.515,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "01.234.567.8-012.000",
+       "box": {
+        "x": 0.1127,
+        "y": 0.515,
+        "w": 0.1709,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ir.",
+   "given": "Bambang",
+   "middle": "",
+   "family": "Setiawan",
+   "suffix": "M.T.",
+   "full": "Ir. Bambang Setiawan, M.T."
+  },
+  "otherName": null,
+  "company": "PT SINAR TEBING ABADI Tbk",
+  "department": null,
+  "title": "Direktur Operasional",
+  "phones": [
+   {
+    "printed": "(021) 5790 4412",
+    "e164": "+622157904412",
+    "type": "work",
+    "label": "Telp.",
+    "ext": null
+   },
+   {
+    "printed": "0812 8833 4417",
+    "e164": "+6281288334417",
+    "type": "mobile",
+    "label": "HP",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bambang.setiawan@sinartebingabadi-co-id.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Jl. Iskandarsyah Raya No. 1A",
+    "extra": "Menara Sentraya Lt. 18",
+    "pobox": "",
+    "postcode": "12160",
+    "city": "Jakarta Selatan",
+    "region": "",
+    "country": "",
+    "countryCode": "ID"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Ir. Bambang Setiawan, M.T.",
+   "ocr": "Ir. Bambang 5etiawan, M.T.",
+   "kinds": [
+    "5/S"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Setiawan",
+   "ocr": "5etiawan",
+   "kinds": [
+    "5/S"
+   ]
+  }
+ ],
+ "traps": [
+  "prefix-title",
+  "credential-suffix",
+  "vat-id",
+  "building-floor-extra",
+  "foreign-region",
+  "ocr-5S",
+  "legal-form-prefix"
+ ],
+ "notes": "\"Ir.\" (engineer) prefix and \"M.T.\" suffix. \"5\" for \"S\" at the start of the family name. \"PT … Tbk\" legal form wraps the name. Tower + floor \"Lt. 18\" before the street. NPWP tax id is not a phone. \"HP\" = mobile."
+}

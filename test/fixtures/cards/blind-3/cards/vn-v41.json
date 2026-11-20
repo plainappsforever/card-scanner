@@ -1,0 +1,578 @@
+{
+ "id": "vn-v41",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "vi-VN"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CÔNG TY TNHH CƠ ĐIỆN SAO MAI",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4486,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "CÔNG",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "TY",
+       "box": {
+        "x": 0.1501,
+        "y": 0.06,
+        "w": 0.032,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "TNHH",
+       "box": {
+        "x": 0.1982,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "CƠ",
+       "box": {
+        "x": 0.2783,
+        "y": 0.06,
+        "w": 0.032,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "ĐIỆN",
+       "box": {
+        "x": 0.3263,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "SAO",
+       "box": {
+        "x": 0.4065,
+        "y": 0.06,
+        "w": 0.0481,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "MAI",
+       "box": {
+        "x": 0.4705,
+        "y": 0.06,
+        "w": 0.0481,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "TRAN QUOC BAO",
+     "box": {
+      "x": 0.07,
+      "y": 0.175,
+      "w": 0.2545,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "TRAN",
+       "box": {
+        "x": 0.07,
+        "y": 0.175,
+        "w": 0.0783,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "QUOC",
+       "box": {
+        "x": 0.1679,
+        "y": 0.175,
+        "w": 0.0783,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "BAO",
+       "box": {
+        "x": 0.2658,
+        "y": 0.175,
+        "w": 0.0587,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Trưởng phòng Kỹ thuật",
+     "box": {
+      "x": 0.07,
+      "y": 0.25,
+      "w": 0.2542,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Trưởng",
+       "box": {
+        "x": 0.07,
+        "y": 0.25,
+        "w": 0.0726,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "phòng",
+       "box": {
+        "x": 0.1547,
+        "y": 0.25,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Kỹ",
+       "box": {
+        "x": 0.2274,
+        "y": 0.25,
+        "w": 0.0242,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "thuật",
+       "box": {
+        "x": 0.2637,
+        "y": 0.25,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "ĐT: (024) 3 762 4410 · Di động: 0912 345 078",
+     "box": {
+      "x": 0.07,
+      "y": 0.334,
+      "w": 0.4386,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "ĐT:",
+       "box": {
+        "x": 0.07,
+        "y": 0.334,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "(024)",
+       "box": {
+        "x": 0.1099,
+        "y": 0.334,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.1697,
+        "y": 0.334,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "762",
+       "box": {
+        "x": 0.1896,
+        "y": 0.334,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "4410",
+       "box": {
+        "x": 0.2295,
+        "y": 0.334,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2793,
+        "y": 0.334,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Di",
+       "box": {
+        "x": 0.2993,
+        "y": 0.334,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "động:",
+       "box": {
+        "x": 0.3292,
+        "y": 0.334,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "0912",
+       "box": {
+        "x": 0.389,
+        "y": 0.334,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.4388,
+        "y": 0.334,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "078",
+       "box": {
+        "x": 0.4787,
+        "y": 0.334,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "bao.tq@saomai-me-vn.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.382,
+      "w": 0.1894,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "bao.tq@saomai-me-vn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.382,
+        "w": 0.1894,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Số 25 Ngõ 102 Trường Chinh, Phường Kim Liên, Hà Nội",
+     "box": {
+      "x": 0.07,
+      "y": 0.43,
+      "w": 0.4721,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Số",
+       "box": {
+        "x": 0.07,
+        "y": 0.43,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "25",
+       "box": {
+        "x": 0.0978,
+        "y": 0.43,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Ngõ",
+       "box": {
+        "x": 0.1255,
+        "y": 0.43,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "102",
+       "box": {
+        "x": 0.1626,
+        "y": 0.43,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Trường",
+       "box": {
+        "x": 0.1996,
+        "y": 0.43,
+        "w": 0.0555,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Chinh,",
+       "box": {
+        "x": 0.2644,
+        "y": 0.43,
+        "w": 0.0555,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Phường",
+       "box": {
+        "x": 0.3292,
+        "y": 0.43,
+        "w": 0.0555,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Kim",
+       "box": {
+        "x": 0.394,
+        "y": 0.43,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Liên,",
+       "box": {
+        "x": 0.431,
+        "y": 0.43,
+        "w": 0.0463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Hà",
+       "box": {
+        "x": 0.4866,
+        "y": 0.43,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Nội",
+       "box": {
+        "x": 0.5143,
+        "y": 0.43,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "MST: 0101234567",
+     "box": {
+      "x": 0.07,
+      "y": 0.476,
+      "w": 0.1282,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "MST:",
+       "box": {
+        "x": 0.07,
+        "y": 0.476,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "0101234567",
+       "box": {
+        "x": 0.1127,
+        "y": 0.476,
+        "w": 0.0855,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "BẢO",
+   "middle": "QUỐC",
+   "family": "TRẦN",
+   "suffix": "",
+   "full": "TRẦN QUỐC BẢO"
+  },
+  "otherName": null,
+  "company": "CÔNG TY TNHH CƠ ĐIỆN SAO MAI",
+  "department": null,
+  "title": "Trưởng phòng Kỹ thuật",
+  "phones": [
+   {
+    "printed": "(024) 3 762 4410",
+    "e164": "+842437624410",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0912 345 078",
+    "e164": "+84912345078",
+    "type": "mobile",
+    "label": "Di động:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bao.tq@saomai-me-vn.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Số 25 Ngõ 102 Trường Chinh",
+    "extra": "Phường Kim Liên",
+    "pobox": "",
+    "postcode": "",
+    "city": "Hà Nội",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "TRẦN QUỐC BẢO",
+   "ocr": "TRAN QUOC BAO",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "TRẦN",
+   "ocr": "TRAN",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.middle",
+   "printed": "QUỐC",
+   "ocr": "QUOC",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "BẢO",
+   "ocr": "BAO",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "vietnamese-order",
+  "name-caps",
+  "diacritic-lost",
+  "vat-id",
+  "legal-form-in-company",
+  "no-postcode",
+  "foreign-region",
+  "title-department-word"
+ ],
+ "notes": "Vietnamese order in caps: family TRẦN, middle QUỐC, given BẢO (e-mail bao.tq = given.initials). OCR lost every diacritic on the name line only. \"Trưởng phòng Kỹ thuật\" = head of the technical department. MST (tax code, 10 digits starting 01) is not a phone. No postcode."
+}

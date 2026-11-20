@@ -1,0 +1,208 @@
+{
+ "id": "kr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ko"
+ ],
+ "card_country": "KR",
+ "layout": "landscape",
+ "input": {
+  "region": "KR",
+  "uiLang": "ko",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ko-KR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "(주)누리데이터",
+     "box": {
+      "x": 0.07240941750219264,
+      "y": 0.11831948481977383,
+      "w": 0.20842672348022462,
+      "h": 0.05947713778285901
+     },
+     "height": 0.05947713778285901,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "개발팀 팀",
+     "box": {
+      "x": 0.07376286833876122,
+      "y": 0.2119242637565344,
+      "w": 0.1140780258178711,
+      "h": 0.039208158102735036
+     },
+     "height": 0.039208158102735036,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "김민준",
+     "box": {
+      "x": 0.07392956031673734,
+      "y": 0.2789129651880964,
+      "w": 0.11958227157592774,
+      "h": 0.06553247812631957
+     },
+     "height": 0.06553247812631957,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "06236 서울특별시 강남구 테헤란로 152, 12층",
+     "box": {
+      "x": 0.06892981702863576,
+      "y": 0.39130884300412094,
+      "w": 0.47966571807861336,
+      "h": 0.07363233234891564
+     },
+     "height": 0.07363233234891564,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "T. 02-1234-5678 F. 02-1234-5679",
+     "box": {
+      "x": 0.06767571402705407,
+      "y": 0.46451436138522306,
+      "w": 0.384878044128418,
+      "h": 0.05917203012120298
+     },
+     "height": 0.05917203012120298,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "M. 010-98765432",
+     "box": {
+      "x": 0.07082429707790247,
+      "y": 0.5376200150010704,
+      "w": 0.20858381271362306,
+      "h": 0.04396607608868808
+     },
+     "height": 0.04396607608868808,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "minjun.kim@nuridata-co-kr.example",
+     "box": {
+      "x": 0.06790746728383937,
+      "y": 0.6063326114664815,
+      "w": 0.3076438140869141,
+      "h": 0.05407339265447786
+     },
+     "height": 0.05407339265447786,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "민준",
+   "middle": "",
+   "family": "김",
+   "suffix": "",
+   "full": "김민준"
+  },
+  "otherName": null,
+  "company": "(주)누리데이터",
+  "department": "개발팀",
+  "title": "팀장",
+  "phones": [
+   {
+    "printed": "02-1234-5678",
+    "e164": "+82212345678",
+    "type": "work",
+    "label": "T.",
+    "ext": null
+   },
+   {
+    "printed": "02-1234-5679",
+    "e164": "+82212345679",
+    "type": "fax",
+    "label": "F.",
+    "ext": null
+   },
+   {
+    "printed": "010-9876-5432",
+    "e164": "+821098765432",
+    "type": "mobile",
+    "label": "M.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "minjun.kim@nuridata-co-kr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "테헤란로 152",
+    "extra": "12층",
+    "pobox": "",
+    "postcode": "06236",
+    "city": "서울특별시",
+    "region": "",
+    "country": "",
+    "countryCode": "KR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].street": [
+   "강남구 테헤란로 152"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "family-first",
+  "title-dept-one-line",
+  "double-space-columns",
+  "ext-pair",
+  "legal-form-prefix",
+  "ocr-0O"
+ ],
+ "notes": "Name 김민준 → family 김, given 민준. Department 개발팀, title 팀장. Postcode 06236 before the city.",
+ "o3": {
+  "source": "blind-2/cards/kr-01.json",
+  "images": [
+   {
+    "name": "b2-kr-01",
+    "font": "Futura-Medium",
+    "rotation": -1.69,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "ko-KR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 204
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

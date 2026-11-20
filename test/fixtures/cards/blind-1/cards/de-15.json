@@ -1,0 +1,369 @@
+{
+ "id": "de-15",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Physiotherapie Lichtblick",
+     "box": {
+      "x": 0.07,
+      "y": 0.08,
+      "w": 0.6202,
+      "h": 0.075
+     },
+     "height": 0.075,
+     "words": [
+      {
+       "text": "Physiotherapie",
+       "box": {
+        "x": 0.07,
+        "y": 0.08,
+        "w": 0.3533,
+        "h": 0.075
+       }
+      },
+      {
+       "text": "Lichtblick",
+       "box": {
+        "x": 0.4379,
+        "y": 0.08,
+        "w": 0.2524,
+        "h": 0.075
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Anja Rauscher-Diallo",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.3952,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Anja",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Rauscher-Diallo",
+       "box": {
+        "x": 0.1624,
+        "y": 0.29,
+        "w": 0.3028,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Physiotherapeutin · Osteopathin",
+     "box": {
+      "x": 0.07,
+      "y": 0.377,
+      "w": 0.4261,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Physiotherapeutin",
+       "box": {
+        "x": 0.07,
+        "y": 0.377,
+        "w": 0.2402,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3184,
+        "y": 0.377,
+        "w": 0.0141,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Osteopathin",
+       "box": {
+        "x": 0.3407,
+        "y": 0.377,
+        "w": 0.1554,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Bahnhofstraße 8",
+     "box": {
+      "x": 0.07,
+      "y": 0.57,
+      "w": 0.1962,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Bahnhofstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.57,
+        "w": 0.175,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "8",
+       "box": {
+        "x": 0.2527,
+        "y": 0.57,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "55116 Mainz",
+     "box": {
+      "x": 0.07,
+      "y": 0.628,
+      "w": 0.1424,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "55116",
+       "box": {
+        "x": 0.07,
+        "y": 0.628,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Mainz",
+       "box": {
+        "x": 0.1451,
+        "y": 0.628,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Termine: 06131 / 23 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.686,
+      "w": 0.308,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Termine:",
+       "box": {
+        "x": 0.07,
+        "y": 0.686,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "06131",
+       "box": {
+        "x": 0.1854,
+        "y": 0.686,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2605,
+        "y": 0.686,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.2817,
+        "y": 0.686,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3164,
+        "y": 0.686,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3511,
+        "y": 0.686,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Mo–Fr 7:30–19:00 Uhr",
+     "box": {
+      "x": 0.07,
+      "y": 0.744,
+      "w": 0.2578,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Mo–Fr",
+       "box": {
+        "x": 0.07,
+        "y": 0.744,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "7:30–19:00",
+       "box": {
+        "x": 0.1451,
+        "y": 0.744,
+        "w": 0.1346,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Uhr",
+       "box": {
+        "x": 0.2874,
+        "y": 0.744,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Anja",
+   "middle": "",
+   "family": "Rauscher-Diallo",
+   "suffix": "",
+   "full": "Anja Rauscher-Diallo"
+  },
+  "otherName": null,
+  "company": "Physiotherapie Lichtblick",
+  "department": null,
+  "title": "Physiotherapeutin",
+  "phones": [
+   {
+    "printed": "06131 / 23 45 67",
+    "e164": "+496131234567",
+    "type": "work",
+    "label": "Termine:",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bahnhofstraße 8",
+    "extra": "",
+    "pobox": "",
+    "postcode": "55116",
+    "city": "Mainz",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Physiotherapeutin · Osteopathin",
+   "Osteopathin"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "absent-email",
+  "absent-url",
+  "opening-hours",
+  "unusual-phone-label",
+  "slash-inside-phone"
+ ],
+ "notes": "No e-mail and no website. Opening hours contain digit runs (7:30–19:00) that are not phones."
+}

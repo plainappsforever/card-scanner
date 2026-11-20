@@ -1,0 +1,271 @@
+{
+ "id": "de-h17-front",
+ "group": "de-h17",
+ "side": "front",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HOTEL SEEBLICK",
+     "box": {
+      "x": 0.2757,
+      "y": 0.06,
+      "w": 0.4486,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "HOTEL",
+       "box": {
+        "x": 0.2757,
+        "y": 0.06,
+        "w": 0.1602,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "SEEBLICK",
+       "box": {
+        "x": 0.468,
+        "y": 0.06,
+        "w": 0.2563,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Ankommen. Durchatmen.",
+     "box": {
+      "x": 0.3505,
+      "y": 0.17,
+      "w": 0.299,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Ankommen.",
+       "box": {
+        "x": 0.3505,
+        "y": 0.17,
+        "w": 0.1281,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Durchatmen.",
+       "box": {
+        "x": 0.4929,
+        "y": 0.17,
+        "w": 0.1566,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Seestraße 3 · 82319 Brunnsee",
+     "box": {
+      "x": 0.3193,
+      "y": 0.33,
+      "w": 0.3613,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Seestraße",
+       "box": {
+        "x": 0.3193,
+        "y": 0.33,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.4439,
+        "y": 0.33,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4688,
+        "y": 0.33,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "82319",
+       "box": {
+        "x": 0.4937,
+        "y": 0.33,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Brunnsee",
+       "box": {
+        "x": 0.5685,
+        "y": 0.33,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 08151 97 76-0 · www.hotel-seeblick-brunnsee.de",
+     "box": {
+      "x": 0.2038,
+      "y": 0.385,
+      "w": 0.5924,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.2038,
+        "y": 0.385,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "08151",
+       "box": {
+        "x": 0.2608,
+        "y": 0.385,
+        "w": 0.057,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "97",
+       "box": {
+        "x": 0.3291,
+        "y": 0.385,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "76-0",
+       "box": {
+        "x": 0.3633,
+        "y": 0.385,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4203,
+        "y": 0.385,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "www.hotel-seeblick-brunnsee.de",
+       "box": {
+        "x": 0.443,
+        "y": 0.385,
+        "w": 0.3532,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "HOTEL SEEBLICK",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "08151 97 76-0",
+    "e164": "+49815197760",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.hotel-seeblick-brunnsee.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Seestraße 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "82319",
+    "city": "Brunnsee",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "tagline",
+  "cross-side-extension",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "suffix-only-number"
+ ],
+ "notes": "Front only: hotel, tagline, address, switchboard; no person."
+}

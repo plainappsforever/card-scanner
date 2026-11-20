@@ -1,0 +1,322 @@
+{
+ "id": "at-u20-both",
+ "group": "at-u20",
+ "side": "both",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TU Wendau",
+     "box": {
+      "x": 0.06388102203622481,
+      "y": 0.0694090689706639,
+      "w": 0.15858309745788574,
+      "h": 0.043761036110660734
+     },
+     "height": 0.043761036110660734,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Technische Universität Wendau",
+     "box": {
+      "x": 0.06509404018462725,
+      "y": 0.15458816053382618,
+      "w": 0.24765001296997072,
+      "h": 0.03392936824371462
+     },
+     "height": 0.03392936824371462,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Fakultät für Elektrotechnik und Informationstechnik",
+     "box": {
+      "x": 0.06515033310454328,
+      "y": 0.21423094253722708,
+      "w": 0.3449776840209961,
+      "h": 0.03249731763449404
+     },
+     "height": 0.03249731763449404,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Institut für Elektrische Anlagen und Netze",
+     "box": {
+      "x": 0.0651495091503262,
+      "y": 0.2610185060788188,
+      "w": 0.29701076507568364,
+      "h": 0.03289625175210953
+     },
+     "height": 0.03289625175210953,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Univ.-Prof. Dipl.-Ing. Dr.techn. Matthias Edlinger",
+     "box": {
+      "x": 0.06795667566196925,
+      "y": 0.3357296395495638,
+      "w": 0.537068977355957,
+      "h": 0.05395118794386
+     },
+     "height": 0.05395118794386,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Institutsvorstand",
+     "box": {
+      "x": 0.06653504058521151,
+      "y": 0.40994724351657064,
+      "w": 0.15914758682250976,
+      "h": 0.0313834959935958
+     },
+     "height": 0.0313834959935958,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Inffeldgasse 18/I, 8010 Wendau",
+     "box": {
+      "x": 0.06802561260352555,
+      "y": 0.4915573510062998,
+      "w": 0.20262020111083986,
+      "h": 0.035395780585447234
+     },
+     "height": 0.035395780585447234,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +43 316 873-7550",
+     "box": {
+      "x": 0.06806246908527593,
+      "y": 0.5387915802071823,
+      "w": 0.1619418716430664,
+      "h": 0.031829959177142375
+     },
+     "height": 0.031829959177142375,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Wendau University of Technology",
+     "box": {
+      "x": 0.07923222055170143,
+      "y": 0.028805255569934185,
+      "w": 0.35896274566650394,
+      "h": 0.06428790736842793
+     },
+     "height": 0.06428790736842793,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Institute of Electric Power Systems",
+     "box": {
+      "x": 0.07631390222743033,
+      "y": 0.08644774123442445,
+      "w": 0.3270471572875977,
+      "h": 0.05950336934977052
+     },
+     "height": 0.05950336934977052,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "Matthias Edlinger",
+     "box": {
+      "x": 0.07423132167363392,
+      "y": 0.1780618905301472,
+      "w": 0.29632198333740234,
+      "h": 0.08519212435571388
+     },
+     "height": 0.08519212435571388,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "Head of Institute",
+     "box": {
+      "x": 0.07214426903586287,
+      "y": 0.26563202087173843,
+      "w": 0.15658228874206542,
+      "h": 0.03830857074398786
+     },
+     "height": 0.03830857074398786,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "matthias.edlinger@tuwendau-at.example • www.tuwendau.at",
+     "box": {
+      "x": 0.07037525571224915,
+      "y": 0.34231391190929383,
+      "w": 0.34270252227783204,
+      "h": 0.051594726827614124
+     },
+     "height": 0.051594726827614124,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b5",
+     "text": "ORCID 0000-0002-5591-3046",
+     "box": {
+      "x": 0.0706473307581939,
+      "y": 0.3969912229052106,
+      "w": 0.22184438705444337,
+      "h": 0.040260664744727004
+     },
+     "height": 0.040260664744727004,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Univ.-Prof. Dipl.-Ing. Dr.techn.",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Edlinger",
+   "suffix": "",
+   "full": "Univ.-Prof. Dipl.-Ing. Dr.techn. Matthias Edlinger"
+  },
+  "otherName": null,
+  "company": "Technische Universität Wendau",
+  "department": "Institut für Elektrische Anlagen und Netze",
+  "title": "Institutsvorstand",
+  "phones": [
+   {
+    "printed": "+43 316 873-7550",
+    "e164": "+433168737550",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "matthias.edlinger@tuwendau-at.example"
+  ],
+  "urls": [
+   "www.tuwendau.at"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Inffeldgasse 18/I",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8010",
+    "city": "Wendau",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "TU Wendau",
+   "Wendau University of Technology"
+  ],
+  "department": [
+   "Fakultät für Elektrotechnik und Informationstechnik",
+   "Institute of Electric Power Systems"
+  ],
+  "title": [
+   "Head of Institute"
+  ],
+  "name.full": [
+   "Matthias Edlinger"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "academic",
+  "prefix-stack",
+  "faculty-line",
+  "orcid",
+  "second-language-back",
+  "foreign-region",
+  "ocr-1l",
+  "roman-numeral-door",
+  "gasse-street"
+ ],
+ "notes": "German UI: the German side is truth, the English names of university, institute and title are accepted.",
+ "o3": {
+  "source": "blind-3/cards/at-u20-both.json",
+  "images": [
+   {
+    "name": "b3-at-u20-front",
+    "font": "AmericanTypewriter",
+    "rotation": 1.22,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 100
+   },
+   {
+    "name": "b3-at-u20-back",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.77,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 99
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

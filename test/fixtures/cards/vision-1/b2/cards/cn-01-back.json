@@ -1,0 +1,226 @@
+{
+ "id": "cn-01-back",
+ "group": "cn-01",
+ "side": "back",
+ "card_langs": [
+  "zh",
+  "en"
+ ],
+ "card_country": "CN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Shenzhen Huaguang Electronics Co., Ltd.",
+     "box": {
+      "x": 0.07329936091596145,
+      "y": 0.08539508628911796,
+      "w": 0.6396784210205079,
+      "h": 0.08843722030462908
+     },
+     "height": 0.08843722030462908,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Jianguo Wang",
+     "box": {
+      "x": 0.07081047666164142,
+      "y": 0.17226423762178744,
+      "w": 0.3423482513427734,
+      "h": 0.07269191373729333
+     },
+     "height": 0.07269191373729333,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Sales Director",
+     "box": {
+      "x": 0.07070156782484403,
+      "y": 0.26742260960813224,
+      "w": 0.19289400100708004,
+      "h": 0.04844234348724252
+     },
+     "height": 0.04844234348724252,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "No. 15 Keyuan Road, Science Park, Nanshan District",
+     "box": {
+      "x": 0.07046044934105523,
+      "y": 0.33901791439786855,
+      "w": 0.7090975189208985,
+      "h": 0.08456227954290085
+     },
+     "height": 0.08456227954290085,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Shenzhen 518057, China",
+     "box": {
+      "x": 0.06760536353019958,
+      "y": 0.41119628219850046,
+      "w": 0.33699497222900393,
+      "h": 0.07003210134027549
+     },
+     "height": 0.07003210134027549,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel: +86 755 8612 3456",
+     "box": {
+      "x": 0.0662984187030018,
+      "y": 0.4838001893358621,
+      "w": 0.3265771484375,
+      "h": 0.05904615615785813
+     },
+     "height": 0.05904615615785813,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobile: +86 139 2345 6789",
+     "box": {
+      "x": 0.06791088473757177,
+      "y": 0.5568698576519467,
+      "w": 0.3757392120361328,
+      "h": 0.05352699986756082
+     },
+     "height": 0.05352699986756082,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "wangjg@huaguang-elec-cn.example",
+     "box": {
+      "x": 0.06643075262912522,
+      "y": 0.6281844026433877,
+      "w": 0.37007972717285154,
+      "h": 0.05918894587336365
+     },
+     "height": 0.05918894587336365,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "www.huaguang-elec.cn",
+     "box": {
+      "x": 0.06633237595771185,
+      "y": 0.6980566444618908,
+      "w": 0.30483686447143554,
+      "h": 0.05895749758569435
+     },
+     "height": 0.05895749758569435,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jianguo",
+   "middle": "",
+   "family": "Wang",
+   "suffix": "",
+   "full": "Jianguo Wang"
+  },
+  "otherName": null,
+  "company": "Shenzhen Huaguang Electronics Co., Ltd.",
+  "department": null,
+  "title": "Sales Director",
+  "phones": [
+   {
+    "printed": "+86 755 8612 3456",
+    "e164": "+8675586123456",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+86 139 2345 6789",
+    "e164": "+8613923456789",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "wangjg@huaguang-elec-cn.example"
+  ],
+  "urls": [
+   "www.huaguang-elec.cn"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "No. 15 Keyuan Road",
+    "extra": "Science Park, Nanshan District",
+    "pobox": "",
+    "postcode": "518057",
+    "city": "Shenzhen",
+    "region": "",
+    "country": "China",
+    "countryCode": "CN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "ext-pair",
+  "handle-social",
+  "region-from-address",
+  "ocr-1l"
+ ],
+ "notes": "English back alone: given-first \"Jianguo Wang\"; \"1\" read as \"l\" in the landline.",
+ "o3": {
+  "source": "blind-2/cards/cn-01-back.json",
+  "images": [
+   {
+    "name": "b2-cn-01-back",
+    "font": "Verdana",
+    "rotation": -1.28,
+    "noise": 6,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 100
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "id": "ae-t35-back",
+ "group": "ae-t35",
+ "side": "back",
+ "card_langs": [
+  "ar"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ar-SA",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "النور كابيتال",
+     "box": {
+      "x": 0.7654810111846743,
+      "y": 0.04144154346464246,
+      "w": 0.16092855453491217,
+      "h": 0.05648988186162418
+     },
+     "height": 0.05648988186162418,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "خالد سعيد المنصوري",
+     "box": {
+      "x": 0.672456681137144,
+      "y": 0.1544535221210097,
+      "w": 0.256561622619629,
+      "h": 0.08320571280814515
+     },
+     "height": 0.08320571280814515,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "نائب أول للرئيس - الاستثمارات",
+     "box": {
+      "x": 0.6957330606861863,
+      "y": 0.24077296910493573,
+      "w": 0.2321572494506836,
+      "h": 0.04520306716094147
+     },
+     "height": 0.04520306716094147,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "هاتف +4400 633 2 971",
+     "box": {
+      "x": 0.7640920554941448,
+      "y": 0.3259041338741757,
+      "w": 0.16358625411987304,
+      "h": 0.03254844046927796
+     },
+     "height": 0.03254844046927796,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "جوال +2264 718 50 971",
+     "box": {
+      "x": 0.7558139581263849,
+      "y": 0.3811659195122956,
+      "w": 0.17296510696411138,
+      "h": 0.02466367662643365
+     },
+     "height": 0.02466367662643365,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "ص.ب. 113456، أبوظبي، الإمارات العربية المتحدة",
+     "box": {
+      "x": 0.6754978324406755,
+      "y": 0.42706651744019464,
+      "w": 0.253642578125,
+      "h": 0.03988855317752793
+     },
+     "height": 0.03988855317752793,
+     "dir": "rtl",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "خالد",
+   "middle": "سعيد",
+   "family": "المنصوري",
+   "suffix": "",
+   "full": "خالد سعيد المنصوري"
+  },
+  "otherName": null,
+  "company": "النور كابيتال",
+  "department": "الاستثمارات",
+  "title": "نائب أول للرئيس",
+  "phones": [
+   {
+    "printed": "+971 2 633 4400",
+    "e164": "+97126334400",
+    "type": "work",
+    "label": "هاتف",
+    "ext": null
+   },
+   {
+    "printed": "+971 50 718 2264",
+    "e164": "+971507182264",
+    "type": "mobile",
+    "label": "جوال",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "ص.ب. 113456",
+    "postcode": "",
+    "city": "أبوظبي",
+    "region": "",
+    "country": "الإمارات العربية المتحدة",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "arabic-transliteration",
+  "rtl-back",
+  "other-script-name",
+  "pobox",
+  "no-postcode",
+  "title-department-line",
+  "foreign-region",
+  "compound-family-name"
+ ],
+ "notes": "Arabic side only (right-to-left lines, Latin digits): the Arabic name is the only name. Arabic labels هاتف (phone) and جوال (mobile); ص.ب. = P.O. Box.",
+ "o3": {
+  "source": "blind-3/cards/ae-t35-back.json",
+  "images": [
+   {
+    "name": "b3-ae-t35-back",
+    "font": "Futura-Medium",
+    "rotation": 1.86,
+    "noise": 0,
+    "blur": 1,
+    "langs": [
+     "ar-SA",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 22921
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

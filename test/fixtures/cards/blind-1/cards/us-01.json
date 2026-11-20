@@ -1,0 +1,521 @@
+{
+ "id": "us-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRIGHTLYRE",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2019,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "BRIGHTLYRE",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.2019,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "ANALYTICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.106,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "ANALYTICS",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.106,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Marcus T. Delacroix-Whitfield",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.5684,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Marcus",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "T.",
+       "box": {
+        "x": 0.2028,
+        "y": 0.29,
+        "w": 0.0404,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Delacroix-Whitfield",
+       "box": {
+        "x": 0.2548,
+        "y": 0.29,
+        "w": 0.3836,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "VP, Enterprise Sales",
+     "box": {
+      "x": 0.07,
+      "y": 0.377,
+      "w": 0.2707,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "VP,",
+       "box": {
+        "x": 0.07,
+        "y": 0.377,
+        "w": 0.0424,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Enterprise",
+       "box": {
+        "x": 0.1205,
+        "y": 0.377,
+        "w": 0.1413,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.27,
+        "y": 0.377,
+        "w": 0.0707,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Brightlyre Analytics, Inc.",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.3047,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Brightlyre",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.1211,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Analytics,",
+       "box": {
+        "x": 0.1981,
+        "y": 0.54,
+        "w": 0.1211,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Inc.",
+       "box": {
+        "x": 0.3262,
+        "y": 0.54,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "350 Fifth Avenue, Suite 4810",
+     "box": {
+      "x": 0.07,
+      "y": 0.5922,
+      "w": 0.3187,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "350",
+       "box": {
+        "x": 0.07,
+        "y": 0.5922,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Fifth",
+       "box": {
+        "x": 0.1133,
+        "y": 0.5922,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Avenue,",
+       "box": {
+        "x": 0.1809,
+        "y": 0.5922,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Suite",
+       "box": {
+        "x": 0.2727,
+        "y": 0.5922,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "4810",
+       "box": {
+        "x": 0.3402,
+        "y": 0.5922,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "New York, NY 10118",
+     "box": {
+      "x": 0.07,
+      "y": 0.6444,
+      "w": 0.2027,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "New",
+       "box": {
+        "x": 0.07,
+        "y": 0.6444,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "York,",
+       "box": {
+        "x": 0.1133,
+        "y": 0.6444,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "NY",
+       "box": {
+        "x": 0.1809,
+        "y": 0.6444,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "10118",
+       "box": {
+        "x": 0.2121,
+        "y": 0.6444,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "o (212) 555-0147 x 312   c 917.555.0193",
+     "box": {
+      "x": 0.07,
+      "y": 0.6966,
+      "w": 0.4314,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "o",
+       "box": {
+        "x": 0.07,
+        "y": 0.6966,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "(212)",
+       "box": {
+        "x": 0.0891,
+        "y": 0.6966,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "555-0147",
+       "box": {
+        "x": 0.1567,
+        "y": 0.6966,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "x",
+       "box": {
+        "x": 0.2605,
+        "y": 0.6966,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "312",
+       "box": {
+        "x": 0.2796,
+        "y": 0.6966,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "c",
+       "box": {
+        "x": 0.337,
+        "y": 0.6966,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "917.555.0193",
+       "box": {
+        "x": 0.3561,
+        "y": 0.6966,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "f 212-555-0148",
+     "box": {
+      "x": 0.07,
+      "y": 0.7488,
+      "w": 0.1645,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "f",
+       "box": {
+        "x": 0.07,
+        "y": 0.7488,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "212-555-0148",
+       "box": {
+        "x": 0.0891,
+        "y": 0.7488,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "marcus.delacroix@brightiyre-analytics-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.801,
+      "w": 0.4966,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "marcus.delacroix@brightiyre-analytics-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.801,
+        "w": 0.4966,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Marcus",
+   "middle": "T.",
+   "family": "Delacroix-Whitfield",
+   "suffix": "",
+   "full": "Marcus T. Delacroix-Whitfield"
+  },
+  "otherName": null,
+  "company": "Brightlyre Analytics, Inc.",
+  "department": null,
+  "title": "VP, Enterprise Sales",
+  "phones": [
+   {
+    "printed": "(212) 555-0147 x 312",
+    "e164": "+12125550147",
+    "type": "work",
+    "label": "o",
+    "ext": "312"
+   },
+   {
+    "printed": "917.555.0193",
+    "e164": "+19175550193",
+    "type": "mobile",
+    "label": "c",
+    "ext": null
+   },
+   {
+    "printed": "212-555-0148",
+    "e164": "+12125550148",
+    "type": "fax",
+    "label": "f",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "marcus.delacroix@brightlyre-analytics-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "350 Fifth Avenue",
+    "extra": "Suite 4810",
+    "pobox": "",
+    "postcode": "10118",
+    "city": "New York",
+    "region": "NY",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "BRIGHTLYRE ANALYTICS"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "marcus.delacroix@brightlyre-analytics-com.example",
+   "ocr": "marcus.delacroix@brightiyre-analytics-com.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "single-letter-lowercase-labels",
+  "extension-x",
+  "dotted-us-phone",
+  "comma-in-title",
+  "suite",
+  "logo-split",
+  "ocr-Il",
+  "region-mismatch",
+  "middle-initial",
+  "absent-url"
+ ],
+ "notes": "Labels o/c/f (office/cell/fax). Title has a comma (\"VP, Enterprise Sales\") — not \"FAMILY, Given\". Phone region DE: numbers have no +1, so the country must come from the US address. Capital I for l in the e-mail domain."
+}

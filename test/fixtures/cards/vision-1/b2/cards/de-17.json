@@ -1,0 +1,232 @@
+{
+ "id": "de-17",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lornetal Verpackungen GmbH",
+     "box": {
+      "x": 0.06344018972252513,
+      "y": 0.09004636175833958,
+      "w": 0.571087646484375,
+      "h": 0.08650162965634611
+     },
+     "height": 0.08650162965634611,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ingrid",
+     "box": {
+      "x": 0.06246123290814992,
+      "y": 0.2022131928406401,
+      "w": 0.08787575721740723,
+      "h": 0.05569178901583993
+     },
+     "height": 0.05569178901583993,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Sommer-Wellbrock",
+     "box": {
+      "x": 0.06480548472586768,
+      "y": 0.27709428591236773,
+      "w": 0.2598313903808594,
+      "h": 0.05697874857191876
+     },
+     "height": 0.05697874857191876,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Key Account Managerin",
+     "box": {
+      "x": 0.06775882813585796,
+      "y": 0.35280480888675736,
+      "w": 0.2860030364990235,
+      "h": 0.06167461513092165
+     },
+     "height": 0.06167461513092165,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Pagenstecherstraße 70 • 49090 Osnobrück",
+     "box": {
+      "x": 0.06453951551717665,
+      "y": 0.4113885160835201,
+      "w": 0.5191034317016602,
+      "h": 0.07757968239802648
+     },
+     "height": 0.07757968239802648,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Postfach 11 62 • 49001 Osnabrück",
+     "box": {
+      "x": 0.06782092169334905,
+      "y": 0.49500803431970386,
+      "w": 0.4122927474975585,
+      "h": 0.0570421992121517
+     },
+     "height": 0.0570421992121517,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 541 9 63 21-0",
+     "box": {
+      "x": 0.06714176938636517,
+      "y": 0.5636495613879877,
+      "w": 0.259527359008789,
+      "h": 0.07203853268420835
+     },
+     "height": 0.07203853268420835,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil +49 175 2 34 56 78",
+     "box": {
+      "x": 0.07243461477451625,
+      "y": 0.6465925061239126,
+      "w": 0.3086335372924805,
+      "h": 0.04984167459848765
+     },
+     "height": 0.04984167459848765,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "i.sommer-wellbrock@lornetal-de.example",
+     "box": {
+      "x": 0.06933532325863187,
+      "y": 0.7109782336937561,
+      "w": 0.3729364013671874,
+      "h": 0.05667801345177137
+     },
+     "height": 0.05667801345177137,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ingrid",
+   "middle": "",
+   "family": "Sommer-Wellbrock",
+   "suffix": "",
+   "full": "Ingrid Sommer-Wellbrock"
+  },
+  "otherName": null,
+  "company": "Lornetal Verpackungen GmbH",
+  "department": null,
+  "title": "Key Account Managerin",
+  "phones": [
+   {
+    "printed": "+49 541 9 63 21-0",
+    "e164": "+49541963210",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 175 2 34 56 78",
+    "e164": "+491752345678",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "i.sommer-wellbrock@lornetal-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Pagenstecherstraße 70",
+    "extra": "",
+    "pobox": "",
+    "postcode": "49090",
+    "city": "Osnabrück",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   },
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postfach 11 62",
+    "postcode": "49001",
+    "city": "Osnabrück",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "name-split-lines",
+  "two-addresses",
+  "pobox",
+  "ocr-rnm"
+ ],
+ "notes": "Two addresses: street (49090) and PO box (Postfach 11 62, 49001). \"11 62\" is not a phone. Given Ingrid, family Sommer-Wellbrock (printed on two lines).",
+ "o3": {
+  "source": "blind-2/cards/de-17.json",
+  "images": [
+   {
+    "name": "b2-de-17",
+    "font": "Futura-Medium",
+    "rotation": 1.33,
+    "noise": 14,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 106
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

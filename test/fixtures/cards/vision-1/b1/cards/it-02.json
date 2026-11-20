@@ -1,0 +1,205 @@
+{
+ "id": "it-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "it-IT",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Studio Legale Varsetti & Associati",
+     "box": {
+      "x": 0.07412790524688134,
+      "y": 0.04247104430021942,
+      "w": 0.5886627960205078,
+      "h": 0.08108108108108114
+     },
+     "height": 0.08108108108108114,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Avv. Chiara VARSETTI",
+     "box": {
+      "x": 0.07239333492009849,
+      "y": 0.23742507582208183,
+      "w": 0.4162705230712891,
+      "h": 0.0616016387939452
+     },
+     "height": 0.0616016387939452,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Piazza di Spagna, 81 - 00187 Roma",
+     "box": {
+      "x": 0.06602060185186882,
+      "y": 0.4344189150650841,
+      "w": 0.4011552810668946,
+      "h": 0.056041717529296875
+     },
+     "height": 0.056041717529296875,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "T. 06 6789 1234 - F. 06 6789 1235",
+     "box": {
+      "x": 0.06608568400560323,
+      "y": 0.48521962105758276,
+      "w": 0.388680419921875,
+      "h": 0.05399581732436953
+     },
+     "height": 0.05399581732436953,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "chiara.varsetti@studiovarsetti-it.example",
+     "box": {
+      "x": 0.06934728780170772,
+      "y": 0.5418543176752956,
+      "w": 0.4063893127441406,
+      "h": 0.04920890984848192
+     },
+     "height": 0.04920890984848192,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "PEC: varsetti@pec-studiovarsetti-it.example",
+     "box": {
+      "x": 0.06604594880794036,
+      "y": 0.5881615860511783,
+      "w": 0.43443511962890624,
+      "h": 0.056735782549648284
+     },
+     "height": 0.056735782549648284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "www.studiovarsetti.it",
+     "box": {
+      "x": 0.06650927554846181,
+      "y": 0.6462658695915731,
+      "w": 0.2637892723083496,
+      "h": 0.041184174968469045
+     },
+     "height": 0.041184174968469045,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Avv.",
+   "given": "Chiara",
+   "middle": "",
+   "family": "VARSETTI",
+   "suffix": "",
+   "full": "Avv. Chiara VARSETTI"
+  },
+  "otherName": null,
+  "company": "Studio Legale Varsetti & Associati",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "06 6789 1234",
+    "e164": "+390667891234",
+    "type": "work",
+    "label": "T.",
+    "ext": null
+   },
+   {
+    "printed": "06 6789 1235",
+    "e164": "+390667891235",
+    "type": "fax",
+    "label": "F.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "chiara.varsetti@studiovarsetti-it.example",
+   "varsetti@pec-studiovarsetti-it.example"
+  ],
+  "urls": [
+   "www.studiovarsetti.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Piazza di Spagna, 81",
+    "extra": "",
+    "pobox": "",
+    "postcode": "00187",
+    "city": "Roma",
+    "region": "",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-emails",
+  "pec-second-email",
+  "prefix-only-no-title",
+  "piazza-street",
+  "single-letter-labels",
+  "en-dash-separators",
+  "caps-family",
+  "region-mismatch",
+  "absent-title",
+  "glued-label"
+ ],
+ "notes": "Second e-mail is a PEC (certified mail) address glued to its label. \"Avv.\" is the only role indication; no separate title. Italian national numbers without +39 while phone_region = DE: country from the Italian address.",
+ "o3": {
+  "source": "blind-1/cards/it-02.json",
+  "images": [
+   {
+    "name": "b1-it-02",
+    "font": "Menlo-Regular",
+    "rotation": -1.56,
+    "noise": 13,
+    "blur": 0.6,
+    "langs": [
+     "it-IT",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

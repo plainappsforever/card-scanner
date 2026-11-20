@@ -1,0 +1,549 @@
+{
+ "id": "at-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hrdlicka & Partner",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3174,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Hrdlicka",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.148,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2287,
+        "y": 0.07,
+        "w": 0.0185,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Partner",
+       "box": {
+        "x": 0.2579,
+        "y": 0.07,
+        "w": 0.1295,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Steuerberatung GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.2188,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Steuerberatung",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.1649,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.2417,
+        "y": 0.15,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Mag. Leopold Hrdlicka",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.4408,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Mag.",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.0875,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Leopold",
+       "box": {
+        "x": 0.1701,
+        "y": 0.29,
+        "w": 0.1531,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Hrdlicka",
+       "box": {
+        "x": 0.3358,
+        "y": 0.29,
+        "w": 0.175,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Steuerberater",
+     "box": {
+      "x": 0.07,
+      "y": 0.3842,
+      "w": 0.1837,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Steuerberater",
+       "box": {
+        "x": 0.07,
+        "y": 0.3842,
+        "w": 0.1837,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Wipplingerstraße 21/3/12",
+     "box": {
+      "x": 0.07,
+      "y": 0.57,
+      "w": 0.2856,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Wipplingerstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.57,
+        "w": 0.1938,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "21/3/12",
+       "box": {
+        "x": 0.2708,
+        "y": 0.57,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "1010 Wien · Österreich",
+     "box": {
+      "x": 0.07,
+      "y": 0.6222,
+      "w": 0.2511,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "1010",
+       "box": {
+        "x": 0.07,
+        "y": 0.6222,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Wien",
+       "box": {
+        "x": 0.1254,
+        "y": 0.6222,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1809,
+        "y": 0.6222,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Österreich",
+       "box": {
+        "x": 0.2,
+        "y": 0.6222,
+        "w": 0.1211,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "T +43 1 S33 24 87-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.6744,
+      "w": 0.2045,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.6744,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.0891,
+        "y": 0.6744,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "1",
+       "box": {
+        "x": 0.1324,
+        "y": 0.6744,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "S33",
+       "box": {
+        "x": 0.1515,
+        "y": 0.6744,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "24",
+       "box": {
+        "x": 0.1949,
+        "y": 0.6744,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "87-0",
+       "box": {
+        "x": 0.2261,
+        "y": 0.6744,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "M +43 664 123 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.7266,
+      "w": 0.2045,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.7266,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.0891,
+        "y": 0.7266,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "664",
+       "box": {
+        "x": 0.1324,
+        "y": 0.7266,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.1758,
+        "y": 0.7266,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.2191,
+        "y": 0.7266,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.2503,
+        "y": 0.7266,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "office@hrdlicka-stb-at.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7788,
+      "w": 0.2665,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "office@hrdlicka-stb-at.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7788,
+        "w": 0.2665,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "FN 123456a · UID ATU12345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.831,
+      "w": 0.3187,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "FN",
+       "box": {
+        "x": 0.07,
+        "y": 0.831,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "123456a",
+       "box": {
+        "x": 0.1012,
+        "y": 0.831,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.193,
+        "y": 0.831,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "UID",
+       "box": {
+        "x": 0.2121,
+        "y": 0.831,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "ATU12345678",
+       "box": {
+        "x": 0.2554,
+        "y": 0.831,
+        "w": 0.1332,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Mag.",
+   "given": "Leopold",
+   "middle": "",
+   "family": "Hrdlicka",
+   "suffix": "",
+   "full": "Mag. Leopold Hrdlicka"
+  },
+  "otherName": null,
+  "company": "Hrdlicka & Partner Steuerberatung GmbH",
+  "department": null,
+  "title": "Steuerberater",
+  "phones": [
+   {
+    "printed": "+43 1 533 24 87-0",
+    "e164": "+43153324870",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+43 664 123 45 67",
+    "e164": "+436641234567",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "office@hrdlicka-stb-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Wipplingerstraße 21/3/12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1010",
+    "city": "Wien",
+    "region": "",
+    "country": "Österreich",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Hrdlicka & Partner"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "+43 1 533 24 87-0",
+   "ocr": "+43 1 S33 24 87-0",
+   "kinds": [
+    "5/S"
+   ]
+  }
+ ],
+ "traps": [
+  "ocr-5S",
+  "at-postcode-4digit",
+  "door-number-slashes",
+  "firmenbuch-and-uid",
+  "mag-prefix",
+  "name-is-company",
+  "company-split-lines"
+ ],
+ "notes": "Austrian 4-digit postcode; \"21/3/12\" = house/stair/door. FN and UID numbers are not phones."
+}

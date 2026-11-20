@@ -1,0 +1,47 @@
+appId: ${APP_ID}
+name: U5 - export vCard and CSV via the share sheet
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: one
+      QUERY: "&keep=1"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: export-button
+- assertVisible:
+    id: export-sheet
+- assertVisible: "3 cards"
+- assertVisible: "1 card not checked yet is left out"
+- tapOn:
+    id: format-csv
+- tapOn:
+    id: export-share
+- waitForAnimationToEnd
+- takeScreenshot: u5-share-sheet
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - assertVisible: ".*(Save to Files|Copy|AirDrop).*"
+      - tapOn:
+          text: "Close"
+          optional: true
+      - swipe:
+          direction: DOWN
+          optional: true
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - assertVisible: ".*(Share|Cards.csv).*"
+      - back
+- assertVisible:
+    id: export-sheet

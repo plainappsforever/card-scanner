@@ -1,0 +1,212 @@
+{
+ "id": "sa-t36",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "SA",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Riyadh Infrastructure Development Co.",
+     "box": {
+      "x": 0.0751653191133942,
+      "y": 0.04152555423134252,
+      "w": 0.489283447265625,
+      "h": 0.05674914871863879
+     },
+     "height": 0.05674914871863879,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Eng. Abdulrahman bin Fahad Al-Qahtani",
+     "box": {
+      "x": 0.0737542216478856,
+      "y": 0.15738601432805144,
+      "w": 0.4803447723388672,
+      "h": 0.053493225436413216
+     },
+     "height": 0.053493225436413216,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Project Director",
+     "box": {
+      "x": 0.07234254643959236,
+      "y": 0.2260876902045712,
+      "w": 0.12564727783203128,
+      "h": 0.03319663891000635
+     },
+     "height": 0.03319663891000635,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel +966 11 465 2180 • Mobile +966 55 482 1937",
+     "box": {
+      "x": 0.07090679468375867,
+      "y": 0.30751376637382277,
+      "w": 0.32615882873535157,
+      "h": 0.03609158357598141
+     },
+     "height": 0.03609158357598141,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "a.alqahtani@ridco-com-sa.example",
+     "box": {
+      "x": 0.07085787164837255,
+      "y": 0.3554537828254972,
+      "w": 0.16935464859008792,
+      "h": 0.034477322258083976
+     },
+     "height": 0.034477322258083976,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "King Fahd Road, Al Olaya, P.O. Box 54321, Riyadh 11514",
+     "box": {
+      "x": 0.06947504056332203,
+      "y": 0.4030234064838354,
+      "w": 0.34498157501220705,
+      "h": 0.039116629302271555
+     },
+     "height": 0.039116629302271555,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Kingdom of Saudi Arabia",
+     "box": {
+      "x": 0.0697674441173848,
+      "y": 0.45067264594238843,
+      "w": 0.1468023204803467,
+      "h": 0.024663676626433872
+     },
+     "height": 0.024663676626433872,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "C.R. 1010234567 • VAT 300012345600003",
+     "box": {
+      "x": 0.06807489872939751,
+      "y": 0.4943321054474761,
+      "w": 0.23301822662353514,
+      "h": 0.02832750371984527
+     },
+     "height": 0.02832750371984527,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Eng.",
+   "given": "Abdulrahman",
+   "middle": "bin Fahad",
+   "family": "Al-Qahtani",
+   "suffix": "",
+   "full": "Eng. Abdulrahman bin Fahad Al-Qahtani"
+  },
+  "otherName": null,
+  "company": "Riyadh Infrastructure Development Co.",
+  "department": null,
+  "title": "Project Director",
+  "phones": [
+   {
+    "printed": "+966 11 465 2180",
+    "e164": "+966114652180",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+966 55 482 1937",
+    "e164": "+966554821937",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "a.alqahtani@ridco-com-sa.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "King Fahd Road",
+    "extra": "Al Olaya",
+    "pobox": "P.O. Box 54321",
+    "postcode": "11514",
+    "city": "Riyadh",
+    "region": "",
+    "country": "Kingdom of Saudi Arabia",
+    "countryCode": "SA"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "arabic-transliteration",
+  "nasab-bin",
+  "prefix-title",
+  "registry-number",
+  "vat-id",
+  "pobox",
+  "foreign-region",
+  "ocr-pipe-for-l",
+  "long-name"
+ ],
+ "notes": "\"Eng.\" prefix, \"bin Fahad\" (son of Fahad) is a patronymic middle part, family \"Al-Qahtani\" read with \"|\" for \"l\". Address line has street, district, P.O. Box, city and postcode. C.R. (10 digits) and VAT (15 digits) are not phones.",
+ "o3": {
+  "source": "blind-3/cards/sa-t36.json",
+  "images": [
+   {
+    "name": "b3-sa-t36",
+    "font": "Baskerville",
+    "rotation": -1.31,
+    "noise": 9,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 96
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

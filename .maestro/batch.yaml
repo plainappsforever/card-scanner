@@ -1,0 +1,48 @@
+appId: ${APP_ID}
+name: U2 - batch with current event, save and next
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: batch
+      QUERY: "&event=Fair%20Test"
+- assertVisible:
+    id: event-banner
+- assertVisible: ".*Scanning for: Fair Test.*"
+- assertVisible: "To check \\(6\\)"
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- scrollUntilVisible:
+    element:
+      id: next-button
+- assertVisible: "Save & next \\(. of 6\\)"
+- tapOn:
+    id: next-button
+- repeat:
+    times: 4
+    commands:
+      - scrollUntilVisible:
+          element:
+            id: next-button
+      - tapOn:
+          id: next-button
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- scrollUntilVisible:
+    element:
+      id: done-button
+- tapOn:
+    id: done-button
+- assertVisible:
+    id: cards-screen
+- assertVisible: "To check \\(0\\)"
+- tapOn:
+    id: events-button
+- assertVisible: ".*Fair Test.*"
+- assertVisible: ".*6 cards.*"

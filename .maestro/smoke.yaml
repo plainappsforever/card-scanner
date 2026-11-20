@@ -1,0 +1,27 @@
+appId: ${APP_ID}
+name: Zero prompt - empty library, no onboarding, no permission prompt
+tags:
+  - p7
+---
+# A3: no onboarding, account, rating or paywall screen; no permission prompt before the first scan.
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: empty
+- assertVisible:
+    id: empty-state
+- assertVisible:
+    id: scan-button
+- assertNotVisible:
+    text: ".*(Allow|Don.t Allow|access your|Sign in|Subscribe|Rate).*"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- assertVisible:
+    id: settings-screen
+- scrollUntilVisible:
+    element:
+      id: contacts-access
+# the state text depends on earlier runs on this device (Android keeps a grant); no prompt is the point here
+- takeScreenshot: zero-prompt-settings

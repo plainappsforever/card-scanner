@@ -1,0 +1,260 @@
+{
+ "id": "us-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRIGHTLYRE",
+     "box": {
+      "x": 0.06831395340625573,
+      "y": 0.033632285460537203,
+      "w": 0.43750000000000006,
+      "h": 0.08071749182741617
+     },
+     "height": 0.08071749182741617,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ROBOTICS",
+     "box": {
+      "x": 0.06831395119860748,
+      "y": 0.1771300454199587,
+      "w": 0.14680233001708984,
+      "h": 0.03363228580666333
+     },
+     "height": 0.03363228580666333,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Marcus Delgado",
+     "box": {
+      "x": 0.0693108081986038,
+      "y": 0.2451465609229453,
+      "w": 0.2436158561706543,
+      "h": 0.061668935429635585
+     },
+     "height": 0.061668935429635585,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "VP, Business Development",
+     "box": {
+      "x": 0.06976744020591863,
+      "y": 0.33590733646029747,
+      "w": 0.29651163101196293,
+      "h": 0.047500735544329875
+     },
+     "height": 0.047500735544329875,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Brightlyre Robotics, Inc.",
+     "box": {
+      "x": 0.06976743822872794,
+      "y": 0.40540540514287016,
+      "w": 0.28488372802734374,
+      "h": 0.05019305019305009
+     },
+     "height": 0.05019305019305009,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "350 Mission Street, 12th Floor",
+     "box": {
+      "x": 0.06976744976021816,
+      "y": 0.4775784758281332,
+      "w": 0.35901161193847664,
+      "h": 0.049448550898135823
+     },
+     "height": 0.049448550898135823,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "San Francisco, CA 94105",
+     "box": {
+      "x": 0.06976744442129622,
+      "y": 0.5492277988796902,
+      "w": 0.2863372039794922,
+      "h": 0.049426909119005824
+     },
+     "height": 0.049426909119005824,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Office +1 415 555 0161 ext. 204",
+     "box": {
+      "x": 0.06967564197895815,
+      "y": 0.6203371357391334,
+      "w": 0.36646358489990233,
+      "h": 0.04157457020291955
+     },
+     "height": 0.04157457020291955,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Mobile +1 415 555 0179",
+     "box": {
+      "x": 0.06976744426777685,
+      "y": 0.6901544402049283,
+      "w": 0.2819767379760742,
+      "h": 0.040787262345833186
+     },
+     "height": 0.040787262345833186,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "marcus@brightlinerobotics-com.example",
+     "box": {
+      "x": 0.0695137096033998,
+      "y": 0.7601303247714907,
+      "w": 0.36530303955078125,
+      "h": 0.050812761755983815
+     },
+     "height": 0.050812761755983815,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "brightlinerobotics.com",
+     "box": {
+      "x": 0.06976744375114975,
+      "y": 0.8363228707290407,
+      "w": 0.26162790298461913,
+      "h": 0.0448430477422177
+     },
+     "height": 0.0448430477422177,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Delgado,Marcus;TEL:+14155550179;EMAIL:marcus@brightlinerobotics-com.example;URL:https://brightlinerobotics.com;;",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Marcus",
+   "middle": "",
+   "family": "Delgado",
+   "suffix": "",
+   "full": "Marcus Delgado"
+  },
+  "otherName": null,
+  "company": "Brightlyre Robotics, Inc.",
+  "department": "Business Development",
+  "title": "VP",
+  "phones": [
+   {
+    "printed": "+1 415 555 0161 ext. 204",
+    "e164": "+14155550161",
+    "type": "work",
+    "label": "Office",
+    "ext": "204"
+   },
+   {
+    "printed": "+1 415 555 0179",
+    "e164": "+14155550179",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "marcus@brightlinerobotics-com.example"
+  ],
+  "urls": [
+   "brightlinerobotics.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "350 Mission Street",
+    "extra": "12th Floor",
+    "pobox": "",
+    "postcode": "94105",
+    "city": "San Francisco",
+    "region": "CA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "VP, Business Development"
+  ],
+  "company": [
+   "BRIGHTLYRE ROBOTICS"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "qr-mecard",
+  "extension",
+  "title-dept-one-line",
+  "ocr-0O"
+ ],
+ "notes": "Extension 204 is not part of the E.164 number. MECARD confirms name, mobile, e-mail, URL. Title VP, department Business Development.",
+ "o3": {
+  "source": "blind-2/cards/us-02.json",
+  "images": [
+   {
+    "name": "b2-us-02",
+    "font": "Baskerville",
+    "rotation": -0.1,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 161
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

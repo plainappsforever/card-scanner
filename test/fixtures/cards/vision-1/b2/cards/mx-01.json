@@ -1,0 +1,229 @@
+{
+ "id": "mx-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Med Tec Rhein",
+     "box": {
+      "x": 0.059574874343392564,
+      "y": 0.06489991378373061,
+      "w": 0.47503555297851563,
+      "h": 0.11848361335666024
+     },
+     "height": 0.11848361335666024,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "GmbH",
+     "box": {
+      "x": 0.06476784045400423,
+      "y": 0.23119652052696593,
+      "w": 0.07987416267395019,
+      "h": 0.03984296644056162
+     },
+     "height": 0.03984296644056162,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr. med. Carolin Fuchs, MBA",
+     "box": {
+      "x": 0.06456189490473221,
+      "y": 0.26332313788759487,
+      "w": 0.4993503952026368,
+      "h": 0.10128379512477559
+     },
+     "height": 0.10128379512477559,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Medical Science Liaison",
+     "box": {
+      "x": 0.06776016336241078,
+      "y": 0.3584754370335399,
+      "w": 0.3425556945800782,
+      "h": 0.058053815687024946
+     },
+     "height": 0.058053815687024946,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Kaiser Wilhelm-Ring 20 | 50672 Köln",
+     "box": {
+      "x": 0.0676512158767239,
+      "y": 0.4252636227804871,
+      "w": 0.49553665161132815,
+      "h": 0.07675526593182536
+     },
+     "height": 0.07675526593182536,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Office +49 221 47 II 23-0",
+     "box": {
+      "x": 0.06966051115738132,
+      "y": 0.517668457995034,
+      "w": 0.3171104049682617,
+      "h": 0.05063330160604951
+     },
+     "height": 0.05063330160604951,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobile +49 173 456 78 90",
+     "box": {
+      "x": 0.0720278951034339,
+      "y": 0.5780180488728707,
+      "w": 0.33133003234863284,
+      "h": 0.0660608505190109
+     },
+     "height": 0.0660608505190109,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "carolin.fuchs@medtec-rhein-de.example",
+     "box": {
+      "x": 0.07340621266089144,
+      "y": 0.6433980624690123,
+      "w": 0.41992012023925784,
+      "h": 0.06550240240502081
+     },
+     "height": 0.06550240240502081,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Part of HALVORSEN MEDICAL",
+     "box": {
+      "x": 0.07424201946436107,
+      "y": 0.7181616437142563,
+      "w": 0.30142066955566404,
+      "h": 0.05272196802853624
+     },
+     "height": 0.05272196802853624,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr. med.",
+   "given": "Carolin",
+   "middle": "",
+   "family": "Fuchs",
+   "suffix": "MBA",
+   "full": "Dr. med. Carolin Fuchs, MBA"
+  },
+  "otherName": null,
+  "company": "MedTec Rhein GmbH",
+  "department": null,
+  "title": "Medical Science Liaison",
+  "phones": [
+   {
+    "printed": "+49 221 47 11 23-0",
+    "e164": "+492214711230",
+    "type": "work",
+    "label": "Office",
+    "ext": null
+   },
+   {
+    "printed": "+49 173 456 78 90",
+    "e164": "+491734567890",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "carolin.fuchs@medtec-rhein-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Kaiser-Wilhelm-Ring 20",
+    "extra": "",
+    "pobox": "",
+    "postcode": "50672",
+    "city": "Köln",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "MedTec Rhein"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "group-line-not-company",
+  "credential-suffix",
+  "prefix-title",
+  "legal-form-line",
+  "second-language",
+  "spaced-at"
+ ],
+ "notes": "Company is MedTec Rhein GmbH (logo + legal-form line), not HALVORSEN MEDICAL. MBA is a suffix, not a company or a family name.",
+ "o3": {
+  "source": "blind-2/cards/mx-01.json",
+  "images": [
+   {
+    "name": "b2-mx-01",
+    "font": "HoeflerText-Regular",
+    "rotation": 1.86,
+    "noise": 13,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 120
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

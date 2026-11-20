@@ -1,0 +1,251 @@
+{
+ "id": "de-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hausärztliche Praxis am Rosenhag",
+     "box": {
+      "x": 0.08380266072223307,
+      "y": 0.0547898623101829,
+      "w": 0.5139896774291992,
+      "h": 0.07050900109486236
+     },
+     "height": 0.07050900109486236,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dr. med. Svenja Okonkwo-Hartmann",
+     "box": {
+      "x": 0.08225147173931774,
+      "y": 0.2329179475076495,
+      "w": 0.8369094848632812,
+      "h": 0.09164715917874489
+     },
+     "height": 0.09164715917874489,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Fachärztin für Innere Medizin",
+     "box": {
+      "x": 0.08107797315785945,
+      "y": 0.34159524891149706,
+      "w": 0.35823429107666016,
+      "h": 0.04625752717831877
+     },
+     "height": 0.04625752717831877,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Am Rosenhag 3",
+     "box": {
+      "x": 0.07830752290177947,
+      "y": 0.5048671531655023,
+      "w": 0.17188295364379882,
+      "h": 0.042712727108517146
+     },
+     "height": 0.042712727108517146,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Sprechzeiten:",
+     "box": {
+      "x": 0.5987276267610447,
+      "y": 0.5169716994528691,
+      "w": 0.12957962989807126,
+      "h": 0.037805479926032004
+     },
+     "height": 0.037805479926032004,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "20251 Hamburg",
+     "box": {
+      "x": 0.07806897436040629,
+      "y": 0.562100970585131,
+      "w": 0.18263061523437502,
+      "h": 0.04599446403473961
+     },
+     "height": 0.04599446403473961,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mo-Fr 8-12 Uhr",
+     "box": {
+      "x": 0.5986648685050853,
+      "y": 0.5730463262128994,
+      "w": 0.14858911514282225,
+      "h": 0.03025378039444737
+     },
+     "height": 0.03025378039444737,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel. 040 / 46 88 21 0",
+     "box": {
+      "x": 0.07665275221496777,
+      "y": 0.6266392590594697,
+      "w": 0.22749773025512698,
+      "h": 0.045721512503605566
+     },
+     "height": 0.045721512503605566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Di + Do 15-18 Uhr",
+     "box": {
+      "x": 0.5985875670340539,
+      "y": 0.6206035050849108,
+      "w": 0.17054445266723628,
+      "h": 0.03599854141588843
+     },
+     "height": 0.03599854141588843,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Fax 040 / 46 88 21 29",
+     "box": {
+      "x": 0.07679621136814532,
+      "y": 0.6901454752926187,
+      "w": 0.22867673873901365,
+      "h": 0.041001794881342035
+     },
+     "height": 0.041001794881342035,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "www.praxis-am-rosenhag.de",
+     "box": {
+      "x": 0.0749999934227268,
+      "y": 0.750000000300534,
+      "w": 0.32916667938232425,
+      "h": 0.04487179421089793
+     },
+     "height": 0.04487179421089793,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr. med.",
+   "given": "Svenja",
+   "middle": "",
+   "family": "Okonkwo-Hartmann",
+   "suffix": "",
+   "full": "Dr. med. Svenja Okonkwo-Hartmann"
+  },
+  "otherName": null,
+  "company": "Hausärztliche Praxis am Rosenhag",
+  "department": null,
+  "title": "Fachärztin für Innere Medizin",
+  "phones": [
+   {
+    "printed": "040 / 46 88 21 0",
+    "e164": "+49404688210",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "040 / 46 88 21 29",
+    "e164": "+494046882129",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.praxis-am-rosenhag.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Rosenhag 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20251",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "slash-inside-phone",
+  "opening-hours",
+  "street-without-keyword",
+  "ocr-0O",
+  "absent-email",
+  "no-legal-form",
+  "foreign-family-name"
+ ],
+ "notes": "\" / \" inside German numbers separates the area code; splitting segments at \" / \" breaks both numbers. Street \"Am Rosenhag\" has no street keyword and the same words appear in the company.",
+ "o3": {
+  "source": "blind-1/cards/de-03.json",
+  "images": [
+   {
+    "name": "b1-de-03",
+    "font": "Georgia",
+    "rotation": -1.02,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 119
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

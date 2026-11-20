@@ -1,0 +1,82 @@
+{
+ "id": "sig-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "text",
+ "input": {
+  "text": "Bonjour Monsieur Keller,\n\nMerci pour votre retour, je vous envoie le devis corrigé demain.\n\nCordialement,\n\nCamille Fontaine\nResponsable des achats | Direction des opérations\nAtelier Lumaryne SAS\n12, rue de la Roquette – 75011 Paris\nTél. : +33 1 43 55 12 80 | Port. : +33 6 71 24 58 93\ncamille.fontaine@atelier-lumaryne-fr.example\nwww.atelier-lumaryne.fr\n\nSAS au capital de 50 000 € – RCS Paris 812 456 903 – SIRET 812 456 903 00021\nCe message et ses pièces jointes sont confidentiels.",
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Camille",
+   "middle": "",
+   "family": "Fontaine",
+   "suffix": "",
+   "full": "Camille Fontaine"
+  },
+  "otherName": null,
+  "company": "Atelier Lumaryne SAS",
+  "department": "Direction des opérations",
+  "title": "Responsable des achats",
+  "phones": [
+   {
+    "printed": "+33 1 43 55 12 80",
+    "e164": "+33143551280",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "+33 6 71 24 58 93",
+    "e164": "+33671245893",
+    "type": "mobile",
+    "label": "Port.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "camille.fontaine@atelier-lumaryne-fr.example"
+  ],
+  "urls": [
+   "www.atelier-lumaryne.fr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "12, rue de la Roquette",
+    "extra": "",
+    "pobox": "",
+    "postcode": "75011",
+    "city": "Paris",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "email-signature",
+  "french",
+  "salutation-name",
+  "registry-number",
+  "title-department-line",
+  "foreign-region",
+  "legal-capital",
+  "label-space-colon"
+ ],
+ "notes": "French signature pasted by a German user. \"Monsieur Keller\" in the salutation is the recipient, not the name. Labels \"Tél. :\" / \"Port. :\" with a space before the colon (French typography). Share capital \"50 000 €\", RCS and SIRET are not phones. Title | department on one line."
+}

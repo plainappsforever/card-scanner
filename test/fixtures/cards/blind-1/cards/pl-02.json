@@ -1,0 +1,322 @@
+{
+ "id": "pl-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pl"
+ ],
+ "card_country": "PL",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Dariusz Śliwiński",
+     "box": {
+      "x": 0.08,
+      "y": 0.15,
+      "w": 0.3625,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Dariusz",
+       "box": {
+        "x": 0.08,
+        "y": 0.15,
+        "w": 0.1531,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Śliwiński",
+       "box": {
+        "x": 0.2457,
+        "y": 0.15,
+        "w": 0.1968,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Tłumacz przysięgły języka niemieckiego",
+     "box": {
+      "x": 0.08,
+      "y": 0.2442,
+      "w": 0.4944,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Tłumacz",
+       "box": {
+        "x": 0.08,
+        "y": 0.2442,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "przysięgły",
+       "box": {
+        "x": 0.182,
+        "y": 0.2442,
+        "w": 0.1346,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "języka",
+       "box": {
+        "x": 0.3243,
+        "y": 0.2442,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "niemieckiego",
+       "box": {
+        "x": 0.4128,
+        "y": 0.2442,
+        "w": 0.1615,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "os. Złotej Jesieni 7/41",
+     "box": {
+      "x": 0.08,
+      "y": 0.51,
+      "w": 0.2925,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "os.",
+       "box": {
+        "x": 0.08,
+        "y": 0.51,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Złotej",
+       "box": {
+        "x": 0.1281,
+        "y": 0.51,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Jesieni",
+       "box": {
+        "x": 0.2167,
+        "y": 0.51,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "7/41",
+       "box": {
+        "x": 0.3186,
+        "y": 0.51,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "31-826 Kraków",
+     "box": {
+      "x": 0.08,
+      "y": 0.568,
+      "w": 0.1693,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "31-826",
+       "box": {
+        "x": 0.08,
+        "y": 0.568,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Kraków",
+       "box": {
+        "x": 0.1685,
+        "y": 0.568,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "+48 601 234 567",
+     "box": {
+      "x": 0.08,
+      "y": 0.626,
+      "w": 0.1848,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "+48",
+       "box": {
+        "x": 0.08,
+        "y": 0.626,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "601",
+       "box": {
+        "x": 0.1281,
+        "y": 0.626,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "234",
+       "box": {
+        "x": 0.1763,
+        "y": 0.626,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "567",
+       "box": {
+        "x": 0.2244,
+        "y": 0.626,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "d.sliwinski@onet-pl.example",
+     "box": {
+      "x": 0.08,
+      "y": 0.684,
+      "w": 0.2557,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "d.sliwinski@onet-pl.example",
+       "box": {
+        "x": 0.08,
+        "y": 0.684,
+        "w": 0.2557,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "PL",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dariusz",
+   "middle": "",
+   "family": "Śliwiński",
+   "suffix": "",
+   "full": "Dariusz Śliwiński"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Tłumacz przysięgły języka niemieckiego",
+  "phones": [
+   {
+    "printed": "+48 601 234 567",
+    "e164": "+48601234567",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "d.sliwinski@onet-pl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "os. Złotej Jesieni 7/41",
+    "extra": "",
+    "pobox": "",
+    "postcode": "31-826",
+    "city": "Kraków",
+    "region": "",
+    "country": "",
+    "countryCode": "PL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Tłumacz przysięgły"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "absent-company",
+  "freemail",
+  "osiedle-street",
+  "long-title",
+  "unlabelled-mobile",
+  "absent-url"
+ ],
+ "notes": "Sworn translator, no company; onet.pl is freemail. \"os.\" = osiedle (housing estate) instead of a street keyword."
+}

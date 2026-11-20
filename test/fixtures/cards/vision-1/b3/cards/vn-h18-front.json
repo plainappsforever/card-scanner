@@ -1,0 +1,189 @@
+{
+ "id": "vn-h18-front",
+ "group": "vn-h18",
+ "side": "front",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "vi-VT",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KHÁCH SẠN HOA SEN ĐÀ NẴNG",
+     "box": {
+      "x": 0.06327846322241915,
+      "y": 0.044686751867357266,
+      "w": 0.42275794982910153,
+      "h": 0.07059782168119566
+     },
+     "height": 0.07059782168119566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Nguyễn Thị Minh Anh",
+     "box": {
+      "x": 0.06608614754146096,
+      "y": 0.17378284724961857,
+      "w": 0.32870128631591794,
+      "h": 0.07268236226556835
+     },
+     "height": 0.07268236226556835,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Giám đốc Kinh doanh",
+     "box": {
+      "x": 0.0665493780780722,
+      "y": 0.26524558872871506,
+      "w": 0.1808211898803711,
+      "h": 0.034341521244712014
+     },
+     "height": 0.034341521244712014,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "ĐT: (0236) 3 889 456",
+     "box": {
+      "x": 0.06657759101900028,
+      "y": 0.3507522587340556,
+      "w": 0.17507497787475584,
+      "h": 0.035868151307566376
+     },
+     "height": 0.035868151307566376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Di động: 0905 123 487",
+     "box": {
+      "x": 0.0681555270419949,
+      "y": 0.4075489116307731,
+      "w": 0.1864164733886719,
+      "h": 0.03532478523990823
+     },
+     "height": 0.03532478523990823,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "68 Bạch Đằng, Phường Hải Châu, TP. Đà Năng",
+     "box": {
+      "x": 0.06666488308426466,
+      "y": 0.45438929059214417,
+      "w": 0.3275035095214844,
+      "h": 0.041420502091926936
+     },
+     "height": 0.041420502091926936,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Anh",
+   "middle": "Thị Minh",
+   "family": "Nguyễn",
+   "suffix": "",
+   "full": "Nguyễn Thị Minh Anh"
+  },
+  "otherName": null,
+  "company": "KHÁCH SẠN HOA SEN ĐÀ NẴNG",
+  "department": null,
+  "title": "Giám đốc Kinh doanh",
+  "phones": [
+   {
+    "printed": "(0236) 3 889 456",
+    "e164": "+842363889456",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0905 123 487",
+    "e164": "+84905123487",
+    "type": "mobile",
+    "label": "Di động:",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "68 Bạch Đằng",
+    "extra": "Phường Hải Châu",
+    "pobox": "",
+    "postcode": "",
+    "city": "Đà Nẵng",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "TP. Đà Nẵng"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "vietnamese-order",
+  "second-language-back",
+  "foreign-region",
+  "no-postcode",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "Vietnamese order family-middle-given: Nguyễn / Thị Minh / Anh. \"ĐT\" = phone, \"Di động\" = mobile. No postcode; \"TP.\" = city prefix.",
+ "o3": {
+  "source": "blind-3/cards/vn-h18-front.json",
+  "images": [
+   {
+    "name": "b3-vn-h18-front",
+    "font": "Futura-Medium",
+    "rotation": 1.12,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "vi-VT",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 91
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

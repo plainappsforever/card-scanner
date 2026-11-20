@@ -1,0 +1,85 @@
+{
+ "id": "sig-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "text",
+ "input": {
+  "text": "Mit freundlichen Grüßen\n\nChristine Wolkau\nTeamleiterin Kundenservice\n\nWolkau & Söhne Verpackungen GmbH\nIndustriestr. 5 | 33602 Bielefeld\nTel.: +49 521 98 76 54 32 | Fax: +49 521 98 76 54 33\nE-Mail: c.wolkau@wolkau-soehne-de.example\nwww.wolkau-soehne.de\n\nGeschäftsführer: Heinrich Wolkau, Markus Wolkau\nAmtsgericht Bielefeld HRB 41234 | USt-IdNr.: DE 812 345 678\n\nDiese E-Mail kann vertrauliche Informationen enthalten. Wenn Sie nicht der richtige Adressat sind, informieren Sie bitte den Absender.",
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Christine",
+   "middle": "",
+   "family": "Wolkau",
+   "suffix": "",
+   "full": "Christine Wolkau"
+  },
+  "otherName": null,
+  "company": "Wolkau & Söhne Verpackungen GmbH",
+  "department": "Kundenservice",
+  "title": "Teamleiterin",
+  "phones": [
+   {
+    "printed": "+49 521 98 76 54 32",
+    "e164": "+4952198765432",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+49 521 98 76 54 33",
+    "e164": "+4952198765433",
+    "type": "fax",
+    "label": "Fax:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "c.wolkau@wolkau-soehne-de.example"
+  ],
+  "urls": [
+   "www.wolkau-soehne.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Industriestr. 5",
+    "extra": "",
+    "pobox": "",
+    "postcode": "33602",
+    "city": "Bielefeld",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Teamleiterin Kundenservice"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "email-signature",
+  "legal-footer-names",
+  "registry-id",
+  "vat-id",
+  "title-dept-one-line",
+  "ext-pair",
+  "name-is-company"
+ ],
+ "notes": "The sender is Christine Wolkau (Teamleiterin, department Kundenservice). \"Geschäftsführer: Heinrich Wolkau, Markus Wolkau\" is legal boilerplate — not her title, not her name. HRB 41234 and the VAT id are not phones."
+}

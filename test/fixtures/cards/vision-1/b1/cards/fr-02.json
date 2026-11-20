@@ -1,0 +1,217 @@
+{
+ "id": "fr-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "FR",
+  "uiLang": "fr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Maître Hélène DUBOIS-ROCHE",
+     "box": {
+      "x": 0.07823664661714858,
+      "y": 0.0994033699416732,
+      "w": 0.5339361953735352,
+      "h": 0.054905224951077636
+     },
+     "height": 0.054905224951077636,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Avocate au Barreau de Lyon",
+     "box": {
+      "x": 0.07558139936226091,
+      "y": 0.19498069538064966,
+      "w": 0.30668603897094726,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Droit de la famille • Droit du travail",
+     "box": {
+      "x": 0.07467044521710171,
+      "y": 0.3750515974349333,
+      "w": 0.3965166091918945,
+      "h": 0.04710826358279663
+     },
+     "height": 0.04710826358279663,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "45, quai Saint-Antoine",
+     "box": {
+      "x": 0.07947287491446688,
+      "y": 0.5805607164738925,
+      "w": 0.2205223083496094,
+      "h": 0.05146445086563878
+     },
+     "height": 0.05146445086563878,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "69002 Lyon",
+     "box": {
+      "x": 0.08125043911461438,
+      "y": 0.6433127529186706,
+      "w": 0.11657354354858399,
+      "h": 0.031379537692861614
+     },
+     "height": 0.031379537692861614,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tél. 04 78 42 19 63 - Fax 04 78 42 19 64",
+     "box": {
+      "x": 0.07881762022554273,
+      "y": 0.6789956433816616,
+      "w": 0.44233516693115227,
+      "h": 0.049307241402997914
+     },
+     "height": 0.049307241402997914,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "h.dubois-roche@avocat-vareil-fr.example",
+     "box": {
+      "x": 0.07878099772854298,
+      "y": 0.7410976264562931,
+      "w": 0.3132827758789063,
+      "h": 0.04439511538472407
+     },
+     "height": 0.04439511538472407,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Toque 1234",
+     "box": {
+      "x": 0.08264947001458134,
+      "y": 0.8091620614083631,
+      "w": 0.11813423156738279,
+      "h": 0.03218474075140643
+     },
+     "height": 0.03218474075140643,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Maître",
+   "given": "Hélène",
+   "middle": "",
+   "family": "DUBOIS-ROCHE",
+   "suffix": "",
+   "full": "Maître Hélène DUBOIS-ROCHE"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Avocate au Barreau de Lyon",
+  "phones": [
+   {
+    "printed": "04 78 42 19 63",
+    "e164": "+33478421963",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "04 78 42 19 64",
+    "e164": "+33478421964",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "h.dubois-roche@avocat-vareil-fr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "45, quai Saint-Antoine",
+    "extra": "",
+    "pobox": "",
+    "postcode": "69002",
+    "city": "Lyon",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Avocate"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "maitre-prefix",
+  "quai-street",
+  "en-dash-between-phones",
+  "toque-number",
+  "absent-company",
+  "caps-hyphenated-family",
+  "absent-url"
+ ],
+ "notes": "\"Maître\" is the lawyer prefix. \"quai\" is a street type. Phones separated by an en dash. \"Toque 1234\" = bar locker number. No company.",
+ "o3": {
+  "source": "blind-1/cards/fr-02.json",
+  "images": [
+   {
+    "name": "b1-fr-02",
+    "font": "Verdana",
+    "rotation": 0.91,
+    "noise": 4,
+    "blur": 1,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 105
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

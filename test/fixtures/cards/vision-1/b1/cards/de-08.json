@@ -1,0 +1,227 @@
+{
+ "id": "de-08",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "pl"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Schreinerei Holzwurm e.K.",
+     "box": {
+      "x": 0.0607223817799845,
+      "y": 0.04935022803256184,
+      "w": 0.622749481201172,
+      "h": 0.07711016165243612
+     },
+     "height": 0.07711016165243612,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Inh. Bogdan Wiśniewski",
+     "box": {
+      "x": 0.05668603884945341,
+      "y": 0.2757847527821431,
+      "w": 0.3241279220581055,
+      "h": 0.05156950784926262
+     },
+     "height": 0.05156950784926262,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Tischlermeister",
+     "box": {
+      "x": 0.05912630470513833,
+      "y": 0.3603817169553736,
+      "w": 0.14908257484436035,
+      "h": 0.03803032981843102
+     },
+     "height": 0.03803032981843102,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Am Sägewerk 5",
+     "box": {
+      "x": 0.05959302473485948,
+      "y": 0.5246636777065815,
+      "w": 0.14098836898803713,
+      "h": 0.03363228580666322
+     },
+     "height": 0.03363228580666322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "01067 Vellstedt",
+     "box": {
+      "x": 0.058139532975494214,
+      "y": 0.5807174885768327,
+      "w": 0.14244186401367187,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel.: 0351 4 87 65 43",
+     "box": {
+      "x": 0.057983993310266976,
+      "y": 0.6366036110036137,
+      "w": 0.19067132949829102,
+      "h": 0.0381337298389568
+     },
+     "height": 0.0381337298389568,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil:0172/5 43 21 09",
+     "box": {
+      "x": 0.05802664131874085,
+      "y": 0.6948966345516095,
+      "w": 0.20809471130371093,
+      "h": 0.034401676369449796
+     },
+     "height": 0.034401676369449796,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "b.wisniewski@holzwurm-vellstedt-de.example",
+     "box": {
+      "x": 0.054166666148989934,
+      "y": 0.7500000002249665,
+      "w": 0.35,
+      "h": 0.03846153789505535
+     },
+     "height": 0.03846153789505535,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "www.holzwurm-vellstedt.de",
+     "box": {
+      "x": 0.05656199617180633,
+      "y": 0.8108590343868073,
+      "w": 0.26190109252929683,
+      "h": 0.037083577925634215
+     },
+     "height": 0.037083577925634215,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Bogdan",
+   "middle": "",
+   "family": "Wiśniewski",
+   "suffix": "",
+   "full": "Bogdan Wiśniewski"
+  },
+  "otherName": null,
+  "company": "Schreinerei Holzwurm e.K.",
+  "department": null,
+  "title": "Tischlermeister",
+  "phones": [
+   {
+    "printed": "0351 4 87 65 43",
+    "e164": "+493514876543",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "0172/5 43 21 09",
+    "e164": "+491725432109",
+    "type": "mobile",
+    "label": "Mobil:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "b.wisniewski@holzwurm-vellstedt-de.example"
+  ],
+  "urls": [
+   "www.holzwurm-vellstedt.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Sägewerk 5",
+    "extra": "",
+    "pobox": "",
+    "postcode": "01067",
+    "city": "Vellstedt",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "glued-label",
+  "ocr-0O",
+  "ocr-rnm",
+  "ocr-1l",
+  "inh-prefix",
+  "foreign-name",
+  "e.K."
+ ],
+ "notes": "\"lnh.\" is OCR for \"Inh.\" (Inhaber) and is not part of the given name. The e-mail domain lost its \"m\" (read \"rn\"); the website line shows the correct spelling. Postcode starts with O instead of 0.",
+ "o3": {
+  "source": "blind-1/cards/de-08.json",
+  "images": [
+   {
+    "name": "b1-de-08",
+    "font": "GillSans",
+    "rotation": -0.38,
+    "noise": 14,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 92
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

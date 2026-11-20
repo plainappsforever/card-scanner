@@ -1,0 +1,552 @@
+{
+ "id": "mx-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "MedTec Rhein",
+     "box": {
+      "x": 0.07,
+      "y": 0.1032,
+      "w": 0.418,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "MedTec",
+       "box": {
+        "x": 0.07,
+        "y": 0.1032,
+        "w": 0.2174,
+        "h": 0.1
+       }
+      },
+      {
+       "text": "Rhein",
+       "box": {
+        "x": 0.3068,
+        "y": 0.1032,
+        "w": 0.1812,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.2252,
+      "w": 0.058,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.07,
+        "y": 0.2252,
+        "w": 0.058,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dr. med. Carolin Fuchs, MBA",
+     "box": {
+      "x": 0.07,
+      "y": 0.2872,
+      "w": 0.5466,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2872,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "med.",
+       "box": {
+        "x": 0.1469,
+        "y": 0.2872,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Carolin",
+       "box": {
+        "x": 0.2455,
+        "y": 0.2872,
+        "w": 0.1522,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Fuchs,",
+       "box": {
+        "x": 0.4093,
+        "y": 0.2872,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "MBA",
+       "box": {
+        "x": 0.5514,
+        "y": 0.2872,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Medical Science Liaison",
+     "box": {
+      "x": 0.07,
+      "y": 0.3692,
+      "w": 0.3999,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Medical",
+       "box": {
+        "x": 0.07,
+        "y": 0.3692,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Science",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3692,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Liaison",
+       "box": {
+        "x": 0.3431,
+        "y": 0.3692,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Kaiser-Wilhelm-Ring 20 | 50672 Köln",
+     "box": {
+      "x": 0.07,
+      "y": 0.4412,
+      "w": 0.6005,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Kaiser-Wilhelm-Ring",
+       "box": {
+        "x": 0.07,
+        "y": 0.4412,
+        "w": 0.3442,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "20",
+       "box": {
+        "x": 0.4239,
+        "y": 0.4412,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "|",
+       "box": {
+        "x": 0.4699,
+        "y": 0.4412,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "50672",
+       "box": {
+        "x": 0.4977,
+        "y": 0.4412,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Köln",
+       "box": {
+        "x": 0.598,
+        "y": 0.4412,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Office +49 221 47 11 23-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.5132,
+      "w": 0.4109,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Office",
+       "box": {
+        "x": 0.07,
+        "y": 0.5132,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1884,
+        "y": 0.5132,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "221",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5132,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5132,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.3625,
+        "y": 0.5132,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "23-0",
+       "box": {
+        "x": 0.4084,
+        "y": 0.5132,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Mobile +49 173 456 78 90",
+     "box": {
+      "x": 0.07,
+      "y": 0.5852,
+      "w": 0.3928,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.07,
+        "y": 0.5852,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1884,
+        "y": 0.5852,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "173",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5852,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5852,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.3806,
+        "y": 0.5852,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "90",
+       "box": {
+        "x": 0.4265,
+        "y": 0.5852,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "carolin.fuchs @ medtec-rhein.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.6572,
+      "w": 0.5448,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "carolin.fuchs",
+       "box": {
+        "x": 0.07,
+        "y": 0.6572,
+        "w": 0.2355,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "@",
+       "box": {
+        "x": 0.3152,
+        "y": 0.6572,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "medtec-rhein.de",
+       "box": {
+        "x": 0.3431,
+        "y": 0.6572,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "Part of HALVORSEN MEDICAL",
+     "box": {
+      "x": 0.07,
+      "y": 0.7292,
+      "w": 0.2566,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Part",
+       "box": {
+        "x": 0.07,
+        "y": 0.7292,
+        "w": 0.0435,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1193,
+        "y": 0.7292,
+        "w": 0.0217,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "HALVORSEN",
+       "box": {
+        "x": 0.1469,
+        "y": 0.7292,
+        "w": 0.0978,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "MEDICAL",
+       "box": {
+        "x": 0.2505,
+        "y": 0.7292,
+        "w": 0.0761,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr. med.",
+   "given": "Carolin",
+   "middle": "",
+   "family": "Fuchs",
+   "suffix": "MBA",
+   "full": "Dr. med. Carolin Fuchs, MBA"
+  },
+  "otherName": null,
+  "company": "MedTec Rhein GmbH",
+  "department": null,
+  "title": "Medical Science Liaison",
+  "phones": [
+   {
+    "printed": "+49 221 47 11 23-0",
+    "e164": "+492214711230",
+    "type": "work",
+    "label": "Office",
+    "ext": null
+   },
+   {
+    "printed": "+49 173 456 78 90",
+    "e164": "+491734567890",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "carolin.fuchs@medtec-rhein-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Kaiser-Wilhelm-Ring 20",
+    "extra": "",
+    "pobox": "",
+    "postcode": "50672",
+    "city": "Köln",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "MedTec Rhein"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "carolin.fuchs@medtec-rhein-de.example",
+   "ocr": "carolin.fuchs @ medtec-rhein.de",
+   "kinds": [
+    "spaced-at"
+   ]
+  }
+ ],
+ "traps": [
+  "group-line-not-company",
+  "credential-suffix",
+  "prefix-title",
+  "legal-form-line",
+  "second-language",
+  "spaced-at"
+ ],
+ "notes": "Company is MedTec Rhein GmbH (logo + legal-form line), not HALVORSEN MEDICAL. MBA is a suffix, not a company or a family name."
+}

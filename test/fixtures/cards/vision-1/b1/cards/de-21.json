@@ -1,0 +1,237 @@
+{
+ "id": "de-21",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "WEINGUT",
+     "box": {
+      "x": 0.35581928980736166,
+      "y": 0.06584345184468199,
+      "w": 0.2638097637868757,
+      "h": 0.027734150886535747
+     },
+     "height": 0.027734150886535747,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Rebholz-Achterberg",
+     "box": {
+      "x": 0.15880176945451438,
+      "y": 0.11196040139242147,
+      "w": 0.6486978420419581,
+      "h": 0.04398254871368412
+     },
+     "height": 0.04398254871368412,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Clara Rebholz-Achterberg",
+     "box": {
+      "x": 0.1589837484159172,
+      "y": 0.30636257299801883,
+      "w": 0.5519299599194619,
+      "h": 0.034122560024261395
+     },
+     "height": 0.034122560024261395,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Winzermeisterin",
+     "box": {
+      "x": 0.3357066897576928,
+      "y": 0.35846137101205355,
+      "w": 0.25449168083750595,
+      "h": 0.025073964595794695
+     },
+     "height": 0.025073964595794695,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Weinstraße 33",
+     "box": {
+      "x": 0.3744394618925372,
+      "y": 0.5274999999292064,
+      "w": 0.22197309516111396,
+      "h": 0.021918604373931894
+     },
+     "height": 0.021918604373931894,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "67487 Maikammer",
+     "box": {
+      "x": 0.3535039717053211,
+      "y": 0.5616238731538121,
+      "w": 0.2930285185000151,
+      "h": 0.02875371932983395
+     },
+     "height": 0.02875371932983395,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "06321 / 5 89 47",
+     "box": {
+      "x": 0.3692803005842391,
+      "y": 0.5995405629712738,
+      "w": 0.23672547211518158,
+      "h": 0.026375983953475957
+     },
+     "height": 0.026375983953475957,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "weingut@rebholz-achterberg-de.example",
+     "box": {
+      "x": 0.21225973764405845,
+      "y": 0.6323077373600455,
+      "w": 0.505920527984737,
+      "h": 0.033404328823089524
+     },
+     "height": 0.033404328823089524,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "rebholz-achterberg.de",
+     "box": {
+      "x": 0.2937219704651009,
+      "y": 0.6715116273501047,
+      "w": 0.3430493329022382,
+      "h": 0.024709303379058856
+     },
+     "height": 0.024709303379058856,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Weinproben nach Vereinbarung",
+     "box": {
+      "x": 0.27520008146362634,
+      "y": 0.8958644558852672,
+      "w": 0.41822935715605397,
+      "h": 0.028509588241577122
+     },
+     "height": 0.028509588241577122,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Clara",
+   "middle": "",
+   "family": "Rebholz-Achterberg",
+   "suffix": "",
+   "full": "Clara Rebholz-Achterberg"
+  },
+  "otherName": null,
+  "company": "Weingut Rebholz-Achterberg",
+  "department": null,
+  "title": "Winzermeisterin",
+  "phones": [
+   {
+    "printed": "06321 / 5 89 47",
+    "e164": "+49632158947",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "weingut@rebholz-achterberg-de.example"
+  ],
+  "urls": [
+   "rebholz-achterberg.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Weinstraße 33",
+    "extra": "",
+    "pobox": "",
+    "postcode": "67487",
+    "city": "Maikammer",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Rebholz-Achterberg"
+  ]
+ },
+ "composed": [
+  "company"
+ ],
+ "traps": [
+  "portrait",
+  "letter-spaced-logo",
+  "name-is-company",
+  "company-equals-domain-stem",
+  "unlabelled-landline",
+  "absent-social"
+ ],
+ "notes": "\"W E I N G U T\" is letter-spaced (one letter per word in OCR). The line \"Rebholz-Achterberg\" equals the domain stem and the family name: company and name compete for the same words.",
+ "o3": {
+  "source": "blind-1/cards/de-21.json",
+  "images": [
+   {
+    "name": "b1-de-21",
+    "font": "Georgia",
+    "rotation": 1.49,
+    "noise": 12,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

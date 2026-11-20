@@ -1,0 +1,452 @@
+{
+ "id": "jp-01-back",
+ "group": "jp-01",
+ "side": "back",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kirihane Tech Co., Ltd.",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3651,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Kirihane",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.111,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Tech",
+       "box": {
+        "x": 0.1917,
+        "y": 0.07,
+        "w": 0.074,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Co.,",
+       "box": {
+        "x": 0.2764,
+        "y": 0.07,
+        "w": 0.074,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.3611,
+        "y": 0.07,
+        "w": 0.074,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Taro Yamada",
+     "box": {
+      "x": 0.07,
+      "y": 0.23,
+      "w": 0.2313,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Taro",
+       "box": {
+        "x": 0.07,
+        "y": 0.23,
+        "w": 0.0875,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Yamada",
+       "box": {
+        "x": 0.1701,
+        "y": 0.23,
+        "w": 0.1312,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "General Manager, Sales Division",
+     "box": {
+      "x": 0.07,
+      "y": 0.3243,
+      "w": 0.4001,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "General",
+       "box": {
+        "x": 0.07,
+        "y": 0.3243,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Manager,",
+       "box": {
+        "x": 0.172,
+        "y": 0.3243,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.2874,
+        "y": 0.3243,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Division",
+       "box": {
+        "x": 0.3625,
+        "y": 0.3243,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "8F Shibuya Kirihane Bldg., 2-21-1 Shibuya,",
+     "box": {
+      "x": 0.07,
+      "y": 0.51,
+      "w": 0.4334,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "8F",
+       "box": {
+        "x": 0.07,
+        "y": 0.51,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Shibuya",
+       "box": {
+        "x": 0.0995,
+        "y": 0.51,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Kirihane",
+       "box": {
+        "x": 0.1862,
+        "y": 0.51,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Bldg.,",
+       "box": {
+        "x": 0.2614,
+        "y": 0.51,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "2-21-1",
+       "box": {
+        "x": 0.3366,
+        "y": 0.51,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Shibuya,",
+       "box": {
+        "x": 0.4119,
+        "y": 0.51,
+        "w": 0.0915,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Shibuya-ku, Tokyo 150-0002, Japan",
+     "box": {
+      "x": 0.07,
+      "y": 0.5593,
+      "w": 0.363,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Shibuya-ku,",
+       "box": {
+        "x": 0.07,
+        "y": 0.5593,
+        "w": 0.1258,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Tokyo",
+       "box": {
+        "x": 0.2024,
+        "y": 0.5593,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "150-0002,",
+       "box": {
+        "x": 0.2662,
+        "y": 0.5593,
+        "w": 0.103,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Japan",
+       "box": {
+        "x": 0.3758,
+        "y": 0.5593,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel +81-3-1234-5678  Mobile +81-90-1234-5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.6086,
+      "w": 0.484,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.6086,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "+81-3-1234-5678",
+       "box": {
+        "x": 0.1109,
+        "y": 0.6086,
+        "w": 0.1716,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.2957,
+        "y": 0.6086,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "+81-90-1234-5678",
+       "box": {
+        "x": 0.371,
+        "y": 0.6086,
+        "w": 0.183,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "t.yamada@kirihanetech-co-jp.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6579,
+      "w": 0.286,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "t.yamada@kirihanetech-co-jp.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6579,
+        "w": 0.286,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "www.kirihanetech.co.jp",
+     "box": {
+      "x": 0.07,
+      "y": 0.7072,
+      "w": 0.2288,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "www.kirihanetech.co.jp",
+       "box": {
+        "x": 0.07,
+        "y": 0.7072,
+        "w": 0.2288,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Taro",
+   "middle": "",
+   "family": "Yamada",
+   "suffix": "",
+   "full": "Taro Yamada"
+  },
+  "otherName": null,
+  "company": "Kirihane Tech Co., Ltd.",
+  "department": "Sales Division",
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "+81-3-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+81-90-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihanetech-co-jp.example"
+  ],
+  "urls": [
+   "www.kirihanetech.co.jp"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2-21-1 Shibuya",
+    "extra": "8F Shibuya Kirihane Bldg.",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "Shibuya-ku",
+    "region": "Tokyo",
+    "country": "Japan",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "General Manager, Sales Division"
+  ],
+  "addresses[0].city": [
+   "Tokyo"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "cjk-name-with-space",
+  "postal-mark",
+  "department-and-title-one-line",
+  "other-name-n7",
+  "address-two-scripts",
+  "comma-in-title",
+  "legal-form-prefix",
+  "two-sided"
+ ],
+ "notes": "Front Japanese, back English. Both-sides fixture: UI German -> Latin name primary, Japanese name = otherName (N7). The same office address is printed in both scripts: one address in truth; a second (Japanese) address from the extractor is a duplicate, not a wrong value. 株式会社 precedes the company name."
+}

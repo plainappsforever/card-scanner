@@ -1,0 +1,231 @@
+{
+ "id": "no-n29",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "no"
+ ],
+ "card_country": "NO",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "nb-NO",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HAUGEN",
+     "box": {
+      "x": 0.07252261309718694,
+      "y": 0.05670405203226003,
+      "w": 0.19651790618896486,
+      "h": 0.04875306088952025
+     },
+     "height": 0.04875306088952025,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "RØR & VARME AS",
+     "box": {
+      "x": 0.0710158691387463,
+      "y": 0.12568006118236774,
+      "w": 0.16466838836669923,
+      "h": 0.03622571657983498
+     },
+     "height": 0.03622571657983498,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Rørlegger siden 1968",
+     "box": {
+      "x": 0.07105469499070022,
+      "y": 0.18593065497211247,
+      "w": 0.1892528533935547,
+      "h": 0.03561210632324219
+     },
+     "height": 0.03561210632324219,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Bjørn-Erik Haugen",
+     "box": {
+      "x": 0.06955750072936528,
+      "y": 0.292077060416682,
+      "w": 0.24457624435424802,
+      "h": 0.05156806260922697
+     },
+     "height": 0.05156806260922697,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Daglig leder",
+     "box": {
+      "x": 0.06972121459909993,
+      "y": 0.3673472407095384,
+      "w": 0.10329012870788574,
+      "h": 0.03212166200733557
+     },
+     "height": 0.03212166200733557,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tlf. 22 18 40 55 • Mob. 912 36 480",
+     "box": {
+      "x": 0.06819335208091047,
+      "y": 0.4497862443377849,
+      "w": 0.2734847831726074,
+      "h": 0.03568939812855376
+     },
+     "height": 0.03568939812855376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "bjorn.erik@haugen-ror-no.example",
+     "box": {
+      "x": 0.06808077448302914,
+      "y": 0.5046825739669815,
+      "w": 0.1806385803222656,
+      "h": 0.030596556350531268
+     },
+     "height": 0.030596556350531268,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Trondheimsveien 136, 0570 Oslo",
+     "box": {
+      "x": 0.0681680675194611,
+      "y": 0.5537098724389902,
+      "w": 0.22262746810913087,
+      "h": 0.03465062771064431
+     },
+     "height": 0.03465062771064431,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Org.nr. 912 345 678 MVA",
+     "box": {
+      "x": 0.06831395606727303,
+      "y": 0.600896861225507,
+      "w": 0.16133720397949222,
+      "h": 0.02466367662643365
+     },
+     "height": 0.02466367662643365,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Bjørn-Erik",
+   "middle": "",
+   "family": "Haugen",
+   "suffix": "",
+   "full": "Bjørn-Erik Haugen"
+  },
+  "otherName": null,
+  "company": "HAUGEN RØR & VARME AS",
+  "department": null,
+  "title": "Daglig leder",
+  "phones": [
+   {
+    "printed": "22 18 40 55",
+    "e164": "+4722184055",
+    "type": "work",
+    "label": "Tlf.",
+    "ext": null
+   },
+   {
+    "printed": "912 36 480",
+    "e164": "+4791236480",
+    "type": "mobile",
+    "label": "Mob.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bjorn.erik@haugen-ror-no.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Trondheimsveien 136",
+    "extra": "",
+    "pobox": "",
+    "postcode": "0570",
+    "city": "Oslo",
+    "region": "",
+    "country": "",
+    "countryCode": "NO"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [
+  "company"
+ ],
+ "traps": [
+  "trade",
+  "letter-spaced-logo",
+  "scandinavian-name",
+  "registry-number-phone-like",
+  "tagline",
+  "year-in-tagline",
+  "foreign-region",
+  "ocr-0O-in-word",
+  "hyphenated-given",
+  "family-name-in-company",
+  "street-without-keyword"
+ ],
+ "notes": "Norwegian plumber; logo letter-spaced \"H A U G E N\" over \"RØR & VARME AS\" = company \"HAUGEN RØR & VARME AS\". Org.nr. \"912 345 678\" has 9 digits starting with 9 and looks exactly like the Norwegian mobile \"912 36 480\" - it is a company number (MVA = VAT). \"0\" for \"o\" twice inside the e-mail. \"-veien\" street suffix not in the SPEC list.",
+ "o3": {
+  "source": "blind-3/cards/no-n29.json",
+  "images": [
+   {
+    "name": "b3-no-n29",
+    "font": "TrebuchetMS",
+    "rotation": -0.49,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "nb-NO",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 101
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

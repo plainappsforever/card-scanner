@@ -1,0 +1,111 @@
+appId: ${APP_ID}
+name: P8 - add a card to an existing contact (new values only) and the exact summary
+tags:
+  - p8
+---
+# Card A (name, company, a fresh e-mail per run) goes to Contacts as a new contact; card B is the same person with a
+# title and a phone number (library duplicate banner → Keep both). "Add to existing contact" on B must find the phone
+# contact, preselect "Add to Lena Brandt", list exactly what it adds, and report "0 added, 1 added to existing contacts".
+# Asking again then says "nothing new to add" — proof that the values are in the phone's Contacts now.
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: empty
+- evalScript: ${output.tag = String(100000 + Math.floor(Math.random() * 899999))}
+# letters, not digits, for the company: digits in a company line are read as a phone number
+- evalScript: "${output.word = Array.from({ length: 6 }, () => String.fromCharCode(97 + Math.floor(Math.random() * 26))).join('')}"
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-paste
+- tapOn:
+    id: paste-input
+# one line at a time: Maestro's inputText drops "\n" on Android (L14)
+- inputText: "Lena Brandt"
+- pressKey: Enter
+- inputText: "Brandt ${output.word} GmbH"
+- pressKey: Enter
+- inputText: "lena.${output.tag}@acme-test.de"
+- tapOn:
+    id: paste-read
+- assertVisible:
+    id: review-screen
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed
+- runFlow: subflows/launch.yaml
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- tapOn:
+    id: add-to-existing-button
+- runFlow: subflows/contacts-access.yaml
+# a Lena Brandt from an earlier run may be in Contacts (name only = "possibly", Skip preselected): add as new anyway
+- tapOn:
+    id: "bulk-new-.*"
+- tapOn:
+    id: bulk-add-button
+- assertVisible: "1 added, 0 added to existing contacts, 0 skipped, 0 failed"
+# card B: the same e-mail, plus title and phone
+- runFlow: subflows/launch.yaml
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-paste
+- tapOn:
+    id: paste-input
+# one line at a time: Maestro's inputText drops "\n" on Android (L14)
+- inputText: "Lena Brandt"
+- pressKey: Enter
+- inputText: "Head of Sales"
+- pressKey: Enter
+- inputText: "Brandt ${output.word} GmbH"
+- pressKey: Enter
+- inputText: "+49 30 ${output.tag}"
+- pressKey: Enter
+- inputText: "lena.${output.tag}@acme-test.de"
+- tapOn:
+    id: paste-read
+- assertVisible:
+    id: review-screen
+- extendedWaitUntil:
+    visible:
+      id: duplicate-banner
+    timeout: 15000
+- tapOn:
+    id: keep-both-button
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed
+- runFlow: subflows/launch.yaml
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- tapOn:
+    id: add-to-existing-button
+- runFlow: subflows/contacts-access.yaml
+- assertVisible: "In Contacts as Lena Brandt\\. Adds: .*Head of Sales.*\\+49 30 .*"
+- assertVisible: "Add to Lena Brandt"
+- takeScreenshot: p8-add-existing-choice
+- tapOn:
+    id: bulk-add-button
+- assertVisible: "0 added, 1 added to existing contacts, 0 skipped, 0 failed"
+- runFlow: subflows/launch.yaml
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- assertVisible:
+    id: card-in-contacts
+- tapOn:
+    id: add-to-existing-button
+- runFlow: subflows/contacts-access.yaml
+- assertVisible: "Already in Contacts as Lena Brandt, nothing new to add\\."
+- takeScreenshot: p8-add-existing-nothing-new

@@ -1,0 +1,319 @@
+{
+ "id": "at-02-both",
+ "group": "at-02",
+ "side": "both",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SPORT HOFER",
+     "box": {
+      "x": 0.07472279225192441,
+      "y": 0.09634616133294638,
+      "w": 0.44643413543701166,
+      "h": 0.09112303965800517
+     },
+     "height": 0.09112303965800517,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ski • Bike • Outdoor",
+     "box": {
+      "x": 0.07368166080278674,
+      "y": 0.22484542752095815,
+      "w": 0.2639841079711913,
+      "h": 0.047389499929420764
+     },
+     "height": 0.047389499929420764,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Andreas Hofer",
+     "box": {
+      "x": 0.07072957579520882,
+      "y": 0.3020539251581309,
+      "w": 0.23503669738769528,
+      "h": 0.05412538815649326
+     },
+     "height": 0.05412538815649326,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Inhaber",
+     "box": {
+      "x": 0.0696521671510115,
+      "y": 0.38709768194168626,
+      "w": 0.10197473526000977,
+      "h": 0.03746382886378474
+     },
+     "height": 0.03746382886378474,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dorfstraße 22 • 6450 Sölden",
+     "box": {
+      "x": 0.06940238623943508,
+      "y": 0.4545900779244745,
+      "w": 0.38164108276367187,
+      "h": 0.053439766283661205
+     },
+     "height": 0.053439766283661205,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +43 5254 22 14",
+     "box": {
+      "x": 0.06798043662867101,
+      "y": 0.5287332646469277,
+      "w": 0.2796479034423828,
+      "h": 0.049280405965090646
+     },
+     "height": 0.049280405965090646,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0676 432 18 90",
+     "box": {
+      "x": 0.0666666632434994,
+      "y": 0.6023166022779197,
+      "w": 0.2833333396911621,
+      "h": 0.04536679536679533
+     },
+     "height": 0.04536679536679533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "info@sport-hofer-at.example",
+     "box": {
+      "x": 0.06197910422573607,
+      "y": 0.6722348238202676,
+      "w": 0.2582974433898926,
+      "h": 0.05541521241766145
+     },
+     "height": 0.05541521241766145,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "SPORT HOFER",
+     "box": {
+      "x": 0.06480689302554062,
+      "y": 0.17629827701042033,
+      "w": 0.2672189903259278,
+      "h": 0.05499561412914378
+     },
+     "height": 0.05499561412914378,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Skiverleih • Service • Testcenter",
+     "box": {
+      "x": 0.06789248869056663,
+      "y": 0.25790055536121437,
+      "w": 0.4368234634399414,
+      "h": 0.051189864464248
+     },
+     "height": 0.051189864464248,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "Öffnungszeiten Dez-Apr täglich 8:00-18:30",
+     "box": {
+      "x": 0.06799091632616154,
+      "y": 0.32924077084751313,
+      "w": 0.5661248397827149,
+      "h": 0.056995281381496565
+     },
+     "height": 0.056995281381496565,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "www.sport-hofer.at",
+     "box": {
+      "x": 0.06788971384108962,
+      "y": 0.4113100929102329,
+      "w": 0.25088306427001955,
+      "h": 0.04962802577663106
+     },
+     "height": 0.04962802577663106,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "Instagram @sporthofer_soelden",
+     "box": {
+      "x": 0.0679708451861163,
+      "y": 0.47605825496171283,
+      "w": 0.4397320556640625,
+      "h": 0.05927623837150664
+     },
+     "height": 0.05927623837150664,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b5",
+     "text": "Raiffeisenbank Ötztal • IBAN AT61 1904 3002 3457 3201",
+     "box": {
+      "x": 0.0707145729879106,
+      "y": 0.5289952372924069,
+      "w": 0.761069107055664,
+      "h": 0.06897129515423273
+     },
+     "height": 0.06897129515423273,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Andreas",
+   "middle": "",
+   "family": "Hofer",
+   "suffix": "",
+   "full": "Andreas Hofer"
+  },
+  "otherName": null,
+  "company": "SPORT HOFER",
+  "department": null,
+  "title": "Inhaber",
+  "phones": [
+   {
+    "printed": "+43 5254 22 14",
+    "e164": "+4352542214",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0676 432 18 90",
+    "e164": "+436764321890",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@sport-hofer-at.example"
+  ],
+  "urls": [
+   "www.sport-hofer.at"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@sporthofer_soelden"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Dorfstraße 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "6450",
+    "city": "Sölden",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "tagline-not-title",
+  "iban-bic",
+  "opening-hours",
+  "region-from-address",
+  "handle-social",
+  "name-is-company",
+  "diacritic-lost"
+ ],
+ "notes": "Both sides: one contact; the back adds web and Instagram.",
+ "o3": {
+  "source": "blind-2/cards/at-02-both.json",
+  "images": [
+   {
+    "name": "b2-at-02-front",
+    "font": "ArialMT",
+    "rotation": -1.2,
+    "noise": 9,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 275
+   },
+   {
+    "name": "b2-at-02-back",
+    "font": "AmericanTypewriter",
+    "rotation": 1.31,
+    "noise": 3,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 87
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

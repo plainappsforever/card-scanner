@@ -1,0 +1,564 @@
+{
+ "id": "us-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRIGHTLYRE",
+     "box": {
+      "x": 0.07,
+      "y": 0.0465,
+      "w": 0.3986,
+      "h": 0.11
+     },
+     "height": 0.11,
+     "words": [
+      {
+       "text": "BRIGHTLYRE",
+       "box": {
+        "x": 0.07,
+        "y": 0.0465,
+        "w": 0.3986,
+        "h": 0.11
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "ROBOTICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.1785,
+      "w": 0.1449,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "ROBOTICS",
+       "box": {
+        "x": 0.07,
+        "y": 0.1785,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Marcus Delgado",
+     "box": {
+      "x": 0.07,
+      "y": 0.2505,
+      "w": 0.3188,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Marcus",
+       "box": {
+        "x": 0.07,
+        "y": 0.2505,
+        "w": 0.1413,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Delgado",
+       "box": {
+        "x": 0.2239,
+        "y": 0.2505,
+        "w": 0.1649,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "VP, Business Development",
+     "box": {
+      "x": 0.07,
+      "y": 0.3375,
+      "w": 0.418,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "VP,",
+       "box": {
+        "x": 0.07,
+        "y": 0.3375,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Business",
+       "box": {
+        "x": 0.1341,
+        "y": 0.3375,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Development",
+       "box": {
+        "x": 0.2887,
+        "y": 0.3375,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Brightlyre Robotics, Inc.",
+     "box": {
+      "x": 0.07,
+      "y": 0.4095,
+      "w": 0.4361,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Brightlyre",
+       "box": {
+        "x": 0.07,
+        "y": 0.4095,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Robotics,",
+       "box": {
+        "x": 0.2609,
+        "y": 0.4095,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Inc.",
+       "box": {
+        "x": 0.4336,
+        "y": 0.4095,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "350 Mission Street, 12th Floor",
+     "box": {
+      "x": 0.07,
+      "y": 0.4815,
+      "w": 0.5099,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "350",
+       "box": {
+        "x": 0.07,
+        "y": 0.4815,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Mission",
+       "box": {
+        "x": 0.1341,
+        "y": 0.4815,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Street,",
+       "box": {
+        "x": 0.2706,
+        "y": 0.4815,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12th",
+       "box": {
+        "x": 0.4071,
+        "y": 0.4815,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Floor",
+       "box": {
+        "x": 0.4893,
+        "y": 0.4815,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "San Francisco, CA 94105",
+     "box": {
+      "x": 0.07,
+      "y": 0.5535,
+      "w": 0.3915,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "San",
+       "box": {
+        "x": 0.07,
+        "y": 0.5535,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Francisco,",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5535,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "CA",
+       "box": {
+        "x": 0.3249,
+        "y": 0.5535,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "94105",
+       "box": {
+        "x": 0.3709,
+        "y": 0.5535,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Office +1 415 555 O161 ext. 204",
+     "box": {
+      "x": 0.07,
+      "y": 0.6255,
+      "w": 0.5112,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Office",
+       "box": {
+        "x": 0.07,
+        "y": 0.6255,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+1",
+       "box": {
+        "x": 0.1884,
+        "y": 0.6255,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "415",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6255,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "555",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6255,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "O161",
+       "box": {
+        "x": 0.3625,
+        "y": 0.6255,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "ext.",
+       "box": {
+        "x": 0.4446,
+        "y": 0.6255,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "204",
+       "box": {
+        "x": 0.5268,
+        "y": 0.6255,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "Mobile +1 415 555 0179",
+     "box": {
+      "x": 0.07,
+      "y": 0.6975,
+      "w": 0.3649,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.07,
+        "y": 0.6975,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+1",
+       "box": {
+        "x": 0.1884,
+        "y": 0.6975,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "415",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6975,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "555",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6975,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0179",
+       "box": {
+        "x": 0.3625,
+        "y": 0.6975,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "marcus@brightlinerobotics-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7695,
+      "w": 0.5254,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "marcus@brightlinerobotics-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7695,
+        "w": 0.5254,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f10",
+     "text": "brightlinerobotics.com",
+     "box": {
+      "x": 0.07,
+      "y": 0.8415,
+      "w": 0.3986,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "brightlinerobotics.com",
+       "box": {
+        "x": 0.07,
+        "y": 0.8415,
+        "w": 0.3986,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Delgado,Marcus;TEL:+14155550179;EMAIL:marcus@brightlinerobotics-com.example;URL:https://brightlinerobotics.com;;",
+    "box": {
+     "x": 0.7,
+     "y": 0.3,
+     "w": 0.24,
+     "h": 0.37
+    }
+   }
+  ],
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Marcus",
+   "middle": "",
+   "family": "Delgado",
+   "suffix": "",
+   "full": "Marcus Delgado"
+  },
+  "otherName": null,
+  "company": "Brightlyre Robotics, Inc.",
+  "department": "Business Development",
+  "title": "VP",
+  "phones": [
+   {
+    "printed": "+1 415 555 0161 ext. 204",
+    "e164": "+14155550161",
+    "type": "work",
+    "label": "Office",
+    "ext": "204"
+   },
+   {
+    "printed": "+1 415 555 0179",
+    "e164": "+14155550179",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "marcus@brightlinerobotics-com.example"
+  ],
+  "urls": [
+   "brightlinerobotics.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "350 Mission Street",
+    "extra": "12th Floor",
+    "pobox": "",
+    "postcode": "94105",
+    "city": "San Francisco",
+    "region": "CA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "VP, Business Development"
+  ],
+  "company": [
+   "BRIGHTLYRE ROBOTICS"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "+1 415 555 0161 ext. 204",
+   "ocr": "+1 415 555 O161 ext. 204",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "qr-mecard",
+  "extension",
+  "title-dept-one-line",
+  "ocr-0O"
+ ],
+ "notes": "Extension 204 is not part of the E.164 number. MECARD confirms name, mobile, e-mail, URL. Title VP, department Business Development."
+}

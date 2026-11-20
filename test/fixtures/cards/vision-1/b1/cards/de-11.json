@@ -1,0 +1,110 @@
+{
+ "id": "de-11",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lennart Wernhagen",
+     "box": {
+      "x": 0.08029781294322703,
+      "y": 0.4076302288881337,
+      "w": 0.4221165466308594,
+      "h": 0.09335760168127105
+     },
+     "height": 0.09335760168127105,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Wernhagen;Lennart;;;\r\nFN:Lennart Wernhagen\r\nORG:Wernhagen Consulting\r\nTITLE:Interim Manager\r\nTEL;TYPE=CELL:+49 157 34567890\r\nEMAIL;TYPE=INTERNET:lennart@wernhagen-consulting-de.example\r\nURL:https://wernhagen-consulting.de\r\nEND:VCARD",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lennart",
+   "middle": "",
+   "family": "Wernhagen",
+   "suffix": "",
+   "full": "Lennart Wernhagen"
+  },
+  "otherName": null,
+  "company": "Wernhagen Consulting",
+  "department": null,
+  "title": "Interim Manager",
+  "phones": [
+   {
+    "printed": "+49 157 34567890",
+    "e164": "+4915734567890",
+    "type": "mobile",
+    "label": "TYPE=CELL",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "lennart@wernhagen-consulting-de.example"
+  ],
+  "urls": [
+   "https://wernhagen-consulting.de"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "qr-only",
+  "qr-vcard",
+  "url-with-scheme",
+  "name-is-company",
+  "absent-address"
+ ],
+ "notes": "Only the name is printed; everything else is in the vCard QR (input.qr[0].text is the raw payload).",
+ "o3": {
+  "source": "blind-1/cards/de-11.json",
+  "images": [
+   {
+    "name": "b1-de-11",
+    "font": "HelveticaNeue",
+    "rotation": -0.61,
+    "noise": 9,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 103
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

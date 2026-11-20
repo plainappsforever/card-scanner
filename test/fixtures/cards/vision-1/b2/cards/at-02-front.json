@@ -1,0 +1,214 @@
+{
+ "id": "at-02-front",
+ "group": "at-02",
+ "side": "front",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SPORT HOFER",
+     "box": {
+      "x": 0.07472279225192441,
+      "y": 0.09634616133294638,
+      "w": 0.44643413543701166,
+      "h": 0.09112303965800517
+     },
+     "height": 0.09112303965800517,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ski • Bike • Outdoor",
+     "box": {
+      "x": 0.07368166080278674,
+      "y": 0.22484542752095815,
+      "w": 0.2639841079711913,
+      "h": 0.047389499929420764
+     },
+     "height": 0.047389499929420764,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Andreas Hofer",
+     "box": {
+      "x": 0.07072957579520882,
+      "y": 0.3020539251581309,
+      "w": 0.23503669738769528,
+      "h": 0.05412538815649326
+     },
+     "height": 0.05412538815649326,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Inhaber",
+     "box": {
+      "x": 0.0696521671510115,
+      "y": 0.38709768194168626,
+      "w": 0.10197473526000977,
+      "h": 0.03746382886378474
+     },
+     "height": 0.03746382886378474,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dorfstraße 22 • 6450 Sölden",
+     "box": {
+      "x": 0.06940238623943508,
+      "y": 0.4545900779244745,
+      "w": 0.38164108276367187,
+      "h": 0.053439766283661205
+     },
+     "height": 0.053439766283661205,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +43 5254 22 14",
+     "box": {
+      "x": 0.06798043662867101,
+      "y": 0.5287332646469277,
+      "w": 0.2796479034423828,
+      "h": 0.049280405965090646
+     },
+     "height": 0.049280405965090646,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0676 432 18 90",
+     "box": {
+      "x": 0.0666666632434994,
+      "y": 0.6023166022779197,
+      "w": 0.2833333396911621,
+      "h": 0.04536679536679533
+     },
+     "height": 0.04536679536679533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "info@sport-hofer-at.example",
+     "box": {
+      "x": 0.06197910422573607,
+      "y": 0.6722348238202676,
+      "w": 0.2582974433898926,
+      "h": 0.05541521241766145
+     },
+     "height": 0.05541521241766145,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Andreas",
+   "middle": "",
+   "family": "Hofer",
+   "suffix": "",
+   "full": "Andreas Hofer"
+  },
+  "otherName": null,
+  "company": "SPORT HOFER",
+  "department": null,
+  "title": "Inhaber",
+  "phones": [
+   {
+    "printed": "+43 5254 22 14",
+    "e164": "+4352542214",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0676 432 18 90",
+    "e164": "+436764321890",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@sport-hofer-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Dorfstraße 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "6450",
+    "city": "Sölden",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "tagline-not-title",
+  "iban-bic",
+  "opening-hours",
+  "region-from-address",
+  "handle-social",
+  "name-is-company",
+  "diacritic-lost"
+ ],
+ "notes": "Front: German phone region; the national mobile 0676… is Austrian because the address is in Sölden (and +43 is on the card). \"Ski · Bike · Outdoor\" is a tagline.",
+ "o3": {
+  "source": "blind-2/cards/at-02-front.json",
+  "images": [
+   {
+    "name": "b2-at-02-front",
+    "font": "ArialMT",
+    "rotation": -1.2,
+    "noise": 9,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 275
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

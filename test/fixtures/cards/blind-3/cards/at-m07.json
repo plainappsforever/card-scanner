@@ -1,0 +1,540 @@
+{
+ "id": "at-m07",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ZAHNÄRZTE",
+     "box": {
+      "x": 0.3279,
+      "y": 0.06,
+      "w": 0.3442,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "ZAHNÄRZTE",
+       "box": {
+        "x": 0.3279,
+        "y": 0.06,
+        "w": 0.3442,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "AM LINDENMARKT",
+     "box": {
+      "x": 0.2514,
+      "y": 0.11,
+      "w": 0.4972,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "AM",
+       "box": {
+        "x": 0.2514,
+        "y": 0.11,
+        "w": 0.0765,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "LINDENMARKT",
+       "box": {
+        "x": 0.3661,
+        "y": 0.11,
+        "w": 0.3825,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "DDr. Miriam Hofbauer",
+     "box": {
+      "x": 0.07,
+      "y": 0.205,
+      "w": 0.595,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "DDr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.205,
+        "w": 0.119,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Miriam",
+       "box": {
+        "x": 0.2188,
+        "y": 0.205,
+        "w": 0.1785,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Hofbauer",
+       "box": {
+        "x": 0.427,
+        "y": 0.205,
+        "w": 0.238,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Kieferorthopädie",
+     "box": {
+      "x": 0.07,
+      "y": 0.245,
+      "w": 0.34,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Kieferorthopädie",
+       "box": {
+        "x": 0.07,
+        "y": 0.245,
+        "w": 0.34,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Dr. Stefan Lechner",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.5355,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.0892,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Stefan",
+       "box": {
+        "x": 0.189,
+        "y": 0.29,
+        "w": 0.1785,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Lechner",
+       "box": {
+        "x": 0.3972,
+        "y": 0.29,
+        "w": 0.2082,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Implantologie & Oralchirurgie",
+     "box": {
+      "x": 0.07,
+      "y": 0.33,
+      "w": 0.6163,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Implantologie",
+       "box": {
+        "x": 0.07,
+        "y": 0.33,
+        "w": 0.2763,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3675,
+        "y": 0.33,
+        "w": 0.0213,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Oralchirurgie",
+       "box": {
+        "x": 0.41,
+        "y": 0.33,
+        "w": 0.2763,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Dr. Aylin Öztürk",
+     "box": {
+      "x": 0.07,
+      "y": 0.375,
+      "w": 0.476,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.375,
+        "w": 0.0892,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Aylin",
+       "box": {
+        "x": 0.189,
+        "y": 0.375,
+        "w": 0.1487,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Öztürk",
+       "box": {
+        "x": 0.3675,
+        "y": 0.375,
+        "w": 0.1785,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Kinderzahnheilkunde",
+     "box": {
+      "x": 0.07,
+      "y": 0.415,
+      "w": 0.4037,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Kinderzahnheilkunde",
+       "box": {
+        "x": 0.07,
+        "y": 0.415,
+        "w": 0.4037,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "Linke Wienzeile 18/5",
+     "box": {
+      "x": 0.07,
+      "y": 0.49,
+      "w": 0.476,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Linke",
+       "box": {
+        "x": 0.07,
+        "y": 0.49,
+        "w": 0.119,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Wienzeile",
+       "box": {
+        "x": 0.2128,
+        "y": 0.49,
+        "w": 0.2142,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "18/5",
+       "box": {
+        "x": 0.4508,
+        "y": 0.49,
+        "w": 0.0952,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "1060 Wien",
+     "box": {
+      "x": 0.07,
+      "y": 0.538,
+      "w": 0.2142,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "1060",
+       "box": {
+        "x": 0.07,
+        "y": 0.538,
+        "w": 0.0952,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Wien",
+       "box": {
+        "x": 0.189,
+        "y": 0.538,
+        "w": 0.0952,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f10",
+     "text": "+43 1 586 22 40",
+     "box": {
+      "x": 0.07,
+      "y": 0.586,
+      "w": 0.357,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.07,
+        "y": 0.586,
+        "w": 0.0714,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "1",
+       "box": {
+        "x": 0.1652,
+        "y": 0.586,
+        "w": 0.0238,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "586",
+       "box": {
+        "x": 0.2128,
+        "y": 0.586,
+        "w": 0.0714,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.308,
+        "y": 0.586,
+        "w": 0.0476,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "40",
+       "box": {
+        "x": 0.3794,
+        "y": 0.586,
+        "w": 0.0476,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f11",
+     "text": "ordination@zahnaerzte-lindenmarkt-at.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.634,
+      "w": 0.714,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "ordination@zahnaerzte-lindenmarkt-at.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.634,
+        "w": 0.714,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f12",
+     "text": "Alle Kassen",
+     "box": {
+      "x": 0.07,
+      "y": 0.678,
+      "w": 0.2244,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Alle",
+       "box": {
+        "x": 0.07,
+        "y": 0.678,
+        "w": 0.0816,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Kassen",
+       "box": {
+        "x": 0.172,
+        "y": 0.678,
+        "w": 0.1224,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "AT",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "DDr.",
+   "given": "Miriam",
+   "middle": "",
+   "family": "Hofbauer",
+   "suffix": "",
+   "full": "DDr. Miriam Hofbauer"
+  },
+  "otherName": null,
+  "company": "ZAHNÄRZTE AM LINDENMARKT",
+  "department": null,
+  "title": "Kieferorthopädie",
+  "phones": [
+   {
+    "printed": "+43 1 586 22 40",
+    "e164": "+4315862240",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ordination@zahnaerzte-lindenmarkt-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Linke Wienzeile 18/5",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1060",
+    "city": "Wien",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.full": [
+   "Dr. Stefan Lechner",
+   "Dr. Aylin Öztürk"
+  ],
+  "title": [
+   "Implantologie & Oralchirurgie",
+   "Kinderzahnheilkunde"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "medical",
+  "multi-doctor-equal",
+  "portrait",
+  "company-split-lines",
+  "prefix-title"
+ ],
+ "notes": "Three dentists in equal type and no holder marked. Truth = the first listed with her specialty; any of the three name/specialty pairs is acceptable (accept name.full + title). \"DDr.\" = double doctorate. \"Alle Kassen\" (all insurers) is a leftover; \"18/5\" = house 18, door 5."
+}

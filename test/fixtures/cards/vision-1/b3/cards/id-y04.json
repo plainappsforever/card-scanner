@@ -1,0 +1,212 @@
+{
+ "id": "id-y04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "id"
+ ],
+ "card_country": "ID",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "id-ID",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PT SINAR TEBING ABADI Tbk",
+     "box": {
+      "x": 0.06353146517946201,
+      "y": 0.050068071856254726,
+      "w": 0.36564208984375,
+      "h": 0.05017741398461539
+     },
+     "height": 0.05017741398461539,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ir. Bambang Setiawan, M.T.",
+     "box": {
+      "x": 0.06502046422620253,
+      "y": 0.16646708448637693,
+      "w": 0.3815691375732422,
+      "h": 0.0647572403248673
+     },
+     "height": 0.0647572403248673,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Direktur Operasional",
+     "box": {
+      "x": 0.06686046842871975,
+      "y": 0.24887892433755765,
+      "w": 0.18604650497436526,
+      "h": 0.03393960827566023
+     },
+     "height": 0.03393960827566023,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Telp. (021) 5790 4412 • HP 0812 8833 4417",
+     "box": {
+      "x": 0.06622162098481589,
+      "y": 0.31987601376855,
+      "w": 0.3051192283630371,
+      "h": 0.049989160883840866
+     },
+     "height": 0.049989160883840866,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "bambang.setiawan@sinartebingabadi-co-id.example",
+     "box": {
+      "x": 0.06664929112184403,
+      "y": 0.3772291149237488,
+      "w": 0.26936611175537106,
+      "h": 0.03474049954800995
+     },
+     "height": 0.03474049954800995,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Menara Sentraya Lt. 18, Jl. Iskandarsyah Raya No. 1A",
+     "box": {
+      "x": 0.06639011676989728,
+      "y": 0.413889581283048,
+      "w": 0.3631422042846679,
+      "h": 0.04582966616715245
+     },
+     "height": 0.04582966616715245,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Jakarta Selatan 12160",
+     "box": {
+      "x": 0.0664761542630194,
+      "y": 0.46874754644778804,
+      "w": 0.1504869842529297,
+      "h": 0.0315828636346176
+     },
+     "height": 0.0315828636346176,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "NPWP 01.234.567.8-012.000",
+     "box": {
+      "x": 0.06956968639800647,
+      "y": 0.5172430403797238,
+      "w": 0.17043519973754884,
+      "h": 0.026273493601088327
+     },
+     "height": 0.026273493601088327,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ir.",
+   "given": "Bambang",
+   "middle": "",
+   "family": "Setiawan",
+   "suffix": "M.T.",
+   "full": "Ir. Bambang Setiawan, M.T."
+  },
+  "otherName": null,
+  "company": "PT SINAR TEBING ABADI Tbk",
+  "department": null,
+  "title": "Direktur Operasional",
+  "phones": [
+   {
+    "printed": "(021) 5790 4412",
+    "e164": "+622157904412",
+    "type": "work",
+    "label": "Telp.",
+    "ext": null
+   },
+   {
+    "printed": "0812 8833 4417",
+    "e164": "+6281288334417",
+    "type": "mobile",
+    "label": "HP",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bambang.setiawan@sinartebingabadi-co-id.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Jl. Iskandarsyah Raya No. 1A",
+    "extra": "Menara Sentraya Lt. 18",
+    "pobox": "",
+    "postcode": "12160",
+    "city": "Jakarta Selatan",
+    "region": "",
+    "country": "",
+    "countryCode": "ID"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "prefix-title",
+  "credential-suffix",
+  "vat-id",
+  "building-floor-extra",
+  "foreign-region",
+  "ocr-5S",
+  "legal-form-prefix"
+ ],
+ "notes": "\"Ir.\" (engineer) prefix and \"M.T.\" suffix. \"5\" for \"S\" at the start of the family name. \"PT … Tbk\" legal form wraps the name. Tower + floor \"Lt. 18\" before the street. NPWP tax id is not a phone. \"HP\" = mobile.",
+ "o3": {
+  "source": "blind-3/cards/id-y04.json",
+  "images": [
+   {
+    "name": "b3-id-y04",
+    "font": "Palatino-Roman",
+    "rotation": 1.02,
+    "noise": 11,
+    "blur": 1.4,
+    "langs": [
+     "id-ID",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 84
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

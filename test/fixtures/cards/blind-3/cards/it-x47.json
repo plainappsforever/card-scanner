@@ -1,0 +1,513 @@
+{
+ "id": "it-x47",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "it-IT"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "IMPIANTI ELETTRICI MARZOLI S.r.l.",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.5287,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "IMPIANTI",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1282,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "ELETTRICI",
+       "box": {
+        "x": 0.2142,
+        "y": 0.06,
+        "w": 0.1442,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "MARZOLI",
+       "box": {
+        "x": 0.3744,
+        "y": 0.06,
+        "w": 0.1121,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "S.r.l.",
+       "box": {
+        "x": 0.5026,
+        "y": 0.06,
+        "w": 0.0961,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Geom. Salvatore Marzoli",
+     "box": {
+      "x": 0.07,
+      "y": 0.175,
+      "w": 0.4094,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Geom.",
+       "box": {
+        "x": 0.07,
+        "y": 0.175,
+        "w": 0.089,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Salvatore",
+       "box": {
+        "x": 0.1768,
+        "y": 0.175,
+        "w": 0.1602,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Marzoli",
+       "box": {
+        "x": 0.3548,
+        "y": 0.175,
+        "w": 0.1246,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Amministratore Unico",
+     "box": {
+      "x": 0.07,
+      "y": 0.245,
+      "w": 0.2421,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Amministratore",
+       "box": {
+        "x": 0.07,
+        "y": 0.245,
+        "w": 0.1695,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Unico",
+       "box": {
+        "x": 0.2516,
+        "y": 0.245,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "& 081 764 22 18 · Cell. 339 812 4467",
+     "box": {
+      "x": 0.07,
+      "y": 0.329,
+      "w": 0.3717,
+      "h": 0.029
+     },
+     "height": 0.029,
+     "words": [
+      {
+       "text": "&",
+       "box": {
+        "x": 0.07,
+        "y": 0.329,
+        "w": 0.0103,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "081",
+       "box": {
+        "x": 0.0907,
+        "y": 0.329,
+        "w": 0.031,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "764",
+       "box": {
+        "x": 0.132,
+        "y": 0.329,
+        "w": 0.031,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.1733,
+        "y": 0.329,
+        "w": 0.0206,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "18",
+       "box": {
+        "x": 0.2042,
+        "y": 0.329,
+        "w": 0.0206,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2352,
+        "y": 0.329,
+        "w": 0.0103,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "Cell.",
+       "box": {
+        "x": 0.2559,
+        "y": 0.329,
+        "w": 0.0516,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "339",
+       "box": {
+        "x": 0.3178,
+        "y": 0.329,
+        "w": 0.031,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "812",
+       "box": {
+        "x": 0.3591,
+        "y": 0.329,
+        "w": 0.031,
+        "h": 0.029
+       }
+      },
+      {
+       "text": "4467",
+       "box": {
+        "x": 0.4004,
+        "y": 0.329,
+        "w": 0.0413,
+        "h": 0.029
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "info@marzoliimpianti-it.example · www.marzoliimpianti.it",
+     "box": {
+      "x": 0.07,
+      "y": 0.378,
+      "w": 0.4614,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "info@marzoliimpianti-it.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.378,
+        "w": 0.2211,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3007,
+        "y": 0.378,
+        "w": 0.0096,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "www.marzoliimpianti.it",
+       "box": {
+        "x": 0.3199,
+        "y": 0.378,
+        "w": 0.2115,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Via Giacomo Leopardi, 148 – 80125 Napoli (NA)",
+     "box": {
+      "x": 0.07,
+      "y": 0.425,
+      "w": 0.4325,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "Via",
+       "box": {
+        "x": 0.07,
+        "y": 0.425,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Giacomo",
+       "box": {
+        "x": 0.1084,
+        "y": 0.425,
+        "w": 0.0673,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Leopardi,",
+       "box": {
+        "x": 0.1853,
+        "y": 0.425,
+        "w": 0.0865,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "148",
+       "box": {
+        "x": 0.2814,
+        "y": 0.425,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.3199,
+        "y": 0.425,
+        "w": 0.0096,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "80125",
+       "box": {
+        "x": 0.3391,
+        "y": 0.425,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Napoli",
+       "box": {
+        "x": 0.3968,
+        "y": 0.425,
+        "w": 0.0577,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "(NA)",
+       "box": {
+        "x": 0.4641,
+        "y": 0.425,
+        "w": 0.0384,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "P.IVA 07412360638 · REA NA-912345",
+     "box": {
+      "x": 0.07,
+      "y": 0.472,
+      "w": 0.282,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "P.IVA",
+       "box": {
+        "x": 0.07,
+        "y": 0.472,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "07412360638",
+       "box": {
+        "x": 0.1213,
+        "y": 0.472,
+        "w": 0.094,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2238,
+        "y": 0.472,
+        "w": 0.0085,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "REA",
+       "box": {
+        "x": 0.2409,
+        "y": 0.472,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "NA-912345",
+       "box": {
+        "x": 0.2751,
+        "y": 0.472,
+        "w": 0.0769,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Geom.",
+   "given": "Salvatore",
+   "middle": "",
+   "family": "Marzoli",
+   "suffix": "",
+   "full": "Geom. Salvatore Marzoli"
+  },
+  "otherName": null,
+  "company": "IMPIANTI ELETTRICI MARZOLI S.r.l.",
+  "department": null,
+  "title": "Amministratore Unico",
+  "phones": [
+   {
+    "printed": "081 764 22 18",
+    "e164": "+390817642218",
+    "type": "work",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "339 812 4467",
+    "e164": "+393398124467",
+    "type": "mobile",
+    "label": "Cell.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@marzoliimpianti-it.example"
+  ],
+  "urls": [
+   "www.marzoliimpianti.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via Giacomo Leopardi, 148",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80125",
+    "city": "Napoli",
+    "region": "NA",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "081 764 22 18",
+   "ocr": "& 081 764 22 18",
+   "kinds": [
+    "stray-symbol"
+   ],
+   "stray": "& "
+  }
+ ],
+ "traps": [
+  "trade",
+  "prefix-title",
+  "stray-symbol",
+  "vat-id",
+  "registry-number",
+  "foreign-region",
+  "family-name-in-company",
+  "italian-leading-zero"
+ ],
+ "notes": "Phone icon read as \"&\". Italian fixed numbers keep the leading 0 in E.164 (+39 081…). \"Geom.\" is a professional prefix. P.IVA (11 digits) and REA are not phones. Street \"Via Giacomo Leopardi\" contains a person name."
+}

@@ -1,0 +1,175 @@
+{
+ "id": "us-c27",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "NORTHWIND FREIGHT",
+     "box": {
+      "x": 0.07093959649368436,
+      "y": 0.049715988923776155,
+      "w": 0.5034720993041992,
+      "h": 0.061648162635597026
+     },
+     "height": 0.061648162635597026,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "MARCUS O'DONNELL-REYES",
+     "box": {
+      "x": 0.06666666641121029,
+      "y": 0.19208494162573908,
+      "w": 0.43749999999999994,
+      "h": 0.05791505791505791
+     },
+     "height": 0.05791505791505791,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "VP, CUSTOMER SUCCESS",
+     "box": {
+      "x": 0.0697674446362348,
+      "y": 0.2664092672925893,
+      "w": 0.25290697097778314,
+      "h": 0.03861003861003853
+     },
+     "height": 0.03861003861003853,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "C 917.204.6618",
+     "box": {
+      "x": 0.06976744234144501,
+      "y": 0.36293436272579216,
+      "w": 0.13517441749572756,
+      "h": 0.033926623208182294
+     },
+     "height": 0.033926623208182294,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "O 646.380.2210 ext. 7",
+     "box": {
+      "x": 0.06976744367753324,
+      "y": 0.41698841719669766,
+      "w": 0.19912790298461913,
+      "h": 0.03378378378378377
+     },
+     "height": 0.03378378378378377,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "marcus.odonnell@northwindfreight-com.example",
+     "box": {
+      "x": 0.06813231832273338,
+      "y": 0.4690606428510897,
+      "w": 0.31288862228393555,
+      "h": 0.036817013066707927
+     },
+     "height": 0.036817013066707927,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "MARCUS",
+   "middle": "",
+   "family": "O'DONNELL-REYES",
+   "suffix": "",
+   "full": "MARCUS O'DONNELL-REYES"
+  },
+  "otherName": null,
+  "company": "NORTHWIND FREIGHT",
+  "department": "CUSTOMER SUCCESS",
+  "title": "VP",
+  "phones": [
+   {
+    "printed": "917.204.6618",
+    "e164": "+19172046618",
+    "type": "mobile",
+    "label": "C",
+    "ext": null
+   },
+   {
+    "printed": "646.380.2210 ext. 7",
+    "e164": "+16463802210",
+    "type": "work",
+    "label": null,
+    "ext": "7"
+   }
+  ],
+  "emails": [
+   "marcus.odonnell@northwindfreight-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "name-caps",
+  "apostrophe-name",
+  "title-department-line",
+  "single-letter-labels",
+  "extension",
+  "foreign-region",
+  "no-address-foreign",
+  "absent-address",
+  "label-read-as-digit"
+ ],
+ "notes": "All caps. \"VP, CUSTOMER SUCCESS\" = title + department (comma, not N2). The label \"O\" (office) was read as \"0\" and looks like a leading digit: the number is 646.380.2210, not 0646…. Region DE and no address: the numbers carry no +1 and .com is no country hint, only the US number shape points to +1 (truth).",
+ "o3": {
+  "source": "blind-3/cards/us-c27.json",
+  "images": [
+   {
+    "name": "b3-us-c27",
+    "font": "Georgia",
+    "rotation": -0.54,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 81
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

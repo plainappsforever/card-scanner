@@ -1,0 +1,1842 @@
+{
+ "set": "blind business cards, set 3",
+ "fixtures": [
+  {
+   "id": "de-e01",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "legal-form-only-line",
+    "tagline",
+    "shared-base",
+    "suffix-only-number",
+    "member-of",
+    "ocr-pipe-for-l"
+   ]
+  },
+  {
+   "id": "de-e02",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "name-caps",
+    "family-name-in-company",
+    "combined-label",
+    "vat-id",
+    "diacritic-lost",
+    "tagline",
+    "absent-email"
+   ]
+  },
+  {
+   "id": "de-e03",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "turkish-name",
+    "tagline",
+    "shared-base",
+    "suffix-only-number",
+    "combined-label",
+    "iban",
+    "spaced-at",
+    "digits-in-label"
+   ]
+  },
+  {
+   "id": "at-e04",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "AT",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "legal-form-only-line",
+    "ocr-0O-in-word",
+    "registry-number",
+    "vat-id",
+    "foreign-region",
+    "prefix-title"
+   ]
+  },
+  {
+   "id": "ch-e05",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "CH",
+   "layout": "landscape",
+   "region": "CH",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "diacritic-lost",
+    "unknown-phone-label",
+    "member-of",
+    "vat-id",
+    "tagline",
+    "family-name-in-company"
+   ]
+  },
+  {
+   "id": "de-y08",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "letter-spaced-logo",
+    "absent-name",
+    "absent-email",
+    "tagline",
+    "year-in-tagline",
+    "unknown-phone-label",
+    "bare-domain",
+    "ocr-pipe-for-l"
+   ]
+  },
+  {
+   "id": "de-k42",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "two-column",
+    "merged-line",
+    "member-of",
+    "tagline",
+    "family-name-in-company",
+    "postcode-leading-zero",
+    "credential-in-title"
+   ]
+  },
+  {
+   "id": "nl-x43",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "nl"
+   ],
+   "country": "NL",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "name-particle",
+    "lowercase-prefix",
+    "postcode-with-letters",
+    "registry-number",
+    "vat-id",
+    "iban",
+    "foreign-region",
+    "ocr-dropped-space",
+    "single-letter-labels",
+    "family-name-in-company"
+   ]
+  },
+  {
+   "id": "it-x47",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "it"
+   ],
+   "country": "IT",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "prefix-title",
+    "stray-symbol",
+    "vat-id",
+    "registry-number",
+    "foreign-region",
+    "family-name-in-company",
+    "italian-leading-zero"
+   ]
+  },
+  {
+   "id": "us-x48",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "US",
+   "layout": "landscape",
+   "region": "US",
+   "uiLang": "en",
+   "traps": [
+    "trade",
+    "vanity-number",
+    "member-of",
+    "tagline",
+    "company-split-lines",
+    "absent-address",
+    "title-with-slash"
+   ]
+  },
+  {
+   "id": "uk-x49",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "GB",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "legal-form-only-line",
+    "ocr-pipe-for-l",
+    "member-of",
+    "registry-number",
+    "unit-extra",
+    "pipe-separator",
+    "foreign-region",
+    "company-split-lines"
+   ]
+  },
+  {
+   "id": "de-m06",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "medical",
+    "multi-doctor",
+    "team-list-leftover",
+    "opening-hours",
+    "company-split-lines",
+    "ocr-rn-m"
+   ]
+  },
+  {
+   "id": "at-m07",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "AT",
+   "layout": "portrait",
+   "region": "AT",
+   "uiLang": "de",
+   "traps": [
+    "medical",
+    "multi-doctor-equal",
+    "portrait",
+    "company-split-lines",
+    "prefix-title"
+   ]
+  },
+  {
+   "id": "uk-m08",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "GB",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "medical",
+    "credential-suffix",
+    "registry-number",
+    "foreign-region",
+    "prefix-no-dot",
+    "company-split-lines",
+    "unknown-phone-label",
+    "street-in-company"
+   ]
+  },
+  {
+   "id": "es-x46",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "es"
+   ],
+   "country": "ES",
+   "layout": "landscape",
+   "region": "ES",
+   "uiLang": "es",
+   "traps": [
+    "medical",
+    "two-given-names",
+    "two-family-names",
+    "ocr-0O-in-word",
+    "member-of",
+    "vat-id",
+    "floor-extra",
+    "family-name-in-company"
+   ]
+  },
+  {
+   "id": "de-l09",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "law-firm",
+    "two-column",
+    "partner-list",
+    "credential-suffix",
+    "shared-base",
+    "suffix-only-number",
+    "registry-number",
+    "street-without-keyword",
+    "family-name-in-company",
+    "nigerian-name"
+   ]
+  },
+  {
+   "id": "uk-l10-front",
+   "group": "uk-l10",
+   "side": "front",
+   "languages": [
+    "en"
+   ],
+   "country": "GB",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "law-firm",
+    "title-department-line",
+    "partner-list",
+    "registry-number",
+    "foreign-region",
+    "no-address-foreign",
+    "building-name-extra",
+    "ocr-pipe-for-l",
+    "unknown-phone-label",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "uk-l10-back",
+   "group": "uk-l10",
+   "side": "back",
+   "languages": [
+    "en"
+   ],
+   "country": "GB",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "law-firm",
+    "title-department-line",
+    "partner-list",
+    "registry-number",
+    "foreign-region",
+    "no-address-foreign",
+    "building-name-extra",
+    "ocr-pipe-for-l",
+    "unknown-phone-label",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "uk-l10-both",
+   "group": "uk-l10",
+   "side": "both",
+   "languages": [
+    "en"
+   ],
+   "country": "GB",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "law-firm",
+    "title-department-line",
+    "partner-list",
+    "registry-number",
+    "foreign-region",
+    "no-address-foreign",
+    "building-name-extra",
+    "ocr-pipe-for-l",
+    "unknown-phone-label",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "us-l11",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "US",
+   "layout": "landscape",
+   "region": "US",
+   "uiLang": "en",
+   "traps": [
+    "law-firm",
+    "company-with-commas",
+    "credential-suffix",
+    "extension",
+    "tagline",
+    "family-name-in-company",
+    "suite-extra",
+    "name-comma-suffix"
+   ]
+  },
+  {
+   "id": "tr-y11",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "tr"
+   ],
+   "country": "TR",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "law-firm",
+    "turkish-name",
+    "two-given-names",
+    "prefix-title",
+    "partner-list",
+    "member-of",
+    "registry-number",
+    "diacritic-lost",
+    "family-name-in-company",
+    "floor-extra",
+    "foreign-region"
+   ]
+  },
+  {
+   "id": "fr-x45",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "fr"
+   ],
+   "country": "FR",
+   "layout": "landscape",
+   "region": "FR",
+   "uiLang": "fr",
+   "traps": [
+    "law-firm",
+    "member-of",
+    "prefix-title",
+    "diacritic-lost",
+    "family-name-in-company",
+    "company-split-lines",
+    "hyphenated-family"
+   ]
+  },
+  {
+   "id": "de-s12",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en",
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "startup",
+    "first-name-only",
+    "company-only-domain",
+    "lone-handle",
+    "tagline",
+    "absent-phone",
+    "absent-address",
+    "new-gtld"
+   ]
+  },
+  {
+   "id": "se-s13",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "SE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "startup",
+    "first-name-only",
+    "diacritic-lost",
+    "foreign-region",
+    "no-address-foreign",
+    "unlabelled-mobile",
+    "company-equals-domain-stem",
+    "absent-address"
+   ]
+  },
+  {
+   "id": "mx-s14",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de",
+    "en"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "startup",
+    "first-name-only",
+    "labelled-handle",
+    "title-department-line",
+    "co-address",
+    "lowercase-logo",
+    "unlabelled-mobile"
+   ]
+  },
+  {
+   "id": "us-y02",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "US",
+   "layout": "portrait",
+   "region": "DE",
+   "uiLang": "en",
+   "traps": [
+    "startup",
+    "first-name-only",
+    "greeting-line",
+    "lowercase-logo",
+    "labelled-handle",
+    "absent-phone",
+    "absent-address",
+    "portrait",
+    "company-equals-domain-stem"
+   ]
+  },
+  {
+   "id": "in-i40",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "IN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "startup",
+    "company-only-domain",
+    "indian-initials",
+    "unlabelled-mobile",
+    "foreign-region",
+    "no-address-foreign",
+    "absent-address"
+   ]
+  },
+  {
+   "id": "se-y05",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "sv",
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "name-equals-business",
+    "domain-stem-equals-name",
+    "absent-company",
+    "absent-address",
+    "scandinavian-name",
+    "ocr-pipe-for-l",
+    "role-email"
+   ]
+  },
+  {
+   "id": "it-h15",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "it",
+    "de"
+   ],
+   "country": "IT",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "hotel",
+    "bilingual-address",
+    "vat-id",
+    "foreign-region",
+    "stars-symbol",
+    "country-prefixed-postcode",
+    "italian-leading-zero"
+   ]
+  },
+  {
+   "id": "fr-h16",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "fr"
+   ],
+   "country": "FR",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "restaurant",
+    "family-caps-n3",
+    "unknown-phone-label",
+    "opening-hours",
+    "registry-number",
+    "year-in-tagline",
+    "qr-url",
+    "absent-email",
+    "foreign-region",
+    "labelled-handle"
+   ]
+  },
+  {
+   "id": "ch-x51",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "fr"
+   ],
+   "country": "CH",
+   "layout": "landscape",
+   "region": "CH",
+   "uiLang": "fr",
+   "traps": [
+    "hotel",
+    "single-letter-labels",
+    "spaced-at",
+    "year-in-tagline",
+    "street-without-keyword"
+   ]
+  },
+  {
+   "id": "de-x50",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "restaurant",
+    "ocr-0O-in-word",
+    "diacritic-lost",
+    "ocr-1l",
+    "opening-hours",
+    "year-in-tagline",
+    "absent-email",
+    "inh-as-title",
+    "hyphenated-city"
+   ]
+  },
+  {
+   "id": "ae-y09",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "ar",
+    "en"
+   ],
+   "country": "AE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "restaurant",
+    "absent-name",
+    "absent-email",
+    "combined-label",
+    "rtl-logo",
+    "labelled-handle",
+    "no-postcode",
+    "foreign-region",
+    "tagline",
+    "digit-in-district"
+   ]
+  },
+  {
+   "id": "de-h17-front",
+   "group": "de-h17",
+   "side": "front",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "hotel",
+    "tagline",
+    "cross-side-extension",
+    "scandinavian-name",
+    "ocr-pipe-for-l",
+    "suffix-only-number"
+   ]
+  },
+  {
+   "id": "de-h17-back",
+   "group": "de-h17",
+   "side": "back",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "hotel",
+    "tagline",
+    "cross-side-extension",
+    "scandinavian-name",
+    "ocr-pipe-for-l",
+    "suffix-only-number"
+   ]
+  },
+  {
+   "id": "de-h17-both",
+   "group": "de-h17",
+   "side": "both",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "hotel",
+    "tagline",
+    "cross-side-extension",
+    "scandinavian-name",
+    "ocr-pipe-for-l",
+    "suffix-only-number"
+   ]
+  },
+  {
+   "id": "vn-h18-front",
+   "group": "vn-h18",
+   "side": "front",
+   "languages": [
+    "vi"
+   ],
+   "country": "VN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "hotel",
+    "vietnamese-order",
+    "second-language-back",
+    "foreign-region",
+    "no-postcode",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "vn-h18-back",
+   "group": "vn-h18",
+   "side": "back",
+   "languages": [
+    "en"
+   ],
+   "country": "VN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "hotel",
+    "vietnamese-order",
+    "second-language-back",
+    "foreign-region",
+    "no-postcode",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "vn-h18-both",
+   "group": "vn-h18",
+   "side": "both",
+   "languages": [
+    "vi",
+    "en"
+   ],
+   "country": "VN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "hotel",
+    "vietnamese-order",
+    "second-language-back",
+    "foreign-region",
+    "no-postcode",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "de-a19",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "portrait",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "academic",
+    "orcid",
+    "faculty-line",
+    "baltic-name",
+    "portrait",
+    "diacritic-lost",
+    "room-extra",
+    "company-split-lines",
+    "prefix-stack"
+   ]
+  },
+  {
+   "id": "uk-a20",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "GB",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "academic",
+    "orcid",
+    "faculty-line",
+    "credential-suffix",
+    "prefix-no-dot",
+    "foreign-region",
+    "ocr-1l",
+    "hyphenated-family",
+    "nigerian-name",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "us-a21",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "US",
+   "layout": "landscape",
+   "region": "US",
+   "uiLang": "en",
+   "traps": [
+    "academic",
+    "orcid",
+    "faculty-line",
+    "indian-initials",
+    "credential-suffix",
+    "pobox",
+    "zip-plus-four",
+    "dot-separated-phone",
+    "initials-email"
+   ]
+  },
+  {
+   "id": "se-a22",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "sv"
+   ],
+   "country": "SE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "academic",
+    "orcid",
+    "scandinavian-name",
+    "diacritic-lost",
+    "foreign-region",
+    "postcode-with-space",
+    "department-lines",
+    "short-subscriber-number"
+   ]
+  },
+  {
+   "id": "at-u20-front",
+   "group": "at-u20",
+   "side": "front",
+   "languages": [
+    "de"
+   ],
+   "country": "AT",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "academic",
+    "prefix-stack",
+    "faculty-line",
+    "orcid",
+    "second-language-back",
+    "foreign-region",
+    "ocr-1l",
+    "roman-numeral-door",
+    "gasse-street"
+   ]
+  },
+  {
+   "id": "at-u20-back",
+   "group": "at-u20",
+   "side": "back",
+   "languages": [
+    "en"
+   ],
+   "country": "AT",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "academic",
+    "prefix-stack",
+    "faculty-line",
+    "orcid",
+    "second-language-back",
+    "foreign-region",
+    "ocr-1l",
+    "roman-numeral-door",
+    "gasse-street"
+   ]
+  },
+  {
+   "id": "at-u20-both",
+   "group": "at-u20",
+   "side": "both",
+   "languages": [
+    "de",
+    "en"
+   ],
+   "country": "AT",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "academic",
+    "prefix-stack",
+    "faculty-line",
+    "orcid",
+    "second-language-back",
+    "foreign-region",
+    "ocr-1l",
+    "roman-numeral-door",
+    "gasse-street"
+   ]
+  },
+  {
+   "id": "de-g23",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "government",
+    "referat",
+    "department-lines",
+    "prefix-title",
+    "diacritic-lost",
+    "opening-hours",
+    "company-split-lines",
+    "roman-numeral"
+   ]
+  },
+  {
+   "id": "de-g24",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "government",
+    "two-column",
+    "two-addresses",
+    "pobox",
+    "pobox-digits",
+    "scandinavian-name",
+    "room-extra",
+    "department-lines",
+    "ocr-rn-m",
+    "amt"
+   ]
+  },
+  {
+   "id": "at-g25",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "AT",
+   "layout": "landscape",
+   "region": "AT",
+   "uiLang": "de",
+   "traps": [
+    "government",
+    "referat",
+    "prefix-title",
+    "turkish-name",
+    "ocr-5S",
+    "department-lines",
+    "gasse-street",
+    "url-with-path"
+   ]
+  },
+  {
+   "id": "ch-g26",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "CH",
+   "layout": "landscape",
+   "region": "CH",
+   "uiLang": "de",
+   "traps": [
+    "government",
+    "amt",
+    "absent-name",
+    "department-lines",
+    "room-extra",
+    "hyphenated-department"
+   ]
+  },
+  {
+   "id": "us-c27",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "US",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "name-caps",
+    "apostrophe-name",
+    "title-department-line",
+    "single-letter-labels",
+    "extension",
+    "foreign-region",
+    "no-address-foreign",
+    "absent-address",
+    "label-read-as-digit"
+   ]
+  },
+  {
+   "id": "pl-c28",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "pl"
+   ],
+   "country": "PL",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "name-caps",
+    "diacritic-lost",
+    "legal-form-only-line",
+    "title-department-line",
+    "registry-number",
+    "vat-id",
+    "unknown-phone-label",
+    "foreign-region",
+    "hyphenated-family"
+   ]
+  },
+  {
+   "id": "no-n29",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "no"
+   ],
+   "country": "NO",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "trade",
+    "letter-spaced-logo",
+    "scandinavian-name",
+    "registry-number-phone-like",
+    "tagline",
+    "year-in-tagline",
+    "foreign-region",
+    "ocr-0O-in-word",
+    "hyphenated-given",
+    "family-name-in-company",
+    "street-without-keyword"
+   ]
+  },
+  {
+   "id": "dk-n30",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "da"
+   ],
+   "country": "DK",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "name-equals-company",
+    "scandinavian-name",
+    "registry-number-phone-like",
+    "credential-in-title",
+    "street-without-keyword",
+    "foreign-region",
+    "city-with-district-letter"
+   ]
+  },
+  {
+   "id": "lv-n31",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "lv"
+   ],
+   "country": "LV",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "baltic-name",
+    "diacritic-lost",
+    "legal-form-prefix",
+    "quoted-company",
+    "registry-number",
+    "vat-id",
+    "absent-phone",
+    "year-in-tagline",
+    "postcode-after-city"
+   ]
+  },
+  {
+   "id": "se-n32",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en",
+    "sv"
+   ],
+   "country": "SE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "baltic-name",
+    "diacritic-lost",
+    "foreign-region",
+    "postcode-with-space",
+    "street-without-keyword",
+    "title-with-region"
+   ]
+  },
+  {
+   "id": "tr-t34-front",
+   "group": "tr-t34",
+   "side": "front",
+   "languages": [
+    "tr"
+   ],
+   "country": "TR",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "turkish-name",
+    "second-language-back",
+    "ascii-transliteration",
+    "legal-form-only-line",
+    "vat-id",
+    "foreign-region",
+    "district-extra",
+    "family-name-in-company",
+    "dotted-capital-i"
+   ]
+  },
+  {
+   "id": "tr-t34-back",
+   "group": "tr-t34",
+   "side": "back",
+   "languages": [
+    "en"
+   ],
+   "country": "TR",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "turkish-name",
+    "second-language-back",
+    "ascii-transliteration",
+    "legal-form-only-line",
+    "vat-id",
+    "foreign-region",
+    "district-extra",
+    "family-name-in-company",
+    "dotted-capital-i"
+   ]
+  },
+  {
+   "id": "tr-t34-both",
+   "group": "tr-t34",
+   "side": "both",
+   "languages": [
+    "tr",
+    "en"
+   ],
+   "country": "TR",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "turkish-name",
+    "second-language-back",
+    "ascii-transliteration",
+    "legal-form-only-line",
+    "vat-id",
+    "foreign-region",
+    "district-extra",
+    "family-name-in-company",
+    "dotted-capital-i"
+   ]
+  },
+  {
+   "id": "ae-t35-front",
+   "group": "ae-t35",
+   "side": "front",
+   "languages": [
+    "en"
+   ],
+   "country": "AE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "arabic-transliteration",
+    "rtl-back",
+    "other-script-name",
+    "pobox",
+    "no-postcode",
+    "title-department-line",
+    "foreign-region",
+    "compound-family-name"
+   ]
+  },
+  {
+   "id": "ae-t35-back",
+   "group": "ae-t35",
+   "side": "back",
+   "languages": [
+    "ar"
+   ],
+   "country": "AE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "arabic-transliteration",
+    "rtl-back",
+    "other-script-name",
+    "pobox",
+    "no-postcode",
+    "title-department-line",
+    "foreign-region",
+    "compound-family-name"
+   ]
+  },
+  {
+   "id": "ae-t35-both",
+   "group": "ae-t35",
+   "side": "both",
+   "languages": [
+    "en",
+    "ar"
+   ],
+   "country": "AE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "two-sided",
+    "arabic-transliteration",
+    "rtl-back",
+    "other-script-name",
+    "pobox",
+    "no-postcode",
+    "title-department-line",
+    "foreign-region",
+    "compound-family-name"
+   ]
+  },
+  {
+   "id": "sa-t36",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "SA",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "arabic-transliteration",
+    "nasab-bin",
+    "prefix-title",
+    "registry-number",
+    "vat-id",
+    "pobox",
+    "foreign-region",
+    "ocr-pipe-for-l",
+    "long-name"
+   ]
+  },
+  {
+   "id": "eg-t37",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "EG",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "arabic-transliteration",
+    "compound-family-name",
+    "no-postcode",
+    "foreign-region",
+    "person-name-in-street",
+    "company-split-lines"
+   ]
+  },
+  {
+   "id": "in-i39",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "IN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "indian-initials",
+    "credential-suffix",
+    "ocr-8B",
+    "registry-number",
+    "vat-id",
+    "title-department-line",
+    "pin-with-space",
+    "foreign-region",
+    "family-empty",
+    "person-name-in-street"
+   ]
+  },
+  {
+   "id": "in-y03",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "IN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "hotel",
+    "indian-initials",
+    "tagline",
+    "role-email",
+    "vat-id",
+    "foreign-region",
+    "ocr-0O-in-word",
+    "house-number-slash"
+   ]
+  },
+  {
+   "id": "vn-v41",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "vi"
+   ],
+   "country": "VN",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "vietnamese-order",
+    "name-caps",
+    "diacritic-lost",
+    "vat-id",
+    "legal-form-in-company",
+    "no-postcode",
+    "foreign-region",
+    "title-department-word"
+   ]
+  },
+  {
+   "id": "id-y04",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "id"
+   ],
+   "country": "ID",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "prefix-title",
+    "credential-suffix",
+    "vat-id",
+    "building-floor-extra",
+    "foreign-region",
+    "ocr-5S",
+    "legal-form-prefix"
+   ]
+  },
+  {
+   "id": "mx-y06",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de",
+    "en"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "mixed-de-en",
+    "shared-base",
+    "suffix-only-number",
+    "registry-number",
+    "managing-director-line",
+    "stray-symbol",
+    "nigerian-name",
+    "street-without-keyword",
+    "lowercase-logo",
+    "company-split-lines"
+   ]
+  },
+  {
+   "id": "de-q52",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "qr-only",
+    "vcard",
+    "tagline"
+   ]
+  },
+  {
+   "id": "se-q53",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "sv"
+   ],
+   "country": "SE",
+   "layout": "landscape",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "qr-only",
+    "mecard",
+    "scandinavian-name",
+    "foreign-region",
+    "no-address-foreign",
+    "absent-company",
+    "absent-address"
+   ]
+  },
+  {
+   "id": "sig-01",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "fr"
+   ],
+   "country": "FR",
+   "layout": "text",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "email-signature",
+    "french",
+    "salutation-name",
+    "registry-number",
+    "title-department-line",
+    "foreign-region",
+    "legal-capital",
+    "label-space-colon"
+   ]
+  },
+  {
+   "id": "sig-02",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "de"
+   ],
+   "country": "DE",
+   "layout": "text",
+   "region": "DE",
+   "uiLang": "de",
+   "traps": [
+    "email-signature",
+    "shared-base",
+    "suffix-only-number",
+    "registry-number",
+    "vat-id",
+    "managing-director-line",
+    "salutation-name",
+    "title-department-line",
+    "second-company-in-footer",
+    "trunk-zero-in-parens"
+   ]
+  },
+  {
+   "id": "sig-03",
+   "group": null,
+   "side": "single",
+   "languages": [
+    "en"
+   ],
+   "country": "AE",
+   "layout": "text",
+   "region": "DE",
+   "uiLang": "en",
+   "traps": [
+    "email-signature",
+    "quoted-reply",
+    "other-persons-email",
+    "arabic-transliteration",
+    "title-department-line",
+    "no-postcode",
+    "foreign-region",
+    "free-zone-legal-form",
+    "labelled-handle",
+    "salutation-name",
+    "date-in-text"
+   ]
+  }
+ ],
+ "trap_vocabulary": {
+  "absent-address": "no postal address on the card",
+  "absent-company": "no company on the card",
+  "absent-email": "no e-mail on the card",
+  "absent-name": "no person on the card",
+  "absent-phone": "no phone on the card",
+  "academic": "university card",
+  "amt": "German/Swiss \"Amt\" office",
+  "apostrophe-name": "apostrophe in the family name (O'…)",
+  "arabic-transliteration": "Arabic name in Latin transliteration",
+  "ascii-transliteration": "same name spelt without diacritics on the other side",
+  "baltic-name": "Estonian/Latvian/Lithuanian name",
+  "bare-domain": "web address without www./scheme",
+  "bilingual-address": "street/town printed in two languages",
+  "building-floor-extra": "tower + floor printed before the street",
+  "building-name-extra": "building name in the address",
+  "city-with-district-letter": "city followed by a district letter (København K)",
+  "co-address": "c/o part in the address",
+  "combined-label": "one label for two types or channels (Tel./Fax, Mobil/WhatsApp)",
+  "company-equals-domain-stem": "company letters equal the e-mail/web domain stem",
+  "company-only-domain": "company printed only as a domain",
+  "company-split-lines": "company over two or more lines",
+  "company-with-commas": "commas inside the company name",
+  "compound-family-name": "family name of two tokens (Al Mansoori, Abdel Rahman)",
+  "country-prefixed-postcode": "postcode with country letter (I-39040)",
+  "credential-in-title": "credential/association inside the title line",
+  "credential-suffix": "post-nominal letters after the name",
+  "cross-side-extension": "extension on one side, base number on the other",
+  "date-in-text": "a date/time that must not become a phone",
+  "department-lines": "several administrative/organisational unit lines",
+  "diacritic-lost": "OCR dropped diacritics",
+  "digit-in-district": "district name ending in a digit",
+  "digits-in-label": "digits inside a phone label (24/7)",
+  "district-extra": "district printed with the city",
+  "domain-stem-equals-name": "domain stem equals the person name",
+  "dot-separated-phone": "phone with dots as separators",
+  "dotted-capital-i": "Turkish İ (case folding trap)",
+  "email-signature": "pasted e-mail signature (Paste text)",
+  "extension": "extension after x/ext.",
+  "faculty-line": "faculty/school line next to the department",
+  "family-caps-n3": "family name in caps among mixed case (N3)",
+  "family-empty": "person without a family name",
+  "family-name-in-company": "the family name also appears in the company/logo",
+  "first-name-only": "only a given name printed",
+  "floor-extra": "floor/door printed in the address",
+  "foreign-region": "phone country differs from the user region",
+  "free-zone-legal-form": "UAE free-zone legal form (FZ-LLC)",
+  "french": "French text",
+  "gasse-street": "street suffix -gasse (not in the SPEC keyword list)",
+  "government": "public administration card",
+  "greeting-line": "name inside a greeting phrase",
+  "hotel": "hotel card",
+  "house-number-slash": "house/door number with a slash",
+  "hyphenated-city": "hyphenated city name",
+  "hyphenated-department": "department with a hyphen-ellipsis (Bau- und …)",
+  "hyphenated-family": "hyphenated family name",
+  "hyphenated-given": "hyphenated given name",
+  "iban": "IBAN/BIC printed",
+  "indian-initials": "Indian name with initials",
+  "inh-as-title": "\"Inh.\" (owner) before the name is the title",
+  "initials-email": "e-mail local part = initials",
+  "italian-leading-zero": "Italian fixed number keeps its 0 in E.164",
+  "label-read-as-digit": "a letter label OCR-read as a digit",
+  "label-space-colon": "French \"Tél. :\" label with a space before the colon",
+  "labelled-handle": "social handle with a label (IG, Instagram, LinkedIn:)",
+  "law-firm": "law firm card",
+  "legal-capital": "share capital amount in the footer",
+  "legal-form-in-company": "legal form inside the company (TNHH)",
+  "legal-form-only-line": "a line holding only the legal form",
+  "legal-form-prefix": "legal form before the name (SIA, PT)",
+  "letter-spaced-logo": "logo printed with spaces between letters",
+  "lone-handle": "bare @handle without a label",
+  "long-name": "name of five tokens",
+  "lowercase-logo": "company logo in lower case",
+  "lowercase-prefix": "lower-case title prefix (ing.)",
+  "managing-director-line": "other people named in a register/GF line",
+  "mecard": "MECARD QR payload",
+  "medical": "medical/dental practice",
+  "member-of": "membership line (Innung, Barreau, NICEIC …)",
+  "merged-line": "two columns merged into one OCR line",
+  "mixed-de-en": "German card with English labels",
+  "multi-doctor": "several doctors, holder emphasised",
+  "multi-doctor-equal": "several doctors in equal type",
+  "name-caps": "whole name in capitals",
+  "name-comma-suffix": "comma before a name suffix (not N2)",
+  "name-equals-business": "the person is the business; no company",
+  "name-equals-company": "company = person name + business words",
+  "name-particle": "family name with particles (van der)",
+  "nasab-bin": "patronymic \"bin …\" inside the name",
+  "new-gtld": "new gTLD (.garden)",
+  "nigerian-name": "Nigerian name",
+  "no-address-foreign": "foreign phone and no address on the scanned side",
+  "no-postcode": "country without a printed postcode",
+  "ocr-0O-in-word": "\"0\" for \"O\"/\"o\" inside a word",
+  "ocr-1l": "\"l\" for \"I\" or \"1\" for \"l\"",
+  "ocr-5S": "\"5\" for \"S\"/\"s\"",
+  "ocr-8B": "\"8\" for \"B\"",
+  "ocr-dropped-space": "OCR dropped a space",
+  "ocr-pipe-for-l": "\"|\" for \"l\"",
+  "ocr-rn-m": "\"rn\" for \"m\"",
+  "opening-hours": "opening/visiting hours with digits",
+  "orcid": "ORCID iD (16 digits)",
+  "other-persons-email": "another person's e-mail in the text",
+  "other-script-name": "name in a second script (N7)",
+  "partner-list": "list of partners/colleagues",
+  "person-name-in-street": "street named after a person",
+  "pin-with-space": "Indian PIN with a space",
+  "pipe-separator": "\"|\" used as separator",
+  "pobox": "PO box",
+  "pobox-digits": "PO box digits shaped like a phone",
+  "portrait": "portrait layout",
+  "postcode-after-city": "postcode after the city",
+  "postcode-leading-zero": "postcode starting with 0",
+  "postcode-with-letters": "postcode with letters",
+  "postcode-with-space": "postcode with a space",
+  "prefix-no-dot": "\"Dr\" without a dot",
+  "prefix-stack": "several academic prefixes",
+  "prefix-title": "professional/academic prefix (Ing., Geom., Av., Maître, Mag.a, Ir., Eng.)",
+  "qr-only": "contact data only in the QR",
+  "qr-url": "URL QR code",
+  "quoted-company": "company name in quotes",
+  "quoted-reply": "quoted reply below the signature",
+  "referat": "Referat (government department)",
+  "registry-number": "company/professional register number",
+  "registry-number-phone-like": "register number with the exact shape of a local phone number",
+  "restaurant": "restaurant card",
+  "role-email": "role mailbox (info@, gm@, kontakt@)",
+  "roman-numeral": "Roman numeral in a department",
+  "roman-numeral-door": "Roman numeral staircase (18/I)",
+  "room-extra": "room/Zimmer/Büro/Raum in the address",
+  "rtl-back": "right-to-left Arabic side",
+  "rtl-logo": "Arabic logo line",
+  "salutation-name": "recipient name in the salutation",
+  "scandinavian-name": "Scandinavian name",
+  "second-company-in-footer": "another company named in the footer",
+  "second-language-back": "back side in another language",
+  "shared-base": "base number with \"-0\" and extensions",
+  "short-subscriber-number": "short subscriber number",
+  "single-letter-labels": "labels T/M/F/C/O",
+  "spaced-at": "\" @ \" in the e-mail",
+  "stars-symbol": "hotel stars read as symbols",
+  "startup": "startup card",
+  "stray-symbol": "icon read as a character",
+  "street-in-company": "street name inside the company",
+  "street-without-keyword": "street without a SPEC street keyword",
+  "suffix-only-number": "number printed only as a suffix",
+  "suite-extra": "suite in the address",
+  "tagline": "slogan/tagline line",
+  "team-list-leftover": "small team line that is not the name",
+  "title-department-line": "title and department in one line",
+  "title-department-word": "title word containing the department",
+  "title-with-region": "title followed by a region",
+  "title-with-slash": "title with \" / \"",
+  "trade": "craft trade (Elektriker, Dachdecker, Sanitär)",
+  "trunk-zero-in-parens": "\"(0)\" trunk zero after the country code",
+  "turkish-name": "Turkish name",
+  "two-addresses": "two addresses",
+  "two-column": "landscape card with two columns",
+  "two-family-names": "two family names",
+  "two-given-names": "two given names",
+  "two-sided": "two-sided card",
+  "unit-extra": "unit number in the address",
+  "unknown-phone-label": "phone label outside the SPEC dictionary",
+  "unlabelled-mobile": "mobile number without a label",
+  "url-with-path": "URL with a path",
+  "vanity-number": "vanity (letters) phone number",
+  "vat-id": "VAT/tax id",
+  "vcard": "vCard QR payload",
+  "vietnamese-order": "Vietnamese family-first order",
+  "year-in-tagline": "a year in a tagline",
+  "zip-plus-four": "US ZIP+4"
+ }
+}

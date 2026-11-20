@@ -1,0 +1,88 @@
+{
+ "id": "sig-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "AE",
+ "layout": "text",
+ "input": {
+  "text": "Hi Lena,\n\nGreat meeting you at Intersolar – deck attached.\n\nBest regards,\nOmar\n\nOmar Farouk Haddad\nHead of Partnerships | Middle East & Africa\nSahara Solar Systems FZ-LLC\nOffice 1204, Building 3, Dubai Internet City, Dubai, UAE\nM: +971 55 214 8830 | O: +971 4 390 7710\nomar.haddad@saharasolar-ae.example\nLinkedIn: linkedin.com/in/omarfhaddad\n\nSent from my iPhone\n\nOn Tue, 13 Oct 2026 at 09:12, Lena Brandt <lena.brandt@sonnenwerk-energie-de.example> wrote:\n> Hello Omar, could you send me the partner deck?",
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Omar",
+   "middle": "Farouk",
+   "family": "Haddad",
+   "suffix": "",
+   "full": "Omar Farouk Haddad"
+  },
+  "otherName": null,
+  "company": "Sahara Solar Systems FZ-LLC",
+  "department": "Middle East & Africa",
+  "title": "Head of Partnerships",
+  "phones": [
+   {
+    "printed": "+971 55 214 8830",
+    "e164": "+971552148830",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   },
+   {
+    "printed": "+971 4 390 7710",
+    "e164": "+97143907710",
+    "type": "work",
+    "label": "O:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "omar.haddad@saharasolar-ae.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/omarfhaddad"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "Office 1204, Building 3, Dubai Internet City",
+    "pobox": "",
+    "postcode": "",
+    "city": "Dubai",
+    "region": "",
+    "country": "UAE",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "email-signature",
+  "quoted-reply",
+  "other-persons-email",
+  "arabic-transliteration",
+  "title-department-line",
+  "no-postcode",
+  "foreign-region",
+  "free-zone-legal-form",
+  "labelled-handle",
+  "salutation-name",
+  "date-in-text"
+ ],
+ "notes": "Signature with a quoted reply below it: Lena Brandt and her e-mail belong to the recipient and must not be taken. \"Omar\" alone in the closing is the same person. FZ-LLC = free-zone company. Office/building/free-zone district, no street, no postcode. The date \"13 Oct 2026 at 09:12\" is not a phone."
+}

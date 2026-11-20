@@ -1,0 +1,470 @@
+{
+ "id": "us-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "es"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Villaseñor Plumbing & Drain LLC",
+     "box": {
+      "x": 0.06,
+      "y": 0.06,
+      "w": 0.641,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Villaseñor",
+       "box": {
+        "x": 0.06,
+        "y": 0.06,
+        "w": 0.2187,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Plumbing",
+       "box": {
+        "x": 0.2913,
+        "y": 0.06,
+        "w": 0.175,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.4789,
+        "y": 0.06,
+        "w": 0.0219,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Drain",
+       "box": {
+        "x": 0.5134,
+        "y": 0.06,
+        "w": 0.1094,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "LLC",
+       "box": {
+        "x": 0.6354,
+        "y": 0.06,
+        "w": 0.0656,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Serving Greater Phoenix since 1998",
+     "box": {
+      "x": 0.06,
+      "y": 0.17,
+      "w": 0.3696,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Serving",
+       "box": {
+        "x": 0.06,
+        "y": 0.17,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Greater",
+       "box": {
+        "x": 0.1467,
+        "y": 0.17,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Phoenix",
+       "box": {
+        "x": 0.2334,
+        "y": 0.17,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "since",
+       "box": {
+        "x": 0.32,
+        "y": 0.17,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "1998",
+       "box": {
+        "x": 0.3838,
+        "y": 0.17,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Ernesto Villaseñor",
+     "box": {
+      "x": 0.06,
+      "y": 0.33,
+      "w": 0.3548,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Ernesto",
+       "box": {
+        "x": 0.06,
+        "y": 0.33,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Villaseñor",
+       "box": {
+        "x": 0.213,
+        "y": 0.33,
+        "w": 0.2019,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Owner · Master Plumber",
+     "box": {
+      "x": 0.06,
+      "y": 0.417,
+      "w": 0.279,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Owner",
+       "box": {
+        "x": 0.06,
+        "y": 0.417,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1351,
+        "y": 0.417,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Master",
+       "box": {
+        "x": 0.1563,
+        "y": 0.417,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Plumber",
+       "box": {
+        "x": 0.2448,
+        "y": 0.417,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "1-800-GO-PLUMB",
+     "box": {
+      "x": 0.06,
+      "y": 0.57,
+      "w": 0.1884,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "1-800-GO-PLUMB",
+       "box": {
+        "x": 0.06,
+        "y": 0.57,
+        "w": 0.1884,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "(48O) 555-O161",
+     "box": {
+      "x": 0.06,
+      "y": 0.628,
+      "w": 0.1827,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "(48O)",
+       "box": {
+        "x": 0.06,
+        "y": 0.628,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "555-O161",
+       "box": {
+        "x": 0.1351,
+        "y": 0.628,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "evillasenor@vpd-plumbing-com.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.686,
+      "w": 0.3365,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "evillasenor@vpd-plumbing-com.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.686,
+        "w": 0.3365,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "ROC #312845 · Licensed · Bonded · Insured",
+     "box": {
+      "x": 0.06,
+      "y": 0.744,
+      "w": 0.512,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "ROC",
+       "box": {
+        "x": 0.06,
+        "y": 0.744,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "#312845",
+       "box": {
+        "x": 0.1081,
+        "y": 0.744,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2101,
+        "y": 0.744,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Licensed",
+       "box": {
+        "x": 0.2313,
+        "y": 0.744,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3468,
+        "y": 0.744,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Bonded",
+       "box": {
+        "x": 0.368,
+        "y": 0.744,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4565,
+        "y": 0.744,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Insured",
+       "box": {
+        "x": 0.4777,
+        "y": 0.744,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ernesto",
+   "middle": "",
+   "family": "Villaseñor",
+   "suffix": "",
+   "full": "Ernesto Villaseñor"
+  },
+  "otherName": null,
+  "company": "Villaseñor Plumbing & Drain LLC",
+  "department": null,
+  "title": "Owner",
+  "phones": [
+   {
+    "printed": "1-800-GO-PLUMB",
+    "e164": "+18004675862",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "composed": true,
+    "type_accept": [
+     "other"
+    ]
+   },
+   {
+    "printed": "(480) 555-0161",
+    "e164": "+14805550161",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "evillasenor@vpd-plumbing-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Master Plumber",
+   "Owner · Master Plumber"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[1].printed",
+   "printed": "(480) 555-0161",
+   "ocr": "(48O) 555-O161",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "vanity-number",
+  "license-number",
+  "year-slogan",
+  "absent-address",
+  "name-is-company",
+  "ocr-0O",
+  "absent-url"
+ ],
+ "notes": "Vanity number 1-800-GO-PLUMB = +18004675862 (letters on the keypad); a letter-to-digit repair must not be confused with O->0 repair. No address."
+}

@@ -1,0 +1,552 @@
+{
+ "id": "de-20",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GRATBLICK",
+     "box": {
+      "x": 0.07,
+      "y": 0.0696,
+      "w": 0.3986,
+      "h": 0.11
+     },
+     "height": 0.11,
+     "words": [
+      {
+       "text": "GRATBLICK",
+       "box": {
+        "x": 0.07,
+        "y": 0.0696,
+        "w": 0.3986,
+        "h": 0.11
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Hotel & Spa",
+     "box": {
+      "x": 0.07,
+      "y": 0.2016,
+      "w": 0.1825,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Hotel",
+       "box": {
+        "x": 0.07,
+        "y": 0.2016,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.1703,
+        "y": 0.2016,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Spa",
+       "box": {
+        "x": 0.1981,
+        "y": 0.2016,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Seit 1898 im Herzen von Garmisch",
+     "box": {
+      "x": 0.07,
+      "y": 0.2736,
+      "w": 0.5377,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Seit",
+       "box": {
+        "x": 0.07,
+        "y": 0.2736,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1898",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2736,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "im",
+       "box": {
+        "x": 0.2344,
+        "y": 0.2736,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Herzen",
+       "box": {
+        "x": 0.2803,
+        "y": 0.2736,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "von",
+       "box": {
+        "x": 0.3987,
+        "y": 0.2736,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Garmisch",
+       "box": {
+        "x": 0.4628,
+        "y": 0.2736,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Sabine Huber",
+     "box": {
+      "x": 0.07,
+      "y": 0.3456,
+      "w": 0.2508,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Sabine",
+       "box": {
+        "x": 0.07,
+        "y": 0.3456,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Huber",
+       "box": {
+        "x": 0.2121,
+        "y": 0.3456,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Direktorin Sales & Marketing",
+     "box": {
+      "x": 0.07,
+      "y": 0.4276,
+      "w": 0.4821,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Direktorin",
+       "box": {
+        "x": 0.07,
+        "y": 0.4276,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.2609,
+        "y": 0.4276,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3612,
+        "y": 0.4276,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Marketing",
+       "box": {
+        "x": 0.389,
+        "y": 0.4276,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Zugspitzstraße 51",
+     "box": {
+      "x": 0.07,
+      "y": 0.4996,
+      "w": 0.2996,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Zugspitzstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.4996,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "51",
+       "box": {
+        "x": 0.3334,
+        "y": 0.4996,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "82467 Garmisch-Partenkirchen",
+     "box": {
+      "x": 0.07,
+      "y": 0.5716,
+      "w": 0.4989,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "82467",
+       "box": {
+        "x": 0.07,
+        "y": 0.5716,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Garmisch-Partenkirchen",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5716,
+        "w": 0.3986,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +49 8821 7 52-0 · Fax +49 8821 7 52-55",
+     "box": {
+      "x": 0.07,
+      "y": 0.6436,
+      "w": 0.6949,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.6436,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8821",
+       "box": {
+        "x": 0.2162,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6436,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "52-0",
+       "box": {
+        "x": 0.3262,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4084,
+        "y": 0.6436,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.4362,
+        "y": 0.6436,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.5003,
+        "y": 0.6436,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8821",
+       "box": {
+        "x": 0.5644,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.6465,
+        "y": 0.6436,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "52-55",
+       "box": {
+        "x": 0.6744,
+        "y": 0.6436,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "s.huber@gratbiick-hotei-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7156,
+      "w": 0.4892,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "s.huber@gratbiick-hotei-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7156,
+        "w": 0.4892,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "www.gratblick-hotel.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.7876,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.gratblick-hotel.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.7876,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "AT",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sabine",
+   "middle": "",
+   "family": "Huber",
+   "suffix": "",
+   "full": "Sabine Huber"
+  },
+  "otherName": null,
+  "company": "GRATBLICK Hotel & Spa",
+  "department": "Sales & Marketing",
+  "title": "Direktorin",
+  "phones": [
+   {
+    "printed": "+49 8821 7 52-0",
+    "e164": "+4988217520",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 8821 7 52-55",
+    "e164": "+49882175255",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "s.huber@gratblick-hotel-de.example"
+  ],
+  "urls": [
+   "www.gratblick-hotel.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Zugspitzstraße 51",
+    "extra": "",
+    "pobox": "",
+    "postcode": "82467",
+    "city": "Garmisch-Partenkirchen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Direktorin Sales & Marketing"
+  ],
+  "company": [
+   "GRATBLICK"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "s.huber@gratblick-hotel-de.example",
+   "ocr": "s.huber@gratbiick-hotei-de.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "title-dept-one-line",
+  "year-in-tagline",
+  "ext-pair",
+  "region-from-plus-cc",
+  "ocr-1l"
+ ],
+ "notes": "Title Direktorin, department Sales & Marketing. E-mail must be repaired to gratblick-hotel.de (matches the website). Region AT, but all numbers carry +49."
+}

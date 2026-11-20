@@ -1,0 +1,245 @@
+{
+ "id": "de-15",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hartmann Roth & Partner mbB",
+     "box": {
+      "x": 0.07558139011684688,
+      "y": 0.06467181563927593,
+      "w": 0.48982559204101556,
+      "h": 0.06563706563706562
+     },
+     "height": 0.06563706563706562,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Wirtschaftsprüfung • Steuerberatung",
+     "box": {
+      "x": 0.07650601972631105,
+      "y": 0.15739317710139522,
+      "w": 0.4037137603759766,
+      "h": 0.05713901924810816
+     },
+     "height": 0.05713901924810816,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dipl.-Kfm. Martin Roth, WP, StB, RA",
+     "box": {
+      "x": 0.07485476670409125,
+      "y": 0.2327175543517349,
+      "w": 0.4270061111450196,
+      "h": 0.06774119520739696
+     },
+     "height": 0.06774119520739696,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Partner",
+     "box": {
+      "x": 0.0723079520748923,
+      "y": 0.31402003369001696,
+      "w": 0.08221336364746093,
+      "h": 0.0336792809622628
+     },
+     "height": 0.0336792809622628,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Bockenheimer Landstraße 51-53",
+     "box": {
+      "x": 0.07223681581413316,
+      "y": 0.3823027924745981,
+      "w": 0.37004627227783204,
+      "h": 0.04805817843404059
+     },
+     "height": 0.04805817843404059,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "60325 Frankfurt am Main",
+     "box": {
+      "x": 0.0693730108282779,
+      "y": 0.4572575808507988,
+      "w": 0.2595601654052734,
+      "h": 0.04375353743210719
+     },
+     "height": 0.04375353743210719,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 69 97 12 34-0",
+     "box": {
+      "x": 0.06817667096212468,
+      "y": 0.5305991870625754,
+      "w": 0.24155670166015622,
+      "h": 0.03905554996033889
+     },
+     "height": 0.03905554996033889,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Durchwahl -55 • Fax -99",
+     "box": {
+      "x": 0.06933600862100768,
+      "y": 0.5985883286710558,
+      "w": 0.2610428810119629,
+      "h": 0.04460815849451483
+     },
+     "height": 0.04460815849451483,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "m.roth@hrp-wpg-de.example",
+     "box": {
+      "x": 0.06780345888397793,
+      "y": 0.669586399036464,
+      "w": 0.20607212066650393,
+      "h": 0.05047340834923231
+     },
+     "height": 0.05047340834923231,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Partnerschaftsregister AG Frankfurt PR 2187",
+     "box": {
+      "x": 0.06661757455365017,
+      "y": 0.7486871540940743,
+      "w": 0.22571332931518553,
+      "h": 0.027335494641631763
+     },
+     "height": 0.027335494641631763,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Kfm.",
+   "given": "Martin",
+   "middle": "",
+   "family": "Roth",
+   "suffix": "WP, StB, RA",
+   "full": "Dipl.-Kfm. Martin Roth, WP, StB, RA"
+  },
+  "otherName": null,
+  "company": "Hartmann Roth & Partner mbB",
+  "department": null,
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "+49 69 97 12 34-0",
+    "e164": "+49699712340",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-55",
+    "e164": "+496997123455",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "-99",
+    "e164": "+496997123499",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null,
+    "composed": true
+   }
+  ],
+  "emails": [
+   "m.roth@hrp-wpg-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bockenheimer Landstraße 51–53",
+    "extra": "",
+    "pobox": "",
+    "postcode": "60325",
+    "city": "Frankfurt am Main",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "credential-suffix",
+  "prefix-title",
+  "durchwahl-composed",
+  "registry-id",
+  "name-is-company"
+ ],
+ "notes": "WP, StB and RA are suffixes, not a company. -55 and -99 complete to +49 69 9712345 5 / …99. Title \"Partner\" must not be swallowed by the \"& Partner\" company rule. PR 2187 is a register number.",
+ "o3": {
+  "source": "blind-2/cards/de-15.json",
+  "images": [
+   {
+    "name": "b2-de-15",
+    "font": "AvenirNext-Regular",
+    "rotation": -1.34,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

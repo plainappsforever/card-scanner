@@ -1,0 +1,534 @@
+{
+ "id": "ch-e05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Buhler Sanitär AG",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4842,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Buhler",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1709,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Sanitär",
+       "box": {
+        "x": 0.2694,
+        "y": 0.06,
+        "w": 0.1994,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "AG",
+       "box": {
+        "x": 0.4972,
+        "y": 0.06,
+        "w": 0.057,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Bäder · Leitungsbau · Service",
+     "box": {
+      "x": 0.07,
+      "y": 0.16,
+      "w": 0.3613,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Bäder",
+       "box": {
+        "x": 0.07,
+        "y": 0.16,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1448,
+        "y": 0.16,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Leitungsbau",
+       "box": {
+        "x": 0.1697,
+        "y": 0.16,
+        "w": 0.137,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3192,
+        "y": 0.16,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Service",
+       "box": {
+        "x": 0.3441,
+        "y": 0.16,
+        "w": 0.0872,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Reto Bühler",
+     "box": {
+      "x": 0.07,
+      "y": 0.255,
+      "w": 0.235,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Reto",
+       "box": {
+        "x": 0.07,
+        "y": 0.255,
+        "w": 0.0855,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Bühler",
+       "box": {
+        "x": 0.1768,
+        "y": 0.255,
+        "w": 0.1282,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Eidg. dipl. Sanitärinstallateur",
+     "box": {
+      "x": 0.07,
+      "y": 0.335,
+      "w": 0.3863,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Eidg.",
+       "box": {
+        "x": 0.07,
+        "y": 0.335,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "dipl.",
+       "box": {
+        "x": 0.1448,
+        "y": 0.335,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Sanitärinstallateur",
+       "box": {
+        "x": 0.2195,
+        "y": 0.335,
+        "w": 0.2368,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Tel. 044 482 17 30",
+     "box": {
+      "x": 0.07,
+      "y": 0.42,
+      "w": 0.2243,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.42,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "044",
+       "box": {
+        "x": 0.1323,
+        "y": 0.42,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "482",
+       "box": {
+        "x": 0.1822,
+        "y": 0.42,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "17",
+       "box": {
+        "x": 0.232,
+        "y": 0.42,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "30",
+       "box": {
+        "x": 0.2694,
+        "y": 0.42,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Natel 079 412 63 85",
+     "box": {
+      "x": 0.07,
+      "y": 0.475,
+      "w": 0.2367,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Natel",
+       "box": {
+        "x": 0.07,
+        "y": 0.475,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "079",
+       "box": {
+        "x": 0.1447,
+        "y": 0.475,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "412",
+       "box": {
+        "x": 0.1946,
+        "y": 0.475,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "63",
+       "box": {
+        "x": 0.2444,
+        "y": 0.475,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "85",
+       "box": {
+        "x": 0.2818,
+        "y": 0.475,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "reto.buehler@buehler-sanitaer-ch.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.53,
+      "w": 0.3645,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "reto.buehler@buehler-sanitaer-ch.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.53,
+        "w": 0.3645,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Badenerstrasse 621 · 8048 Zürich",
+     "box": {
+      "x": 0.07,
+      "y": 0.582,
+      "w": 0.3645,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Badenerstrasse",
+       "box": {
+        "x": 0.07,
+        "y": 0.582,
+        "w": 0.1595,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "621",
+       "box": {
+        "x": 0.2409,
+        "y": 0.582,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2864,
+        "y": 0.582,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "8048",
+       "box": {
+        "x": 0.3092,
+        "y": 0.582,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Zürich",
+       "box": {
+        "x": 0.3662,
+        "y": 0.582,
+        "w": 0.0683,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "Mitglied suissetec",
+     "box": {
+      "x": 0.07,
+      "y": 0.634,
+      "w": 0.1922,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Mitglied",
+       "box": {
+        "x": 0.07,
+        "y": 0.634,
+        "w": 0.0854,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "suissetec",
+       "box": {
+        "x": 0.1661,
+        "y": 0.634,
+        "w": 0.0961,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "MWST CHE-114.392.857",
+     "box": {
+      "x": 0.07,
+      "y": 0.684,
+      "w": 0.1851,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "MWST",
+       "box": {
+        "x": 0.07,
+        "y": 0.684,
+        "w": 0.037,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "CHE-114.392.857",
+       "box": {
+        "x": 0.1163,
+        "y": 0.684,
+        "w": 0.1388,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "CH",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Reto",
+   "middle": "",
+   "family": "Bühler",
+   "suffix": "",
+   "full": "Reto Bühler"
+  },
+  "otherName": null,
+  "company": "Bühler Sanitär AG",
+  "department": null,
+  "title": "Eidg. dipl. Sanitärinstallateur",
+  "phones": [
+   {
+    "printed": "044 482 17 30",
+    "e164": "+41444821730",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "079 412 63 85",
+    "e164": "+41794126385",
+    "type": "mobile",
+    "label": "Natel",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "reto.buehler@buehler-sanitaer-ch.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Badenerstrasse 621",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8048",
+    "city": "Zürich",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "company",
+   "printed": "Bühler Sanitär AG",
+   "ocr": "Buhler Sanitär AG",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "trade",
+  "diacritic-lost",
+  "unknown-phone-label",
+  "member-of",
+  "vat-id",
+  "tagline",
+  "family-name-in-company"
+ ],
+ "notes": "\"Natel\" is the Swiss word for mobile (079 is a mobile range anyway). The logo lost its umlaut in OCR. MWST number (CHE-…) is not a phone; \"Mitglied suissetec\" is a leftover."
+}

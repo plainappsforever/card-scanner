@@ -1,0 +1,204 @@
+{
+ "id": "ch-g26",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "region": "CH",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kanton Rheinfels",
+     "box": {
+      "x": 0.06676234250429974,
+      "y": 0.057188755717112794,
+      "w": 0.31125703811645505,
+      "h": 0.04174910364924245
+     },
+     "height": 0.04174910364924245,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Bau- und Verkehrsdepartement",
+     "box": {
+      "x": 0.06686046373800203,
+      "y": 0.13223938156939652,
+      "w": 0.3255813980102539,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Amt für Mobilität",
+     "box": {
+      "x": 0.06807428731224614,
+      "y": 0.20295817851045195,
+      "w": 0.2504252815246582,
+      "h": 0.040245332312860094
+     },
+     "height": 0.040245332312860094,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Abteilung Verkehrsplanung",
+     "box": {
+      "x": 0.06676255394626604,
+      "y": 0.26920337609306744,
+      "w": 0.2851220893859864,
+      "h": 0.03699413873974433
+     },
+     "height": 0.03699413873974433,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Münsterplatz 11 • Büro 3.14",
+     "box": {
+      "x": 0.06674420271908205,
+      "y": 0.373445164188696,
+      "w": 0.2749653434753418,
+      "h": 0.03339651652744835
+     },
+     "height": 0.03339651652744835,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "4001 Basel",
+     "box": {
+      "x": 0.06831395563354492,
+      "y": 0.4282511213101665,
+      "w": 0.10319766998291013,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Telefon +41 61 267 82 00",
+     "box": {
+      "x": 0.06818005368768404,
+      "y": 0.4734116616461106,
+      "w": 0.2502772903442383,
+      "h": 0.029962324267648888
+     },
+     "height": 0.029962324267648888,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "mobilitaet@kt-rheinfels-ch.example • www.mobilitaet.kt-rheinfels.ch",
+     "box": {
+      "x": 0.0682186859547204,
+      "y": 0.5236623233156268,
+      "w": 0.3519361114501953,
+      "h": 0.02922242580693668
+     },
+     "height": 0.02922242580693668,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "Kanton Rheinfels",
+  "department": "Amt für Mobilität",
+  "title": null,
+  "phones": [
+   {
+    "printed": "+41 61 267 82 00",
+    "e164": "+41612678200",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mobilitaet@kt-rheinfels-ch.example"
+  ],
+  "urls": [
+   "www.mobilitaet.kt-rheinfels.ch"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Münsterplatz 11",
+    "extra": "Büro 3.14",
+    "pobox": "",
+    "postcode": "4001",
+    "city": "Basel",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "title",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Bau- und Verkehrsdepartement",
+   "Abteilung Verkehrsplanung"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "government",
+  "amt",
+  "absent-name",
+  "department-lines",
+  "room-extra",
+  "hyphenated-department"
+ ],
+ "notes": "Office card without a person: no name and no title. Three administrative levels (Departement > Amt > Abteilung); \"Amt für Mobilität\" (largest) is truth. \"Büro 3.14\" is a room, not a number to parse.",
+ "o3": {
+  "source": "blind-3/cards/ch-g26.json",
+  "images": [
+   {
+    "name": "b3-ch-g26",
+    "font": "Menlo-Regular",
+    "rotation": 0.48,
+    "noise": 11,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 84
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

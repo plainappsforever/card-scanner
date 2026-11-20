@@ -1,0 +1,35 @@
+appId: ${APP_ID}
+name: Store screenshots - switch the app language (run by scripts/screenshots.sh between the EN and the DE capture)
+tags:
+  - screenshots
+---
+# env: LANG_ID = "de" or "system" (the "Device language" row). The change is checked, then the app restarts (as release/language.yaml).
+- launchApp:
+    stopApp: true
+    permissions:
+      all: unset
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 60000
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- scrollUntilVisible:
+    element:
+      id: choice-${LANG_ID}
+    centerElement: true
+- tapOn:
+    id: choice-${LANG_ID}
+- waitForAnimationToEnd
+- launchApp:
+    stopApp: true
+    permissions:
+      all: unset
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 60000

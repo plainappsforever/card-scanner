@@ -1,0 +1,313 @@
+{
+ "id": "de-g24",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Bezirksamt Wendhorst von Karlshaven",
+     "box": {
+      "x": 0.06661860723584556,
+      "y": 0.06081289942769419,
+      "w": 0.37399452209472656,
+      "h": 0.04290146625180036
+     },
+     "height": 0.04290146625180036,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dienstgebäude",
+     "box": {
+      "x": 0.5465116281614738,
+      "y": 0.09865470889947747,
+      "w": 0.10610465049743645,
+      "h": 0.02242152387110885
+     },
+     "height": 0.02242152387110885,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Abteilung Stadtentwicklung und Bürgerdienste",
+     "box": {
+      "x": 0.06525400271585287,
+      "y": 0.1290932846179682,
+      "w": 0.29103853225708004,
+      "h": 0.030497501255462467
+     },
+     "height": 0.030497501255462467,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Storkower Str. 97",
+     "box": {
+      "x": 0.5462804270741405,
+      "y": 0.1429589155471762,
+      "w": 0.1298253631591797,
+      "h": 0.025948897291794615
+     },
+     "height": 0.025948897291794615,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Amt für Umwelt und Natur",
+     "box": {
+      "x": 0.06521731700192782,
+      "y": 0.1823988046477526,
+      "w": 0.22276193618774412,
+      "h": 0.029714481250659786
+     },
+     "height": 0.029714481250659786,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Haus 4, Zimmer 2.07",
+     "box": {
+      "x": 0.5463768310719205,
+      "y": 0.18998368918817343,
+      "w": 0.1616610336303711,
+      "h": 0.030814836384246758
+     },
+     "height": 0.030814836384246758,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Fachbereich Naturschutz",
+     "box": {
+      "x": 0.06686046682815963,
+      "y": 0.23745173758489213,
+      "w": 0.17005813598632813,
+      "h": 0.022637948106154493
+     },
+     "height": 0.022637948106154493,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "10407 Karlshaven",
+     "box": {
+      "x": 0.546511627197309,
+      "y": 0.23991031427028608,
+      "w": 0.10029069900512688,
+      "h": 0.022637948106154493
+     },
+     "height": 0.022637948106154493,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Postanschrift",
+     "box": {
+      "x": 0.5463511825030145,
+      "y": 0.30684435191329795,
+      "w": 0.09338002204895013,
+      "h": 0.023828955690833098
+     },
+     "height": 0.023828955690833098,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Ole Bergström",
+     "box": {
+      "x": 0.06946020238107159,
+      "y": 0.33970055087249607,
+      "w": 0.20991657257080076,
+      "h": 0.047036461848549815
+     },
+     "height": 0.047036461848549815,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "Postfach 73 01 13",
+     "box": {
+      "x": 0.5477793843079276,
+      "y": 0.35182110038481573,
+      "w": 0.13844122886657717,
+      "h": 0.026079770681020298
+     },
+     "height": 0.026079770681020298,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f11",
+     "text": "Sachbearbeiter",
+     "box": {
+      "x": 0.06976743989166959,
+      "y": 0.4125560540465718,
+      "w": 0.12790698051452637,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f12",
+     "text": "13062 Karlshaven",
+     "box": {
+      "x": 0.5494186029165005,
+      "y": 0.40347490353393156,
+      "w": 0.09447674751281732,
+      "h": 0.020291912969935266
+     },
+     "height": 0.020291912969935266,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f13",
+     "text": "Tel. (030) 90295-6382",
+     "box": {
+      "x": 0.5476246716336385,
+      "y": 0.46314298951213595,
+      "w": 0.17220760345458985,
+      "h": 0.03414593884383399
+     },
+     "height": 0.03414593884383399,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f14",
+     "text": "ole.bergstroem@ba-wendhorst-karlshaven-de.example",
+     "box": {
+      "x": 0.547785247338187,
+      "y": 0.5124032430763499,
+      "w": 0.23728046417236326,
+      "h": 0.029215322958456524
+     },
+     "height": 0.029215322958456524,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ole",
+   "middle": "",
+   "family": "Bergström",
+   "suffix": "",
+   "full": "Ole Bergström"
+  },
+  "otherName": null,
+  "company": "Bezirksamt Wendhorst von Karlshaven",
+  "department": "Amt für Umwelt und Natur",
+  "title": "Sachbearbeiter",
+  "phones": [
+   {
+    "printed": "(030) 90295-6382",
+    "e164": "+4930902956382",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ole.bergstroem@ba-wendhorst-karlshaven-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Storkower Str. 97",
+    "extra": "Haus 4, Zimmer 2.07",
+    "pobox": "",
+    "postcode": "10407",
+    "city": "Karlshaven",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   },
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postfach 73 01 13",
+    "postcode": "13062",
+    "city": "Karlshaven",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Fachbereich Naturschutz",
+   "Abteilung Stadtentwicklung und Bürgerdienste"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "government",
+  "two-column",
+  "two-addresses",
+  "pobox",
+  "pobox-digits",
+  "scandinavian-name",
+  "room-extra",
+  "department-lines",
+  "ocr-rn-m",
+  "amt"
+ ],
+ "notes": "Read column-wise: left = office hierarchy + person, right = visiting address, postal address, phone, e-mail. Two addresses (building with Haus/Zimmer, and Postfach). \"Postfach 73 01 13\" has 6 digits and is not a phone. Three department levels: Abteilung > Amt > Fachbereich (Amt = truth). \"rn\" for \"m\" in the name.",
+ "o3": {
+  "source": "blind-3/cards/de-g24.json",
+  "images": [
+   {
+    "name": "b3-de-g24",
+    "font": "Verdana",
+    "rotation": 0.81,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 104
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

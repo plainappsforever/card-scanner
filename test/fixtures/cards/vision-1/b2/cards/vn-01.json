@@ -1,0 +1,228 @@
+{
+ "id": "vn-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "vi-VT",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CÔNG TY TNHH SAO VĨNH",
+     "box": {
+      "x": 0.07206761715768828,
+      "y": 0.08349910132939864,
+      "w": 0.4417264175415039,
+      "h": 0.07729311983557752
+     },
+     "height": 0.07729311983557752,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Trần Minh Quân",
+     "box": {
+      "x": 0.07184127213507942,
+      "y": 0.17421648910007326,
+      "w": 0.30545486450195314,
+      "h": 0.07265579194175686
+     },
+     "height": 0.07265579194175686,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Giám đốc Kinh doanh",
+     "box": {
+      "x": 0.07072411645828051,
+      "y": 0.2602150851121203,
+      "w": 0.2815835189819336,
+      "h": 0.054087670153172285
+     },
+     "height": 0.054087670153172285,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tầng 12, 235 Nguyễn Văn Cừ",
+     "box": {
+      "x": 0.069353174190488,
+      "y": 0.333446159826571,
+      "w": 0.36557155609130865,
+      "h": 0.06450214901485962
+     },
+     "height": 0.06450214901485962,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Phường 4, Quận 5, TP. Hồ Chí Minh",
+     "box": {
+      "x": 0.06944739514811936,
+      "y": 0.4076108065715227,
+      "w": 0.45841281890869134,
+      "h": 0.06447037214478013
+     },
+     "height": 0.06447037214478013,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "ĐT: (028) 3833 1234",
+     "box": {
+      "x": 0.06888770286863533,
+      "y": 0.4767778156794702,
+      "w": 0.2663347434997559,
+      "h": 0.06054032447255253
+     },
+     "height": 0.06054032447255253,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "DĐ: 0903 456 789",
+     "box": {
+      "x": 0.06921992860092299,
+      "y": 0.5510989762833387,
+      "w": 0.24376142501831052,
+      "h": 0.05509793712365585
+     },
+     "height": 0.05509793712365585,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "quan.tran@saovinh-com-vn.example",
+     "box": {
+      "x": 0.06806648310017799,
+      "y": 0.6281597512883893,
+      "w": 0.34789573669433593,
+      "h": 0.04869558268072072
+     },
+     "height": 0.04869558268072072,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "MST: 0312345678",
+     "box": {
+      "x": 0.06662155844567262,
+      "y": 0.6965507441158643,
+      "w": 0.12251904487609865,
+      "h": 0.028892014477703953
+     },
+     "height": 0.028892014477703953,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Quân",
+   "middle": "Minh",
+   "family": "Trần",
+   "suffix": "",
+   "full": "Trần Minh Quân"
+  },
+  "otherName": null,
+  "company": "CÔNG TY TNHH SAO VĨNH",
+  "department": "Kinh doanh",
+  "title": "Giám đốc",
+  "phones": [
+   {
+    "printed": "(028) 3833 1234",
+    "e164": "+842838331234",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0903 456 789",
+    "e164": "+84903456789",
+    "type": "mobile",
+    "label": "DĐ:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "quan.tran@saovinh-com-vn.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "235 Nguyễn Văn Cừ",
+    "extra": "Tầng 12",
+    "pobox": "",
+    "postcode": "",
+    "city": "TP. Hồ Chí Minh",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Giám đốc Kinh doanh"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "family-first",
+  "no-postcode",
+  "tax-id",
+  "title-dept-one-line",
+  "region-from-address",
+  "diacritic-lost"
+ ],
+ "notes": "Family Trần, middle Minh, given Quân (Vietnamese order — Latin N4 would swap them). MST 0312345678 (03x… is a mobile prefix) is a tax code, not a phone. Vietnam prints no postcode.",
+ "o3": {
+  "source": "blind-2/cards/vn-01.json",
+  "images": [
+   {
+    "name": "b2-vn-01",
+    "font": "Georgia",
+    "rotation": -1.16,
+    "noise": 13,
+    "blur": 1.4,
+    "langs": [
+     "vi-VT",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 150
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

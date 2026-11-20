@@ -1,0 +1,222 @@
+{
+ "id": "de-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ELEKTRO KAYA",
+     "box": {
+      "x": 0.06631019403507431,
+      "y": 0.11260904541548034,
+      "w": 0.47487255096435543,
+      "h": 0.08209526400768619
+     },
+     "height": 0.08209526400768619,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "e.K.",
+     "box": {
+      "x": 0.06686046638245693,
+      "y": 0.2466367716846729,
+      "w": 0.042151160240173347,
+      "h": 0.03363228580666311
+     },
+     "height": 0.03363228580666311,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Murat Kaya",
+     "box": {
+      "x": 0.06809841570342723,
+      "y": 0.3041252505523975,
+      "w": 0.17653791427612306,
+      "h": 0.05615707530017988
+     },
+     "height": 0.05615707530017988,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Elektromeister",
+     "box": {
+      "x": 0.06976743776932119,
+      "y": 0.39910313958685895,
+      "w": 0.16424419403076168,
+      "h": 0.03363228580666333
+     },
+     "height": 0.03363228580666333,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Am Bachgraben 7",
+     "box": {
+      "x": 0.06797721662008663,
+      "y": 0.45973860314019466,
+      "w": 0.21021652221679685,
+      "h": 0.05313201300425874
+     },
+     "height": 0.05313201300425874,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "85049 Ingolstadt",
+     "box": {
+      "x": 0.06961479125638942,
+      "y": 0.5377831163237862,
+      "w": 0.19510494232177733,
+      "h": 0.04668964474357695
+     },
+     "height": 0.04668964474357695,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 0841 9 87 60",
+     "box": {
+      "x": 0.07083729133031902,
+      "y": 0.6060270767277474,
+      "w": 0.1984084129333496,
+      "h": 0.045519876664209646
+     },
+     "height": 0.045519876664209646,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil/Fax: 0172 3 45 67 89 / 0841 9 87 65",
+     "box": {
+      "x": 0.07237764803115329,
+      "y": 0.6709967318610012,
+      "w": 0.4774227905273437,
+      "h": 0.05463839129591541
+     },
+     "height": 0.05463839129591541,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Murat",
+   "middle": "",
+   "family": "Kaya",
+   "suffix": "",
+   "full": "Murat Kaya"
+  },
+  "otherName": null,
+  "company": "ELEKTRO KAYA e.K.",
+  "department": null,
+  "title": "Elektromeister",
+  "phones": [
+   {
+    "printed": "0841 9 87 60",
+    "e164": "+4984198760",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0172 3 45 67 89",
+    "e164": "+491723456789",
+    "type": "mobile",
+    "label": "Mobil/Fax",
+    "ext": null
+   },
+   {
+    "printed": "0841 9 87 65",
+    "e164": "+4984198765",
+    "type": "fax",
+    "label": "Mobil/Fax",
+    "ext": null,
+    "type_accept": [
+     "work"
+    ]
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Bachgraben 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "85049",
+    "city": "Ingolstadt",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "combined-label",
+  "glued-label",
+  "legal-form-line",
+  "name-is-company",
+  "ext-pair",
+  "absent-emails",
+  "ocr-0O",
+  "dropped-space"
+ ],
+ "notes": "\"Mobil/Fax:\" covers two numbers: the 0172 number is the mobile, the 0841 number the fax. Tel 0841 98760 and Fax 0841 98765 share the base. \"e.K.\" alone on a line belongs to the company.",
+ "o3": {
+  "source": "blind-2/cards/de-04.json",
+  "images": [
+   {
+    "name": "b2-de-04",
+    "font": "GillSans",
+    "rotation": 0.97,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 115
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

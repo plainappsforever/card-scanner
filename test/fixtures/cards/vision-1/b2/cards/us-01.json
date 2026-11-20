@@ -1,0 +1,235 @@
+{
+ "id": "us-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CORVALE",
+     "box": {
+      "x": 0.0765588124961436,
+      "y": 0.07062296286648773,
+      "w": 0.2873310852050781,
+      "h": 0.07223551982157939
+     },
+     "height": 0.07223551982157939,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "PHYSICAL THERAPY",
+     "box": {
+      "x": 0.07489998400209345,
+      "y": 0.18306862009449087,
+      "w": 0.29783819198608397,
+      "h": 0.0548793247767857
+     },
+     "height": 0.0548793247767857,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Rebecca Lindqvist, PT, DPT",
+     "box": {
+      "x": 0.07289261860821818,
+      "y": 0.25138305280332496,
+      "w": 0.42654788970947266,
+      "h": 0.09027030385138901
+     },
+     "height": 0.09027030385138901,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Clinical Director",
+     "box": {
+      "x": 0.07213829520930545,
+      "y": 0.33582318107843434,
+      "w": 0.21638441085815432,
+      "h": 0.050079345703125
+     },
+     "height": 0.050079345703125,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "2201 NE 45th St, Suite 300",
+     "box": {
+      "x": 0.06863950926944,
+      "y": 0.40459155049124185,
+      "w": 0.34790328979492186,
+      "h": 0.08114418928227374
+     },
+     "height": 0.08114418928227374,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Seattle, WA 98105",
+     "box": {
+      "x": 0.06749109925387281,
+      "y": 0.4808185367458915,
+      "w": 0.24422374725341794,
+      "h": 0.06440445078846102
+     },
+     "height": 0.06440445078846102,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Phone 206-555-0134 | Fax 206-555-0135",
+     "box": {
+      "x": 0.06753395325809017,
+      "y": 0.5520838873303382,
+      "w": 0.5393247985839843,
+      "h": 0.07409512582432809
+     },
+     "height": 0.07409512582432809,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "rlindqvist@corvalept-com.example",
+     "box": {
+      "x": 0.06602253205939093,
+      "y": 0.6194142056991365,
+      "w": 0.3471981811523438,
+      "h": 0.06379806489097561
+     },
+     "height": 0.06379806489097561,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "NPI 1234567893 • WA License PT00012345",
+     "box": {
+      "x": 0.06194308822447489,
+      "y": 0.6907126792657801,
+      "w": 0.2928821182250977,
+      "h": 0.04946894811387226
+     },
+     "height": 0.04946894811387226,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Part of the Evergreen Health Partners network",
+     "box": {
+      "x": 0.061934959367955005,
+      "y": 0.7349840912797043,
+      "w": 0.30122764587402345,
+      "h": 0.050869840452569814
+     },
+     "height": 0.050869840452569814,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rebecca",
+   "middle": "",
+   "family": "Lindqvist",
+   "suffix": "PT, DPT",
+   "full": "Rebecca Lindqvist, PT, DPT"
+  },
+  "otherName": null,
+  "company": "CORVALE PHYSICAL THERAPY",
+  "department": null,
+  "title": "Clinical Director",
+  "phones": [
+   {
+    "printed": "206-555-0134",
+    "e164": "+12065550134",
+    "type": "work",
+    "label": "Phone",
+    "ext": null
+   },
+   {
+    "printed": "206-555-0135",
+    "e164": "+12065550135",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "rlindqvist@corvalept-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2201 NE 45th St",
+    "extra": "Suite 300",
+    "pobox": "",
+    "postcode": "98105",
+    "city": "Seattle",
+    "region": "WA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "credential-suffix",
+  "group-line-not-company",
+  "licence-number",
+  "ext-pair",
+  "region-from-address"
+ ],
+ "notes": "PT, DPT are suffixes — not a company. NPI 1234567893 and License PT00012345 are not phones. Region DE: the Seattle address makes the numbers +1.",
+ "o3": {
+  "source": "blind-2/cards/us-01.json",
+  "images": [
+   {
+    "name": "b2-us-01",
+    "font": "Georgia",
+    "rotation": -1.98,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 125
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

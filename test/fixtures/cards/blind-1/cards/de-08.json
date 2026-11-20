@@ -1,0 +1,458 @@
+{
+ "id": "de-08",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "pl"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Schreinerei Holzwurm e.K.",
+     "box": {
+      "x": 0.06,
+      "y": 0.06,
+      "w": 0.6502,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Schreinerei",
+       "box": {
+        "x": 0.06,
+        "y": 0.06,
+        "w": 0.2961,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Holzwurm",
+       "box": {
+        "x": 0.3716,
+        "y": 0.06,
+        "w": 0.2153,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "e.K.",
+       "box": {
+        "x": 0.6025,
+        "y": 0.06,
+        "w": 0.1077,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "lnh. Bogdan Wiśniewski",
+     "box": {
+      "x": 0.06,
+      "y": 0.28,
+      "w": 0.4271,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "lnh.",
+       "box": {
+        "x": 0.06,
+        "y": 0.28,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Bogdan",
+       "box": {
+        "x": 0.1524,
+        "y": 0.28,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Wiśniewski",
+       "box": {
+        "x": 0.2852,
+        "y": 0.28,
+        "w": 0.2019,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Tischlermeister",
+     "box": {
+      "x": 0.06,
+      "y": 0.367,
+      "w": 0.212,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Tischlermeister",
+       "box": {
+        "x": 0.06,
+        "y": 0.367,
+        "w": 0.212,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Am Sägewerk 5",
+     "box": {
+      "x": 0.06,
+      "y": 0.53,
+      "w": 0.1636,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Am",
+       "box": {
+        "x": 0.06,
+        "y": 0.53,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Sägewerk",
+       "box": {
+        "x": 0.0947,
+        "y": 0.53,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "5",
+       "box": {
+        "x": 0.2101,
+        "y": 0.53,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "O1067 Vellstedt",
+     "box": {
+      "x": 0.06,
+      "y": 0.588,
+      "w": 0.1693,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "O1067",
+       "box": {
+        "x": 0.06,
+        "y": 0.588,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Vellstedt",
+       "box": {
+        "x": 0.1351,
+        "y": 0.588,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Tel.:0351 4 87 65 43",
+     "box": {
+      "x": 0.06,
+      "y": 0.646,
+      "w": 0.2464,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Tel.:0351",
+       "box": {
+        "x": 0.06,
+        "y": 0.646,
+        "w": 0.1211,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "4",
+       "box": {
+        "x": 0.1889,
+        "y": 0.646,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "87",
+       "box": {
+        "x": 0.2101,
+        "y": 0.646,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "65",
+       "box": {
+        "x": 0.2448,
+        "y": 0.646,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "43",
+       "box": {
+        "x": 0.2795,
+        "y": 0.646,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Mobil:0172/5 43 21 09",
+     "box": {
+      "x": 0.06,
+      "y": 0.704,
+      "w": 0.2656,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Mobil:0172/5",
+       "box": {
+        "x": 0.06,
+        "y": 0.704,
+        "w": 0.1615,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "43",
+       "box": {
+        "x": 0.2293,
+        "y": 0.704,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.264,
+        "y": 0.704,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "09",
+       "box": {
+        "x": 0.2986,
+        "y": 0.704,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "b.wisniewski@holzwurrn-vellstedt-de.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.762,
+      "w": 0.4441,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "b.wisniewski@holzwurrn-vellstedt-de.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.762,
+        "w": 0.4441,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "www.holzwurm-vellstedt.de",
+     "box": {
+      "x": 0.06,
+      "y": 0.82,
+      "w": 0.3096,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "www.holzwurm-vellstedt.de",
+       "box": {
+        "x": 0.06,
+        "y": 0.82,
+        "w": 0.3096,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Bogdan",
+   "middle": "",
+   "family": "Wiśniewski",
+   "suffix": "",
+   "full": "Bogdan Wiśniewski"
+  },
+  "otherName": null,
+  "company": "Schreinerei Holzwurm e.K.",
+  "department": null,
+  "title": "Tischlermeister",
+  "phones": [
+   {
+    "printed": "0351 4 87 65 43",
+    "e164": "+493514876543",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "0172/5 43 21 09",
+    "e164": "+491725432109",
+    "type": "mobile",
+    "label": "Mobil:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "b.wisniewski@holzwurm-vellstedt-de.example"
+  ],
+  "urls": [
+   "www.holzwurm-vellstedt.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Sägewerk 5",
+    "extra": "",
+    "pobox": "",
+    "postcode": "01067",
+    "city": "Vellstedt",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Inh.",
+   "ocr": "lnh.",
+   "kinds": [
+    "1/l"
+   ]
+  },
+  {
+   "path": "addresses[0].postcode",
+   "printed": "01067",
+   "ocr": "O1067",
+   "kinds": [
+    "0/O"
+   ]
+  },
+  {
+   "path": "emails[0]",
+   "printed": "b.wisniewski@holzwurm-vellstedt-de.example",
+   "ocr": "b.wisniewski@holzwurrn-vellstedt-de.example",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "glued-label",
+  "ocr-0O",
+  "ocr-rnm",
+  "ocr-1l",
+  "inh-prefix",
+  "foreign-name",
+  "e.K."
+ ],
+ "notes": "\"lnh.\" is OCR for \"Inh.\" (Inhaber) and is not part of the given name. The e-mail domain lost its \"m\" (read \"rn\"); the website line shows the correct spelling. Postcode starts with O instead of 0."
+}

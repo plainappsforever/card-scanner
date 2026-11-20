@@ -1,0 +1,242 @@
+{
+ "id": "de-e02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Dachdeckerei",
+     "box": {
+      "x": 0.0608884250674307,
+      "y": 0.07953523969159426,
+      "w": 0.16766414642333985,
+      "h": 0.03541155855628053
+     },
+     "height": 0.03541155855628053,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "HINRICHS",
+     "box": {
+      "x": 0.06180048897034755,
+      "y": 0.1259781965782094,
+      "w": 0.2791135025024414,
+      "h": 0.07785210922417951
+     },
+     "height": 0.07785210922417951,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Bedachungen • Fassaden • Bauklempnerei",
+     "box": {
+      "x": 0.061900237280057835,
+      "y": 0.23660558966453182,
+      "w": 0.35965118408203123,
+      "h": 0.057434882896747474
+     },
+     "height": 0.057434882896747474,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "HAUKE HINRICHS",
+     "box": {
+      "x": 0.06623425503544972,
+      "y": 0.33999272214043064,
+      "w": 0.2540624809265137,
+      "h": 0.05282357116463565
+     },
+     "height": 0.05282357116463565,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dachdeckermeister",
+     "box": {
+      "x": 0.0677936548406247,
+      "y": 0.4178514406065674,
+      "w": 0.1885387420654297,
+      "h": 0.04089875755162775
+     },
+     "height": 0.04089875755162775,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel./Fax 04841 7 23 18",
+     "box": {
+      "x": 0.06747790477121968,
+      "y": 0.4993573250730322,
+      "w": 0.22826700210571288,
+      "h": 0.05277225685856057
+     },
+     "height": 0.05277225685856057,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0160 92 31 774",
+     "box": {
+      "x": 0.0720242831244505,
+      "y": 0.5589839592229069,
+      "w": 0.22659639358520509,
+      "h": 0.04592971359900988
+     },
+     "height": 0.04592971359900988,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Süderstraße 42 • 25813 Husum",
+     "box": {
+      "x": 0.07218928266481811,
+      "y": 0.6238924104883674,
+      "w": 0.2610261726379394,
+      "h": 0.040818759373256075
+     },
+     "height": 0.040818759373256075,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "www.dach-hinrichs.de",
+     "box": {
+      "x": 0.07361524645892593,
+      "y": 0.6828130214582302,
+      "w": 0.18996427536010746,
+      "h": 0.03958304416258818
+     },
+     "height": 0.03958304416258818,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "USt-IdNr. DE287445190",
+     "box": {
+      "x": 0.07515376219379498,
+      "y": 0.7359008795822393,
+      "w": 0.1709002494812012,
+      "h": 0.03430939088917151
+     },
+     "height": 0.03430939088917151,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "HAUKE",
+   "middle": "",
+   "family": "HINRICHS",
+   "suffix": "",
+   "full": "HAUKE HINRICHS"
+  },
+  "otherName": null,
+  "company": "Dachdeckerei HINRICHS",
+  "department": null,
+  "title": "Dachdeckermeister",
+  "phones": [
+   {
+    "printed": "04841 7 23 18",
+    "e164": "+49484172318",
+    "type": "work",
+    "label": "Tel./Fax",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "0160 92 31 774",
+    "e164": "+491609231774",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.dach-hinrichs.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Süderstraße 42",
+    "extra": "",
+    "pobox": "",
+    "postcode": "25813",
+    "city": "Husum",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "name-caps",
+  "family-name-in-company",
+  "combined-label",
+  "vat-id",
+  "diacritic-lost",
+  "tagline",
+  "absent-email"
+ ],
+ "notes": "Name in capitals; the logo \"HINRICHS\" repeats the family name and belongs to the company, not the name. \"Tel./Fax\" is one number for both (work, fax also right). USt-IdNr. is not a phone. No e-mail on the card.",
+ "o3": {
+  "source": "blind-3/cards/de-e02.json",
+  "images": [
+   {
+    "name": "b3-de-e02",
+    "font": "HelveticaNeue",
+    "rotation": 1.96,
+    "noise": 10,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 172
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,213 @@
+{
+ "id": "se-a22",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "sv"
+ ],
+ "card_country": "SE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "sv-SE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lindhamns universitet",
+     "box": {
+      "x": 0.061978367876817944,
+      "y": 0.06456723676154263,
+      "w": 0.29892736434936523,
+      "h": 0.04987930975365362
+     },
+     "height": 0.04987930975365362,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Nationalekonomiska institutionen",
+     "box": {
+      "x": 0.06209349201319391,
+      "y": 0.13072732192078185,
+      "w": 0.3132838439941406,
+      "h": 0.046507544499106435
+     },
+     "height": 0.046507544499106435,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Asa Lindqvist",
+     "box": {
+      "x": 0.06522196902832292,
+      "y": 0.2420173371807658,
+      "w": 0.2373053741455078,
+      "h": 0.05569187738720516
+     },
+     "height": 0.05569187738720516,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Professor",
+     "box": {
+      "x": 0.06683779821222689,
+      "y": 0.33390185113454174,
+      "w": 0.08870812416076661,
+      "h": 0.02726356219140713
+     },
+     "height": 0.02726356219140713,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Universitetsvägen 10 A • 106 91 Stockholm",
+     "box": {
+      "x": 0.06609710287146157,
+      "y": 0.39802374696848086,
+      "w": 0.33031726837158204,
+      "h": 0.05068856684857814
+     },
+     "height": 0.05068856684857814,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 08-16 34 72 • Mobil 070-612 48 33",
+     "box": {
+      "x": 0.06606139408812141,
+      "y": 0.44360459492433635,
+      "w": 0.32206039428710936,
+      "h": 0.05579687913872555
+     },
+     "height": 0.05579687913872555,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "asa.lindqvist@ne-lhuni-se.example • www.lhuni.se",
+     "box": {
+      "x": 0.06947260368098745,
+      "y": 0.5086310678533963,
+      "w": 0.26222274780273436,
+      "h": 0.03473026688034475
+     },
+     "height": 0.03473026688034475,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f7",
+     "text": "ORCID 0000-0002-3318-7042",
+     "box": {
+      "x": 0.07082289582066682,
+      "y": 0.55790063114694,
+      "w": 0.1940544891357422,
+      "h": 0.03153955614244608
+     },
+     "height": 0.03153955614244608,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Åsa",
+   "middle": "",
+   "family": "Lindqvist",
+   "suffix": "",
+   "full": "Åsa Lindqvist"
+  },
+  "otherName": null,
+  "company": "Lindhamns universitet",
+  "department": "Nationalekonomiska institutionen",
+  "title": "Professor",
+  "phones": [
+   {
+    "printed": "08-16 34 72",
+    "e164": "+468163472",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "070-612 48 33",
+    "e164": "+46706124833",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "asa.lindqvist@ne-lhuni-se.example"
+  ],
+  "urls": [
+   "www.lhuni.se"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Universitetsvägen 10 A",
+    "extra": "",
+    "pobox": "",
+    "postcode": "106 91",
+    "city": "Stockholm",
+    "region": "",
+    "country": "",
+    "countryCode": "SE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "academic",
+  "orcid",
+  "scandinavian-name",
+  "diacritic-lost",
+  "foreign-region",
+  "postcode-with-space",
+  "department-lines",
+  "short-subscriber-number"
+ ],
+ "notes": "Å lost in OCR. Stockholm number 08-16 34 72 has a 6-digit subscriber part (+46 8 163472). Swedish postcode \"106 91\" has a space. Department line without the word \"Department\".",
+ "o3": {
+  "source": "blind-3/cards/se-a22.json",
+  "images": [
+   {
+    "name": "b3-se-a22",
+    "font": "ArialMT",
+    "rotation": 1.8,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "sv-SE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 107
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

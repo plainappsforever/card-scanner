@@ -1,0 +1,199 @@
+appId: ${APP_ID}
+name: Release core - fresh install, no prompt, paste a card, check it, system form without permission, search, export, my card
+tags:
+  - release
+---
+# Preview/production Release builds (P9). The dev seed route does not exist there (D49), so the start state is a cleared
+# app (fresh install) and the card comes from the Paste screen (text in, extractor, no OCR).
+- launchApp:
+    clearState: true
+    stopApp: true
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 90000
+# A3: nothing asks anything at the first start, no onboarding
+- assertVisible:
+    id: empty-state
+- assertVisible:
+    id: scan-button
+- assertNotVisible:
+    text: ".*(Allow|Don.t Allow|access your|Sign in|Subscribe|Rate).*"
+# U7: paste → Review (one line at a time: Maestro's inputText drops "\n" on Android)
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-paste
+- tapOn:
+    id: paste-input
+- inputText: "Anna Weber"
+- pressKey: Enter
+- inputText: "Head of Sales"
+- pressKey: Enter
+- inputText: "ACME Robotics GmbH"
+- pressKey: Enter
+- inputText: "anna.weber@acme-robotics-de.example"
+- pressKey: Enter
+- inputText: "+49 30 1234567"
+- pressKey: Enter
+- inputText: "Hall B stand Nordkai"
+- tapOn:
+    id: paste-read
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 30000
+- scrollUntilVisible:
+    element: "anna.weber@acme-robotics-de.example"
+# L26: leftover text is shown, nothing is saved before "Looks right"
+- scrollUntilVisible:
+    element: ".*Nordkai.*"
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed
+- takeScreenshot: release-review-confirmed
+# U1: the system new-contact form, no Contacts permission prompt before it
+- tapOn:
+    id: add-to-contacts-button
+- waitForAnimationToEnd
+- takeScreenshot: release-system-form
+- assertNotVisible:
+    text: ".*would like to access your Contacts.*"
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - extendedWaitUntil:
+          visible: "nothing-here-wait-for-the-remote-form"
+          timeout: 4000
+          optional: true
+      - tapOn:
+          text: Continue
+          optional: true
+      - tapOn:
+          point: 38,100
+      - tapOn:
+          text: "Discard Changes"
+          optional: true
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - back
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 15000
+# centred: at the end of the Android scroll view the button sits under the gesture bar (P9)
+- scrollUntilVisible:
+    element:
+      id: done-button
+    centerElement: true
+- tapOn:
+    id: done-button
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+- assertVisible: "Anna Weber"
+# Search by a word from the leftovers (A15 behaviour; the timing is measured separately)
+- tapOn:
+    id: search-input
+- inputText: "Nordkai"
+- extendedWaitUntil:
+    visible: "Anna Weber"
+    timeout: 10000
+- eraseText: 10
+- inputText: "Zzzqx"
+- assertNotVisible: "Anna Weber"
+- eraseText: 10
+- assertVisible: "Anna Weber"
+# U5: export sheet counts the checked card; the share sheet opens
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: export-button
+- assertVisible:
+    id: export-sheet
+- assertVisible: "1 card"
+- tapOn:
+    id: export-share
+- waitForAnimationToEnd
+- takeScreenshot: release-share-sheet
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - assertVisible: ".*(Save to Files|Copy|AirDrop|Mail|Messages).*"
+      - tapOn:
+          text: "Close"
+          optional: true
+      # only when the share sheet is still up (a swipe after a successful Close would dismiss the Export modal too)
+      - runFlow:
+          when:
+            visible: ".*(Save to Files|Copy|AirDrop|Mail|Messages).*"
+          commands:
+            - swipe:
+                direction: DOWN
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - assertVisible: ".*(Share|Cards.vcf|Cards.csv).*"
+      - back
+- assertVisible:
+    id: export-sheet
+# Export is a modal: its own Done button, no header back button
+- tapOn:
+    id: export-close
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+# U8: my card QR
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: my-card-button
+- tapOn:
+    id: my-card-given
+- inputText: "Tilda"
+- tapOn:
+    id: my-card-family
+- inputText: "Tester"
+- tapOn:
+    id: my-card-email
+- inputText: "tilda@example.org"
+# iOS: hideKeyboard is not supported for this input; a tap on static text closes the keyboard
+- tapOn: "Fill in your details.*"
+- scrollUntilVisible:
+    element:
+      id: my-card-save
+- tapOn:
+    id: my-card-save
+- assertVisible:
+    id: my-card-qr
+- takeScreenshot: release-my-card
+- runFlow: ../subflows/back.yaml
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+# Settings: the Contacts state row exists, About says what the app does not do
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- assertVisible:
+    id: settings-screen
+- scrollUntilVisible:
+    element:
+      id: contacts-access
+- scrollUntilVisible:
+    element:
+      id: about
+- takeScreenshot: release-settings

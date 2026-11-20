@@ -1,0 +1,195 @@
+{
+ "id": "es-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ca",
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "region": "ES",
+  "uiLang": "es",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "es-ES",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Jordi Puigdomènech i Vilaró",
+     "box": {
+      "x": 0.07972903121104459,
+      "y": 0.14171834763838254,
+      "w": 0.4756732559204102,
+      "h": 0.0593553896576281
+     },
+     "height": 0.0593553896576281,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Arquitecte",
+     "box": {
+      "x": 0.0810602893109041,
+      "y": 0.23094923647281274,
+      "w": 0.11100058555603028,
+      "h": 0.03739852242488195
+     },
+     "height": 0.03739852242488195,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "C/ de Provença, 286, 3r 2a",
+     "box": {
+      "x": 0.07967353635536628,
+      "y": 0.4818035475474909,
+      "w": 0.25194463729858396,
+      "h": 0.04407317481906248
+     },
+     "height": 0.04407317481906248,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "08008 Barcelona",
+     "box": {
+      "x": 0.07816087698585797,
+      "y": 0.5330507970380711,
+      "w": 0.17511409759521482,
+      "h": 0.03640512517980632
+     },
+     "height": 0.03640512517980632,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "M. 654 32 10 98",
+     "box": {
+      "x": 0.07968689043841856,
+      "y": 0.5894314093526917,
+      "w": 0.16180755615234374,
+      "h": 0.03896577385861899
+     },
+     "height": 0.03896577385861899,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "jordi@puigdomenech-arq-cat.example",
+     "box": {
+      "x": 0.07541687284338394,
+      "y": 0.6469516634161818,
+      "w": 0.29101421356201174,
+      "h": 0.03986329553670398
+     },
+     "height": 0.03986329553670398,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "puigdomenech-arq.cat",
+     "box": {
+      "x": 0.07848836932397482,
+      "y": 0.7062780267043322,
+      "w": 0.21366279602050783,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jordi",
+   "middle": "",
+   "family": "Puigdomènech i Vilaró",
+   "suffix": "",
+   "full": "Jordi Puigdomènech i Vilaró"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Arquitecte",
+  "phones": [
+   {
+    "printed": "654 32 10 98",
+    "e164": "+34654321098",
+    "type": "mobile",
+    "label": "M.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jordi@puigdomenech-arq-cat.example"
+  ],
+  "urls": [
+   "puigdomenech-arq.cat"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "C/ de Provença, 286",
+    "extra": "3r 2a",
+    "pobox": "",
+    "postcode": "08008",
+    "city": "Barcelona",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "ocr-5S",
+  "catalan-i-surname",
+  "C/-street-abbrev",
+  "floor-door",
+  "cat-tld",
+  "absent-company",
+  "leading-zero-postcode"
+ ],
+ "notes": "Catalan double surname joined by \"i\". \"C/\" = carrer (street). \"3r 2a\" = 3rd floor, door 2. No company.",
+ "o3": {
+  "source": "blind-1/cards/es-02.json",
+  "images": [
+   {
+    "name": "b1-es-02",
+    "font": "ArialMT",
+    "rotation": -0.49,
+    "noise": 13,
+    "blur": 0.6,
+    "langs": [
+     "es-ES",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 116
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

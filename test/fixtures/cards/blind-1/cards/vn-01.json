@@ -1,0 +1,554 @@
+{
+ "id": "vn-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CÔNG TY TNHH SAO MAI LOGISTICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.4222,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "CÔNG",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "TY",
+       "box": {
+        "x": 0.1393,
+        "y": 0.07,
+        "w": 0.0303,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "TNHH",
+       "box": {
+        "x": 0.1783,
+        "y": 0.07,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "SAO",
+       "box": {
+        "x": 0.2476,
+        "y": 0.07,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "MAI",
+       "box": {
+        "x": 0.3018,
+        "y": 0.07,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "LOGISTICS",
+       "box": {
+        "x": 0.3559,
+        "y": 0.07,
+        "w": 0.1363,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Nguyễn Thị Thu Hà",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.3176,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Nguyễn",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Thị",
+       "box": {
+        "x": 0.2028,
+        "y": 0.24,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Thu",
+       "box": {
+        "x": 0.275,
+        "y": 0.24,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Hà",
+       "box": {
+        "x": 0.3472,
+        "y": 0.24,
+        "w": 0.0404,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Giám đốc Kinh doanh",
+     "box": {
+      "x": 0.07,
+      "y": 0.327,
+      "w": 0.2506,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Giám",
+       "box": {
+        "x": 0.07,
+        "y": 0.327,
+        "w": 0.0565,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "đốc",
+       "box": {
+        "x": 0.1347,
+        "y": 0.327,
+        "w": 0.0424,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Kinh",
+       "box": {
+        "x": 0.1852,
+        "y": 0.327,
+        "w": 0.0565,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "doanh",
+       "box": {
+        "x": 0.2499,
+        "y": 0.327,
+        "w": 0.0707,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Số 25 Đường Lê Duẩn, Phường Bến Nghé, Quận 1,",
+     "box": {
+      "x": 0.07,
+      "y": 0.49,
+      "w": 0.4712,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Số",
+       "box": {
+        "x": 0.07,
+        "y": 0.49,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "25",
+       "box": {
+        "x": 0.0995,
+        "y": 0.49,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Đường",
+       "box": {
+        "x": 0.129,
+        "y": 0.49,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Lê",
+       "box": {
+        "x": 0.1928,
+        "y": 0.49,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Duẩn,",
+       "box": {
+        "x": 0.2222,
+        "y": 0.49,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Phường",
+       "box": {
+        "x": 0.286,
+        "y": 0.49,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Bến",
+       "box": {
+        "x": 0.3613,
+        "y": 0.49,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Nghé,",
+       "box": {
+        "x": 0.4022,
+        "y": 0.49,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Quận",
+       "box": {
+        "x": 0.466,
+        "y": 0.49,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "1,",
+       "box": {
+        "x": 0.5184,
+        "y": 0.49,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "TP. Hồ Chí Minh",
+     "box": {
+      "x": 0.07,
+      "y": 0.5393,
+      "w": 0.1571,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "TP.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5393,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Hồ",
+       "box": {
+        "x": 0.1109,
+        "y": 0.5393,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Chí",
+       "box": {
+        "x": 0.1404,
+        "y": 0.5393,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Minh",
+       "box": {
+        "x": 0.1813,
+        "y": 0.5393,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "ĐT: (028) 3823 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.5886,
+      "w": 0.2028,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "ĐT:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5886,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "(028)",
+       "box": {
+        "x": 0.1109,
+        "y": 0.5886,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "3823",
+       "box": {
+        "x": 0.1747,
+        "y": 0.5886,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2271,
+        "y": 0.5886,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Di động: 0903 456 789",
+     "box": {
+      "x": 0.07,
+      "y": 0.6379,
+      "w": 0.2209,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Di",
+       "box": {
+        "x": 0.07,
+        "y": 0.6379,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "động:",
+       "box": {
+        "x": 0.0995,
+        "y": 0.6379,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "0903",
+       "box": {
+        "x": 0.1633,
+        "y": 0.6379,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.2156,
+        "y": 0.6379,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "789",
+       "box": {
+        "x": 0.2566,
+        "y": 0.6379,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "thuha.nguyen@saomai-logistics-vn.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6872,
+      "w": 0.3661,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "thuha.nguyen@saomai-logistics-vn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6872,
+        "w": 0.3661,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Hà",
+   "middle": "Thị Thu",
+   "family": "Nguyễn",
+   "suffix": "",
+   "full": "Nguyễn Thị Thu Hà"
+  },
+  "otherName": null,
+  "company": "CÔNG TY TNHH SAO MAI LOGISTICS",
+  "department": null,
+  "title": "Giám đốc Kinh doanh",
+  "phones": [
+   {
+    "printed": "(028) 3823 4567",
+    "e164": "+842838234567",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0903 456 789",
+    "e164": "+84903456789",
+    "type": "mobile",
+    "label": "Di động:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "thuha.nguyen@saomai-logistics-vn.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Số 25 Đường Lê Duẩn",
+    "extra": "Phường Bến Nghé, Quận 1",
+    "pobox": "",
+    "postcode": "",
+    "city": "TP. Hồ Chí Minh",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Hồ Chí Minh"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "family-first",
+  "tnhh",
+  "no-postcode",
+  "heavy-diacritics",
+  "duong-street",
+  "region-mismatch"
+ ],
+ "notes": "Vietnamese order: family Nguyễn first, given name Hà last (N4 \"Given … Family\" would invert it). No postcode printed."
+}

@@ -1,0 +1,276 @@
+{
+ "id": "hk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "zh"
+ ],
+ "card_country": "HK",
+ "layout": "landscape",
+ "input": {
+  "region": "CN",
+  "uiLang": "zh-CN",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "zh-Hant",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HARBOURFRONT CAPITAL",
+     "box": {
+      "x": 0.0743302677403041,
+      "y": 0.023721096780377482,
+      "w": 0.5847111129760743,
+      "h": 0.0778153982862082
+     },
+     "height": 0.0778153982862082,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "海濱資本有限公司",
+     "box": {
+      "x": 0.07375908218724789,
+      "y": 0.11603510952056151,
+      "w": 0.21586412429809568,
+      "h": 0.04956042904651303
+     },
+     "height": 0.04956042904651303,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Peter CHAN Tai-man",
+     "box": {
+      "x": 0.07225086905329924,
+      "y": 0.19278663873990698,
+      "w": 0.3119289779663086,
+      "h": 0.053183748915388795
+     },
+     "height": 0.053183748915388795,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "陳大文",
+     "box": {
+      "x": 0.0739100343914118,
+      "y": 0.2699665591244118,
+      "w": 0.10074086189270018,
+      "h": 0.053214176281078496
+     },
+     "height": 0.053214176281078496,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Senior Vice President",
+     "box": {
+      "x": 0.06944471580767506,
+      "y": 0.3604126952425617,
+      "w": 0.23614484786987303,
+      "h": 0.041183928265074554
+     },
+     "height": 0.041183928265074554,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Harbourfront Capital Limited",
+     "box": {
+      "x": 0.07077503266069943,
+      "y": 0.42873015274151993,
+      "w": 0.34675708770751945,
+      "h": 0.05332717748222193
+     },
+     "height": 0.05332717748222193,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Suite 2301,23/F,Two Pacific Place",
+     "box": {
+      "x": 0.06939643759185903,
+      "y": 0.5020006004563493,
+      "w": 0.38585029602050774,
+      "h": 0.05511146162467573
+     },
+     "height": 0.05511146162467573,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "88 Queensway,Admiralty, Hong Kong",
+     "box": {
+      "x": 0.06788617923152235,
+      "y": 0.5755310342520543,
+      "w": 0.42669548034667965,
+      "h": 0.05821702839324838
+     },
+     "height": 0.05821702839324838,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "T （852） 2123 4567",
+     "box": {
+      "x": 0.06653539720039849,
+      "y": 0.645439829386878,
+      "w": 0.22005514144897464,
+      "h": 0.050035539280953945
+     },
+     "height": 0.050035539280953945,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "D （852） 2123 4580",
+     "box": {
+      "x": 0.06770284812876383,
+      "y": 0.7171924876742968,
+      "w": 0.21467281341552735,
+      "h": 0.053062243811412224
+     },
+     "height": 0.053062243811412224,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f10",
+     "text": "M （852） 9123 4567",
+     "box": {
+      "x": 0.06779859422192576,
+      "y": 0.7892158159892432,
+      "w": 0.21316200256347656,
+      "h": 0.049881421461068554
+     },
+     "height": 0.049881421461068554,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f11",
+     "text": "peter.chan@harbourfront-cap-com-hk.example",
+     "box": {
+      "x": 0.06362006853522381,
+      "y": 0.861626879110808,
+      "w": 0.43815204620361325,
+      "h": 0.05830463203223979
+     },
+     "height": 0.05830463203223979,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "大文",
+   "middle": "",
+   "family": "陳",
+   "suffix": "",
+   "full": "陳大文"
+  },
+  "otherName": "Peter CHAN Tai-man",
+  "company": "海濱資本有限公司",
+  "department": null,
+  "title": "Senior Vice President",
+  "phones": [
+   {
+    "printed": "(852) 2123 4567",
+    "e164": "+85221234567",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "(852) 2123 4580",
+    "e164": "+85221234580",
+    "type": "work",
+    "label": "D",
+    "ext": null
+   },
+   {
+    "printed": "(852) 9123 4567",
+    "e164": "+85291234567",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "peter.chan@harbourfront-cap-com-hk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "88 Queensway",
+    "extra": "Suite 2301, 23/F, Two Pacific Place",
+    "pobox": "",
+    "postcode": "",
+    "city": "Hong Kong",
+    "region": "",
+    "country": "",
+    "countryCode": "HK"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Harbourfront Capital Limited",
+   "HARBOURFRONT CAPITAL"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "second-script",
+  "all-caps-family",
+  "no-postcode",
+  "cc-in-brackets",
+  "region-mismatch-ui-script",
+  "ocr-rnm"
+ ],
+ "notes": "UI zh-CN and Han script on the card → N7 primary = 陳大文, otherName = \"Peter CHAN Tai-man\" (OCR \"rn\" for \"m\"). \"(852)\" is the HK country code — not a Chinese area code. Hong Kong has no postcode.",
+ "o3": {
+  "source": "blind-2/cards/hk-01.json",
+  "images": [
+   {
+    "name": "b2-hk-01",
+    "font": "GillSans",
+    "rotation": -1.03,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "zh-Hant",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 209
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

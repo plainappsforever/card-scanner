@@ -1,0 +1,225 @@
+{
+ "id": "uk-x49",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KEEN SPARK",
+     "box": {
+      "x": 0.07412789845723662,
+      "y": 0.05381165968209689,
+      "w": 0.33284885406494147,
+      "h": 0.04947019451833601
+     },
+     "height": 0.04947019451833601,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ELECTRICAL",
+     "box": {
+      "x": 0.07122093153528022,
+      "y": 0.1278026910372514,
+      "w": 0.14534883499145507,
+      "h": 0.03363228580666322
+     },
+     "height": 0.03363228580666322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Ltd",
+     "box": {
+      "x": 0.06976744244860272,
+      "y": 0.18385650256836938,
+      "w": 0.02470930099487305,
+      "h": 0.02242152387110874
+     },
+     "height": 0.02242152387110874,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Callum McAllister",
+     "box": {
+      "x": 0.07122092746212981,
+      "y": 0.26905829547445603,
+      "w": 0.2136627960205078,
+      "h": 0.03596100936064839
+     },
+     "height": 0.03596100936064839,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Approved Electrician",
+     "box": {
+      "x": 0.06831395313910932,
+      "y": 0.34266409257828156,
+      "w": 0.15843023300170897,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "T: 0131 552 7781 | M: 07912 445 830",
+     "box": {
+      "x": 0.06831395535407019,
+      "y": 0.4237451733916563,
+      "w": 0.26162790298461913,
+      "h": 0.029169624836748675
+     },
+     "height": 0.029169624836748675,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "callum@keensparkelectrical-co-uk.example",
+     "box": {
+      "x": 0.06831395104223915,
+      "y": 0.4686098649753204,
+      "w": 0.22965116500854493,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Unit 4, Pilrig Industrial Estate, Edinburgh EH6 SRS",
+     "box": {
+      "x": 0.06666666646114862,
+      "y": 0.5125482629943442,
+      "w": 0.3125,
+      "h": 0.03873378797847793
+     },
+     "height": 0.03873378797847793,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "NICEIC Approved Contractor • Company No. SCS 12345",
+     "box": {
+      "x": 0.06831395217406425,
+      "y": 0.5646718146647015,
+      "w": 0.2921511650085449,
+      "h": 0.02725643632955077
+     },
+     "height": 0.02725643632955077,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Callum",
+   "middle": "",
+   "family": "McAllister",
+   "suffix": "",
+   "full": "Callum McAllister"
+  },
+  "otherName": null,
+  "company": "KEEN SPARK ELECTRICAL Ltd",
+  "department": null,
+  "title": "Approved Electrician",
+  "phones": [
+   {
+    "printed": "0131 552 7781",
+    "e164": "+441315527781",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "07912 445 830",
+    "e164": "+447912445830",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "callum@keensparkelectrical-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Pilrig Industrial Estate",
+    "extra": "Unit 4",
+    "pobox": "",
+    "postcode": "EH6 5RS",
+    "city": "Edinburgh",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "legal-form-only-line",
+  "ocr-pipe-for-l",
+  "member-of",
+  "registry-number",
+  "unit-extra",
+  "pipe-separator",
+  "foreign-region",
+  "company-split-lines"
+ ],
+ "notes": "Company spans three lines, the last is only \"Ltd\". OCR read \"ll\" in McAllister as \"||\" (and \"|\" is also a segment separator in the phone line). Scottish company number SC512345 is not a phone.",
+ "o3": {
+  "source": "blind-3/cards/uk-x49.json",
+  "images": [
+   {
+    "name": "b3-uk-x49",
+    "font": "GillSans",
+    "rotation": -0.21,
+    "noise": 2,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 110
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

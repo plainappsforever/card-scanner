@@ -1,0 +1,376 @@
+{
+ "id": "jp-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "渡辺機工株式会社",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2588,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "渡辺機工株式会社",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2588,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "WATANABE KIKO CO., LTD.",
+     "box": {
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.2294,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "WATANABE",
+       "box": {
+        "x": 0.07,
+        "y": 0.14,
+        "w": 0.0808,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "KIKO",
+       "box": {
+        "x": 0.1566,
+        "y": 0.14,
+        "w": 0.0505,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "CO.,",
+       "box": {
+        "x": 0.2129,
+        "y": 0.14,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "LTD.",
+       "box": {
+        "x": 0.2591,
+        "y": 0.14,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "製造部 課長",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.12,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "製造部",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.0679,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "課長",
+       "box": {
+        "x": 0.1447,
+        "y": 0.27,
+        "w": 0.0453,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "わたなべ けんじ",
+     "box": {
+      "x": 0.07,
+      "y": 0.36,
+      "w": 0.1228,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "わたなべ",
+       "box": {
+        "x": 0.07,
+        "y": 0.36,
+        "w": 0.0673,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "けんじ",
+       "box": {
+        "x": 0.1423,
+        "y": 0.36,
+        "w": 0.0505,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "渡辺　健二",
+     "box": {
+      "x": 0.07,
+      "y": 0.41,
+      "w": 0.275,
+      "h": 0.085
+     },
+     "height": 0.085,
+     "words": [
+      {
+       "text": "渡辺　健二",
+       "box": {
+        "x": 0.07,
+        "y": 0.41,
+        "w": 0.275,
+        "h": 0.085
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Kenji Watanabe",
+     "box": {
+      "x": 0.07,
+      "y": 0.55,
+      "w": 0.1827,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Kenji",
+       "box": {
+        "x": 0.07,
+        "y": 0.55,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Watanabe",
+       "box": {
+        "x": 0.1451,
+        "y": 0.55,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "〒460-0008 名古屋市中区栄3-4-5",
+     "box": {
+      "x": 0.07,
+      "y": 0.69,
+      "w": 0.3118,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "〒460-0008",
+       "box": {
+        "x": 0.07,
+        "y": 0.69,
+        "w": 0.1068,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "名古屋市中区栄3-4-5",
+       "box": {
+        "x": 0.1831,
+        "y": 0.69,
+        "w": 0.1988,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "TEL 052-123-4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.7364,
+      "w": 0.1677,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "TEL",
+       "box": {
+        "x": 0.07,
+        "y": 0.7364,
+        "w": 0.0323,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "052-123-4567",
+       "box": {
+        "x": 0.1085,
+        "y": 0.7364,
+        "w": 0.1292,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "k-watanabe@watanabe-kiko-co-jp.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7828,
+      "w": 0.3338,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "k-watanabe@watanabe-kiko-co-jp.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7828,
+        "w": 0.3338,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kenji",
+   "middle": "",
+   "family": "Watanabe",
+   "suffix": "",
+   "full": "Kenji Watanabe"
+  },
+  "otherName": "渡辺　健二",
+  "company": "渡辺機工株式会社",
+  "department": "製造部",
+  "title": "課長",
+  "phones": [
+   {
+    "printed": "052-123-4567",
+    "e164": "+81521234567",
+    "type": "work",
+    "label": "TEL",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k-watanabe@watanabe-kiko-co-jp.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "栄3-4-5",
+    "extra": "",
+    "pobox": "",
+    "postcode": "460-0008",
+    "city": "名古屋市中区",
+    "region": "",
+    "country": "",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "WATANABE KIKO CO., LTD."
+  ],
+  "addresses[0].city": [
+   "名古屋市"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "furigana-line",
+  "ideographic-space",
+  "three-name-lines",
+  "company-in-two-scripts",
+  "other-name-n7",
+  "name-is-company",
+  "absent-url"
+ ],
+ "notes": "Three name lines: furigana reading (hiragana, not a name field), kanji name with an ideographic space U+3000, romaji. UI German -> Latin primary, kanji = otherName. Hyphenated e-mail local part k-watanabe."
+}

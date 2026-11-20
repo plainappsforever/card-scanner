@@ -1,0 +1,478 @@
+{
+ "id": "se-a22",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "sv"
+ ],
+ "card_country": "SE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "sv-SE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lindhamns universitet",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3916,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Stockholms",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.178,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "universitet",
+       "box": {
+        "x": 0.2658,
+        "y": 0.06,
+        "w": 0.1958,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Nationalekonomiska institutionen",
+     "box": {
+      "x": 0.07,
+      "y": 0.13,
+      "w": 0.3987,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Nationalekonomiska",
+       "box": {
+        "x": 0.07,
+        "y": 0.13,
+        "w": 0.2243,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "institutionen",
+       "box": {
+        "x": 0.3067,
+        "y": 0.13,
+        "w": 0.162,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Asa Lindqvist",
+     "box": {
+      "x": 0.07,
+      "y": 0.235,
+      "w": 0.2777,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Asa",
+       "box": {
+        "x": 0.07,
+        "y": 0.235,
+        "w": 0.0641,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Lindqvist",
+       "box": {
+        "x": 0.1554,
+        "y": 0.235,
+        "w": 0.1923,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Professor",
+     "box": {
+      "x": 0.07,
+      "y": 0.315,
+      "w": 0.1121,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Professor",
+       "box": {
+        "x": 0.07,
+        "y": 0.315,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Universitetsvägen 10 A · 106 91 Stockholm",
+     "box": {
+      "x": 0.07,
+      "y": 0.4,
+      "w": 0.4379,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Universitetsvägen",
+       "box": {
+        "x": 0.07,
+        "y": 0.4,
+        "w": 0.1816,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "10",
+       "box": {
+        "x": 0.2622,
+        "y": 0.4,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "A",
+       "box": {
+        "x": 0.2943,
+        "y": 0.4,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3157,
+        "y": 0.4,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "106",
+       "box": {
+        "x": 0.337,
+        "y": 0.4,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "91",
+       "box": {
+        "x": 0.3797,
+        "y": 0.4,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Stockholm",
+       "box": {
+        "x": 0.4118,
+        "y": 0.4,
+        "w": 0.0961,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 08-16 34 72 · Mobil 070-612 48 33",
+     "box": {
+      "x": 0.07,
+      "y": 0.45,
+      "w": 0.4058,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.45,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "08-16",
+       "box": {
+        "x": 0.1234,
+        "y": 0.45,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.1875,
+        "y": 0.45,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "72",
+       "box": {
+        "x": 0.2195,
+        "y": 0.45,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2515,
+        "y": 0.45,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.2729,
+        "y": 0.45,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "070-612",
+       "box": {
+        "x": 0.337,
+        "y": 0.45,
+        "w": 0.0748,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "48",
+       "box": {
+        "x": 0.4224,
+        "y": 0.45,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.4544,
+        "y": 0.45,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "asa.lindqvist@ne-lhuni-se.example · www.lhuni.se",
+     "box": {
+      "x": 0.07,
+      "y": 0.5,
+      "w": 0.3389,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "asa.lindqvist@ne-lhuni-se.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5,
+        "w": 0.2193,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2993,
+        "y": 0.5,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "www.lhuni.se",
+       "box": {
+        "x": 0.3192,
+        "y": 0.5,
+        "w": 0.0897,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "ORCID 0000-0002-3318-7042",
+     "box": {
+      "x": 0.07,
+      "y": 0.548,
+      "w": 0.2314,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "ORCID",
+       "box": {
+        "x": 0.07,
+        "y": 0.548,
+        "w": 0.0463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "0000-0002-3318-7042",
+       "box": {
+        "x": 0.1255,
+        "y": 0.548,
+        "w": 0.1759,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Åsa",
+   "middle": "",
+   "family": "Lindqvist",
+   "suffix": "",
+   "full": "Åsa Lindqvist"
+  },
+  "otherName": null,
+  "company": "Lindhamns universitet",
+  "department": "Nationalekonomiska institutionen",
+  "title": "Professor",
+  "phones": [
+   {
+    "printed": "08-16 34 72",
+    "e164": "+468163472",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "070-612 48 33",
+    "e164": "+46706124833",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "asa.lindqvist@ne-lhuni-se.example"
+  ],
+  "urls": [
+   "www.lhuni.se"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Universitetsvägen 10 A",
+    "extra": "",
+    "pobox": "",
+    "postcode": "106 91",
+    "city": "Stockholm",
+    "region": "",
+    "country": "",
+    "countryCode": "SE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Åsa Lindqvist",
+   "ocr": "Asa Lindqvist",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Åsa",
+   "ocr": "Asa",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "academic",
+  "orcid",
+  "scandinavian-name",
+  "diacritic-lost",
+  "foreign-region",
+  "postcode-with-space",
+  "department-lines",
+  "short-subscriber-number"
+ ],
+ "notes": "Å lost in OCR. Stockholm number 08-16 34 72 has a 6-digit subscriber part (+46 8 163472). Swedish postcode \"106 91\" has a space. Department line without the word \"Department\"."
+}

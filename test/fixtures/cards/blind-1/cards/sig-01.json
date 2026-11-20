@@ -1,0 +1,87 @@
+{
+ "id": "sig-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "text",
+ "input": {
+  "text": "Mit freundlichen Grüßen\n\nSabine Nußbaumer-Ćosić\nTeamleiterin Buchhaltung\n\nGratblick Hotelbetriebs GmbH\nSeestraße 21 | 82211 Herrsching am Ammersee\nT +49 8152 99 88-140 | F +49 8152 99 88-199\nsabine.nussbaumer@gratblick-hotels-de.example | www.gratblick-hotels.de\n\nGeschäftsführer: Hans-Peter Alpinger, Dr. Florian Weiß\nAmtsgericht München HRB 123456 | USt-IdNr. DE 812 345 678\n\nDiese E-Mail enthält vertrauliche Informationen. Wenn Sie nicht der richtige Adressat sind, informieren Sie bitte sofort den Absender.",
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sabine",
+   "middle": "",
+   "family": "Nußbaumer-Ćosić",
+   "suffix": "",
+   "full": "Sabine Nußbaumer-Ćosić"
+  },
+  "otherName": null,
+  "company": "Gratblick Hotelbetriebs GmbH",
+  "department": null,
+  "title": "Teamleiterin Buchhaltung",
+  "phones": [
+   {
+    "printed": "+49 8152 99 88-140",
+    "e164": "+4981529988140",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+49 8152 99 88-199",
+    "e164": "+4981529988199",
+    "type": "fax",
+    "label": "F",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "sabine.nussbaumer@gratblick-hotels-de.example"
+  ],
+  "urls": [
+   "www.gratblick-hotels.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Seestraße 21",
+    "extra": "",
+    "pobox": "",
+    "postcode": "82211",
+    "city": "Herrsching am Ammersee",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Teamleiterin"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "paste-no-boxes",
+  "greeting-line",
+  "managing-directors-names",
+  "hrb",
+  "vat-id",
+  "disclaimer",
+  "multiword-city",
+  "pipe-segments"
+ ],
+ "notes": "Pasted e-mail signature (no boxes). The legal footer names two managing directors with the title \"Geschäftsführer\" — they are not the sender. HRB and USt-IdNr. are not phones."
+}

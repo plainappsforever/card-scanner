@@ -1,0 +1,189 @@
+{
+ "id": "vn-h18-back",
+ "group": "vn-h18",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AZALEA HOTEL DA NANG",
+     "box": {
+      "x": 0.0666666664562075,
+      "y": 0.04440154357286241,
+      "w": 0.41250000000000003,
+      "h": 0.05212355212355213
+     },
+     "height": 0.05212355212355213,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ms. Nguyen Thi Minh Anh",
+     "box": {
+      "x": 0.06964969294117854,
+      "y": 0.16167389290366962,
+      "w": 0.44940692901611323,
+      "h": 0.06183957133053819
+     },
+     "height": 0.06183957133053819,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Director of Sales",
+     "box": {
+      "x": 0.06976744355391115,
+      "y": 0.24215246617006736,
+      "w": 0.17005813598632813,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "T: +84 236 3 889 456 • M: +84 905 123 487",
+     "box": {
+      "x": 0.06831396272906932,
+      "y": 0.33397683385390775,
+      "w": 0.34593021392822265,
+      "h": 0.03378378378378377
+     },
+     "height": 0.03378378378378377,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "sales@azaleahoteldanang-vn.example • azaleahoteldanang.vn",
+     "box": {
+      "x": 0.06831395783830384,
+      "y": 0.3856502240261779,
+      "w": 0.3938953399658203,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "68 Bach Dang St., Hai Chau Ward, Da Nang City, Vietnam",
+     "box": {
+      "x": 0.0682480618368055,
+      "y": 0.43244167884594775,
+      "w": 0.4361914825439453,
+      "h": 0.03747077706237545
+     },
+     "height": 0.03747077706237545,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ms.",
+   "given": "Anh",
+   "middle": "Thi Minh",
+   "family": "Nguyen",
+   "suffix": "",
+   "full": "Ms. Nguyen Thi Minh Anh"
+  },
+  "otherName": null,
+  "company": "AZALEA HOTEL DA NANG",
+  "department": null,
+  "title": "Director of Sales",
+  "phones": [
+   {
+    "printed": "+84 236 3 889 456",
+    "e164": "+842363889456",
+    "type": "work",
+    "label": "T:",
+    "ext": null
+   },
+   {
+    "printed": "+84 905 123 487",
+    "e164": "+84905123487",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "sales@azaleahoteldanang-vn.example"
+  ],
+  "urls": [
+   "azaleahoteldanang.vn"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "68 Bach Dang St.",
+    "extra": "Hai Chau Ward",
+    "pobox": "",
+    "postcode": "",
+    "city": "Da Nang",
+    "region": "",
+    "country": "Vietnam",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Da Nang City"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "vietnamese-order",
+  "second-language-back",
+  "foreign-region",
+  "no-postcode",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "English side keeps the Vietnamese order without diacritics, with \"Ms.\". Family = Nguyen, given = Anh.",
+ "o3": {
+  "source": "blind-3/cards/vn-h18-back.json",
+  "images": [
+   {
+    "name": "b3-vn-h18-back",
+    "font": "HoeflerText-Regular",
+    "rotation": 0.01,
+    "noise": 6,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 108
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,454 @@
+{
+ "id": "mx-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "novawake",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2423,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "novawake",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.2423,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Building robots that care.",
+     "box": {
+      "x": 0.07,
+      "y": 0.2,
+      "w": 0.2912,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Building",
+       "box": {
+        "x": 0.07,
+        "y": 0.2,
+        "w": 0.0942,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "robots",
+       "box": {
+        "x": 0.171,
+        "y": 0.2,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "that",
+       "box": {
+        "x": 0.2485,
+        "y": 0.2,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "care.",
+       "box": {
+        "x": 0.3024,
+        "y": 0.2,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Aylin Demirtaş",
+     "box": {
+      "x": 0.07,
+      "y": 0.37,
+      "w": 0.2969,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Aylin",
+       "box": {
+        "x": 0.07,
+        "y": 0.37,
+        "w": 0.1094,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Demirtaş",
+       "box": {
+        "x": 0.192,
+        "y": 0.37,
+        "w": 0.175,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Co-Founder & CTO",
+     "box": {
+      "x": 0.07,
+      "y": 0.4642,
+      "w": 0.2294,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Co-Founder",
+       "box": {
+        "x": 0.07,
+        "y": 0.4642,
+        "w": 0.1514,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2301,
+        "y": 0.4642,
+        "w": 0.0151,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "CTO",
+       "box": {
+        "x": 0.254,
+        "y": 0.4642,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Novawake Robotics GmbH · Torstraße 140 · 10119 Berlin",
+     "box": {
+      "x": 0.07,
+      "y": 0.63,
+      "w": 0.601,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Novawake",
+       "box": {
+        "x": 0.07,
+        "y": 0.63,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Robotics",
+       "box": {
+        "x": 0.1739,
+        "y": 0.63,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.2778,
+        "y": 0.63,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3332,
+        "y": 0.63,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Torstraße",
+       "box": {
+        "x": 0.3523,
+        "y": 0.63,
+        "w": 0.109,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "140",
+       "box": {
+        "x": 0.4683,
+        "y": 0.63,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5117,
+        "y": 0.63,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "10119",
+       "box": {
+        "x": 0.5308,
+        "y": 0.63,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Berlin",
+       "box": {
+        "x": 0.5983,
+        "y": 0.63,
+        "w": 0.0727,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "M +49 151 1234 5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.6822,
+      "w": 0.2096,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.6822,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.0891,
+        "y": 0.6822,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "151",
+       "box": {
+        "x": 0.1324,
+        "y": 0.6822,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "1234",
+       "box": {
+        "x": 0.1758,
+        "y": 0.6822,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "5678",
+       "box": {
+        "x": 0.2312,
+        "y": 0.6822,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "aylin@novawake-io.example · novawake.io",
+     "box": {
+      "x": 0.07,
+      "y": 0.7344,
+      "w": 0.3653,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "aylin@novawake-io.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7344,
+        "w": 0.2059,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2829,
+        "y": 0.7344,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "novawake.io",
+       "box": {
+        "x": 0.302,
+        "y": 0.7344,
+        "w": 0.1332,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "linkedin.com/in/aylindemirtas",
+     "box": {
+      "x": 0.07,
+      "y": 0.7866,
+      "w": 0.3513,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "linkedin.com/in/aylindemirtas",
+       "box": {
+        "x": 0.07,
+        "y": 0.7866,
+        "w": 0.3513,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Aylin",
+   "middle": "",
+   "family": "Demirtaş",
+   "suffix": "",
+   "full": "Aylin Demirtaş"
+  },
+  "otherName": null,
+  "company": "Novawake Robotics GmbH",
+  "department": null,
+  "title": "Co-Founder & CTO",
+  "phones": [
+   {
+    "printed": "+49 151 1234 5678",
+    "e164": "+4915112345678",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "aylin@novawake-io.example"
+  ],
+  "urls": [
+   "novawake.io"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/aylindemirtas"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Torstraße 140",
+    "extra": "",
+    "pobox": "",
+    "postcode": "10119",
+    "city": "Berlin",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department"
+ ],
+ "accept": {
+  "company": [
+   "novawake"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "lowercase-logo",
+  "english-slogan",
+  "company-in-address-line",
+  "io-tld",
+  "first-name-email",
+  "linkedin"
+ ],
+ "notes": "Lower-case logo equals the domain stem; the legal name is inside the address line. E-mail local part is the given name only."
+}

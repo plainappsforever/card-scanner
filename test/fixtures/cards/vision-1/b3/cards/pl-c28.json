@@ -1,0 +1,230 @@
+{
+ "id": "pl-c28",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pl"
+ ],
+ "card_country": "PL",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "pl-PL",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AGROVELT",
+     "box": {
+      "x": 0.07664714148930805,
+      "y": 0.03669876352965773,
+      "w": 0.20276035308837892,
+      "h": 0.05223517620425422
+     },
+     "height": 0.05223517620425422,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Sp. z o.o.",
+     "box": {
+      "x": 0.07550280779121245,
+      "y": 0.1228449339323251,
+      "w": 0.07283159255981446,
+      "h": 0.030094884077094153
+     },
+     "height": 0.030094884077094153,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "KATARZYNA WÓJCIK-NOWAK",
+     "box": {
+      "x": 0.07512136896523365,
+      "y": 0.2119797538714574,
+      "w": 0.3222710800170899,
+      "h": 0.051145454171081406
+     },
+     "height": 0.051145454171081406,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Kierownik • Dział Zakupów",
+     "box": {
+      "x": 0.07213003227088258,
+      "y": 0.28331089491630346,
+      "w": 0.1871101760864258,
+      "h": 0.03959186288840988
+     },
+     "height": 0.03959186288840988,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "tel. +48 22 628 47 15",
+     "box": {
+      "x": 0.06959616188662875,
+      "y": 0.36953748483930315,
+      "w": 0.14282395362854006,
+      "h": 0.027652302303829757
+     },
+     "height": 0.027652302303829757,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "kom. +48 501 284 973",
+     "box": {
+      "x": 0.06949770009723219,
+      "y": 0.4212668571585123,
+      "w": 0.1414886379241943,
+      "h": 0.0283257657496625
+     },
+     "height": 0.0283257657496625,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "k.wojcik@agrovelt-pl.example",
+     "box": {
+      "x": 0.06795534876294862,
+      "y": 0.470517268636899,
+      "w": 0.1271017074584961,
+      "h": 0.029590606689453125
+     },
+     "height": 0.029590606689453125,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "ul. Marszałkowska 84/92, 00-514 Warszawa",
+     "box": {
+      "x": 0.06794982931150947,
+      "y": 0.5190016204667363,
+      "w": 0.2478031539916992,
+      "h": 0.034806973225361526
+     },
+     "height": 0.034806973225361526,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "KRS 0000123456 • NIP 527-123-45-67",
+     "box": {
+      "x": 0.06802467139975174,
+      "y": 0.5641902693858211,
+      "w": 0.19242361068725586,
+      "h": 0.024917948660242994
+     },
+     "height": 0.024917948660242994,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "KATARZYNA",
+   "middle": "",
+   "family": "WÓJCIK-NOWAK",
+   "suffix": "",
+   "full": "KATARZYNA WÓJCIK-NOWAK"
+  },
+  "otherName": null,
+  "company": "AGROVELT Sp. z o.o.",
+  "department": "Dział Zakupów",
+  "title": "Kierownik",
+  "phones": [
+   {
+    "printed": "+48 22 628 47 15",
+    "e164": "+48226284715",
+    "type": "work",
+    "label": "tel.",
+    "ext": null
+   },
+   {
+    "printed": "+48 501 284 973",
+    "e164": "+48501284973",
+    "type": "mobile",
+    "label": "kom.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.wojcik@agrovelt-pl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "ul. Marszałkowska 84/92",
+    "extra": "",
+    "pobox": "",
+    "postcode": "00-514",
+    "city": "Warszawa",
+    "region": "",
+    "country": "",
+    "countryCode": "PL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "AGROVELT"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "name-caps",
+  "diacritic-lost",
+  "legal-form-only-line",
+  "title-department-line",
+  "registry-number",
+  "vat-id",
+  "unknown-phone-label",
+  "foreign-region",
+  "hyphenated-family"
+ ],
+ "notes": "Name in caps with Ó lost. \"Sp. z o.o.\" (Polish LLC) alone under the logo. \"kom.\" (komórka) = mobile. KRS (10 digits) and NIP (10 digits with dashes) are not phones. Postcode \"00-514\" with leading zeros.",
+ "o3": {
+  "source": "blind-3/cards/pl-c28.json",
+  "images": [
+   {
+    "name": "b3-pl-c28",
+    "font": "AvenirNext-Regular",
+    "rotation": -1.64,
+    "noise": 13,
+    "blur": 0.6,
+    "langs": [
+     "pl-PL",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 99
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

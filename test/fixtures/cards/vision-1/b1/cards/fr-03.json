@@ -1,0 +1,215 @@
+{
+ "id": "fr-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Méditerranée Fret SAS",
+     "box": {
+      "x": 0.05506391984044484,
+      "y": 0.06006600678165763,
+      "w": 0.43929573059082033,
+      "h": 0.0534946080800649
+     },
+     "height": 0.0534946080800649,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Karim Benali-Fournier",
+     "box": {
+      "x": 0.05416667288672663,
+      "y": 0.2500000002942615,
+      "w": 0.4208333206176758,
+      "h": 0.04487179421089793
+     },
+     "height": 0.04487179421089793,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Responsable logistique",
+     "box": {
+      "x": 0.05934716417622603,
+      "y": 0.3341154668170816,
+      "w": 0.32026153564453125,
+      "h": 0.04727189789407504
+     },
+     "height": 0.04727189789407504,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "BP 30122",
+     "box": {
+      "x": 0.059593025319228055,
+      "y": 0.5112107619540199,
+      "w": 0.10319766998291016,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "13302 Marseille Cedex 03",
+     "box": {
+      "x": 0.05781803981348048,
+      "y": 0.5519107055074847,
+      "w": 0.31352312088012696,
+      "h": 0.04955597733898964
+     },
+     "height": 0.04955597733898964,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tél. +33 4 91 55 67 89",
+     "box": {
+      "x": 0.06079321702521483,
+      "y": 0.6152408014695651,
+      "w": 0.272370491027832,
+      "h": 0.04279581460253146
+     },
+     "height": 0.04279581460253146,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mob. +33 6 71 22 33 44",
+     "box": {
+      "x": 0.06079248639857976,
+      "y": 0.6723725169328127,
+      "w": 0.26217218399047854,
+      "h": 0.03960612197640323
+     },
+     "height": 0.03960612197640323,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "k.benali@medfret-fr.example . medfret.fr",
+     "box": {
+      "x": 0.058069680415040674,
+      "y": 0.7109413619671383,
+      "w": 0.4213813781738281,
+      "h": 0.04845872901121162
+     },
+     "height": 0.04845872901121162,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Karim",
+   "middle": "",
+   "family": "Benali-Fournier",
+   "suffix": "",
+   "full": "Karim Benali-Fournier"
+  },
+  "otherName": null,
+  "company": "Méditerranée Fret SAS",
+  "department": null,
+  "title": "Responsable logistique",
+  "phones": [
+   {
+    "printed": "+33 4 91 55 67 89",
+    "e164": "+33491556789",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "+33 6 71 22 33 44",
+    "e164": "+33671223344",
+    "type": "mobile",
+    "label": "Mob.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.benali@medfret-fr.example"
+  ],
+  "urls": [
+   "medfret.fr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "BP 30122",
+    "postcode": "13302",
+    "city": "Marseille",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Marseille Cedex 03"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "bp-pobox",
+  "cedex",
+  "ocr-0O",
+  "partial-family-email",
+  "domain-stem-abbreviated"
+ ],
+ "notes": "Only a PO box (BP) with CEDEX; \"Cedex 03\" is a distribution suffix, city is Marseille. Domain \"medfret\" abbreviates the company.",
+ "o3": {
+  "source": "blind-1/cards/fr-03.json",
+  "images": [
+   {
+    "name": "b1-fr-03",
+    "font": "Menlo-Regular",
+    "rotation": 0.75,
+    "noise": 7,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 92
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

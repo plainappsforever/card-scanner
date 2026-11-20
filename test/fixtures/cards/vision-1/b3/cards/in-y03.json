@@ -1,0 +1,212 @@
+{
+ "id": "in-y03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "THE NELLORA HOUSE",
+     "box": {
+      "x": 0.07241438672656479,
+      "y": 0.04427737650242647,
+      "w": 0.38714393615722653,
+      "h": 0.05090072624471653
+     },
+     "height": 0.05090072624471653,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Heritage Hotel • Fort Kochi",
+     "box": {
+      "x": 0.0726744162986008,
+      "y": 0.1300448429997193,
+      "w": 0.20930233001708984,
+      "h": 0.029221566027195722
+     },
+     "height": 0.029221566027195722,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Thomas K. Varghese",
+     "box": {
+      "x": 0.07185972799986473,
+      "y": 0.22230429002697472,
+      "w": 0.2413123893737793,
+      "h": 0.057065183131391084
+     },
+     "height": 0.057065183131391084,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "General Manager",
+     "box": {
+      "x": 0.07092050697762246,
+      "y": 0.30111609222245017,
+      "w": 0.14298110008239745,
+      "h": 0.02964221096407027
+     },
+     "height": 0.02964221096407027,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel +91 484 221 6666 • Mob +91 94470 18233",
+     "box": {
+      "x": 0.06960184769970695,
+      "y": 0.3833813795797232,
+      "w": 0.2953737068176269,
+      "h": 0.028957948721513693
+     },
+     "height": 0.028957948721513693,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "gm@nellorahouse-com.example • www.nellorahouse.com",
+     "box": {
+      "x": 0.06831394507688454,
+      "y": 0.43243243288289324,
+      "w": 0.3284883880615235,
+      "h": 0.027208822574394498
+     },
+     "height": 0.027208822574394498,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "1/268, Parade Road, Fort Kochi, Kerala 682001",
+     "box": {
+      "x": 0.0696204475201565,
+      "y": 0.4791712786358524,
+      "w": 0.28077194213867185,
+      "h": 0.031200397889126208
+     },
+     "height": 0.031200397889126208,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "GSTIN 32AAACT2727Q1ZW",
+     "box": {
+      "x": 0.06808763014832364,
+      "y": 0.5223745328900138,
+      "w": 0.17339868545532228,
+      "h": 0.028309173105306118
+     },
+     "height": 0.028309173105306118,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Thomas",
+   "middle": "K.",
+   "family": "Varghese",
+   "suffix": "",
+   "full": "Thomas K. Varghese"
+  },
+  "otherName": null,
+  "company": "THE NELLORA HOUSE",
+  "department": null,
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "+91 484 221 6666",
+    "e164": "+914842216666",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+91 94470 18233",
+    "e164": "+919447018233",
+    "type": "mobile",
+    "label": "Mob",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "gm@nellorahouse-com.example"
+  ],
+  "urls": [
+   "www.nellorahouse.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "1/268, Parade Road",
+    "extra": "",
+    "pobox": "",
+    "postcode": "682001",
+    "city": "Fort Kochi",
+    "region": "Kerala",
+    "country": "",
+    "countryCode": "IN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "hotel",
+  "indian-initials",
+  "tagline",
+  "role-email",
+  "vat-id",
+  "foreign-region",
+  "ocr-0O-in-word",
+  "house-number-slash"
+ ],
+ "notes": "Kerala name with middle initial. \"0\" for \"O\" in the logo. Role mailbox gm@ gives no name hint. Door number \"1/268\" has a slash. GSTIN is not a phone.",
+ "o3": {
+  "source": "blind-3/cards/in-y03.json",
+  "images": [
+   {
+    "name": "b3-in-y03",
+    "font": "Didot",
+    "rotation": -0.76,
+    "noise": 3,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

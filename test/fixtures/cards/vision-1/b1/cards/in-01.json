@@ -1,0 +1,244 @@
+{
+ "id": "in-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VASUDHA ENGINEERING PVT. LTD.",
+     "box": {
+      "x": 0.07076677837084762,
+      "y": 0.05626070646071624,
+      "w": 0.4704711151123047,
+      "h": 0.06311681740072239
+     },
+     "height": 0.06311681740072239,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "An ISO 9001:2015 Certified Company",
+     "box": {
+      "x": 0.06951294062569154,
+      "y": 0.13889517756334713,
+      "w": 0.30435527801513673,
+      "h": 0.03932458553535145
+     },
+     "height": 0.03932458553535145,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Rajesh Kumar Subramanian",
+     "box": {
+      "x": 0.07122093479536645,
+      "y": 0.2623318387456184,
+      "w": 0.5145348739624023,
+      "h": 0.05427047736856461
+     },
+     "height": 0.05427047736856461,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Senior Manager - Procurement",
+     "box": {
+      "x": 0.06958694546627651,
+      "y": 0.3468654817590815,
+      "w": 0.3462918853759766,
+      "h": 0.04381919919754096
+     },
+     "height": 0.04381919919754096,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Plot No. 42, MIDC Industrial Area,",
+     "box": {
+      "x": 0.06831394956484552,
+      "y": 0.49999999999562905,
+      "w": 0.31831396102905274,
+      "h": 0.04260089682796275
+     },
+     "height": 0.04260089682796275,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Andheri (East), Mumbai - 400 093,",
+     "box": {
+      "x": 0.06802090116585884,
+      "y": 0.54556365079722,
+      "w": 0.3275952911376953,
+      "h": 0.04885449096502947
+     },
+     "height": 0.04885449096502947,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Maharashtra, India",
+     "box": {
+      "x": 0.06800937935299423,
+      "y": 0.5933228220730621,
+      "w": 0.1720713996887207,
+      "h": 0.042596305199111284
+     },
+     "height": 0.042596305199111284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel: +91 22 2836 4471 Mob: +91 98200 12345",
+     "box": {
+      "x": 0.06666665996378587,
+      "y": 0.6409266414158691,
+      "w": 0.4416666793823242,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "rajesh.s@vasudhaeng-in.example",
+     "box": {
+      "x": 0.06665194841389323,
+      "y": 0.6890116653610852,
+      "w": 0.2271516227722168,
+      "h": 0.03806329970194111
+     },
+     "height": 0.03806329970194111,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "GSTIN: 27AABCV1234F1Z5",
+     "box": {
+      "x": 0.06668439914273229,
+      "y": 0.7372052085960638,
+      "w": 0.24455047607421876,
+      "h": 0.035151164964359216
+     },
+     "height": 0.035151164964359216,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rajesh",
+   "middle": "Kumar",
+   "family": "Subramanian",
+   "suffix": "",
+   "full": "Rajesh Kumar Subramanian"
+  },
+  "otherName": null,
+  "company": "VASUDHA ENGINEERING PVT. LTD.",
+  "department": "Procurement",
+  "title": "Senior Manager",
+  "phones": [
+   {
+    "printed": "+91 22 2836 4471",
+    "e164": "+912228364471",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "+91 98200 12345",
+    "e164": "+919820012345",
+    "type": "mobile",
+    "label": "Mob:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "rajesh.s@vasudhaeng-in.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Plot No. 42, MIDC Industrial Area",
+    "extra": "Andheri (East)",
+    "pobox": "",
+    "postcode": "400 093",
+    "city": "Mumbai",
+    "region": "Maharashtra",
+    "country": "India",
+    "countryCode": "IN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Senior Manager – Procurement"
+  ],
+  "name.given": [
+   "Rajesh Kumar"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "pin-with-space",
+  "iso-year-slogan",
+  "gstin",
+  "title-dash-department",
+  "address-across-three-lines",
+  "middle-name",
+  "two-phones-one-line"
+ ],
+ "notes": "Indian PIN \"400 093\" has a space. \"ISO 9001:2015\" is not a phone. GSTIN is a tax id. Address spans three lines.",
+ "o3": {
+  "source": "blind-1/cards/in-01.json",
+  "images": [
+   {
+    "name": "b1-in-01",
+    "font": "Verdana",
+    "rotation": -0.69,
+    "noise": 1,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 81
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

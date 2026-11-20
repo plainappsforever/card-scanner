@@ -1,0 +1,525 @@
+{
+ "id": "vn-h18-back",
+ "group": "vn-h18",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AZALEA HOTEL DA NANG",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3382,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "LOTUS",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.089,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "HOTEL",
+       "box": {
+        "x": 0.1768,
+        "y": 0.06,
+        "w": 0.089,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "DA",
+       "box": {
+        "x": 0.2836,
+        "y": 0.06,
+        "w": 0.0356,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "NANG",
+       "box": {
+        "x": 0.337,
+        "y": 0.06,
+        "w": 0.0712,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Ms. Nguyen Thi Minh Anh",
+     "box": {
+      "x": 0.07,
+      "y": 0.18,
+      "w": 0.4503,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Ms.",
+       "box": {
+        "x": 0.07,
+        "y": 0.18,
+        "w": 0.0587,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Nguyen",
+       "box": {
+        "x": 0.1483,
+        "y": 0.18,
+        "w": 0.1175,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Thi",
+       "box": {
+        "x": 0.2854,
+        "y": 0.18,
+        "w": 0.0587,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Minh",
+       "box": {
+        "x": 0.3637,
+        "y": 0.18,
+        "w": 0.0783,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Anh",
+       "box": {
+        "x": 0.4616,
+        "y": 0.18,
+        "w": 0.0587,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Director of Sales",
+     "box": {
+      "x": 0.07,
+      "y": 0.255,
+      "w": 0.2179,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Director",
+       "box": {
+        "x": 0.07,
+        "y": 0.255,
+        "w": 0.1025,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1854,
+        "y": 0.255,
+        "w": 0.0256,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.2238,
+        "y": 0.255,
+        "w": 0.0641,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "T: +84 236 3 889 456 · M: +84 905 123 487",
+     "box": {
+      "x": 0.07,
+      "y": 0.341,
+      "w": 0.4671,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "T:",
+       "box": {
+        "x": 0.07,
+        "y": 0.341,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+84",
+       "box": {
+        "x": 0.1042,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "236",
+       "box": {
+        "x": 0.1497,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.1953,
+        "y": 0.341,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "889",
+       "box": {
+        "x": 0.2181,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.2637,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3092,
+        "y": 0.341,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "M:",
+       "box": {
+        "x": 0.332,
+        "y": 0.341,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+84",
+       "box": {
+        "x": 0.3662,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "905",
+       "box": {
+        "x": 0.4118,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.4574,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "487",
+       "box": {
+        "x": 0.5029,
+        "y": 0.341,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "sales@azaleahoteldanang-vn.example · azaleahoteldanang.vn",
+     "box": {
+      "x": 0.07,
+      "y": 0.393,
+      "w": 0.502,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "sales@azaleahoteldanang-vn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.393,
+        "w": 0.267,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3477,
+        "y": 0.393,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "azaleahoteldanang.vn",
+       "box": {
+        "x": 0.3691,
+        "y": 0.393,
+        "w": 0.2029,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "68 Bach Dang St., Hai Chau Ward, Da Nang City, Vietnam",
+     "box": {
+      "x": 0.07,
+      "y": 0.443,
+      "w": 0.5383,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "68",
+       "box": {
+        "x": 0.07,
+        "y": 0.443,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Bach",
+       "box": {
+        "x": 0.0999,
+        "y": 0.443,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Dang",
+       "box": {
+        "x": 0.1497,
+        "y": 0.443,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "St.,",
+       "box": {
+        "x": 0.1996,
+        "y": 0.443,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Hai",
+       "box": {
+        "x": 0.2494,
+        "y": 0.443,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Chau",
+       "box": {
+        "x": 0.2893,
+        "y": 0.443,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Ward,",
+       "box": {
+        "x": 0.3392,
+        "y": 0.443,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Da",
+       "box": {
+        "x": 0.399,
+        "y": 0.443,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Nang",
+       "box": {
+        "x": 0.4289,
+        "y": 0.443,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "City,",
+       "box": {
+        "x": 0.4787,
+        "y": 0.443,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Vietnam",
+       "box": {
+        "x": 0.5385,
+        "y": 0.443,
+        "w": 0.0698,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ms.",
+   "given": "Anh",
+   "middle": "Thi Minh",
+   "family": "Nguyen",
+   "suffix": "",
+   "full": "Ms. Nguyen Thi Minh Anh"
+  },
+  "otherName": null,
+  "company": "AZALEA HOTEL DA NANG",
+  "department": null,
+  "title": "Director of Sales",
+  "phones": [
+   {
+    "printed": "+84 236 3 889 456",
+    "e164": "+842363889456",
+    "type": "work",
+    "label": "T:",
+    "ext": null
+   },
+   {
+    "printed": "+84 905 123 487",
+    "e164": "+84905123487",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "sales@azaleahoteldanang-vn.example"
+  ],
+  "urls": [
+   "azaleahoteldanang.vn"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "68 Bach Dang St.",
+    "extra": "Hai Chau Ward",
+    "pobox": "",
+    "postcode": "",
+    "city": "Da Nang",
+    "region": "",
+    "country": "Vietnam",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Da Nang City"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "vietnamese-order",
+  "second-language-back",
+  "foreign-region",
+  "no-postcode",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "English side keeps the Vietnamese order without diacritics, with \"Ms.\". Family = Nguyen, given = Anh."
+}

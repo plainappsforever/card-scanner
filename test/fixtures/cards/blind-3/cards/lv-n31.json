@@ -1,0 +1,436 @@
+{
+ "id": "lv-n31",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "lv"
+ ],
+ "card_country": "LV",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "lv-LV"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SIA \"Vairogas Koks\"",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4058,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "SIA",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "\"Vairogas",
+       "box": {
+        "x": 0.1554,
+        "y": 0.06,
+        "w": 0.1922,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Koks\"",
+       "box": {
+        "x": 0.369,
+        "y": 0.06,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Kokmateriālu eksports kopš 1998",
+     "box": {
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.3532,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Kokmateriālu",
+       "box": {
+        "x": 0.07,
+        "y": 0.14,
+        "w": 0.1367,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "eksports",
+       "box": {
+        "x": 0.2181,
+        "y": 0.14,
+        "w": 0.0911,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "kopš",
+       "box": {
+        "x": 0.3207,
+        "y": 0.14,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "1998",
+       "box": {
+        "x": 0.3776,
+        "y": 0.14,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Janis Berzins",
+     "box": {
+      "x": 0.07,
+      "y": 0.242,
+      "w": 0.2777,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Janis",
+       "box": {
+        "x": 0.07,
+        "y": 0.242,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Berzins",
+       "box": {
+        "x": 0.1982,
+        "y": 0.242,
+        "w": 0.1495,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Valdes priekšsēdētājs",
+     "box": {
+      "x": 0.07,
+      "y": 0.322,
+      "w": 0.2617,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Valdes",
+       "box": {
+        "x": 0.07,
+        "y": 0.322,
+        "w": 0.0748,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "priekšsēdētājs",
+       "box": {
+        "x": 0.1572,
+        "y": 0.322,
+        "w": 0.1745,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Brīvības iela 155, Rīga, LV-1012",
+     "box": {
+      "x": 0.07,
+      "y": 0.407,
+      "w": 0.3418,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Brīvības",
+       "box": {
+        "x": 0.07,
+        "y": 0.407,
+        "w": 0.0854,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "iela",
+       "box": {
+        "x": 0.1661,
+        "y": 0.407,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "155,",
+       "box": {
+        "x": 0.2195,
+        "y": 0.407,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Rīga,",
+       "box": {
+        "x": 0.2729,
+        "y": 0.407,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "LV-1012",
+       "box": {
+        "x": 0.337,
+        "y": 0.407,
+        "w": 0.0748,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "janis.berzins@vairogaskoks-lv.example · www.vairogaskoks.lv",
+     "box": {
+      "x": 0.07,
+      "y": 0.457,
+      "w": 0.5084,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "janis.berzins@vairogaskoks-lv.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.457,
+        "w": 0.2891,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3691,
+        "y": 0.457,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "www.vairogaskoks.lv",
+       "box": {
+        "x": 0.389,
+        "y": 0.457,
+        "w": 0.1894,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Reģ. Nr. 40103456789 · PVN LV40103456789",
+     "box": {
+      "x": 0.07,
+      "y": 0.505,
+      "w": 0.356,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Reģ.",
+       "box": {
+        "x": 0.07,
+        "y": 0.505,
+        "w": 0.0356,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Nr.",
+       "box": {
+        "x": 0.1145,
+        "y": 0.505,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "40103456789",
+       "box": {
+        "x": 0.1501,
+        "y": 0.505,
+        "w": 0.0979,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2569,
+        "y": 0.505,
+        "w": 0.0089,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "PVN",
+       "box": {
+        "x": 0.2747,
+        "y": 0.505,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "LV40103456789",
+       "box": {
+        "x": 0.3103,
+        "y": 0.505,
+        "w": 0.1157,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jānis",
+   "middle": "",
+   "family": "Bērziņš",
+   "suffix": "",
+   "full": "Jānis Bērziņš"
+  },
+  "otherName": null,
+  "company": "SIA \"Vairogas Koks\"",
+  "department": null,
+  "title": "Valdes priekšsēdētājs",
+  "phones": [],
+  "emails": [
+   "janis.berzins@vairogaskoks-lv.example"
+  ],
+  "urls": [
+   "www.vairogaskoks.lv"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Brīvības iela 155",
+    "extra": "",
+    "pobox": "",
+    "postcode": "LV-1012",
+    "city": "Rīga",
+    "region": "",
+    "country": "",
+    "countryCode": "LV"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Vairogas Koks"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Jānis Bērziņš",
+   "ocr": "Janis Berzins",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Jānis",
+   "ocr": "Janis",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Bērziņš",
+   "ocr": "Berzins",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "baltic-name",
+  "diacritic-lost",
+  "legal-form-prefix",
+  "quoted-company",
+  "registry-number",
+  "vat-id",
+  "absent-phone",
+  "year-in-tagline",
+  "postcode-after-city"
+ ],
+ "notes": "Latvian: legal form \"SIA\" before the quoted name. All name diacritics lost (ā, ē, ņ, š). Postcode \"LV-1012\" after the city. Registration number (11 digits) and PVN (VAT) are not phones. The card prints no phone on purpose: the checker has no +371 country code (gap documented in README)."
+}

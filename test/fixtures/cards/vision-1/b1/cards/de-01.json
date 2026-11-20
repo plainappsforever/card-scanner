@@ -1,0 +1,223 @@
+{
+ "id": "de-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Müller Elektrotechnik",
+     "box": {
+      "x": 0.051283426252911185,
+      "y": 0.05343569769598977,
+      "w": 0.6533805847167968,
+      "h": 0.11572922518814854
+     },
+     "height": 0.11572922518814854,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Meisterbetrieb seit 1987",
+     "box": {
+      "x": 0.05479625888140287,
+      "y": 0.2277741164263034,
+      "w": 0.23934223175048824,
+      "h": 0.043179640898833416
+     },
+     "height": 0.043179640898833416,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Jürgen Müller",
+     "box": {
+      "x": 0.05014555823028978,
+      "y": 0.3899862112839243,
+      "w": 0.24550651550292968,
+      "h": 0.06749482320542499
+     },
+     "height": 0.06749482320542499,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Elektromeister • Inhaber",
+     "box": {
+      "x": 0.06056714962431158,
+      "y": 0.4937996839952251,
+      "w": 0.27706989288330075,
+      "h": 0.047829000185815485
+     },
+     "height": 0.047829000185815485,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Hauptstraße 14 • 74072 Heilbronn",
+     "box": {
+      "x": 0.06340455062523002,
+      "y": 0.6391837710740971,
+      "w": 0.33686920166015627,
+      "h": 0.056408186216612144
+     },
+     "height": 0.056408186216612144,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 07131 56 78 90 • Fax 07131 56 78 91",
+     "box": {
+      "x": 0.06338689268899884,
+      "y": 0.6955555767857994,
+      "w": 0.4024070739746094,
+      "h": 0.05763352883828654
+     },
+     "height": 0.05763352883828654,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0171 4 56 78 90",
+     "box": {
+      "x": 0.06502776627102844,
+      "y": 0.7696509823140204,
+      "w": 0.21158563613891604,
+      "h": 0.03887545095907674
+     },
+     "height": 0.03887545095907674,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "info@mueller-elektro-hn-de.example • www.mueller-elektro-hn.de",
+     "box": {
+      "x": 0.06581271949256028,
+      "y": 0.8029891121745456,
+      "w": 0.5723706817626953,
+      "h": 0.07198129013238264
+     },
+     "height": 0.07198129013238264,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jürgen",
+   "middle": "",
+   "family": "Müller",
+   "suffix": "",
+   "full": "Jürgen Müller"
+  },
+  "otherName": null,
+  "company": "Müller Elektrotechnik",
+  "department": null,
+  "title": "Elektromeister",
+  "phones": [
+   {
+    "printed": "07131 56 78 90",
+    "e164": "+497131567890",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "07131 56 78 91",
+    "e164": "+497131567891",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "0171 4 56 78 90",
+    "e164": "+491714567890",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@mueller-elektro-hn-de.example"
+  ],
+  "urls": [
+   "www.mueller-elektro-hn.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hauptstraße 14",
+    "extra": "",
+    "pobox": "",
+    "postcode": "74072",
+    "city": "Heilbronn",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Inhaber",
+   "Elektromeister · Inhaber"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "name-is-company",
+  "slogan-with-year",
+  "middle-dot-segments",
+  "multi-phone",
+  "address-one-line"
+ ],
+ "notes": "Family name Müller is also the first word of the company; \"1987\" in the slogan is not a phone. Generic info@ mailbox.",
+ "o3": {
+  "source": "blind-1/cards/de-01.json",
+  "images": [
+   {
+    "name": "b1-de-01",
+    "font": "Baskerville",
+    "rotation": 1.68,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 136
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

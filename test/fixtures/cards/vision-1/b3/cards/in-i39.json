@@ -1,0 +1,216 @@
+{
+ "id": "in-i39",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VARUNAM AUTO COMPONENTS PVT. LTD.",
+     "box": {
+      "x": 0.07647334417992362,
+      "y": 0.04043424175969701,
+      "w": 0.5085425567626953,
+      "h": 0.06362535778620071
+     },
+     "height": 0.06362535778620071,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "R. Venkatesh, B.E., MBA",
+     "box": {
+      "x": 0.07471217709082953,
+      "y": 0.15395118277114894,
+      "w": 0.3764888763427734,
+      "h": 0.07334824050255262
+     },
+     "height": 0.07334824050255262,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Vice President - Supply Chain",
+     "box": {
+      "x": 0.0703867840041093,
+      "y": 0.21706874351987526,
+      "w": 0.2843870544433594,
+      "h": 0.05055598218468638
+     },
+     "height": 0.05055598218468638,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel +91 44 2815 4470 • Mobile +91 98410 23675",
+     "box": {
+      "x": 0.07082304502032429,
+      "y": 0.3079144026982601,
+      "w": 0.3757867050170899,
+      "h": 0.0415899560258195
+     },
+     "height": 0.0415899560258195,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "venkatesh.r@varunamauto-in.example",
+     "box": {
+      "x": 0.07087689070076024,
+      "y": 0.3572541904162947,
+      "w": 0.23468626022338868,
+      "h": 0.03511735187073928
+     },
+     "height": 0.03511735187073928,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "No. 12, Gandhi Mandapam Road, Kotturpuram",
+     "box": {
+      "x": 0.06605622645951051,
+      "y": 0.39637551564860385,
+      "w": 0.3387301254272461,
+      "h": 0.05297593628577746
+     },
+     "height": 0.05297593628577746,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Chennai - 600 085, Tamil Nadu",
+     "box": {
+      "x": 0.06924014444184995,
+      "y": 0.45027335765144627,
+      "w": 0.23349302291870117,
+      "h": 0.04061636685404535
+     },
+     "height": 0.04061636685404535,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "CIN U34300TN2004PTC052817 • GSTIN 33AABCS1429B1Z5",
+     "box": {
+      "x": 0.06800720791181032,
+      "y": 0.49655667253350855,
+      "w": 0.3524080657958985,
+      "h": 0.03777133175765224
+     },
+     "height": 0.03777133175765224,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Venkatesh",
+   "middle": "R.",
+   "family": "",
+   "suffix": "B.E., MBA",
+   "full": "R. Venkatesh, B.E., MBA"
+  },
+  "otherName": null,
+  "company": "VARUNAM AUTO COMPONENTS PVT. LTD.",
+  "department": "Supply Chain",
+  "title": "Vice President",
+  "phones": [
+   {
+    "printed": "+91 44 2815 4470",
+    "e164": "+914428154470",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+91 98410 23675",
+    "e164": "+919841023675",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "venkatesh.r@varunamauto-in.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "No. 12, Gandhi Mandapam Road",
+    "extra": "Kotturpuram",
+    "pobox": "",
+    "postcode": "600 085",
+    "city": "Chennai",
+    "region": "Tamil Nadu",
+    "country": "",
+    "countryCode": "IN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.suffix": [
+   "MBA"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "indian-initials",
+  "credential-suffix",
+  "ocr-8B",
+  "registry-number",
+  "vat-id",
+  "title-department-line",
+  "pin-with-space",
+  "foreign-region",
+  "family-empty",
+  "person-name-in-street"
+ ],
+ "notes": "Tamil naming: initial \"R.\" (father's name) + given name \"Venkatesh\", no family name (e-mail venkatesh.r confirms). Degrees \"B.E., MBA\" with \"8\" for \"B\". PIN \"600 085\" printed with a space. CIN and GSTIN are not phones. \"Gandhi\" in the street is not a name.",
+ "o3": {
+  "source": "blind-3/cards/in-i39.json",
+  "images": [
+   {
+    "name": "b3-in-i39",
+    "font": "Verdana",
+    "rotation": -1.65,
+    "noise": 6,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 85
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

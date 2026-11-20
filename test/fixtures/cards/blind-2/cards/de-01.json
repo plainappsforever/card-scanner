@@ -1,0 +1,531 @@
+{
+ "id": "de-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "WENDRAU HAUSTECHNIK",
+     "box": {
+      "x": 0.07,
+      "y": 0.0711,
+      "w": 0.5992,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "WENDRAU",
+       "box": {
+        "x": 0.07,
+        "y": 0.0711,
+        "w": 0.1812,
+        "h": 0.1
+       }
+      },
+      {
+       "text": "HAUSTECHNIK",
+       "box": {
+        "x": 0.2706,
+        "y": 0.0711,
+        "w": 0.3986,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.1931,
+      "w": 0.0652,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.07,
+        "y": 0.1931,
+        "w": 0.0652,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Ihr Partner für Bad & Heizung",
+     "box": {
+      "x": 0.07,
+      "y": 0.2601,
+      "w": 0.4834,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Ihr",
+       "box": {
+        "x": 0.07,
+        "y": 0.2601,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Partner",
+       "box": {
+        "x": 0.1341,
+        "y": 0.2601,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.2706,
+        "y": 0.2601,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bad",
+       "box": {
+        "x": 0.3346,
+        "y": 0.2601,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3987,
+        "y": 0.2601,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Heizung",
+       "box": {
+        "x": 0.4265,
+        "y": 0.2601,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Klaus Wendrau",
+     "box": {
+      "x": 0.07,
+      "y": 0.3321,
+      "w": 0.2672,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Klaus",
+       "box": {
+        "x": 0.07,
+        "y": 0.3321,
+        "w": 0.1268,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Wendrau",
+       "box": {
+        "x": 0.2104,
+        "y": 0.3321,
+        "w": 0.1268,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Geschäftsführer",
+     "box": {
+      "x": 0.07,
+      "y": 0.4241,
+      "w": 0.2718,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Geschäftsführer",
+       "box": {
+        "x": 0.07,
+        "y": 0.4241,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Lindenstraße 14 · 72072 Tubingen",
+     "box": {
+      "x": 0.07,
+      "y": 0.4961,
+      "w": 0.5461,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Lindenstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.4961,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "14",
+       "box": {
+        "x": 0.2971,
+        "y": 0.4961,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3431,
+        "y": 0.4961,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "72072",
+       "box": {
+        "x": 0.3709,
+        "y": 0.4961,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Tubingen",
+       "box": {
+        "x": 0.4712,
+        "y": 0.4961,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 07071 / 9 36 52-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.5681,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5681,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "07071",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5681,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5681,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.2803,
+        "y": 0.5681,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "36",
+       "box": {
+        "x": 0.3081,
+        "y": 0.5681,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "52-0",
+       "box": {
+        "x": 0.3541,
+        "y": 0.5681,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Fax 07071 / 9 36 52-29",
+     "box": {
+      "x": 0.07,
+      "y": 0.6401,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.07,
+        "y": 0.6401,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "07071",
+       "box": {
+        "x": 0.1341,
+        "y": 0.6401,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6401,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.2622,
+        "y": 0.6401,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "36",
+       "box": {
+        "x": 0.29,
+        "y": 0.6401,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "52-29",
+       "box": {
+        "x": 0.3359,
+        "y": 0.6401,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "info@wendrau-haustechnik-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7121,
+      "w": 0.4529,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "info@wendrau-haustechnik-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7121,
+        "w": 0.4529,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "www.wendrau-haustechnik.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.7841,
+      "w": 0.4348,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.wendrau-haustechnik.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.7841,
+        "w": 0.4348,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Klaus",
+   "middle": "",
+   "family": "Wendrau",
+   "suffix": "",
+   "full": "Klaus Wendrau"
+  },
+  "otherName": null,
+  "company": "WENDRAU HAUSTECHNIK GmbH",
+  "department": null,
+  "title": "Geschäftsführer",
+  "phones": [
+   {
+    "printed": "07071 / 9 36 52-0",
+    "e164": "+497071936520",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "07071 / 9 36 52-29",
+    "e164": "+4970719365229",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@wendrau-haustechnik-de.example"
+  ],
+  "urls": [
+   "www.wendrau-haustechnik.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Lindenstraße 14",
+    "extra": "",
+    "pobox": "",
+    "postcode": "72072",
+    "city": "Tübingen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "WENDRAU HAUSTECHNIK"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].city",
+   "printed": "Tübingen",
+   "ocr": "Tubingen",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "tagline-not-title",
+  "legal-form-line",
+  "slash-in-number",
+  "ext-pair",
+  "name-is-company",
+  "diacritic-lost"
+ ],
+ "notes": "Title is Geschäftsführer, not the tagline. Company = logo line + \"GmbH\" line. The \" / \" inside the area-code notation must not split the number. Fax differs from Tel only in the extension (-0 / -29). Tubingen = OCR of Tübingen."
+}

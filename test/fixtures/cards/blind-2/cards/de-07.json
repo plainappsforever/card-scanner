@@ -1,0 +1,560 @@
+{
+ "id": "de-07",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PETER RAUCHEL IMMOBILIEN",
+     "box": {
+      "x": 0.07,
+      "y": 0.0846,
+      "w": 0.6108,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "PETER",
+       "box": {
+        "x": 0.07,
+        "y": 0.0846,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "RAUCHEL",
+       "box": {
+        "x": 0.2305,
+        "y": 0.0846,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "IMMOBILIEN",
+       "box": {
+        "x": 0.3909,
+        "y": 0.0846,
+        "w": 0.2899,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Peter Rauchel",
+     "box": {
+      "x": 0.07,
+      "y": 0.1866,
+      "w": 0.2481,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Peter",
+       "box": {
+        "x": 0.07,
+        "y": 0.1866,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Rauchel",
+       "box": {
+        "x": 0.2004,
+        "y": 0.1866,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Immobilienmakler (IHK)",
+     "box": {
+      "x": 0.07,
+      "y": 0.2736,
+      "w": 0.3902,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Immobilienmakler",
+       "box": {
+        "x": 0.07,
+        "y": 0.2736,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(IHK)",
+       "box": {
+        "x": 0.3696,
+        "y": 0.2736,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Podbielskistraße 28O",
+     "box": {
+      "x": 0.07,
+      "y": 0.3456,
+      "w": 0.3539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Podbielskistraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.3456,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "28O",
+       "box": {
+        "x": 0.3696,
+        "y": 0.3456,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "30655 Hannover",
+     "box": {
+      "x": 0.07,
+      "y": 0.4176,
+      "w": 0.2452,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "30655",
+       "box": {
+        "x": 0.07,
+        "y": 0.4176,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Hannover",
+       "box": {
+        "x": 0.1703,
+        "y": 0.4176,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Telefon 0511 76 54 32 10",
+     "box": {
+      "x": 0.07,
+      "y": 0.4896,
+      "w": 0.3928,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Telefon",
+       "box": {
+        "x": 0.07,
+        "y": 0.4896,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0511",
+       "box": {
+        "x": 0.2065,
+        "y": 0.4896,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "76",
+       "box": {
+        "x": 0.2887,
+        "y": 0.4896,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.3346,
+        "y": 0.4896,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.3806,
+        "y": 0.4896,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "10",
+       "box": {
+        "x": 0.4265,
+        "y": 0.4896,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0176 22 33 44 55",
+     "box": {
+      "x": 0.07,
+      "y": 0.5616,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.5616,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0176",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5616,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5616,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.2984,
+        "y": 0.5616,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "44",
+       "box": {
+        "x": 0.3444,
+        "y": 0.5616,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "55",
+       "box": {
+        "x": 0.3903,
+        "y": 0.5616,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "peter@rauchel-immobilien-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6336,
+      "w": 0.4529,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "peter@rauchel-immobilien-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6336,
+        "w": 0.4529,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "www.rauchel-immobilien.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.7056,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.rauchel-immobilien.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.7056,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "Erlaubnis nach § 34c GewO · USt-IdNr. DE 287 654 321",
+     "box": {
+      "x": 0.07,
+      "y": 0.7776,
+      "w": 0.429,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Erlaubnis",
+       "box": {
+        "x": 0.07,
+        "y": 0.7776,
+        "w": 0.0815,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "nach",
+       "box": {
+        "x": 0.1564,
+        "y": 0.7776,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "§",
+       "box": {
+        "x": 0.1975,
+        "y": 0.7776,
+        "w": 0.0091,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "34c",
+       "box": {
+        "x": 0.2114,
+        "y": 0.7776,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "GewO",
+       "box": {
+        "x": 0.2434,
+        "y": 0.7776,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2845,
+        "y": 0.7776,
+        "w": 0.0091,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "USt-IdNr.",
+       "box": {
+        "x": 0.2984,
+        "y": 0.7776,
+        "w": 0.0815,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "DE",
+       "box": {
+        "x": 0.3848,
+        "y": 0.7776,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "287",
+       "box": {
+        "x": 0.4078,
+        "y": 0.7776,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "654",
+       "box": {
+        "x": 0.4398,
+        "y": 0.7776,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "321",
+       "box": {
+        "x": 0.4718,
+        "y": 0.7776,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Peter",
+   "middle": "",
+   "family": "Rauchel",
+   "suffix": "",
+   "full": "Peter Rauchel"
+  },
+  "otherName": null,
+  "company": "PETER RAUCHEL IMMOBILIEN",
+  "department": null,
+  "title": "Immobilienmakler (IHK)",
+  "phones": [
+   {
+    "printed": "0511 76 54 32 10",
+    "e164": "+4951176543210",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   },
+   {
+    "printed": "0176 22 33 44 55",
+    "e164": "+4917622334455",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "peter@rauchel-immobilien-de.example"
+  ],
+  "urls": [
+   "www.rauchel-immobilien.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Podbielskistraße 280",
+    "extra": "",
+    "pobox": "",
+    "postcode": "30655",
+    "city": "Hannover",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].street",
+   "printed": "Podbielskistraße 280",
+   "ocr": "Podbielskistraße 28O",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "name-is-company",
+  "vat-id",
+  "licence-number",
+  "ocr-0O"
+ ],
+ "notes": "Name = Peter Rauchel from the second line; company = the whole logo line (which contains the name). The USt-IdNr. is not a phone. House number 280 has an O for 0."
+}

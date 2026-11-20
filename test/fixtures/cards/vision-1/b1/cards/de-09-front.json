@@ -1,0 +1,210 @@
+{
+ "id": "de-09-front",
+ "group": "de-09",
+ "side": "front",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "= KELLMAR =",
+     "box": {
+      "x": 0.059593020906310204,
+      "y": 0.06949806992140706,
+      "w": 0.27180233001708987,
+      "h": 0.05405405405405406
+     },
+     "height": 0.05405405405405406,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Antriebstechnik GmbH",
+     "box": {
+      "x": 0.05959302540146492,
+      "y": 0.1659192823192548,
+      "w": 0.22819766998291016,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr.-Ing. Thorsten Ebersbach",
+     "box": {
+      "x": 0.061046517284007035,
+      "y": 0.3494208487302062,
+      "w": 0.4433139419555664,
+      "h": 0.0541665949876704
+     },
+     "height": 0.0541665949876704,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Entwicklung",
+     "box": {
+      "x": 0.059079250212267315,
+      "y": 0.4320999810446521,
+      "w": 0.2147760963439941,
+      "h": 0.05061877372182011
+     },
+     "height": 0.05061877372182011,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel. +49 711 98 76 54-21",
+     "box": {
+      "x": 0.05788125256165515,
+      "y": 0.6186271936700608,
+      "w": 0.25341182708740234,
+      "h": 0.044100997070548154
+     },
+     "height": 0.044100997070548154,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobil +49 170 3 21 45 67",
+     "box": {
+      "x": 0.05959302180948725,
+      "y": 0.6814671822837036,
+      "w": 0.2630813980102539,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "t.ebersbach@kellmar-antriebe-de.example",
+     "box": {
+      "x": 0.056601179896283965,
+      "y": 0.7388495749325019,
+      "w": 0.3431884002685547,
+      "h": 0.037208395114736725
+     },
+     "height": 0.037208395114736725,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "www.kellmar-antriebe.de",
+     "box": {
+      "x": 0.05813953438520254,
+      "y": 0.7982062775417353,
+      "w": 0.254360466003418,
+      "h": 0.035874440403058316
+     },
+     "height": 0.035874440403058316,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.-Ing.",
+   "given": "Thorsten",
+   "middle": "",
+   "family": "Ebersbach",
+   "suffix": "",
+   "full": "Dr.-Ing. Thorsten Ebersbach"
+  },
+  "otherName": null,
+  "company": "KELLMAR Antriebstechnik GmbH",
+  "department": null,
+  "title": "Leiter Entwicklung",
+  "phones": [
+   {
+    "printed": "+49 711 98 76 54-21",
+    "e164": "+4971198765421",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 170 3 21 45 67",
+    "e164": "+491703214567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.ebersbach@kellmar-antriebe-de.example"
+  ],
+  "urls": [
+   "www.kellmar-antriebe.de"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "company": [
+   "Antriebstechnik GmbH"
+  ]
+ },
+ "composed": [
+  "company"
+ ],
+ "traps": [
+  "second-language-back",
+  "stray-symbols-logo",
+  "company-in-address-line",
+  "same-phone-printed-differently",
+  "prefix-degree",
+  "ocr-1l",
+  "two-sided"
+ ],
+ "notes": "Front German, back English. The same two numbers are printed differently on each side (dedupe by E.164). Logo has stray \"≡\" glyphs. Both-sides fixture: German UI, so the German title is primary; English title accepted.",
+ "o3": {
+  "source": "blind-1/cards/de-09-front.json",
+  "images": [
+   {
+    "name": "b1-de-09-front",
+    "font": "HelveticaNeue",
+    "rotation": -0.19,
+    "noise": 7,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 105
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,328 @@
+{
+ "id": "at-u20-back",
+ "group": "at-u20",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Wendau University of Technology",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4646,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Wendau",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "University",
+       "box": {
+        "x": 0.1501,
+        "y": 0.06,
+        "w": 0.1602,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.3263,
+        "y": 0.06,
+        "w": 0.032,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Technology",
+       "box": {
+        "x": 0.3744,
+        "y": 0.06,
+        "w": 0.1602,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Institute of Electric Power Systems",
+     "box": {
+      "x": 0.07,
+      "y": 0.125,
+      "w": 0.3987,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Institute",
+       "box": {
+        "x": 0.07,
+        "y": 0.125,
+        "w": 0.1025,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1839,
+        "y": 0.125,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Electric",
+       "box": {
+        "x": 0.2181,
+        "y": 0.125,
+        "w": 0.0911,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Power",
+       "box": {
+        "x": 0.3206,
+        "y": 0.125,
+        "w": 0.057,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Systems",
+       "box": {
+        "x": 0.389,
+        "y": 0.125,
+        "w": 0.0797,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Matthias Edlinger",
+     "box": {
+      "x": 0.07,
+      "y": 0.227,
+      "w": 0.3026,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Matthias",
+       "box": {
+        "x": 0.07,
+        "y": 0.227,
+        "w": 0.1424,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Edlinger",
+       "box": {
+        "x": 0.2302,
+        "y": 0.227,
+        "w": 0.1424,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Head of Institute",
+     "box": {
+      "x": 0.07,
+      "y": 0.297,
+      "w": 0.1937,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.297,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.127,
+        "y": 0.297,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Institute",
+       "box": {
+        "x": 0.1612,
+        "y": 0.297,
+        "w": 0.1025,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "matthias.edlinger@tuwendau-at.example · www.tuwendau.at",
+     "box": {
+      "x": 0.07,
+      "y": 0.379,
+      "w": 0.4133,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "matthias.edlinger@tuwendau-at.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.379,
+        "w": 0.2595,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3391,
+        "y": 0.379,
+        "w": 0.0096,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "www.tuwendau.at",
+       "box": {
+        "x": 0.3583,
+        "y": 0.379,
+        "w": 0.125,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "ORCID 0000-0002-5591-3046",
+     "box": {
+      "x": 0.07,
+      "y": 0.426,
+      "w": 0.2225,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "ORCID",
+       "box": {
+        "x": 0.07,
+        "y": 0.426,
+        "w": 0.0445,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "0000-0002-5591-3046",
+       "box": {
+        "x": 0.1234,
+        "y": 0.426,
+        "w": 0.1691,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Edlinger",
+   "suffix": "",
+   "full": "Matthias Edlinger"
+  },
+  "otherName": null,
+  "company": "Wendau University of Technology",
+  "department": "Institute of Electric Power Systems",
+  "title": "Head of Institute",
+  "phones": [],
+  "emails": [
+   "matthias.edlinger@tuwendau-at.example"
+  ],
+  "urls": [
+   "www.tuwendau.at"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "phones",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "two-sided",
+  "academic",
+  "prefix-stack",
+  "faculty-line",
+  "orcid",
+  "second-language-back",
+  "foreign-region",
+  "ocr-1l",
+  "roman-numeral-door",
+  "gasse-street"
+ ],
+ "notes": "English side: no phone, no address. ORCID is not a phone."
+}

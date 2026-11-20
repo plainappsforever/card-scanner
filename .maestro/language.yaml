@@ -1,0 +1,97 @@
+appId: ${APP_ID}
+name: P8 - language switch in Settings (15 languages), kept after a restart, back to the device language
+tags:
+  - p8
+---
+# iOS merges a Settings row into one element ("Sprache, Deutsch"), hence the patterns.
+# Ends on "Device language" so every other flow sees the simulator's/emulator's English again.
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: empty
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- tapOn:
+    id: choice-de
+- extendedWaitUntil:
+    visible: "Sprache.*"
+    timeout: 10000
+- assertVisible: "Einstellungen"
+- assertVisible: "Darstellung.*"
+# kept after a restart, and the Cards screen speaks German too
+- runFlow: subflows/launch.yaml
+- assertVisible: "Karten"
+- assertVisible: "Scannen"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- scrollUntilVisible:
+    element:
+      id: choice-ja
+    centerElement: true
+- tapOn:
+    id: choice-ja
+- extendedWaitUntil:
+    visible: "言語.*"
+    timeout: 10000
+- assertVisible: "設定"
+# a fresh start between switches: the iOS accessibility tree came back empty right after a second switch (L14)
+- runFlow: subflows/launch.yaml
+- assertVisible: "名刺"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+# the last row: found by its label (its id is not reported once the sheet's scroll view is at the end)
+- scrollUntilVisible:
+    element:
+      text: "العربية"
+    visibilityPercentage: 60
+- tapOn: "العربية"
+- extendedWaitUntil:
+    visible: "اللغة.*"
+    timeout: 10000
+- assertVisible: "الإعدادات"
+- takeScreenshot: p8-settings-arabic
+- runFlow: subflows/launch.yaml
+- assertVisible: "البطاقات"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- scrollUntilVisible:
+    element:
+      id: choice-ru
+    centerElement: true
+- tapOn:
+    id: choice-ru
+- extendedWaitUntil:
+    visible: "Язык.*"
+    timeout: 10000
+- runFlow: subflows/launch.yaml
+- assertVisible: "Визитки"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- tapOn:
+    id: choice-system
+- extendedWaitUntil:
+    visible: "Language.*"
+    timeout: 10000
+- assertVisible: ".*Device language"
+- runFlow: subflows/launch.yaml
+- assertVisible: "Scan"

@@ -1,0 +1,569 @@
+{
+ "id": "br-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pt"
+ ],
+ "card_country": "BR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Ferreira & Taveral",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2381,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Ferreira",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1346,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2143,
+        "y": 0.07,
+        "w": 0.0168,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Taveral",
+       "box": {
+        "x": 0.2408,
+        "y": 0.07,
+        "w": 0.0673,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Comércio Ltda.",
+     "box": {
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.1462,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Comércio",
+       "box": {
+        "x": 0.07,
+        "y": 0.14,
+        "w": 0.0861,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Ltda.",
+       "box": {
+        "x": 0.1623,
+        "y": 0.14,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Ana Paula Gonçalves Ferreira",
+     "box": {
+      "x": 0.07,
+      "y": 0.26,
+      "w": 0.5396,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Ana",
+       "box": {
+        "x": 0.07,
+        "y": 0.26,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Paula",
+       "box": {
+        "x": 0.1422,
+        "y": 0.26,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Gonçalves",
+       "box": {
+        "x": 0.2548,
+        "y": 0.26,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ferreira",
+       "box": {
+        "x": 0.4481,
+        "y": 0.26,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Diretora Comercial",
+     "box": {
+      "x": 0.07,
+      "y": 0.347,
+      "w": 0.2484,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Diretora",
+       "box": {
+        "x": 0.07,
+        "y": 0.347,
+        "w": 0.1131,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Comercial",
+       "box": {
+        "x": 0.1912,
+        "y": 0.347,
+        "w": 0.1272,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Av. Paulista, 1578 - 10º andar - Bela Vista",
+     "box": {
+      "x": 0.07,
+      "y": 0.51,
+      "w": 0.4532,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.07,
+        "y": 0.51,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Paulista,",
+       "box": {
+        "x": 0.1109,
+        "y": 0.51,
+        "w": 0.103,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "1578",
+       "box": {
+        "x": 0.2205,
+        "y": 0.51,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "-",
+       "box": {
+        "x": 0.2728,
+        "y": 0.51,
+        "w": 0.0114,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "10º",
+       "box": {
+        "x": 0.2909,
+        "y": 0.51,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "andar",
+       "box": {
+        "x": 0.3318,
+        "y": 0.51,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "-",
+       "box": {
+        "x": 0.3956,
+        "y": 0.51,
+        "w": 0.0114,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Bela",
+       "box": {
+        "x": 0.4136,
+        "y": 0.51,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Vista",
+       "box": {
+        "x": 0.466,
+        "y": 0.51,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "01310-200 São Paulo - SP",
+     "box": {
+      "x": 0.07,
+      "y": 0.5593,
+      "w": 0.2552,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "01310-200",
+       "box": {
+        "x": 0.07,
+        "y": 0.5593,
+        "w": 0.103,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "São",
+       "box": {
+        "x": 0.1796,
+        "y": 0.5593,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Paulo",
+       "box": {
+        "x": 0.2205,
+        "y": 0.5593,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "-",
+       "box": {
+        "x": 0.2843,
+        "y": 0.5593,
+        "w": 0.0114,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "SP",
+       "box": {
+        "x": 0.3023,
+        "y": 0.5593,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel.: +55 11 3251-4400",
+     "box": {
+      "x": 0.07,
+      "y": 0.6086,
+      "w": 0.2372,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Tel.:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6086,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "+55",
+       "box": {
+        "x": 0.1338,
+        "y": 0.6086,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.1747,
+        "y": 0.6086,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "3251-4400",
+       "box": {
+        "x": 0.2042,
+        "y": 0.6086,
+        "w": 0.103,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Cel.: +55 11 98765-4321",
+     "box": {
+      "x": 0.07,
+      "y": 0.6579,
+      "w": 0.2486,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Cel.:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6579,
+        "w": 0.0572,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "+55",
+       "box": {
+        "x": 0.1338,
+        "y": 0.6579,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.1747,
+        "y": 0.6579,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "98765-4321",
+       "box": {
+        "x": 0.2042,
+        "y": 0.6579,
+        "w": 0.1144,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "anapaula@ferreirataveral-com-br.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7072,
+      "w": 0.3203,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "anapaula@ferreirataveral-com-br.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7072,
+        "w": 0.3203,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "CNPJ 12.345.678/0001-90",
+     "box": {
+      "x": 0.07,
+      "y": 0.7565,
+      "w": 0.2583,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "CNPJ",
+       "box": {
+        "x": 0.07,
+        "y": 0.7565,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "12.345.678/0001-90",
+       "box": {
+        "x": 0.1224,
+        "y": 0.7565,
+        "w": 0.2059,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ana Paula",
+   "middle": "",
+   "family": "Gonçalves Ferreira",
+   "suffix": "",
+   "full": "Ana Paula Gonçalves Ferreira"
+  },
+  "otherName": null,
+  "company": "Ferreira & Taveral Comércio Ltda.",
+  "department": null,
+  "title": "Diretora Comercial",
+  "phones": [
+   {
+    "printed": "+55 11 3251-4400",
+    "e164": "+551132514400",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+55 11 98765-4321",
+    "e164": "+5511987654321",
+    "type": "mobile",
+    "label": "Cel.:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "anapaula@ferreirataveral-com-br.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Av. Paulista, 1578",
+    "extra": "10º andar - Bela Vista",
+    "pobox": "",
+    "postcode": "01310-200",
+    "city": "São Paulo",
+    "region": "SP",
+    "country": "",
+    "countryCode": "BR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.family": [
+   "Ferreira"
+  ],
+  "company": [
+   "Ferreira & Taveral"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "compound-given",
+  "cnpj",
+  "hyphen-separated-address",
+  "name-is-company",
+  "ordinal-andar",
+  "absent-url"
+ ],
+ "notes": "Brazil: compound given \"Ana Paula\", CNPJ with dots/slash is a company id. Address parts separated by \" - \"."
+}

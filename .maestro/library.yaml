@@ -1,0 +1,60 @@
+appId: ${APP_ID}
+name: Library - search, tags, events, delete with undo
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+# tag one card (multi-select → Tag), filter by the tag
+- tapOn:
+    id: select-mode
+- tapOn: ".*Delacroix-Whitfield.*"
+- tapOn:
+    id: selection-tag
+- waitForAnimationToEnd
+# the prompt's field has focus already (autoFocus); Return submits it
+- inputText: "vip"
+- pressKey: Enter
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - hideKeyboard
+- tapOn: "#vip"
+- assertVisible: ".*Delacroix-Whitfield.*"
+- assertNotVisible: ".*Jürgen Müller.*"
+- tapOn:
+    id: filter-all
+# delete with undo
+- tapOn:
+    id: select-mode
+- tapOn: ".*Jürgen Müller.*"
+- tapOn:
+    id: selection-delete
+- assertNotVisible: ".*Jürgen Müller.*"
+- tapOn:
+    id: undo-button
+- assertVisible: ".*Jürgen Müller.*"
+# events: create → used for new scans (banner) → stop
+- tapOn:
+    id: events-button
+- tapOn:
+    id: event-name-input
+- inputText: "Expo Library Test"
+- tapOn:
+    id: event-create
+- runFlow: subflows/back.yaml
+- assertVisible: ".*Scanning for: Expo Library Test.*"
+- tapOn:
+    id: event-banner
+- tapOn:
+    id: event-stop
+- runFlow: subflows/back.yaml
+# search by a word from the e-mail (umlaut folded: mueller finds Müller)
+- tapOn:
+    id: search-input
+- inputText: "mueller"
+- assertVisible: ".*Jürgen Müller.*"
+- assertNotVisible: ".*Delacroix-Whitfield.*"

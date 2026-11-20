@@ -1,0 +1,82 @@
+appId: ${APP_ID}
+name: P8 - S2 spike, iOS limited Contacts access (share one contact, add two cards, see them afterwards)
+tags:
+  - p8
+  - ios-only
+---
+# Spike S2 (SPEC §6.2, D51). Start: access not asked (launch resets it). The user picks "Select Contacts" and shares only
+# Kate Bell (a simulator sample contact). Questions: (1) is the duplicate check limited to shared contacts, (2) can
+# Contact.create add contacts under limited access, (3) are the contacts the app created visible to it afterwards,
+# (4) does Settings show the limited state. iOS only (Android has no limited Contacts access before Android 17).
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - stopApp
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - runFlow:
+          file: subflows/seed.yaml
+          env:
+            SET: basic
+      - tapOn:
+          id: select-mode
+      - tapOn: ".*Jürgen Müller.*"
+      - tapOn: ".*Delacroix-Whitfield.*"
+      - tapOn:
+          id: selection-contacts
+      - tapOn:
+          id: contacts-continue
+      - tapOn: "Continue"
+      - tapOn: "Select Contacts"
+      - tapOn: "Kate Bell"
+      - tapOn: "Continue"
+      # iOS 26 confirms: "Allow access to 1 contact?"
+      - tapOn: "Allow Selected Contact"
+      - extendedWaitUntil:
+          visible:
+            id: bulk-limited
+          timeout: 30000
+      - takeScreenshot: s2-limited-choices
+      # (1) neither card is matched: the P7 runs' Müller/Delacroix contacts were not shared
+      - assertNotVisible: ".*In Contacts as.*"
+      - tapOn:
+          text: "New contact"
+          index: 1
+      - tapOn:
+          id: bulk-add-button
+      # (2) create works under limited access
+      - assertVisible: "2 added, 0 added to existing contacts, 0 skipped, 0 failed"
+      # (3) the contacts the app created are visible to it now
+      - runFlow: subflows/back.yaml
+      # the selection is still there after coming back (select mode stays on)
+      - runFlow:
+          when:
+            notVisible:
+              id: selection-bar
+          commands:
+            - tapOn:
+                id: select-mode
+            - tapOn: ".*Jürgen Müller.*"
+            - tapOn: ".*Delacroix-Whitfield.*"
+      - tapOn:
+          id: selection-contacts
+      - extendedWaitUntil:
+          visible:
+            id: bulk-add-button
+          timeout: 30000
+      - assertVisible: "Already in Contacts as Jürgen Müller, nothing new to add\\."
+      - assertVisible: ".*Contacts as Marcus T\\. Delacroix-Whitfield.*"
+      - takeScreenshot: s2-created-visible
+      # (4) Settings names the state
+      - runFlow: subflows/back.yaml
+      - tapOn:
+          id: menu-button
+      - tapOn:
+          id: settings-button
+      - scrollUntilVisible:
+          element:
+            id: contacts-access
+      - assertVisible: "Limited to the contacts you chose"

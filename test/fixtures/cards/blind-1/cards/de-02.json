@@ -1,0 +1,633 @@
+{
+ "id": "de-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRANDAUER & PARTNER",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.5497,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "BRANDAUER",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.2725,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.36,
+        "y": 0.07,
+        "w": 0.0303,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "PARTNER",
+       "box": {
+        "x": 0.4078,
+        "y": 0.07,
+        "w": 0.212,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Steuerberatungsgesellschaft mbB",
+     "box": {
+      "x": 0.07,
+      "y": 0.17,
+      "w": 0.463,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Steuerberatungsgesellschaft",
+       "box": {
+        "x": 0.07,
+        "y": 0.17,
+        "w": 0.4088,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "mbB",
+       "box": {
+        "x": 0.4875,
+        "y": 0.17,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dipl.-Kfm. Ingolf Brandauer",
+     "box": {
+      "x": 0.07,
+      "y": 0.32,
+      "w": 0.616,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Dipl.-Kfm.",
+       "box": {
+        "x": 0.07,
+        "y": 0.32,
+        "w": 0.2355,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Ingolf",
+       "box": {
+        "x": 0.3191,
+        "y": 0.32,
+        "w": 0.1413,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Brandauer",
+       "box": {
+        "x": 0.474,
+        "y": 0.32,
+        "w": 0.212,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Steuerberater · Fachberater für Internationales Steuerrecht",
+     "box": {
+      "x": 0.07,
+      "y": 0.4215,
+      "w": 0.7656,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Steuerberater",
+       "box": {
+        "x": 0.07,
+        "y": 0.4215,
+        "w": 0.175,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2527,
+        "y": 0.4215,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Fachberater",
+       "box": {
+        "x": 0.274,
+        "y": 0.4215,
+        "w": 0.148,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.4298,
+        "y": 0.4215,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Internationales",
+       "box": {
+        "x": 0.4779,
+        "y": 0.4215,
+        "w": 0.2019,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Steuerrecht",
+       "box": {
+        "x": 0.6876,
+        "y": 0.4215,
+        "w": 0.148,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Kaiserstraße 61 | 60329 Frankfurt am Main",
+     "box": {
+      "x": 0.07,
+      "y": 0.58,
+      "w": 0.5176,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Kaiserstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.58,
+        "w": 0.1615,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.2393,
+        "y": 0.58,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "|",
+       "box": {
+        "x": 0.274,
+        "y": 0.58,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "60329",
+       "box": {
+        "x": 0.2952,
+        "y": 0.58,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Frankfurt",
+       "box": {
+        "x": 0.3702,
+        "y": 0.58,
+        "w": 0.1211,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "am",
+       "box": {
+        "x": 0.4991,
+        "y": 0.58,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Main",
+       "box": {
+        "x": 0.5338,
+        "y": 0.58,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Telefon +49 69 2710 39-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.638,
+      "w": 0.3002,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Telefon",
+       "box": {
+        "x": 0.07,
+        "y": 0.638,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.172,
+        "y": 0.638,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "69",
+       "box": {
+        "x": 0.2201,
+        "y": 0.638,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "2710",
+       "box": {
+        "x": 0.2548,
+        "y": 0.638,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "39-0",
+       "box": {
+        "x": 0.3164,
+        "y": 0.638,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Durchwahl +49 69 2710 39-14",
+     "box": {
+      "x": 0.07,
+      "y": 0.696,
+      "w": 0.3406,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Durchwahl",
+       "box": {
+        "x": 0.07,
+        "y": 0.696,
+        "w": 0.1211,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1989,
+        "y": 0.696,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "69",
+       "box": {
+        "x": 0.247,
+        "y": 0.696,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "2710",
+       "box": {
+        "x": 0.2817,
+        "y": 0.696,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "39-14",
+       "box": {
+        "x": 0.3433,
+        "y": 0.696,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Telefax +49 69 2710 39-99",
+     "box": {
+      "x": 0.07,
+      "y": 0.754,
+      "w": 0.3137,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Telefax",
+       "box": {
+        "x": 0.07,
+        "y": 0.754,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.172,
+        "y": 0.754,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "69",
+       "box": {
+        "x": 0.2201,
+        "y": 0.754,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "2710",
+       "box": {
+        "x": 0.2548,
+        "y": 0.754,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "39-99",
+       "box": {
+        "x": 0.3164,
+        "y": 0.754,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "i.brandauer@brandauer-partner-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.812,
+      "w": 0.4307,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "i.brandauer@brandauer-partner-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.812,
+        "w": 0.4307,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "USt-IdNr. DE 287 456 913",
+     "box": {
+      "x": 0.07,
+      "y": 0.87,
+      "w": 0.3002,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "USt-IdNr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.87,
+        "w": 0.1211,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "DE",
+       "box": {
+        "x": 0.1989,
+        "y": 0.87,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "287",
+       "box": {
+        "x": 0.2336,
+        "y": 0.87,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.2817,
+        "y": 0.87,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "913",
+       "box": {
+        "x": 0.3299,
+        "y": 0.87,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Kfm.",
+   "given": "Ingolf",
+   "middle": "",
+   "family": "Brandauer",
+   "suffix": "",
+   "full": "Dipl.-Kfm. Ingolf Brandauer"
+  },
+  "otherName": null,
+  "company": "BRANDAUER & PARTNER",
+  "department": null,
+  "title": "Steuerberater",
+  "phones": [
+   {
+    "printed": "+49 69 2710 39-0",
+    "e164": "+49692710390",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   },
+   {
+    "printed": "+49 69 2710 39-14",
+    "e164": "+496927103914",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null
+   },
+   {
+    "printed": "+49 69 2710 39-99",
+    "e164": "+496927103999",
+    "type": "fax",
+    "label": "Telefax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "i.brandauer@brandauer-partner-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Kaiserstraße 61",
+    "extra": "",
+    "pobox": "",
+    "postcode": "60329",
+    "city": "Frankfurt am Main",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "BRANDAUER & PARTNER Steuerberatungsgesellschaft mbB",
+   "Steuerberatungsgesellschaft mbB"
+  ],
+  "title": [
+   "Steuerberater · Fachberater für Internationales Steuerrecht",
+   "Fachberater für Internationales Steuerrecht"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "vat-id",
+  "extension-dash-0",
+  "multiword-city",
+  "pipe-segment",
+  "caps-logo-company",
+  "prefix-degree",
+  "name-is-company"
+ ],
+ "notes": "USt-IdNr. has 9 digits and must not become a phone. -0 is the switchboard, -14 the direct line."
+}

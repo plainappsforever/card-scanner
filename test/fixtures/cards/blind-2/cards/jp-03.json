@@ -1,0 +1,351 @@
+{
+ "id": "jp-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KUMO ROBOTICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.1389,
+      "w": 0.4088,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "KUMO",
+       "box": {
+        "x": 0.07,
+        "y": 0.1389,
+        "w": 0.1304,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "ROBOTICS",
+       "box": {
+        "x": 0.2179,
+        "y": 0.1389,
+        "w": 0.2609,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Kumo Robotics K.K.",
+     "box": {
+      "x": 0.07,
+      "y": 0.2509,
+      "w": 0.3093,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Kumo",
+       "box": {
+        "x": 0.07,
+        "y": 0.2509,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Robotics",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2509,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "K.K.",
+       "box": {
+        "x": 0.3068,
+        "y": 0.2509,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Kenji Watanabe",
+     "box": {
+      "x": 0.07,
+      "y": 0.3229,
+      "w": 0.3188,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Kenji",
+       "box": {
+        "x": 0.07,
+        "y": 0.3229,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Watanabe",
+       "box": {
+        "x": 0.2004,
+        "y": 0.3229,
+        "w": 0.1884,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Hardware Engineer, R&D Center",
+     "box": {
+      "x": 0.07,
+      "y": 0.4099,
+      "w": 0.5002,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Hardware",
+       "box": {
+        "x": 0.07,
+        "y": 0.4099,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Engineer,",
+       "box": {
+        "x": 0.2246,
+        "y": 0.4099,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "R&D",
+       "box": {
+        "x": 0.3974,
+        "y": 0.4099,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Center",
+       "box": {
+        "x": 0.4615,
+        "y": 0.4099,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Mobile +81 80-1234-5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.4819,
+      "w": 0.3999,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.07,
+        "y": 0.4819,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+81",
+       "box": {
+        "x": 0.1884,
+        "y": 0.4819,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "80-1234-5678",
+       "box": {
+        "x": 0.2525,
+        "y": 0.4819,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Support 0120-987-654",
+     "box": {
+      "x": 0.07,
+      "y": 0.5539,
+      "w": 0.3539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Support",
+       "box": {
+        "x": 0.07,
+        "y": 0.5539,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0120-987-654",
+       "box": {
+        "x": 0.2065,
+        "y": 0.5539,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "kenji.watanabe@kumo-robotics-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6259,
+      "w": 0.5798,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "kenji.watanabe@kumo-robotics-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6259,
+        "w": 0.5798,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "https://www.kumo-robotics.com/en/",
+    "box": {
+     "x": 0.7,
+     "y": 0.3,
+     "w": 0.24,
+     "h": 0.37
+    }
+   }
+  ],
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kenji",
+   "middle": "",
+   "family": "Watanabe",
+   "suffix": "",
+   "full": "Kenji Watanabe"
+  },
+  "otherName": null,
+  "company": "Kumo Robotics K.K.",
+  "department": "R&D Center",
+  "title": "Hardware Engineer",
+  "phones": [
+   {
+    "printed": "+81 80-1234-5678",
+    "e164": "+818012345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   },
+   {
+    "printed": "0120-987-654",
+    "e164": "+81120987654",
+    "type": "work",
+    "label": "Support",
+    "ext": null,
+    "type_accept": [
+     "other"
+    ]
+   }
+  ],
+  "emails": [
+   "kenji.watanabe@kumo-robotics-com.example"
+  ],
+  "urls": [
+   "https://www.kumo-robotics.com/en/"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Hardware Engineer, R&D Center"
+  ],
+  "company": [
+   "KUMO ROBOTICS"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "region-mismatch",
+  "qr-url",
+  "toll-free",
+  "region-from-other-number",
+  "title-dept-one-line",
+  "legal-form-unknown",
+  "absent-addresses"
+ ],
+ "notes": "Region DE and no address: 0120-987-654 is Japanese because the card's other number has +81 (SPEC: +cc on the card first). \"K.K.\" (kabushiki kaisha) is a legal form not in the usual lists. URL only in the QR code."
+}

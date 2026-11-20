@@ -1,0 +1,616 @@
+{
+ "id": "de-06",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KESSLER",
+     "box": {
+      "x": 0.07,
+      "y": 0.04,
+      "w": 0.3044,
+      "h": 0.12
+     },
+     "height": 0.12,
+     "words": [
+      {
+       "text": "KESSLER",
+       "box": {
+        "x": 0.07,
+        "y": 0.04,
+        "w": 0.3044,
+        "h": 0.12
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Logistik GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.182,
+      "w": 0.2271,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Logistik",
+       "box": {
+        "x": 0.07,
+        "y": 0.182,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.2246,
+        "y": 0.182,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Tobias Engel",
+     "box": {
+      "x": 0.07,
+      "y": 0.254,
+      "w": 0.2717,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Tobias",
+       "box": {
+        "x": 0.07,
+        "y": 0.254,
+        "w": 0.1413,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Engel",
+       "box": {
+        "x": 0.2239,
+        "y": 0.254,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Vertrieb Süd",
+     "box": {
+      "x": 0.07,
+      "y": 0.341,
+      "w": 0.3274,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Leiter",
+       "box": {
+        "x": 0.07,
+        "y": 0.341,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Vertrieb",
+       "box": {
+        "x": 0.1884,
+        "y": 0.341,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Süd",
+       "box": {
+        "x": 0.3431,
+        "y": 0.341,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Bürgermeister-Wegele-Str. 12",
+     "box": {
+      "x": 0.07,
+      "y": 0.413,
+      "w": 0.4989,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Bürgermeister-Wegele-Str.",
+       "box": {
+        "x": 0.07,
+        "y": 0.413,
+        "w": 0.4529,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.5326,
+        "y": 0.413,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "86167 Augsburg",
+     "box": {
+      "x": 0.07,
+      "y": 0.485,
+      "w": 0.2452,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "86167",
+       "box": {
+        "x": 0.07,
+        "y": 0.485,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Augsburg",
+       "box": {
+        "x": 0.1703,
+        "y": 0.485,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel.: +49 821 650 43-17",
+     "box": {
+      "x": 0.07,
+      "y": 0.557,
+      "w": 0.3831,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.:",
+       "box": {
+        "x": 0.07,
+        "y": 0.557,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1703,
+        "y": 0.557,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "821",
+       "box": {
+        "x": 0.2344,
+        "y": 0.557,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "650",
+       "box": {
+        "x": 0.2984,
+        "y": 0.557,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "43-17",
+       "box": {
+        "x": 0.3625,
+        "y": 0.557,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Fax: +49 821 650 43-99",
+     "box": {
+      "x": 0.07,
+      "y": 0.629,
+      "w": 0.3649,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Fax:",
+       "box": {
+        "x": 0.07,
+        "y": 0.629,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.629,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "821",
+       "box": {
+        "x": 0.2162,
+        "y": 0.629,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "650",
+       "box": {
+        "x": 0.2803,
+        "y": 0.629,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "43-99",
+       "box": {
+        "x": 0.3444,
+        "y": 0.629,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Mobil:+49 160 9 12 34 56",
+     "box": {
+      "x": 0.07,
+      "y": 0.701,
+      "w": 0.3928,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil:+49",
+       "box": {
+        "x": 0.07,
+        "y": 0.701,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "160",
+       "box": {
+        "x": 0.2428,
+        "y": 0.701,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.3068,
+        "y": 0.701,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.3346,
+        "y": 0.701,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.3806,
+        "y": 0.701,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.4265,
+        "y": 0.701,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "tobias.engel@kessler-logistik-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.773,
+      "w": 0.5798,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "tobias.engel@kessler-logistik-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.773,
+        "w": 0.5798,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "www.kessler-logistik.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.845,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.kessler-logistik.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.845,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f11",
+     "text": "A member of the Nordwind Group",
+     "box": {
+      "x": 0.07,
+      "y": 0.917,
+      "w": 0.3009,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "A",
+       "box": {
+        "x": 0.07,
+        "y": 0.917,
+        "w": 0.0109,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "member",
+       "box": {
+        "x": 0.0867,
+        "y": 0.917,
+        "w": 0.0652,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1577,
+        "y": 0.917,
+        "w": 0.0217,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.1853,
+        "y": 0.917,
+        "w": 0.0326,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Nordwind",
+       "box": {
+        "x": 0.2237,
+        "y": 0.917,
+        "w": 0.087,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Group",
+       "box": {
+        "x": 0.3165,
+        "y": 0.917,
+        "w": 0.0544,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "AT",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Tobias",
+   "middle": "",
+   "family": "Engel",
+   "suffix": "",
+   "full": "Tobias Engel"
+  },
+  "otherName": null,
+  "company": "KESSLER Logistik GmbH",
+  "department": "Vertrieb Süd",
+  "title": "Leiter",
+  "phones": [
+   {
+    "printed": "+49 821 650 43-17",
+    "e164": "+498216504317",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+49 821 650 43-99",
+    "e164": "+498216504399",
+    "type": "fax",
+    "label": "Fax:",
+    "ext": null
+   },
+   {
+    "printed": "+49 160 9 12 34 56",
+    "e164": "+491609123456",
+    "type": "mobile",
+    "label": "Mobil:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "tobias.engel@kessler-logistik-de.example"
+  ],
+  "urls": [
+   "www.kessler-logistik.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bürgermeister-Wegele-Str. 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "86167",
+    "city": "Augsburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Leiter Vertrieb Süd"
+  ],
+  "company": [
+   "KESSLER Logistik"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Mobil: +49",
+   "ocr": "Mobil:+49",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "group-line-not-company",
+  "title-dept-one-line",
+  "ext-pair",
+  "glued-label",
+  "region-from-plus-cc",
+  "dropped-space"
+ ],
+ "notes": "Title Leiter, department Vertrieb Süd (the whole line as title is accepted). \"Nordwind Group\" is not the company. Region AT is irrelevant because every number has +49."
+}

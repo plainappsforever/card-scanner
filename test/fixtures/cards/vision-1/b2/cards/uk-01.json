@@ -1,0 +1,247 @@
+{
+ "id": "uk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ASHWORTH & PRYCE",
+     "box": {
+      "x": 0.06686046530586452,
+      "y": 0.0627413122101359,
+      "w": 0.5,
+      "h": 0.10810810810810811
+     },
+     "height": 0.10810810810810811,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Chartered Surveyors",
+     "box": {
+      "x": 0.07206344057778274,
+      "y": 0.17513943784112163,
+      "w": 0.2803125,
+      "h": 0.05692026513883974
+     },
+     "height": 0.05692026513883974,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Oliver Pryce MRICS",
+     "box": {
+      "x": 0.07083449312376032,
+      "y": 0.253013223422035,
+      "w": 0.3073245811462402,
+      "h": 0.06005002909185353
+     },
+     "height": 0.06005002909185353,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Director",
+     "box": {
+      "x": 0.07239788741150348,
+      "y": 0.3319910450414303,
+      "w": 0.10811120033264161,
+      "h": 0.04005378369659074
+     },
+     "height": 0.04005378369659074,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Head Office",
+     "box": {
+      "x": 0.07103669711042754,
+      "y": 0.4039940750993778,
+      "w": 0.1631737518310547,
+      "h": 0.04207138297180402
+     },
+     "height": 0.04207138297180402,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "14 Bedford Row, London WC1R 4ED",
+     "box": {
+      "x": 0.0694524441017527,
+      "y": 0.4775817467651555,
+      "w": 0.46857692718505856,
+      "h": 0.05968499643922309
+     },
+     "height": 0.05968499643922309,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "T/F +44 (0)20 7405 1234",
+     "box": {
+      "x": 0.06540697175884397,
+      "y": 0.5492277986920318,
+      "w": 0.35174419403076174,
+      "h": 0.049426909119005824
+     },
+     "height": 0.049426909119005824,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "M +44 (0)7812 345 678",
+     "box": {
+      "x": 0.06796514812677099,
+      "y": 0.619972476832477,
+      "w": 0.3320159912109375,
+      "h": 0.053238491294006596
+     },
+     "height": 0.053238491294006596,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "o.pryce@ashworthpryce-co-uk.example",
+     "box": {
+      "x": 0.0665980064531865,
+      "y": 0.6939995600890305,
+      "w": 0.3900627899169923,
+      "h": 0.051111110849270114
+     },
+     "height": 0.051111110849270114,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "Ashworth & Pryce Ltd • Registered in England No. 04123456 • Regulated by RICS",
+     "box": {
+      "x": 0.06524859264459934,
+      "y": 0.7633294441358764,
+      "w": 0.4770842361450195,
+      "h": 0.033537176124837864
+     },
+     "height": 0.033537176124837864,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Oliver",
+   "middle": "",
+   "family": "Pryce",
+   "suffix": "MRICS",
+   "full": "Oliver Pryce MRICS"
+  },
+  "otherName": null,
+  "company": "ASHWORTH & PRYCE",
+  "department": null,
+  "title": "Director",
+  "phones": [
+   {
+    "printed": "+44 (0)20 7405 1234",
+    "e164": "+442074051234",
+    "type": "work",
+    "label": "T/F",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "+44 (0)7812 345 678",
+    "e164": "+447812345678",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "o.pryce@ashworthpryce-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "14 Bedford Row",
+    "extra": "",
+    "pobox": "",
+    "postcode": "WC1R 4ED",
+    "city": "London",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Ashworth & Pryce Ltd"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "combined-label",
+  "trunk-in-brackets",
+  "credential-suffix",
+  "registry-id",
+  "name-is-company",
+  "region-from-plus-cc",
+  "ocr-1l"
+ ],
+ "notes": "\"Head Office\" is not a title (title = Director). The (0) must be dropped: +44 20 7405 1234. MRICS is a suffix. Postcode WC1R 4ED (OCR \"WClR\").",
+ "o3": {
+  "source": "blind-2/cards/uk-01.json",
+  "images": [
+   {
+    "name": "b2-uk-01",
+    "font": "Verdana",
+    "rotation": -0.74,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 104
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

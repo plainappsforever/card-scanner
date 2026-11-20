@@ -1,0 +1,212 @@
+{
+ "id": "de-19",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Maler Gerlbeck",
+     "box": {
+      "x": 0.07346105417449618,
+      "y": 0.09939164384487897,
+      "w": 0.4070153427124024,
+      "h": 0.08736879208833548
+     },
+     "height": 0.08736879208833548,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Farbe. Raum. Ideen.",
+     "box": {
+      "x": 0.07210278183472639,
+      "y": 0.21935253482473305,
+      "w": 0.27448938369750975,
+      "h": 0.056489716165314285
+     },
+     "height": 0.056489716165314285,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Stefan Gerlbeck",
+     "box": {
+      "x": 0.07077796549090624,
+      "y": 0.2915891033147513,
+      "w": 0.28151521682739256,
+      "h": 0.058759171990354075
+     },
+     "height": 0.058759171990354075,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Malermeister",
+     "box": {
+      "x": 0.0722939334048475,
+      "y": 0.3837636702547944,
+      "w": 0.16498788833618164,
+      "h": 0.04074063540425543
+     },
+     "height": 0.04074063540425543,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "• Tel./Fax 0911 3 21 09 87",
+     "box": {
+      "x": 0.06800638337879886,
+      "y": 0.451910437929369,
+      "w": 0.33925048828125004,
+      "h": 0.05387647547777097
+     },
+     "height": 0.05387647547777097,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobil 0162 7 65 43 21",
+     "box": {
+      "x": 0.06802295484952182,
+      "y": 0.525266547705922,
+      "w": 0.28403385162353517,
+      "h": 0.046003569967498215
+     },
+     "height": 0.046003569967498215,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "• info@maler-gerlbeck-de.example",
+     "box": {
+      "x": 0.06652727111262077,
+      "y": 0.5993280099290033,
+      "w": 0.32771873474121094,
+      "h": 0.05317357884410734
+     },
+     "height": 0.05317357884410734,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "• Fürther Str. 212 • 90429 Nürnberg",
+     "box": {
+      "x": 0.06625590668843614,
+      "y": 0.6626746367245936,
+      "w": 0.4468630599975586,
+      "h": 0.06231891234408937
+     },
+     "height": 0.06231891234408937,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Stefan",
+   "middle": "",
+   "family": "Gerlbeck",
+   "suffix": "",
+   "full": "Stefan Gerlbeck"
+  },
+  "otherName": null,
+  "company": "Maler Gerlbeck",
+  "department": null,
+  "title": "Malermeister",
+  "phones": [
+   {
+    "printed": "0911 3 21 09 87",
+    "e164": "+499113210987",
+    "type": "work",
+    "label": "Tel./Fax",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "0162 7 65 43 21",
+    "e164": "+491627654321",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@maler-gerlbeck-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Fürther Str. 212",
+    "extra": "",
+    "pobox": "",
+    "postcode": "90429",
+    "city": "Nürnberg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "combined-label",
+  "tagline-not-title",
+  "name-is-company",
+  "stray-icon"
+ ],
+ "notes": "\"Tel./Fax\" = one number for both (work, fax accepted). The \"M\" before the e-mail is the envelope icon, not a mobile label; the \"6\" before the street is the house icon (street is \"Fürther Str. 212\").",
+ "o3": {
+  "source": "blind-2/cards/de-19.json",
+  "images": [
+   {
+    "name": "b2-de-19",
+    "font": "ArialMT",
+    "rotation": -0.97,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

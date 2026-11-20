@@ -1,0 +1,512 @@
+{
+ "id": "it-h15",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it",
+  "de"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "it-IT",
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HOTEL BERGRAST",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4272,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "HOTEL",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1424,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "BERGRAST",
+       "box": {
+        "x": 0.2409,
+        "y": 0.06,
+        "w": 0.2563,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "**** S",
+     "box": {
+      "x": 0.07,
+      "y": 0.16,
+      "w": 0.0854,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "****",
+       "box": {
+        "x": 0.07,
+        "y": 0.16,
+        "w": 0.0569,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "S",
+       "box": {
+        "x": 0.1412,
+        "y": 0.16,
+        "w": 0.0142,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Lukas Pichler",
+     "box": {
+      "x": 0.07,
+      "y": 0.26,
+      "w": 0.2777,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Lukas",
+       "box": {
+        "x": 0.07,
+        "y": 0.26,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Pichler",
+       "box": {
+        "x": 0.1982,
+        "y": 0.26,
+        "w": 0.1495,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Direttore · Direktor",
+     "box": {
+      "x": 0.07,
+      "y": 0.34,
+      "w": 0.2492,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Direttore",
+       "box": {
+        "x": 0.07,
+        "y": 0.34,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1946,
+        "y": 0.34,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Direktor",
+       "box": {
+        "x": 0.2195,
+        "y": 0.34,
+        "w": 0.0997,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Via Dolomiti 12 / Dolomitenstraße 12",
+     "box": {
+      "x": 0.07,
+      "y": 0.425,
+      "w": 0.4101,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Via",
+       "box": {
+        "x": 0.07,
+        "y": 0.425,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Dolomiti",
+       "box": {
+        "x": 0.1156,
+        "y": 0.425,
+        "w": 0.0911,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.2181,
+        "y": 0.425,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2523,
+        "y": 0.425,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Dolomitenstraße",
+       "box": {
+        "x": 0.2751,
+        "y": 0.425,
+        "w": 0.1709,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.4573,
+        "y": 0.425,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "I-39040 Castelrotto / Kastelruth (BZ)",
+     "box": {
+      "x": 0.07,
+      "y": 0.477,
+      "w": 0.4215,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "I-39040",
+       "box": {
+        "x": 0.07,
+        "y": 0.477,
+        "w": 0.0797,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Castelrotto",
+       "box": {
+        "x": 0.1611,
+        "y": 0.477,
+        "w": 0.1253,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2978,
+        "y": 0.477,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Kastelruth",
+       "box": {
+        "x": 0.3206,
+        "y": 0.477,
+        "w": 0.1139,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "(BZ)",
+       "box": {
+        "x": 0.4459,
+        "y": 0.477,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +39 0471 61 23 45",
+     "box": {
+      "x": 0.07,
+      "y": 0.529,
+      "w": 0.2506,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.529,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+39",
+       "box": {
+        "x": 0.127,
+        "y": 0.529,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "0471",
+       "box": {
+        "x": 0.1725,
+        "y": 0.529,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.2295,
+        "y": 0.529,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.2636,
+        "y": 0.529,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.2978,
+        "y": 0.529,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "info@hotel-bergrast-it.example · www.hotel-bergrast.it",
+     "box": {
+      "x": 0.07,
+      "y": 0.581,
+      "w": 0.5126,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "info@hotel-bergrast-it.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.581,
+        "w": 0.2456,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3263,
+        "y": 0.581,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "www.hotel-bergrast.it",
+       "box": {
+        "x": 0.3477,
+        "y": 0.581,
+        "w": 0.2349,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "P.IVA 01234560211",
+     "box": {
+      "x": 0.07,
+      "y": 0.631,
+      "w": 0.1574,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "P.IVA",
+       "box": {
+        "x": 0.07,
+        "y": 0.631,
+        "w": 0.0463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "01234560211",
+       "box": {
+        "x": 0.1256,
+        "y": 0.631,
+        "w": 0.1018,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lukas",
+   "middle": "",
+   "family": "Pichler",
+   "suffix": "",
+   "full": "Lukas Pichler"
+  },
+  "otherName": null,
+  "company": "HOTEL BERGRAST",
+  "department": null,
+  "title": "Direttore · Direktor",
+  "phones": [
+   {
+    "printed": "+39 0471 61 23 45",
+    "e164": "+390471612345",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@hotel-bergrast-it.example"
+  ],
+  "urls": [
+   "www.hotel-bergrast.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via Dolomiti 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "39040",
+    "city": "Castelrotto",
+    "region": "BZ",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Direttore",
+   "Direktor"
+  ],
+  "addresses[0].street": [
+   "Dolomitenstraße 12"
+  ],
+  "addresses[0].city": [
+   "Kastelruth"
+  ],
+  "addresses[0].postcode": [
+   "I-39040"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "hotel",
+  "bilingual-address",
+  "vat-id",
+  "foreign-region",
+  "stars-symbol",
+  "country-prefixed-postcode",
+  "italian-leading-zero"
+ ],
+ "notes": "South Tyrol: street and town printed in Italian and German separated by \" / \" (either is right). Postcode carries \"I-\". Hotel stars read as \"**** S\". P.IVA has 11 digits and is not a phone."
+}

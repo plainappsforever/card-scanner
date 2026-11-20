@@ -1,0 +1,239 @@
+{
+ "id": "id-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "id"
+ ],
+ "card_country": "ID",
+ "layout": "landscape",
+ "input": {
+  "region": "ID",
+  "uiLang": "id",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "id-ID",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PT NUSANTARA KEMASAN Tbk",
+     "box": {
+      "x": 0.07083332676419501,
+      "y": 0.08301158468813863,
+      "w": 0.5916666793823242,
+      "h": 0.0646718146718146
+     },
+     "height": 0.0646718146718146,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Budi Santoso, S.T., M.M.",
+     "box": {
+      "x": 0.06976744000970612,
+      "y": 0.17713004446484115,
+      "w": 0.32994186401367187,
+      "h": 0.06321744661073425
+     },
+     "height": 0.06321744661073425,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Manajer Pemasaran",
+     "box": {
+      "x": 0.0720878942399429,
+      "y": 0.2504541951649799,
+      "w": 0.23946828842163087,
+      "h": 0.054988603334169106
+     },
+     "height": 0.054988603334169106,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Gedung Graha Niaga Lt. 15",
+     "box": {
+      "x": 0.06933102969981228,
+      "y": 0.3231072025497077,
+      "w": 0.32927768707275396,
+      "h": 0.05850162653389113
+     },
+     "height": 0.05850162653389113,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Jl. Jend. Sudirman Kav. 52-53",
+     "box": {
+      "x": 0.06641758324726357,
+      "y": 0.3946213762260222,
+      "w": 0.3466924285888672,
+      "h": 0.058325653370743136
+     },
+     "height": 0.058325653370743136,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Jakorta Selatan 12190",
+     "box": {
+      "x": 0.06663496972050777,
+      "y": 0.4687509479437738,
+      "w": 0.2635196113586426,
+      "h": 0.046452494661780364
+     },
+     "height": 0.046452494661780364,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Telp. (021) 5150 8899",
+     "box": {
+      "x": 0.06540697814541495,
+      "y": 0.5424710422042457,
+      "w": 0.2659883689880371,
+      "h": 0.04729729729729726
+     },
+     "height": 0.04729729729729726,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "HP 0812 3456 7890",
+     "box": {
+      "x": 0.0679608864009593,
+      "y": 0.611097025141068,
+      "w": 0.23757219314575195,
+      "h": 0.047405393887670844
+     },
+     "height": 0.047405393887670844,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "budi.santoso@nusantarakemasan-co-id.example",
+     "box": {
+      "x": 0.06813695046384716,
+      "y": 0.683372835908496,
+      "w": 0.45235801696777345,
+      "h": 0.04793927476212789
+     },
+     "height": 0.04793927476212789,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "NPWP 01.234.567.8-091.000",
+     "box": {
+      "x": 0.06671246546611273,
+      "y": 0.754233005189506,
+      "w": 0.17762733459472654,
+      "h": 0.028781266746373713
+     },
+     "height": 0.028781266746373713,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Budi",
+   "middle": "",
+   "family": "Santoso",
+   "suffix": "S.T., M.M.",
+   "full": "Budi Santoso, S.T., M.M."
+  },
+  "otherName": null,
+  "company": "PT NUSANTARA KEMASAN Tbk",
+  "department": "Pemasaran",
+  "title": "Manajer",
+  "phones": [
+   {
+    "printed": "(021) 5150 8899",
+    "e164": "+622151508899",
+    "type": "work",
+    "label": "Telp.",
+    "ext": null
+   },
+   {
+    "printed": "0812 3456 7890",
+    "e164": "+6281234567890",
+    "type": "mobile",
+    "label": "HP",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "budi.santoso@nusantarakemasan-co-id.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Jl. Jend. Sudirman Kav. 52-53",
+    "extra": "Gedung Graha Niaga Lt. 15",
+    "pobox": "",
+    "postcode": "12190",
+    "city": "Jakarta Selatan",
+    "region": "",
+    "country": "",
+    "countryCode": "ID"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Manajer Pemasaran"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "credential-suffix",
+  "title-dept-one-line",
+  "tax-id",
+  "legal-form-prefix",
+  "ocr-0O"
+ ],
+ "notes": "S.T., M.M. are suffixes. \"PT\" is a legal-form prefix here (unlike the US \"PT\" credential). NPWP is not a phone. Title Manajer, department Pemasaran.",
+ "o3": {
+  "source": "blind-2/cards/id-01.json",
+  "images": [
+   {
+    "name": "b2-id-01",
+    "font": "Futura-Medium",
+    "rotation": -0.56,
+    "noise": 10,
+    "blur": 1.4,
+    "langs": [
+     "id-ID",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 88
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,198 @@
+{
+ "id": "de-y08",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ELEKTRO HANSEN",
+     "box": {
+      "x": 0.06352432314187567,
+      "y": 0.06171093911915926,
+      "w": 0.4601377868652344,
+      "h": 0.058407551533466995
+     },
+     "height": 0.058407551533466995,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Meisterbetrieb seit 1991",
+     "box": {
+      "x": 0.06657445335951528,
+      "y": 0.15674388447548537,
+      "w": 0.19390092849731444,
+      "h": 0.033048924331959606
+     },
+     "height": 0.033048924331959606,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Elektroinstallotion • Smort Home • E-Mobilität",
+     "box": {
+      "x": 0.06520354958143365,
+      "y": 0.20724505818424543,
+      "w": 0.3216569519042969,
+      "h": 0.03406724230202929
+     },
+     "height": 0.03406724230202929,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 0431 54 33 21",
+     "box": {
+      "x": 0.06652129594664384,
+      "y": 0.32038840873356556,
+      "w": 0.15905638694763186,
+      "h": 0.03489270449605231
+     },
+     "height": 0.03489270449605231,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Notdienst 0170 8 33 44 21",
+     "box": {
+      "x": 0.06804687841015195,
+      "y": 0.377527089083162,
+      "w": 0.2084189414978027,
+      "h": 0.032277674288363145
+     },
+     "height": 0.032277674288363145,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Holtenauer Straße 204 • 24105 Kiel",
+     "box": {
+      "x": 0.06801758514947653,
+      "y": 0.4293081169191253,
+      "w": 0.2389801025390625,
+      "h": 0.03252011192351234
+     },
+     "height": 0.03252011192351234,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "elektro-hansen-kiel. de",
+     "box": {
+      "x": 0.06831395595310873,
+      "y": 0.4816602319815598,
+      "w": 0.15116278648376463,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "ELEKTRO HANSEN",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "0431 54 33 21",
+    "e164": "+49431543321",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0170 8 33 44 21",
+    "e164": "+491708334421",
+    "type": "mobile",
+    "label": "Notdienst",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "elektro-hansen-trentsee.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Holtenauer Straße 204",
+    "extra": "",
+    "pobox": "",
+    "postcode": "24105",
+    "city": "Kiel",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [
+  "company"
+ ],
+ "traps": [
+  "trade",
+  "letter-spaced-logo",
+  "absent-name",
+  "absent-email",
+  "tagline",
+  "year-in-tagline",
+  "unknown-phone-label",
+  "bare-domain",
+  "ocr-pipe-for-l"
+ ],
+ "notes": "Letter-spaced logo \"E L E K T R O  H A N S E N\" = company \"ELEKTRO HANSEN\". Company card without a person: no name, no title, no e-mail. \"seit 1991\" is not a phone or postcode. \"Notdienst\" (emergency service) labels a mobile number. Bare domain without www.",
+ "o3": {
+  "source": "blind-3/cards/de-y08.json",
+  "images": [
+   {
+    "name": "b3-de-y08",
+    "font": "Futura-Medium",
+    "rotation": 1.17,
+    "noise": 11,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 96
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

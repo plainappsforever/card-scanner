@@ -1,0 +1,14 @@
+# .oss-scrub-allow - findings of scripts/oss/scrub-check.sh that a human checked and accepts (public file, no values).
+# Reviewed 2026-10-16 for the first public source release (docs/CORPUS_FICTIONALISATION.md).
+P-EMAIL test/fixtures/*                  # invented people at non-resolving fictional domains; random digits
+P-PHONE test/fixtures/*                  # invented people at non-resolving fictional domains; random digits
+P-EMAIL test/*.test.ts                   # invented people at non-resolving fictional domains; random digits
+P-PHONE test/*.test.ts                   # invented people at non-resolving fictional domains; random digits
+P-EMAIL src/*.test.ts                    # invented people at non-resolving fictional domains; random digits
+P-PHONE src/*.test.ts                    # invented people at non-resolving fictional domains; random digits
+I-OCR   assets/dev-seed/b1-de-01.jpg     # rendered test card: invented person, mueller-elektro-hn.de does not resolve; random digits
+I-OCR   assets/dev-seed/b1-fr-01.jpg     # rendered test card: invented person, lefevre-fils.fr does not resolve; random digits
+I-OCR   assets/dev-seed/b1-it-01.jpg     # rendered test card: invented person, bonfigliomeccanica.it does not resolve; random digits
+I-OCR   assets/dev-seed/b1-nl-01.jpg     # rendered test card: invented person, vdb-waterbouw.nl does not resolve; random digits
+I-OCR   assets/dev-seed/b1-tr-01.jpg     # rendered test card: invented person, karaosmanoglu.av.tr does not resolve; random digits
+I-OCR   assets/dev-seed/b1-uk-01.jpg     # rendered test card: invented person, hallworthpryce.co.uk does not resolve; random digits

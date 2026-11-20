@@ -1,0 +1,242 @@
+{
+ "id": "es-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "region": "ES",
+  "uiLang": "es",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "es-ES",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GRUPO ALCÁZAR",
+     "box": {
+      "x": 0.07363530647524716,
+      "y": 0.04586523735304571,
+      "w": 0.4647856140136718,
+      "h": 0.09151158277592608
+     },
+     "height": 0.09151158277592608,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Distribución, S.L.",
+     "box": {
+      "x": 0.0710458130220087,
+      "y": 0.17955704362685698,
+      "w": 0.22277942657470706,
+      "h": 0.05308553703042995
+     },
+     "height": 0.05308553703042995,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "María José Fernández López",
+     "box": {
+      "x": 0.07202980757446972,
+      "y": 0.2438877632534211,
+      "w": 0.4343647766113281,
+      "h": 0.07212765520603959
+     },
+     "height": 0.07212765520603959,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Gerente de Ventas",
+     "box": {
+      "x": 0.07098516381234404,
+      "y": 0.33145654525917334,
+      "w": 0.23015502929687498,
+      "h": 0.04211645236806982
+     },
+     "height": 0.04211645236806982,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "C/ de Serrano, 89, 3° Izda.",
+     "box": {
+      "x": 0.07122093901270915,
+      "y": 0.40134529061422874,
+      "w": 0.35029067993164065,
+      "h": 0.05618366771683281
+     },
+     "height": 0.05618366771683281,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "28006 Madrid",
+     "box": {
+      "x": 0.06794820946169962,
+      "y": 0.47251611399506155,
+      "w": 0.18240009307861332,
+      "h": 0.0452097594507872
+     },
+     "height": 0.0452097594507872,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 912 345 678",
+     "box": {
+      "x": 0.0697674465814864,
+      "y": 0.54708520100163,
+      "w": 0.20203487396240236,
+      "h": 0.04075263734029522
+     },
+     "height": 0.04075263734029522,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Móvil 612 34 56 78",
+     "box": {
+      "x": 0.06793515494724374,
+      "y": 0.6164135995123006,
+      "w": 0.23918777465820312,
+      "h": 0.047535200376768394
+     },
+     "height": 0.047535200376768394,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "mjfernandez@alcazar-distribucion-es.example",
+     "box": {
+      "x": 0.06673484418172361,
+      "y": 0.6923368805036113,
+      "w": 0.4581428146362305,
+      "h": 0.05020645318344297
+     },
+     "height": 0.05020645318344297,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "CIF B-12345678",
+     "box": {
+      "x": 0.0666002527892903,
+      "y": 0.763357039790164,
+      "w": 0.10519493103027344,
+      "h": 0.02544112002987653
+     },
+     "height": 0.02544112002987653,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "María José",
+   "middle": "",
+   "family": "Fernández López",
+   "suffix": "",
+   "full": "María José Fernández López"
+  },
+  "otherName": null,
+  "company": "GRUPO ALCÁZAR Distribución, S.L.",
+  "department": "Ventas",
+  "title": "Gerente",
+  "phones": [
+   {
+    "printed": "912 345 678",
+    "e164": "+34912345678",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "612 34 56 78",
+    "e164": "+34612345678",
+    "type": "mobile",
+    "label": "Móvil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mjfernandez@alcazar-distribucion-es.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "C/ de Serrano, 89",
+    "extra": "3º Izda.",
+    "pobox": "",
+    "postcode": "28006",
+    "city": "Madrid",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Gerente de Ventas"
+  ],
+  "company": [
+   "GRUPO ALCÁZAR"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-given-two-family",
+  "title-dept-one-line",
+  "tax-id",
+  "legal-form-line",
+  "diacritic-lost"
+ ],
+ "notes": "Given María José, family Fernández López (N4 would wrongly give family = López). Title Gerente, department Ventas. \"Grupo\" here IS the company name, not a group line.",
+ "o3": {
+  "source": "blind-2/cards/es-01.json",
+  "images": [
+   {
+    "name": "b2-es-01",
+    "font": "Palatino-Roman",
+    "rotation": -0.86,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "es-ES",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 120
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

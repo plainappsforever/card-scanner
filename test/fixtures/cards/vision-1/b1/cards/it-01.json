@@ -1,0 +1,225 @@
+{
+ "id": "it-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "region": "IT",
+  "uiLang": "it",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BONFIGLIO MECCANICA S.r.l.",
+     "box": {
+      "x": 0.06686046298333181,
+      "y": 0.06949806993525531,
+      "w": 0.5218023300170899,
+      "h": 0.05405405405405406
+     },
+     "height": 0.05405405405405406,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dott. Ing. Alessandro Bonfiglio",
+     "box": {
+      "x": 0.06807982254519886,
+      "y": 0.27052296062638614,
+      "w": 0.44669925689697265,
+      "h": 0.059059426591203
+     },
+     "height": 0.059059426591203,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Amministratore Delegato",
+     "box": {
+      "x": 0.06819823822945253,
+      "y": 0.3590861563552843,
+      "w": 0.25022737503051756,
+      "h": 0.03829413675433424
+     },
+     "height": 0.03829413675433424,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Via dell'Industria, 27",
+     "box": {
+      "x": 0.0683139569241546,
+      "y": 0.5424710419836531,
+      "w": 0.1860465049743652,
+      "h": 0.03600429475997868
+     },
+     "height": 0.03600429475997868,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "20090 Segrate (MI)",
+     "box": {
+      "x": 0.06976744072185756,
+      "y": 0.5964125566245531,
+      "w": 0.16715116500854493,
+      "h": 0.03389632287633004
+     },
+     "height": 0.03389632287633004,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +39 02 2135 4870",
+     "box": {
+      "x": 0.06934891677419518,
+      "y": 0.6412648610338434,
+      "w": 0.20285903930664062,
+      "h": 0.041893064285337234
+     },
+     "height": 0.041893064285337234,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Cell. +39 347 123 4567",
+     "box": {
+      "x": 0.07101872930690671,
+      "y": 0.6957456278890176,
+      "w": 0.21700403213500974,
+      "h": 0.03848005169607038
+     },
+     "height": 0.03848005169607038,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "a.bonfiglio@bonfigliomeccanica-it.example",
+     "box": {
+      "x": 0.07095739576990884,
+      "y": 0.7461283186208724,
+      "w": 0.31303941726684564,
+      "h": 0.040390172980466876
+     },
+     "height": 0.040390172980466876,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "P.IVA 01234567890",
+     "box": {
+      "x": 0.0726744140969254,
+      "y": 0.8049327352304894,
+      "w": 0.1686046600341797,
+      "h": 0.03139013489240838
+     },
+     "height": 0.03139013489240838,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dott. Ing.",
+   "given": "Alessandro",
+   "middle": "",
+   "family": "Bonfiglio",
+   "suffix": "",
+   "full": "Dott. Ing. Alessandro Bonfiglio"
+  },
+  "otherName": null,
+  "company": "BONFIGLIO MECCANICA S.r.l.",
+  "department": null,
+  "title": "Amministratore Delegato",
+  "phones": [
+   {
+    "printed": "+39 02 2135 4870",
+    "e164": "+390221354870",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+39 347 123 4567",
+    "e164": "+393471234567",
+    "type": "mobile",
+    "label": "Cell.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "a.bonfiglio@bonfigliomeccanica-it.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via dell'Industria, 27",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20090",
+    "city": "Segrate",
+    "region": "MI",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "piva-11digits",
+  "province-in-parens",
+  "italian-leading-zero-kept",
+  "apostrophe-street",
+  "double-prefix",
+  "name-is-company",
+  "absent-url"
+ ],
+ "notes": "Italian fixed numbers keep the leading 0 after +39. P.IVA (11 digits) is a VAT id. Province \"(MI)\" after the city.",
+ "o3": {
+  "source": "blind-1/cards/it-01.json",
+  "images": [
+   {
+    "name": "b1-it-01",
+    "font": "HelveticaNeue",
+    "rotation": 0.66,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 108
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

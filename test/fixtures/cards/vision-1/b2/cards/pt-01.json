@@ -1,0 +1,217 @@
+{
+ "id": "pt-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pt"
+ ],
+ "card_country": "PT",
+ "layout": "landscape",
+ "input": {
+  "region": "BR",
+  "uiLang": "pt-BR",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "pt-BR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "QUINTA DA VARGOSA",
+     "box": {
+      "x": 0.0724433578510051,
+      "y": 0.09117296675529285,
+      "w": 0.45103477478027343,
+      "h": 0.06380965626838131
+     },
+     "height": 0.06380965626838131,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Vinhos do Douro desde 1924",
+     "box": {
+      "x": 0.06666666933169217,
+      "y": 0.2113899610426173,
+      "w": 0.3166666603088379,
+      "h": 0.03861003861003853
+     },
+     "height": 0.03861003861003853,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Eng.® Ana Rita Sousa",
+     "box": {
+      "x": 0.07236143517713856,
+      "y": 0.2735764828752989,
+      "w": 0.2795899772644043,
+      "h": 0.056955383551166916
+     },
+     "height": 0.056955383551166916,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Enóloga",
+     "box": {
+      "x": 0.07038952396519077,
+      "y": 0.365462439925037,
+      "w": 0.09171545982360843,
+      "h": 0.03924583007930338
+     },
+     "height": 0.03924583007930338,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Rua de Santa Catarina, 1120",
+     "box": {
+      "x": 0.070976270110501,
+      "y": 0.4369199717889989,
+      "w": 0.30564155578613283,
+      "h": 0.048492464779887
+     },
+     "height": 0.048492464779887,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "4000-447 Porto",
+     "box": {
+      "x": 0.069557553529408,
+      "y": 0.5102390444785595,
+      "w": 0.16468296051025388,
+      "h": 0.03538698027032683
+     },
+     "height": 0.03538698027032683,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "ana.sousa@quintadavargosa-pt.example",
+     "box": {
+      "x": 0.06960439254619935,
+      "y": 0.5819152801421055,
+      "w": 0.3259115600585938,
+      "h": 0.043948619061915495
+     },
+     "height": 0.043948619061915495,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "www.quintadavargosa.pt",
+     "box": {
+      "x": 0.06946802663474128,
+      "y": 0.6510567876878831,
+      "w": 0.26221073150634766,
+      "h": 0.04688929038618528
+     },
+     "height": 0.04688929038618528,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "NIF 501 234 567",
+     "box": {
+      "x": 0.0668604671531095,
+      "y": 0.7286995511720332,
+      "w": 0.08866278648376466,
+      "h": 0.02033519744873047
+     },
+     "height": 0.02033519744873047,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Eng.ª",
+   "given": "Ana Rita",
+   "middle": "",
+   "family": "Sousa",
+   "suffix": "",
+   "full": "Eng.ª Ana Rita Sousa"
+  },
+  "otherName": null,
+  "company": "QUINTA DA VARGOSA",
+  "department": null,
+  "title": "Enóloga",
+  "phones": [],
+  "emails": [
+   "ana.sousa@quintadavargosa-pt.example"
+  ],
+  "urls": [
+   "www.quintadavargosa.pt"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Rua de Santa Catarina, 1120",
+    "extra": "",
+    "pobox": "",
+    "postcode": "4000-447",
+    "city": "Porto",
+    "region": "",
+    "country": "",
+    "countryCode": "PT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "socials"
+ ],
+ "accept": {
+  "name.given": [
+   "Ana"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "year-in-tagline",
+  "tax-id",
+  "prefix-title",
+  "region-from-address",
+  "absent-phones",
+  "diacritic-lost"
+ ],
+ "notes": "Phones are ABSENT: the NIF (tax number, 9 digits) must not become a phone. Tagline \"Vinhos do Douro desde 1924\" is not a title. Given \"Ana Rita\" (Ana accepted). (Set limitation: the shared check.py has no +351 in its country-code list, so no Portuguese phone could be validated.)",
+ "o3": {
+  "source": "blind-2/cards/pt-01.json",
+  "images": [
+   {
+    "name": "b2-pt-01",
+    "font": "AvenirNext-Regular",
+    "rotation": -0.47,
+    "noise": 7,
+    "blur": 1.4,
+    "langs": [
+     "pt-BR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 169
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

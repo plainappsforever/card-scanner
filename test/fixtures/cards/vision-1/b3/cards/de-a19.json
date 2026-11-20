@@ -1,0 +1,249 @@
+{
+ "id": "de-a19",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KARL-THEODOR-UNIVERSITÄT",
+     "box": {
+      "x": 0.0913129413871414,
+      "y": 0.04757970738004458,
+      "w": 0.6068010367021597,
+      "h": 0.033530473709106445
+     },
+     "height": 0.033530473709106445,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "FALKENRODE",
+     "box": {
+      "x": 0.08927773100227586,
+      "y": 0.0816736699525924,
+      "w": 0.3059865296117127,
+      "h": 0.032930986881256175
+     },
+     "height": 0.032930986881256175,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Fakultät für Physik",
+     "box": {
+      "x": 0.08419710548894882,
+      "y": 0.16233367624382522,
+      "w": 0.2776615334293557,
+      "h": 0.02950484514236451
+     },
+     "height": 0.02950484514236451,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Institut für Astrophysik und Geophysik",
+     "box": {
+      "x": 0.07987533569603188,
+      "y": 0.20972530686378832,
+      "w": 0.5283376332875845,
+      "h": 0.033352177143096906
+     },
+     "height": 0.033352177143096906,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dr. rer. nat. Kärt Tamm",
+     "box": {
+      "x": 0.08005940703064382,
+      "y": 0.294693679111262,
+      "w": 0.4273886956763543,
+      "h": 0.03220163464546211
+     },
+     "height": 0.03220163464546211,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Wissenschaftliche Mitarbeiterin",
+     "box": {
+      "x": 0.07774310205383764,
+      "y": 0.3484239714641115,
+      "w": 0.44091266646808647,
+      "h": 0.02726671934127811
+     },
+     "height": 0.02726671934127811,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Friedrich-Hund-Platz 1 • Raum E.12",
+     "box": {
+      "x": 0.07105710757108566,
+      "y": 0.4216733742297074,
+      "w": 0.508203749490981,
+      "h": 0.031374884843826334
+     },
+     "height": 0.031374884843826334,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "37077 Falkenrode",
+     "box": {
+      "x": 0.0676511571546235,
+      "y": 0.46176702954557003,
+      "w": 0.23235284223519698,
+      "h": 0.03335520505905154
+     },
+     "height": 0.03335520505905154,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Tel. +49 551 39-24871",
+     "box": {
+      "x": 0.06674296023666572,
+      "y": 0.5100024372335235,
+      "w": 0.2992179605491373,
+      "h": 0.024806566238403382
+     },
+     "height": 0.024806566238403382,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "kaert.tamm@uni-falkenrode-de.example",
+     "box": {
+      "x": 0.06402453066665632,
+      "y": 0.5562283688047696,
+      "w": 0.3850466164842996,
+      "h": 0.028366096019744824
+     },
+     "height": 0.028366096019744824,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "ORCID 0000-0003-4172-9087",
+     "box": {
+      "x": 0.062122382048016705,
+      "y": 0.5976759886414733,
+      "w": 0.3511669497692447,
+      "h": 0.024177174568176252
+     },
+     "height": 0.024177174568176252,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr. rer. nat.",
+   "given": "Kärt",
+   "middle": "",
+   "family": "Tamm",
+   "suffix": "",
+   "full": "Dr. rer. nat. Kärt Tamm"
+  },
+  "otherName": null,
+  "company": "KARL-THEODOR-UNIVERSITÄT FALKENRODE",
+  "department": "Institut für Astrophysik und Geophysik",
+  "title": "Wissenschaftliche Mitarbeiterin",
+  "phones": [
+   {
+    "printed": "+49 551 39-24871",
+    "e164": "+495513924871",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kaert.tamm@uni-falkenrode-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Friedrich-Hund-Platz 1",
+    "extra": "Raum E.12",
+    "pobox": "",
+    "postcode": "37077",
+    "city": "Falkenrode",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Fakultät für Physik"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "academic",
+  "orcid",
+  "faculty-line",
+  "baltic-name",
+  "portrait",
+  "diacritic-lost",
+  "room-extra",
+  "company-split-lines",
+  "prefix-stack"
+ ],
+ "notes": "Estonian given name Kärt (e-mail spells it kaert), umlaut lost in OCR. Prefix \"Dr. rer. nat.\" has three tokens. ORCID (16 digits in groups) is not a phone. Faculty and institute are two department lines (institute = truth, faculty accepted). University name over two lines.",
+ "o3": {
+  "source": "blind-3/cards/de-a19.json",
+  "images": [
+   {
+    "name": "b3-de-a19",
+    "font": "Didot",
+    "rotation": -1.89,
+    "noise": 10,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 125
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

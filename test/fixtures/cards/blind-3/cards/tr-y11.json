@@ -1,0 +1,686 @@
+{
+ "id": "tr-y11",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "tr-TR"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KARADAG & ERSOY",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3204,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "KARADAG",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1495,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2409,
+        "y": 0.06,
+        "w": 0.0214,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "ERSOY",
+       "box": {
+        "x": 0.2836,
+        "y": 0.06,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Hukuk Bürosu",
+     "box": {
+      "x": 0.07,
+      "y": 0.125,
+      "w": 0.1495,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Hukuk",
+       "box": {
+        "x": 0.07,
+        "y": 0.125,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Bürosu",
+       "box": {
+        "x": 0.1447,
+        "y": 0.125,
+        "w": 0.0747,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Av. Elif Nur Karadağ",
+     "box": {
+      "x": 0.07,
+      "y": 0.23,
+      "w": 0.356,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.07,
+        "y": 0.23,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Elif",
+       "box": {
+        "x": 0.1412,
+        "y": 0.23,
+        "w": 0.0712,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Nur",
+       "box": {
+        "x": 0.2302,
+        "y": 0.23,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Karadağ",
+       "box": {
+        "x": 0.3014,
+        "y": 0.23,
+        "w": 0.1246,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Kurucu Ortak",
+     "box": {
+      "x": 0.07,
+      "y": 0.3,
+      "w": 0.1452,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Kurucu",
+       "box": {
+        "x": 0.07,
+        "y": 0.3,
+        "w": 0.0726,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Ortak",
+       "box": {
+        "x": 0.1547,
+        "y": 0.3,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "İstanbul Barosu Sicil No: 618423",
+     "box": {
+      "x": 0.07,
+      "y": 0.354,
+      "w": 0.3076,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "İstanbul",
+       "box": {
+        "x": 0.07,
+        "y": 0.354,
+        "w": 0.0769,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Barosu",
+       "box": {
+        "x": 0.1565,
+        "y": 0.354,
+        "w": 0.0577,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Sicil",
+       "box": {
+        "x": 0.2238,
+        "y": 0.354,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.2815,
+        "y": 0.354,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "618423",
+       "box": {
+        "x": 0.3199,
+        "y": 0.354,
+        "w": 0.0577,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel: +90 212 293 47 18 · Cep: 0533 412 87 05",
+     "box": {
+      "x": 0.07,
+      "y": 0.431,
+      "w": 0.4386,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Tel:",
+       "box": {
+        "x": 0.07,
+        "y": 0.431,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.1198,
+        "y": 0.431,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "212",
+       "box": {
+        "x": 0.1597,
+        "y": 0.431,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "293",
+       "box": {
+        "x": 0.1996,
+        "y": 0.431,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.2395,
+        "y": 0.431,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "18",
+       "box": {
+        "x": 0.2694,
+        "y": 0.431,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2993,
+        "y": 0.431,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Cep:",
+       "box": {
+        "x": 0.3192,
+        "y": 0.431,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "0533",
+       "box": {
+        "x": 0.369,
+        "y": 0.431,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "412",
+       "box": {
+        "x": 0.4189,
+        "y": 0.431,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "87",
+       "box": {
+        "x": 0.4588,
+        "y": 0.431,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "05",
+       "box": {
+        "x": 0.4887,
+        "y": 0.431,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "elif.karadag@karadagersoy-av-tr.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.479,
+      "w": 0.2869,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "elif.karadag@karadagersoy-av-tr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.479,
+        "w": 0.2869,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Meşrutiyet Cad. No: 88 Kat: 4, 34430 Beyoğlu/İstanbul",
+     "box": {
+      "x": 0.07,
+      "y": 0.525,
+      "w": 0.4717,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Meşrutiyet",
+       "box": {
+        "x": 0.07,
+        "y": 0.525,
+        "w": 0.089,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Cad.",
+       "box": {
+        "x": 0.1679,
+        "y": 0.525,
+        "w": 0.0356,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.2124,
+        "y": 0.525,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "88",
+       "box": {
+        "x": 0.248,
+        "y": 0.525,
+        "w": 0.0178,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Kat:",
+       "box": {
+        "x": 0.2747,
+        "y": 0.525,
+        "w": 0.0356,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "4,",
+       "box": {
+        "x": 0.3192,
+        "y": 0.525,
+        "w": 0.0178,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "34430",
+       "box": {
+        "x": 0.3459,
+        "y": 0.525,
+        "w": 0.0445,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Beyoğlu/İstanbul",
+       "box": {
+        "x": 0.3993,
+        "y": 0.525,
+        "w": 0.1424,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Ortaklar: Av. Elif Nur Karadağ · Av. Mert Ersoy · Av. Deniz Aksu",
+     "box": {
+      "x": 0.07,
+      "y": 0.57,
+      "w": 0.5012,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Ortaklar:",
+       "box": {
+        "x": 0.07,
+        "y": 0.57,
+        "w": 0.0705,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.1483,
+        "y": 0.57,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Elif",
+       "box": {
+        "x": 0.1796,
+        "y": 0.57,
+        "w": 0.0313,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Nur",
+       "box": {
+        "x": 0.2188,
+        "y": 0.57,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Karadağ",
+       "box": {
+        "x": 0.2501,
+        "y": 0.57,
+        "w": 0.0548,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3128,
+        "y": 0.57,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.3284,
+        "y": 0.57,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Mert",
+       "box": {
+        "x": 0.3598,
+        "y": 0.57,
+        "w": 0.0313,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Ersoy",
+       "box": {
+        "x": 0.3989,
+        "y": 0.57,
+        "w": 0.0392,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4459,
+        "y": 0.57,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.4616,
+        "y": 0.57,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Deniz",
+       "box": {
+        "x": 0.4929,
+        "y": 0.57,
+        "w": 0.0392,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Aksu",
+       "box": {
+        "x": 0.5399,
+        "y": 0.57,
+        "w": 0.0313,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Av.",
+   "given": "Elif Nur",
+   "middle": "",
+   "family": "Karadağ",
+   "suffix": "",
+   "full": "Av. Elif Nur Karadağ"
+  },
+  "otherName": null,
+  "company": "KARADAĞ & ERSOY Hukuk Bürosu",
+  "department": null,
+  "title": "Kurucu Ortak",
+  "phones": [
+   {
+    "printed": "+90 212 293 47 18",
+    "e164": "+902122934718",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "0533 412 87 05",
+    "e164": "+905334128705",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "elif.karadag@karadagersoy-av-tr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Meşrutiyet Cad. No: 88",
+    "extra": "Kat: 4",
+    "pobox": "",
+    "postcode": "34430",
+    "city": "İstanbul",
+    "region": "",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "company",
+   "printed": "KARADAĞ & ERSOY Hukuk Bürosu",
+   "ocr": "KARADAG & ERSOY Hukuk Bürosu",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "law-firm",
+  "turkish-name",
+  "two-given-names",
+  "prefix-title",
+  "partner-list",
+  "member-of",
+  "registry-number",
+  "diacritic-lost",
+  "family-name-in-company",
+  "floor-extra",
+  "foreign-region"
+ ],
+ "notes": "\"Av.\" (Avukat) is a prefix; given name \"Elif Nur\" has two parts. Bar registry \"Sicil No: 618423\" (6 digits) is not a phone. The partner list repeats the holder. The logo lost the breve on Ğ. \"Kat: 4\" = floor; Beyoğlu is the district in \"Beyoğlu/İstanbul\"."
+}

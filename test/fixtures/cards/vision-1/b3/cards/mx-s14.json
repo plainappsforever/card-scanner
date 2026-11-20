@@ -1,0 +1,204 @@
+{
+ "id": "mx-s14",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "voltloop",
+     "box": {
+      "x": 0.0735196111698379,
+      "y": 0.028639328737195102,
+      "w": 0.17981245040893556,
+      "h": 0.09313766744606278
+     },
+     "height": 0.09313766744606278,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Kofi",
+     "box": {
+      "x": 0.07558139464099715,
+      "y": 0.19955157009546265,
+      "w": 0.06686046600341798,
+      "h": 0.0448430477422177
+     },
+     "height": 0.0448430477422177,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Co-founder • Hardware",
+     "box": {
+      "x": 0.07223079264844358,
+      "y": 0.28812274633917756,
+      "w": 0.1927928924560547,
+      "h": 0.03601393092092864
+     },
+     "height": 0.03601393092092864,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "+49 1577 3920 418",
+     "box": {
+      "x": 0.06976744313121301,
+      "y": 0.3721973091233025,
+      "w": 0.17005813598632813,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "kofi@voltloop-io.example",
+     "box": {
+      "x": 0.06962779313135488,
+      "y": 0.43318542180934494,
+      "w": 0.13833922386169434,
+      "h": 0.03461984317735367
+     },
+     "height": 0.03461984317735367,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "IG kofi.ships - TG @kofi_berlin",
+     "box": {
+      "x": 0.06784210427432143,
+      "y": 0.48501446245754565,
+      "w": 0.2436157989501953,
+      "h": 0.0422041572659172
+     },
+     "height": 0.0422041572659172,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "voltloop GmbH • c/o Factory Berlin • Rheinsberger Str. 76/77 • 10115 Berlin",
+     "box": {
+      "x": 0.06807323671484532,
+      "y": 0.6008148662021379,
+      "w": 0.3725717544555664,
+      "h": 0.03398162333661514
+     },
+     "height": 0.03398162333661514,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kofi",
+   "middle": "",
+   "family": "",
+   "suffix": "",
+   "full": "Kofi"
+  },
+  "otherName": null,
+  "company": "voltloop GmbH",
+  "department": "Hardware",
+  "title": "Co-founder",
+  "phones": [
+   {
+    "printed": "+49 1577 3920 418",
+    "e164": "+4915773920418",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kofi@voltloop-io.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "kofi.ships"
+   },
+   {
+    "service": "other",
+    "value": "@kofi_berlin"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Rheinsberger Str. 76/77",
+    "extra": "c/o Factory Berlin",
+    "pobox": "",
+    "postcode": "10115",
+    "city": "Berlin",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls"
+ ],
+ "accept": {
+  "company": [
+   "voltloop"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "startup",
+  "first-name-only",
+  "labelled-handle",
+  "title-department-line",
+  "co-address",
+  "lowercase-logo",
+  "unlabelled-mobile"
+ ],
+ "notes": "First name only. \"IG\" = Instagram, \"TG\" = Telegram (social other). The footer line holds legal name and address in one segmented line with a c/o part. \"Co-founder · Hardware\" = title + department.",
+ "o3": {
+  "source": "blind-3/cards/mx-s14.json",
+  "images": [
+   {
+    "name": "b3-mx-s14",
+    "font": "Didot",
+    "rotation": -1.55,
+    "noise": 13,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 90
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

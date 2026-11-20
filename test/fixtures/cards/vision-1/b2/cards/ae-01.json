@@ -1,0 +1,253 @@
+{
+ "id": "ae-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "ar"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US",
+    "ar-SA"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AMBER HORIZON TRADING LLC",
+     "box": {
+      "x": 0.06666666646146617,
+      "y": 0.03185328272852461,
+      "w": 0.5625,
+      "h": 0.05791505791505791
+     },
+     "height": 0.05791505791505791,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ahmed Al Mansouri",
+     "box": {
+      "x": 0.06666666010304521,
+      "y": 0.18589743628711997,
+      "w": 0.3541666793823242,
+      "h": 0.057692306842582974
+     },
+     "height": 0.057692306842582974,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Business Development Manager",
+     "box": {
+      "x": 0.06671380733658325,
+      "y": 0.3506589283490207,
+      "w": 0.407313232421875,
+      "h": 0.05568372696983315
+     },
+     "height": 0.05568372696983315,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Office 1204, Al Moosa Tower 1",
+     "box": {
+      "x": 0.06811592594019941,
+      "y": 0.49172454717325254,
+      "w": 0.39437530517578123,
+      "h": 0.060104535813497395
+     },
+     "height": 0.060104535813497395,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Sheikh Zayed Road, P.O. Box 123456",
+     "box": {
+      "x": 0.06831396141297183,
+      "y": 0.5646718138613467,
+      "w": 0.4840116119384765,
+      "h": 0.054162266631844425
+     },
+     "height": 0.054162266631844425,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Dubai, United Arab Emirates",
+     "box": {
+      "x": 0.07100409461873233,
+      "y": 0.6376180647006149,
+      "w": 0.3637896728515625,
+      "h": 0.05225031164161942
+     },
+     "height": 0.05225031164161942,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel: +971 4 331 2345 | Fax: +971 4 331 2346",
+     "box": {
+      "x": 0.06816517230441022,
+      "y": 0.7075200686196967,
+      "w": 0.5381311416625977,
+      "h": 0.050363455960189096
+     },
+     "height": 0.050363455960189096,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mob: +971 50 123 4567",
+     "box": {
+      "x": 0.0695522825242189,
+      "y": 0.7820249798011157,
+      "w": 0.28829296112060543,
+      "h": 0.048799507406227294
+     },
+     "height": 0.048799507406227294,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "ahmed@amberhorizon-ae.example",
+     "box": {
+      "x": 0.06954613325220038,
+      "y": 0.8541387901259546,
+      "w": 0.2911543464660645,
+      "h": 0.05378299330192182
+     },
+     "height": 0.05378299330192182,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "TRN 100123456700003",
+     "box": {
+      "x": 0.07122093039488199,
+      "y": 0.9304932739261456,
+      "w": 0.154069766998291,
+      "h": 0.02242152387110885
+     },
+     "height": 0.02242152387110885,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ahmed",
+   "middle": "",
+   "family": "Al Mansouri",
+   "suffix": "",
+   "full": "Ahmed Al Mansouri"
+  },
+  "otherName": "أحمد المنصوري",
+  "company": "AMBER HORIZON TRADING LLC",
+  "department": null,
+  "title": "Business Development Manager",
+  "phones": [
+   {
+    "printed": "+971 4 331 2345",
+    "e164": "+97143312345",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "+971 4 331 2346",
+    "e164": "+97143312346",
+    "type": "fax",
+    "label": "Fax:",
+    "ext": null
+   },
+   {
+    "printed": "+971 50 123 4567",
+    "e164": "+971501234567",
+    "type": "mobile",
+    "label": "Mob:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ahmed@amberhorizon-ae.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Sheikh Zayed Road",
+    "extra": "Office 1204, Al Moosa Tower 1",
+    "pobox": "P.O. Box 123456",
+    "postcode": "",
+    "city": "Dubai",
+    "region": "",
+    "country": "United Arab Emirates",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "شركة أفق الخليج للتجارة ذ.م.م"
+  ],
+  "title": [
+   "مدير تطوير الأعمال"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "second-script",
+  "rtl",
+  "pobox",
+  "no-postcode",
+  "tax-id",
+  "ext-pair",
+  "region-from-plus-cc"
+ ],
+ "notes": "UI English → Latin name primary, Arabic name = otherName. P.O. Box 123456 is not a phone and no postcode exists. TRN is a tax number. Family \"Al Mansouri\" (two tokens).",
+ "o3": {
+  "source": "blind-2/cards/ae-01.json",
+  "images": [
+   {
+    "name": "b2-ae-01",
+    "font": "Palatino-Roman",
+    "rotation": 0.5,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "en-US",
+     "ar-SA"
+    ],
+    "dropped": [],
+    "visionMs": 92
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "id": "us-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "portrait",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "quillmate",
+     "box": {
+      "x": 0.26518099120032834,
+      "y": 0.08810527851921857,
+      "w": 0.3783678916430382,
+      "h": 0.06481682300567626
+     },
+     "height": 0.06481682300567626,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Priyanka",
+     "box": {
+      "x": 0.3788038270916155,
+      "y": 0.31867839594157343,
+      "w": 0.17750254745188837,
+      "h": 0.0345232510566712
+     },
+     "height": 0.0345232510566712,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Venkataraman",
+     "box": {
+      "x": 0.3268744904592602,
+      "y": 0.3685885398675546,
+      "w": 0.2788768753581986,
+      "h": 0.027243573665618914
+     },
+     "height": 0.027243573665618914,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Founder & CEO",
+     "box": {
+      "x": 0.3696666537909659,
+      "y": 0.4159562045907781,
+      "w": 0.23376086319735617,
+      "h": 0.027099218368530242
+     },
+     "height": 0.027099218368530242,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "priyanka@quillmate-ai.example",
+     "box": {
+      "x": 0.2975100750081681,
+      "y": 0.5775803350588492,
+      "w": 0.2973497309739986,
+      "h": 0.02631350040435798
+     },
+     "height": 0.02631350040435798,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "quillmate.ai",
+     "box": {
+      "x": 0.3846265805331707,
+      "y": 0.6131445510089085,
+      "w": 0.15677013912716425,
+      "h": 0.02394308567047121
+     },
+     "height": 0.02394308567047121,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "x.com/pvenkat",
+     "box": {
+      "x": 0.37417658318972224,
+      "y": 0.648863542866446,
+      "w": 0.21364643582966336,
+      "h": 0.02192046880722054
+     },
+     "height": 0.02192046880722054,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "linkedin.com/in/priyanka-venkataraman",
+     "box": {
+      "x": 0.1457399193452229,
+      "y": 0.6860465117830071,
+      "w": 0.5156950490355031,
+      "h": 0.02180232524871828
+     },
+     "height": 0.02180232524871828,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Venkataraman,Priyanka;EMAIL:priyanka@quillmate-ai.example;URL:https://quillmate.ai;NOTE:Founder & CEO;;",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Priyanka",
+   "middle": "",
+   "family": "Venkataraman",
+   "suffix": "",
+   "full": "Priyanka Venkataraman"
+  },
+  "otherName": null,
+  "company": "quillmate",
+  "department": null,
+  "title": "Founder & CEO",
+  "phones": [],
+  "emails": [
+   "priyanka@quillmate-ai.example"
+  ],
+  "urls": [
+   "quillmate.ai"
+  ],
+  "socials": [
+   {
+    "service": "x",
+    "value": "x.com/pvenkat"
+   },
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/priyanka-venkataraman"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "addresses"
+ ],
+ "accept": {
+  "urls[0]": [
+   "https://quillmate.ai"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "portrait",
+  "name-split-lines",
+  "absent-phone",
+  "absent-address",
+  "mecard-qr",
+  "x-social",
+  "ai-tld",
+  "logo-company-equals-domain"
+ ],
+ "notes": "No phone and no address at all. Name split over two centred lines. MECARD QR repeats name/e-mail/URL (N with comma = family,given).",
+ "o3": {
+  "source": "blind-1/cards/us-03.json",
+  "images": [
+   {
+    "name": "b1-us-03",
+    "font": "Baskerville",
+    "rotation": 1.12,
+    "noise": 12,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 162
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

@@ -1,0 +1,524 @@
+{
+ "id": "pl-c28",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pl"
+ ],
+ "card_country": "PL",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "pl-PL"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AGROVELT",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.1994,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "AGROVELT",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1994,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Sp. z o.o.",
+     "box": {
+      "x": 0.07,
+      "y": 0.145,
+      "w": 0.1246,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Sp.",
+       "box": {
+        "x": 0.07,
+        "y": 0.145,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "z",
+       "box": {
+        "x": 0.1198,
+        "y": 0.145,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "o.o.",
+       "box": {
+        "x": 0.1448,
+        "y": 0.145,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "KATARZYNA WOJCIK-NOWAK",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.3916,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "KATARZYNA",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.1602,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "WOJCIK-NOWAK",
+       "box": {
+        "x": 0.248,
+        "y": 0.24,
+        "w": 0.2136,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Kierownik · Dział Zakupów",
+     "box": {
+      "x": 0.07,
+      "y": 0.31,
+      "w": 0.2848,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Kierownik",
+       "box": {
+        "x": 0.07,
+        "y": 0.31,
+        "w": 0.1025,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1839,
+        "y": 0.31,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Dział",
+       "box": {
+        "x": 0.2067,
+        "y": 0.31,
+        "w": 0.057,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Zakupów",
+       "box": {
+        "x": 0.2751,
+        "y": 0.31,
+        "w": 0.0797,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "tel. +48 22 628 47 15",
+     "box": {
+      "x": 0.07,
+      "y": 0.392,
+      "w": 0.2243,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.392,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+48",
+       "box": {
+        "x": 0.1234,
+        "y": 0.392,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.1661,
+        "y": 0.392,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "628",
+       "box": {
+        "x": 0.1982,
+        "y": 0.392,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.2409,
+        "y": 0.392,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.2729,
+        "y": 0.392,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "kom. +48 501 284 973",
+     "box": {
+      "x": 0.07,
+      "y": 0.442,
+      "w": 0.2136,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "kom.",
+       "box": {
+        "x": 0.07,
+        "y": 0.442,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+48",
+       "box": {
+        "x": 0.1234,
+        "y": 0.442,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "501",
+       "box": {
+        "x": 0.1661,
+        "y": 0.442,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "284",
+       "box": {
+        "x": 0.2088,
+        "y": 0.442,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "973",
+       "box": {
+        "x": 0.2516,
+        "y": 0.442,
+        "w": 0.032,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "k.wojcik@agrovelt-pl.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.492,
+      "w": 0.1894,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "k.wojcik@agrovelt-pl.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.492,
+        "w": 0.1894,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "ul. Marszałkowska 84/92, 00-514 Warszawa",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.3987,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "ul.",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Marszałkowska",
+       "box": {
+        "x": 0.1099,
+        "y": 0.54,
+        "w": 0.1296,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "84/92,",
+       "box": {
+        "x": 0.2494,
+        "y": 0.54,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "00-514",
+       "box": {
+        "x": 0.3192,
+        "y": 0.54,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Warszawa",
+       "box": {
+        "x": 0.389,
+        "y": 0.54,
+        "w": 0.0797,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "KRS 0000123456 · NIP 527-123-45-67",
+     "box": {
+      "x": 0.07,
+      "y": 0.588,
+      "w": 0.2905,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "KRS",
+       "box": {
+        "x": 0.07,
+        "y": 0.588,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "0000123456",
+       "box": {
+        "x": 0.1042,
+        "y": 0.588,
+        "w": 0.0854,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1982,
+        "y": 0.588,
+        "w": 0.0085,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "NIP",
+       "box": {
+        "x": 0.2152,
+        "y": 0.588,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "527-123-45-67",
+       "box": {
+        "x": 0.2494,
+        "y": 0.588,
+        "w": 0.1111,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "KATARZYNA",
+   "middle": "",
+   "family": "WÓJCIK-NOWAK",
+   "suffix": "",
+   "full": "KATARZYNA WÓJCIK-NOWAK"
+  },
+  "otherName": null,
+  "company": "AGROVELT Sp. z o.o.",
+  "department": "Dział Zakupów",
+  "title": "Kierownik",
+  "phones": [
+   {
+    "printed": "+48 22 628 47 15",
+    "e164": "+48226284715",
+    "type": "work",
+    "label": "tel.",
+    "ext": null
+   },
+   {
+    "printed": "+48 501 284 973",
+    "e164": "+48501284973",
+    "type": "mobile",
+    "label": "kom.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.wojcik@agrovelt-pl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "ul. Marszałkowska 84/92",
+    "extra": "",
+    "pobox": "",
+    "postcode": "00-514",
+    "city": "Warszawa",
+    "region": "",
+    "country": "",
+    "countryCode": "PL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "AGROVELT"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "KATARZYNA WÓJCIK-NOWAK",
+   "ocr": "KATARZYNA WOJCIK-NOWAK",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "WÓJCIK-NOWAK",
+   "ocr": "WOJCIK-NOWAK",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "name-caps",
+  "diacritic-lost",
+  "legal-form-only-line",
+  "title-department-line",
+  "registry-number",
+  "vat-id",
+  "unknown-phone-label",
+  "foreign-region",
+  "hyphenated-family"
+ ],
+ "notes": "Name in caps with Ó lost. \"Sp. z o.o.\" (Polish LLC) alone under the logo. \"kom.\" (komórka) = mobile. KRS (10 digits) and NIP (10 digits with dashes) are not phones. Postcode \"00-514\" with leading zeros."
+}

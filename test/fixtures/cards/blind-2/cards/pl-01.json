@@ -1,0 +1,573 @@
+{
+ "id": "pl-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pl"
+ ],
+ "card_country": "PL",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "pl-PL"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ZELMETA",
+     "box": {
+      "x": 0.07,
+      "y": 0.078,
+      "w": 0.2392,
+      "h": 0.11
+     },
+     "height": 0.11,
+     "words": [
+      {
+       "text": "ZELMETA",
+       "box": {
+        "x": 0.07,
+        "y": 0.078,
+        "w": 0.2392,
+        "h": 0.11
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Sp. z o.o.",
+     "box": {
+      "x": 0.07,
+      "y": 0.21,
+      "w": 0.1644,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Sp.",
+       "box": {
+        "x": 0.07,
+        "y": 0.21,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "z",
+       "box": {
+        "x": 0.1341,
+        "y": 0.21,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "o.o.",
+       "box": {
+        "x": 0.1619,
+        "y": 0.21,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "mgr inż. Katarzyna Wojcik",
+     "box": {
+      "x": 0.07,
+      "y": 0.282,
+      "w": 0.5132,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "mgr",
+       "box": {
+        "x": 0.07,
+        "y": 0.282,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "inż.",
+       "box": {
+        "x": 0.1469,
+        "y": 0.282,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Katarzyna",
+       "box": {
+        "x": 0.2455,
+        "y": 0.282,
+        "w": 0.1957,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Wojcik",
+       "box": {
+        "x": 0.4528,
+        "y": 0.282,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Kierownik Działu Zakupów",
+     "box": {
+      "x": 0.07,
+      "y": 0.364,
+      "w": 0.418,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Kierownik",
+       "box": {
+        "x": 0.07,
+        "y": 0.364,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Działu",
+       "box": {
+        "x": 0.2428,
+        "y": 0.364,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Zakupów",
+       "box": {
+        "x": 0.3612,
+        "y": 0.364,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "ul. Wielicka 28",
+     "box": {
+      "x": 0.07,
+      "y": 0.436,
+      "w": 0.2549,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "ul.",
+       "box": {
+        "x": 0.07,
+        "y": 0.436,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Wielicka",
+       "box": {
+        "x": 0.1341,
+        "y": 0.436,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "28",
+       "box": {
+        "x": 0.2887,
+        "y": 0.436,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "30-552 Kraków",
+     "box": {
+      "x": 0.07,
+      "y": 0.508,
+      "w": 0.2271,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "30-552",
+       "box": {
+        "x": 0.07,
+        "y": 0.508,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Kraków",
+       "box": {
+        "x": 0.1884,
+        "y": 0.508,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "tel. +48 12 345 67 89",
+     "box": {
+      "x": 0.07,
+      "y": 0.58,
+      "w": 0.3384,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.58,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+48",
+       "box": {
+        "x": 0.1522,
+        "y": 0.58,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.2162,
+        "y": 0.58,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2622,
+        "y": 0.58,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3262,
+        "y": 0.58,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.3722,
+        "y": 0.58,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "kom. +48 501 234 567",
+     "box": {
+      "x": 0.07,
+      "y": 0.652,
+      "w": 0.3287,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "kom.",
+       "box": {
+        "x": 0.07,
+        "y": 0.652,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+48",
+       "box": {
+        "x": 0.1522,
+        "y": 0.652,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "501",
+       "box": {
+        "x": 0.2162,
+        "y": 0.652,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "234",
+       "box": {
+        "x": 0.2803,
+        "y": 0.652,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "567",
+       "box": {
+        "x": 0.3444,
+        "y": 0.652,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "k.wojcik@zelmeta-pl.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.724,
+      "w": 0.3261,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "k.wojcik@zelmeta-pl.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.724,
+        "w": 0.3261,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "NIP 677-123-45-67 · KRS 0000123456 · REGON 123456785",
+     "box": {
+      "x": 0.07,
+      "y": 0.796,
+      "w": 0.3886,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "NIP",
+       "box": {
+        "x": 0.07,
+        "y": 0.796,
+        "w": 0.0239,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "677-123-45-67",
+       "box": {
+        "x": 0.0982,
+        "y": 0.796,
+        "w": 0.1036,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2061,
+        "y": 0.796,
+        "w": 0.008,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "KRS",
+       "box": {
+        "x": 0.2183,
+        "y": 0.796,
+        "w": 0.0239,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "0000123456",
+       "box": {
+        "x": 0.2465,
+        "y": 0.796,
+        "w": 0.0797,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3305,
+        "y": 0.796,
+        "w": 0.008,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "REGON",
+       "box": {
+        "x": 0.3427,
+        "y": 0.796,
+        "w": 0.0399,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "123456785",
+       "box": {
+        "x": 0.3869,
+        "y": 0.796,
+        "w": 0.0717,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "mgr inż.",
+   "given": "Katarzyna",
+   "middle": "",
+   "family": "Wójcik",
+   "suffix": "",
+   "full": "mgr inż. Katarzyna Wójcik"
+  },
+  "otherName": null,
+  "company": "ZELMETA Sp. z o.o.",
+  "department": "Działu Zakupów",
+  "title": "Kierownik",
+  "phones": [
+   {
+    "printed": "+48 12 345 67 89",
+    "e164": "+48123456789",
+    "type": "work",
+    "label": "tel.",
+    "ext": null
+   },
+   {
+    "printed": "+48 501 234 567",
+    "e164": "+48501234567",
+    "type": "mobile",
+    "label": "kom.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.wojcik@zelmeta-pl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "ul. Wielicka 28",
+    "extra": "",
+    "pobox": "",
+    "postcode": "30-552",
+    "city": "Kraków",
+    "region": "",
+    "country": "",
+    "countryCode": "PL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Kierownik Działu Zakupów"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "mgr inż. Katarzyna Wójcik",
+   "ocr": "mgr inż. Katarzyna Wojcik",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Wójcik",
+   "ocr": "Wojcik",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "title-dept-one-line",
+  "tax-id",
+  "registry-id",
+  "legal-form-line",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Prefix mgr inż. (two tokens). NIP 677-123-45-67 has 10 digits and dashes — not a phone; neither are KRS or REGON. Company ZELMETA Sp. z o.o."
+}

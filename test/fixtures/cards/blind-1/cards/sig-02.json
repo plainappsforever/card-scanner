@@ -1,0 +1,86 @@
+{
+ "id": "sig-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "text",
+ "input": {
+  "text": "Best regards,\nTom\n\n--\nTomasz \"Tom\" Wierzbicki | Head of Partnerships\nFernleaf Labs Ltd. — Making carbon accounting boring\nmobile: +44 7700 900 615 · office: +44 20 7946 0958 ext. 204\ntom@fernleaf-io.example\nLinkedIn: linkedin.com/in/tomwierzbicki\n2nd Floor, 30 Great Sutton Street, London EC1V 0DS, United Kingdom\n\nSent from my iPhone",
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Tomasz",
+   "middle": "",
+   "family": "Wierzbicki",
+   "suffix": "",
+   "full": "Tomasz \"Tom\" Wierzbicki"
+  },
+  "otherName": null,
+  "company": "Fernleaf Labs Ltd.",
+  "department": null,
+  "title": "Head of Partnerships",
+  "phones": [
+   {
+    "printed": "+44 7700 900 615",
+    "e164": "+447700900615",
+    "type": "mobile",
+    "label": "mobile:",
+    "ext": null
+   },
+   {
+    "printed": "+44 20 7946 0958 ext. 204",
+    "e164": "+442079460958",
+    "type": "work",
+    "label": "office:",
+    "ext": "204"
+   }
+  ],
+  "emails": [
+   "tom@fernleaf-io.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/tomwierzbicki"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "30 Great Sutton Street",
+    "extra": "2nd Floor",
+    "pobox": "",
+    "postcode": "EC1V 0DS",
+    "city": "London",
+    "region": "",
+    "country": "United Kingdom",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "paste-no-boxes",
+  "signoff-first-name-line",
+  "nickname-quotes",
+  "slogan-after-company",
+  "extension-ext",
+  "absent-url",
+  "one-line-address",
+  "sent-from-iphone"
+ ],
+ "notes": "Pasted English signature. \"Tom\" alone on a line is a sign-off, not the name. \"EC1V 0DS\" contains a real zero. No website."
+}

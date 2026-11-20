@@ -1,0 +1,221 @@
+{
+ "id": "jp-01-back",
+ "group": "jp-01",
+ "side": "back",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kirihane Tech Co.， Ltd.",
+     "box": {
+      "x": 0.07403214602701766,
+      "y": 0.034361142850893533,
+      "w": 0.34315643310546873,
+      "h": 0.07663488203954516
+     },
+     "height": 0.07663488203954516,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Taro Yamada",
+     "box": {
+      "x": 0.07518027696174308,
+      "y": 0.19490071880980975,
+      "w": 0.2696591567993164,
+      "h": 0.056061457483004395
+     },
+     "height": 0.056061457483004395,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "General Manager, Sales Division",
+     "box": {
+      "x": 0.07337048147711872,
+      "y": 0.2919631192273988,
+      "w": 0.3502333831787109,
+      "h": 0.06337084089006684
+     },
+     "height": 0.06337084089006684,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "8F Shibuya Kirihane Bldg.， 2-21-1 Shibuya，",
+     "box": {
+      "x": 0.06767016539477318,
+      "y": 0.4762571502814775,
+      "w": 0.3822475814819336,
+      "h": 0.06045518602643696
+     },
+     "height": 0.06045518602643696,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Shibuya-ku, Tokyo 150-0002, Japan",
+     "box": {
+      "x": 0.06746672722865199,
+      "y": 0.5260649357430771,
+      "w": 0.32406963348388673,
+      "h": 0.058724070147658014
+     },
+     "height": 0.058724070147658014,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel +81-3-1234-5678 Mobile +81-90-1234-5678",
+     "box": {
+      "x": 0.06613570426071448,
+      "y": 0.5747861263631098,
+      "w": 0.4038466262817383,
+      "h": 0.059735390210243655
+     },
+     "height": 0.059735390210243655,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "t.yamada@kirihanetech-co-jp.example",
+     "box": {
+      "x": 0.06491492549338684,
+      "y": 0.6271411920743588,
+      "w": 0.2452108955383301,
+      "h": 0.048276223731317125
+     },
+     "height": 0.048276223731317125,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "www.kirihanetech.co.jp",
+     "box": {
+      "x": 0.06327582655598445,
+      "y": 0.6682712828030938,
+      "w": 0.19665525436401365,
+      "h": 0.05555747374604558
+     },
+     "height": 0.05555747374604558,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Taro",
+   "middle": "",
+   "family": "Yamada",
+   "suffix": "",
+   "full": "Taro Yamada"
+  },
+  "otherName": null,
+  "company": "Kirihane Tech Co., Ltd.",
+  "department": "Sales Division",
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "+81-3-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+81-90-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihanetech-co-jp.example"
+  ],
+  "urls": [
+   "www.kirihanetech.co.jp"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2-21-1 Shibuya",
+    "extra": "8F Shibuya Kirihane Bldg.",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "Shibuya-ku",
+    "region": "Tokyo",
+    "country": "Japan",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "General Manager, Sales Division"
+  ],
+  "addresses[0].city": [
+   "Tokyo"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "cjk-name-with-space",
+  "postal-mark",
+  "department-and-title-one-line",
+  "other-name-n7",
+  "address-two-scripts",
+  "comma-in-title",
+  "legal-form-prefix",
+  "two-sided"
+ ],
+ "notes": "Front Japanese, back English. Both-sides fixture: UI German -> Latin name primary, Japanese name = otherName (N7). The same office address is printed in both scripts: one address in truth; a second (Japanese) address from the extractor is a duplicate, not a wrong value. 株式会社 precedes the company name.",
+ "o3": {
+  "source": "blind-1/cards/jp-01-back.json",
+  "images": [
+   {
+    "name": "b1-jp-01-back",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.8,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "ja-JP",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 240
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

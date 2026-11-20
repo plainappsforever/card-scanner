@@ -1,0 +1,293 @@
+{
+ "id": "tr-t34-back",
+ "group": "tr-t34",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CEVRIK TEXTILE",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2777,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "CEVRIK",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "TEXTILE",
+       "box": {
+        "x": 0.1982,
+        "y": 0.06,
+        "w": 0.1495,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Gokhan Cevrik",
+     "box": {
+      "x": 0.07,
+      "y": 0.19,
+      "w": 0.235,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Gokhan",
+       "box": {
+        "x": 0.07,
+        "y": 0.19,
+        "w": 0.1175,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Cevrik",
+       "box": {
+        "x": 0.2071,
+        "y": 0.19,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "General Manager",
+     "box": {
+      "x": 0.07,
+      "y": 0.265,
+      "w": 0.1922,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "General",
+       "box": {
+        "x": 0.07,
+        "y": 0.265,
+        "w": 0.0897,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Manager",
+       "box": {
+        "x": 0.1725,
+        "y": 0.265,
+        "w": 0.0897,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "gokhan.cevrik@cevriktekstil-com-tr.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.351,
+      "w": 0.3418,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "gokhan.cevrik@cevriktekstil-com-tr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.351,
+        "w": 0.3418,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "www.cevriktekstil.com.tr",
+     "box": {
+      "x": 0.07,
+      "y": 0.401,
+      "w": 0.2456,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "www.cevriktekstil.com.tr",
+       "box": {
+        "x": 0.07,
+        "y": 0.401,
+        "w": 0.2456,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Vergi Dairesi: Bahçelievler · Vergi No: 2090123456",
+     "box": {
+      "x": 0.07,
+      "y": 0.451,
+      "w": 0.445,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Vergi",
+       "box": {
+        "x": 0.07,
+        "y": 0.451,
+        "w": 0.0445,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Dairesi:",
+       "box": {
+        "x": 0.1234,
+        "y": 0.451,
+        "w": 0.0712,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Bahçelievler",
+       "box": {
+        "x": 0.2035,
+        "y": 0.451,
+        "w": 0.1068,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3192,
+        "y": 0.451,
+        "w": 0.0089,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Vergi",
+       "box": {
+        "x": 0.337,
+        "y": 0.451,
+        "w": 0.0445,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.3904,
+        "y": 0.451,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "2090123456",
+       "box": {
+        "x": 0.426,
+        "y": 0.451,
+        "w": 0.089,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gokhan",
+   "middle": "",
+   "family": "Cevrik",
+   "suffix": "",
+   "full": "Gokhan Cevrik"
+  },
+  "otherName": null,
+  "company": "CEVRIK TEXTILE",
+  "department": null,
+  "title": "General Manager",
+  "phones": [],
+  "emails": [
+   "gokhan.cevrik@cevriktekstil-com-tr.example"
+  ],
+  "urls": [
+   "www.cevriktekstil.com.tr"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "two-sided",
+  "turkish-name",
+  "second-language-back",
+  "ascii-transliteration",
+  "legal-form-only-line",
+  "vat-id",
+  "foreign-region",
+  "district-extra",
+  "family-name-in-company",
+  "dotted-capital-i"
+ ],
+ "notes": "English back with ASCII spellings (Gokhan Cevrik). Vergi No (10 digits) is a tax number, not a phone. No phone or address on this side."
+}

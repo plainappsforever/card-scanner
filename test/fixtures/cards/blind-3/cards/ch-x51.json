@@ -1,0 +1,513 @@
+{
+ "id": "ch-x51",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hôtel du Lac",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.299,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Hôtel",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1246,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "du",
+       "box": {
+        "x": 0.2195,
+        "y": 0.06,
+        "w": 0.0498,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Lac",
+       "box": {
+        "x": 0.2943,
+        "y": 0.06,
+        "w": 0.0747,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Vaudrey · depuis 1898",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.2506,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Vaudrey",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.0911,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1725,
+        "y": 0.15,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "depuis",
+       "box": {
+        "x": 0.1953,
+        "y": 0.15,
+        "w": 0.0683,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "1898",
+       "box": {
+        "x": 0.275,
+        "y": 0.15,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Sophie Aebischer",
+     "box": {
+      "x": 0.07,
+      "y": 0.252,
+      "w": 0.2848,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Sophie",
+       "box": {
+        "x": 0.07,
+        "y": 0.252,
+        "w": 0.1068,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Aebischer",
+       "box": {
+        "x": 0.1946,
+        "y": 0.252,
+        "w": 0.1602,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Responsable Réception",
+     "box": {
+      "x": 0.07,
+      "y": 0.322,
+      "w": 0.2542,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Responsable",
+       "box": {
+        "x": 0.07,
+        "y": 0.322,
+        "w": 0.1332,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Réception",
+       "box": {
+        "x": 0.2153,
+        "y": 0.322,
+        "w": 0.1089,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Grand-Rue 80 · 1820 Vaudrey",
+     "box": {
+      "x": 0.07,
+      "y": 0.406,
+      "w": 0.299,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Grand-Rue",
+       "box": {
+        "x": 0.07,
+        "y": 0.406,
+        "w": 0.0961,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "80",
+       "box": {
+        "x": 0.1768,
+        "y": 0.406,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2088,
+        "y": 0.406,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "1820",
+       "box": {
+        "x": 0.2302,
+        "y": 0.406,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Vaudrey",
+       "box": {
+        "x": 0.2836,
+        "y": 0.406,
+        "w": 0.0854,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "T +41 21 963 32 81 · F +41 21 963 32 89",
+     "box": {
+      "x": 0.07,
+      "y": 0.456,
+      "w": 0.3888,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.456,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "+41",
+       "box": {
+        "x": 0.0899,
+        "y": 0.456,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.1298,
+        "y": 0.456,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "963",
+       "box": {
+        "x": 0.1597,
+        "y": 0.456,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.1996,
+        "y": 0.456,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "81",
+       "box": {
+        "x": 0.2295,
+        "y": 0.456,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2594,
+        "y": 0.456,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "F",
+       "box": {
+        "x": 0.2794,
+        "y": 0.456,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "+41",
+       "box": {
+        "x": 0.2993,
+        "y": 0.456,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.3392,
+        "y": 0.456,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "963",
+       "box": {
+        "x": 0.3691,
+        "y": 0.456,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.409,
+        "y": 0.456,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.4389,
+        "y": 0.456,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "s.aebischer @ hoteldulac-vaudrey.ch",
+     "box": {
+      "x": 0.07,
+      "y": 0.504,
+      "w": 0.346,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "s.aebischer",
+       "box": {
+        "x": 0.07,
+        "y": 0.504,
+        "w": 0.1057,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "@",
+       "box": {
+        "x": 0.1853,
+        "y": 0.504,
+        "w": 0.0096,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "hoteldulac-vaudrey.ch",
+       "box": {
+        "x": 0.2046,
+        "y": 0.504,
+        "w": 0.2114,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "www.hoteldulac-vaudrey.ch",
+     "box": {
+      "x": 0.07,
+      "y": 0.551,
+      "w": 0.2499,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "www.hoteldulac-vaudrey.ch",
+       "box": {
+        "x": 0.07,
+        "y": 0.551,
+        "w": 0.2499,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "CH",
+  "uiLang": "fr"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sophie",
+   "middle": "",
+   "family": "Aebischer",
+   "suffix": "",
+   "full": "Sophie Aebischer"
+  },
+  "otherName": null,
+  "company": "Hôtel du Lac",
+  "department": null,
+  "title": "Responsable Réception",
+  "phones": [
+   {
+    "printed": "+41 21 963 32 81",
+    "e164": "+41219633281",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+41 21 963 32 89",
+    "e164": "+41219633289",
+    "type": "fax",
+    "label": "F",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "s.aebischer@hoteldulac-vaudrey-ch.example"
+  ],
+  "urls": [
+   "www.hoteldulac-vaudrey.ch"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Grand-Rue 80",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1820",
+    "city": "Vaudrey",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "s.aebischer@hoteldulac-vaudrey-ch.example",
+   "ocr": "s.aebischer @ hoteldulac-vaudrey.ch",
+   "kinds": [
+    "spaced-at"
+   ]
+  }
+ ],
+ "traps": [
+  "hotel",
+  "single-letter-labels",
+  "spaced-at",
+  "year-in-tagline",
+  "street-without-keyword"
+ ],
+ "notes": "Swiss French hotel. \"T\"/\"F\" single-letter labels; \"F\" is fax. \"depuis 1898\" is not a number to keep. \"Grand-Rue\" has no street keyword. E-mail with \" @ \"."
+}

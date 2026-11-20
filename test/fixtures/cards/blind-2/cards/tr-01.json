@@ -1,0 +1,597 @@
+{
+ "id": "tr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "tr-TR"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TEZKAN HUKUK BÜROSU",
+     "box": {
+      "x": 0.07,
+      "y": 0.0891,
+      "w": 0.4584,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "TEZKAN",
+       "box": {
+        "x": 0.07,
+        "y": 0.0891,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "HUKUK",
+       "box": {
+        "x": 0.2358,
+        "y": 0.0891,
+        "w": 0.1268,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "BÜROSU",
+       "box": {
+        "x": 0.3762,
+        "y": 0.0891,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Av. Zeynep Tezkan",
+     "box": {
+      "x": 0.07,
+      "y": 0.1811,
+      "w": 0.3494,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.07,
+        "y": 0.1811,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Zeynep",
+       "box": {
+        "x": 0.1469,
+        "y": 0.1811,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Tezkan",
+       "box": {
+        "x": 0.289,
+        "y": 0.1811,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Kurucu Ortak",
+     "box": {
+      "x": 0.07,
+      "y": 0.2631,
+      "w": 0.209,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Kurucu",
+       "box": {
+        "x": 0.07,
+        "y": 0.2631,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Ortak",
+       "box": {
+        "x": 0.1884,
+        "y": 0.2631,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Büyükdere Cad. No: 127 Kat: 8",
+     "box": {
+      "x": 0.07,
+      "y": 0.3351,
+      "w": 0.4834,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Büyükdere",
+       "box": {
+        "x": 0.07,
+        "y": 0.3351,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Cad.",
+       "box": {
+        "x": 0.2428,
+        "y": 0.3351,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.3249,
+        "y": 0.3351,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "127",
+       "box": {
+        "x": 0.389,
+        "y": 0.3351,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Kat:",
+       "box": {
+        "x": 0.4531,
+        "y": 0.3351,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8",
+       "box": {
+        "x": 0.5352,
+        "y": 0.3351,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "34394 Şişli / İstanbul",
+     "box": {
+      "x": 0.07,
+      "y": 0.4071,
+      "w": 0.3734,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "34394",
+       "box": {
+        "x": 0.07,
+        "y": 0.4071,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Şişli",
+       "box": {
+        "x": 0.1703,
+        "y": 0.4071,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2706,
+        "y": 0.4071,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "İstanbul",
+       "box": {
+        "x": 0.2984,
+        "y": 0.4071,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Tel:+90 212 345 67 89",
+     "box": {
+      "x": 0.07,
+      "y": 0.4791,
+      "w": 0.3468,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel:+90",
+       "box": {
+        "x": 0.07,
+        "y": 0.4791,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "212",
+       "box": {
+        "x": 0.2065,
+        "y": 0.4791,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2706,
+        "y": 0.4791,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3346,
+        "y": 0.4791,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.3806,
+        "y": 0.4791,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Faks: +90 212 345 67 90",
+     "box": {
+      "x": 0.07,
+      "y": 0.5511,
+      "w": 0.3746,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Faks:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5511,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5511,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "212",
+       "box": {
+        "x": 0.2344,
+        "y": 0.5511,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2984,
+        "y": 0.5511,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3625,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "90",
+       "box": {
+        "x": 0.4084,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Cep: +90 532 123 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.6231,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Cep:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6231,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.1522,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "532",
+       "box": {
+        "x": 0.2162,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.2803,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3444,
+        "y": 0.6231,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3903,
+        "y": 0.6231,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "zeynep@tezkanhukuk-com-tr.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6951,
+      "w": 0.4529,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "zeynep@tezkanhukuk-com-tr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6951,
+        "w": 0.4529,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "Vergi No: 1234567890",
+     "box": {
+      "x": 0.07,
+      "y": 0.7671,
+      "w": 0.1728,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Vergi",
+       "box": {
+        "x": 0.07,
+        "y": 0.7671,
+        "w": 0.0453,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.1201,
+        "y": 0.7671,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "1234567890",
+       "box": {
+        "x": 0.1522,
+        "y": 0.7671,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Av.",
+   "given": "Zeynep",
+   "middle": "",
+   "family": "Tezkan",
+   "suffix": "",
+   "full": "Av. Zeynep Tezkan"
+  },
+  "otherName": null,
+  "company": "TEZKAN HUKUK BÜROSU",
+  "department": null,
+  "title": "Kurucu Ortak",
+  "phones": [
+   {
+    "printed": "+90 212 345 67 89",
+    "e164": "+902123456789",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "+90 212 345 67 90",
+    "e164": "+902123456790",
+    "type": "fax",
+    "label": "Faks:",
+    "ext": null
+   },
+   {
+    "printed": "+90 532 123 45 67",
+    "e164": "+905321234567",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "zeynep@tezkanhukuk-com-tr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Büyükdere Cad. No: 127",
+    "extra": "Kat: 8",
+    "pobox": "",
+    "postcode": "34394",
+    "city": "İstanbul",
+    "region": "",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Tel: +90",
+   "ocr": "Tel:+90",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "tax-id",
+  "ext-pair",
+  "glued-label",
+  "name-is-company",
+  "slash-in-address",
+  "region-from-plus-cc",
+  "dropped-space"
+ ],
+ "notes": "Vergi No 1234567890 (10 digits) is a tax number, not a phone. City İstanbul (district Şişli before the slash). Floor \"Kat: 8\" is the address extra."
+}

@@ -1,0 +1,152 @@
+{
+ "id": "de-24",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIOTROP",
+     "box": {
+      "x": 0.3457815374853492,
+      "y": 0.11406279531162444,
+      "w": 0.33462104797363285,
+      "h": 0.07201222011021202
+     },
+     "height": 0.07201222011021202,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Messebau • Events",
+     "box": {
+      "x": 0.40393250400889213,
+      "y": 0.25767381854765503,
+      "w": 0.17178903579711913,
+      "h": 0.029038318796047236
+     },
+     "height": 0.029038318796047236,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Scan me",
+     "box": {
+      "x": 0.46069745131027984,
+      "y": 0.8762232679755468,
+      "w": 0.08005858421325684,
+      "h": 0.0255803684470276
+     },
+     "height": 0.0255803684470276,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Achterkamp,Fenna;ORG:Heliotrop Messebau GmbH;TEL:+4917612398745;EMAIL:f.achterkamp@heliotrop-messebau-de.example;ADR:,,Am Messesee 3,Hannover,,30521,Deutschland;;",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Fenna",
+   "middle": "",
+   "family": "Achterkamp",
+   "suffix": "",
+   "full": "Achterkamp,Fenna"
+  },
+  "otherName": null,
+  "company": "Heliotrop Messebau GmbH",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "+4917612398745",
+    "e164": "+4917612398745",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "f.achterkamp@heliotrop-messebau-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Messesee 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "30521",
+    "city": "Hannover",
+    "region": "",
+    "country": "Deutschland",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "HELIOTROP"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "qr-only",
+  "mecard-qr",
+  "absent-printed-name",
+  "logo-word",
+  "slogan",
+  "mecard-name-comma",
+  "mecard-adr"
+ ],
+ "notes": "Nothing but a logo, a slogan and \"Scan me\" is printed; all contact data is in the MECARD (N = family,given). OCR alone gives no name; \"Scan me\" and \"HELIOTROP\" must not become the name. name.full is the MECARD N value.",
+ "o3": {
+  "source": "blind-1/cards/de-24.json",
+  "images": [
+   {
+    "name": "b1-de-24",
+    "font": "AmericanTypewriter",
+    "rotation": 0.01,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 79
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

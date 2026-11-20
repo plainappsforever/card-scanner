@@ -1,0 +1,243 @@
+{
+ "id": "fr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "FR",
+  "uiLang": "fr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "LEFÈVRE & FILS",
+     "box": {
+      "x": 0.07161021757810182,
+      "y": 0.03342066343697492,
+      "w": 0.30459836959838865,
+      "h": 0.08337540055794146
+     },
+     "height": 0.08337540055794146,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Société Lefèvre & Fils SARL",
+     "box": {
+      "x": 0.07241810643176791,
+      "y": 0.12889592889656765,
+      "w": 0.2795692443847656,
+      "h": 0.04199516082822585
+     },
+     "height": 0.04199516082822585,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Jean-Baptiste LEFÈVRE",
+     "box": {
+      "x": 0.06816822754507001,
+      "y": 0.26439699483499535,
+      "w": 0.4174506378173828,
+      "h": 0.06495932722644004
+     },
+     "height": 0.06495932722644004,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Directeur commercial",
+     "box": {
+      "x": 0.07076708608463442,
+      "y": 0.35812321916014245,
+      "w": 0.24940298080444337,
+      "h": 0.042478924092178794
+     },
+     "height": 0.042478924092178794,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "12, rue du Faubourg Saint-Honoré",
+     "box": {
+      "x": 0.06600728660083899,
+      "y": 0.5150216796444069,
+      "w": 0.3197013092041016,
+      "h": 0.060811933863577194
+     },
+     "height": 0.060811933863577194,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "75008 Paris",
+     "box": {
+      "x": 0.06657958540471291,
+      "y": 0.5730299393476591,
+      "w": 0.12121728897094726,
+      "h": 0.032497737398479054
+     },
+     "height": 0.032497737398479054,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tél. : +33 (0) 1 42 68 53 00",
+     "box": {
+      "x": 0.06651594557748347,
+      "y": 0.6226784740089557,
+      "w": 0.273861026763916,
+      "h": 0.04306010205773314
+     },
+     "height": 0.04306010205773314,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Port. : 06 12 34 56 78",
+     "box": {
+      "x": 0.06514539960282001,
+      "y": 0.6768427261522504,
+      "w": 0.20836132049560546,
+      "h": 0.03760194962549401
+     },
+     "height": 0.03760194962549401,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "jb.lefevre@lefevre-fils-fr.example • www.lefevre-fils.fr",
+     "box": {
+      "x": 0.06086439156061317,
+      "y": 0.7299966786390526,
+      "w": 0.41900455474853515,
+      "h": 0.04191693928250939
+     },
+     "height": 0.04191693928250939,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "SIRET 123 456 789 00012 • TVA FR 12 123456789",
+     "box": {
+      "x": 0.06220584336451815,
+      "y": 0.8904489405186025,
+      "w": 0.32906047821044926,
+      "h": 0.03419457439290052
+     },
+     "height": 0.03419457439290052,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jean-Baptiste",
+   "middle": "",
+   "family": "LEFÈVRE",
+   "suffix": "",
+   "full": "Jean-Baptiste LEFÈVRE"
+  },
+  "otherName": null,
+  "company": "Société Lefèvre & Fils SARL",
+  "department": null,
+  "title": "Directeur commercial",
+  "phones": [
+   {
+    "printed": "+33 (0)1 42 68 53 00",
+    "e164": "+33142685300",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "06 12 34 56 78",
+    "e164": "+33612345678",
+    "type": "mobile",
+    "label": "Port.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jb.lefevre@lefevre-fils-fr.example"
+  ],
+  "urls": [
+   "www.lefevre-fils.fr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "12, rue du Faubourg Saint-Honoré",
+    "extra": "",
+    "pobox": "",
+    "postcode": "75008",
+    "city": "Paris",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "LEFÈVRE & FILS"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "all-caps-family",
+  "french-colon-spacing",
+  "siret-14digits",
+  "tva",
+  "comma-after-house-number",
+  "initials-email",
+  "name-is-company"
+ ],
+ "notes": "Family name in capitals (French convention). \"Tél. :\" with a space before the colon. SIRET (14 digits) and TVA are not phones.",
+ "o3": {
+  "source": "blind-1/cards/fr-01.json",
+  "images": [
+   {
+    "name": "b1-fr-01",
+    "font": "AmericanTypewriter",
+    "rotation": -1.35,
+    "noise": 2,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 122
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

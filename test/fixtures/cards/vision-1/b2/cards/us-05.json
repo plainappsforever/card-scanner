@@ -1,0 +1,172 @@
+{
+ "id": "us-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BROOKS & VINE",
+     "box": {
+      "x": 0.059593014916818704,
+      "y": 0.1476833985259337,
+      "w": 0.39534885406494136,
+      "h": 0.10135135135135132
+     },
+     "height": 0.10135135135135132,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Tyler Brooks",
+     "box": {
+      "x": 0.06514965333344659,
+      "y": 0.2849930714835256,
+      "w": 0.21862152099609378,
+      "h": 0.05233094867131882
+     },
+     "height": 0.05233094867131882,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Founder",
+     "box": {
+      "x": 0.06790708985977023,
+      "y": 0.3742009904670103,
+      "w": 0.1096959400177002,
+      "h": 0.03544530905351673
+     },
+     "height": 0.03544530905351673,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "(503) 555-0148",
+     "box": {
+      "x": 0.06625785109242735,
+      "y": 0.43892009056090275,
+      "w": 0.21059349060058594,
+      "h": 0.053073698949629766
+     },
+     "height": 0.053073698949629766,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "tyler@brooksandvine-com.example",
+     "box": {
+      "x": 0.0677686084306194,
+      "y": 0.5033420153922293,
+      "w": 0.35283363342285157,
+      "h": 0.0582665034702845
+     },
+     "height": 0.0582665034702845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "IG @brooksandvine",
+     "box": {
+      "x": 0.0692796678144083,
+      "y": 0.5752848101373724,
+      "w": 0.28286123275756836,
+      "h": 0.0477540539038227
+     },
+     "height": 0.0477540539038227,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Tyler",
+   "middle": "",
+   "family": "Brooks",
+   "suffix": "",
+   "full": "Tyler Brooks"
+  },
+  "otherName": null,
+  "company": "BROOKS & VINE",
+  "department": null,
+  "title": "Founder",
+  "phones": [
+   {
+    "printed": "(503) 555-0148",
+    "e164": "+15035550148",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "type_accept": [
+     "mobile"
+    ]
+   }
+  ],
+  "emails": [
+   "tyler@brooksandvine-com.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@brooksandvine"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "region-stays-low",
+  "handle-social",
+  "name-is-company",
+  "absent-addresses"
+ ],
+ "notes": "Truth is +1 503 555 0148, but no card evidence gives US (no +1, no address, generic .com). A correct extractor either reads \"(xxx) xxx-xxxx\" as NANP or keeps the number low — a high-confidence German parse is confident-wrong. US numbers carry no mobile/fixed distinction: work, mobile accepted.",
+ "o3": {
+  "source": "blind-2/cards/us-05.json",
+  "images": [
+   {
+    "name": "b2-us-05",
+    "font": "AmericanTypewriter",
+    "rotation": 1.56,
+    "noise": 14,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 145
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

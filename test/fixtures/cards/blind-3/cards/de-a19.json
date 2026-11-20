@@ -1,0 +1,547 @@
+{
+ "id": "de-a19",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KARL-THEODOR-UNIVERSITÄT",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.612,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "KARL-THEODOR-UNIVERSITÄT",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.612,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "FALKENRODE",
+     "box": {
+      "x": 0.07,
+      "y": 0.095,
+      "w": 0.306,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "FALKENRODE",
+       "box": {
+        "x": 0.07,
+        "y": 0.095,
+        "w": 0.306,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Fakultät für Physik",
+     "box": {
+      "x": 0.07,
+      "y": 0.175,
+      "w": 0.4037,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Fakultät",
+       "box": {
+        "x": 0.07,
+        "y": 0.175,
+        "w": 0.17,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.2612,
+        "y": 0.175,
+        "w": 0.0637,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Physik",
+       "box": {
+        "x": 0.3462,
+        "y": 0.175,
+        "w": 0.1275,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Institut für Astrophysik und Geophysik",
+     "box": {
+      "x": 0.07,
+      "y": 0.22,
+      "w": 0.7752,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Institut",
+       "box": {
+        "x": 0.07,
+        "y": 0.22,
+        "w": 0.1632,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.2536,
+        "y": 0.22,
+        "w": 0.0612,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Astrophysik",
+       "box": {
+        "x": 0.3352,
+        "y": 0.22,
+        "w": 0.2244,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.58,
+        "y": 0.22,
+        "w": 0.0612,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Geophysik",
+       "box": {
+        "x": 0.6616,
+        "y": 0.22,
+        "w": 0.1836,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Dr. rer. nat. Kart Tamm",
+     "box": {
+      "x": 0.07,
+      "y": 0.304,
+      "w": 0.6843,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.304,
+        "w": 0.0893,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "rer.",
+       "box": {
+        "x": 0.189,
+        "y": 0.304,
+        "w": 0.119,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "nat.",
+       "box": {
+        "x": 0.3378,
+        "y": 0.304,
+        "w": 0.119,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Kart",
+       "box": {
+        "x": 0.4865,
+        "y": 0.304,
+        "w": 0.119,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Tamm",
+       "box": {
+        "x": 0.6353,
+        "y": 0.304,
+        "w": 0.119,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Wissenschaftliche Mitarbeiterin",
+     "box": {
+      "x": 0.07,
+      "y": 0.359,
+      "w": 0.6587,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Wissenschaftliche",
+       "box": {
+        "x": 0.07,
+        "y": 0.359,
+        "w": 0.3612,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Mitarbeiterin",
+       "box": {
+        "x": 0.4525,
+        "y": 0.359,
+        "w": 0.2762,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Friedrich-Hund-Platz 1 · Raum E.12",
+     "box": {
+      "x": 0.07,
+      "y": 0.434,
+      "w": 0.6936,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Friedrich-Hund-Platz",
+       "box": {
+        "x": 0.07,
+        "y": 0.434,
+        "w": 0.408,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "1",
+       "box": {
+        "x": 0.4984,
+        "y": 0.434,
+        "w": 0.0204,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5392,
+        "y": 0.434,
+        "w": 0.0204,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Raum",
+       "box": {
+        "x": 0.58,
+        "y": 0.434,
+        "w": 0.0816,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "E.12",
+       "box": {
+        "x": 0.682,
+        "y": 0.434,
+        "w": 0.0816,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "37077 Falkenrode",
+     "box": {
+      "x": 0.07,
+      "y": 0.478,
+      "w": 0.306,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "37077",
+       "box": {
+        "x": 0.07,
+        "y": 0.478,
+        "w": 0.102,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Falkenrode",
+       "box": {
+        "x": 0.1924,
+        "y": 0.478,
+        "w": 0.1836,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Tel. +49 551 39-24871",
+     "box": {
+      "x": 0.07,
+      "y": 0.522,
+      "w": 0.4284,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.522,
+        "w": 0.0816,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.172,
+        "y": 0.522,
+        "w": 0.0612,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "551",
+       "box": {
+        "x": 0.2536,
+        "y": 0.522,
+        "w": 0.0612,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "39-24871",
+       "box": {
+        "x": 0.3352,
+        "y": 0.522,
+        "w": 0.1632,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "kaert.tamm@uni-falkenrode-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.566,
+      "w": 0.5236,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "kaert.tamm@uni-falkenrode-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.566,
+        "w": 0.5236,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "ORCID 0000-0003-4172-9087",
+     "box": {
+      "x": 0.07,
+      "y": 0.608,
+      "w": 0.4675,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "ORCID",
+       "box": {
+        "x": 0.07,
+        "y": 0.608,
+        "w": 0.0935,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "0000-0003-4172-9087",
+       "box": {
+        "x": 0.1822,
+        "y": 0.608,
+        "w": 0.3553,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr. rer. nat.",
+   "given": "Kärt",
+   "middle": "",
+   "family": "Tamm",
+   "suffix": "",
+   "full": "Dr. rer. nat. Kärt Tamm"
+  },
+  "otherName": null,
+  "company": "KARL-THEODOR-UNIVERSITÄT FALKENRODE",
+  "department": "Institut für Astrophysik und Geophysik",
+  "title": "Wissenschaftliche Mitarbeiterin",
+  "phones": [
+   {
+    "printed": "+49 551 39-24871",
+    "e164": "+495513924871",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kaert.tamm@uni-falkenrode-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Friedrich-Hund-Platz 1",
+    "extra": "Raum E.12",
+    "pobox": "",
+    "postcode": "37077",
+    "city": "Falkenrode",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Fakultät für Physik"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Dr. rer. nat. Kärt Tamm",
+   "ocr": "Dr. rer. nat. Kart Tamm",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Kärt",
+   "ocr": "Kart",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "academic",
+  "orcid",
+  "faculty-line",
+  "baltic-name",
+  "portrait",
+  "diacritic-lost",
+  "room-extra",
+  "company-split-lines",
+  "prefix-stack"
+ ],
+ "notes": "Estonian given name Kärt (e-mail spells it kaert), umlaut lost in OCR. Prefix \"Dr. rer. nat.\" has three tokens. ORCID (16 digits in groups) is not a phone. Faculty and institute are two department lines (institute = truth, faculty accepted). University name over two lines."
+}

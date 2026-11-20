@@ -1,0 +1,157 @@
+{
+ "id": "de-h17-back",
+ "group": "de-h17",
+ "side": "back",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Ingrid Sørensen",
+     "box": {
+      "x": 0.07665874555072129,
+      "y": 0.04684998236375881,
+      "w": 0.24341289520263676,
+      "h": 0.053749603654426936
+     },
+     "height": 0.053749603654426936,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Leitung Bankett & Veranstaltungen",
+     "box": {
+      "x": 0.07378044400518384,
+      "y": 0.12419987603565597,
+      "w": 0.3131720161437988,
+      "h": 0.04263973604297999
+     },
+     "height": 0.04263973604297999,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Mobil 0151 42 87 33 19",
+     "box": {
+      "x": 0.07383041135686697,
+      "y": 0.2295989650295065,
+      "w": 0.20411169052124023,
+      "h": 0.03424174260909041
+     },
+     "height": 0.03424174260909041,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Durchwahl -214",
+     "box": {
+      "x": 0.07236377029883176,
+      "y": 0.2876451116991121,
+      "w": 0.12707980155944823,
+      "h": 0.029742333879802185
+     },
+     "height": 0.029742333879802185,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "i.sorensen@hotel-seeblick-brunnsee-de.example",
+     "box": {
+      "x": 0.06934502067557811,
+      "y": 0.33770961234649843,
+      "w": 0.29884162902832034,
+      "h": 0.04500178848914649
+     },
+     "height": 0.04500178848914649,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ingrid",
+   "middle": "",
+   "family": "Sørensen",
+   "suffix": "",
+   "full": "Ingrid Sørensen"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Leitung Bankett & Veranstaltungen",
+  "phones": [
+   {
+    "printed": "0151 42 87 33 19",
+    "e164": "+4915142873319",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "i.sorensen@hotel-seeblick-brunnsee-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "tagline",
+  "cross-side-extension",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "suffix-only-number"
+ ],
+ "notes": "Back only: the person. \"Durchwahl -214\" cannot be resolved without the front base number and is not in the truth for this side (an unresolved extra phone is not scored as right). The label \"Mobil\" was read \"Mobi|\".",
+ "o3": {
+  "source": "blind-3/cards/de-h17-back.json",
+  "images": [
+   {
+    "name": "b3-de-h17-back",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -1.23,
+    "noise": 13,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

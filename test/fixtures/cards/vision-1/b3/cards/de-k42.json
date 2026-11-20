@@ -1,0 +1,264 @@
+{
+ "id": "de-k42",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BEDACHUNGEN",
+     "box": {
+      "x": 0.060497309071143486,
+      "y": 0.06968821371851885,
+      "w": 0.19730224609375002,
+      "h": 0.04571985738157769
+     },
+     "height": 0.04571985738157769,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "WÖHRLE GmbH",
+     "box": {
+      "x": 0.06158981007364009,
+      "y": 0.10810561966647148,
+      "w": 0.2937538719177246,
+      "h": 0.07688419238941091
+     },
+     "height": 0.07688419238941091,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Steil- und Flachdach • Dachbegrünung",
+     "box": {
+      "x": 0.06380293972315094,
+      "y": 0.21407288544495784,
+      "w": 0.25172426223754885,
+      "h": 0.031068853429845777
+     },
+     "height": 0.031068853429845777,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Klaus-Dieter Wöhrle",
+     "box": {
+      "x": 0.06630730232099324,
+      "y": 0.29042666645374715,
+      "w": 0.20590696334838865,
+      "h": 0.0445717623795322
+     },
+     "height": 0.0445717623795322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Dachdeckermeister • Gebäudeenergieberater (HWK)",
+     "box": {
+      "x": 0.0665283064900719,
+      "y": 0.3507801573120022,
+      "w": 0.32911254882812496,
+      "h": 0.03768344091172393
+     },
+     "height": 0.03768344091172393,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 0341 2 15 88 40 Gohliser Straße 12",
+     "box": {
+      "x": 0.0662084867727377,
+      "y": 0.4334218798977716,
+      "w": 0.28428838729858397,
+      "h": 0.046033669622708384
+     },
+     "height": 0.046033669622708384,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Fax 0341 2 15 88 49 04155 Leipzig",
+     "box": {
+      "x": 0.06812044854401396,
+      "y": 0.4925324065928369,
+      "w": 0.25036623001098635,
+      "h": 0.032694647210905425
+     },
+     "height": 0.032694647210905425,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil 0172 3 41 90 26",
+     "box": {
+      "x": 0.07083377468603098,
+      "y": 0.542904432804262,
+      "w": 0.1694257545471191,
+      "h": 0.03294807051139448
+     },
+     "height": 0.03294807051139448,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "info@woehrle-dach-de.example",
+     "box": {
+      "x": 0.5520113988277758,
+      "y": 0.7857207669502374,
+      "w": 0.15326004981994623,
+      "h": 0.03252959895778351
+     },
+     "height": 0.03252959895778351,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "www.woehrle-dach.de",
+     "box": {
+      "x": 0.554915834109876,
+      "y": 0.8351941166573076,
+      "w": 0.1488082885742188,
+      "h": 0.030706138684482576
+     },
+     "height": 0.030706138684482576,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "Mitglied der Dachdecker-Innung Leipzig",
+     "box": {
+      "x": 0.07820049971127667,
+      "y": 0.9266455766817588,
+      "w": 0.20983776092529294,
+      "h": 0.03152235318334873
+     },
+     "height": 0.03152235318334873,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Klaus-Dieter",
+   "middle": "",
+   "family": "Wöhrle",
+   "suffix": "",
+   "full": "Klaus-Dieter Wöhrle"
+  },
+  "otherName": null,
+  "company": "BEDACHUNGEN WÖHRLE GmbH",
+  "department": null,
+  "title": "Dachdeckermeister · Gebäudeenergieberater (HWK)",
+  "phones": [
+   {
+    "printed": "0341 2 15 88 40",
+    "e164": "+493412158840",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0341 2 15 88 49",
+    "e164": "+493412158849",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "0172 3 41 90 26",
+    "e164": "+491723419026",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@woehrle-dach-de.example"
+  ],
+  "urls": [
+   "www.woehrle-dach.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gohliser Straße 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "04155",
+    "city": "Leipzig",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Dachdeckermeister"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "trade",
+  "two-column",
+  "merged-line",
+  "member-of",
+  "tagline",
+  "family-name-in-company",
+  "postcode-leading-zero",
+  "credential-in-title"
+ ],
+ "notes": "Two-column card: OCR merged the left phone column with the right address column into single lines (\"Tel. … Gohliser Straße 12\", \"Fax … 04155 Leipzig\"). The postcode 04155 must not be glued onto the fax number. The name repeats in the company logo. \"(HWK)\" belongs to the title.",
+ "o3": {
+  "source": "blind-3/cards/de-k42.json",
+  "images": [
+   {
+    "name": "b3-de-k42",
+    "font": "Futura-Medium",
+    "rotation": 1.7,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 104
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

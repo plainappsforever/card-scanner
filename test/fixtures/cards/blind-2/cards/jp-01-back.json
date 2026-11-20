@@ -1,0 +1,475 @@
+{
+ "id": "jp-01-back",
+ "group": "jp-01",
+ "side": "back",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kirihane System Co., Ltd.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1158,
+      "w": 0.5481,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Kirihane",
+       "box": {
+        "x": 0.07,
+        "y": 0.1158,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "System",
+       "box": {
+        "x": 0.2358,
+        "y": 0.1158,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Co.,",
+       "box": {
+        "x": 0.4016,
+        "y": 0.1158,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.5166,
+        "y": 0.1158,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Taro Yamada",
+     "box": {
+      "x": 0.07,
+      "y": 0.2078,
+      "w": 0.3436,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "Taro",
+       "box": {
+        "x": 0.07,
+        "y": 0.2078,
+        "w": 0.1304,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "Yamada",
+       "box": {
+        "x": 0.2179,
+        "y": 0.2078,
+        "w": 0.1957,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "General Manager, Sales Department",
+     "box": {
+      "x": 0.07,
+      "y": 0.3198,
+      "w": 0.5726,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "General",
+       "box": {
+        "x": 0.07,
+        "y": 0.3198,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Manager,",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3198,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.3612,
+        "y": 0.3198,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Department",
+       "box": {
+        "x": 0.4615,
+        "y": 0.3198,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Shibuya Square Bldg. 18F, 2-21-1 Shibuya",
+     "box": {
+      "x": 0.07,
+      "y": 0.3918,
+      "w": 0.6826,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Shibuya",
+       "box": {
+        "x": 0.07,
+        "y": 0.3918,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Square",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3918,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bldg.",
+       "box": {
+        "x": 0.3249,
+        "y": 0.3918,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "18F,",
+       "box": {
+        "x": 0.4252,
+        "y": 0.3918,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2-21-1",
+       "box": {
+        "x": 0.5074,
+        "y": 0.3918,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Shibuya",
+       "box": {
+        "x": 0.6258,
+        "y": 0.3918,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Shibuya-ku, Tokyo 150-0002, Japan",
+     "box": {
+      "x": 0.07,
+      "y": 0.4638,
+      "w": 0.5726,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Shibuya-ku,",
+       "box": {
+        "x": 0.07,
+        "y": 0.4638,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Tokyo",
+       "box": {
+        "x": 0.279,
+        "y": 0.4638,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "150-0002,",
+       "box": {
+        "x": 0.3793,
+        "y": 0.4638,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Japan",
+       "box": {
+        "x": 0.5521,
+        "y": 0.4638,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel +81-3-1234-5678 Mobile +81-90-1234-5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.5358,
+      "w": 0.7538,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.5358,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+81-3-1234-5678",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5358,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.4155,
+        "y": 0.5358,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+81-90-1234-5678",
+       "box": {
+        "x": 0.5339,
+        "y": 0.5358,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "t.yamada @ kirihane-sys.co.jp",
+     "box": {
+      "x": 0.07,
+      "y": 0.6078,
+      "w": 0.4724,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "t.yamada",
+       "box": {
+        "x": 0.07,
+        "y": 0.6078,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "@",
+       "box": {
+        "x": 0.2246,
+        "y": 0.6078,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "kirihane-sys.co.jp",
+       "box": {
+        "x": 0.2525,
+        "y": 0.6078,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "www.kirihane-sys.co.jp",
+     "box": {
+      "x": 0.07,
+      "y": 0.6798,
+      "w": 0.3624,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.kirihane-sys.co.jp",
+       "box": {
+        "x": 0.07,
+        "y": 0.6798,
+        "w": 0.3624,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Taro",
+   "middle": "",
+   "family": "Yamada",
+   "suffix": "",
+   "full": "Taro Yamada"
+  },
+  "otherName": null,
+  "company": "Kirihane System Co., Ltd.",
+  "department": "Sales Department",
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "+81-3-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+81-90-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihane-sys-co-jp.example"
+  ],
+  "urls": [
+   "www.kirihane-sys.co.jp"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2-21-1 Shibuya",
+    "extra": "Shibuya Square Bldg. 18F",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "Shibuya-ku",
+    "region": "Tokyo",
+    "country": "Japan",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "General Manager, Sales Department"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "t.yamada@kirihane-sys-co-jp.example",
+   "ocr": "t.yamada @ kirihane-sys.co.jp",
+   "kinds": [
+    "spaced-at"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "title-dept-one-line",
+  "ext-pair",
+  "region-from-address",
+  "spaced-at"
+ ],
+ "notes": "English back alone: title General Manager, department Sales Department. Latin address with postcode after the prefecture. \" @ \" in the e-mail."
+}

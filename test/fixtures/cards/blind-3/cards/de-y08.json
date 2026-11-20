@@ -1,0 +1,554 @@
+{
+ "id": "de-y08",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "E L E K T R O  H A N S E N",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.6479,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "E",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "L",
+       "box": {
+        "x": 0.1198,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.1697,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "K",
+       "box": {
+        "x": 0.2195,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "T",
+       "box": {
+        "x": 0.2694,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "R",
+       "box": {
+        "x": 0.3192,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "O",
+       "box": {
+        "x": 0.369,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "H",
+       "box": {
+        "x": 0.4438,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "A",
+       "box": {
+        "x": 0.4936,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "N",
+       "box": {
+        "x": 0.5435,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "S",
+       "box": {
+        "x": 0.5933,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.6431,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "N",
+       "box": {
+        "x": 0.693,
+        "y": 0.06,
+        "w": 0.0249,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Meisterbetrieb seit 1991",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.299,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Meisterbetrieb",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.1744,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "seit",
+       "box": {
+        "x": 0.2569,
+        "y": 0.15,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "1991",
+       "box": {
+        "x": 0.3192,
+        "y": 0.15,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Elektroinstallation · Smart Home · E-Mobilität",
+     "box": {
+      "x": 0.07,
+      "y": 0.205,
+      "w": 0.4913,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Elektroinstallation",
+       "box": {
+        "x": 0.07,
+        "y": 0.205,
+        "w": 0.2029,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2836,
+        "y": 0.205,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Smart",
+       "box": {
+        "x": 0.305,
+        "y": 0.205,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Home",
+       "box": {
+        "x": 0.3691,
+        "y": 0.205,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4225,
+        "y": 0.205,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "E-Mobilität",
+       "box": {
+        "x": 0.4438,
+        "y": 0.205,
+        "w": 0.1175,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 0431 54 33 21",
+     "box": {
+      "x": 0.07,
+      "y": 0.315,
+      "w": 0.2243,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.315,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0431",
+       "box": {
+        "x": 0.1323,
+        "y": 0.315,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.1946,
+        "y": 0.315,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.232,
+        "y": 0.315,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.2694,
+        "y": 0.315,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Notdienst 0170 8 33 44 21",
+     "box": {
+      "x": 0.07,
+      "y": 0.37,
+      "w": 0.3115,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Notdienst",
+       "box": {
+        "x": 0.07,
+        "y": 0.37,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0170",
+       "box": {
+        "x": 0.1946,
+        "y": 0.37,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "8",
+       "box": {
+        "x": 0.2569,
+        "y": 0.37,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.2818,
+        "y": 0.37,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "44",
+       "box": {
+        "x": 0.3192,
+        "y": 0.37,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.3566,
+        "y": 0.37,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Ho|tenauer Straße 204 · 24105 Kiel",
+     "box": {
+      "x": 0.07,
+      "y": 0.425,
+      "w": 0.3631,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Ho|tenauer",
+       "box": {
+        "x": 0.07,
+        "y": 0.425,
+        "w": 0.1068,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Straße",
+       "box": {
+        "x": 0.1875,
+        "y": 0.425,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "204",
+       "box": {
+        "x": 0.2622,
+        "y": 0.425,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3049,
+        "y": 0.425,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "24105",
+       "box": {
+        "x": 0.3263,
+        "y": 0.425,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Kiel",
+       "box": {
+        "x": 0.3904,
+        "y": 0.425,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "elektro-hansen-trentsee.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.475,
+      "w": 0.235,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "elektro-hansen-trentsee.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.475,
+        "w": 0.235,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "ELEKTRO HANSEN",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "0431 54 33 21",
+    "e164": "+49431543321",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0170 8 33 44 21",
+    "e164": "+491708334421",
+    "type": "mobile",
+    "label": "Notdienst",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "elektro-hansen-trentsee.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Holtenauer Straße 204",
+    "extra": "",
+    "pobox": "",
+    "postcode": "24105",
+    "city": "Kiel",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [
+  "company"
+ ],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].street",
+   "printed": "Holtenauer Straße 204",
+   "ocr": "Ho|tenauer Straße 204",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "trade",
+  "letter-spaced-logo",
+  "absent-name",
+  "absent-email",
+  "tagline",
+  "year-in-tagline",
+  "unknown-phone-label",
+  "bare-domain",
+  "ocr-pipe-for-l"
+ ],
+ "notes": "Letter-spaced logo \"E L E K T R O  H A N S E N\" = company \"ELEKTRO HANSEN\". Company card without a person: no name, no title, no e-mail. \"seit 1991\" is not a phone or postcode. \"Notdienst\" (emergency service) labels a mobile number. Bare domain without www."
+}

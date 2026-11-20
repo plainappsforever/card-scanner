@@ -1,0 +1,541 @@
+{
+ "id": "de-12-back",
+ "group": "de-12",
+ "side": "back",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIX Drive Technology",
+     "box": {
+      "x": 0.07,
+      "y": 0.1062,
+      "w": 0.6108,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "HELIX",
+       "box": {
+        "x": 0.07,
+        "y": 0.1062,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Drive",
+       "box": {
+        "x": 0.2305,
+        "y": 0.1062,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Technology",
+       "box": {
+        "x": 0.3909,
+        "y": 0.1062,
+        "w": 0.2899,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Est. 1988",
+     "box": {
+      "x": 0.07,
+      "y": 0.2082,
+      "w": 0.1546,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Est.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2082,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1988",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2082,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Dr Matthias Kruger",
+     "box": {
+      "x": 0.07,
+      "y": 0.2802,
+      "w": 0.3712,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dr",
+       "box": {
+        "x": 0.07,
+        "y": 0.2802,
+        "w": 0.0435,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Matthias",
+       "box": {
+        "x": 0.1251,
+        "y": 0.2802,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Kruger",
+       "box": {
+        "x": 0.3107,
+        "y": 0.2802,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Head of Research & Development",
+     "box": {
+      "x": 0.07,
+      "y": 0.3622,
+      "w": 0.5099,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.3622,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1522,
+        "y": 0.3622,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Research",
+       "box": {
+        "x": 0.1981,
+        "y": 0.3622,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3528,
+        "y": 0.3622,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Development",
+       "box": {
+        "x": 0.3806,
+        "y": 0.3622,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Head Office",
+     "box": {
+      "x": 0.07,
+      "y": 0.4342,
+      "w": 0.1909,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.4342,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Office",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4342,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Robert-Bosch-Strasse 22, 73037 Goeppingen, Germany",
+     "box": {
+      "x": 0.07,
+      "y": 0.5062,
+      "w": 0.8722,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Robert-Bosch-Strasse",
+       "box": {
+        "x": 0.07,
+        "y": 0.5062,
+        "w": 0.3624,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "22,",
+       "box": {
+        "x": 0.4421,
+        "y": 0.5062,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "73037",
+       "box": {
+        "x": 0.5061,
+        "y": 0.5062,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Goeppingen,",
+       "box": {
+        "x": 0.6064,
+        "y": 0.5062,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Germany",
+       "box": {
+        "x": 0.8154,
+        "y": 0.5062,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Phone +49 7161 60218-214",
+     "box": {
+      "x": 0.07,
+      "y": 0.5782,
+      "w": 0.4096,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Phone",
+       "box": {
+        "x": 0.07,
+        "y": 0.5782,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5782,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7161",
+       "box": {
+        "x": 0.2344,
+        "y": 0.5782,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "60218-214",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5782,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Mobile +49 170 4829137",
+     "box": {
+      "x": 0.07,
+      "y": 0.6502,
+      "w": 0.3734,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.07,
+        "y": 0.6502,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1884,
+        "y": 0.6502,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "170",
+       "box": {
+        "x": 0.2525,
+        "y": 0.6502,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4829137",
+       "box": {
+        "x": 0.3165,
+        "y": 0.6502,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "A member of the Bergmann Group",
+     "box": {
+      "x": 0.07,
+      "y": 0.7222,
+      "w": 0.3009,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "A",
+       "box": {
+        "x": 0.07,
+        "y": 0.7222,
+        "w": 0.0109,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "member",
+       "box": {
+        "x": 0.0867,
+        "y": 0.7222,
+        "w": 0.0652,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1577,
+        "y": 0.7222,
+        "w": 0.0217,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.1853,
+        "y": 0.7222,
+        "w": 0.0326,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Bergmann",
+       "box": {
+        "x": 0.2237,
+        "y": 0.7222,
+        "w": 0.087,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Group",
+       "box": {
+        "x": 0.3165,
+        "y": 0.7222,
+        "w": 0.0544,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Krüger",
+   "suffix": "",
+   "full": "Dr Matthias Krüger"
+  },
+  "otherName": null,
+  "company": "HELIX Drive Technology",
+  "department": "Research & Development",
+  "title": "Head",
+  "phones": [
+   {
+    "printed": "+49 7161 60218-214",
+    "e164": "+49716160218214",
+    "type": "work",
+    "label": "Phone",
+    "ext": null
+   },
+   {
+    "printed": "+49 170 4829137",
+    "e164": "+491704829137",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Robert-Bosch-Strasse 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "73037",
+    "city": "Goeppingen",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Head of Research & Development"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Dr Matthias Krüger",
+   "ocr": "Dr Matthias Kruger",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Krüger",
+   "ocr": "Kruger",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "two-sided",
+  "second-language",
+  "title-dept-one-line",
+  "durchwahl-composed",
+  "tagline-not-title",
+  "group-line-not-company",
+  "absent-emails",
+  "diacritic-lost"
+ ],
+ "notes": "English back alone: \"Est. 1988\" and \"Head Office\" are not titles; \"A member of the Bergmann Group\" is not the company; no e-mail on this side. ML Kit dropped the umlaut in Krüger."
+}

@@ -1,0 +1,228 @@
+{
+ "id": "de-09",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SCHREINEREI",
+     "box": {
+      "x": 0.07387112439393949,
+      "y": 0.08043855658026855,
+      "w": 0.27372482299804685,
+      "h": 0.04138277120111533
+     },
+     "height": 0.04138277120111533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "TANNHOLZ",
+     "box": {
+      "x": 0.07093017786155642,
+      "y": 0.14898349390187327,
+      "w": 0.2840015983581543,
+      "h": 0.08000538063785745
+     },
+     "height": 0.08000538063785745,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Meisterbetrieb seit 1988",
+     "box": {
+      "x": 0.07377344486235952,
+      "y": 0.27899034678504375,
+      "w": 0.294321460723877,
+      "h": 0.046720031605724244
+     },
+     "height": 0.046720031605724244,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Hermann Tannholz",
+     "box": {
+      "x": 0.07087547456865813,
+      "y": 0.35449801852644525,
+      "w": 0.24345685958862306,
+      "h": 0.050373154717522794
+     },
+     "height": 0.050373154717522794,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Schreinermeister",
+     "box": {
+      "x": 0.06945594059788472,
+      "y": 0.43592424937117813,
+      "w": 0.20417123794555664,
+      "h": 0.04281702373018592
+     },
+     "height": 0.04281702373018592,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Gewerbepark 3 • 97222 Rimpar",
+     "box": {
+      "x": 0.06932346717647249,
+      "y": 0.5042947895591059,
+      "w": 0.3874513626098633,
+      "h": 0.057352629407492306
+     },
+     "height": 0.057352629407492306,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel 09365 80 71 40",
+     "box": {
+      "x": 0.06799795258349256,
+      "y": 0.5808333699988368,
+      "w": 0.22012252807617189,
+      "h": 0.04111540915883183
+     },
+     "height": 0.04111540915883183,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil 0171 5 55 12 34",
+     "box": {
+      "x": 0.06946641133913647,
+      "y": 0.6534460269821063,
+      "w": 0.25640201568603516,
+      "h": 0.0419060143724832
+     },
+     "height": 0.0419060143724832,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "info@schreinerei-tannholz-de.example",
+     "box": {
+      "x": 0.06361153410198896,
+      "y": 0.7232567994430236,
+      "w": 0.3320788955688477,
+      "h": 0.05127983019618909
+     },
+     "height": 0.05127983019618909,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Hermann",
+   "middle": "",
+   "family": "Tannholz",
+   "suffix": "",
+   "full": "Hermann Tannholz"
+  },
+  "otherName": null,
+  "company": "Schreinerei Tannholz",
+  "department": null,
+  "title": "Schreinermeister",
+  "phones": [
+   {
+    "printed": "09365 80 71 40",
+    "e164": "+499365807140",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "0171 5 55 12 34",
+    "e164": "+491715551234",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@schreinerei-tannholz-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gewerbepark 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "97222",
+    "city": "Rimpar",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [
+  "company"
+ ],
+ "traps": [
+  "logo-letter-spaced",
+  "tagline-not-title",
+  "year-in-tagline",
+  "glued-label",
+  "name-is-company",
+  "ocr-rnm",
+  "ocr-0O",
+  "dropped-space"
+ ],
+ "notes": "Company composed from the letter-spaced logo and TANNHOLZ. \"Meisterbetrieb seit 1988\" is a tagline, the title is Schreinermeister. \"Herrnann\" = Hermann.",
+ "o3": {
+  "source": "blind-2/cards/de-09.json",
+  "images": [
+   {
+    "name": "b2-de-09",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -0.89,
+    "noise": 12,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 92
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

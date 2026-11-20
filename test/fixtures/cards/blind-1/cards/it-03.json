@@ -1,0 +1,426 @@
+{
+ "id": "it-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Trattoria",
+     "box": {
+      "x": 0.3373,
+      "y": 0.1,
+      "w": 0.3255,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Trattoria",
+       "box": {
+        "x": 0.3373,
+        "y": 0.1,
+        "w": 0.3255,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "da Gino",
+     "box": {
+      "x": 0.3414,
+      "y": 0.16,
+      "w": 0.3171,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "da",
+       "box": {
+        "x": 0.3414,
+        "y": 0.16,
+        "w": 0.0964,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Gino",
+       "box": {
+        "x": 0.4657,
+        "y": 0.16,
+        "w": 0.1929,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "di Gino Pellegrini",
+     "box": {
+      "x": 0.3208,
+      "y": 0.3,
+      "w": 0.3584,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "di",
+       "box": {
+        "x": 0.3208,
+        "y": 0.3,
+        "w": 0.0418,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Gino",
+       "box": {
+        "x": 0.3746,
+        "y": 0.3,
+        "w": 0.0836,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Pellegrini",
+       "box": {
+        "x": 0.4703,
+        "y": 0.3,
+        "w": 0.2089,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Cucina toscana dal 1974",
+     "box": {
+      "x": 0.2904,
+      "y": 0.4,
+      "w": 0.4191,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Cucina",
+       "box": {
+        "x": 0.2904,
+        "y": 0.4,
+        "w": 0.1157,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "toscana",
+       "box": {
+        "x": 0.4173,
+        "y": 0.4,
+        "w": 0.135,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "dal",
+       "box": {
+        "x": 0.5634,
+        "y": 0.4,
+        "w": 0.0579,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "1974",
+       "box": {
+        "x": 0.6324,
+        "y": 0.4,
+        "w": 0.0771,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Viale Mazzini 14/B",
+     "box": {
+      "x": 0.3208,
+      "y": 0.57,
+      "w": 0.3584,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Viale",
+       "box": {
+        "x": 0.3208,
+        "y": 0.57,
+        "w": 0.1045,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Mazzini",
+       "box": {
+        "x": 0.4373,
+        "y": 0.57,
+        "w": 0.1463,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "14/B",
+       "box": {
+        "x": 0.5956,
+        "y": 0.57,
+        "w": 0.0836,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "50132 Firenze",
+     "box": {
+      "x": 0.3686,
+      "y": 0.6077,
+      "w": 0.2628,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "50132",
+       "box": {
+        "x": 0.3686,
+        "y": 0.6077,
+        "w": 0.1045,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Firenze",
+       "box": {
+        "x": 0.4851,
+        "y": 0.6077,
+        "w": 0.1463,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Prenotazioni 055 234 5678",
+     "box": {
+      "x": 0.2521,
+      "y": 0.6454,
+      "w": 0.4958,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Prenotazioni",
+       "box": {
+        "x": 0.2521,
+        "y": 0.6454,
+        "w": 0.2507,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "055",
+       "box": {
+        "x": 0.5149,
+        "y": 0.6454,
+        "w": 0.0627,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "234",
+       "box": {
+        "x": 0.5896,
+        "y": 0.6454,
+        "w": 0.0627,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "5678",
+       "box": {
+        "x": 0.6643,
+        "y": 0.6454,
+        "w": 0.0836,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "trattoria-da-gino.it",
+     "box": {
+      "x": 0.3119,
+      "y": 0.6831,
+      "w": 0.3761,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "trattoria-da-gino.it",
+       "box": {
+        "x": 0.3119,
+        "y": 0.6831,
+        "w": 0.3761,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Chiuso il lunedì",
+     "box": {
+      "x": 0.366,
+      "y": 0.88,
+      "w": 0.2679,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Chiuso",
+       "box": {
+        "x": 0.366,
+        "y": 0.88,
+        "w": 0.1061,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "il",
+       "box": {
+        "x": 0.4823,
+        "y": 0.88,
+        "w": 0.0354,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "lunedì",
+       "box": {
+        "x": 0.5279,
+        "y": 0.88,
+        "w": 0.1061,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "IT",
+  "uiLang": "it"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gino",
+   "middle": "",
+   "family": "Pellegrini",
+   "suffix": "",
+   "full": "Gino Pellegrini"
+  },
+  "otherName": null,
+  "company": "Trattoria da Gino",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "055 234 5678",
+    "e164": "+390552345678",
+    "type": "work",
+    "label": "Prenotazioni",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "trattoria-da-gino.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Viale Mazzini 14/B",
+    "extra": "",
+    "pobox": "",
+    "postcode": "50132",
+    "city": "Firenze",
+    "region": "",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "portrait",
+  "name-after-di",
+  "given-name-in-company",
+  "company-split-lines",
+  "absent-email",
+  "closed-day",
+  "year-slogan",
+  "absent-title"
+ ],
+ "notes": "\"di Gino Pellegrini\" = owner; \"di\" is not part of the name. Company \"Trattoria\" / \"da Gino\" on two lines. No e-mail."
+}

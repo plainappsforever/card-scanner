@@ -1,0 +1,727 @@
+{
+ "id": "de-m06",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hausärztliche Gemeinschaftspraxis",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.5874,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Hausärztliche",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2314,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Gemeinschaftspraxis",
+       "box": {
+        "x": 0.3192,
+        "y": 0.06,
+        "w": 0.3382,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "am Lindgarten",
+     "box": {
+      "x": 0.07,
+      "y": 0.115,
+      "w": 0.2848,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "am",
+       "box": {
+        "x": 0.07,
+        "y": 0.115,
+        "w": 0.0356,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Lindgarten",
+       "box": {
+        "x": 0.1234,
+        "y": 0.115,
+        "w": 0.2314,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dr. med. Kerstin Albers",
+     "box": {
+      "x": 0.07,
+      "y": 0.215,
+      "w": 0.5322,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.215,
+        "w": 0.0694,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "med.",
+       "box": {
+        "x": 0.1626,
+        "y": 0.215,
+        "w": 0.0926,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Kerstin",
+       "box": {
+        "x": 0.2783,
+        "y": 0.215,
+        "w": 0.162,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Albers",
+       "box": {
+        "x": 0.4634,
+        "y": 0.215,
+        "w": 0.1388,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Fachärztin für Innere Medizin",
+     "box": {
+      "x": 0.07,
+      "y": 0.3,
+      "w": 0.3923,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Fachärztin",
+       "box": {
+        "x": 0.07,
+        "y": 0.3,
+        "w": 0.1353,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.2188,
+        "y": 0.3,
+        "w": 0.0406,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Innere",
+       "box": {
+        "x": 0.2729,
+        "y": 0.3,
+        "w": 0.0812,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Medizin",
+       "box": {
+        "x": 0.3676,
+        "y": 0.3,
+        "w": 0.0947,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Tel. 0761 70 43 21-0 · Fax 0761 70 43 21-29",
+     "box": {
+      "x": 0.07,
+      "y": 0.378,
+      "w": 0.5358,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.378,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0761",
+       "box": {
+        "x": 0.1323,
+        "y": 0.378,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "70",
+       "box": {
+        "x": 0.1946,
+        "y": 0.378,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "43",
+       "box": {
+        "x": 0.232,
+        "y": 0.378,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "21-0",
+       "box": {
+        "x": 0.2694,
+        "y": 0.378,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3317,
+        "y": 0.378,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.3566,
+        "y": 0.378,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0761",
+       "box": {
+        "x": 0.4064,
+        "y": 0.378,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "70",
+       "box": {
+        "x": 0.4687,
+        "y": 0.378,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "43",
+       "box": {
+        "x": 0.5061,
+        "y": 0.378,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "21-29",
+       "box": {
+        "x": 0.5435,
+        "y": 0.378,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "praxis@praxis-lindgarten-de.example · www.praxis-lindgarten.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.433,
+      "w": 0.6408,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "praxis@praxis-lindgarten-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.433,
+        "w": 0.3204,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4011,
+        "y": 0.433,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "www.praxis-lindgarten.de",
+       "box": {
+        "x": 0.4224,
+        "y": 0.433,
+        "w": 0.2884,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Schlossbergring 4 · 79098 Freiburg",
+     "box": {
+      "x": 0.07,
+      "y": 0.483,
+      "w": 0.3994,
+      "h": 0.033
+     },
+     "height": 0.033,
+     "words": [
+      {
+       "text": "Schlossbergring",
+       "box": {
+        "x": 0.07,
+        "y": 0.483,
+        "w": 0.1762,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "4",
+       "box": {
+        "x": 0.258,
+        "y": 0.483,
+        "w": 0.0117,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2814,
+        "y": 0.483,
+        "w": 0.0117,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "79098",
+       "box": {
+        "x": 0.3049,
+        "y": 0.483,
+        "w": 0.0587,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "Freiburg",
+       "box": {
+        "x": 0.3754,
+        "y": 0.483,
+        "w": 0.094,
+        "h": 0.033
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Terrnine nach Vereinbarung · Mo–Fr 8–12, Mo/Di/Do 15–18 Uhr",
+     "box": {
+      "x": 0.07,
+      "y": 0.536,
+      "w": 0.5881,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Terrnine",
+       "box": {
+        "x": 0.07,
+        "y": 0.536,
+        "w": 0.0797,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "nach",
+       "box": {
+        "x": 0.1597,
+        "y": 0.536,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Vereinbarung",
+       "box": {
+        "x": 0.2095,
+        "y": 0.536,
+        "w": 0.1196,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3391,
+        "y": 0.536,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Mo–Fr",
+       "box": {
+        "x": 0.3591,
+        "y": 0.536,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "8–12,",
+       "box": {
+        "x": 0.4189,
+        "y": 0.536,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Mo/Di/Do",
+       "box": {
+        "x": 0.4787,
+        "y": 0.536,
+        "w": 0.0797,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "15–18",
+       "box": {
+        "x": 0.5684,
+        "y": 0.536,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Uhr",
+       "box": {
+        "x": 0.6282,
+        "y": 0.536,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "Dr. med. Jonas Petersen · Dr. med. Leyla Aydın · Pavel Novák, Arzt in Weiterbildung",
+     "box": {
+      "x": 0.07,
+      "y": 0.584,
+      "w": 0.7092,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.584,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "med.",
+       "box": {
+        "x": 0.1042,
+        "y": 0.584,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Jonas",
+       "box": {
+        "x": 0.1469,
+        "y": 0.584,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Petersen",
+       "box": {
+        "x": 0.1982,
+        "y": 0.584,
+        "w": 0.0684,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2751,
+        "y": 0.584,
+        "w": 0.0085,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.2922,
+        "y": 0.584,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "med.",
+       "box": {
+        "x": 0.3263,
+        "y": 0.584,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Leyla",
+       "box": {
+        "x": 0.3691,
+        "y": 0.584,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Aydın",
+       "box": {
+        "x": 0.4203,
+        "y": 0.584,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4716,
+        "y": 0.584,
+        "w": 0.0085,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Pavel",
+       "box": {
+        "x": 0.4887,
+        "y": 0.584,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Novák,",
+       "box": {
+        "x": 0.54,
+        "y": 0.584,
+        "w": 0.0513,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Arzt",
+       "box": {
+        "x": 0.5998,
+        "y": 0.584,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "in",
+       "box": {
+        "x": 0.6425,
+        "y": 0.584,
+        "w": 0.0171,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Weiterbildung",
+       "box": {
+        "x": 0.6681,
+        "y": 0.584,
+        "w": 0.1111,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr. med.",
+   "given": "Kerstin",
+   "middle": "",
+   "family": "Albers",
+   "suffix": "",
+   "full": "Dr. med. Kerstin Albers"
+  },
+  "otherName": null,
+  "company": "Hausärztliche Gemeinschaftspraxis am Lindgarten",
+  "department": null,
+  "title": "Fachärztin für Innere Medizin",
+  "phones": [
+   {
+    "printed": "0761 70 43 21-0",
+    "e164": "+497617043210",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0761 70 43 21-29",
+    "e164": "+4976170432129",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "praxis@praxis-lindgarten-de.example"
+  ],
+  "urls": [
+   "www.praxis-lindgarten.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Schlossbergring 4",
+    "extra": "",
+    "pobox": "",
+    "postcode": "79098",
+    "city": "Freiburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Termine",
+   "ocr": "Terrnine",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "medical",
+  "multi-doctor",
+  "team-list-leftover",
+  "opening-hours",
+  "company-split-lines",
+  "ocr-rn-m"
+ ],
+ "notes": "Practice card with the holder printed large; the small bottom line lists three more doctors, who are leftovers, not the name. Opening hours (8–12, 15–18) are not phones. \"Terrnine\" is OCR for \"Termine\"."
+}

@@ -1,0 +1,213 @@
+{
+ "id": "es-x46",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "region": "ES",
+  "uiLang": "es",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "es-ES",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Clínica Dental Ferrández",
+     "box": {
+      "x": 0.07122093901887531,
+      "y": 0.05598455564376792,
+      "w": 0.3502906799316406,
+      "h": 0.03594369593734448
+     },
+     "height": 0.03594369593734448,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dra. María José Ferrández Ruiz",
+     "box": {
+      "x": 0.07122093411825478,
+      "y": 0.174710425046547,
+      "w": 0.46075580596923826,
+      "h": 0.04536679536679544
+     },
+     "height": 0.04536679536679544,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Odontóloga • Colegiada n° 03/4521",
+     "box": {
+      "x": 0.06966817609571913,
+      "y": 0.24579378949873298,
+      "w": 0.2357015609741211,
+      "h": 0.030948429034023284
+     },
+     "height": 0.030948429034023284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 965 21 44 78 • Móvil 678 34 12 90",
+     "box": {
+      "x": 0.06823424980173716,
+      "y": 0.3228230313086631,
+      "w": 0.2545209693908691,
+      "h": 0.029478665944692173
+     },
+     "height": 0.029478665944692173,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "info@clinicaferrandez-es.example",
+     "box": {
+      "x": 0.0683139527508545,
+      "y": 0.3744394618885769,
+      "w": 0.154069766998291,
+      "h": 0.02466367662643365
+     },
+     "height": 0.02466367662643365,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Avda. de Maisonnave, 33, 3° B",
+     "box": {
+      "x": 0.06831395054687142,
+      "y": 0.42152466376967357,
+      "w": 0.18459302902221678,
+      "h": 0.027317035152184865
+     },
+     "height": 0.027317035152184865,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "03003 Alicante",
+     "box": {
+      "x": 0.06831395213642079,
+      "y": 0.4708520182995318,
+      "w": 0.09011628150939942,
+      "h": 0.02242152387110885
+     },
+     "height": 0.02242152387110885,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "CIF B03 123456",
+     "box": {
+      "x": 0.06976744237345851,
+      "y": 0.5154440156013543,
+      "w": 0.08284883499145508,
+      "h": 0.020430423117972718
+     },
+     "height": 0.020430423117972718,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dra.",
+   "given": "María José",
+   "middle": "",
+   "family": "Ferrández Ruiz",
+   "suffix": "",
+   "full": "Dra. María José Ferrández Ruiz"
+  },
+  "otherName": null,
+  "company": "Clínica Dental Ferrández",
+  "department": null,
+  "title": "Odontóloga",
+  "phones": [
+   {
+    "printed": "965 21 44 78",
+    "e164": "+34965214478",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "678 34 12 90",
+    "e164": "+34678341290",
+    "type": "mobile",
+    "label": "Móvil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@clinicaferrandez-es.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Avda. de Maisonnave, 33",
+    "extra": "3º B",
+    "pobox": "",
+    "postcode": "03003",
+    "city": "Alicante",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "medical",
+  "two-given-names",
+  "two-family-names",
+  "ocr-0O-in-word",
+  "member-of",
+  "vat-id",
+  "floor-extra",
+  "family-name-in-company"
+ ],
+ "notes": "Spanish double given name \"María José\" and double family name \"Ferrández Ruiz\". Collegiate number \"03/4521\" (6 digits) is not a phone. Title begins with \"0\" instead of \"O\". \"3º B\" = floor/door.",
+ "o3": {
+  "source": "blind-3/cards/es-x46.json",
+  "images": [
+   {
+    "name": "b3-es-x46",
+    "font": "GillSans",
+    "rotation": -0.18,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "es-ES",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 101
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

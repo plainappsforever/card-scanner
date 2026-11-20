@@ -1,0 +1,205 @@
+{
+ "id": "ae-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "ar"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US",
+    "ar-SA"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Amber Horizon Trading LLC",
+     "box": {
+      "x": 0.07656800276152226,
+      "y": 0.05113416573293328,
+      "w": 0.284274730682373,
+      "h": 0.049805103581844645
+     },
+     "height": 0.049805103581844645,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Omar Al-Mansoori",
+     "box": {
+      "x": 0.07223573786623401,
+      "y": 0.28142733415627197,
+      "w": 0.27993089675903327,
+      "h": 0.05275998428521467
+     },
+     "height": 0.05275998428521467,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Business Development Manager",
+     "box": {
+      "x": 0.07083333624381825,
+      "y": 0.37162162182067404,
+      "w": 0.27916666030883786,
+      "h": 0.038634788115512464
+     },
+     "height": 0.038634788115512464,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Office: +971 4 123 4567",
+     "box": {
+      "x": 0.06808526351117113,
+      "y": 0.5849108581408571,
+      "w": 0.1777674674987793,
+      "h": 0.031007641530865437
+     },
+     "height": 0.031007641530865437,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Mobile: +971 50 123 4567",
+     "box": {
+      "x": 0.06665807839974512,
+      "y": 0.6342663783709794,
+      "w": 0.19371212005615235,
+      "h": 0.03036579846415277
+     },
+     "height": 0.03036579846415277,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "omar@amberhorizon-ae.example",
+     "box": {
+      "x": 0.06653331790117697,
+      "y": 0.6820669500764334,
+      "w": 0.1692618179321289,
+      "h": 0.03701218859109179
+     },
+     "height": 0.03701218859109179,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "P.O. Box 123456, Dubai, UAE",
+     "box": {
+      "x": 0.06653693974889414,
+      "y": 0.732450221307416,
+      "w": 0.2244030570983887,
+      "h": 0.037880757600644355
+     },
+     "height": 0.037880757600644355,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Omar",
+   "middle": "",
+   "family": "Al-Mansoori",
+   "suffix": "",
+   "full": "Omar Al-Mansoori"
+  },
+  "otherName": "عمر المنصوري",
+  "company": "Amber Horizon Trading LLC",
+  "department": null,
+  "title": "Business Development Manager",
+  "phones": [
+   {
+    "printed": "+971 4 123 4567",
+    "e164": "+97141234567",
+    "type": "work",
+    "label": "Office:",
+    "ext": null
+   },
+   {
+    "printed": "+971 50 123 4567",
+    "e164": "+971501234567",
+    "type": "mobile",
+    "label": "Mobile:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "omar@amberhorizon-ae.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "P.O. Box 123456",
+    "postcode": "",
+    "city": "Dubai",
+    "region": "",
+    "country": "UAE",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "شركة أفق الخليج للتجارة ذ.م.م"
+  ],
+  "title": [
+   "مدير تطوير الأعمال"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "rtl-arabic-column",
+  "al-prefix-family",
+  "pobox-6digits",
+  "no-postcode",
+  "two-column-reading-order",
+  "other-name-script"
+ ],
+ "notes": "English left column, Arabic right column (dir rtl). UI English -> Latin name primary, Arabic name = otherName. P.O. Box 123456 (6 digits) is not a phone; UAE has no postcodes.",
+ "o3": {
+  "source": "blind-1/cards/ae-01.json",
+  "images": [
+   {
+    "name": "b1-ae-01",
+    "font": "Didot",
+    "rotation": -1.15,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "en-US",
+     "ar-SA"
+    ],
+    "dropped": [],
+    "visionMs": 969
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,488 @@
+{
+ "id": "de-20",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Malerbetrieb Schärmer GmbH",
+     "box": {
+      "x": 0.06,
+      "y": 0.07,
+      "w": 0.6095,
+      "h": 0.075
+     },
+     "height": 0.075,
+     "words": [
+      {
+       "text": "Malerbetrieb",
+       "box": {
+        "x": 0.06,
+        "y": 0.07,
+        "w": 0.3028,
+        "h": 0.075
+       }
+      },
+      {
+       "text": "Schärmer",
+       "box": {
+        "x": 0.3774,
+        "y": 0.07,
+        "w": 0.1766,
+        "h": 0.075
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.5686,
+        "y": 0.07,
+        "w": 0.1009,
+        "h": 0.075
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Benedikt Schärmer",
+     "box": {
+      "x": 0.06,
+      "y": 0.26,
+      "w": 0.3407,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Benedikt",
+       "box": {
+        "x": 0.06,
+        "y": 0.26,
+        "w": 0.175,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Schärmer",
+       "box": {
+        "x": 0.2476,
+        "y": 0.26,
+        "w": 0.1531,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Ma1ermeister",
+     "box": {
+      "x": 0.06,
+      "y": 0.3543,
+      "w": 0.1817,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Ma1ermeister",
+       "box": {
+        "x": 0.06,
+        "y": 0.3543,
+        "w": 0.1817,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Landsberger Str. 302",
+     "box": {
+      "x": 0.06,
+      "y": 0.54,
+      "w": 0.2578,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Landsberger",
+       "box": {
+        "x": 0.06,
+        "y": 0.54,
+        "w": 0.148,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Str.",
+       "box": {
+        "x": 0.2158,
+        "y": 0.54,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "302",
+       "box": {
+        "x": 0.2774,
+        "y": 0.54,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "8O687 Munchen",
+     "box": {
+      "x": 0.06,
+      "y": 0.598,
+      "w": 0.1693,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "8O687",
+       "box": {
+        "x": 0.06,
+        "y": 0.598,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Munchen",
+       "box": {
+        "x": 0.1351,
+        "y": 0.598,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Te1. O89 / 54 32 1O-0",
+     "box": {
+      "x": 0.06,
+      "y": 0.656,
+      "w": 0.2542,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Te1.",
+       "box": {
+        "x": 0.06,
+        "y": 0.656,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "O89",
+       "box": {
+        "x": 0.1216,
+        "y": 0.656,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.1697,
+        "y": 0.656,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.191,
+        "y": 0.656,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.2256,
+        "y": 0.656,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "1O-0",
+       "box": {
+        "x": 0.2603,
+        "y": 0.656,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Fax 089 / 54 32 10-20",
+     "box": {
+      "x": 0.06,
+      "y": 0.714,
+      "w": 0.2542,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.06,
+        "y": 0.714,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "089",
+       "box": {
+        "x": 0.1081,
+        "y": 0.714,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.1563,
+        "y": 0.714,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.1775,
+        "y": 0.714,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.2122,
+        "y": 0.714,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "10-20",
+       "box": {
+        "x": 0.2469,
+        "y": 0.714,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "info@ma1er-schaermer-de.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.772,
+      "w": 0.2961,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "info@ma1er-schaermer-de.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.772,
+        "w": 0.2961,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "www.maler-schaermer.de",
+     "box": {
+      "x": 0.06,
+      "y": 0.83,
+      "w": 0.2826,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "www.maler-schaermer.de",
+       "box": {
+        "x": 0.06,
+        "y": 0.83,
+        "w": 0.2826,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Benedikt",
+   "middle": "",
+   "family": "Schärmer",
+   "suffix": "",
+   "full": "Benedikt Schärmer"
+  },
+  "otherName": null,
+  "company": "Malerbetrieb Schärmer GmbH",
+  "department": null,
+  "title": "Malermeister",
+  "phones": [
+   {
+    "printed": "089 / 54 32 10-0",
+    "e164": "+49895432100",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "089 / 54 32 10-20",
+    "e164": "+498954321020",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@maler-schaermer-de.example"
+  ],
+  "urls": [
+   "www.maler-schaermer.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Landsberger Str. 302",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80687",
+    "city": "München",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "title",
+   "printed": "Malermeister",
+   "ocr": "Ma1ermeister",
+   "kinds": [
+    "1/l"
+   ]
+  },
+  {
+   "path": "addresses[0].postcode",
+   "printed": "80687",
+   "ocr": "8O687",
+   "kinds": [
+    "0/O"
+   ]
+  },
+  {
+   "path": "addresses[0].city",
+   "printed": "München",
+   "ocr": "Munchen",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "phones[0].printed",
+   "printed": "089 / 54 32 10-0",
+   "ocr": "O89 / 54 32 1O-0",
+   "kinds": [
+    "0/O"
+   ]
+  },
+  {
+   "path": "phones[0].label",
+   "printed": "Tel.",
+   "ocr": "Te1.",
+   "kinds": [
+    "1/l"
+   ]
+  },
+  {
+   "path": "emails[0]",
+   "printed": "info@maler-schaermer-de.example",
+   "ocr": "info@ma1er-schaermer-de.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "heavy-ocr-damage",
+  "ocr-0O",
+  "ocr-1l",
+  "digit-in-email",
+  "diacritic-lost",
+  "name-is-company"
+ ],
+ "notes": "Six OCR errors on one card. The e-mail domain reads \"ma1er\" (digit one) while the website shows \"maler\": a repair is possible only by cross-checking. Unrepaired e-mail is a confident-wrong risk."
+}

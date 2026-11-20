@@ -1,0 +1,198 @@
+{
+ "id": "de-q52",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "STUDIO QUENDEL",
+     "box": {
+      "x": 0.07,
+      "y": 0.12,
+      "w": 0.3702,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "STUDIO",
+       "box": {
+        "x": 0.07,
+        "y": 0.12,
+        "w": 0.1709,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "QUENDEL",
+       "box": {
+        "x": 0.2693,
+        "y": 0.12,
+        "w": 0.1709,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Fotografie · Bildbearbeitung",
+     "box": {
+      "x": 0.07,
+      "y": 0.22,
+      "w": 0.3489,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Fotografie",
+       "box": {
+        "x": 0.07,
+        "y": 0.22,
+        "w": 0.1246,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2071,
+        "y": 0.22,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Bildbearbeitung",
+       "box": {
+        "x": 0.232,
+        "y": 0.22,
+        "w": 0.1869,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Scan mich",
+     "box": {
+      "x": 0.7,
+      "y": 0.82,
+      "w": 0.0961,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Scan",
+       "box": {
+        "x": 0.7,
+        "y": 0.82,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "mich",
+       "box": {
+        "x": 0.7534,
+        "y": 0.82,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Quendel;Annika;;;\r\nFN:Annika Quendel\r\nORG:Studio Quendel\r\nTITLE:Fotografin\r\nTEL;TYPE=CELL:+49 176 48120397\r\nEMAIL;TYPE=INTERNET:annika@studio-quendel-de.example\r\nURL:https://studio-quendel.de\r\nADR;TYPE=WORK:;;Lindenstraße 9;Lüneburg;;21335;Deutschland\r\nEND:VCARD\r\n",
+    "box": {
+     "x": 0.7,
+     "y": 0.4,
+     "w": 0.22,
+     "h": 0.36
+    }
+   }
+  ],
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Annika",
+   "middle": "",
+   "family": "Quendel",
+   "suffix": "",
+   "full": "Annika Quendel"
+  },
+  "otherName": null,
+  "company": "Studio Quendel",
+  "department": null,
+  "title": "Fotografin",
+  "phones": [
+   {
+    "printed": "+49 176 48120397",
+    "e164": "+4917648120397",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "annika@studio-quendel-de.example"
+  ],
+  "urls": [
+   "https://studio-quendel.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Lindenstraße 9",
+    "extra": "",
+    "pobox": "",
+    "postcode": "21335",
+    "city": "Lüneburg",
+    "region": "",
+    "country": "Deutschland",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "qr-only",
+  "vcard",
+  "tagline"
+ ],
+ "notes": "Printed side holds only the logo, a tagline and \"Scan mich\"; every contact field comes from the vCard 3.0 QR code (TEL;TYPE=CELL → mobile)."
+}

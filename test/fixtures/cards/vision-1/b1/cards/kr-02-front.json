@@ -1,0 +1,222 @@
+{
+ "id": "kr-02-front",
+ "group": "kr-02",
+ "side": "front",
+ "card_langs": [
+  "en",
+  "ko"
+ ],
+ "card_country": "KR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ko-KR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SARIM BIO",
+     "box": {
+      "x": 0.07525141805471236,
+      "y": 0.05633709966474543,
+      "w": 0.18377939224243162,
+      "h": 0.047913050559496795
+     },
+     "height": 0.047913050559496795,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Sarim Bio Co. Led.",
+     "box": {
+      "x": 0.07245347461326485,
+      "y": 0.14321822148530328,
+      "w": 0.13704776763916016,
+      "h": 0.03466739433612609
+     },
+     "height": 0.03466739433612609,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Lee Ji-hoon, Ph.D.",
+     "box": {
+      "x": 0.07046362985263677,
+      "y": 0.269064576707307,
+      "w": 0.32558483123779297,
+      "h": 0.07807090199592026
+     },
+     "height": 0.07807090199592026,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Senior Researcher",
+     "box": {
+      "x": 0.06924521076214486,
+      "y": 0.3574408755447297,
+      "w": 0.18410890579223632,
+      "h": 0.042651154359795496
+     },
+     "height": 0.042651154359795496,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Antibody Discovery Team",
+     "box": {
+      "x": 0.06940607428553705,
+      "y": 0.41892994841937337,
+      "w": 0.2187294578552246,
+      "h": 0.042518855061770444
+     },
+     "height": 0.042518855061770444,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "123 Pangyo-ro, Bundang-gu, Seongnam-si,",
+     "box": {
+      "x": 0.06786143668359543,
+      "y": 0.5800896924972249,
+      "w": 0.3133175277709961,
+      "h": 0.045627941956391194
+     },
+     "height": 0.045627941956391194,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Gyeonggi-do 13494, Korea",
+     "box": {
+      "x": 0.06664765324214236,
+      "y": 0.6275485052625194,
+      "w": 0.20100139617919924,
+      "h": 0.03714708379797027
+     },
+     "height": 0.03714708379797027,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "M +82 10 2345 6789",
+     "box": {
+      "x": 0.06523587592885419,
+      "y": 0.67456496390896,
+      "w": 0.1544655513763428,
+      "h": 0.03247960654004656
+     },
+     "height": 0.03247960654004656,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "jihoon.lee@sarimbio-com.example",
+     "box": {
+      "x": 0.06395349065617623,
+      "y": 0.7219730939612381,
+      "w": 0.1947674369812012,
+      "h": 0.03139013489240838
+     },
+     "height": 0.03139013489240838,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ji-hoon",
+   "middle": "",
+   "family": "Lee",
+   "suffix": "Ph.D.",
+   "full": "Lee Ji-hoon, Ph.D."
+  },
+  "otherName": null,
+  "company": "Sarim Bio Co., Ltd.",
+  "department": "Antibody Discovery Team",
+  "title": "Senior Researcher",
+  "phones": [
+   {
+    "printed": "+82 10 2345 6789",
+    "e164": "+821023456789",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jihoon.lee@sarimbio-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "123 Pangyo-ro",
+    "extra": "Bundang-gu",
+    "pobox": "",
+    "postcode": "13494",
+    "city": "Seongnam-si",
+    "region": "Gyeonggi-do",
+    "country": "Korea",
+    "countryCode": "KR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "SARIM BIO"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "latin-family-first",
+  "comma-phd-suffix",
+  "korean-back",
+  "korean-legal-form-suffix",
+  "address-two-scripts",
+  "other-name-n7",
+  "two-sided"
+ ],
+ "notes": "English front writes the name family-first (\"Lee Ji-hoon\"); the e-mail jihoon.lee confirms Lee = family. \", Ph.D.\" is a suffix, not \"FAMILY, Given\". Back: Korean with the same data; UI English -> Latin primary.",
+ "o3": {
+  "source": "blind-1/cards/kr-02-front.json",
+  "images": [
+   {
+    "name": "b1-kr-02-front",
+    "font": "GillSans",
+    "rotation": -1.18,
+    "noise": 14,
+    "blur": 1.4,
+    "langs": [
+     "ko-KR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 139
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

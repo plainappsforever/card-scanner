@@ -1,0 +1,199 @@
+{
+ "id": "us-a21",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "UNIVERSITY of WESTMERE",
+     "box": {
+      "x": 0.06666666646052632,
+      "y": 0.06370656307263078,
+      "w": 0.4,
+      "h": 0.03885753918798729
+     },
+     "height": 0.03885753918798729,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Lakshmi V. Ramaswamy, Ph.D.",
+     "box": {
+      "x": 0.07114718548840279,
+      "y": 0.18112033633475688,
+      "w": 0.4928849029541016,
+      "h": 0.05446421501719356
+     },
+     "height": 0.05446421501719356,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Associate Professor of Computational Linguistics",
+     "box": {
+      "x": 0.06822738771705264,
+      "y": 0.2537792661747663,
+      "w": 0.391161880493164,
+      "h": 0.030468971112520005
+     },
+     "height": 0.030468971112520005,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Department of Linguistics • College of Arts & Sciences",
+     "box": {
+      "x": 0.0697674435761881,
+      "y": 0.3049327355256486,
+      "w": 0.4200581359863282,
+      "h": 0.02711359690515225
+     },
+     "height": 0.02711359690515225,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Box 352425 • Seattle, WA 98195-2425",
+     "box": {
+      "x": 0.06969485210546537,
+      "y": 0.38066781539973515,
+      "w": 0.32284767150878907,
+      "h": 0.03569950560345159
+     },
+     "height": 0.03569950560345159,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "206.543.2046 • Ivr@uwsm-edu.example",
+     "box": {
+      "x": 0.06976744156244852,
+      "y": 0.4349775785732557,
+      "w": 0.220930233001709,
+      "h": 0.02737763397481907
+     },
+     "height": 0.02737763397481907,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "ORCID 0000-0002-6631-8854 • x.com/Ivr_nlp",
+     "box": {
+      "x": 0.06820817679106064,
+      "y": 0.48057986017455334,
+      "w": 0.32142688751220705,
+      "h": 0.030992680995160504
+     },
+     "height": 0.030992680995160504,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lakshmi",
+   "middle": "V.",
+   "family": "Ramaswamy",
+   "suffix": "Ph.D.",
+   "full": "Lakshmi V. Ramaswamy, Ph.D."
+  },
+  "otherName": null,
+  "company": "UNIVERSITY of WESTMERE",
+  "department": "Department of Linguistics",
+  "title": "Associate Professor of Computational Linguistics",
+  "phones": [
+   {
+    "printed": "206.543.2046",
+    "e164": "+12065432046",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "lvr@uwsm-edu.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "x",
+    "value": "x.com/lvr_nlp"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Box 352425",
+    "postcode": "98195-2425",
+    "city": "Seattle",
+    "region": "WA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls"
+ ],
+ "accept": {
+  "department": [
+   "College of Arts & Sciences"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "academic",
+  "orcid",
+  "faculty-line",
+  "indian-initials",
+  "credential-suffix",
+  "pobox",
+  "zip-plus-four",
+  "dot-separated-phone",
+  "initials-email"
+ ],
+ "notes": "Campus box \"Box 352425\" (6 digits) is a PO box, not a phone; ZIP+4. Unlabelled US number with dots. E-mail local part = initials (lvr). Department + college on one line.",
+ "o3": {
+  "source": "blind-3/cards/us-a21.json",
+  "images": [
+   {
+    "name": "b3-us-a21",
+    "font": "Verdana",
+    "rotation": 0.15,
+    "noise": 2,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 77
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

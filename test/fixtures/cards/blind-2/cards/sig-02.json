@@ -1,0 +1,84 @@
+{
+ "id": "sig-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "text",
+ "input": {
+  "text": "Best,\n\nJordan Ellis-Park, CPA\nSenior Manager | Tax Advisory\nQuade & Finch LLP\nO: (617) 555-0142 x 318\nC: 617.555.0187\njordan.ellispark@quadefinch-com.example\nOne Federal Street, Suite 2100, Boston, MA 02110\nquadefinch.com | linkedin.com/in/jordan-ellis-park\n\nCONFIDENTIALITY NOTICE: This message and any attachments are intended only for the named recipient. If you received it in error, please delete it.",
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jordan",
+   "middle": "",
+   "family": "Ellis-Park",
+   "suffix": "CPA",
+   "full": "Jordan Ellis-Park, CPA"
+  },
+  "otherName": null,
+  "company": "Quade & Finch LLP",
+  "department": "Tax Advisory",
+  "title": "Senior Manager",
+  "phones": [
+   {
+    "printed": "(617) 555-0142 x 318",
+    "e164": "+16175550142",
+    "type": "work",
+    "label": "O",
+    "ext": "318"
+   },
+   {
+    "printed": "617.555.0187",
+    "e164": "+16175550187",
+    "type": "mobile",
+    "label": "C",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jordan.ellispark@quadefinch-com.example"
+  ],
+  "urls": [
+   "quadefinch.com"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/jordan-ellis-park"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "One Federal Street",
+    "extra": "Suite 2100",
+    "pobox": "",
+    "postcode": "02110",
+    "city": "Boston",
+    "region": "MA",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "region-mismatch",
+  "email-signature",
+  "credential-suffix",
+  "extension",
+  "title-dept-one-line",
+  "region-from-address"
+ ],
+ "notes": "Title Senior Manager, department Tax Advisory (split at \"|\"). x 318 is an extension. The 617 numbers are US (Boston address) despite region DE. CPA is a suffix. Postcode 02110 keeps its leading zero."
+}

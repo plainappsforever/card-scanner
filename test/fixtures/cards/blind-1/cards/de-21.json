@@ -1,0 +1,463 @@
+{
+ "id": "de-21",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "W E I N G U T",
+     "box": {
+      "x": 0.3739,
+      "y": 0.07,
+      "w": 0.2522,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "W",
+       "box": {
+        "x": 0.3739,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.4119,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "I",
+       "box": {
+        "x": 0.4499,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "N",
+       "box": {
+        "x": 0.4879,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "G",
+       "box": {
+        "x": 0.526,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "U",
+       "box": {
+        "x": 0.564,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "T",
+       "box": {
+        "x": 0.602,
+        "y": 0.07,
+        "w": 0.0241,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Rebholz-Achterberg",
+     "box": {
+      "x": 0.1745,
+      "y": 0.12,
+      "w": 0.6509,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Rebholz-Achterberg",
+       "box": {
+        "x": 0.1745,
+        "y": 0.12,
+        "w": 0.6509,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Clara Rebholz-Achterberg",
+     "box": {
+      "x": 0.1684,
+      "y": 0.31,
+      "w": 0.6632,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Clara",
+       "box": {
+        "x": 0.1684,
+        "y": 0.31,
+        "w": 0.1406,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Rebholz-Achterberg",
+       "box": {
+        "x": 0.3253,
+        "y": 0.31,
+        "w": 0.5063,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Winzermeisterin",
+     "box": {
+      "x": 0.3433,
+      "y": 0.3608,
+      "w": 0.3134,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Winzermeisterin",
+       "box": {
+        "x": 0.3433,
+        "y": 0.3608,
+        "w": 0.3134,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Weinstraße 33",
+     "box": {
+      "x": 0.3737,
+      "y": 0.53,
+      "w": 0.2527,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Weinstraße",
+       "box": {
+        "x": 0.3737,
+        "y": 0.53,
+        "w": 0.2009,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.5862,
+        "y": 0.53,
+        "w": 0.0402,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "67487 Maikammer",
+     "box": {
+      "x": 0.3536,
+      "y": 0.5663,
+      "w": 0.2929,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "67487",
+       "box": {
+        "x": 0.3536,
+        "y": 0.5663,
+        "w": 0.1005,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Maikammer",
+       "box": {
+        "x": 0.4656,
+        "y": 0.5663,
+        "w": 0.1808,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "06321 / 5 89 47",
+     "box": {
+      "x": 0.3663,
+      "y": 0.6025,
+      "w": 0.2674,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "06321",
+       "box": {
+        "x": 0.3663,
+        "y": 0.6025,
+        "w": 0.1005,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.4784,
+        "y": 0.6025,
+        "w": 0.0201,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "5",
+       "box": {
+        "x": 0.51,
+        "y": 0.6025,
+        "w": 0.0201,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.5417,
+        "y": 0.6025,
+        "w": 0.0402,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.5935,
+        "y": 0.6025,
+        "w": 0.0402,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "weingut@rebholz-achterberg-de.example",
+     "box": {
+      "x": 0.2087,
+      "y": 0.6388,
+      "w": 0.5826,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "weingut@rebholz-achterberg-de.example",
+       "box": {
+        "x": 0.2087,
+        "y": 0.6388,
+        "w": 0.5826,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "rebholz-achterberg.de",
+     "box": {
+      "x": 0.289,
+      "y": 0.675,
+      "w": 0.4219,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "rebholz-achterberg.de",
+       "box": {
+        "x": 0.289,
+        "y": 0.675,
+        "w": 0.4219,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Weinproben nach Vereinbarung",
+     "box": {
+      "x": 0.26,
+      "y": 0.9,
+      "w": 0.4801,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Weinproben",
+       "box": {
+        "x": 0.26,
+        "y": 0.9,
+        "w": 0.1768,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "nach",
+       "box": {
+        "x": 0.447,
+        "y": 0.9,
+        "w": 0.0707,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Vereinbarung",
+       "box": {
+        "x": 0.5279,
+        "y": 0.9,
+        "w": 0.2122,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Clara",
+   "middle": "",
+   "family": "Rebholz-Achterberg",
+   "suffix": "",
+   "full": "Clara Rebholz-Achterberg"
+  },
+  "otherName": null,
+  "company": "Weingut Rebholz-Achterberg",
+  "department": null,
+  "title": "Winzermeisterin",
+  "phones": [
+   {
+    "printed": "06321 / 5 89 47",
+    "e164": "+49632158947",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "weingut@rebholz-achterberg-de.example"
+  ],
+  "urls": [
+   "rebholz-achterberg.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Weinstraße 33",
+    "extra": "",
+    "pobox": "",
+    "postcode": "67487",
+    "city": "Maikammer",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Rebholz-Achterberg"
+  ]
+ },
+ "composed": [
+  "company"
+ ],
+ "ocr_damage": [],
+ "traps": [
+  "portrait",
+  "letter-spaced-logo",
+  "name-is-company",
+  "company-equals-domain-stem",
+  "unlabelled-landline",
+  "absent-social"
+ ],
+ "notes": "\"W E I N G U T\" is letter-spaced (one letter per word in OCR). The line \"Rebholz-Achterberg\" equals the domain stem and the family name: company and name compete for the same words."
+}

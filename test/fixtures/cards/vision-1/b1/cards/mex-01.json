@@ -1,0 +1,230 @@
+{
+ "id": "mex-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "MX",
+ "layout": "landscape",
+ "input": {
+  "region": "MX",
+  "uiLang": "es",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Textiles del Valdoro S.A. de C.V.",
+     "box": {
+      "x": 0.07083333948053937,
+      "y": 0.07046331996659638,
+      "w": 0.3833333206176757,
+      "h": 0.04536679536679533
+     },
+     "height": 0.04536679536679533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Lic. Guadalupe Itzel Ramírez Chávez",
+     "box": {
+      "x": 0.07122093370148591,
+      "y": 0.23991031468699342,
+      "w": 0.5276162719726563,
+      "h": 0.0448430477422177
+     },
+     "height": 0.0448430477422177,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Gerente de Ventas",
+     "box": {
+      "x": 0.06976744086984418,
+      "y": 0.3204633212883644,
+      "w": 0.1962209320068359,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Blvd. Adolfo López Mateos 2105 Pte.",
+     "box": {
+      "x": 0.07122093493175101,
+      "y": 0.4864864863258145,
+      "w": 0.32703487396240233,
+      "h": 0.02920858095971779
+     },
+     "height": 0.02920858095971779,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Col. Jardines del Moral",
+     "box": {
+      "x": 0.06976743999729094,
+      "y": 0.5376447872850265,
+      "w": 0.20494186401367187,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "37160 León, Gto.",
+     "box": {
+      "x": 0.06770687087465477,
+      "y": 0.579151338380376,
+      "w": 0.1583219051361084,
+      "h": 0.0453679257838423
+     },
+     "height": 0.0453679257838423,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. (477) 123 4567 • Cel. 477 987 6543",
+     "box": {
+      "x": 0.06831396268685236,
+      "y": 0.6367713002560501,
+      "w": 0.3459302139282227,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "gramirez@textilesvaldoro-com-mx.example",
+     "box": {
+      "x": 0.06831395543056758,
+      "y": 0.6883408066793563,
+      "w": 0.28197673797607425,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "www.textilesvaldoro.com.mx",
+     "box": {
+      "x": 0.06953614507008168,
+      "y": 0.7379415668498024,
+      "w": 0.2257480621337891,
+      "h": 0.03573105418083744
+     },
+     "height": 0.03573105418083744,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Lic.",
+   "given": "Guadalupe Itzel",
+   "middle": "",
+   "family": "Ramírez Chávez",
+   "suffix": "",
+   "full": "Lic. Guadalupe Itzel Ramírez Chávez"
+  },
+  "otherName": null,
+  "company": "Textiles del Valdoro S.A. de C.V.",
+  "department": null,
+  "title": "Gerente de Ventas",
+  "phones": [
+   {
+    "printed": "(477) 123 4567",
+    "e164": "+524771234567",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "477 987 6543",
+    "e164": "+524779876543",
+    "type": "mobile",
+    "label": "Cel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "gramirez@textilesvaldoro-com-mx.example"
+  ],
+  "urls": [
+   "www.textilesvaldoro.com.mx"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Blvd. Adolfo López Mateos 2105 Pte.",
+    "extra": "Col. Jardines del Moral",
+    "pobox": "",
+    "postcode": "37160",
+    "city": "León",
+    "region": "Gto.",
+    "country": "",
+    "countryCode": "MX"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "name.given": [
+   "Guadalupe"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "lic-prefix",
+  "sa-de-cv",
+  "colonia-line",
+  "street-named-after-person",
+  "region-abbrev",
+  "two-surnames",
+  "person-name-in-street"
+ ],
+ "notes": "Mexico: \"Lic.\" prefix, S.A. de C.V., colonia line between street and postcode, street named after a person (name trap).",
+ "o3": {
+  "source": "blind-1/cards/mex-01.json",
+  "images": [
+   {
+    "name": "b1-mex-01",
+    "font": "HelveticaNeue",
+    "rotation": -0.22,
+    "noise": 6,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 105
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

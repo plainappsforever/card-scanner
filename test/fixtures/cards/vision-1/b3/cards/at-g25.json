@@ -1,0 +1,210 @@
+{
+ "id": "at-g25",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "AT",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Stadt Kremsau",
+     "box": {
+      "x": 0.06672741157250998,
+      "y": 0.06250871604516539,
+      "w": 0.1732286262512207,
+      "h": 0.04505808104879605
+     },
+     "height": 0.04505808104879605,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "MA 48 - Abfallwirtschaft, Straßenreinigung und Fuhrpark",
+     "box": {
+      "x": 0.06826281205369991,
+      "y": 0.14083097439383274,
+      "w": 0.39691963195800783,
+      "h": 0.030767575194016406
+     },
+     "height": 0.030767575194016406,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Referat Öffentlichkeitsarbeit",
+     "box": {
+      "x": 0.06831394971893413,
+      "y": 0.188223937800588,
+      "w": 0.2180232620239258,
+      "h": 0.027027027027026973
+     },
+     "height": 0.027027027027026973,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Mag.a Elif Kaya-Brunner",
+     "box": {
+      "x": 0.07122093153683945,
+      "y": 0.28251121074011554,
+      "w": 0.2994186019897461,
+      "h": 0.042778364940039504
+     },
+     "height": 0.042778364940039504,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Referentin",
+     "box": {
+      "x": 0.06973062440558518,
+      "y": 0.35619388430875887,
+      "w": 0.08582944869995117,
+      "h": 0.025280392768300075
+     },
+     "height": 0.025280392768300075,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Einsiedlergasse 2 • 1050 Kremsau",
+     "box": {
+      "x": 0.06964645075220403,
+      "y": 0.43638994589740954,
+      "w": 0.21680004119873048,
+      "h": 0.028856213948901588
+     },
+     "height": 0.028856213948901588,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "+43 1 4000-48123",
+     "box": {
+      "x": 0.06657162458024969,
+      "y": 0.48466530215442183,
+      "w": 0.13863931655883788,
+      "h": 0.0291453402014773
+     },
+     "height": 0.0291453402014773,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "elif.kaya-brunner@kremsau-gv-at.example • kremsau.gv.at/ma48",
+     "box": {
+      "x": 0.06824428908290653,
+      "y": 0.5354669131166749,
+      "w": 0.3315383529663086,
+      "h": 0.028775982875161144
+     },
+     "height": 0.028775982875161144,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Mag.a",
+   "given": "Elif",
+   "middle": "",
+   "family": "Kaya-Brunner",
+   "suffix": "",
+   "full": "Mag.a Elif Kaya-Brunner"
+  },
+  "otherName": null,
+  "company": "Stadt Kremsau",
+  "department": "MA 48 – Abfallwirtschaft, Straßenreinigung und Fuhrpark",
+  "title": "Referentin",
+  "phones": [
+   {
+    "printed": "+43 1 4000-48123",
+    "e164": "+431400048123",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "elif.kaya-brunner@kremsau-gv-at.example"
+  ],
+  "urls": [
+   "kremsau.gv.at/ma48"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Einsiedlergasse 2",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1050",
+    "city": "Kremsau",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Referat Öffentlichkeitsarbeit"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "government",
+  "referat",
+  "prefix-title",
+  "turkish-name",
+  "ocr-5S",
+  "department-lines",
+  "gasse-street",
+  "url-with-path"
+ ],
+ "notes": "\"Mag.a\" is the Austrian female Magister prefix. \"MA 48\" (Magistratsabteilung) department line contains a number and commas. \"5\" for \"s\" in \"Einsiedlergasse\" (street keyword \"gasse\" not in the SPEC list). URL with a path.",
+ "o3": {
+  "source": "blind-3/cards/at-g25.json",
+  "images": [
+   {
+    "name": "b3-at-g25",
+    "font": "HelveticaNeue",
+    "rotation": 0.34,
+    "noise": 10,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 119
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,629 @@
+{
+ "id": "uk-l10-back",
+ "group": "uk-l10",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PEMBERTON ASHE LLP",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3204,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "PEMBERTON",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1602,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "ASHE",
+       "box": {
+        "x": 0.248,
+        "y": 0.06,
+        "w": 0.0712,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "LLP",
+       "box": {
+        "x": 0.337,
+        "y": 0.06,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Park Row House · 19 Park Row · Leeds LS1 5JF",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.5012,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Park",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Row",
+       "box": {
+        "x": 0.127,
+        "y": 0.15,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "House",
+       "box": {
+        "x": 0.1725,
+        "y": 0.15,
+        "w": 0.057,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2409,
+        "y": 0.15,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "19",
+       "box": {
+        "x": 0.2636,
+        "y": 0.15,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Park",
+       "box": {
+        "x": 0.2978,
+        "y": 0.15,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Row",
+       "box": {
+        "x": 0.3548,
+        "y": 0.15,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4003,
+        "y": 0.15,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Leeds",
+       "box": {
+        "x": 0.4231,
+        "y": 0.15,
+        "w": 0.057,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "LS1",
+       "box": {
+        "x": 0.4915,
+        "y": 0.15,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "5JF",
+       "box": {
+        "x": 0.537,
+        "y": 0.15,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "T +44 (0)113 245 6700 · pembertonashe.co.uk",
+     "box": {
+      "x": 0.07,
+      "y": 0.202,
+      "w": 0.4899,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.202,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.0928,
+        "y": 0.202,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "(0)113",
+       "box": {
+        "x": 0.1384,
+        "y": 0.202,
+        "w": 0.0684,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "245",
+       "box": {
+        "x": 0.2181,
+        "y": 0.202,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "6700",
+       "box": {
+        "x": 0.2637,
+        "y": 0.202,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3206,
+        "y": 0.202,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "pembertonashe.co.uk",
+       "box": {
+        "x": 0.3434,
+        "y": 0.202,
+        "w": 0.2165,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Partners: H. Pemberton · J. Ashe · O. Whitcombe · R. Bhattacharya",
+     "box": {
+      "x": 0.07,
+      "y": 0.314,
+      "w": 0.6016,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Partners:",
+       "box": {
+        "x": 0.07,
+        "y": 0.314,
+        "w": 0.0833,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "H.",
+       "box": {
+        "x": 0.1626,
+        "y": 0.314,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Pemberton",
+       "box": {
+        "x": 0.1903,
+        "y": 0.314,
+        "w": 0.0833,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2829,
+        "y": 0.314,
+        "w": 0.0093,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "J.",
+       "box": {
+        "x": 0.3014,
+        "y": 0.314,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Ashe",
+       "box": {
+        "x": 0.3292,
+        "y": 0.314,
+        "w": 0.037,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3754,
+        "y": 0.314,
+        "w": 0.0093,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "O.",
+       "box": {
+        "x": 0.3939,
+        "y": 0.314,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Whitcombe",
+       "box": {
+        "x": 0.4217,
+        "y": 0.314,
+        "w": 0.0833,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5143,
+        "y": 0.314,
+        "w": 0.0093,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "R.",
+       "box": {
+        "x": 0.5328,
+        "y": 0.314,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Bhattacharya",
+       "box": {
+        "x": 0.5605,
+        "y": 0.314,
+        "w": 0.1111,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Authorised and regulated by the Solicitors Regulation Authority (SRA No. 523411).",
+     "box": {
+      "x": 0.07,
+      "y": 0.36,
+      "w": 0.6344,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Authorised",
+       "box": {
+        "x": 0.07,
+        "y": 0.36,
+        "w": 0.0783,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "and",
+       "box": {
+        "x": 0.1562,
+        "y": 0.36,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "regulated",
+       "box": {
+        "x": 0.1875,
+        "y": 0.36,
+        "w": 0.0705,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "by",
+       "box": {
+        "x": 0.2658,
+        "y": 0.36,
+        "w": 0.0157,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.2893,
+        "y": 0.36,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Solicitors",
+       "box": {
+        "x": 0.3206,
+        "y": 0.36,
+        "w": 0.0783,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Regulation",
+       "box": {
+        "x": 0.4068,
+        "y": 0.36,
+        "w": 0.0783,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Authority",
+       "box": {
+        "x": 0.4929,
+        "y": 0.36,
+        "w": 0.0705,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "(SRA",
+       "box": {
+        "x": 0.5713,
+        "y": 0.36,
+        "w": 0.0313,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.6104,
+        "y": 0.36,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "523411).",
+       "box": {
+        "x": 0.6417,
+        "y": 0.36,
+        "w": 0.0627,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Registered in England and Wales, No. OC312456.",
+     "box": {
+      "x": 0.07,
+      "y": 0.402,
+      "w": 0.3603,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Registered",
+       "box": {
+        "x": 0.07,
+        "y": 0.402,
+        "w": 0.0783,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "in",
+       "box": {
+        "x": 0.1562,
+        "y": 0.402,
+        "w": 0.0157,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "England",
+       "box": {
+        "x": 0.1797,
+        "y": 0.402,
+        "w": 0.0548,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "and",
+       "box": {
+        "x": 0.2423,
+        "y": 0.402,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Wales,",
+       "box": {
+        "x": 0.2736,
+        "y": 0.402,
+        "w": 0.047,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.3285,
+        "y": 0.402,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "OC312456.",
+       "box": {
+        "x": 0.3598,
+        "y": 0.402,
+        "w": 0.0705,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "PEMBERTON ASHE LLP",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "+44 (0)113 245 6700",
+    "e164": "+441132456700",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "pembertonashe.co.uk"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "19 Park Row",
+    "extra": "Park Row House",
+    "pobox": "",
+    "postcode": "LS1 5JF",
+    "city": "Leeds",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "two-sided",
+  "law-firm",
+  "title-department-line",
+  "partner-list",
+  "registry-number",
+  "foreign-region",
+  "no-address-foreign",
+  "building-name-extra",
+  "ocr-pipe-for-l",
+  "unknown-phone-label",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "Back only: no person (the partner list is not a name). SRA number and company number OC312456 are not phones. Building name \"Park Row House\" goes to extra."
+}

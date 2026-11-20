@@ -1,0 +1,564 @@
+{
+ "id": "de-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "LUMARA",
+     "box": {
+      "x": 0.07,
+      "y": 0.0756,
+      "w": 0.2826,
+      "h": 0.13
+     },
+     "height": 0.13,
+     "words": [
+      {
+       "text": "LUMARA",
+       "box": {
+        "x": 0.07,
+        "y": 0.0756,
+        "w": 0.2826,
+        "h": 0.13
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Leuchten für Architektur",
+     "box": {
+      "x": 0.07,
+      "y": 0.2276,
+      "w": 0.418,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Leuchten",
+       "box": {
+        "x": 0.07,
+        "y": 0.2276,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.2246,
+        "y": 0.2276,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Architektur",
+       "box": {
+        "x": 0.2887,
+        "y": 0.2276,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dipl.-Ing. Sven HoIlmann",
+     "box": {
+      "x": 0.07,
+      "y": 0.2996,
+      "w": 0.5016,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dipl.-Ing.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2996,
+        "w": 0.2174,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Sven",
+       "box": {
+        "x": 0.2991,
+        "y": 0.2996,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "HoIlmann",
+       "box": {
+        "x": 0.3977,
+        "y": 0.2996,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Produktmanager Außenleuchten",
+     "box": {
+      "x": 0.07,
+      "y": 0.3816,
+      "w": 0.4989,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Produktmanager",
+       "box": {
+        "x": 0.07,
+        "y": 0.3816,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Außenleuchten",
+       "box": {
+        "x": 0.3334,
+        "y": 0.3816,
+        "w": 0.2355,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "T +49 2932 47 11-240",
+     "box": {
+      "x": 0.07,
+      "y": 0.4536,
+      "w": 0.3287,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.4536,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.0978,
+        "y": 0.4536,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2932",
+       "box": {
+        "x": 0.1619,
+        "y": 0.4536,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.2441,
+        "y": 0.4536,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "11-240",
+       "box": {
+        "x": 0.29,
+        "y": 0.4536,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "M +49 151 23 45 67 80",
+     "box": {
+      "x": 0.07,
+      "y": 0.5256,
+      "w": 0.33,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.5256,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.0978,
+        "y": 0.5256,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "151",
+       "box": {
+        "x": 0.1619,
+        "y": 0.5256,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.2259,
+        "y": 0.5256,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.2719,
+        "y": 0.5256,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3178,
+        "y": 0.5256,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "80",
+       "box": {
+        "x": 0.3638,
+        "y": 0.5256,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "s.hollmann@lumara-licht-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.5976,
+      "w": 0.4711,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "s.hollmann@lumara-licht-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5976,
+        "w": 0.4711,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "www.lumara-licht.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.6696,
+      "w": 0.3442,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.lumara-licht.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.6696,
+        "w": 0.3442,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Eine Marke der Hellwig Lichttechnik GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.7416,
+      "w": 0.4096,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Eine",
+       "box": {
+        "x": 0.07,
+        "y": 0.7416,
+        "w": 0.0435,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Marke",
+       "box": {
+        "x": 0.1193,
+        "y": 0.7416,
+        "w": 0.0544,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "der",
+       "box": {
+        "x": 0.1795,
+        "y": 0.7416,
+        "w": 0.0326,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Hellwig",
+       "box": {
+        "x": 0.2179,
+        "y": 0.7416,
+        "w": 0.0761,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Lichttechnik",
+       "box": {
+        "x": 0.2998,
+        "y": 0.7416,
+        "w": 0.1304,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.4361,
+        "y": 0.7416,
+        "w": 0.0435,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Industriestraße 9 · 59755 Arnsberg",
+     "box": {
+      "x": 0.07,
+      "y": 0.7936,
+      "w": 0.3494,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Industriestraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.7936,
+        "w": 0.1631,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.2389,
+        "y": 0.7936,
+        "w": 0.0109,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2556,
+        "y": 0.7936,
+        "w": 0.0109,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "59755",
+       "box": {
+        "x": 0.2723,
+        "y": 0.7936,
+        "w": 0.0544,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Arnsberg",
+       "box": {
+        "x": 0.3324,
+        "y": 0.7936,
+        "w": 0.087,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Ing.",
+   "given": "Sven",
+   "middle": "",
+   "family": "Hollmann",
+   "suffix": "",
+   "full": "Dipl.-Ing. Sven Hollmann"
+  },
+  "otherName": null,
+  "company": "LUMARA",
+  "department": null,
+  "title": "Produktmanager Außenleuchten",
+  "phones": [
+   {
+    "printed": "+49 2932 47 11-240",
+    "e164": "+4929324711240",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+49 151 23 45 67 80",
+    "e164": "+4915123456780",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "s.hollmann@lumara-licht-de.example"
+  ],
+  "urls": [
+   "www.lumara-licht.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Industriestraße 9",
+    "extra": "",
+    "pobox": "",
+    "postcode": "59755",
+    "city": "Arnsberg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Produktmanager"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Dipl.-Ing. Sven Hollmann",
+   "ocr": "Dipl.-Ing. Sven HoIlmann",
+   "kinds": [
+    "1/l"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Hollmann",
+   "ocr": "HoIlmann",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "group-line-not-company",
+  "logo-text",
+  "prefix-title",
+  "ocr-1l"
+ ],
+ "notes": "The company is the brand LUMARA (logo, low confidence is fine). The \"Eine Marke der … GmbH\" line is a group line — producing \"Hellwig Lichttechnik GmbH\" as company is wrong. Family name has \"l\" read as \"I\"."
+}

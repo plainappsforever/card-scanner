@@ -1,0 +1,560 @@
+{
+ "id": "ae-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "ar"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US",
+    "ar-SA"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Amber Horizon Trading LLC",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3442,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Gulf",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Horizon",
+       "box": {
+        "x": 0.1393,
+        "y": 0.07,
+        "w": 0.106,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Trading",
+       "box": {
+        "x": 0.254,
+        "y": 0.07,
+        "w": 0.106,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "LLC",
+       "box": {
+        "x": 0.3687,
+        "y": 0.07,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "شركة أفق الخليج للتجارة ذ.م.م",
+     "box": {
+      "x": 0.5165,
+      "y": 0.07,
+      "w": 0.4135,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "شركة",
+       "box": {
+        "x": 0.5165,
+        "y": 0.07,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "أفق",
+       "box": {
+        "x": 0.5858,
+        "y": 0.07,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "الخليج",
+       "box": {
+        "x": 0.64,
+        "y": 0.07,
+        "w": 0.0908,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "للتجارة",
+       "box": {
+        "x": 0.7396,
+        "y": 0.07,
+        "w": 0.106,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "ذ.م.م",
+       "box": {
+        "x": 0.8543,
+        "y": 0.07,
+        "w": 0.0757,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "rtl",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Omar Al-Mansoori",
+     "box": {
+      "x": 0.07,
+      "y": 0.3,
+      "w": 0.3145,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Omar",
+       "box": {
+        "x": 0.07,
+        "y": 0.3,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Al-Mansoori",
+       "box": {
+        "x": 0.1624,
+        "y": 0.3,
+        "w": 0.2221,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Business Development Manager",
+     "box": {
+      "x": 0.07,
+      "y": 0.387,
+      "w": 0.3472,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Business",
+       "box": {
+        "x": 0.07,
+        "y": 0.387,
+        "w": 0.1023,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Development",
+       "box": {
+        "x": 0.1797,
+        "y": 0.387,
+        "w": 0.1406,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Manager",
+       "box": {
+        "x": 0.3277,
+        "y": 0.387,
+        "w": 0.0895,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "عمر المنصوري",
+     "box": {
+      "x": 0.6963,
+      "y": 0.3,
+      "w": 0.2337,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "عمر",
+       "box": {
+        "x": 0.6963,
+        "y": 0.3,
+        "w": 0.0606,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "المنصوري",
+       "box": {
+        "x": 0.7685,
+        "y": 0.3,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "rtl",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "مدير تطوير الأعمال",
+     "box": {
+      "x": 0.7107,
+      "y": 0.387,
+      "w": 0.2193,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "مدير",
+       "box": {
+        "x": 0.7107,
+        "y": 0.387,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "تطوير",
+       "box": {
+        "x": 0.7692,
+        "y": 0.387,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "الأعمال",
+       "box": {
+        "x": 0.8405,
+        "y": 0.387,
+        "w": 0.0895,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "rtl",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Office: +971 4 123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.6,
+      "w": 0.2438,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Office:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "+971",
+       "box": {
+        "x": 0.1567,
+        "y": 0.6,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "4",
+       "box": {
+        "x": 0.209,
+        "y": 0.6,
+        "w": 0.0114,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.2271,
+        "y": 0.6,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.268,
+        "y": 0.6,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Mobile: +971 50 123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.6493,
+      "w": 0.2552,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Mobile:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6493,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "+971",
+       "box": {
+        "x": 0.1567,
+        "y": 0.6493,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "50",
+       "box": {
+        "x": 0.209,
+        "y": 0.6493,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.2385,
+        "y": 0.6493,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2794,
+        "y": 0.6493,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "omar@amberhorizon-ae.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6986,
+      "w": 0.2174,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "omar@amberhorizon-ae.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6986,
+        "w": 0.2174,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "P.O. Box 123456, Dubai, UAE",
+     "box": {
+      "x": 0.07,
+      "y": 0.7479,
+      "w": 0.2895,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "P.O.",
+       "box": {
+        "x": 0.07,
+        "y": 0.7479,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Box",
+       "box": {
+        "x": 0.1224,
+        "y": 0.7479,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "123456,",
+       "box": {
+        "x": 0.1633,
+        "y": 0.7479,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Dubai,",
+       "box": {
+        "x": 0.25,
+        "y": 0.7479,
+        "w": 0.0686,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "UAE",
+       "box": {
+        "x": 0.3252,
+        "y": 0.7479,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Omar",
+   "middle": "",
+   "family": "Al-Mansoori",
+   "suffix": "",
+   "full": "Omar Al-Mansoori"
+  },
+  "otherName": "عمر المنصوري",
+  "company": "Amber Horizon Trading LLC",
+  "department": null,
+  "title": "Business Development Manager",
+  "phones": [
+   {
+    "printed": "+971 4 123 4567",
+    "e164": "+97141234567",
+    "type": "work",
+    "label": "Office:",
+    "ext": null
+   },
+   {
+    "printed": "+971 50 123 4567",
+    "e164": "+971501234567",
+    "type": "mobile",
+    "label": "Mobile:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "omar@amberhorizon-ae.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "P.O. Box 123456",
+    "postcode": "",
+    "city": "Dubai",
+    "region": "",
+    "country": "UAE",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "شركة أفق الخليج للتجارة ذ.م.م"
+  ],
+  "title": [
+   "مدير تطوير الأعمال"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "rtl-arabic-column",
+  "al-prefix-family",
+  "pobox-6digits",
+  "no-postcode",
+  "two-column-reading-order",
+  "other-name-script"
+ ],
+ "notes": "English left column, Arabic right column (dir rtl). UI English -> Latin name primary, Arabic name = otherName. P.O. Box 123456 (6 digits) is not a phone; UAE has no postcodes."
+}

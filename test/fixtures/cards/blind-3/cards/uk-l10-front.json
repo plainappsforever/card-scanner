@@ -1,0 +1,342 @@
+{
+ "id": "uk-l10-front",
+ "group": "uk-l10",
+ "side": "front",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PEMBERTON ASHE",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3489,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "PEMBERTON",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2243,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "ASHE",
+       "box": {
+        "x": 0.3192,
+        "y": 0.06,
+        "w": 0.0997,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Oliver Whitcombe",
+     "box": {
+      "x": 0.07,
+      "y": 0.21,
+      "w": 0.3418,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Oliver",
+       "box": {
+        "x": 0.07,
+        "y": 0.21,
+        "w": 0.1282,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Whitcombe",
+       "box": {
+        "x": 0.2195,
+        "y": 0.21,
+        "w": 0.1923,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Partner, Commercial Property",
+     "box": {
+      "x": 0.07,
+      "y": 0.29,
+      "w": 0.3788,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Partner,",
+       "box": {
+        "x": 0.07,
+        "y": 0.29,
+        "w": 0.1082,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Commercial",
+       "box": {
+        "x": 0.1918,
+        "y": 0.29,
+        "w": 0.1353,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Property",
+       "box": {
+        "x": 0.3406,
+        "y": 0.29,
+        "w": 0.1082,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "DD +44 (0)113 245 6710",
+     "box": {
+      "x": 0.07,
+      "y": 0.388,
+      "w": 0.282,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "DD",
+       "box": {
+        "x": 0.07,
+        "y": 0.388,
+        "w": 0.0256,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.1085,
+        "y": 0.388,
+        "w": 0.0385,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "(0)113",
+       "box": {
+        "x": 0.1597,
+        "y": 0.388,
+        "w": 0.0769,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "245",
+       "box": {
+        "x": 0.2495,
+        "y": 0.388,
+        "w": 0.0385,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "6710",
+       "box": {
+        "x": 0.3007,
+        "y": 0.388,
+        "w": 0.0513,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "M +44 (0)7723 418 902",
+     "box": {
+      "x": 0.07,
+      "y": 0.444,
+      "w": 0.2691,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.444,
+        "w": 0.0128,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.0956,
+        "y": 0.444,
+        "w": 0.0384,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "(0)7723",
+       "box": {
+        "x": 0.1469,
+        "y": 0.444,
+        "w": 0.0897,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "418",
+       "box": {
+        "x": 0.2494,
+        "y": 0.444,
+        "w": 0.0384,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "902",
+       "box": {
+        "x": 0.3007,
+        "y": 0.444,
+        "w": 0.0384,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "o|iver.whitcombe@pembertonashe-co-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.5,
+      "w": 0.4101,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "o|iver.whitcombe@pembertonashe-co-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5,
+        "w": 0.4101,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Oliver",
+   "middle": "",
+   "family": "Whitcombe",
+   "suffix": "",
+   "full": "Oliver Whitcombe"
+  },
+  "otherName": null,
+  "company": "PEMBERTON ASHE",
+  "department": "Commercial Property",
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "+44 (0)113 245 6710",
+    "e164": "+441132456710",
+    "type": "work",
+    "label": "DD",
+    "ext": null
+   },
+   {
+    "printed": "+44 (0)7723 418 902",
+    "e164": "+447723418902",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "oliver.whitcombe@pembertonashe-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "oliver.whitcombe@pembertonashe-co-uk.example",
+   "ocr": "o|iver.whitcombe@pembertonashe-co-uk.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "two-sided",
+  "law-firm",
+  "title-department-line",
+  "partner-list",
+  "registry-number",
+  "foreign-region",
+  "no-address-foreign",
+  "building-name-extra",
+  "ocr-pipe-for-l",
+  "unknown-phone-label",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "Front only: no address, numbers with +44 (0). \"DD\" = direct dial (work). \"Partner, Commercial Property\" = title + department. \"|\" for \"l\" in the e-mail."
+}

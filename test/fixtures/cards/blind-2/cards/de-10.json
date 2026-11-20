@@ -1,0 +1,511 @@
+{
+ "id": "de-10",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "fennbit",
+     "box": {
+      "x": 0.07,
+      "y": 0.0897,
+      "w": 0.279,
+      "h": 0.11
+     },
+     "height": 0.11,
+     "words": [
+      {
+       "text": "fennbit",
+       "box": {
+        "x": 0.07,
+        "y": 0.0897,
+        "w": 0.279,
+        "h": 0.11
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Anja Petersen",
+     "box": {
+      "x": 0.07,
+      "y": 0.2217,
+      "w": 0.2953,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Anja",
+       "box": {
+        "x": 0.07,
+        "y": 0.2217,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Petersen",
+       "box": {
+        "x": 0.1768,
+        "y": 0.2217,
+        "w": 0.1884,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Projektleiterin Digitalisierung",
+     "box": {
+      "x": 0.07,
+      "y": 0.3087,
+      "w": 0.5532,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Projektleiterin",
+       "box": {
+        "x": 0.07,
+        "y": 0.3087,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Digitalisierung",
+       "box": {
+        "x": 0.3515,
+        "y": 0.3087,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "fennbit Software GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.3807,
+      "w": 0.3636,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "fennbit",
+       "box": {
+        "x": 0.07,
+        "y": 0.3807,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Software",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3807,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.3612,
+        "y": 0.3807,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Am Sandtorkai 41 · 20457 Hamburg",
+     "box": {
+      "x": 0.07,
+      "y": 0.4527,
+      "w": 0.5377,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Am",
+       "box": {
+        "x": 0.07,
+        "y": 0.4527,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sandtorkai",
+       "box": {
+        "x": 0.1159,
+        "y": 0.4527,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "41",
+       "box": {
+        "x": 0.3068,
+        "y": 0.4527,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3528,
+        "y": 0.4527,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "20457",
+       "box": {
+        "x": 0.3806,
+        "y": 0.4527,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Hamburg",
+       "box": {
+        "x": 0.4809,
+        "y": 0.4527,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +49 40 822 15 66-31",
+     "box": {
+      "x": 0.07,
+      "y": 0.5247,
+      "w": 0.3928,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5247,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5247,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "40",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5247,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "822",
+       "box": {
+        "x": 0.2622,
+        "y": 0.5247,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.3262,
+        "y": 0.5247,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "66-31",
+       "box": {
+        "x": 0.3722,
+        "y": 0.5247,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Mobil +49 151 70 12 34 S6",
+     "box": {
+      "x": 0.07,
+      "y": 0.5967,
+      "w": 0.4025,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.5967,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5967,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "151",
+       "box": {
+        "x": 0.2344,
+        "y": 0.5967,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "70",
+       "box": {
+        "x": 0.2984,
+        "y": 0.5967,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.3444,
+        "y": 0.5967,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.3903,
+        "y": 0.5967,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "S6",
+       "box": {
+        "x": 0.4362,
+        "y": 0.5967,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "anja.petersen@fennbit-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6687,
+      "w": 0.4348,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "anja.petersen@fennbit-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6687,
+        "w": 0.4348,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "fennbit.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.7407,
+      "w": 0.1812,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "fennbit.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.7407,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "https://fennbit.de/team/anja-petersen",
+    "box": {
+     "x": 0.7,
+     "y": 0.3,
+     "w": 0.24,
+     "h": 0.37
+    }
+   }
+  ],
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Anja",
+   "middle": "",
+   "family": "Petersen",
+   "suffix": "",
+   "full": "Anja Petersen"
+  },
+  "otherName": null,
+  "company": "fennbit Software GmbH",
+  "department": null,
+  "title": "Projektleiterin Digitalisierung",
+  "phones": [
+   {
+    "printed": "+49 40 822 15 66-31",
+    "e164": "+4940822156631",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 151 70 12 34 56",
+    "e164": "+4915170123456",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "anja.petersen@fennbit-de.example"
+  ],
+  "urls": [
+   "fennbit.de",
+   "https://fennbit.de/team/anja-petersen"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Sandtorkai 41",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20457",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Projektleiterin"
+  ],
+  "company": [
+   "fennbit"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[1].printed",
+   "printed": "+49 151 70 12 34 56",
+   "ocr": "+49 151 70 12 34 S6",
+   "kinds": [
+    "5/S"
+   ]
+  }
+ ],
+ "traps": [
+  "qr-url",
+  "ext-in-number",
+  "ocr-5S"
+ ],
+ "notes": "The QR URL is a second website (profile page). Main number has a direct-dial suffix \"-31\" that is part of the number."
+}

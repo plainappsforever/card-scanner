@@ -1,0 +1,163 @@
+{
+ "id": "us-04-back",
+ "group": "us-04",
+ "side": "back",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Northwind Analytics LLC",
+     "box": {
+      "x": 0.0666166861491401,
+      "y": 0.20145758994753282,
+      "w": 0.3086824607849121,
+      "h": 0.049507015920513764
+     },
+     "height": 0.049507015920513764,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Est. 2009",
+     "box": {
+      "x": 0.06786150901760585,
+      "y": 0.2803606277102819,
+      "w": 0.12447757720947267,
+      "h": 0.0431867253366125
+     },
+     "height": 0.0431867253366125,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "233 S Wacker Dr, Suite 8400",
+     "box": {
+      "x": 0.06808661785543421,
+      "y": 0.3411108484844654,
+      "w": 0.3813326644897461,
+      "h": 0.057511160272428974
+     },
+     "height": 0.057511160272428974,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Chicago, IL 60606",
+     "box": {
+      "x": 0.06969333926530204,
+      "y": 0.4202931344695915,
+      "w": 0.23428760528564457,
+      "h": 0.05030175433655959
+     },
+     "height": 0.05030175433655959,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Chicago • Austin • Toronto",
+     "box": {
+      "x": 0.06945202438675085,
+      "y": 0.48675919503757437,
+      "w": 0.32917751312255855,
+      "h": 0.053759462584860085
+     },
+     "height": 0.053759462584860085,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dana",
+   "middle": "",
+   "family": "Whitfield",
+   "suffix": "",
+   "full": "Dana Whitfield"
+  },
+  "otherName": null,
+  "company": "Northwind Analytics LLC",
+  "department": null,
+  "title": "Chief Data Officer",
+  "phones": [
+   {
+    "printed": "+13125550198",
+    "e164": "+13125550198",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dana.whitfield@northwind-analytics-com.example"
+  ],
+  "urls": [
+   "https://northwind-analytics.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "233 S Wacker Dr",
+    "extra": "Suite 8400",
+    "pobox": "",
+    "postcode": "60606",
+    "city": "Chicago",
+    "region": "IL",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "qr-vcard",
+  "tagline-not-title",
+  "year-in-tagline",
+  "cities-not-address"
+ ],
+ "notes": "Back alone: the vCard QR carries name, title, phone, e-mail, URL; printed: legal name, \"Est. 2009\", address and a city list \"Chicago · Austin · Toronto\" that is not an address.",
+ "o3": {
+  "source": "blind-2/cards/us-04-back.json",
+  "images": [
+   {
+    "name": "b2-us-04-back",
+    "font": "Georgia",
+    "rotation": 1.07,
+    "noise": 4,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 0
+ }
+}

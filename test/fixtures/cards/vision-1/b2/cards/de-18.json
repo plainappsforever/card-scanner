@@ -1,0 +1,131 @@
+{
+ "id": "de-18",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Felix Brantzen",
+     "box": {
+      "x": 0.06661535217812141,
+      "y": 0.26284207837306706,
+      "w": 0.31879695892333987,
+      "h": 0.05858353942517602
+     },
+     "height": 0.05858353942517602,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Scan für Kontakt",
+     "box": {
+      "x": 0.06831395355962386,
+      "y": 0.36771300486360303,
+      "w": 0.1395348834991455,
+      "h": 0.02242152387110896
+     },
+     "height": 0.02242152387110896,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Brantzen;Felix;;;\r\nFN:Felix Brantzen\r\nORG:Brantzen Consulting\r\nTITLE:Berater für Prozessoptimierung\r\nTEL;TYPE=CELL:+4915201234567\r\nEMAIL;TYPE=INTERNET:felix@brantzen-consulting-de.example\r\nURL:https://brantzen-consulting.de\r\nADR;TYPE=WORK:;;Sendlinger Str. 7;München;;80331;Deutschland\r\nEND:VCARD\r\n",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Felix",
+   "middle": "",
+   "family": "Brantzen",
+   "suffix": "",
+   "full": "Felix Brantzen"
+  },
+  "otherName": null,
+  "company": "Brantzen Consulting",
+  "department": null,
+  "title": "Berater für Prozessoptimierung",
+  "phones": [
+   {
+    "printed": "+4915201234567",
+    "e164": "+4915201234567",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "felix@brantzen-consulting-de.example"
+  ],
+  "urls": [
+   "https://brantzen-consulting.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Sendlinger Str. 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80331",
+    "city": "München",
+    "region": "",
+    "country": "Deutschland",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "qr-only",
+  "qr-vcard",
+  "name-is-company"
+ ],
+ "notes": "All fields except the printed name come from the vCard (confidence high). \"Scan für Kontakt\" is not a title.",
+ "o3": {
+  "source": "blind-2/cards/de-18.json",
+  "images": [
+   {
+    "name": "b2-de-18",
+    "font": "AmericanTypewriter",
+    "rotation": 0.69,
+    "noise": 14,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 86
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

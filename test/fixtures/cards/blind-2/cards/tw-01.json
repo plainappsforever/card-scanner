@@ -1,0 +1,423 @@
+{
+ "id": "tw-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "zh",
+  "en"
+ ],
+ "card_country": "TW",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "zh-Hant",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "台灣精密科技股份有限公司",
+     "box": {
+      "x": 0.07,
+      "y": 0.1107,
+      "w": 0.4659,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "台灣精密科技股份有限公司",
+       "box": {
+        "x": 0.07,
+        "y": 0.1107,
+        "w": 0.4659,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Taiwan Precision Technology Corp.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1927,
+      "w": 0.5726,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Taiwan",
+       "box": {
+        "x": 0.07,
+        "y": 0.1927,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Precision",
+       "box": {
+        "x": 0.1884,
+        "y": 0.1927,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Technology",
+       "box": {
+        "x": 0.3612,
+        "y": 0.1927,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Corp.",
+       "box": {
+        "x": 0.5521,
+        "y": 0.1927,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "林志明 Jimmy Lin",
+     "box": {
+      "x": 0.07,
+      "y": 0.2647,
+      "w": 0.366,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "林志明",
+       "box": {
+        "x": 0.07,
+        "y": 0.2647,
+        "w": 0.1359,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Jimmy",
+       "box": {
+        "x": 0.2195,
+        "y": 0.2647,
+        "w": 0.1268,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Lin",
+       "box": {
+        "x": 0.3599,
+        "y": 0.2647,
+        "w": 0.0761,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "業務經理 Sales Manager",
+     "box": {
+      "x": 0.07,
+      "y": 0.3567,
+      "w": 0.3662,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "業務經理",
+       "box": {
+        "x": 0.07,
+        "y": 0.3567,
+        "w": 0.1294,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.2091,
+        "y": 0.3567,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Manager",
+       "box": {
+        "x": 0.3094,
+        "y": 0.3567,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "114台北市內湖區瑞光路88號5樓",
+     "box": {
+      "x": 0.07,
+      "y": 0.4287,
+      "w": 0.4646,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "114台北市內湖區瑞光路88號5樓",
+       "box": {
+        "x": 0.07,
+        "y": 0.4287,
+        "w": 0.4646,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "TEL: +886-2-2799-1234 ext. 568",
+     "box": {
+      "x": 0.07,
+      "y": 0.5007,
+      "w": 0.5183,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "TEL:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5007,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+886-2-2799-1234",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5007,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "ext.",
+       "box": {
+        "x": 0.4518,
+        "y": 0.5007,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "568",
+       "box": {
+        "x": 0.5339,
+        "y": 0.5007,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Mobile: 0912-345-678",
+     "box": {
+      "x": 0.07,
+      "y": 0.5727,
+      "w": 0.3539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5727,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0912-345-678",
+       "box": {
+        "x": 0.2065,
+        "y": 0.5727,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "jimmy.lin@tpyt-corn-tw.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6447,
+      "w": 0.3805,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "jimmy.lin@tpyt-corn-tw.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6447,
+        "w": 0.3805,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "統一編號 12345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.7167,
+      "w": 0.142,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "統一編號",
+       "box": {
+        "x": 0.07,
+        "y": 0.7167,
+        "w": 0.0647,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "12345678",
+       "box": {
+        "x": 0.1396,
+        "y": 0.7167,
+        "w": 0.0725,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jimmy",
+   "middle": "",
+   "family": "Lin",
+   "suffix": "",
+   "full": "Jimmy Lin"
+  },
+  "otherName": "林志明",
+  "company": "Taiwan Precision Technology Corp.",
+  "department": null,
+  "title": "Sales Manager",
+  "phones": [
+   {
+    "printed": "+886-2-2799-1234 ext. 568",
+    "e164": "+886227991234",
+    "type": "work",
+    "label": "TEL",
+    "ext": "568"
+   },
+   {
+    "printed": "0912-345-678",
+    "e164": "+886912345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jimmy.lin@tpyt-com-tw.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "內湖區瑞光路88號",
+    "extra": "5樓",
+    "pobox": "",
+    "postcode": "114",
+    "city": "台北市",
+    "region": "",
+    "country": "",
+    "countryCode": "TW"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "台灣精密科技股份有限公司"
+  ],
+  "title": [
+   "業務經理"
+  ],
+  "addresses[0].street": [
+   "瑞光路88號"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "jimmy.lin@tpyt-com-tw.example",
+   "ocr": "jimmy.lin@tpyt-corn-tw.example",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "second-script",
+  "extension",
+  "tax-id",
+  "region-from-plus-cc",
+  "region-trap-valid-elsewhere",
+  "ocr-rnm"
+ ],
+ "notes": "UI German → Latin name Jimmy Lin primary, 林志明 = otherName. 統一編號 12345678 is the business id. Postcode 114 is glued to 台北市. .corn = OCR of .com."
+}

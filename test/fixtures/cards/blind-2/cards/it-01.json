@@ -1,0 +1,495 @@
+{
+ "id": "it-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VORINI",
+     "box": {
+      "x": 0.07,
+      "y": 0.0741,
+      "w": 0.2174,
+      "h": 0.12
+     },
+     "height": 0.12,
+     "words": [
+      {
+       "text": "VORINI",
+       "box": {
+        "x": 0.07,
+        "y": 0.0741,
+        "w": 0.2174,
+        "h": 0.12
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "MECCANICA S.r.l.",
+     "box": {
+      "x": 0.07,
+      "y": 0.2161,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "MECCANICA",
+       "box": {
+        "x": 0.07,
+        "y": 0.2161,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "S.r.l.",
+       "box": {
+        "x": 0.2428,
+        "y": 0.2161,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dott. Alessandro Vorini",
+     "box": {
+      "x": 0.07,
+      "y": 0.2881,
+      "w": 0.4581,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dott.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2881,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Alessandro",
+       "box": {
+        "x": 0.1904,
+        "y": 0.2881,
+        "w": 0.2174,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Vorini",
+       "box": {
+        "x": 0.4194,
+        "y": 0.2881,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Direttore Tecnico",
+     "box": {
+      "x": 0.07,
+      "y": 0.3701,
+      "w": 0.2996,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Direttore",
+       "box": {
+        "x": 0.07,
+        "y": 0.3701,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Tecnico",
+       "box": {
+        "x": 0.2428,
+        "y": 0.3701,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Via Giuseppe Mazzini, 45",
+     "box": {
+      "x": 0.07,
+      "y": 0.4421,
+      "w": 0.4096,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Via",
+       "box": {
+        "x": 0.07,
+        "y": 0.4421,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Giuseppe",
+       "box": {
+        "x": 0.1341,
+        "y": 0.4421,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Mazzini,",
+       "box": {
+        "x": 0.2887,
+        "y": 0.4421,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.4434,
+        "y": 0.4421,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "20123 Milano (MI)",
+     "box": {
+      "x": 0.07,
+      "y": 0.5141,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "20123",
+       "box": {
+        "x": 0.07,
+        "y": 0.5141,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Milano",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5141,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(MI)",
+       "box": {
+        "x": 0.2887,
+        "y": 0.5141,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +39 O2 8645 129O",
+     "box": {
+      "x": 0.07,
+      "y": 0.5861,
+      "w": 0.3468,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5861,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+39",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5861,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "O2",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5861,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8645",
+       "box": {
+        "x": 0.2622,
+        "y": 0.5861,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "129O",
+       "box": {
+        "x": 0.3444,
+        "y": 0.5861,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Cell. 347 812 3456",
+     "box": {
+      "x": 0.07,
+      "y": 0.6581,
+      "w": 0.3009,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Cell.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6581,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "347",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6581,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "812",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6581,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3456",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6581,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "a.vorini@vorinimeccanica-it.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7301,
+      "w": 0.4529,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "a.vorini@vorinimeccanica-it.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7301,
+        "w": 0.4529,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "P.IVA 01234567890",
+     "box": {
+      "x": 0.07,
+      "y": 0.8021,
+      "w": 0.1498,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "P.IVA",
+       "box": {
+        "x": 0.07,
+        "y": 0.8021,
+        "w": 0.0453,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "01234567890",
+       "box": {
+        "x": 0.1201,
+        "y": 0.8021,
+        "w": 0.0996,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dott.",
+   "given": "Alessandro",
+   "middle": "",
+   "family": "Vorini",
+   "suffix": "",
+   "full": "Dott. Alessandro Vorini"
+  },
+  "otherName": null,
+  "company": "VORINI MECCANICA S.r.l.",
+  "department": null,
+  "title": "Direttore Tecnico",
+  "phones": [
+   {
+    "printed": "+39 02 8645 1290",
+    "e164": "+390286451290",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "347 812 3456",
+    "e164": "+393478123456",
+    "type": "mobile",
+    "label": "Cell.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "a.vorini@vorinimeccanica-it.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via Giuseppe Mazzini, 45",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20123",
+    "city": "Milano",
+    "region": "MI",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "VORINI MECCANICA"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "+39 02 8645 1290",
+   "ocr": "+39 O2 8645 129O",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "italian-leading-zero",
+  "prefix-title",
+  "vat-id",
+  "name-is-company",
+  "region-from-address",
+  "ocr-0O"
+ ],
+ "notes": "+39 02 8645 1290 → +390286451290 (the 0 stays). 347 812 3456 is an Italian mobile by address. P.IVA is not a phone. Dott. is a prefix."
+}

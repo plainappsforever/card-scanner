@@ -1,0 +1,536 @@
+{
+ "id": "es-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "es-ES"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GRUPO ALCÁZAR",
+     "box": {
+      "x": 0.07,
+      "y": 0.0831,
+      "w": 0.4088,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "GRUPO",
+       "box": {
+        "x": 0.07,
+        "y": 0.0831,
+        "w": 0.1631,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "ALCÁZAR",
+       "box": {
+        "x": 0.2505,
+        "y": 0.0831,
+        "w": 0.2283,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Distribución, S.L.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1951,
+      "w": 0.3177,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Distribución,",
+       "box": {
+        "x": 0.07,
+        "y": 0.1951,
+        "w": 0.2355,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "S.L.",
+       "box": {
+        "x": 0.3152,
+        "y": 0.1951,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Maria Jose Fernandez Lopez",
+     "box": {
+      "x": 0.07,
+      "y": 0.2671,
+      "w": 0.535,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Maria",
+       "box": {
+        "x": 0.07,
+        "y": 0.2671,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Jose",
+       "box": {
+        "x": 0.1904,
+        "y": 0.2671,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Fernandez",
+       "box": {
+        "x": 0.289,
+        "y": 0.2671,
+        "w": 0.1957,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Lopez",
+       "box": {
+        "x": 0.4963,
+        "y": 0.2671,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Gerente de Ventas",
+     "box": {
+      "x": 0.07,
+      "y": 0.3491,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Gerente",
+       "box": {
+        "x": 0.07,
+        "y": 0.3491,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3491,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Ventas",
+       "box": {
+        "x": 0.2525,
+        "y": 0.3491,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "C/ de Serrano, 89, 3º Izda.",
+     "box": {
+      "x": 0.07,
+      "y": 0.4211,
+      "w": 0.4471,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "C/",
+       "box": {
+        "x": 0.07,
+        "y": 0.4211,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.1159,
+        "y": 0.4211,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Serrano,",
+       "box": {
+        "x": 0.1619,
+        "y": 0.4211,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "89,",
+       "box": {
+        "x": 0.3165,
+        "y": 0.4211,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3º",
+       "box": {
+        "x": 0.3806,
+        "y": 0.4211,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Izda.",
+       "box": {
+        "x": 0.4265,
+        "y": 0.4211,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "28006 Madrid",
+     "box": {
+      "x": 0.07,
+      "y": 0.4931,
+      "w": 0.209,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "28006",
+       "box": {
+        "x": 0.07,
+        "y": 0.4931,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Madrid",
+       "box": {
+        "x": 0.1703,
+        "y": 0.4931,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 912 345 678",
+     "box": {
+      "x": 0.07,
+      "y": 0.5651,
+      "w": 0.2646,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5651,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "912",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5651,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5651,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "678",
+       "box": {
+        "x": 0.2803,
+        "y": 0.5651,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Móvil 612 34 56 78",
+     "box": {
+      "x": 0.07,
+      "y": 0.6371,
+      "w": 0.2925,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Móvil",
+       "box": {
+        "x": 0.07,
+        "y": 0.6371,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "612",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6371,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6371,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.2803,
+        "y": 0.6371,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.3262,
+        "y": 0.6371,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "mjfernandez@alcazar-distribucion-es.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7091,
+      "w": 0.6341,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "mjfernandez@alcazar-distribucion-es.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7091,
+        "w": 0.6341,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "CIF B-12345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.7811,
+      "w": 0.1226,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "CIF",
+       "box": {
+        "x": 0.07,
+        "y": 0.7811,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "B-12345678",
+       "box": {
+        "x": 0.102,
+        "y": 0.7811,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "ES",
+  "uiLang": "es"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "María José",
+   "middle": "",
+   "family": "Fernández López",
+   "suffix": "",
+   "full": "María José Fernández López"
+  },
+  "otherName": null,
+  "company": "GRUPO ALCÁZAR Distribución, S.L.",
+  "department": "Ventas",
+  "title": "Gerente",
+  "phones": [
+   {
+    "printed": "912 345 678",
+    "e164": "+34912345678",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "612 34 56 78",
+    "e164": "+34612345678",
+    "type": "mobile",
+    "label": "Móvil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mjfernandez@alcazar-distribucion-es.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "C/ de Serrano, 89",
+    "extra": "3º Izda.",
+    "pobox": "",
+    "postcode": "28006",
+    "city": "Madrid",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Gerente de Ventas"
+  ],
+  "company": [
+   "GRUPO ALCÁZAR"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "María José Fernández López",
+   "ocr": "Maria Jose Fernandez Lopez",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "María José",
+   "ocr": "Maria Jose",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Fernández López",
+   "ocr": "Fernandez Lopez",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "two-given-two-family",
+  "title-dept-one-line",
+  "tax-id",
+  "legal-form-line",
+  "diacritic-lost"
+ ],
+ "notes": "Given María José, family Fernández López (N4 would wrongly give family = López). Title Gerente, department Ventas. \"Grupo\" here IS the company name, not a group line."
+}

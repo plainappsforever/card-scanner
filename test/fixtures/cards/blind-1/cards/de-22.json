@@ -1,0 +1,450 @@
+{
+ "id": "de-22",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Klinikum Birkenhain",
+     "box": {
+      "x": 0.06,
+      "y": 0.06,
+      "w": 0.3548,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Klinikum",
+       "box": {
+        "x": 0.06,
+        "y": 0.06,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Birkenhain",
+       "box": {
+        "x": 0.2332,
+        "y": 0.06,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Klinik für Kardiologie",
+     "box": {
+      "x": 0.06,
+      "y": 0.14,
+      "w": 0.2847,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Klinik",
+       "box": {
+        "x": 0.06,
+        "y": 0.14,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.1485,
+        "y": 0.14,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Kardiologie",
+       "box": {
+        "x": 0.1967,
+        "y": 0.14,
+        "w": 0.148,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Prof. Dr. med. habil. Ngozi Adeyemi-Brückner",
+     "box": {
+      "x": 0.06,
+      "y": 0.3,
+      "w": 0.7751,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Prof.",
+       "box": {
+        "x": 0.06,
+        "y": 0.3,
+        "w": 0.0925,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.1632,
+        "y": 0.3,
+        "w": 0.0555,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "med.",
+       "box": {
+        "x": 0.2294,
+        "y": 0.3,
+        "w": 0.074,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "habil.",
+       "box": {
+        "x": 0.3141,
+        "y": 0.3,
+        "w": 0.111,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Ngozi",
+       "box": {
+        "x": 0.4358,
+        "y": 0.3,
+        "w": 0.0925,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Adeyemi-Brückner",
+       "box": {
+        "x": 0.539,
+        "y": 0.3,
+        "w": 0.2961,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Chefärztin",
+     "box": {
+      "x": 0.06,
+      "y": 0.3797,
+      "w": 0.1413,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Chefärztin",
+       "box": {
+        "x": 0.06,
+        "y": 0.3797,
+        "w": 0.1413,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Prof.-Ernst-Nathan-Str. 1 · 90419 Nürnberg",
+     "box": {
+      "x": 0.06,
+      "y": 0.56,
+      "w": 0.4882,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Prof.-Ernst-Nathan-Str.",
+       "box": {
+        "x": 0.06,
+        "y": 0.56,
+        "w": 0.2786,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "1",
+       "box": {
+        "x": 0.3456,
+        "y": 0.56,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3647,
+        "y": 0.56,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "90419",
+       "box": {
+        "x": 0.3838,
+        "y": 0.56,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Nürnberg",
+       "box": {
+        "x": 0.4513,
+        "y": 0.56,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Sekretariat: Tel. 0911 398-2240 · Fax 0911 398-2249",
+     "box": {
+      "x": 0.06,
+      "y": 0.6122,
+      "w": 0.5819,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Sekretariat:",
+       "box": {
+        "x": 0.06,
+        "y": 0.6122,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.2123,
+        "y": 0.6122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "0911",
+       "box": {
+        "x": 0.2678,
+        "y": 0.6122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "398-2240",
+       "box": {
+        "x": 0.3232,
+        "y": 0.6122,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4271,
+        "y": 0.6122,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.4462,
+        "y": 0.6122,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "0911",
+       "box": {
+        "x": 0.4895,
+        "y": 0.6122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "398-2249",
+       "box": {
+        "x": 0.545,
+        "y": 0.6122,
+        "w": 0.0969,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "ngozi.adeyemi-brueckner@klinikum-",
+     "box": {
+      "x": 0.06,
+      "y": 0.6644,
+      "w": 0.3997,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "ngozi.adeyemi-brueckner@klinikum-",
+       "box": {
+        "x": 0.06,
+        "y": 0.6644,
+        "w": 0.3997,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "birkenhain.de",
+     "box": {
+      "x": 0.06,
+      "y": 0.7166,
+      "w": 0.1454,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "birkenhain.de",
+       "box": {
+        "x": 0.06,
+        "y": 0.7166,
+        "w": 0.1454,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Prof. Dr. med. habil.",
+   "given": "Ngozi",
+   "middle": "",
+   "family": "Adeyemi-Brückner",
+   "suffix": "",
+   "full": "Prof. Dr. med. habil. Ngozi Adeyemi-Brückner"
+  },
+  "otherName": null,
+  "company": "Klinikum Birkenhain",
+  "department": "Klinik für Kardiologie",
+  "title": "Chefärztin",
+  "phones": [
+   {
+    "printed": "0911 398-2240",
+    "e164": "+499113982240",
+    "type": "work",
+    "label": "Sekretariat: Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0911 398-2249",
+    "e164": "+499113982249",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ngozi.adeyemi-brueckner@klinikum-birkenhain-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Prof.-Ernst-Nathan-Str. 1",
+    "extra": "",
+    "pobox": "",
+    "postcode": "90419",
+    "city": "Nürnberg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "long-prefix-chain",
+  "street-contains-prof",
+  "email-split-across-lines",
+  "real-hyphen-at-line-end",
+  "department-line",
+  "foreign-name"
+ ],
+ "notes": "The e-mail breaks after \"klinikum-\"; the hyphen is part of the domain (join without removing it). The street name starts with \"Prof.\" and must not be read as a name prefix."
+}

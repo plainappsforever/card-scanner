@@ -1,0 +1,261 @@
+{
+ "id": "de-s12",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US",
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "fernlet.garden",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3524,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "fernlet.garden",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.3524,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Software for small growers",
+     "box": {
+      "x": 0.07,
+      "y": 0.17,
+      "w": 0.324,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Software",
+       "box": {
+        "x": 0.07,
+        "y": 0.17,
+        "w": 0.0997,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "for",
+       "box": {
+        "x": 0.1822,
+        "y": 0.17,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "small",
+       "box": {
+        "x": 0.232,
+        "y": 0.17,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "growers",
+       "box": {
+        "x": 0.3068,
+        "y": 0.17,
+        "w": 0.0872,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Mila",
+     "box": {
+      "x": 0.07,
+      "y": 0.305,
+      "w": 0.0997,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Mila",
+       "box": {
+        "x": 0.07,
+        "y": 0.305,
+        "w": 0.0997,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Founder & Product",
+     "box": {
+      "x": 0.07,
+      "y": 0.395,
+      "w": 0.2118,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Founder",
+       "box": {
+        "x": 0.07,
+        "y": 0.395,
+        "w": 0.0872,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.1697,
+        "y": 0.395,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Product",
+       "box": {
+        "x": 0.1946,
+        "y": 0.395,
+        "w": 0.0872,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "mila@fernlet-garden.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.49,
+      "w": 0.1994,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "mila@fernlet-garden.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.49,
+        "w": 0.1994,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "@milabuilds",
+     "box": {
+      "x": 0.07,
+      "y": 0.545,
+      "w": 0.1371,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "@milabuilds",
+       "box": {
+        "x": 0.07,
+        "y": 0.545,
+        "w": 0.1371,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mila",
+   "middle": "",
+   "family": "",
+   "suffix": "",
+   "full": "Mila"
+  },
+  "otherName": null,
+  "company": "fernlet.garden",
+  "department": null,
+  "title": "Founder & Product",
+  "phones": [],
+  "emails": [
+   "mila@fernlet-garden.example"
+  ],
+  "urls": [
+   "fernlet.garden"
+  ],
+  "socials": [
+   {
+    "service": "other",
+    "value": "@milabuilds"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "startup",
+  "first-name-only",
+  "company-only-domain",
+  "lone-handle",
+  "tagline",
+  "absent-phone",
+  "absent-address",
+  "new-gtld"
+ ],
+ "notes": "Only a first name. The company is printed only as the domain \"fernlet.garden\" (new gTLD .garden), which is also the web address. \"@milabuilds\" is a lone handle (social other). No phone, no address."
+}

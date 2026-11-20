@@ -1,0 +1,242 @@
+{
+ "id": "de-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "WENDRAU HAUSTECHNIK",
+     "box": {
+      "x": 0.06666667275015549,
+      "y": 0.05769230830877714,
+      "w": 0.5708333206176758,
+      "h": 0.08999109084081469
+     },
+     "height": 0.08999109084081469,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "GmbH",
+     "box": {
+      "x": 0.07117823271925731,
+      "y": 0.18591334050291308,
+      "w": 0.06113190650939941,
+      "h": 0.03400291531242461
+     },
+     "height": 0.03400291531242461,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Ihr Partner für Bad & Heizung",
+     "box": {
+      "x": 0.06976743641963043,
+      "y": 0.23745173872140857,
+      "w": 0.4985465240478515,
+      "h": 0.0723938223938223
+     },
+     "height": 0.0723938223938223,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Klaus Wendrau",
+     "box": {
+      "x": 0.07079216365680736,
+      "y": 0.32400617704087487,
+      "w": 0.24655870437622074,
+      "h": 0.05756802908702252
+     },
+     "height": 0.05756802908702252,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Geschäftsführer",
+     "box": {
+      "x": 0.06831395583594983,
+      "y": 0.41479820550353463,
+      "w": 0.25726743698120114,
+      "h": 0.04035874591370803
+     },
+     "height": 0.04035874591370803,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Lindenstraße 14 • 72072 Tübingen",
+     "box": {
+      "x": 0.06591813648051499,
+      "y": 0.46481875569407805,
+      "w": 0.5598473358154297,
+      "h": 0.08836631333045519
+     },
+     "height": 0.08836631333045519,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 07071 / 9 36 52-0",
+     "box": {
+      "x": 0.06818806222802827,
+      "y": 0.5556494844681095,
+      "w": 0.3854113006591797,
+      "h": 0.047870619416697124
+     },
+     "height": 0.047870619416697124,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fax 07071 / 9 36 52-29",
+     "box": {
+      "x": 0.06949538157654903,
+      "y": 0.6250092457845094,
+      "w": 0.3871413803100585,
+      "h": 0.05182703121288401
+     },
+     "height": 0.05182703121288401,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "info@wendrau-haustechnik-de.example",
+     "box": {
+      "x": 0.06666667094116213,
+      "y": 0.6923076924236362,
+      "w": 0.4083333206176758,
+      "h": 0.06410256315842566
+     },
+     "height": 0.06410256315842566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "www.wendrau-haustechnik.de",
+     "box": {
+      "x": 0.06686045661578507,
+      "y": 0.7757847538552061,
+      "w": 0.39534885406494136,
+      "h": 0.04932735325286752
+     },
+     "height": 0.04932735325286752,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Klaus",
+   "middle": "",
+   "family": "Wendrau",
+   "suffix": "",
+   "full": "Klaus Wendrau"
+  },
+  "otherName": null,
+  "company": "WENDRAU HAUSTECHNIK GmbH",
+  "department": null,
+  "title": "Geschäftsführer",
+  "phones": [
+   {
+    "printed": "07071 / 9 36 52-0",
+    "e164": "+497071936520",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "07071 / 9 36 52-29",
+    "e164": "+4970719365229",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@wendrau-haustechnik-de.example"
+  ],
+  "urls": [
+   "www.wendrau-haustechnik.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Lindenstraße 14",
+    "extra": "",
+    "pobox": "",
+    "postcode": "72072",
+    "city": "Tübingen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "WENDRAU HAUSTECHNIK"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "tagline-not-title",
+  "legal-form-line",
+  "slash-in-number",
+  "ext-pair",
+  "name-is-company",
+  "diacritic-lost"
+ ],
+ "notes": "Title is Geschäftsführer, not the tagline. Company = logo line + \"GmbH\" line. The \" / \" inside the area-code notation must not split the number. Fax differs from Tel only in the extension (-0 / -29). Tubingen = OCR of Tübingen.",
+ "o3": {
+  "source": "blind-2/cards/de-01.json",
+  "images": [
+   {
+    "name": "b2-de-01",
+    "font": "Menlo-Regular",
+    "rotation": -0.49,
+    "noise": 0,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 119
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

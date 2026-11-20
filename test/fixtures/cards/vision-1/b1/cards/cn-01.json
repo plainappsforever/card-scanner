@@ -1,0 +1,249 @@
+{
+ "id": "cn-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "zh",
+  "en"
+ ],
+ "card_country": "CN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "zh-Hans",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "深圳市华光电子有限公司",
+     "box": {
+      "x": 0.0710722541168585,
+      "y": 0.05305902375900262,
+      "w": 0.2546677589416504,
+      "h": 0.04214440349446302
+     },
+     "height": 0.04214440349446302,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Shenzhen Huaguang Electronics Co.， Ltd.",
+     "box": {
+      "x": 0.07083332994310944,
+      "y": 0.11538461564038438,
+      "w": 0.2958333396911621,
+      "h": 0.03846153789505535
+     },
+     "height": 0.03846153789505535,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "李明华 Li Minghua",
+     "box": {
+      "x": 0.06599986976160274,
+      "y": 0.2277999177531722,
+      "w": 0.3472426223754883,
+      "h": 0.089159564161853
+     },
+     "height": 0.089159564161853,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "销售总监 Sales Director",
+     "box": {
+      "x": 0.07122092876659465,
+      "y": 0.34266409258193165,
+      "w": 0.20058139801025393,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "手机 Mobile：+86 138 1234 5678",
+     "box": {
+      "x": 0.06976744644289497,
+      "y": 0.4775784755800684,
+      "w": 0.23546510696411133,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f5",
+     "text": "电话 Tel： +86 755 8123 4567",
+     "box": {
+      "x": 0.069767443292425,
+      "y": 0.5179372198218627,
+      "w": 0.20348836898803707,
+      "h": 0.026905829381758672
+     },
+     "height": 0.026905829381758672,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "邮籍 E-mail: li.minghua@hgdz-sz-com-cn.example",
+     "box": {
+      "x": 0.0683139524667855,
+      "y": 0.5627413128799578,
+      "w": 0.258720932006836,
+      "h": 0.029186938260052697
+     },
+     "height": 0.029186938260052697,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "微信 WeChat:liminghua_sz",
+     "box": {
+      "x": 0.06804129819411742,
+      "y": 0.6014516238773666,
+      "w": 0.18958898544311525,
+      "h": 0.03634424099130518
+     },
+     "height": 0.03634424099130518,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f8",
+     "text": "地址：广东省深圳市南山区科技园南路18号",
+     "box": {
+      "x": 0.06666666331472967,
+      "y": 0.6409266414133227,
+      "w": 0.2958333396911621,
+      "h": 0.03861003861003853
+     },
+     "height": 0.03861003861003853,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Add: No.18 Kei South Rd, Nanshan, Shenzhen 518057, China",
+     "box": {
+      "x": 0.0666666728031413,
+      "y": 0.6858974361606455,
+      "w": 0.43333332061767577,
+      "h": 0.03846153789505535
+     },
+     "height": 0.03846153789505535,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Minghua",
+   "middle": "",
+   "family": "Li",
+   "suffix": "",
+   "full": "Li Minghua"
+  },
+  "otherName": "李明华",
+  "company": "Shenzhen Huaguang Electronics Co., Ltd.",
+  "department": null,
+  "title": "Sales Director",
+  "phones": [
+   {
+    "printed": "+86 138 1234 5678",
+    "e164": "+8613812345678",
+    "type": "mobile",
+    "label": "手机 Mobile:",
+    "ext": null
+   },
+   {
+    "printed": "+86 755 8123 4567",
+    "e164": "+8675581234567",
+    "type": "work",
+    "label": "电话 Tel:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "li.minghua@hgdz-sz-com-cn.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "wechat",
+    "value": "liminghua_sz"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "No.18 Keji South Rd",
+    "extra": "Nanshan",
+    "pobox": "",
+    "postcode": "518057",
+    "city": "Shenzhen",
+    "region": "",
+    "country": "China",
+    "countryCode": "CN"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls"
+ ],
+ "accept": {
+  "company": [
+   "深圳市华光电子有限公司"
+  ],
+  "title": [
+   "销售总监",
+   "销售总监 Sales Director"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-scripts-one-line-name",
+  "latin-family-first",
+  "bilingual-labels",
+  "wechat",
+  "address-two-scripts",
+  "postcode-only-in-latin"
+ ],
+ "notes": "Chinese and Latin name on the same line; the Latin \"Li Minghua\" is family-first (N4 would make Li the given name). Labels are bilingual (\"手机 Mobile:\"). Address in both scripts; only the English one has the postcode.",
+ "o3": {
+  "source": "blind-1/cards/cn-01.json",
+  "images": [
+   {
+    "name": "b1-cn-01",
+    "font": "Futura-Medium",
+    "rotation": -0.21,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "zh-Hans",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 428
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

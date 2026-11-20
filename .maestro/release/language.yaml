@@ -1,0 +1,67 @@
+appId: ${APP_ID}
+name: Release language switch - German and Japanese, kept after a restart, back to the device language
+tags:
+  - release
+---
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 90000
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- tapOn:
+    id: choice-de
+- extendedWaitUntil:
+    visible: "Sprache.*"
+    timeout: 10000
+- assertVisible: "Einstellungen"
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible: "Karten"
+    timeout: 60000
+- assertVisible: "Scannen"
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- scrollUntilVisible:
+    element:
+      id: choice-ja
+    centerElement: true
+- tapOn:
+    id: choice-ja
+- extendedWaitUntil:
+    visible: "言語.*"
+    timeout: 10000
+- assertVisible: "設定"
+- takeScreenshot: release-settings-ja
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible: "名刺"
+    timeout: 60000
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- tapOn:
+    id: language-button
+- tapOn:
+    id: choice-system
+- extendedWaitUntil:
+    visible: "Language.*"
+    timeout: 10000
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible: "Scan"
+    timeout: 60000

@@ -1,0 +1,116 @@
+{
+ "id": "de-11",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lennart Wernhagen",
+     "box": {
+      "x": 0.08,
+      "y": 0.42,
+      "w": 0.502,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "Lennart",
+       "box": {
+        "x": 0.08,
+        "y": 0.42,
+        "w": 0.212,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "Wernhagen",
+       "box": {
+        "x": 0.3094,
+        "y": 0.42,
+        "w": 0.2725,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Wernhagen;Lennart;;;\r\nFN:Lennart Wernhagen\r\nORG:Wernhagen Consulting\r\nTITLE:Interim Manager\r\nTEL;TYPE=CELL:+49 157 34567890\r\nEMAIL;TYPE=INTERNET:lennart@wernhagen-consulting-de.example\r\nURL:https://wernhagen-consulting.de\r\nEND:VCARD",
+    "box": {
+     "x": 0.64,
+     "y": 0.2,
+     "w": 0.28,
+     "h": 0.43
+    }
+   }
+  ],
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lennart",
+   "middle": "",
+   "family": "Wernhagen",
+   "suffix": "",
+   "full": "Lennart Wernhagen"
+  },
+  "otherName": null,
+  "company": "Wernhagen Consulting",
+  "department": null,
+  "title": "Interim Manager",
+  "phones": [
+   {
+    "printed": "+49 157 34567890",
+    "e164": "+4915734567890",
+    "type": "mobile",
+    "label": "TYPE=CELL",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "lennart@wernhagen-consulting-de.example"
+  ],
+  "urls": [
+   "https://wernhagen-consulting.de"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "qr-only",
+  "qr-vcard",
+  "url-with-scheme",
+  "name-is-company",
+  "absent-address"
+ ],
+ "notes": "Only the name is printed; everything else is in the vCard QR (input.qr[0].text is the raw payload)."
+}

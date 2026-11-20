@@ -1,0 +1,254 @@
+{
+ "id": "de-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRANDAUER & PARTNER",
+     "box": {
+      "x": 0.06395348756344255,
+      "y": 0.051158299477985114,
+      "w": 0.571220932006836,
+      "h": 0.10617760617760619
+     },
+     "height": 0.10617760617760619,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Steuerbertungsgesellschaft mbB",
+     "box": {
+      "x": 0.06816077033614856,
+      "y": 0.16847619086292132,
+      "w": 0.3375767135620118,
+      "h": 0.046903183101226875
+     },
+     "height": 0.046903183101226875,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dipl.-Kfm. Ingolf Branduer",
+     "box": {
+      "x": 0.0695367387853624,
+      "y": 0.3153519065115944,
+      "w": 0.4350868988037109,
+      "h": 0.0691742105373544
+     },
+     "height": 0.0691742105373544,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Steuerberater • Fachberater für Internationales Steuerrecht",
+     "box": {
+      "x": 0.0696929413891037,
+      "y": 0.42141464893503966,
+      "w": 0.5103214263916016,
+      "h": 0.033161667783287996
+     },
+     "height": 0.033161667783287996,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Kaiserstraße 61 | 60329 Frankfurt am Main",
+     "box": {
+      "x": 0.06666666645168444,
+      "y": 0.5769230771858602,
+      "w": 0.41250000000000003,
+      "h": 0.03890703819893504
+     },
+     "height": 0.03890703819893504,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Telefon +49 69 2710 39-0",
+     "box": {
+      "x": 0.06976744357400008,
+      "y": 0.6389961392981511,
+      "w": 0.2325581359863281,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Durchwahl +49 69 2710 39-14",
+     "box": {
+      "x": 0.07108624084130842,
+      "y": 0.6941395412428508,
+      "w": 0.28082094192504875,
+      "h": 0.033825071622045844
+     },
+     "height": 0.033825071622045844,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Telefax +49 69 2710 39-99",
+     "box": {
+      "x": 0.06976743715949571,
+      "y": 0.7509652504814224,
+      "w": 0.2645348930358886,
+      "h": 0.03378811213960975
+     },
+     "height": 0.03378811213960975,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "i.brandaver@brandaver-partner-de.example",
+     "box": {
+      "x": 0.06666666650347225,
+      "y": 0.8076923079434979,
+      "w": 0.3125,
+      "h": 0.03846153789505535
+     },
+     "height": 0.03846153789505535,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "USt-IdNr. DE 287 456 913",
+     "box": {
+      "x": 0.07267441899081835,
+      "y": 0.8696911193974205,
+      "w": 0.24563953399658206,
+      "h": 0.03613847747272503
+     },
+     "height": 0.03613847747272503,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Kfm.",
+   "given": "Ingolf",
+   "middle": "",
+   "family": "Brandauer",
+   "suffix": "",
+   "full": "Dipl.-Kfm. Ingolf Brandauer"
+  },
+  "otherName": null,
+  "company": "BRANDAUER & PARTNER",
+  "department": null,
+  "title": "Steuerberater",
+  "phones": [
+   {
+    "printed": "+49 69 2710 39-0",
+    "e164": "+49692710390",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   },
+   {
+    "printed": "+49 69 2710 39-14",
+    "e164": "+496927103914",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null
+   },
+   {
+    "printed": "+49 69 2710 39-99",
+    "e164": "+496927103999",
+    "type": "fax",
+    "label": "Telefax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "i.brandauer@brandauer-partner-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Kaiserstraße 61",
+    "extra": "",
+    "pobox": "",
+    "postcode": "60329",
+    "city": "Frankfurt am Main",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "BRANDAUER & PARTNER Steuerberatungsgesellschaft mbB",
+   "Steuerberatungsgesellschaft mbB"
+  ],
+  "title": [
+   "Steuerberater · Fachberater für Internationales Steuerrecht",
+   "Fachberater für Internationales Steuerrecht"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "vat-id",
+  "extension-dash-0",
+  "multiword-city",
+  "pipe-segment",
+  "caps-logo-company",
+  "prefix-degree",
+  "name-is-company"
+ ],
+ "notes": "USt-IdNr. has 9 digits and must not become a phone. -0 is the switchboard, -14 the direct line.",
+ "o3": {
+  "source": "blind-1/cards/de-02.json",
+  "images": [
+   {
+    "name": "b1-de-02",
+    "font": "Futura-Medium",
+    "rotation": 0.4,
+    "noise": 10,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 130
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

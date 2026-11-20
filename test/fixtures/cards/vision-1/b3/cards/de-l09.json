@@ -1,0 +1,318 @@
+{
+ "id": "de-l09",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "WEIDMANN OKAFOR",
+     "box": {
+      "x": 0.06506068078523558,
+      "y": 0.05492990907992856,
+      "w": 0.42365901947021484,
+      "h": 0.060695918830665385
+     },
+     "height": 0.060695918830665385,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Partner",
+     "box": {
+      "x": 0.5435659285810054,
+      "y": 0.07825835441951379,
+      "w": 0.05240302562713628,
+      "h": 0.022855488029686177
+     },
+     "height": 0.022855488029686177,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Partnerschaft mbB",
+     "box": {
+      "x": 0.06510718075152834,
+      "y": 0.14043367740853507,
+      "w": 0.1517796516418457,
+      "h": 0.031950957986839
+     },
+     "height": 0.031950957986839,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Dr. Friederike Weidmann, LL.M.",
+     "box": {
+      "x": 0.5448213184344565,
+      "y": 0.12066498009971238,
+      "w": 0.2155597496032714,
+      "h": 0.03617016044822896
+     },
+     "height": 0.03617016044822896,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Chukwuemeka Okafor",
+     "box": {
+      "x": 0.5448743500803376,
+      "y": 0.1715794327398883,
+      "w": 0.1384376335144043,
+      "h": 0.02569328864108633
+     },
+     "height": 0.02569328864108633,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Rechtsanwälte • Steuerberater",
+     "box": {
+      "x": 0.06522535797505505,
+      "y": 0.1930158737388542,
+      "w": 0.21109973907470705,
+      "h": 0.028893195524178905
+     },
+     "height": 0.028893195524178905,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Dr. Benedikt Sauer",
+     "box": {
+      "x": 0.5447915830077917,
+      "y": 0.21713962766171035,
+      "w": 0.12118269920349123,
+      "h": 0.028193783115696314
+     },
+     "height": 0.028193783115696314,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Ines Hartl, Steuerberaterin",
+     "box": {
+      "x": 0.5449201380199722,
+      "y": 0.26427056192052656,
+      "w": 0.1703602790832519,
+      "h": 0.030778534163839577
+     },
+     "height": 0.030778534163839577,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Dr. Friederike Weidmann, LL.M. (Edinburgh)",
+     "box": {
+      "x": 0.06804997973234382,
+      "y": 0.2873535541186836,
+      "w": 0.4032284545898437,
+      "h": 0.05231054777344213
+     },
+     "height": 0.05231054777344213,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Rechtsanwältin • Fachanwältin für Arbeitsrecht",
+     "box": {
+      "x": 0.06669065518179096,
+      "y": 0.3523514993141553,
+      "w": 0.2910333251953125,
+      "h": 0.030307887603877592
+     },
+     "height": 0.030307887603877592,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "Neuer Wall 54",
+     "box": {
+      "x": 0.5479651170553163,
+      "y": 0.3923766818298853,
+      "w": 0.10174418449401856,
+      "h": 0.02466367662643365
+     },
+     "height": 0.02466367662643365,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f11",
+     "text": "Tel. +49 40 3508 117-0 • Durchwahl -23",
+     "box": {
+      "x": 0.06669154206129022,
+      "y": 0.43654462723105836,
+      "w": 0.2693730354309082,
+      "h": 0.03529033329496045
+     },
+     "height": 0.03529033329496045,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f12",
+     "text": "20354 Hamburg",
+     "box": {
+      "x": 0.5477969391569331,
+      "y": 0.44423998397197395,
+      "w": 0.11231326103210448,
+      "h": 0.026839462486473287
+     },
+     "height": 0.026839462486473287,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f13",
+     "text": "f.weidmann@weidmann-okafor-de.example",
+     "box": {
+      "x": 0.0680963915412092,
+      "y": 0.4901360064847091,
+      "w": 0.21118045806884764,
+      "h": 0.02996742034971034
+     },
+     "height": 0.02996742034971034,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f14",
+     "text": "PR 1187 AG Hamburg",
+     "box": {
+      "x": 0.5492732677924831,
+      "y": 0.5315869836610377,
+      "w": 0.12677730560302725,
+      "h": 0.024662993589423254
+     },
+     "height": 0.024662993589423254,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Friederike",
+   "middle": "",
+   "family": "Weidmann",
+   "suffix": "LL.M. (Edinburgh)",
+   "full": "Dr. Friederike Weidmann, LL.M. (Edinburgh)"
+  },
+  "otherName": null,
+  "company": "WEIDMANN OKAFOR Partnerschaft mbB",
+  "department": null,
+  "title": "Rechtsanwältin · Fachanwältin für Arbeitsrecht",
+  "phones": [
+   {
+    "printed": "+49 40 3508 117-0",
+    "e164": "+494035081170",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-23",
+    "e164": "+4940350811723",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   }
+  ],
+  "emails": [
+   "f.weidmann@weidmann-okafor-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Neuer Wall 54",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20354",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Rechtsanwältin",
+   "Fachanwältin für Arbeitsrecht"
+  ],
+  "name.suffix": [
+   "LL.M."
+  ],
+  "company": [
+   "WEIDMANN OKAFOR"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "law-firm",
+  "two-column",
+  "partner-list",
+  "credential-suffix",
+  "shared-base",
+  "suffix-only-number",
+  "registry-number",
+  "street-without-keyword",
+  "family-name-in-company",
+  "nigerian-name"
+ ],
+ "notes": "Landscape card read column-wise: left column holder, right column partner list then the address. The holder appears again in the partner list; the other partners are leftovers. \"Neuer Wall\" has no street keyword. Partnerschaftsregister \"PR 1187\" is not a phone. Durchwahl -23 replaces the -0.",
+ "o3": {
+  "source": "blind-3/cards/de-l09.json",
+  "images": [
+   {
+    "name": "b3-de-l09",
+    "font": "Baskerville",
+    "rotation": 0.9,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 104
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

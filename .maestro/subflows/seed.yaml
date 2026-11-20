@@ -1,0 +1,23 @@
+appId: ${APP_ID}
+---
+# Start state for a flow: the dev seed route (src/app/debug/seed.tsx) clears the library (soft delete) and runs the
+# REAL capture pipeline + OCR on bundled O3 images (env SET, optional QUERY = extra "&key=value" parameters).
+- runFlow: launch.yaml
+- openLink: cardkeep-dev://debug/seed?set=${SET}${QUERY || ''}
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          text: Open
+          optional: true
+- extendedWaitUntil:
+    visible:
+      id: seed-done
+    timeout: 180000
+- tapOn:
+    id: seed-home
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000

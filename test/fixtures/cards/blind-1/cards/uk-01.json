@@ -1,0 +1,636 @@
+{
+ "id": "uk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HALLWORTH PRYCE",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2943,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "HALLWORTH",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "PRYCE",
+       "box": {
+        "x": 0.2633,
+        "y": 0.07,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Solicitors",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.1178,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Solicitors",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.1178,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Siobhán O'Dwyer-Price",
+     "box": {
+      "x": 0.07,
+      "y": 0.28,
+      "w": 0.4154,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Siobhán",
+       "box": {
+        "x": 0.07,
+        "y": 0.28,
+        "w": 0.1413,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "O'Dwyer-Price",
+       "box": {
+        "x": 0.223,
+        "y": 0.28,
+        "w": 0.2624,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Senior Associate",
+     "box": {
+      "x": 0.07,
+      "y": 0.367,
+      "w": 0.2201,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Senior",
+       "box": {
+        "x": 0.07,
+        "y": 0.367,
+        "w": 0.0848,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Associate",
+       "box": {
+        "x": 0.1629,
+        "y": 0.367,
+        "w": 0.1272,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Commercial Property",
+     "box": {
+      "x": 0.07,
+      "y": 0.4279,
+      "w": 0.2625,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Commercial",
+       "box": {
+        "x": 0.07,
+        "y": 0.4279,
+        "w": 0.1413,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Property",
+       "box": {
+        "x": 0.2195,
+        "y": 0.4279,
+        "w": 0.1131,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "1 Fetter Lane, London EC4A 1BR",
+     "box": {
+      "x": 0.07,
+      "y": 0.58,
+      "w": 0.3284,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "1",
+       "box": {
+        "x": 0.07,
+        "y": 0.58,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Fetter",
+       "box": {
+        "x": 0.0886,
+        "y": 0.58,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Lane,",
+       "box": {
+        "x": 0.166,
+        "y": 0.58,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "London",
+       "box": {
+        "x": 0.2317,
+        "y": 0.58,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "EC4A",
+       "box": {
+        "x": 0.3092,
+        "y": 0.58,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "1BR",
+       "box": {
+        "x": 0.3631,
+        "y": 0.58,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "T +44 (0)20 7946 0381  M +44 (0)7700 900 412",
+     "box": {
+      "x": 0.07,
+      "y": 0.6307,
+      "w": 0.4683,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.6307,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.0886,
+        "y": 0.6307,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "(0)20",
+       "box": {
+        "x": 0.1307,
+        "y": 0.6307,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "7946",
+       "box": {
+        "x": 0.1964,
+        "y": 0.6307,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0381",
+       "box": {
+        "x": 0.2503,
+        "y": 0.6307,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "M",
+       "box": {
+        "x": 0.311,
+        "y": 0.6307,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "+44",
+       "box": {
+        "x": 0.3295,
+        "y": 0.6307,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "(0)7700",
+       "box": {
+        "x": 0.3717,
+        "y": 0.6307,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "900",
+       "box": {
+        "x": 0.4609,
+        "y": 0.6307,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "412",
+       "box": {
+        "x": 0.503,
+        "y": 0.6307,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "DX 123 London/Chancery Lane",
+     "box": {
+      "x": 0.07,
+      "y": 0.6815,
+      "w": 0.303,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "DX",
+       "box": {
+        "x": 0.07,
+        "y": 0.6815,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.1003,
+        "y": 0.6815,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "London/Chancery",
+       "box": {
+        "x": 0.1425,
+        "y": 0.6815,
+        "w": 0.1766,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Lane",
+       "box": {
+        "x": 0.3259,
+        "y": 0.6815,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "siobhan.odwyer-price@hallworthpryce-co-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7322,
+      "w": 0.4828,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "siobhan.odwyer-price@hallworthpryce-co-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7322,
+        "w": 0.4828,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "Hallworth Pryce LLP is authorised and regulated by the Solicitors Regulation Authority (SRA No. 612345).",
+     "box": {
+      "x": 0.07,
+      "y": 0.9,
+      "w": 0.726,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Hallworth",
+       "box": {
+        "x": 0.07,
+        "y": 0.9,
+        "w": 0.0666,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Pryce",
+       "box": {
+        "x": 0.1409,
+        "y": 0.9,
+        "w": 0.037,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "LLP",
+       "box": {
+        "x": 0.1822,
+        "y": 0.9,
+        "w": 0.0222,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "is",
+       "box": {
+        "x": 0.2087,
+        "y": 0.9,
+        "w": 0.0148,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "authorised",
+       "box": {
+        "x": 0.2277,
+        "y": 0.9,
+        "w": 0.074,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "and",
+       "box": {
+        "x": 0.306,
+        "y": 0.9,
+        "w": 0.0222,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "regulated",
+       "box": {
+        "x": 0.3325,
+        "y": 0.9,
+        "w": 0.0666,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "by",
+       "box": {
+        "x": 0.4034,
+        "y": 0.9,
+        "w": 0.0148,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.4225,
+        "y": 0.9,
+        "w": 0.0222,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Solicitors",
+       "box": {
+        "x": 0.4489,
+        "y": 0.9,
+        "w": 0.074,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Regulation",
+       "box": {
+        "x": 0.5272,
+        "y": 0.9,
+        "w": 0.074,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Authority",
+       "box": {
+        "x": 0.6055,
+        "y": 0.9,
+        "w": 0.0666,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "(SRA",
+       "box": {
+        "x": 0.6764,
+        "y": 0.9,
+        "w": 0.0296,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.7103,
+        "y": 0.9,
+        "w": 0.0222,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "612345).",
+       "box": {
+        "x": 0.7368,
+        "y": 0.9,
+        "w": 0.0592,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "GB",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Siobhán",
+   "middle": "",
+   "family": "O'Dwyer-Price",
+   "suffix": "",
+   "full": "Siobhán O'Dwyer-Price"
+  },
+  "otherName": null,
+  "company": "Hallworth Pryce LLP",
+  "department": "Commercial Property",
+  "title": "Senior Associate",
+  "phones": [
+   {
+    "printed": "+44 (0)20 7946 0381",
+    "e164": "+442079460381",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+44 (0)7700 900 412",
+    "e164": "+447700900412",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "siobhan.odwyer-price@hallworthpryce-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "1 Fetter Lane",
+    "extra": "",
+    "pobox": "",
+    "postcode": "EC4A 1BR",
+    "city": "London",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "HALLWORTH PRYCE"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "uk-postcode-after-city",
+  "dx-number",
+  "regulator-number-fineprint",
+  "fada-and-apostrophe",
+  "two-phones-one-line",
+  "trunk-0-in-parens",
+  "company-only-in-fineprint"
+ ],
+ "notes": "Legal name appears only in the regulatory fine print; SRA No. (6 digits) and DX 123 are not phones. Both phones on one line separated by two spaces."
+}

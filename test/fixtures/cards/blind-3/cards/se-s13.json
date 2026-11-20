@@ -1,0 +1,286 @@
+{
+ "id": "se-s13",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "SE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Fjallmo",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2243,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "Fjallmo",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2243,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Oskar",
+     "box": {
+      "x": 0.07,
+      "y": 0.23,
+      "w": 0.1246,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Oskar",
+       "box": {
+        "x": 0.07,
+        "y": 0.23,
+        "w": 0.1246,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "CTO",
+     "box": {
+      "x": 0.07,
+      "y": 0.32,
+      "w": 0.0427,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "CTO",
+       "box": {
+        "x": 0.07,
+        "y": 0.32,
+        "w": 0.0427,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "+46 70 482 19 63",
+     "box": {
+      "x": 0.07,
+      "y": 0.41,
+      "w": 0.2278,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "+46",
+       "box": {
+        "x": 0.07,
+        "y": 0.41,
+        "w": 0.0427,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "70",
+       "box": {
+        "x": 0.127,
+        "y": 0.41,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "482",
+       "box": {
+        "x": 0.1697,
+        "y": 0.41,
+        "w": 0.0427,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "19",
+       "box": {
+        "x": 0.2266,
+        "y": 0.41,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "63",
+       "box": {
+        "x": 0.2693,
+        "y": 0.41,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "oskar@fjallmo-se.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.47,
+      "w": 0.1994,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "oskar@fjallmo-se.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.47,
+        "w": 0.1994,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "github.com/oskarfjall",
+     "box": {
+      "x": 0.07,
+      "y": 0.525,
+      "w": 0.2392,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "github.com/oskarfjall",
+       "box": {
+        "x": 0.07,
+        "y": 0.525,
+        "w": 0.2392,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "x.com/oskar_builds",
+     "box": {
+      "x": 0.07,
+      "y": 0.577,
+      "w": 0.2051,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "x.com/oskar_builds",
+       "box": {
+        "x": 0.07,
+        "y": 0.577,
+        "w": 0.2051,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Oskar",
+   "middle": "",
+   "family": "",
+   "suffix": "",
+   "full": "Oskar"
+  },
+  "otherName": null,
+  "company": "Fjällmo",
+  "department": null,
+  "title": "CTO",
+  "phones": [
+   {
+    "printed": "+46 70 482 19 63",
+    "e164": "+46704821963",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "oskar@fjallmo-se.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "github",
+    "value": "github.com/oskarfjall"
+   },
+   {
+    "service": "x",
+    "value": "x.com/oskar_builds"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "company",
+   "printed": "Fjällmo",
+   "ocr": "Fjallmo",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "startup",
+  "first-name-only",
+  "diacritic-lost",
+  "foreign-region",
+  "no-address-foreign",
+  "unlabelled-mobile",
+  "company-equals-domain-stem",
+  "absent-address"
+ ],
+ "notes": "Swedish startup, only a first name. No address, so the +46 prefix is the only country hint (region DE). Unlabelled +46 70 = mobile. Logo lost its umlaut; it now equals the e-mail domain stem."
+}

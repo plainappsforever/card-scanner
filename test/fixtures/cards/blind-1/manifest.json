@@ -1,0 +1,1485 @@
+[
+ {
+  "id": "de-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "name-is-company",
+   "slogan-with-year",
+   "middle-dot-segments",
+   "multi-phone",
+   "address-one-line"
+  ]
+ },
+ {
+  "id": "de-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "vat-id",
+   "extension-dash-0",
+   "multiword-city",
+   "pipe-segment",
+   "caps-logo-company",
+   "prefix-degree",
+   "name-is-company"
+  ]
+ },
+ {
+  "id": "de-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "slash-inside-phone",
+   "opening-hours",
+   "street-without-keyword",
+   "ocr-0O",
+   "absent-email",
+   "no-legal-form",
+   "foreign-family-name"
+  ]
+ },
+ {
+  "id": "de-04",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "portrait",
+  "traps": [
+   "portrait",
+   "logo-split-across-lines",
+   "company-before-name",
+   "name-is-company",
+   "D-postcode",
+   "fon-label",
+   "handy-label",
+   "slash-inside-phone",
+   "slogan",
+   "ocr-1l"
+  ]
+ },
+ {
+  "id": "de-05",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "ra-prefix",
+   "postfach-digits-look-like-phone",
+   "two-addresses",
+   "name-is-company",
+   "two-title-lines",
+   "parens-area-code"
+  ]
+ },
+ {
+  "id": "de-06",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "floor",
+   "switchboard-vs-direct",
+   "title-contains-department-word",
+   "bare-domain",
+   "ocr-dropped-space",
+   "address-one-line"
+  ]
+ },
+ {
+  "id": "de-07",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "no-company",
+   "domain-equals-name",
+   "unlabelled-mobile",
+   "slash-inside-phone",
+   "labelled-handle",
+   "absent-address",
+   "absent-company"
+  ]
+ },
+ {
+  "id": "de-08",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "pl"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "glued-label",
+   "ocr-0O",
+   "ocr-rnm",
+   "ocr-1l",
+   "inh-prefix",
+   "foreign-name",
+   "e.K."
+  ]
+ },
+ {
+  "id": "de-09-front",
+  "group": "de-09",
+  "side": "front",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "second-language-back",
+   "stray-symbols-logo",
+   "company-in-address-line",
+   "same-phone-printed-differently",
+   "prefix-degree",
+   "ocr-1l",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "de-09-back",
+  "group": "de-09",
+  "side": "back",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "second-language-back",
+   "stray-symbols-logo",
+   "company-in-address-line",
+   "same-phone-printed-differently",
+   "prefix-degree",
+   "ocr-1l",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "de-09-both",
+  "group": "de-09",
+  "side": "both",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "second-language-back",
+   "stray-symbols-logo",
+   "company-in-address-line",
+   "same-phone-printed-differently",
+   "prefix-degree",
+   "ocr-1l",
+   "two-sided",
+   "combined"
+  ]
+ },
+ {
+  "id": "de-10",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "0049-prefix",
+   "extension-only-number",
+   "postfach-only",
+   "freephone",
+   "ocr-rnm",
+   "digits-in-label",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "de-11",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "qr-only",
+   "qr-vcard",
+   "url-with-scheme",
+   "name-is-company",
+   "absent-address"
+  ]
+ },
+ {
+  "id": "de-12-front",
+  "group": "de-12",
+  "side": "front",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "name-split-lines",
+   "hyphenated-title-split",
+   "ug-legal-form",
+   "qr-url",
+   "slogan-only-back",
+   "absent-name-on-back",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "de-12-back",
+  "group": "de-12",
+  "side": "back",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "name-split-lines",
+   "hyphenated-title-split",
+   "ug-legal-form",
+   "qr-url",
+   "slogan-only-back",
+   "absent-name-on-back",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "de-12-both",
+  "group": "de-12",
+  "side": "both",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "name-split-lines",
+   "hyphenated-title-split",
+   "ug-legal-form",
+   "qr-url",
+   "slogan-only-back",
+   "absent-name-on-back",
+   "two-sided",
+   "combined"
+  ]
+ },
+ {
+  "id": "de-13",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "tr"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "logo-word",
+   "company-before-name",
+   "fax-as-extension-suffix",
+   "double-space-segments",
+   "dotless-i",
+   "absent-title",
+   "ocr-0O"
+  ]
+ },
+ {
+  "id": "de-14",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "sv"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "ocr-dropped-space",
+   "glued-label",
+   "caps-logo-split",
+   "email-confirms-name",
+   "english-title"
+  ]
+ },
+ {
+  "id": "de-15",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "absent-email",
+   "absent-url",
+   "opening-hours",
+   "unusual-phone-label",
+   "slash-inside-phone"
+  ]
+ },
+ {
+  "id": "de-16",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "title-inside-name-line",
+   "nobility-particle",
+   "hyphenated-given",
+   "office-email",
+   "ocr-0O",
+   "absent-company"
+  ]
+ },
+ {
+  "id": "de-17",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "minimal-card",
+   "spaced-area-code",
+   "unlabelled-landline",
+   "absent-company",
+   "absent-email",
+   "absent-address",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "de-18",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "logo-company-only",
+   "name-after-label",
+   "icon-glyphs-as-text",
+   "at-icon-before-url",
+   "year-slogan",
+   "opening-hours",
+   "absent-email"
+  ]
+ },
+ {
+  "id": "de-19",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "pl"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "iban",
+   "freemail-domain",
+   "tel-fax-combined-label",
+   "spaced-at",
+   "name-is-company",
+   "foreign-name",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "de-20",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "heavy-ocr-damage",
+   "ocr-0O",
+   "ocr-1l",
+   "digit-in-email",
+   "diacritic-lost",
+   "name-is-company"
+  ]
+ },
+ {
+  "id": "de-21",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "portrait",
+  "traps": [
+   "portrait",
+   "letter-spaced-logo",
+   "name-is-company",
+   "company-equals-domain-stem",
+   "unlabelled-landline",
+   "absent-social"
+  ]
+ },
+ {
+  "id": "de-22",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "long-prefix-chain",
+   "street-contains-prof",
+   "email-split-across-lines",
+   "real-hyphen-at-line-end",
+   "department-line",
+   "foreign-name"
+  ]
+ },
+ {
+  "id": "de-23",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "two-people",
+   "plural-title",
+   "title-word-in-company",
+   "allee-street"
+  ]
+ },
+ {
+  "id": "at-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "AT",
+  "layout": "landscape",
+  "traps": [
+   "ocr-5S",
+   "at-postcode-4digit",
+   "door-number-slashes",
+   "firmenbuch-and-uid",
+   "mag-prefix",
+   "name-is-company",
+   "company-split-lines"
+  ]
+ },
+ {
+  "id": "ch-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "CH",
+  "layout": "landscape",
+  "traps": [
+   "swiss-ss",
+   "CH-prefix-postcode",
+   "che-vat-dotted",
+   "unlabelled-phones",
+   "degree-on-title-line",
+   "caps-company",
+   "name-is-company"
+  ]
+ },
+ {
+  "id": "mx-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "lowercase-logo",
+   "english-slogan",
+   "company-in-address-line",
+   "io-tld",
+   "first-name-email",
+   "linkedin"
+  ]
+ },
+ {
+  "id": "mx-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "en",
+   "fi"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "bilingual-lines-with-slash",
+   "trunk-0-in-parens",
+   "transliterated-email",
+   "leading-zero-postcode",
+   "no-legal-form",
+   "person-name-street",
+   "prefix-chain"
+  ]
+ },
+ {
+  "id": "mx-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "merged-columns",
+   "two-emails",
+   "xing",
+   "logo-with-asterisk",
+   "absent-url",
+   "street-word-guertel",
+   "hyphenated-given"
+  ]
+ },
+ {
+  "id": "mx-04",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "degree-line-below-name",
+   "keyword-slogan",
+   "city-only-not-address",
+   "dev-tld",
+   "github",
+   "trunk-0-paren-and-slash",
+   "absent-company",
+   "absent-address"
+  ]
+ },
+ {
+  "id": "mx-05",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de",
+   "en"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "parent-company-line",
+   "two-legal-forms",
+   "url-with-path",
+   "street-with-particles",
+   "english-labels-german-card"
+  ]
+ },
+ {
+  "id": "de-24",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "landscape",
+  "traps": [
+   "qr-only",
+   "mecard-qr",
+   "absent-printed-name",
+   "logo-word",
+   "slogan",
+   "mecard-name-comma",
+   "mecard-adr"
+  ]
+ },
+ {
+  "id": "uk-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "GB",
+  "layout": "landscape",
+  "traps": [
+   "uk-postcode-after-city",
+   "dx-number",
+   "regulator-number-fineprint",
+   "fada-and-apostrophe",
+   "two-phones-one-line",
+   "trunk-0-in-parens",
+   "company-only-in-fineprint"
+  ]
+ },
+ {
+  "id": "uk-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "GB",
+  "layout": "landscape",
+  "traps": [
+   "gas-safe-number",
+   "company-number-8digits",
+   "freemail",
+   "unit-line",
+   "initial-in-company",
+   "ocr-1l",
+   "ocr-0O",
+   "absent-title"
+  ]
+ },
+ {
+  "id": "uk-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "GB",
+  "layout": "landscape",
+  "traps": [
+   "dr-without-dot",
+   "mac-capitalisation",
+   "floor-before-street",
+   "scot-tld",
+   "postnominal-line",
+   "region-mismatch"
+  ]
+ },
+ {
+  "id": "us-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "US",
+  "layout": "landscape",
+  "traps": [
+   "single-letter-lowercase-labels",
+   "extension-x",
+   "dotted-us-phone",
+   "comma-in-title",
+   "suite",
+   "logo-split",
+   "ocr-Il",
+   "region-mismatch",
+   "middle-initial",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "us-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "US",
+  "layout": "landscape",
+  "traps": [
+   "nickname-quotes",
+   "registered-sign",
+   "license-number",
+   "highway-number-in-street",
+   "one-line-us-address",
+   "lone-handle",
+   "ocr-1l",
+   "nickname-email"
+  ]
+ },
+ {
+  "id": "us-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "US",
+  "layout": "portrait",
+  "traps": [
+   "portrait",
+   "name-split-lines",
+   "absent-phone",
+   "absent-address",
+   "mecard-qr",
+   "x-social",
+   "ai-tld",
+   "logo-company-equals-domain"
+  ]
+ },
+ {
+  "id": "us-04",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "US",
+  "layout": "landscape",
+  "traps": [
+   "multiple-suffixes",
+   "pc-legal-form",
+   "flast-email",
+   "directional-NE",
+   "name-is-company",
+   "comma-before-suffix"
+  ]
+ },
+ {
+  "id": "us-05",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en",
+   "es"
+  ],
+  "card_country": "US",
+  "layout": "landscape",
+  "traps": [
+   "vanity-number",
+   "license-number",
+   "year-slogan",
+   "absent-address",
+   "name-is-company",
+   "ocr-0O",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "fr-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "fr"
+  ],
+  "card_country": "FR",
+  "layout": "landscape",
+  "traps": [
+   "all-caps-family",
+   "french-colon-spacing",
+   "siret-14digits",
+   "tva",
+   "comma-after-house-number",
+   "initials-email",
+   "name-is-company"
+  ]
+ },
+ {
+  "id": "fr-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "fr"
+  ],
+  "card_country": "FR",
+  "layout": "landscape",
+  "traps": [
+   "maitre-prefix",
+   "quai-street",
+   "en-dash-between-phones",
+   "toque-number",
+   "absent-company",
+   "caps-hyphenated-family",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "fr-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "fr"
+  ],
+  "card_country": "FR",
+  "layout": "landscape",
+  "traps": [
+   "bp-pobox",
+   "cedex",
+   "ocr-0O",
+   "partial-family-email",
+   "domain-stem-abbreviated"
+  ]
+ },
+ {
+  "id": "it-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "it"
+  ],
+  "card_country": "IT",
+  "layout": "landscape",
+  "traps": [
+   "piva-11digits",
+   "province-in-parens",
+   "italian-leading-zero-kept",
+   "apostrophe-street",
+   "double-prefix",
+   "name-is-company",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "it-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "it"
+  ],
+  "card_country": "IT",
+  "layout": "landscape",
+  "traps": [
+   "two-emails",
+   "pec-second-email",
+   "prefix-only-no-title",
+   "piazza-street",
+   "single-letter-labels",
+   "en-dash-separators",
+   "caps-family",
+   "region-mismatch",
+   "absent-title",
+   "glued-label"
+  ]
+ },
+ {
+  "id": "it-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "it"
+  ],
+  "card_country": "IT",
+  "layout": "portrait",
+  "traps": [
+   "portrait",
+   "name-after-di",
+   "given-name-in-company",
+   "company-split-lines",
+   "absent-email",
+   "closed-day",
+   "year-slogan",
+   "absent-title"
+  ]
+ },
+ {
+  "id": "es-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "es"
+  ],
+  "card_country": "ES",
+  "layout": "landscape",
+  "traps": [
+   "compound-given",
+   "two-surnames",
+   "paseo-street",
+   "planta-floor",
+   "cif",
+   "glued-label",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "es-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "ca",
+   "es"
+  ],
+  "card_country": "ES",
+  "layout": "landscape",
+  "traps": [
+   "ocr-5S",
+   "catalan-i-surname",
+   "C/-street-abbrev",
+   "floor-door",
+   "cat-tld",
+   "absent-company",
+   "leading-zero-postcode"
+  ]
+ },
+ {
+  "id": "mex-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "es"
+  ],
+  "card_country": "MX",
+  "layout": "landscape",
+  "traps": [
+   "lic-prefix",
+   "sa-de-cv",
+   "colonia-line",
+   "street-named-after-person",
+   "region-abbrev",
+   "two-surnames",
+   "person-name-in-street"
+  ]
+ },
+ {
+  "id": "pl-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "pl"
+  ],
+  "card_country": "PL",
+  "layout": "landscape",
+  "traps": [
+   "nip-dashed-like-phone",
+   "krs",
+   "lowercase-prefix",
+   "sp-z-oo",
+   "ul-prefix",
+   "kom-label",
+   "diacritic-lost",
+   "company-split-lines"
+  ]
+ },
+ {
+  "id": "pl-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "pl"
+  ],
+  "card_country": "PL",
+  "layout": "landscape",
+  "traps": [
+   "absent-company",
+   "freemail",
+   "osiedle-street",
+   "long-title",
+   "unlabelled-mobile",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "tr-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "tr"
+  ],
+  "card_country": "TR",
+  "layout": "landscape",
+  "traps": [
+   "slash-district-city",
+   "no-colon-numbers",
+   "kat-floor",
+   "av-prefix",
+   "av.tr-domain",
+   "dotted-capital-I",
+   "name-is-company",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "tr-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "tr"
+  ],
+  "card_country": "TR",
+  "layout": "landscape",
+  "traps": [
+   "compound-given",
+   "name-is-company",
+   "ltd-sti",
+   "slash-no-space-city",
+   "faks-label",
+   "gsm-label",
+   "ordinal-in-street",
+   "ocr-1l",
+   "region-mismatch"
+  ]
+ },
+ {
+  "id": "nl-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "nl"
+  ],
+  "card_country": "NL",
+  "layout": "landscape",
+  "traps": [
+   "nl-postcode-letters",
+   "postbus",
+   "lowercase-tussenvoegsel",
+   "kvk-btw",
+   "name-is-company",
+   "ir-prefix",
+   "ocr-1l",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "br-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "pt"
+  ],
+  "card_country": "BR",
+  "layout": "landscape",
+  "traps": [
+   "compound-given",
+   "cnpj",
+   "hyphen-separated-address",
+   "name-is-company",
+   "ordinal-andar",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "in-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "IN",
+  "layout": "landscape",
+  "traps": [
+   "pin-with-space",
+   "iso-year-slogan",
+   "gstin",
+   "title-dash-department",
+   "address-across-three-lines",
+   "middle-name",
+   "two-phones-one-line"
+  ]
+ },
+ {
+  "id": "id-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "id"
+  ],
+  "card_country": "ID",
+  "layout": "landscape",
+  "traps": [
+   "academic-suffixes-with-commas",
+   "pt-tbk",
+   "kav-number-range",
+   "building-floor-line",
+   "hp-label",
+   "ocr-0O",
+   "region-mismatch"
+  ]
+ },
+ {
+  "id": "vn-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "vi"
+  ],
+  "card_country": "VN",
+  "layout": "landscape",
+  "traps": [
+   "family-first",
+   "tnhh",
+   "no-postcode",
+   "heavy-diacritics",
+   "duong-street",
+   "region-mismatch"
+  ]
+ },
+ {
+  "id": "ae-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en",
+   "ar"
+  ],
+  "card_country": "AE",
+  "layout": "landscape",
+  "traps": [
+   "rtl-arabic-column",
+   "al-prefix-family",
+   "pobox-6digits",
+   "no-postcode",
+   "two-column-reading-order",
+   "other-name-script"
+  ]
+ },
+ {
+  "id": "ru-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "ru"
+  ],
+  "card_country": "RU",
+  "layout": "landscape",
+  "traps": [
+   "cyrillic",
+   "family-first-with-patronymic",
+   "guillemets-company",
+   "postcode-first",
+   "inn-10digits",
+   "initial-email"
+  ]
+ },
+ {
+  "id": "jp-01-front",
+  "group": "jp-01",
+  "side": "front",
+  "card_langs": [
+   "ja",
+   "en"
+  ],
+  "card_country": "JP",
+  "layout": "landscape",
+  "traps": [
+   "cjk-name-with-space",
+   "postal-mark",
+   "department-and-title-one-line",
+   "other-name-n7",
+   "address-two-scripts",
+   "comma-in-title",
+   "legal-form-prefix",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "jp-01-back",
+  "group": "jp-01",
+  "side": "back",
+  "card_langs": [
+   "ja",
+   "en"
+  ],
+  "card_country": "JP",
+  "layout": "landscape",
+  "traps": [
+   "cjk-name-with-space",
+   "postal-mark",
+   "department-and-title-one-line",
+   "other-name-n7",
+   "address-two-scripts",
+   "comma-in-title",
+   "legal-form-prefix",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "jp-01-both",
+  "group": "jp-01",
+  "side": "both",
+  "card_langs": [
+   "ja",
+   "en"
+  ],
+  "card_country": "JP",
+  "layout": "landscape",
+  "traps": [
+   "cjk-name-with-space",
+   "postal-mark",
+   "department-and-title-one-line",
+   "other-name-n7",
+   "address-two-scripts",
+   "comma-in-title",
+   "legal-form-prefix",
+   "two-sided",
+   "combined"
+  ]
+ },
+ {
+  "id": "jp-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "ja"
+  ],
+  "card_country": "JP",
+  "layout": "landscape",
+  "traps": [
+   "jp-name-no-space",
+   "two-titles-one-line",
+   "legal-form-prefix-with-space",
+   "given-name-email",
+   "name-is-company",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "jp-03",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "ja",
+   "en"
+  ],
+  "card_country": "JP",
+  "layout": "landscape",
+  "traps": [
+   "furigana-line",
+   "ideographic-space",
+   "three-name-lines",
+   "company-in-two-scripts",
+   "other-name-n7",
+   "name-is-company",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "cn-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "zh",
+   "en"
+  ],
+  "card_country": "CN",
+  "layout": "landscape",
+  "traps": [
+   "two-scripts-one-line-name",
+   "latin-family-first",
+   "bilingual-labels",
+   "wechat",
+   "address-two-scripts",
+   "postcode-only-in-latin"
+  ]
+ },
+ {
+  "id": "cn-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "zh"
+  ],
+  "card_country": "CN",
+  "layout": "landscape",
+  "traps": [
+   "compound-surname",
+   "given-name-equals-street-word",
+   "fullwidth-colon-labels",
+   "postcode-after-address",
+   "surname-email",
+   "absent-url"
+  ]
+ },
+ {
+  "id": "hk-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en",
+   "zh"
+  ],
+  "card_country": "HK",
+  "layout": "landscape",
+  "traps": [
+   "hk-no-postcode",
+   "english-plus-chinese-given",
+   "caps-family-in-middle",
+   "floor-12/F",
+   "unit-line",
+   "other-name-script",
+   "two-phones-one-line"
+  ]
+ },
+ {
+  "id": "kr-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "ko"
+  ],
+  "card_country": "KR",
+  "layout": "landscape",
+  "traps": [
+   "hangul-no-space-name",
+   "(주)-prefix",
+   "postcode-in-parens-at-end",
+   "department-and-title-one-line",
+   "given-family-email-order",
+   "two-phones-one-line"
+  ]
+ },
+ {
+  "id": "kr-02-front",
+  "group": "kr-02",
+  "side": "front",
+  "card_langs": [
+   "en",
+   "ko"
+  ],
+  "card_country": "KR",
+  "layout": "landscape",
+  "traps": [
+   "latin-family-first",
+   "comma-phd-suffix",
+   "korean-back",
+   "korean-legal-form-suffix",
+   "address-two-scripts",
+   "other-name-n7",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "kr-02-back",
+  "group": "kr-02",
+  "side": "back",
+  "card_langs": [
+   "en",
+   "ko"
+  ],
+  "card_country": "KR",
+  "layout": "landscape",
+  "traps": [
+   "latin-family-first",
+   "comma-phd-suffix",
+   "korean-back",
+   "korean-legal-form-suffix",
+   "address-two-scripts",
+   "other-name-n7",
+   "two-sided"
+  ]
+ },
+ {
+  "id": "kr-02-both",
+  "group": "kr-02",
+  "side": "both",
+  "card_langs": [
+   "en",
+   "ko"
+  ],
+  "card_country": "KR",
+  "layout": "landscape",
+  "traps": [
+   "latin-family-first",
+   "comma-phd-suffix",
+   "korean-back",
+   "korean-legal-form-suffix",
+   "address-two-scripts",
+   "other-name-n7",
+   "two-sided",
+   "combined"
+  ]
+ },
+ {
+  "id": "sig-01",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "de"
+  ],
+  "card_country": "DE",
+  "layout": "text",
+  "traps": [
+   "paste-no-boxes",
+   "greeting-line",
+   "managing-directors-names",
+   "hrb",
+   "vat-id",
+   "disclaimer",
+   "multiword-city",
+   "pipe-segments"
+  ]
+ },
+ {
+  "id": "sig-02",
+  "group": null,
+  "side": "single",
+  "card_langs": [
+   "en"
+  ],
+  "card_country": "GB",
+  "layout": "text",
+  "traps": [
+   "paste-no-boxes",
+   "signoff-first-name-line",
+   "nickname-quotes",
+   "slogan-after-company",
+   "extension-ext",
+   "absent-url",
+   "one-line-address",
+   "sent-from-iphone"
+  ]
+ }
+]

@@ -1,0 +1,193 @@
+{
+ "id": "lv-n31",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "lv"
+ ],
+ "card_country": "LV",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SIA \"Vairogas Koks\"",
+     "box": {
+      "x": 0.06061917952248031,
+      "y": 0.06009706529597225,
+      "w": 0.26841394424438475,
+      "h": 0.06440700987591241
+     },
+     "height": 0.06440700987591241,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Kokmateriälu eksports kopš 1998",
+     "box": {
+      "x": 0.06209497746247649,
+      "y": 0.14541900863343837,
+      "w": 0.2508708953857422,
+      "h": 0.04386448031686907
+     },
+     "height": 0.04386448031686907,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Janis Berzinš",
+     "box": {
+      "x": 0.06145786798524572,
+      "y": 0.24568040978007288,
+      "w": 0.20019199371337892,
+      "h": 0.07558223915836537
+     },
+     "height": 0.07558223915836537,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Valdes priekšsēdētajs",
+     "box": {
+      "x": 0.06508735812619632,
+      "y": 0.3318799198370197,
+      "w": 0.17661743164062502,
+      "h": 0.03903294161940174
+     },
+     "height": 0.03903294161940174,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Brivibas iela 155, Riga, LV-1012",
+     "box": {
+      "x": 0.06794406295351302,
+      "y": 0.4136478108274424,
+      "w": 0.23487827301025388,
+      "h": 0.040539914576703584
+     },
+     "height": 0.040539914576703584,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "janis.berzins@vairogaskoks-lv.example • www.vairogaskoks.lv",
+     "box": {
+      "x": 0.06636751554497526,
+      "y": 0.45798518569408186,
+      "w": 0.3352643966674804,
+      "h": 0.04231927937982627
+     },
+     "height": 0.04231927937982627,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Reg. Nr. 40103456789 • PVN LV40103456789",
+     "box": {
+      "x": 0.06940679138938663,
+      "y": 0.5102973205384298,
+      "w": 0.26671344757080073,
+      "h": 0.03344536748171767
+     },
+     "height": 0.03344536748171767,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jānis",
+   "middle": "",
+   "family": "Bērziņš",
+   "suffix": "",
+   "full": "Jānis Bērziņš"
+  },
+  "otherName": null,
+  "company": "SIA \"Vairogas Koks\"",
+  "department": null,
+  "title": "Valdes priekšsēdētājs",
+  "phones": [],
+  "emails": [
+   "janis.berzins@vairogaskoks-lv.example"
+  ],
+  "urls": [
+   "www.vairogaskoks.lv"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Brīvības iela 155",
+    "extra": "",
+    "pobox": "",
+    "postcode": "LV-1012",
+    "city": "Rīga",
+    "region": "",
+    "country": "",
+    "countryCode": "LV"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Vairogas Koks"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "baltic-name",
+  "diacritic-lost",
+  "legal-form-prefix",
+  "quoted-company",
+  "registry-number",
+  "vat-id",
+  "absent-phone",
+  "year-in-tagline",
+  "postcode-after-city"
+ ],
+ "notes": "Latvian: legal form \"SIA\" before the quoted name. All name diacritics lost (ā, ē, ņ, š). Postcode \"LV-1012\" after the city. Registration number (11 digits) and PVN (VAT) are not phones. The card prints no phone on purpose: the checker has no +371 country code (gap documented in README).",
+ "o3": {
+  "source": "blind-3/cards/lv-n31.json",
+  "images": [
+   {
+    "name": "b3-lv-n31",
+    "font": "Optima-Regular",
+    "rotation": 1.71,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "lv-LV",
+     "en-US"
+    ],
+    "dropped": [
+     "lv-LV"
+    ],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

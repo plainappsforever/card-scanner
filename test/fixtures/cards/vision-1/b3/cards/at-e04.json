@@ -1,0 +1,225 @@
+{
+ "id": "at-e04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ElektrOtechnik Zollnitz",
+     "box": {
+      "x": 0.06023293373875774,
+      "y": 0.061964354887015016,
+      "w": 0.4491142272949219,
+      "h": 0.07555018980990968
+     },
+     "height": 0.07555018980990968,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "e.U.",
+     "box": {
+      "x": 0.061046512892787085,
+      "y": 0.16591928286540636,
+      "w": 0.04215116024017334,
+      "h": 0.03363228580666322
+     },
+     "height": 0.03363228580666322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Ing. Thomas Zollnitz",
+     "box": {
+      "x": 0.06291595052089632,
+      "y": 0.24600190354294682,
+      "w": 0.25337560653686525,
+      "h": 0.06908658296445158
+     },
+     "height": 0.06908658296445158,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Konzessionierter Elektrotechniker",
+     "box": {
+      "x": 0.06636794377936724,
+      "y": 0.3295037258943988,
+      "w": 0.25241947174072266,
+      "h": 0.03964333920865448
+     },
+     "height": 0.03964333920865448,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel. +43 512 34 56 78",
+     "box": {
+      "x": 0.06648065382316931,
+      "y": 0.41940683980766413,
+      "w": 0.17673250198364257,
+      "h": 0.03913630481852526
+     },
+     "height": 0.03913630481852526,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobil +43 664 123 45 67",
+     "box": {
+      "x": 0.06930503639012997,
+      "y": 0.46522177149616906,
+      "w": 0.22197296142578127,
+      "h": 0.04124545682811376
+     },
+     "height": 0.04124545682811376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "office@elektro-zollnitz-at.example",
+     "box": {
+      "x": 0.06938980036260375,
+      "y": 0.5274563267505519,
+      "w": 0.1853578186035156,
+      "h": 0.037616796014852016
+     },
+     "height": 0.037616796014852016,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Amrser Straße 88 • 6020 Innsbruck",
+     "box": {
+      "x": 0.07016438443827902,
+      "y": 0.5679896254033515,
+      "w": 0.28884937286376955,
+      "h": 0.05050040211916884
+     },
+     "height": 0.05050040211916884,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "FN 412345 x • LG Innsbruck • UID ATU12345678",
+     "box": {
+      "x": 0.07087011851030468,
+      "y": 0.6281351752843016,
+      "w": 0.28709045410156253,
+      "h": 0.03545125570996854
+     },
+     "height": 0.03545125570996854,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ing.",
+   "given": "Thomas",
+   "middle": "",
+   "family": "Zollnitz",
+   "suffix": "",
+   "full": "Ing. Thomas Zollnitz"
+  },
+  "otherName": null,
+  "company": "Elektrotechnik Zollnitz e.U.",
+  "department": null,
+  "title": "Konzessionierter Elektrotechniker",
+  "phones": [
+   {
+    "printed": "+43 512 34 56 78",
+    "e164": "+43512345678",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+43 664 123 45 67",
+    "e164": "+436641234567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "office@elektro-zollnitz-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Amraser Straße 88",
+    "extra": "",
+    "pobox": "",
+    "postcode": "6020",
+    "city": "Innsbruck",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "legal-form-only-line",
+  "ocr-0O-in-word",
+  "registry-number",
+  "vat-id",
+  "foreign-region",
+  "prefix-title"
+ ],
+ "notes": "Austrian card scanned with region DE: numbers carry +43. \"e.U.\" (Austrian sole trader) stands alone under the logo. Firmenbuch \"FN 412345 x\" and UID are not phones. OCR read \"0\" for \"o\" inside \"Elektrotechnik\".",
+ "o3": {
+  "source": "blind-3/cards/at-e04.json",
+  "images": [
+   {
+    "name": "b3-at-e04",
+    "font": "Futura-Medium",
+    "rotation": 1.97,
+    "noise": 5,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 125
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

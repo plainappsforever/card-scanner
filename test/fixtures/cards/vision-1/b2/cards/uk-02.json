@@ -1,0 +1,250 @@
+{
+ "id": "uk-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "IN",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Shah & Kapoor LLP",
+     "box": {
+      "x": 0.0639534817197547,
+      "y": 0.04035874364500991,
+      "w": 0.4360465240478516,
+      "h": 0.09417040467722537
+     },
+     "height": 0.09417040467722537,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Chartered Certified Accountants • Est. 1996",
+     "box": {
+      "x": 0.06824982363285166,
+      "y": 0.1474707381391801,
+      "w": 0.5684544372558593,
+      "h": 0.04783244482798921
+     },
+     "height": 0.04783244482798921,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Priya Shah FCCA",
+     "box": {
+      "x": 0.06681626229299041,
+      "y": 0.22224456369637824,
+      "w": 0.2852046012878418,
+      "h": 0.05998800712202501
+     },
+     "height": 0.05998800712202501,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Partner",
+     "box": {
+      "x": 0.06725277997533727,
+      "y": 0.30558713840498086,
+      "w": 0.10821413040161132,
+      "h": 0.048316178634820295
+     },
+     "height": 0.048316178634820295,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Unit 4, Cobalt Court",
+     "box": {
+      "x": 0.06799666784071949,
+      "y": 0.37488408915656357,
+      "w": 0.2841527366638183,
+      "h": 0.06221635001046322
+     },
+     "height": 0.06221635001046322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "21 Lever Street",
+     "box": {
+      "x": 0.06940680554605862,
+      "y": 0.4464769149072818,
+      "w": 0.20556756973266604,
+      "h": 0.04619008509808975
+     },
+     "height": 0.04619008509808975,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Manchester MI IBN",
+     "box": {
+      "x": 0.06948602783194645,
+      "y": 0.5150864789516748,
+      "w": 0.28847814559936524,
+      "h": 0.05134863098615838
+     },
+     "height": 0.05134863098615838,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel: 0161 832 4567",
+     "box": {
+      "x": 0.06831395678591523,
+      "y": 0.5916988421496582,
+      "w": 0.24854650497436526,
+      "h": 0.05212355212355213
+     },
+     "height": 0.05212355212355213,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Mob: 07723 456789",
+     "box": {
+      "x": 0.07107068283730225,
+      "y": 0.66072170470441,
+      "w": 0.26776674270629885,
+      "h": 0.055835830659019425
+     },
+     "height": 0.055835830659019425,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "priya@shahkapoor-co-uk.example",
+     "box": {
+      "x": 0.07078556064352963,
+      "y": 0.7328654182291525,
+      "w": 0.3235193634033203,
+      "h": 0.06063104136109809
+     },
+     "height": 0.06063104136109809,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "VAT Reg. No. 123 4567 89",
+     "box": {
+      "x": 0.07255355939813768,
+      "y": 0.8136531918253596,
+      "w": 0.17755769729614257,
+      "h": 0.03253015680202653
+     },
+     "height": 0.03253015680202653,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Priya",
+   "middle": "",
+   "family": "Shah",
+   "suffix": "FCCA",
+   "full": "Priya Shah FCCA"
+  },
+  "otherName": null,
+  "company": "Shah & Kapoor LLP",
+  "department": null,
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "0161 832 4567",
+    "e164": "+441618324567",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "07723 456789",
+    "e164": "+447723456789",
+    "type": "mobile",
+    "label": "Mob:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "priya@shahkapoor-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "21 Lever Street",
+    "extra": "Unit 4, Cobalt Court",
+    "pobox": "",
+    "postcode": "M1 1BN",
+    "city": "Manchester",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "credential-suffix",
+  "tagline-not-title",
+  "year-in-tagline",
+  "vat-id",
+  "region-from-address",
+  "name-is-company",
+  "ocr-1l"
+ ],
+ "notes": "Region IN: the Manchester address (and .co.uk) makes 0161… and 07723… British. FCCA is a suffix, not a company. Address extra \"Unit 4, Cobalt Court\".",
+ "o3": {
+  "source": "blind-2/cards/uk-02.json",
+  "images": [
+   {
+    "name": "b2-uk-02",
+    "font": "HoeflerText-Regular",
+    "rotation": 0.7,
+    "noise": 8,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 121
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,641 @@
+{
+ "id": "us-04-both",
+ "group": "us-04",
+ "side": "both",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "NORTHWIND",
+     "box": {
+      "x": 0.07,
+      "y": 0.1143,
+      "w": 0.3261,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "NORTHWIND",
+       "box": {
+        "x": 0.07,
+        "y": 0.1143,
+        "w": 0.3261,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "ANALYTICS",
+     "box": {
+      "x": 0.07,
+      "y": 0.2363,
+      "w": 0.1631,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "ANALYTICS",
+       "box": {
+        "x": 0.07,
+        "y": 0.2363,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dana Whitfield",
+     "box": {
+      "x": 0.07,
+      "y": 0.3083,
+      "w": 0.3188,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Dana",
+       "box": {
+        "x": 0.07,
+        "y": 0.3083,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Whitfield",
+       "box": {
+        "x": 0.1768,
+        "y": 0.3083,
+        "w": 0.212,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Chief Data Officer",
+     "box": {
+      "x": 0.07,
+      "y": 0.3953,
+      "w": 0.3093,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Chief",
+       "box": {
+        "x": 0.07,
+        "y": 0.3953,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Data",
+       "box": {
+        "x": 0.1703,
+        "y": 0.3953,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Officer",
+       "box": {
+        "x": 0.2525,
+        "y": 0.3953,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Direct +1 (312) 555-0198",
+     "box": {
+      "x": 0.07,
+      "y": 0.4673,
+      "w": 0.4096,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Direct",
+       "box": {
+        "x": 0.07,
+        "y": 0.4673,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+1",
+       "box": {
+        "x": 0.1884,
+        "y": 0.4673,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(312)",
+       "box": {
+        "x": 0.2344,
+        "y": 0.4673,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "555-0198",
+       "box": {
+        "x": 0.3346,
+        "y": 0.4673,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Main +1 (312) 555-0100",
+     "box": {
+      "x": 0.07,
+      "y": 0.5393,
+      "w": 0.3734,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Main",
+       "box": {
+        "x": 0.07,
+        "y": 0.5393,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+1",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5393,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(312)",
+       "box": {
+        "x": 0.1981,
+        "y": 0.5393,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "555-0100",
+       "box": {
+        "x": 0.2984,
+        "y": 0.5393,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "dana.whitfie|d@northwind-analytics-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6113,
+      "w": 0.6885,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "dana.whitfie|d@northwind-analytics-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6113,
+        "w": 0.6885,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "northwind-analytics.com",
+     "box": {
+      "x": 0.07,
+      "y": 0.6833,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "northwind-analytics.com",
+       "box": {
+        "x": 0.07,
+        "y": 0.6833,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Northwind Analytics LLC",
+     "box": {
+      "x": 0.07,
+      "y": 0.1986,
+      "w": 0.3999,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Northwind",
+       "box": {
+        "x": 0.07,
+        "y": 0.1986,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Analytics",
+       "box": {
+        "x": 0.2428,
+        "y": 0.1986,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "LLC",
+       "box": {
+        "x": 0.4155,
+        "y": 0.1986,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b1",
+     "text": "Est. 2009",
+     "box": {
+      "x": 0.07,
+      "y": 0.2706,
+      "w": 0.1546,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Est.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2706,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2009",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2706,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b2",
+     "text": "233 S Wacker Dr, Suite 8400",
+     "box": {
+      "x": 0.07,
+      "y": 0.3426,
+      "w": 0.4471,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "233",
+       "box": {
+        "x": 0.07,
+        "y": 0.3426,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "S",
+       "box": {
+        "x": 0.1341,
+        "y": 0.3426,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Wacker",
+       "box": {
+        "x": 0.1619,
+        "y": 0.3426,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Dr,",
+       "box": {
+        "x": 0.2803,
+        "y": 0.3426,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Suite",
+       "box": {
+        "x": 0.3444,
+        "y": 0.3426,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8400",
+       "box": {
+        "x": 0.4446,
+        "y": 0.3426,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b3",
+     "text": "Chicago, IL 60606",
+     "box": {
+      "x": 0.07,
+      "y": 0.4146,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Chicago,",
+       "box": {
+        "x": 0.07,
+        "y": 0.4146,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "IL",
+       "box": {
+        "x": 0.2246,
+        "y": 0.4146,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "60606",
+       "box": {
+        "x": 0.2706,
+        "y": 0.4146,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b4",
+     "text": "Chicago · Austin · Toronto",
+     "box": {
+      "x": 0.07,
+      "y": 0.4866,
+      "w": 0.4374,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Chicago",
+       "box": {
+        "x": 0.07,
+        "y": 0.4866,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2065,
+        "y": 0.4866,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Austin",
+       "box": {
+        "x": 0.2344,
+        "y": 0.4866,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3528,
+        "y": 0.4866,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Toronto",
+       "box": {
+        "x": 0.3806,
+        "y": 0.4866,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Whitfield;Dana;;;\r\nFN:Dana Whitfield\r\nORG:Northwind Analytics LLC\r\nTITLE:Chief Data Officer\r\nTEL;TYPE=WORK,VOICE:+13125550198\r\nEMAIL;TYPE=INTERNET,WORK:dana.whitfield@northwind-analytics-com.example\r\nURL:https://northwind-analytics.com\r\nEND:VCARD\r\n",
+    "box": {
+     "x": 0.7,
+     "y": 0.3,
+     "w": 0.24,
+     "h": 0.37
+    },
+    "side": "back"
+   }
+  ],
+  "region": "US",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dana",
+   "middle": "",
+   "family": "Whitfield",
+   "suffix": "",
+   "full": "Dana Whitfield"
+  },
+  "otherName": null,
+  "company": "Northwind Analytics LLC",
+  "department": null,
+  "title": "Chief Data Officer",
+  "phones": [
+   {
+    "printed": "+1 (312) 555-0198",
+    "e164": "+13125550198",
+    "type": "work",
+    "label": "Direct",
+    "ext": null
+   },
+   {
+    "printed": "+1 (312) 555-0100",
+    "e164": "+13125550100",
+    "type": "work",
+    "label": "Main",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dana.whitfield@northwind-analytics-com.example"
+  ],
+  "urls": [
+   "northwind-analytics.com"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "233 S Wacker Dr",
+    "extra": "Suite 8400",
+    "pobox": "",
+    "postcode": "60606",
+    "city": "Chicago",
+    "region": "IL",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "NORTHWIND ANALYTICS"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "dana.whitfield@northwind-analytics-com.example",
+   "ocr": "dana.whitfie|d@northwind-analytics-com.example",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "two-sided",
+  "qr-vcard",
+  "tagline-not-title",
+  "year-in-tagline",
+  "cities-not-address",
+  "ocr-1l"
+ ],
+ "notes": "Both sides: the vCard e-mail confirms and repairs the damaged OCR e-mail; one address (back)."
+}

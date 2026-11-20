@@ -1,0 +1,353 @@
+{
+ "id": "de-14",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "sv"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "NORDSCHIMMER",
+     "box": {
+      "x": 0.08,
+      "y": 0.08,
+      "w": 0.212,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "NORDSCHIMMER",
+       "box": {
+        "x": 0.08,
+        "y": 0.08,
+        "w": 0.212,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Media KG",
+     "box": {
+      "x": 0.08,
+      "y": 0.17,
+      "w": 0.102,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Media",
+       "box": {
+        "x": 0.08,
+        "y": 0.17,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "KG",
+       "box": {
+        "x": 0.1551,
+        "y": 0.17,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "MarkusLindqvist",
+     "box": {
+      "x": 0.08,
+      "y": 0.35,
+      "w": 0.3281,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "MarkusLindqvist",
+       "box": {
+        "x": 0.08,
+        "y": 0.35,
+        "w": 0.3281,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Art Director",
+     "box": {
+      "x": 0.08,
+      "y": 0.4442,
+      "w": 0.1753,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Art",
+       "box": {
+        "x": 0.08,
+        "y": 0.4442,
+        "w": 0.0454,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Director",
+       "box": {
+        "x": 0.1342,
+        "y": 0.4442,
+        "w": 0.1211,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Große Elbstraße 145",
+     "box": {
+      "x": 0.08,
+      "y": 0.63,
+      "w": 0.2321,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Große",
+       "box": {
+        "x": 0.08,
+        "y": 0.63,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Elbstraße",
+       "box": {
+        "x": 0.1513,
+        "y": 0.63,
+        "w": 0.1151,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "145",
+       "box": {
+        "x": 0.2738,
+        "y": 0.63,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "22767 Hamburg",
+     "box": {
+      "x": 0.08,
+      "y": 0.6851,
+      "w": 0.1608,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "22767",
+       "box": {
+        "x": 0.08,
+        "y": 0.6851,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Hamburg",
+       "box": {
+        "x": 0.1513,
+        "y": 0.6851,
+        "w": 0.0895,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Tel+49 40 3570 1188",
+     "box": {
+      "x": 0.08,
+      "y": 0.7402,
+      "w": 0.2267,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Tel+49",
+       "box": {
+        "x": 0.08,
+        "y": 0.7402,
+        "w": 0.0767,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "40",
+       "box": {
+        "x": 0.1641,
+        "y": 0.7402,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "3570",
+       "box": {
+        "x": 0.197,
+        "y": 0.7402,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "1188",
+       "box": {
+        "x": 0.2556,
+        "y": 0.7402,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "markus.lindqvist@nordschimmer-media-de.example",
+     "box": {
+      "x": 0.08,
+      "y": 0.7953,
+      "w": 0.4475,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "markus.lindqvist@nordschimmer-media-de.example",
+       "box": {
+        "x": 0.08,
+        "y": 0.7953,
+        "w": 0.4475,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Markus",
+   "middle": "",
+   "family": "Lindqvist",
+   "suffix": "",
+   "full": "Markus Lindqvist"
+  },
+  "otherName": null,
+  "company": "NORDSCHIMMER Media KG",
+  "department": null,
+  "title": "Art Director",
+  "phones": [
+   {
+    "printed": "+49 40 3570 1188",
+    "e164": "+494035701188",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "markus.lindqvist@nordschimmer-media-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Große Elbstraße 145",
+    "extra": "",
+    "pobox": "",
+    "postcode": "22767",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Markus Lindqvist",
+   "ocr": "MarkusLindqvist",
+   "kinds": [
+    "dropped-space"
+   ]
+  },
+  {
+   "path": "text",
+   "printed": "Tel +49",
+   "ocr": "Tel+49",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "ocr-dropped-space",
+  "glued-label",
+  "caps-logo-split",
+  "email-confirms-name",
+  "english-title"
+ ],
+ "notes": "OCR dropped the space in the name; the e-mail local part markus.lindqvist shows the split."
+}

@@ -1,0 +1,601 @@
+{
+ "id": "in-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SAHYADRI INFOTECH",
+     "box": {
+      "x": 0.07,
+      "y": 0.0654,
+      "w": 0.4793,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "SAHYADRI",
+       "box": {
+        "x": 0.07,
+        "y": 0.0654,
+        "w": 0.2319,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "INFOTECH",
+       "box": {
+        "x": 0.3174,
+        "y": 0.0654,
+        "w": 0.2319,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Pvt. Ltd.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1674,
+      "w": 0.1546,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Pvt.",
+       "box": {
+        "x": 0.07,
+        "y": 0.1674,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.1522,
+        "y": 0.1674,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dr. Venkatesh Raghunathan",
+     "box": {
+      "x": 0.07,
+      "y": 0.2394,
+      "w": 0.5233,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2394,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Venkatesh",
+       "box": {
+        "x": 0.1469,
+        "y": 0.2394,
+        "w": 0.1957,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Raghunathan",
+       "box": {
+        "x": 0.3542,
+        "y": 0.2394,
+        "w": 0.2392,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Head – Engineering",
+     "box": {
+      "x": 0.07,
+      "y": 0.3214,
+      "w": 0.3093,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.3214,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.1522,
+        "y": 0.3214,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Engineering",
+       "box": {
+        "x": 0.18,
+        "y": 0.3214,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "No. 42, 3rd Cross, Koramangala 5th Block",
+     "box": {
+      "x": 0.07,
+      "y": 0.3934,
+      "w": 0.6742,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.07,
+        "y": 0.3934,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "42,",
+       "box": {
+        "x": 0.1341,
+        "y": 0.3934,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3rd",
+       "box": {
+        "x": 0.1981,
+        "y": 0.3934,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Cross,",
+       "box": {
+        "x": 0.2622,
+        "y": 0.3934,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Koramangala",
+       "box": {
+        "x": 0.3806,
+        "y": 0.3934,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "5th",
+       "box": {
+        "x": 0.5896,
+        "y": 0.3934,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Block",
+       "box": {
+        "x": 0.6536,
+        "y": 0.3934,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Bengaluru – 560 095",
+     "box": {
+      "x": 0.07,
+      "y": 0.4654,
+      "w": 0.319,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Bengaluru",
+       "box": {
+        "x": 0.07,
+        "y": 0.4654,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.2428,
+        "y": 0.4654,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "560",
+       "box": {
+        "x": 0.2706,
+        "y": 0.4654,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "095",
+       "box": {
+        "x": 0.3346,
+        "y": 0.4654,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Karnataka, India",
+     "box": {
+      "x": 0.07,
+      "y": 0.5374,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Karnataka,",
+       "box": {
+        "x": 0.07,
+        "y": 0.5374,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "India",
+       "box": {
+        "x": 0.2609,
+        "y": 0.5374,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "+91 80 4123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.6094,
+      "w": 0.2646,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "+91",
+       "box": {
+        "x": 0.07,
+        "y": 0.6094,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "80",
+       "box": {
+        "x": 0.1341,
+        "y": 0.6094,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4123",
+       "box": {
+        "x": 0.18,
+        "y": 0.6094,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2622,
+        "y": 0.6094,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "M: +91 9845O 12345",
+     "box": {
+      "x": 0.07,
+      "y": 0.6814,
+      "w": 0.3009,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "M:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6814,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+91",
+       "box": {
+        "x": 0.1159,
+        "y": 0.6814,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9845O",
+       "box": {
+        "x": 0.18,
+        "y": 0.6814,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12345",
+       "box": {
+        "x": 0.2803,
+        "y": 0.6814,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "venkatesh.r@sahyadri-infotech-in.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7534,
+      "w": 0.5798,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "venkatesh.r@sahyadri-infotech-in.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7534,
+        "w": 0.5798,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "GSTIN: 29AABCS1234F1Z5 · CIN: U72200KA2005PTC036789",
+     "box": {
+      "x": 0.07,
+      "y": 0.8254,
+      "w": 0.3918,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "GSTIN:",
+       "box": {
+        "x": 0.07,
+        "y": 0.8254,
+        "w": 0.0478,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "29AABCS1234F1Z5",
+       "box": {
+        "x": 0.1221,
+        "y": 0.8254,
+        "w": 0.1196,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2459,
+        "y": 0.8254,
+        "w": 0.008,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "CIN:",
+       "box": {
+        "x": 0.2582,
+        "y": 0.8254,
+        "w": 0.0319,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "U72200KA2005PTC036789",
+       "box": {
+        "x": 0.2943,
+        "y": 0.8254,
+        "w": 0.1674,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "AE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.",
+   "given": "Venkatesh",
+   "middle": "",
+   "family": "Raghunathan",
+   "suffix": "",
+   "full": "Dr. Venkatesh Raghunathan"
+  },
+  "otherName": null,
+  "company": "SAHYADRI INFOTECH Pvt. Ltd.",
+  "department": "Engineering",
+  "title": "Head",
+  "phones": [
+   {
+    "printed": "+91 80 4123 4567",
+    "e164": "+918041234567",
+    "type": "work",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "+91 98450 12345",
+    "e164": "+919845012345",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "venkatesh.r@sahyadri-infotech-in.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "No. 42, 3rd Cross",
+    "extra": "Koramangala 5th Block",
+    "pobox": "",
+    "postcode": "560 095",
+    "city": "Bengaluru",
+    "region": "Karnataka",
+    "country": "India",
+    "countryCode": "IN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Head – Engineering"
+  ],
+  "company": [
+   "SAHYADRI INFOTECH"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[1].printed",
+   "printed": "+91 98450 12345",
+   "ocr": "+91 9845O 12345",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "title-dept-one-line",
+  "tax-id",
+  "registry-id",
+  "legal-form-line",
+  "region-from-plus-cc",
+  "ocr-0O"
+ ],
+ "notes": "Title Head, department Engineering. GSTIN/CIN are not phones. PIN code 560 095. Unlabelled +91 80… is a landline (work)."
+}

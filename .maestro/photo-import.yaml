@@ -1,0 +1,45 @@
+appId: ${APP_ID}
+name: U3 - photo import through the system picker
+tags:
+  - p7
+---
+# Needs an O3 card image in the device's photo library (iOS: `xcrun simctl addmedia`; Android: adb push + media scan —
+# done by the agent before the run, see V1_LOG P6/P7). The picker is the system's, no photo permission.
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: empty
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-photos
+- extendedWaitUntil:
+    visible: ".*(Photo|Photos|Recent).*"
+    timeout: 20000
+- takeScreenshot: u3-picker
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn: "Photo, October 16, .*"
+      - tapOn: "Done"
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - tapOn:
+          id: ".*:id/icon_thumbnail"
+          index: 0
+          optional: true
+      - tapOn:
+          text: "Photo taken on.*"
+          index: 0
+          optional: true
+      - tapOn: "Done"
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 60000
+- scrollUntilVisible:
+    element: ".*@.*"
+    timeout: 30000

@@ -1,0 +1,205 @@
+{
+ "id": "ae-y09",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ar",
+  "en"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ar-SA",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "بيت الزعتر",
+     "box": {
+      "x": 0.4811046526274689,
+      "y": 0.05115830061112814,
+      "w": 0.14098836898803707,
+      "h": 0.06094932187938329
+     },
+     "height": 0.06094932187938329,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "BAIT AL ZAATAR",
+     "box": {
+      "x": 0.3413744120278659,
+      "y": 0.12931879586910933,
+      "w": 0.22710786819458006,
+      "h": 0.04615411795244262
+     },
+     "height": 0.04615411795244262,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f2",
+     "text": "Levantine Kitchen & Café",
+     "box": {
+      "x": 0.34593022945321694,
+      "y": 0.213004484810853,
+      "w": 0.18895349502563474,
+      "h": 0.034099762964432734
+     },
+     "height": 0.034099762964432734,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f3",
+     "text": "Reservations /WhatsApp +971 52 811 4062",
+     "box": {
+      "x": 0.06626319409232487,
+      "y": 0.3138268845434766,
+      "w": 0.3049873924255371,
+      "h": 0.046398166523937134
+     },
+     "height": 0.046398166523937134,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Tel 04 344 1990",
+     "box": {
+      "x": 0.06686046688662854,
+      "y": 0.3764478767623938,
+      "w": 0.10755813598632814,
+      "h": 0.027139567040108448
+     },
+     "height": 0.027139567040108448,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Jumeirah Beach Road, Umm Suqeim 1, Dubai, UAE",
+     "box": {
+      "x": 0.06636649014735842,
+      "y": 0.4146879916242783,
+      "w": 0.308980484008789,
+      "h": 0.046380280527829165
+     },
+     "height": 0.046380280527829165,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f6",
+     "text": "Instagram @baitalzaatar.dxb",
+     "box": {
+      "x": 0.06659097286647224,
+      "y": 0.47148099954008704,
+      "w": 0.17208124160766602,
+      "h": 0.03216465099437826
+     },
+     "height": 0.03216465099437826,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "BAIT AL ZAATAR",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "+971 52 811 4062",
+    "e164": "+971528114062",
+    "type": "mobile",
+    "label": "Reservations / WhatsApp",
+    "ext": null
+   },
+   {
+    "printed": "04 344 1990",
+    "e164": "+97143441990",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@baitalzaatar.dxb"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Jumeirah Beach Road",
+    "extra": "Umm Suqeim 1",
+    "pobox": "",
+    "postcode": "",
+    "city": "Dubai",
+    "region": "",
+    "country": "UAE",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "urls"
+ ],
+ "accept": {
+  "company": [
+   "بيت الزعتر"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "restaurant",
+  "absent-name",
+  "absent-email",
+  "combined-label",
+  "rtl-logo",
+  "labelled-handle",
+  "no-postcode",
+  "foreign-region",
+  "tagline",
+  "digit-in-district"
+ ],
+ "notes": "Restaurant card, no person. Arabic logo above the Latin one (same name). \"Reservations / WhatsApp\" labels a UAE mobile (+971 52). The local number 04 344 1990 has no +971; the address says UAE. \"Umm Suqeim 1\" ends in a digit and is a district. No postcode in the UAE.",
+ "o3": {
+  "source": "blind-3/cards/ae-y09.json",
+  "images": [
+   {
+    "name": "b3-ae-y09",
+    "font": "AvenirNext-Regular",
+    "rotation": 0.87,
+    "noise": 13,
+    "blur": 1.4,
+    "langs": [
+     "ar-SA",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 167
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

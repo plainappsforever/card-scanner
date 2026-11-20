@@ -1,0 +1,233 @@
+{
+ "id": "ch-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TSCHUDIN INGENIEURE AG",
+     "box": {
+      "x": 0.06666665983454713,
+      "y": 0.07046331998390276,
+      "w": 0.45416667938232425,
+      "h": 0.05133155137875822
+     },
+     "height": 0.05133155137875822,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Regula Tschudin",
+     "box": {
+      "x": 0.0712209343020275,
+      "y": 0.2623318379713889,
+      "w": 0.2398255729675293,
+      "h": 0.05156950784926251
+     },
+     "height": 0.05156950784926251,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr. sc. techn., dipl. Bauingenieurin ETH",
+     "box": {
+      "x": 0.07103436706984483,
+      "y": 0.34510417336872823,
+      "w": 0.3651457595825195,
+      "h": 0.043772244545483674
+     },
+     "height": 0.043772244545483674,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Partnerin",
+     "box": {
+      "x": 0.06971585938129862,
+      "y": 0.40319743242039596,
+      "w": 0.08440548896789551,
+      "h": 0.027685852124423982
+     },
+     "height": 0.027685852124423982,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Seefeldstrasse 88 • CH-8008 Zürich",
+     "box": {
+      "x": 0.0682044680249934,
+      "y": 0.5895609721578509,
+      "w": 0.3069161033630371,
+      "h": 0.03174814938578363
+     },
+     "height": 0.03174814938578363,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "+41 44 383 27 10",
+     "box": {
+      "x": 0.06686046697062648,
+      "y": 0.6409266410594522,
+      "w": 0.13662790298461913,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "+41 79 412 33 87",
+     "box": {
+      "x": 0.06686046570012007,
+      "y": 0.6901544393241505,
+      "w": 0.14970930099487306,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "r.tschudin@tschudin-ing-ch.example",
+     "box": {
+      "x": 0.06659303212249736,
+      "y": 0.7424698718503615,
+      "w": 0.2258693885803223,
+      "h": 0.03903559828356895
+     },
+     "height": 0.03903559828356895,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "CHE-123.456.789 MWST",
+     "box": {
+      "x": 0.06831394981535112,
+      "y": 0.7959641261356353,
+      "w": 0.22238372802734374,
+      "h": 0.03363228580666333
+     },
+     "height": 0.03363228580666333,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Regula",
+   "middle": "",
+   "family": "Tschudin",
+   "suffix": "",
+   "full": "Regula Tschudin"
+  },
+  "otherName": null,
+  "company": "TSCHUDIN INGENIEURE AG",
+  "department": null,
+  "title": "Partnerin",
+  "phones": [
+   {
+    "printed": "+41 44 383 27 10",
+    "e164": "+41443832710",
+    "type": "work",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "+41 79 412 33 87",
+    "e164": "+41794123387",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "r.tschudin@tschudin-ing-ch.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Seefeldstrasse 88",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8008",
+    "city": "Zürich",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.prefix": [
+   "Dr. sc. techn."
+  ],
+  "title": [
+   "Dr. sc. techn., dipl. Bauingenieurin ETH",
+   "dipl. Bauingenieurin ETH"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "swiss-ss",
+  "CH-prefix-postcode",
+  "che-vat-dotted",
+  "unlabelled-phones",
+  "degree-on-title-line",
+  "caps-company",
+  "name-is-company"
+ ],
+ "notes": "Swiss spelling \"strasse\"; both phones unlabelled (types from number ranges: 44 = Zürich landline, 79 = mobile). CHE number with dots is a VAT id.",
+ "o3": {
+  "source": "blind-1/cards/ch-01.json",
+  "images": [
+   {
+    "name": "b1-ch-01",
+    "font": "Didot",
+    "rotation": -0.54,
+    "noise": 1,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 121
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,227 @@
+{
+ "id": "uk-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "GB",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "J. Whitcombe & Sons Ltd",
+     "box": {
+      "x": 0.06249999840740823,
+      "y": 0.028957528183914616,
+      "w": 0.3924418640136719,
+      "h": 0.07866578856950568
+     },
+     "height": 0.07866578856950568,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Plumbing • Heating • Gas Safe Registered",
+     "box": {
+      "x": 0.06199848864822457,
+      "y": 0.1325703519877659,
+      "w": 0.34257354736328127,
+      "h": 0.049504269043911364
+     },
+     "height": 0.049504269043911364,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dave Whitcombe",
+     "box": {
+      "x": 0.06341133150296947,
+      "y": 0.2942587831255179,
+      "w": 0.2308280181884766,
+      "h": 0.049555575985706035
+     },
+     "height": 0.049555575985706035,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "07700 900 873",
+     "box": {
+      "x": 0.0593086956573168,
+      "y": 0.45678554728566834,
+      "w": 0.12265162467956542,
+      "h": 0.031166139256539882
+     },
+     "height": 0.031166139256539882,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Office 0161 496 0123",
+     "box": {
+      "x": 0.059150569648868175,
+      "y": 0.5077674217804884,
+      "w": 0.1855264091491699,
+      "h": 0.037877038639024474
+     },
+     "height": 0.037877038639024474,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Unit 4, Brindle Trading Estate",
+     "box": {
+      "x": 0.05758965021958197,
+      "y": 0.5667751007547581,
+      "w": 0.23502571105957032,
+      "h": 0.04329320546743032
+     },
+     "height": 0.04329320546743032,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Stockport Road, Manchester M19 2AB",
+     "box": {
+      "x": 0.0537422974076739,
+      "y": 0.614035405693029,
+      "w": 0.32168590545654296,
+      "h": 0.047232931645220244
+     },
+     "height": 0.047232931645220244,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "jwhitcombeandsons@gmail-com.example",
+     "box": {
+      "x": 0.05189970814802002,
+      "y": 0.6767666464189869,
+      "w": 0.2683049011230469,
+      "h": 0.04280510464230103
+     },
+     "height": 0.04280510464230103,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Gas Safe Reg. No. 512345 • Company No. 08123456",
+     "box": {
+      "x": 0.05195373605515439,
+      "y": 0.8560888467783141,
+      "w": 0.29286373138427735,
+      "h": 0.03627288111388449
+     },
+     "height": 0.03627288111388449,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dave",
+   "middle": "",
+   "family": "Whitcombe",
+   "suffix": "",
+   "full": "Dave Whitcombe"
+  },
+  "otherName": null,
+  "company": "J. Whitcombe & Sons Ltd",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "07700 900 873",
+    "e164": "+447700900873",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "0161 496 0123",
+    "e164": "+441614960123",
+    "type": "work",
+    "label": "Office",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jwhitcombeandsons@gmail-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Stockport Road",
+    "extra": "Unit 4, Brindle Trading Estate",
+    "pobox": "",
+    "postcode": "M19 2AB",
+    "city": "Manchester",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "gas-safe-number",
+  "company-number-8digits",
+  "freemail",
+  "unit-line",
+  "initial-in-company",
+  "ocr-1l",
+  "ocr-0O",
+  "absent-title"
+ ],
+ "notes": "Gas Safe and Companies House numbers are not phones. gmail.com is freemail. Office number has l for 1 and O for 0.",
+ "o3": {
+  "source": "blind-1/cards/uk-02.json",
+  "images": [
+   {
+    "name": "b1-uk-02",
+    "font": "AvenirNext-Regular",
+    "rotation": -1.68,
+    "noise": 0,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 119
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

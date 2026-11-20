@@ -1,0 +1,207 @@
+{
+ "id": "jp-01-front",
+ "group": "jp-01",
+ "side": "front",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "株式会社きりはねテック",
+     "box": {
+      "x": 0.06976744476954629,
+      "y": 0.06274131277486517,
+      "w": 0.28197673797607425,
+      "h": 0.044882004785721796
+     },
+     "height": 0.044882004785721796,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "営業部 部長",
+     "box": {
+      "x": 0.06972049384364447,
+      "y": 0.23056750865938336,
+      "w": 0.12654738426208495,
+      "h": 0.038864982634437606
+     },
+     "height": 0.038864982634437606,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "山田 太郎",
+     "box": {
+      "x": 0.07122093015612223,
+      "y": 0.31165919180554724,
+      "w": 0.22093023300170894,
+      "h": 0.08312845414209546
+     },
+     "height": 0.08312845414209546,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "〒150-0002 東京都渋谷区渋谷2-21-1 渋谷桜ビル8F",
+     "box": {
+      "x": 0.07500000614949545,
+      "y": 0.5897435900088586,
+      "w": 0.4458333206176758,
+      "h": 0.038634788115512464
+     },
+     "height": 0.038634788115512464,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "TEL 03-1234-5678 FAX 03-1234-5679",
+     "box": {
+      "x": 0.06831395016502118,
+      "y": 0.6409266412245388,
+      "w": 0.31395349502563474,
+      "h": 0.02723479362988568
+     },
+     "height": 0.02723479362988568,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "携帯 090-1234-5678",
+     "box": {
+      "x": 0.06976744311446158,
+      "y": 0.6901544393308275,
+      "w": 0.17441860198974607,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "t.yamada@kirihanetech-co-jp.example",
+     "box": {
+      "x": 0.06822646090128259,
+      "y": 0.7386684434953632,
+      "w": 0.25162424087524415,
+      "h": 0.03732997570258778
+     },
+     "height": 0.03732997570258778,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "太郎",
+   "middle": "",
+   "family": "山田",
+   "suffix": "",
+   "full": "山田 太郎"
+  },
+  "otherName": null,
+  "company": "株式会社きりはねテック",
+  "department": "営業部",
+  "title": "部長",
+  "phones": [
+   {
+    "printed": "03-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "TEL",
+    "ext": null
+   },
+   {
+    "printed": "03-1234-5679",
+    "e164": "+81312345679",
+    "type": "fax",
+    "label": "FAX",
+    "ext": null
+   },
+   {
+    "printed": "090-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "携帯",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihanetech-co-jp.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "渋谷2-21-1",
+    "extra": "渋谷桜ビル8F",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "渋谷区",
+    "region": "東京都",
+    "country": "",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "cjk-name-with-space",
+  "postal-mark",
+  "department-and-title-one-line",
+  "other-name-n7",
+  "address-two-scripts",
+  "comma-in-title",
+  "legal-form-prefix",
+  "two-sided"
+ ],
+ "notes": "Front Japanese, back English. Both-sides fixture: UI German -> Latin name primary, Japanese name = otherName (N7). The same office address is printed in both scripts: one address in truth; a second (Japanese) address from the extractor is a duplicate, not a wrong value. 株式会社 precedes the company name.",
+ "o3": {
+  "source": "blind-1/cards/jp-01-front.json",
+  "images": [
+   {
+    "name": "b1-jp-01-front",
+    "font": "Palatino-Roman",
+    "rotation": 0.05,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "ja-JP",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 227
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

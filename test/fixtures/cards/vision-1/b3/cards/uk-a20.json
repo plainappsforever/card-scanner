@@ -1,0 +1,209 @@
+{
+ "id": "uk-a20",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "The University of Wrexley",
+     "box": {
+      "x": 0.060490403404873876,
+      "y": 0.050137750643146184,
+      "w": 0.38647880554199215,
+      "h": 0.07089299676961414
+     },
+     "height": 0.07089299676961414,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dr Chidi Okonkwo-Hale FRSC",
+     "box": {
+      "x": 0.06484387860322788,
+      "y": 0.16711479707487642,
+      "w": 0.4764664840698242,
+      "h": 0.06335754099960023
+     },
+     "height": 0.06335754099960023,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Reader in Materials Chemistry",
+     "box": {
+      "x": 0.06529900635534837,
+      "y": 0.25935177674967136,
+      "w": 0.27345230102539064,
+      "h": 0.03467079663368722
+     },
+     "height": 0.03467079663368722,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Department of Chemistry • Faculty of Science and Engineering",
+     "box": {
+      "x": 0.06613149946970821,
+      "y": 0.2993469442682528,
+      "w": 0.4219571685791016,
+      "h": 0.05786927418359
+     },
+     "height": 0.05786927418359,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Oxford Road, Wrexley M13 9PL",
+     "box": {
+      "x": 0.06657431754058926,
+      "y": 0.3893242371695109,
+      "w": 0.2681096839904785,
+      "h": 0.040927218654441155
+     },
+     "height": 0.040927218654441155,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "+44 (0)161 275 4683",
+     "box": {
+      "x": 0.06638747899132984,
+      "y": 0.4414057177918088,
+      "w": 0.15637946128845215,
+      "h": 0.034697589726982
+     },
+     "height": 0.034697589726982,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "chidi.okonkwo-hale@wrexley-ac-uk.example",
+     "box": {
+      "x": 0.06802663928182337,
+      "y": 0.48999871322784094,
+      "w": 0.2725018310546875,
+      "h": 0.03635551202251175
+     },
+     "height": 0.03635551202251175,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "ORCID 0000-0001-7745-2310",
+     "box": {
+      "x": 0.06946235707477698,
+      "y": 0.538698870548728,
+      "w": 0.19105567932128903,
+      "h": 0.030390196325235874
+     },
+     "height": 0.030390196325235874,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Chidi",
+   "middle": "",
+   "family": "Okonkwo-Hale",
+   "suffix": "FRSC",
+   "full": "Dr Chidi Okonkwo-Hale FRSC"
+  },
+  "otherName": null,
+  "company": "The University of Wrexley",
+  "department": "Department of Chemistry",
+  "title": "Reader in Materials Chemistry",
+  "phones": [
+   {
+    "printed": "+44 (0)161 275 4683",
+    "e164": "+441612754683",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "chidi.okonkwo-hale@wrexley-ac-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Oxford Road",
+    "extra": "",
+    "pobox": "",
+    "postcode": "M13 9PL",
+    "city": "Wrexley",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Faculty of Science and Engineering"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "academic",
+  "orcid",
+  "faculty-line",
+  "credential-suffix",
+  "prefix-no-dot",
+  "foreign-region",
+  "ocr-1l",
+  "hyphenated-family",
+  "nigerian-name",
+  "trunk-zero-in-parens"
+ ],
+ "notes": "\"Reader\" is a UK academic rank (title). Department and faculty on one line split by \" · \". FRSC is a post-nominal. \"1\" for \"l\" inside the e-mail. ORCID is not a phone.",
+ "o3": {
+  "source": "blind-3/cards/uk-a20.json",
+  "images": [
+   {
+    "name": "b3-uk-a20",
+    "font": "Palatino-Roman",
+    "rotation": 1.52,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

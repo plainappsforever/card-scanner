@@ -1,0 +1,16 @@
+appId: ${APP_ID}
+name: U6 - QR card fills fields
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: qr
+- tapOn: "Lennart Vogelsang"
+- assertVisible:
+    id: review-screen
+- scrollUntilVisible:
+    element: "lennart@vogelsang-consulting-de.example"
+- assertNotVisible:
+    id: "check-mark-email-0"

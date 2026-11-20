@@ -1,0 +1,243 @@
+{
+ "id": "fr-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "BE",
+  "uiLang": "fr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "lumen",
+     "box": {
+      "x": 0.0651946715263233,
+      "y": 0.01407567597269932,
+      "w": 0.2566207313537598,
+      "h": 0.1326991489955357
+     },
+     "height": 0.1326991489955357,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "optique de précision",
+     "box": {
+      "x": 0.07229245186682409,
+      "y": 0.1785606266730646,
+      "w": 0.2885329437255859,
+      "h": 0.06212677826752533
+     },
+     "height": 0.06212677826752533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Claire DUBOIS-LEFÈVRE",
+     "box": {
+      "x": 0.07083334227449534,
+      "y": 0.24324324480404746,
+      "w": 0.48333332061767575,
+      "h": 0.07085931623304209
+     },
+     "height": 0.07085931623304209,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Responsable Grands Comptes",
+     "box": {
+      "x": 0.07198863652895515,
+      "y": 0.3311732092501234,
+      "w": 0.4198867797851562,
+      "h": 0.07001698615468155
+     },
+     "height": 0.07001698615468155,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Lumen Optique SA",
+     "box": {
+      "x": 0.06938754780006505,
+      "y": 0.40997831268478824,
+      "w": 0.257918701171875,
+      "h": 0.05666684552049084
+     },
+     "height": 0.05666684552049084,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "BP 30122",
+     "box": {
+      "x": 0.06717076327952498,
+      "y": 0.4807309921660534,
+      "w": 0.13098230361938476,
+      "h": 0.0531027657645089
+     },
+     "height": 0.0531027657645089,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "69251 Lyon Cedex 09",
+     "box": {
+      "x": 0.06782555893721699,
+      "y": 0.5483529045002893,
+      "w": 0.3004018211364746,
+      "h": 0.06187239392843946
+     },
+     "height": 0.06187239392843946,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Standard : 04 72 10 20 30",
+     "box": {
+      "x": 0.06711986013058319,
+      "y": 0.6181231655738537,
+      "w": 0.3275715637207032,
+      "h": 0.0730120390078276
+     },
+     "height": 0.0730120390078276,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Ligne directe : 04 72 10 20 37",
+     "box": {
+      "x": 0.06594271790178588,
+      "y": 0.689784677375035,
+      "w": 0.41732868194580075,
+      "h": 0.07399671326272728
+     },
+     "height": 0.07399671326272728,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "claire.dubois-lefevre@lumen-optique-fr.example",
+     "box": {
+      "x": 0.06347177238174809,
+      "y": 0.762309169591507,
+      "w": 0.5634686660766601,
+      "h": 0.07365624416748984
+     },
+     "height": 0.07365624416748984,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Claire",
+   "middle": "",
+   "family": "DUBOIS-LEFÈVRE",
+   "suffix": "",
+   "full": "Claire DUBOIS-LEFÈVRE"
+  },
+  "otherName": null,
+  "company": "Lumen Optique SA",
+  "department": null,
+  "title": "Responsable Grands Comptes",
+  "phones": [
+   {
+    "printed": "04 72 10 20 30",
+    "e164": "+33472102030",
+    "type": "work",
+    "label": "Standard",
+    "ext": null
+   },
+   {
+    "printed": "04 72 10 20 37",
+    "e164": "+33472102037",
+    "type": "work",
+    "label": "Ligne directe",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "claire.dubois-lefevre@lumen-optique-fr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "BP 30122",
+    "postcode": "69251",
+    "city": "Lyon Cedex 09",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Lyon"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "all-caps-family",
+  "pobox",
+  "cedex",
+  "region-from-address",
+  "ext-pair",
+  "region-trap-valid-elsewhere",
+  "diacritic-lost"
+ ],
+ "notes": "With region BE, 04 72 10 20 30 parses as a Belgian mobile — wrong; the card is French (+33 4 72 10 20 30, work). Address is a PO box: BP 30122, 69251 Lyon Cedex 09 (no street).",
+ "o3": {
+  "source": "blind-2/cards/fr-02.json",
+  "images": [
+   {
+    "name": "b2-fr-02",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.22,
+    "noise": 6,
+    "blur": 0,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 169
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

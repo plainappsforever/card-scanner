@@ -1,0 +1,201 @@
+{
+ "id": "it-x47",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "it-IT",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "IMPIANTI ELETTRICI MARZOLI S.r.I.",
+     "box": {
+      "x": 0.06063681703342652,
+      "y": 0.06034882502535854,
+      "w": 0.4192589950561524,
+      "h": 0.05170461477920352
+     },
+     "height": 0.05170461477920352,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Geom. Salvatore Marzoli",
+     "box": {
+      "x": 0.06559346702302843,
+      "y": 0.17174956118345164,
+      "w": 0.31023874282836916,
+      "h": 0.07086471793274163
+     },
+     "height": 0.07086471793274163,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Amministratore Unico",
+     "box": {
+      "x": 0.0634945228426042,
+      "y": 0.25317937273891045,
+      "w": 0.1913515281677246,
+      "h": 0.039771039513547546
+     },
+     "height": 0.039771039513547546,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "• 081 764 22 18 • Cell. 339 812 4467",
+     "box": {
+      "x": 0.06658788249816336,
+      "y": 0.3375085557533479,
+      "w": 0.27236766815185554,
+      "h": 0.035152365342070335
+     },
+     "height": 0.035152365342070335,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "info@marzoliimpianti-it.example • www.marzoliimpianti.it",
+     "box": {
+      "x": 0.06652629667092257,
+      "y": 0.3825094153506634,
+      "w": 0.3161399269104004,
+      "h": 0.03915050683334531
+     },
+     "height": 0.03915050683334531,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Via Giacomo Leopardi, 148 - 80125 Napoli (NA)",
+     "box": {
+      "x": 0.06618049812739862,
+      "y": 0.4219464280750762,
+      "w": 0.3136812400817871,
+      "h": 0.0516482209606981
+     },
+     "height": 0.0516482209606981,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "P.IVA 07412360638 • REA NA-912345",
+     "box": {
+      "x": 0.06788159738500901,
+      "y": 0.4769145053817766,
+      "w": 0.23344348907470705,
+      "h": 0.035922746400575356
+     },
+     "height": 0.035922746400575356,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Geom.",
+   "given": "Salvatore",
+   "middle": "",
+   "family": "Marzoli",
+   "suffix": "",
+   "full": "Geom. Salvatore Marzoli"
+  },
+  "otherName": null,
+  "company": "IMPIANTI ELETTRICI MARZOLI S.r.l.",
+  "department": null,
+  "title": "Amministratore Unico",
+  "phones": [
+   {
+    "printed": "081 764 22 18",
+    "e164": "+390817642218",
+    "type": "work",
+    "label": null,
+    "ext": null
+   },
+   {
+    "printed": "339 812 4467",
+    "e164": "+393398124467",
+    "type": "mobile",
+    "label": "Cell.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@marzoliimpianti-it.example"
+  ],
+  "urls": [
+   "www.marzoliimpianti.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via Giacomo Leopardi, 148",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80125",
+    "city": "Napoli",
+    "region": "NA",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "prefix-title",
+  "stray-symbol",
+  "vat-id",
+  "registry-number",
+  "foreign-region",
+  "family-name-in-company",
+  "italian-leading-zero"
+ ],
+ "notes": "Phone icon read as \"&\". Italian fixed numbers keep the leading 0 in E.164 (+39 081…). \"Geom.\" is a professional prefix. P.IVA (11 digits) and REA are not phones. Street \"Via Giacomo Leopardi\" contains a person name.",
+ "o3": {
+  "source": "blind-3/cards/it-x47.json",
+  "images": [
+   {
+    "name": "b3-it-x47",
+    "font": "HelveticaNeue",
+    "rotation": 1.74,
+    "noise": 4,
+    "blur": 1,
+    "langs": [
+     "it-IT",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 101
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

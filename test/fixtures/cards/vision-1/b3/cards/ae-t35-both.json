@@ -1,0 +1,314 @@
+{
+ "id": "ae-t35-both",
+ "group": "ae-t35",
+ "side": "both",
+ "card_langs": [
+  "en",
+  "ar"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AL NOOR CAPITAL",
+     "box": {
+      "x": 0.07235662342645814,
+      "y": 0.0444188775804345,
+      "w": 0.2942680740356445,
+      "h": 0.04971371654377943
+     },
+     "height": 0.04971371654377943,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Khalid Saeed Al Mansoori",
+     "box": {
+      "x": 0.0738614036938267,
+      "y": 0.172830569439671,
+      "w": 0.3508860778808594,
+      "h": 0.049718687433073505
+     },
+     "height": 0.049718687433073505,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Senior Vice President - Investments",
+     "box": {
+      "x": 0.07096284600262535,
+      "y": 0.25152274173687994,
+      "w": 0.29122171401977537,
+      "h": 0.0343906704523389
+     },
+     "height": 0.0343906704523389,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "T +971 2 633 4400",
+     "box": {
+      "x": 0.07091898003218165,
+      "y": 0.3349964108669965,
+      "w": 0.14299856185913085,
+      "h": 0.028642096574702403
+     },
+     "height": 0.028642096574702403,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "M +971 50 718 2264",
+     "box": {
+      "x": 0.07099343166158895,
+      "y": 0.38533142960457933,
+      "w": 0.15599030494689942,
+      "h": 0.028744904691188067
+     },
+     "height": 0.028744904691188067,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "khalid.almansoori@alnoorcapital-ae.example",
+     "box": {
+      "x": 0.06948442290239115,
+      "y": 0.43294447682543535,
+      "w": 0.2476655387878418,
+      "h": 0.03491674518953425
+     },
+     "height": 0.03491674518953425,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "P.O. Box 113456, Abu Dhabi, United Arab Emirates",
+     "box": {
+      "x": 0.06810107971496254,
+      "y": 0.4835333176133225,
+      "w": 0.3172361183166504,
+      "h": 0.03428357172196439
+     },
+     "height": 0.03428357172196439,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "ar-SA",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "النور كابيتال",
+     "box": {
+      "x": 0.7654810111846743,
+      "y": 0.04144154346464246,
+      "w": 0.16092855453491217,
+      "h": 0.05648988186162418
+     },
+     "height": 0.05648988186162418,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "خالد سعيد المنصوري",
+     "box": {
+      "x": 0.672456681137144,
+      "y": 0.1544535221210097,
+      "w": 0.256561622619629,
+      "h": 0.08320571280814515
+     },
+     "height": 0.08320571280814515,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "نائب أول للرئيس - الاستثمارات",
+     "box": {
+      "x": 0.6957330606861863,
+      "y": 0.24077296910493573,
+      "w": 0.2321572494506836,
+      "h": 0.04520306716094147
+     },
+     "height": 0.04520306716094147,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "هاتف +4400 633 2 971",
+     "box": {
+      "x": 0.7640920554941448,
+      "y": 0.3259041338741757,
+      "w": 0.16358625411987304,
+      "h": 0.03254844046927796
+     },
+     "height": 0.03254844046927796,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "جوال +2264 718 50 971",
+     "box": {
+      "x": 0.7558139581263849,
+      "y": 0.3811659195122956,
+      "w": 0.17296510696411138,
+      "h": 0.02466367662643365
+     },
+     "height": 0.02466367662643365,
+     "dir": "rtl",
+     "conf": 1
+    },
+    {
+     "id": "b5",
+     "text": "ص.ب. 113456، أبوظبي، الإمارات العربية المتحدة",
+     "box": {
+      "x": 0.6754978324406755,
+      "y": 0.42706651744019464,
+      "w": 0.253642578125,
+      "h": 0.03988855317752793
+     },
+     "height": 0.03988855317752793,
+     "dir": "rtl",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Khalid",
+   "middle": "Saeed",
+   "family": "Al Mansoori",
+   "suffix": "",
+   "full": "Khalid Saeed Al Mansoori"
+  },
+  "otherName": "خالد سعيد المنصوري",
+  "company": "AL NOOR CAPITAL",
+  "department": "Investments",
+  "title": "Senior Vice President",
+  "phones": [
+   {
+    "printed": "+971 2 633 4400",
+    "e164": "+97126334400",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+971 50 718 2264",
+    "e164": "+971507182264",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "khalid.almansoori@alnoorcapital-ae.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "P.O. Box 113456",
+    "postcode": "",
+    "city": "Abu Dhabi",
+    "region": "",
+    "country": "United Arab Emirates",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "النور كابيتال"
+  ],
+  "title": [
+   "نائب أول للرئيس"
+  ],
+  "department": [
+   "الاستثمارات"
+  ],
+  "addresses[0].city": [
+   "أبوظبي"
+  ],
+  "addresses[0].pobox": [
+   "ص.ب. 113456"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "arabic-transliteration",
+  "rtl-back",
+  "other-script-name",
+  "pobox",
+  "no-postcode",
+  "title-department-line",
+  "foreign-region",
+  "compound-family-name"
+ ],
+ "notes": "German UI, no Arabic UI: the Latin name is primary, the Arabic name is otherName (N7). One address.",
+ "o3": {
+  "source": "blind-3/cards/ae-t35-both.json",
+  "images": [
+   {
+    "name": "b3-ae-t35-front",
+    "font": "Optima-Regular",
+    "rotation": -0.88,
+    "noise": 14,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 125
+   },
+   {
+    "name": "b3-ae-t35-back",
+    "font": "Futura-Medium",
+    "rotation": 1.86,
+    "noise": 0,
+    "blur": 1,
+    "langs": [
+     "ar-SA",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 22921
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

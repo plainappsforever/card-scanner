@@ -1,0 +1,488 @@
+{
+ "id": "de-14",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PHYSIOTHERAPIE WOLF",
+     "box": {
+      "x": 0.07,
+      "y": 0.1218,
+      "w": 0.5373,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "PHYSIOTHERAPIE",
+       "box": {
+        "x": 0.07,
+        "y": 0.1218,
+        "w": 0.4058,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "WOLF",
+       "box": {
+        "x": 0.4914,
+        "y": 0.1218,
+        "w": 0.116,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Termine nach Vereinbarung",
+     "box": {
+      "x": 0.07,
+      "y": 0.2238,
+      "w": 0.4361,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Termine",
+       "box": {
+        "x": 0.07,
+        "y": 0.2238,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "nach",
+       "box": {
+        "x": 0.2065,
+        "y": 0.2238,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Vereinbarung",
+       "box": {
+        "x": 0.2887,
+        "y": 0.2238,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Sandra Wolf, B.Sc.",
+     "box": {
+      "x": 0.07,
+      "y": 0.2958,
+      "w": 0.3712,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Sandra",
+       "box": {
+        "x": 0.07,
+        "y": 0.2958,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Wolf,",
+       "box": {
+        "x": 0.2121,
+        "y": 0.2958,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "B.Sc.",
+       "box": {
+        "x": 0.3324,
+        "y": 0.2958,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Physiotherapeutin · Manualtherapie",
+     "box": {
+      "x": 0.07,
+      "y": 0.3778,
+      "w": 0.5992,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Physiotherapeutin",
+       "box": {
+        "x": 0.07,
+        "y": 0.3778,
+        "w": 0.308,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3877,
+        "y": 0.3778,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Manualtherapie",
+       "box": {
+        "x": 0.4155,
+        "y": 0.3778,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Königsbrücker Str. 58",
+     "box": {
+      "x": 0.07,
+      "y": 0.4498,
+      "w": 0.3636,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Königsbrücker",
+       "box": {
+        "x": 0.07,
+        "y": 0.4498,
+        "w": 0.2355,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Str.",
+       "box": {
+        "x": 0.3152,
+        "y": 0.4498,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "58",
+       "box": {
+        "x": 0.3974,
+        "y": 0.4498,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "O1099 Dresden",
+     "box": {
+      "x": 0.07,
+      "y": 0.5218,
+      "w": 0.2271,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "O1099",
+       "box": {
+        "x": 0.07,
+        "y": 0.5218,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Dresden",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5218,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 0351 8 76 54 32 · Fax 0351 8 76 54 33",
+     "box": {
+      "x": 0.07,
+      "y": 0.5938,
+      "w": 0.66,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5938,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0351",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5938,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8",
+       "box": {
+        "x": 0.2344,
+        "y": 0.5938,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "76",
+       "box": {
+        "x": 0.2622,
+        "y": 0.5938,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.3081,
+        "y": 0.5938,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.3541,
+        "y": 0.5938,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4,
+        "y": 0.5938,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.4278,
+        "y": 0.5938,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0351",
+       "box": {
+        "x": 0.4919,
+        "y": 0.5938,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8",
+       "box": {
+        "x": 0.5741,
+        "y": 0.5938,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "76",
+       "box": {
+        "x": 0.6019,
+        "y": 0.5938,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "54",
+       "box": {
+        "x": 0.6478,
+        "y": 0.5938,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.6938,
+        "y": 0.5938,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Mo–Fr 7:30–19:00",
+     "box": {
+      "x": 0.07,
+      "y": 0.6658,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mo–Fr",
+       "box": {
+        "x": 0.07,
+        "y": 0.6658,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7:30–19:00",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6658,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sandra",
+   "middle": "",
+   "family": "Wolf",
+   "suffix": "B.Sc.",
+   "full": "Sandra Wolf, B.Sc."
+  },
+  "otherName": null,
+  "company": "PHYSIOTHERAPIE WOLF",
+  "department": null,
+  "title": "Physiotherapeutin",
+  "phones": [
+   {
+    "printed": "0351 8 76 54 32",
+    "e164": "+493518765432",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0351 8 76 54 33",
+    "e164": "+493518765433",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Königsbrücker Str. 58",
+    "extra": "",
+    "pobox": "",
+    "postcode": "01099",
+    "city": "Dresden",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].postcode",
+   "printed": "01099",
+   "ocr": "O1099",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "tagline-not-title",
+  "credential-suffix",
+  "ext-pair",
+  "opening-hours",
+  "name-is-company",
+  "absent-emails",
+  "ocr-0O"
+ ],
+ "notes": "Postcode 01099 (Dresden). Title Physiotherapeutin; \"Manualtherapie\" is a specialism (leftover), the tagline is not a title. B.Sc. is a suffix."
+}

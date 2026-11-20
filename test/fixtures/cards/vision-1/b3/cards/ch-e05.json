@@ -1,0 +1,238 @@
+{
+ "id": "ch-e05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "region": "CH",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Bühler Sanitär AG",
+     "box": {
+      "x": 0.0712209337087105,
+      "y": 0.055984556039727185,
+      "w": 0.40261627197265626,
+      "h": 0.05836521980845333
+     },
+     "height": 0.05836521980845333,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Bäder • Leitungsbau • Service",
+     "box": {
+      "x": 0.06976743755478398,
+      "y": 0.1591928249190211,
+      "w": 0.2601744270324707,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Reto Bühler",
+     "box": {
+      "x": 0.07097922095447676,
+      "y": 0.25086247003936635,
+      "w": 0.18943609237670897,
+      "h": 0.04772040834758273
+     },
+     "height": 0.04772040834758273,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Eidg. dipl. Sanitärinstallateur",
+     "box": {
+      "x": 0.06976744173609446,
+      "y": 0.33397683306901416,
+      "w": 0.25,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel. 044 482 17 30",
+     "box": {
+      "x": 0.06831395563354495,
+      "y": 0.41698841643751394,
+      "w": 0.16569766998291016,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Natel 079 412 63 85",
+     "box": {
+      "x": 0.06976743933507733,
+      "y": 0.470852017885494,
+      "w": 0.1802325630187988,
+      "h": 0.029147982137083583
+     },
+     "height": 0.029147982137083583,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "reto.buehler@buehler-sanitaer-ch.example",
+     "box": {
+      "x": 0.06831394937398308,
+      "y": 0.5246636769299499,
+      "w": 0.28924419403076174,
+      "h": 0.03139013489240838
+     },
+     "height": 0.03139013489240838,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Badenerstrasse 621 • 8048 Zürich",
+     "box": {
+      "x": 0.06976744399691703,
+      "y": 0.578185328442471,
+      "w": 0.29069766998291013,
+      "h": 0.025096525096525046
+     },
+     "height": 0.025096525096525046,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Mitglied suissetec",
+     "box": {
+      "x": 0.06958518549706444,
+      "y": 0.6298160098466821,
+      "w": 0.14569543838500976,
+      "h": 0.031761208096065974
+     },
+     "height": 0.031761208096065974,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "MWST CHE-114.392.857",
+     "box": {
+      "x": 0.06976743779697511,
+      "y": 0.6814671813157209,
+      "w": 0.1642441940307617,
+      "h": 0.025096525096525157
+     },
+     "height": 0.025096525096525157,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Reto",
+   "middle": "",
+   "family": "Bühler",
+   "suffix": "",
+   "full": "Reto Bühler"
+  },
+  "otherName": null,
+  "company": "Bühler Sanitär AG",
+  "department": null,
+  "title": "Eidg. dipl. Sanitärinstallateur",
+  "phones": [
+   {
+    "printed": "044 482 17 30",
+    "e164": "+41444821730",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "079 412 63 85",
+    "e164": "+41794126385",
+    "type": "mobile",
+    "label": "Natel",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "reto.buehler@buehler-sanitaer-ch.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Badenerstrasse 621",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8048",
+    "city": "Zürich",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "diacritic-lost",
+  "unknown-phone-label",
+  "member-of",
+  "vat-id",
+  "tagline",
+  "family-name-in-company"
+ ],
+ "notes": "\"Natel\" is the Swiss word for mobile (079 is a mobile range anyway). The logo lost its umlaut in OCR. MWST number (CHE-…) is not a phone; \"Mitglied suissetec\" is a leftover.",
+ "o3": {
+  "source": "blind-3/cards/ch-e05.json",
+  "images": [
+   {
+    "name": "b3-ch-e05",
+    "font": "ArialMT",
+    "rotation": -0.06,
+    "noise": 13,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 85
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

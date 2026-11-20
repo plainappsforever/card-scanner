@@ -1,0 +1,215 @@
+{
+ "id": "vn-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "vi"
+ ],
+ "card_country": "VN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "CÔNG TY TNHH SAO MAI LOGISTICS",
+     "box": {
+      "x": 0.06060384681282379,
+      "y": 0.06383046811552617,
+      "w": 0.44712921142578127,
+      "h": 0.05554704408387878
+     },
+     "height": 0.05554704408387878,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Nguyễn Thị Thu Hà",
+     "box": {
+      "x": 0.06311964533347936,
+      "y": 0.2295036363188654,
+      "w": 0.31699842453002924,
+      "h": 0.07518908231875154
+     },
+     "height": 0.07518908231875154,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Giám đốc Kinh doanh",
+     "box": {
+      "x": 0.06641457306098136,
+      "y": 0.3256106115404376,
+      "w": 0.25085031509399414,
+      "h": 0.04570695148011428
+     },
+     "height": 0.04570695148011428,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Số 25 Đường Lê Duẩn, Phường Bến Nghé, Quận 1,",
+     "box": {
+      "x": 0.0680196758539881,
+      "y": 0.483777528572765,
+      "w": 0.45405647277832034,
+      "h": 0.05300487606681914
+     },
+     "height": 0.05300487606681914,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "TP. Hồ Chí Minh",
+     "box": {
+      "x": 0.06907216088062387,
+      "y": 0.5426192324780411,
+      "w": 0.14382943153381347,
+      "h": 0.04246252199857847
+     },
+     "height": 0.04246252199857847,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "ĐT: (028) 3823 4567",
+     "box": {
+      "x": 0.0693673744969525,
+      "y": 0.5903740699537297,
+      "w": 0.19860343933105468,
+      "h": 0.0416554079092607
+     },
+     "height": 0.0416554079092607,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Di động: 0903 456 789",
+     "box": {
+      "x": 0.07064413928239262,
+      "y": 0.6361723512628485,
+      "w": 0.21481061935424806,
+      "h": 0.045796674190801134
+     },
+     "height": 0.045796674190801134,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "thuha.nguyen@saomai-logistics-vn.example",
+     "box": {
+      "x": 0.0709305420004754,
+      "y": 0.6863847649397186,
+      "w": 0.3334645462036133,
+      "h": 0.042623670865209906
+     },
+     "height": 0.042623670865209906,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Hà",
+   "middle": "Thị Thu",
+   "family": "Nguyễn",
+   "suffix": "",
+   "full": "Nguyễn Thị Thu Hà"
+  },
+  "otherName": null,
+  "company": "CÔNG TY TNHH SAO MAI LOGISTICS",
+  "department": null,
+  "title": "Giám đốc Kinh doanh",
+  "phones": [
+   {
+    "printed": "(028) 3823 4567",
+    "e164": "+842838234567",
+    "type": "work",
+    "label": "ĐT:",
+    "ext": null
+   },
+   {
+    "printed": "0903 456 789",
+    "e164": "+84903456789",
+    "type": "mobile",
+    "label": "Di động:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "thuha.nguyen@saomai-logistics-vn.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Số 25 Đường Lê Duẩn",
+    "extra": "Phường Bến Nghé, Quận 1",
+    "pobox": "",
+    "postcode": "",
+    "city": "TP. Hồ Chí Minh",
+    "region": "",
+    "country": "",
+    "countryCode": "VN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Hồ Chí Minh"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "family-first",
+  "tnhh",
+  "no-postcode",
+  "heavy-diacritics",
+  "duong-street",
+  "region-mismatch"
+ ],
+ "notes": "Vietnamese order: family Nguyễn first, given name Hà last (N4 \"Given … Family\" would invert it). No postcode printed.",
+ "o3": {
+  "source": "blind-1/cards/vn-01.json",
+  "images": [
+   {
+    "name": "b1-vn-01",
+    "font": "AmericanTypewriter",
+    "rotation": 1.38,
+    "noise": 1,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

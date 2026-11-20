@@ -1,0 +1,238 @@
+{
+ "id": "de-21",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "US",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VELLBACH & PARTNER",
+     "box": {
+      "x": 0.0741279172937962,
+      "y": 0.04708520121788384,
+      "w": 0.5203488159179688,
+      "h": 0.10542445017103985
+     },
+     "height": 0.10542445017103985,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Architekten",
+     "box": {
+      "x": 0.07377174848256493,
+      "y": 0.17030284071507995,
+      "w": 0.16789648056030274,
+      "h": 0.04558150464503463
+     },
+     "height": 0.04558150464503463,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Gerhard Vellbach",
+     "box": {
+      "x": 0.07375352020329927,
+      "y": 0.23717262023190355,
+      "w": 0.24639455795288084,
+      "h": 0.06108097496179998
+     },
+     "height": 0.06108097496179998,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Dipl.-Ing. Architekt BDA",
+     "box": {
+      "x": 0.07185637744741757,
+      "y": 0.32454506313410647,
+      "w": 0.3648173141479492,
+      "h": 0.07197769636353002
+     },
+     "height": 0.07197769636353002,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Fasanenstraße 33 • 10719 Berlin",
+     "box": {
+      "x": 0.07186372767696099,
+      "y": 0.39477221756452896,
+      "w": 0.43606952667236326,
+      "h": 0.07175532455149769
+     },
+     "height": 0.07175532455149769,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Telefon (030) 88 67 54-0",
+     "box": {
+      "x": 0.06731227236150421,
+      "y": 0.4638183566320191,
+      "w": 0.334783821105957,
+      "h": 0.0749647516081231
+     },
+     "height": 0.0749647516081231,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Telefax (030) 88 67 54-20",
+     "box": {
+      "x": 0.06588894543365942,
+      "y": 0.533775575040259,
+      "w": 0.35655235290527343,
+      "h": 0.07760386669497688
+     },
+     "height": 0.07760386669497688,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil (0172) 9 87 65 43",
+     "box": {
+      "x": 0.06605950717664744,
+      "y": 0.6124376756136997,
+      "w": 0.30120868682861324,
+      "h": 0.06939784164134133
+     },
+     "height": 0.06939784164134133,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "g.vellbach@vellbach-partner-de.example",
+     "box": {
+      "x": 0.06351649110744838,
+      "y": 0.6877892129084432,
+      "w": 0.31492774963378906,
+      "h": 0.06318600481541459
+     },
+     "height": 0.06318600481541459,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gerhard",
+   "middle": "",
+   "family": "Vellbach",
+   "suffix": "",
+   "full": "Gerhard Vellbach"
+  },
+  "otherName": null,
+  "company": "VELLBACH & PARTNER Architekten",
+  "department": null,
+  "title": "Dipl.-Ing. Architekt BDA",
+  "phones": [
+   {
+    "printed": "(030) 88 67 54-0",
+    "e164": "+49308867540",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   },
+   {
+    "printed": "(030) 88 67 54-20",
+    "e164": "+493088675420",
+    "type": "fax",
+    "label": "Telefax",
+    "ext": null
+   },
+   {
+    "printed": "(0172) 9 87 65 43",
+    "e164": "+491729876543",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "g.vellbach@vellbach-partner-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Fasanenstraße 33",
+    "extra": "",
+    "pobox": "",
+    "postcode": "10719",
+    "city": "Berlin",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Architekt BDA"
+  ],
+  "company": [
+   "VELLBACH & PARTNER"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "region-from-address",
+  "ext-pair",
+  "name-is-company",
+  "area-code-brackets",
+  "ocr-0O"
+ ],
+ "notes": "Phone region US must not turn \"(030) 88 67 54-0\" into a US number: the Berlin address decides DE. Dipl.-Ing. is printed on the title line, so it is part of the title here.",
+ "o3": {
+  "source": "blind-2/cards/de-21.json",
+  "images": [
+   {
+    "name": "b2-de-21",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.6,
+    "noise": 11,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 111
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,458 @@
+{
+ "id": "pt-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pt"
+ ],
+ "card_country": "PT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "pt-BR"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "QUINTA DA VARGOSA",
+     "box": {
+      "x": 0.07,
+      "y": 0.1017,
+      "w": 0.5824,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "QUINTA",
+       "box": {
+        "x": 0.07,
+        "y": 0.1017,
+        "w": 0.2174,
+        "h": 0.1
+       }
+      },
+      {
+       "text": "DA",
+       "box": {
+        "x": 0.3068,
+        "y": 0.1017,
+        "w": 0.0725,
+        "h": 0.1
+       }
+      },
+      {
+       "text": "VARGOSA",
+       "box": {
+        "x": 0.3987,
+        "y": 0.1017,
+        "w": 0.2536,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Vinhos do Douro desde 1924",
+     "box": {
+      "x": 0.07,
+      "y": 0.2237,
+      "w": 0.4374,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Vinhos",
+       "box": {
+        "x": 0.07,
+        "y": 0.2237,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "do",
+       "box": {
+        "x": 0.1884,
+        "y": 0.2237,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Douro",
+       "box": {
+        "x": 0.2344,
+        "y": 0.2237,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "desde",
+       "box": {
+        "x": 0.3346,
+        "y": 0.2237,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1924",
+       "box": {
+        "x": 0.4349,
+        "y": 0.2237,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Eng.ª Ana Rita Sousa",
+     "box": {
+      "x": 0.07,
+      "y": 0.2957,
+      "w": 0.4045,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Eng.ª",
+       "box": {
+        "x": 0.07,
+        "y": 0.2957,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ana",
+       "box": {
+        "x": 0.1904,
+        "y": 0.2957,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Rita",
+       "box": {
+        "x": 0.2672,
+        "y": 0.2957,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Sousa",
+       "box": {
+        "x": 0.3658,
+        "y": 0.2957,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Enologa",
+     "box": {
+      "x": 0.07,
+      "y": 0.3777,
+      "w": 0.1268,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Enologa",
+       "box": {
+        "x": 0.07,
+        "y": 0.3777,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Rua de Santa Catarina, 1120",
+     "box": {
+      "x": 0.07,
+      "y": 0.4497,
+      "w": 0.4555,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Rua",
+       "box": {
+        "x": 0.07,
+        "y": 0.4497,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.1341,
+        "y": 0.4497,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Santa",
+       "box": {
+        "x": 0.18,
+        "y": 0.4497,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Catarina,",
+       "box": {
+        "x": 0.2803,
+        "y": 0.4497,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1120",
+       "box": {
+        "x": 0.4531,
+        "y": 0.4497,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "4000-447 Porto",
+     "box": {
+      "x": 0.07,
+      "y": 0.5217,
+      "w": 0.2452,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "4000-447",
+       "box": {
+        "x": 0.07,
+        "y": 0.5217,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Porto",
+       "box": {
+        "x": 0.2246,
+        "y": 0.5217,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "ana.sousa@quintadavargosa-pt.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.5937,
+      "w": 0.5073,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "ana.sousa@quintadavargosa-pt.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5937,
+        "w": 0.5073,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "www.quintadavargosa.pt",
+     "box": {
+      "x": 0.07,
+      "y": 0.6657,
+      "w": 0.3986,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.quintadavargosa.pt",
+       "box": {
+        "x": 0.07,
+        "y": 0.6657,
+        "w": 0.3986,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "NIF 501 234 567",
+     "box": {
+      "x": 0.07,
+      "y": 0.7377,
+      "w": 0.1233,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "NIF",
+       "box": {
+        "x": 0.07,
+        "y": 0.7377,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "501",
+       "box": {
+        "x": 0.102,
+        "y": 0.7377,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "234",
+       "box": {
+        "x": 0.1341,
+        "y": 0.7377,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "567",
+       "box": {
+        "x": 0.1661,
+        "y": 0.7377,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "BR",
+  "uiLang": "pt-BR"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Eng.ª",
+   "given": "Ana Rita",
+   "middle": "",
+   "family": "Sousa",
+   "suffix": "",
+   "full": "Eng.ª Ana Rita Sousa"
+  },
+  "otherName": null,
+  "company": "QUINTA DA VARGOSA",
+  "department": null,
+  "title": "Enóloga",
+  "phones": [],
+  "emails": [
+   "ana.sousa@quintadavargosa-pt.example"
+  ],
+  "urls": [
+   "www.quintadavargosa.pt"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Rua de Santa Catarina, 1120",
+    "extra": "",
+    "pobox": "",
+    "postcode": "4000-447",
+    "city": "Porto",
+    "region": "",
+    "country": "",
+    "countryCode": "PT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "socials"
+ ],
+ "accept": {
+  "name.given": [
+   "Ana"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "title",
+   "printed": "Enóloga",
+   "ocr": "Enologa",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "year-in-tagline",
+  "tax-id",
+  "prefix-title",
+  "region-from-address",
+  "absent-phones",
+  "diacritic-lost"
+ ],
+ "notes": "Phones are ABSENT: the NIF (tax number, 9 digits) must not become a phone. Tagline \"Vinhos do Douro desde 1924\" is not a title. Given \"Ana Rita\" (Ana accepted). (Set limitation: the shared check.py has no +351 in its country-code list, so no Portuguese phone could be validated.)"
+}

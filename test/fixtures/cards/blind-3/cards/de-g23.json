@@ -1,0 +1,637 @@
+{
+ "id": "de-g23",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Landeshauptstadt",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2278,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Landeshauptstadt",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2278,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Falkenbruck",
+     "box": {
+      "x": 0.07,
+      "y": 0.105,
+      "w": 0.1495,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Falkenbruck",
+       "box": {
+        "x": 0.07,
+        "y": 0.105,
+        "w": 0.1495,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Referat für Stadtplanung und Bauordnung",
+     "box": {
+      "x": 0.07,
+      "y": 0.195,
+      "w": 0.4859,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Referat",
+       "box": {
+        "x": 0.07,
+        "y": 0.195,
+        "w": 0.0872,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.1697,
+        "y": 0.195,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Stadtplanung",
+       "box": {
+        "x": 0.2195,
+        "y": 0.195,
+        "w": 0.1495,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.3815,
+        "y": 0.195,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Bauordnung",
+       "box": {
+        "x": 0.4313,
+        "y": 0.195,
+        "w": 0.1246,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Hauptabteilung II – Stadtentwicklungsplanung",
+     "box": {
+      "x": 0.07,
+      "y": 0.25,
+      "w": 0.4699,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Hauptabteilung",
+       "box": {
+        "x": 0.07,
+        "y": 0.25,
+        "w": 0.1495,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "II",
+       "box": {
+        "x": 0.2302,
+        "y": 0.25,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.2622,
+        "y": 0.25,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Stadtentwicklungsplanung",
+       "box": {
+        "x": 0.2836,
+        "y": 0.25,
+        "w": 0.2563,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Dipl.-Ing. Sabine Krautwurst-Ilic",
+     "box": {
+      "x": 0.07,
+      "y": 0.34,
+      "w": 0.5874,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Dipl.-Ing.",
+       "box": {
+        "x": 0.07,
+        "y": 0.34,
+        "w": 0.178,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sabine",
+       "box": {
+        "x": 0.2658,
+        "y": 0.34,
+        "w": 0.1068,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Krautwurst-Ilic",
+       "box": {
+        "x": 0.3904,
+        "y": 0.34,
+        "w": 0.267,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Baudirektorin",
+     "box": {
+      "x": 0.07,
+      "y": 0.41,
+      "w": 0.162,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Baudirektorin",
+       "box": {
+        "x": 0.07,
+        "y": 0.41,
+        "w": 0.162,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Blumenstraße 31 · Zimmer 412 · 80331 Falkenbruck",
+     "box": {
+      "x": 0.07,
+      "y": 0.495,
+      "w": 0.4699,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Blumenstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.495,
+        "w": 0.1282,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "31",
+       "box": {
+        "x": 0.2088,
+        "y": 0.495,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2409,
+        "y": 0.495,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Zimmer",
+       "box": {
+        "x": 0.2622,
+        "y": 0.495,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "412",
+       "box": {
+        "x": 0.337,
+        "y": 0.495,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3797,
+        "y": 0.495,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "80331",
+       "box": {
+        "x": 0.4011,
+        "y": 0.495,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Falkenbruck",
+       "box": {
+        "x": 0.4651,
+        "y": 0.495,
+        "w": 0.0748,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Tel. 089 233-2 47 15 · Fax 089 233-2 47 99",
+     "box": {
+      "x": 0.07,
+      "y": 0.545,
+      "w": 0.4486,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.545,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "089",
+       "box": {
+        "x": 0.1234,
+        "y": 0.545,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "233-2",
+       "box": {
+        "x": 0.1661,
+        "y": 0.545,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.2302,
+        "y": 0.545,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.2623,
+        "y": 0.545,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2943,
+        "y": 0.545,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.3157,
+        "y": 0.545,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "089",
+       "box": {
+        "x": 0.3584,
+        "y": 0.545,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "233-2",
+       "box": {
+        "x": 0.4011,
+        "y": 0.545,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.4652,
+        "y": 0.545,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "99",
+       "box": {
+        "x": 0.4972,
+        "y": 0.545,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "sabine.krautwurst-ilic@falkenbruck-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.595,
+      "w": 0.3389,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "sabine.krautwurst-ilic@falkenbruck-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.595,
+        "w": 0.3389,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Besuchszeiten: Mo–Do 9–12 Uhr und nach Vereinbarung",
+     "box": {
+      "x": 0.07,
+      "y": 0.643,
+      "w": 0.4357,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Besuchszeiten:",
+       "box": {
+        "x": 0.07,
+        "y": 0.643,
+        "w": 0.1196,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Mo–Do",
+       "box": {
+        "x": 0.1981,
+        "y": 0.643,
+        "w": 0.0427,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "9–12",
+       "box": {
+        "x": 0.2494,
+        "y": 0.643,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Uhr",
+       "box": {
+        "x": 0.2921,
+        "y": 0.643,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.3263,
+        "y": 0.643,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "nach",
+       "box": {
+        "x": 0.3605,
+        "y": 0.643,
+        "w": 0.0342,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Vereinbarung",
+       "box": {
+        "x": 0.4032,
+        "y": 0.643,
+        "w": 0.1025,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Ing.",
+   "given": "Sabine",
+   "middle": "",
+   "family": "Krautwurst-Ilić",
+   "suffix": "",
+   "full": "Dipl.-Ing. Sabine Krautwurst-Ilić"
+  },
+  "otherName": null,
+  "company": "Landeshauptstadt Falkenbruck",
+  "department": "Referat für Stadtplanung und Bauordnung",
+  "title": "Baudirektorin",
+  "phones": [
+   {
+    "printed": "089 233-2 47 15",
+    "e164": "+498923324715",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "089 233-2 47 99",
+    "e164": "+498923324799",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "sabine.krautwurst-ilic@falkenbruck-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Blumenstraße 31",
+    "extra": "Zimmer 412",
+    "pobox": "",
+    "postcode": "80331",
+    "city": "Falkenbruck",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Hauptabteilung II – Stadtentwicklungsplanung"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Dipl.-Ing. Sabine Krautwurst-Ilić",
+   "ocr": "Dipl.-Ing. Sabine Krautwurst-Ilic",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Krautwurst-Ilić",
+   "ocr": "Krautwurst-Ilic",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "government",
+  "referat",
+  "department-lines",
+  "prefix-title",
+  "diacritic-lost",
+  "opening-hours",
+  "company-split-lines",
+  "roman-numeral"
+ ],
+ "notes": "City administration: company \"Landeshauptstadt Falkenbruck\" over two lines, Referat = department, Hauptabteilung II also a department line. \"Zimmer 412\" sits between street and postcode. ć lost in OCR. Visiting hours are not phones."
+}

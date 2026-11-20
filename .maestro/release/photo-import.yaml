@@ -1,0 +1,80 @@
+appId: ${APP_ID}
+name: Release photo import - system picker, on-device OCR, extraction, Review (flight mode on Android)
+tags:
+  - release
+---
+# A13 end to end without the dev seed: an O3 card image in the device's photo library (iOS `xcrun simctl addmedia`;
+# Android adb push + media scan, done by the agent before the run) → the system picker (no photo permission) → real OCR
+# (Vision / ML Kit Latin) → extractor → Review with the e-mail. On Android the agent switches flight mode on first.
+- launchApp:
+    stopApp: true
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 90000
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-photos
+- extendedWaitUntil:
+    visible: ".*(Photo|Photos|Recent).*"
+    timeout: 20000
+- takeScreenshot: release-picker
+# iOS 27's picker ("Select up to 20 photos.", a check mark instead of Done) exposes nothing to Maestro's accessibility
+# tree (L14 — the probe): the first grid cell is tapped by position and the check mark (top right) confirms. The
+# optional "Done" tap covers the iOS 26.5 picker when the flow runs there.
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn:
+          point: "16%,27%"
+      - tapOn:
+          text: "Done"
+          optional: true
+      - tapOn:
+          point: "90%,15%"
+          optional: true
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - tapOn:
+          id: ".*:id/icon_thumbnail"
+          index: 0
+          optional: true
+      - tapOn:
+          text: "Photo taken on.*"
+          index: 0
+          optional: true
+      - tapOn: "Done"
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 60000
+- extendedWaitUntil:
+    notVisible:
+      id: review-reading
+    timeout: 90000
+- scrollUntilVisible:
+    element: ".*@.*"
+    timeout: 30000
+- takeScreenshot: release-photo-review
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed
+# centred: at the end of the Android scroll view the button sits under the gesture bar (P9)
+- scrollUntilVisible:
+    element:
+      id: done-button
+    centerElement: true
+- tapOn:
+    id: done-button
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000

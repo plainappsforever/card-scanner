@@ -1,0 +1,33 @@
+{
+  "fill" : {
+    "solid" : "extended-srgb:0.13333,0.25098,0.43529,1.00000"
+  },
+  "fill-specializations" : [
+    { "value" : "automatic" },
+    { "appearance" : "dark", "value" : { "solid" : "srgb:0.12549,0.13333,0.12941,1.00000" } }
+  ],
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "glyph.png",
+          "name" : "glyph"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

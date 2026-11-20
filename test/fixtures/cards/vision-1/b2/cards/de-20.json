@@ -1,0 +1,245 @@
+{
+ "id": "de-20",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "AT",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GRATBLICK",
+     "box": {
+      "x": 0.07091460203024984,
+      "y": 0.0635289228901963,
+      "w": 0.43809249877929685,
+      "h": 0.08304799201405644
+     },
+     "height": 0.08304799201405644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Hotel & Spa",
+     "box": {
+      "x": 0.0694458174437346,
+      "y": 0.17756245350905098,
+      "w": 0.16634092330932615,
+      "h": 0.07536836572595562
+     },
+     "height": 0.07536836572595562,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Seit 1898 im Herzen von Garmisch",
+     "box": {
+      "x": 0.07083333306127454,
+      "y": 0.2692307695348226,
+      "w": 0.4625000000000001,
+      "h": 0.04487179421089782
+     },
+     "height": 0.04487179421089782,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Sabine Huber",
+     "box": {
+      "x": 0.06952852199068424,
+      "y": 0.3420367372170158,
+      "w": 0.21562665939331052,
+      "h": 0.047135750759522366
+     },
+     "height": 0.047135750759522366,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Direktorin Sales & Marketing",
+     "box": {
+      "x": 0.06831395422990663,
+      "y": 0.4102316608312111,
+      "w": 0.3706395339965821,
+      "h": 0.06510466130083592
+     },
+     "height": 0.06510466130083592,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Zugspitzstraße 51",
+     "box": {
+      "x": 0.07122092807681661,
+      "y": 0.493243244096626,
+      "w": 0.2383720970153808,
+      "h": 0.04263119531874493
+     },
+     "height": 0.04263119531874493,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "82467 Garmisch-Partenkirchen",
+     "box": {
+      "x": 0.06959473076897715,
+      "y": 0.5631294713397994,
+      "w": 0.4247890472412109,
+      "h": 0.045020333588353445
+     },
+     "height": 0.045020333588353445,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +49 8821 7 52-0 • Fax +49 8821 7 52-55",
+     "box": {
+      "x": 0.06824765789644552,
+      "y": 0.638832262386438,
+      "w": 0.6120494079589843,
+      "h": 0.04388966799702876
+     },
+     "height": 0.04388966799702876,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "s.huber@gratblick-hotel-de.example",
+     "box": {
+      "x": 0.06249999934027784,
+      "y": 0.7051282054328751,
+      "w": 0.375,
+      "h": 0.057692306842583085
+     },
+     "height": 0.057692306842583085,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "www.gratblick-hotel.de",
+     "box": {
+      "x": 0.06666666001717121,
+      "y": 0.7756410260134404,
+      "w": 0.3291666793823242,
+      "h": 0.057692306842583085
+     },
+     "height": 0.057692306842583085,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sabine",
+   "middle": "",
+   "family": "Huber",
+   "suffix": "",
+   "full": "Sabine Huber"
+  },
+  "otherName": null,
+  "company": "GRATBLICK Hotel & Spa",
+  "department": "Sales & Marketing",
+  "title": "Direktorin",
+  "phones": [
+   {
+    "printed": "+49 8821 7 52-0",
+    "e164": "+4988217520",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 8821 7 52-55",
+    "e164": "+49882175255",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "s.huber@gratblick-hotel-de.example"
+  ],
+  "urls": [
+   "www.gratblick-hotel.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Zugspitzstraße 51",
+    "extra": "",
+    "pobox": "",
+    "postcode": "82467",
+    "city": "Garmisch-Partenkirchen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Direktorin Sales & Marketing"
+  ],
+  "company": [
+   "GRATBLICK"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "title-dept-one-line",
+  "year-in-tagline",
+  "ext-pair",
+  "region-from-plus-cc",
+  "ocr-1l"
+ ],
+ "notes": "Title Direktorin, department Sales & Marketing. E-mail must be repaired to gratblick-hotel.de (matches the website). Region AT, but all numbers carry +49.",
+ "o3": {
+  "source": "blind-2/cards/de-20.json",
+  "images": [
+   {
+    "name": "b2-de-20",
+    "font": "Verdana",
+    "rotation": -0.48,
+    "noise": 0,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 107
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

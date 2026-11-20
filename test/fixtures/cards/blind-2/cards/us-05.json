@@ -1,0 +1,259 @@
+{
+ "id": "us-05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BROOKS & VINE",
+     "box": {
+      "x": 0.07,
+      "y": 0.1605,
+      "w": 0.3937,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "BROOKS",
+       "box": {
+        "x": 0.07,
+        "y": 0.1605,
+        "w": 0.1957,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2831,
+        "y": 0.1605,
+        "w": 0.0326,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "VINE",
+       "box": {
+        "x": 0.3332,
+        "y": 0.1605,
+        "w": 0.1304,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Tyler Brooks",
+     "box": {
+      "x": 0.07,
+      "y": 0.2725,
+      "w": 0.2717,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Tyler",
+       "box": {
+        "x": 0.07,
+        "y": 0.2725,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Brooks",
+       "box": {
+        "x": 0.2004,
+        "y": 0.2725,
+        "w": 0.1413,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Founder",
+     "box": {
+      "x": 0.07,
+      "y": 0.3595,
+      "w": 0.1268,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Founder",
+       "box": {
+        "x": 0.07,
+        "y": 0.3595,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "(503) 555-0148",
+     "box": {
+      "x": 0.07,
+      "y": 0.4315,
+      "w": 0.2452,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "(503)",
+       "box": {
+        "x": 0.07,
+        "y": 0.4315,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "555-0148",
+       "box": {
+        "x": 0.1703,
+        "y": 0.4315,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "tyler@brooksandvine-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.5035,
+      "w": 0.4167,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "tyler@brooksandvine-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5035,
+        "w": 0.4167,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "IG @brooksandvine",
+     "box": {
+      "x": 0.07,
+      "y": 0.5755,
+      "w": 0.2996,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "IG",
+       "box": {
+        "x": 0.07,
+        "y": 0.5755,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "@brooksandvine",
+       "box": {
+        "x": 0.1159,
+        "y": 0.5755,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Tyler",
+   "middle": "",
+   "family": "Brooks",
+   "suffix": "",
+   "full": "Tyler Brooks"
+  },
+  "otherName": null,
+  "company": "BROOKS & VINE",
+  "department": null,
+  "title": "Founder",
+  "phones": [
+   {
+    "printed": "(503) 555-0148",
+    "e164": "+15035550148",
+    "type": "work",
+    "label": null,
+    "ext": null,
+    "type_accept": [
+     "mobile"
+    ]
+   }
+  ],
+  "emails": [
+   "tyler@brooksandvine-com.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@brooksandvine"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "region-mismatch",
+  "region-stays-low",
+  "handle-social",
+  "name-is-company",
+  "absent-addresses"
+ ],
+ "notes": "Truth is +1 503 555 0148, but no card evidence gives US (no +1, no address, generic .com). A correct extractor either reads \"(xxx) xxx-xxxx\" as NANP or keeps the number low — a high-confidence German parse is confident-wrong. US numbers carry no mobile/fixed distinction: work, mobile accepted."
+}

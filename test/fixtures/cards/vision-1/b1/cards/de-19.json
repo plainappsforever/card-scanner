@@ -1,0 +1,203 @@
+{
+ "id": "de-19",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "pl"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hausmeisterservice Kaczmarek",
+     "box": {
+      "x": 0.0697674488506642,
+      "y": 0.06949806897723387,
+      "w": 0.4927325439453125,
+      "h": 0.04054054054054046
+     },
+     "height": 0.04054054054054046,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Inh. Zbigniew Kaczmarek",
+     "box": {
+      "x": 0.0683139520843286,
+      "y": 0.18609865422977945,
+      "w": 0.3255813980102539,
+      "h": 0.03590906724966636
+     },
+     "height": 0.03590906724966636,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Lindenweg 4, 04157 Leipzig",
+     "box": {
+      "x": 0.06666666640624996,
+      "y": 0.3909266414115764,
+      "w": 0.3,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel./Fax 0341 9 11 22 33",
+     "box": {
+      "x": 0.062499996394949235,
+      "y": 0.44208494152896094,
+      "w": 0.2958333396911621,
+      "h": 0.0579150579150578
+     },
+     "height": 0.0579150579150578,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Mobil 0157 / 39 87 65 43",
+     "box": {
+      "x": 0.06976744485419659,
+      "y": 0.5067264566146458,
+      "w": 0.28197673797607425,
+      "h": 0.04057084087239271
+     },
+     "height": 0.04057084087239271,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "hausmeister-kaczmarek@web-de.example",
+     "box": {
+      "x": 0.06666666008795438,
+      "y": 0.5641025643626361,
+      "w": 0.3666666793823242,
+      "h": 0.03846153789505535
+     },
+     "height": 0.03846153789505535,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "IBAN DE89 3704 0044 0532 0130 00 • Sparkasse Leipzig",
+     "box": {
+      "x": 0.0681972798477159,
+      "y": 0.8124804457899696,
+      "w": 0.46389347076416015,
+      "h": 0.03245018439863634
+     },
+     "height": 0.03245018439863634,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Zbigniew",
+   "middle": "",
+   "family": "Kaczmarek",
+   "suffix": "",
+   "full": "Zbigniew Kaczmarek"
+  },
+  "otherName": null,
+  "company": "Hausmeisterservice Kaczmarek",
+  "department": null,
+  "title": "Inh.",
+  "phones": [
+   {
+    "printed": "0341 9 11 22 33",
+    "e164": "+493419112233",
+    "type": "work",
+    "label": "Tel./Fax",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "0157 / 39 87 65 43",
+    "e164": "+4915739876543",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "hausmeister-kaczmarek@web-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Lindenweg 4",
+    "extra": "",
+    "pobox": "",
+    "postcode": "04157",
+    "city": "Leipzig",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "iban",
+  "freemail-domain",
+  "tel-fax-combined-label",
+  "spaced-at",
+  "name-is-company",
+  "foreign-name",
+  "absent-url"
+ ],
+ "notes": "IBAN has 22 digits and must not be a phone. \"Tel./Fax\" = one number for both (work or fax accepted). web.de is a freemail provider, not the company. Title \"Inh.\" (Inhaber = owner).",
+ "o3": {
+  "source": "blind-1/cards/de-19.json",
+  "images": [
+   {
+    "name": "b1-de-19",
+    "font": "AmericanTypewriter",
+    "rotation": -0.13,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 88
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

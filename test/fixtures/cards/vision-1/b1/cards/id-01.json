@@ -1,0 +1,225 @@
+{
+ "id": "id-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "id"
+ ],
+ "card_country": "ID",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "id-ID",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PT Nusantara Boga Tbk",
+     "box": {
+      "x": 0.07924343338084668,
+      "y": 0.05023215707978024,
+      "w": 0.3079318237304688,
+      "h": 0.057139845888587004
+     },
+     "height": 0.057139845888587004,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dewi Lestari Wibowo, S.E., M.M.",
+     "box": {
+      "x": 0.07589724172353343,
+      "y": 0.2182657905625236,
+      "w": 0.5805672836303711,
+      "h": 0.0926493272818194
+     },
+     "height": 0.0926493272818194,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Manajer Pemasaran",
+     "box": {
+      "x": 0.07505029573245622,
+      "y": 0.3043461474977418,
+      "w": 0.2320974349975586,
+      "h": 0.04560037561365071
+     },
+     "height": 0.04560037561365071,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Gedung Graha Boga Lt. 9",
+     "box": {
+      "x": 0.06920197016221195,
+      "y": 0.47476799640708767,
+      "w": 0.25104333877563473,
+      "h": 0.0473864198191285
+     },
+     "height": 0.0473864198191285,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "JI. Jend. Sudirman Kav. 52-53",
+     "box": {
+      "x": 0.06643684996119034,
+      "y": 0.5297792148042052,
+      "w": 0.2783883094787598,
+      "h": 0.04295333656104838
+     },
+     "height": 0.04295333656104838,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Jakarta Selatan 12190",
+     "box": {
+      "x": 0.06637116066310536,
+      "y": 0.580058924624095,
+      "w": 0.2059391975402832,
+      "h": 0.0363103579370212
+     },
+     "height": 0.0363103579370212,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Telp. (021) 5150 8899",
+     "box": {
+      "x": 0.06634288192006117,
+      "y": 0.6314323193095394,
+      "w": 0.20880109786987305,
+      "h": 0.039690293860711656
+     },
+     "height": 0.039690293860711656,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "HP 0812 3456 7890",
+     "box": {
+      "x": 0.0650047744036763,
+      "y": 0.6803094618405715,
+      "w": 0.18986146926879882,
+      "h": 0.03609294044465172
+     },
+     "height": 0.03609294044465172,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "dewi.wibowo@nusantaraboga-co-id.example",
+     "box": {
+      "x": 0.06338772260003597,
+      "y": 0.7311392365559926,
+      "w": 0.3208559799194336,
+      "h": 0.04852468350679262
+     },
+     "height": 0.04852468350679262,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Dewi",
+   "middle": "Lestari",
+   "family": "Wibowo",
+   "suffix": "S.E., M.M.",
+   "full": "Dewi Lestari Wibowo, S.E., M.M."
+  },
+  "otherName": null,
+  "company": "PT Nusantara Boga Tbk",
+  "department": null,
+  "title": "Manajer Pemasaran",
+  "phones": [
+   {
+    "printed": "(021) 5150 8899",
+    "e164": "+622151508899",
+    "type": "work",
+    "label": "Telp.",
+    "ext": null
+   },
+   {
+    "printed": "0812 3456 7890",
+    "e164": "+6281234567890",
+    "type": "mobile",
+    "label": "HP",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dewi.wibowo@nusantaraboga-co-id.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Jl. Jend. Sudirman Kav. 52-53",
+    "extra": "Gedung Graha Boga Lt. 9",
+    "pobox": "",
+    "postcode": "12190",
+    "city": "Jakarta Selatan",
+    "region": "",
+    "country": "",
+    "countryCode": "ID"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "academic-suffixes-with-commas",
+  "pt-tbk",
+  "kav-number-range",
+  "building-floor-line",
+  "hp-label",
+  "ocr-0O",
+  "region-mismatch"
+ ],
+ "notes": "Indonesian academic titles after the name with commas (\"S.E., M.M.\") — not \"FAMILY, Given\". \"HP\" = mobile. \"Kav. 52-53\" is a lot range, not a phone.",
+ "o3": {
+  "source": "blind-1/cards/id-01.json",
+  "images": [
+   {
+    "name": "b1-id-01",
+    "font": "Verdana",
+    "rotation": -1.95,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "id-ID",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 82
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

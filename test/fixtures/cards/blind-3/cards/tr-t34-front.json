@@ -1,0 +1,502 @@
+{
+ "id": "tr-t34-front",
+ "group": "tr-t34",
+ "side": "front",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "tr-TR"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ÇELİK TEKSTİL",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.324,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "ÇELİK",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1246,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "TEKSTİL",
+       "box": {
+        "x": 0.2195,
+        "y": 0.06,
+        "w": 0.1745,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "San. ve Tic. A.Ş.",
+     "box": {
+      "x": 0.07,
+      "y": 0.135,
+      "w": 0.2118,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "San.",
+       "box": {
+        "x": 0.07,
+        "y": 0.135,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "ve",
+       "box": {
+        "x": 0.1323,
+        "y": 0.135,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Tic.",
+       "box": {
+        "x": 0.1697,
+        "y": 0.135,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "A.Ş.",
+       "box": {
+        "x": 0.232,
+        "y": 0.135,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Gökhan Çelik",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.2563,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Gökhan",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.1281,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Çelik",
+       "box": {
+        "x": 0.2195,
+        "y": 0.24,
+        "w": 0.1068,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Genel Müdür",
+     "box": {
+      "x": 0.07,
+      "y": 0.32,
+      "w": 0.141,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Genel",
+       "box": {
+        "x": 0.07,
+        "y": 0.32,
+        "w": 0.0641,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Müdür",
+       "box": {
+        "x": 0.1469,
+        "y": 0.32,
+        "w": 0.0641,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Tel: +90 212 438 17 20",
+     "box": {
+      "x": 0.07,
+      "y": 0.406,
+      "w": 0.2506,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Tel:",
+       "box": {
+        "x": 0.07,
+        "y": 0.406,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.127,
+        "y": 0.406,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "212",
+       "box": {
+        "x": 0.1725,
+        "y": 0.406,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "438",
+       "box": {
+        "x": 0.2181,
+        "y": 0.406,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "17",
+       "box": {
+        "x": 0.2636,
+        "y": 0.406,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "20",
+       "box": {
+        "x": 0.2978,
+        "y": 0.406,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Cep: +90 532 614 28 93",
+     "box": {
+      "x": 0.07,
+      "y": 0.458,
+      "w": 0.2506,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Cep:",
+       "box": {
+        "x": 0.07,
+        "y": 0.458,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "+90",
+       "box": {
+        "x": 0.127,
+        "y": 0.458,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "532",
+       "box": {
+        "x": 0.1725,
+        "y": 0.458,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "614",
+       "box": {
+        "x": 0.2181,
+        "y": 0.458,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "28",
+       "box": {
+        "x": 0.2636,
+        "y": 0.458,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "93",
+       "box": {
+        "x": 0.2978,
+        "y": 0.458,
+        "w": 0.0228,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Merkez Mah. Atatürk Cad. No: 42",
+     "box": {
+      "x": 0.07,
+      "y": 0.51,
+      "w": 0.3311,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Merkez",
+       "box": {
+        "x": 0.07,
+        "y": 0.51,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Mah.",
+       "box": {
+        "x": 0.1448,
+        "y": 0.51,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Atatürk",
+       "box": {
+        "x": 0.1982,
+        "y": 0.51,
+        "w": 0.0748,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Cad.",
+       "box": {
+        "x": 0.2836,
+        "y": 0.51,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.337,
+        "y": 0.51,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "42",
+       "box": {
+        "x": 0.3797,
+        "y": 0.51,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "34197 Bahçelievler / İstanbul",
+     "box": {
+      "x": 0.07,
+      "y": 0.56,
+      "w": 0.3097,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "34197",
+       "box": {
+        "x": 0.07,
+        "y": 0.56,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Bahçelievler",
+       "box": {
+        "x": 0.1341,
+        "y": 0.56,
+        "w": 0.1282,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2729,
+        "y": 0.56,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "İstanbul",
+       "box": {
+        "x": 0.2943,
+        "y": 0.56,
+        "w": 0.0854,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gökhan",
+   "middle": "",
+   "family": "Çelik",
+   "suffix": "",
+   "full": "Gökhan Çelik"
+  },
+  "otherName": null,
+  "company": "ÇELİK TEKSTİL San. ve Tic. A.Ş.",
+  "department": null,
+  "title": "Genel Müdür",
+  "phones": [
+   {
+    "printed": "+90 212 438 17 20",
+    "e164": "+902124381720",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "+90 532 614 28 93",
+    "e164": "+905326142893",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Merkez Mah. Atatürk Cad. No: 42",
+    "extra": "Bahçelievler",
+    "pobox": "",
+    "postcode": "34197",
+    "city": "İstanbul",
+    "region": "",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "ÇELİK TEKSTİL"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "two-sided",
+  "turkish-name",
+  "second-language-back",
+  "ascii-transliteration",
+  "legal-form-only-line",
+  "vat-id",
+  "foreign-region",
+  "district-extra",
+  "family-name-in-company",
+  "dotted-capital-i"
+ ],
+ "notes": "Turkish front: legal form \"San. ve Tic. A.Ş.\" alone on line 2; \"Cep\" = mobile; \"Mah.\" / \"Cad.\" street keywords; \"Bahçelievler / İstanbul\" = district / city. Capital dotted İ in the logo."
+}

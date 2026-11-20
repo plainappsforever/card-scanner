@@ -1,0 +1,31 @@
+appId: ${APP_ID}
+name: Follow-up - reminder asks for notifications only now
+tags:
+  - p7
+---
+# U9: the notification permission is asked the first time a reminder is set (never before).
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+- tapOn:
+    id: "card-row-.*"
+    index: 0
+- assertVisible:
+    id: card-screen
+- tapOn:
+    id: edit-button
+- scrollUntilVisible:
+    element:
+      id: follow-up-button
+- tapOn:
+    id: follow-up-button
+- tapOn:
+    id: choice-tomorrow
+- tapOn:
+    text: "Allow"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      text: ".*Reminder: .*"
+    timeout: 15000

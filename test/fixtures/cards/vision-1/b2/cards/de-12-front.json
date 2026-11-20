@@ -1,0 +1,266 @@
+{
+ "id": "de-12-front",
+ "group": "de-12",
+ "side": "front",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIX",
+     "box": {
+      "x": 0.08088902159809731,
+      "y": 0.013967663189397905,
+      "w": 0.2013850212097168,
+      "h": 0.08851660356558422
+     },
+     "height": 0.08851660356558422,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Antriebstechnik GmbH",
+     "box": {
+      "x": 0.07505760596315281,
+      "y": 0.16864179356611364,
+      "w": 0.27723628997802735,
+      "h": 0.04918883482001457
+     },
+     "height": 0.04918883482001457,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Dr.-Ing. Matthias Krüger",
+     "box": {
+      "x": 0.07629944270206668,
+      "y": 0.24606170773813907,
+      "w": 0.3239551925659179,
+      "h": 0.06405811236171643
+     },
+     "height": 0.06405811236171643,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Forschung & Entwicklung",
+     "box": {
+      "x": 0.0706062692000642,
+      "y": 0.3191250114058327,
+      "w": 0.369122543334961,
+      "h": 0.06932343295182031
+     },
+     "height": 0.06932343295182031,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Robert-Bosch-Straße 22",
+     "box": {
+      "x": 0.0720625084291109,
+      "y": 0.39245816380449083,
+      "w": 0.280233154296875,
+      "h": 0.0520544825373469
+     },
+     "height": 0.0520544825373469,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "73037 Göppingen",
+     "box": {
+      "x": 0.06921710573192115,
+      "y": 0.4687532591373378,
+      "w": 0.22327184677124023,
+      "h": 0.05083892704437132
+     },
+     "height": 0.05083892704437132,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 7161 6 02 18-0",
+     "box": {
+      "x": 0.06800381177304893,
+      "y": 0.5396275630573016,
+      "w": 0.28548370361328124,
+      "h": 0.04636599934699448
+     },
+     "height": 0.04636599934699448,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Durchwahl -214",
+     "box": {
+      "x": 0.0678148364673352,
+      "y": 0.6067362573773918,
+      "w": 0.20014511108398436,
+      "h": 0.04783517329389064
+     },
+     "height": 0.04783517329389064,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Mobil +49 170 4 82 91 37",
+     "box": {
+      "x": 0.06616017066842446,
+      "y": 0.6784258778767417,
+      "w": 0.32108707427978517,
+      "h": 0.06099643486346973
+     },
+     "height": 0.06099643486346973,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "m.krueger@helix-antrieb-de.example",
+     "box": {
+      "x": 0.06490464758546625,
+      "y": 0.7515909435028071,
+      "w": 0.33826457977294916,
+      "h": 0.05879550919109322
+     },
+     "height": 0.05879550919109322,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "www.helix-antrieb.de",
+     "box": {
+      "x": 0.06360477229297334,
+      "y": 0.8249535076507869,
+      "w": 0.2653000450134277,
+      "h": 0.050624847412109375
+     },
+     "height": 0.050624847412109375,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.-Ing.",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Krüger",
+   "suffix": "",
+   "full": "Dr.-Ing. Matthias Krüger"
+  },
+  "otherName": null,
+  "company": "HELIX Antriebstechnik GmbH",
+  "department": "Forschung & Entwicklung",
+  "title": "Leiter",
+  "phones": [
+   {
+    "printed": "+49 7161 6 02 18-0",
+    "e164": "+497161602180",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-214",
+    "e164": "+49716160218214",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+49 170 4 82 91 37",
+    "e164": "+491704829137",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "m.krueger@helix-antrieb-de.example"
+  ],
+  "urls": [
+   "www.helix-antrieb.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Robert-Bosch-Straße 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "73037",
+    "city": "Göppingen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Leiter Forschung & Entwicklung"
+  ],
+  "company": [
+   "HELIX Antriebstechnik"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "second-language",
+  "title-dept-one-line",
+  "durchwahl-composed",
+  "tagline-not-title",
+  "group-line-not-company"
+ ],
+ "notes": "German front: title Leiter + department Forschung & Entwicklung on one line; Durchwahl -214 = +49 7161 60218-214.",
+ "o3": {
+  "source": "blind-2/cards/de-12-front.json",
+  "images": [
+   {
+    "name": "b2-de-12-front",
+    "font": "Optima-Regular",
+    "rotation": -1.75,
+    "noise": 10,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 93
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

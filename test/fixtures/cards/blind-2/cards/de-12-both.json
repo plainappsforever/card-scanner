@@ -1,0 +1,1010 @@
+{
+ "id": "de-12-both",
+ "group": "de-12",
+ "side": "both",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIX",
+     "box": {
+      "x": 0.07,
+      "y": 0.042,
+      "w": 0.2355,
+      "h": 0.13
+     },
+     "height": 0.13,
+     "words": [
+      {
+       "text": "HELIX",
+       "box": {
+        "x": 0.07,
+        "y": 0.042,
+        "w": 0.2355,
+        "h": 0.13
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Antriebstechnik GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.194,
+      "w": 0.3539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Antriebstechnik",
+       "box": {
+        "x": 0.07,
+        "y": 0.194,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.3515,
+        "y": 0.194,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dr.-Ing. Matthias Krüger",
+     "box": {
+      "x": 0.07,
+      "y": 0.266,
+      "w": 0.5016,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dr.-Ing.",
+       "box": {
+        "x": 0.07,
+        "y": 0.266,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Matthias",
+       "box": {
+        "x": 0.2556,
+        "y": 0.266,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Krüger",
+       "box": {
+        "x": 0.4412,
+        "y": 0.266,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Forschung & Entwicklung",
+     "box": {
+      "x": 0.07,
+      "y": 0.348,
+      "w": 0.5183,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Leiter",
+       "box": {
+        "x": 0.07,
+        "y": 0.348,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Forschung",
+       "box": {
+        "x": 0.1884,
+        "y": 0.348,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3612,
+        "y": 0.348,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Entwicklung",
+       "box": {
+        "x": 0.389,
+        "y": 0.348,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Robert-Bosch-Straße 22",
+     "box": {
+      "x": 0.07,
+      "y": 0.42,
+      "w": 0.3902,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Robert-Bosch-Straße",
+       "box": {
+        "x": 0.07,
+        "y": 0.42,
+        "w": 0.3442,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.4239,
+        "y": 0.42,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "73037 Göppingen",
+     "box": {
+      "x": 0.07,
+      "y": 0.492,
+      "w": 0.2634,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "73037",
+       "box": {
+        "x": 0.07,
+        "y": 0.492,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Göppingen",
+       "box": {
+        "x": 0.1703,
+        "y": 0.492,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 7161 6 02 18-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.564,
+      "w": 0.3746,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.564,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.564,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7161",
+       "box": {
+        "x": 0.2162,
+        "y": 0.564,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6",
+       "box": {
+        "x": 0.2984,
+        "y": 0.564,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "02",
+       "box": {
+        "x": 0.3262,
+        "y": 0.564,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "18-0",
+       "box": {
+        "x": 0.3722,
+        "y": 0.564,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Durchwahl -214",
+     "box": {
+      "x": 0.07,
+      "y": 0.636,
+      "w": 0.2452,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Durchwahl",
+       "box": {
+        "x": 0.07,
+        "y": 0.636,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "-214",
+       "box": {
+        "x": 0.2428,
+        "y": 0.636,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Mobil +49 170 4 82 91 37",
+     "box": {
+      "x": 0.07,
+      "y": 0.708,
+      "w": 0.3844,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.708,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1703,
+        "y": 0.708,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "170",
+       "box": {
+        "x": 0.2344,
+        "y": 0.708,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4",
+       "box": {
+        "x": 0.2984,
+        "y": 0.708,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "82",
+       "box": {
+        "x": 0.3262,
+        "y": 0.708,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "91",
+       "box": {
+        "x": 0.3722,
+        "y": 0.708,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "37",
+       "box": {
+        "x": 0.4181,
+        "y": 0.708,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "m.krueger@helix-antrieb-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.78,
+      "w": 0.4711,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "m.krueger@helix-antrieb-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.78,
+        "w": 0.4711,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "www.helix-antrieb.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.852,
+      "w": 0.3624,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.helix-antrieb.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.852,
+        "w": 0.3624,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "back": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "HELIX Drive Technology",
+     "box": {
+      "x": 0.07,
+      "y": 0.1062,
+      "w": 0.6108,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "HELIX",
+       "box": {
+        "x": 0.07,
+        "y": 0.1062,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Drive",
+       "box": {
+        "x": 0.2305,
+        "y": 0.1062,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Technology",
+       "box": {
+        "x": 0.3909,
+        "y": 0.1062,
+        "w": 0.2899,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b1",
+     "text": "Est. 1988",
+     "box": {
+      "x": 0.07,
+      "y": 0.2082,
+      "w": 0.1546,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Est.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2082,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1988",
+       "box": {
+        "x": 0.1522,
+        "y": 0.2082,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b2",
+     "text": "Dr Matthias Kruger",
+     "box": {
+      "x": 0.07,
+      "y": 0.2802,
+      "w": 0.3712,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dr",
+       "box": {
+        "x": 0.07,
+        "y": 0.2802,
+        "w": 0.0435,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Matthias",
+       "box": {
+        "x": 0.1251,
+        "y": 0.2802,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Kruger",
+       "box": {
+        "x": 0.3107,
+        "y": 0.2802,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b3",
+     "text": "Head of Research & Development",
+     "box": {
+      "x": 0.07,
+      "y": 0.3622,
+      "w": 0.5099,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.3622,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1522,
+        "y": 0.3622,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Research",
+       "box": {
+        "x": 0.1981,
+        "y": 0.3622,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.3528,
+        "y": 0.3622,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Development",
+       "box": {
+        "x": 0.3806,
+        "y": 0.3622,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b4",
+     "text": "Head Office",
+     "box": {
+      "x": 0.07,
+      "y": 0.4342,
+      "w": 0.1909,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.07,
+        "y": 0.4342,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Office",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4342,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b5",
+     "text": "Robert-Bosch-Strasse 22, 73037 Goeppingen, Germany",
+     "box": {
+      "x": 0.07,
+      "y": 0.5062,
+      "w": 0.8722,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Robert-Bosch-Strasse",
+       "box": {
+        "x": 0.07,
+        "y": 0.5062,
+        "w": 0.3624,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "22,",
+       "box": {
+        "x": 0.4421,
+        "y": 0.5062,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "73037",
+       "box": {
+        "x": 0.5061,
+        "y": 0.5062,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Goeppingen,",
+       "box": {
+        "x": 0.6064,
+        "y": 0.5062,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Germany",
+       "box": {
+        "x": 0.8154,
+        "y": 0.5062,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b6",
+     "text": "Phone +49 7161 60218-214",
+     "box": {
+      "x": 0.07,
+      "y": 0.5782,
+      "w": 0.4096,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Phone",
+       "box": {
+        "x": 0.07,
+        "y": 0.5782,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5782,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7161",
+       "box": {
+        "x": 0.2344,
+        "y": 0.5782,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "60218-214",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5782,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b7",
+     "text": "Mobile +49 170 4829137",
+     "box": {
+      "x": 0.07,
+      "y": 0.6502,
+      "w": 0.3734,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.07,
+        "y": 0.6502,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1884,
+        "y": 0.6502,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "170",
+       "box": {
+        "x": 0.2525,
+        "y": 0.6502,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4829137",
+       "box": {
+        "x": 0.3165,
+        "y": 0.6502,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "b8",
+     "text": "A member of the Bergmann Group",
+     "box": {
+      "x": 0.07,
+      "y": 0.7222,
+      "w": 0.3009,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "A",
+       "box": {
+        "x": 0.07,
+        "y": 0.7222,
+        "w": 0.0109,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "member",
+       "box": {
+        "x": 0.0867,
+        "y": 0.7222,
+        "w": 0.0652,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1577,
+        "y": 0.7222,
+        "w": 0.0217,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "the",
+       "box": {
+        "x": 0.1853,
+        "y": 0.7222,
+        "w": 0.0326,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Bergmann",
+       "box": {
+        "x": 0.2237,
+        "y": 0.7222,
+        "w": 0.087,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Group",
+       "box": {
+        "x": 0.3165,
+        "y": 0.7222,
+        "w": 0.0544,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.-Ing.",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Krüger",
+   "suffix": "",
+   "full": "Dr.-Ing. Matthias Krüger"
+  },
+  "otherName": null,
+  "company": "HELIX Antriebstechnik GmbH",
+  "department": "Forschung & Entwicklung",
+  "title": "Leiter",
+  "phones": [
+   {
+    "printed": "+49 7161 6 02 18-0",
+    "e164": "+497161602180",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-214",
+    "e164": "+49716160218214",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+49 170 4 82 91 37",
+    "e164": "+491704829137",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "m.krueger@helix-antrieb-de.example"
+  ],
+  "urls": [
+   "www.helix-antrieb.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Robert-Bosch-Straße 22",
+    "extra": "",
+    "pobox": "",
+    "postcode": "73037",
+    "city": "Göppingen",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Leiter Forschung & Entwicklung",
+   "Head of Research & Development",
+   "Head"
+  ],
+  "department": [
+   "Research & Development"
+  ],
+  "company": [
+   "HELIX Antriebstechnik",
+   "HELIX Drive Technology"
+  ],
+  "addresses[0].street": [
+   "Robert-Bosch-Strasse 22"
+  ],
+  "addresses[0].city": [
+   "Goeppingen"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Dr Matthias Krüger",
+   "ocr": "Dr Matthias Kruger",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "two-sided",
+  "second-language",
+  "title-dept-one-line",
+  "durchwahl-composed",
+  "tagline-not-title",
+  "group-line-not-company",
+  "diacritic-lost"
+ ],
+ "notes": "Both sides: UI language German → German values primary, English ones accepted. The back's \"Phone …-214\" is the same number as the front's Durchwahl -214 (one phone, not two)."
+}

@@ -1,0 +1,210 @@
+{
+ "id": "de-22",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Klinikum Birkenhain",
+     "box": {
+      "x": 0.053448898986452525,
+      "y": 0.0478678664156027,
+      "w": 0.33478118896484377,
+      "h": 0.07178520880150518
+     },
+     "height": 0.07178520880150518,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Klinik für Kardiologie",
+     "box": {
+      "x": 0.058139537096590456,
+      "y": 0.138996139770856,
+      "w": 0.22819766998291016,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Prof. Dr. med. habil. Ngozi Adeyemi-Brückner",
+     "box": {
+      "x": 0.05645573345765207,
+      "y": 0.2836425592823729,
+      "w": 0.6763825225830077,
+      "h": 0.06748223765016059
+     },
+     "height": 0.06748223765016059,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Chefärztin",
+     "box": {
+      "x": 0.05940347263889805,
+      "y": 0.37726553183478506,
+      "w": 0.11811165809631347,
+      "h": 0.03694875636156003
+     },
+     "height": 0.03694875636156003,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Prof.-Ernst-Nathan-Str. 1 • 90419 Nürnberg",
+     "box": {
+      "x": 0.058333333189890695,
+      "y": 0.5511583003242576,
+      "w": 0.39999999999999997,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Sekretariat: Tel. 0911 398-2240 • Fax 0911 398-2249",
+     "box": {
+      "x": 0.0593978618973065,
+      "y": 0.6038194425604423,
+      "w": 0.4568136596679688,
+      "h": 0.044709717444931685
+     },
+     "height": 0.044709717444931685,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "ngozi.adeyemi-brueckner@klinikum-",
+     "box": {
+      "x": 0.06071558273136055,
+      "y": 0.6547130186257046,
+      "w": 0.3639896774291992,
+      "h": 0.04783855349861066
+     },
+     "height": 0.04783855349861066,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "birkenhain.de",
+     "box": {
+      "x": 0.06104651390770259,
+      "y": 0.719730941783908,
+      "w": 0.11773255348205565,
+      "h": 0.026905829381758672
+     },
+     "height": 0.026905829381758672,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Prof. Dr. med. habil.",
+   "given": "Ngozi",
+   "middle": "",
+   "family": "Adeyemi-Brückner",
+   "suffix": "",
+   "full": "Prof. Dr. med. habil. Ngozi Adeyemi-Brückner"
+  },
+  "otherName": null,
+  "company": "Klinikum Birkenhain",
+  "department": "Klinik für Kardiologie",
+  "title": "Chefärztin",
+  "phones": [
+   {
+    "printed": "0911 398-2240",
+    "e164": "+499113982240",
+    "type": "work",
+    "label": "Sekretariat: Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0911 398-2249",
+    "e164": "+499113982249",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ngozi.adeyemi-brueckner@klinikum-birkenhain-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Prof.-Ernst-Nathan-Str. 1",
+    "extra": "",
+    "pobox": "",
+    "postcode": "90419",
+    "city": "Nürnberg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "long-prefix-chain",
+  "street-contains-prof",
+  "email-split-across-lines",
+  "real-hyphen-at-line-end",
+  "department-line",
+  "foreign-name"
+ ],
+ "notes": "The e-mail breaks after \"klinikum-\"; the hyphen is part of the domain (join without removing it). The street name starts with \"Prof.\" and must not be read as a name prefix.",
+ "o3": {
+  "source": "blind-1/cards/de-22.json",
+  "images": [
+   {
+    "name": "b1-de-22",
+    "font": "Palatino-Roman",
+    "rotation": 0.81,
+    "noise": 7,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

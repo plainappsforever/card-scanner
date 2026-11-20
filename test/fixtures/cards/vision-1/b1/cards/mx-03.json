@@ -1,0 +1,248 @@
+{
+ "id": "mx-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "funkelfels*",
+     "box": {
+      "x": 0.04962737916084411,
+      "y": 0.06771453059737187,
+      "w": 0.2440109825134277,
+      "h": 0.07548069309543914
+     },
+     "height": 0.07548069309543914,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Kreativagentur Funkelfels GmbH",
+     "box": {
+      "x": 0.05332156562897211,
+      "y": 0.17571566250887816,
+      "w": 0.27719051361083985,
+      "h": 0.04811410646180847
+     },
+     "height": 0.04811410646180847,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Lisa-Marie Kowalczyk",
+     "box": {
+      "x": 0.054476623713351595,
+      "y": 0.32652695151775213,
+      "w": 0.3012303733825683,
+      "h": 0.06916110211817916
+     },
+     "height": 0.06916110211817916,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Senior Account Manager",
+     "box": {
+      "x": 0.05790801162984138,
+      "y": 0.44435528628230014,
+      "w": 0.22139961242675782,
+      "h": 0.03570156391983326
+     },
+     "height": 0.03570156391983326,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "lisa-marie.kowalczyk@funkelfels-de.example",
+     "box": {
+      "x": 0.38173581474409063,
+      "y": 0.41592262373224764,
+      "w": 0.3296237564086914,
+      "h": 0.052642627112193474
+     },
+     "height": 0.052642627112193474,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Office: +49 221 42 13 37-15",
+     "box": {
+      "x": 0.060689164372167995,
+      "y": 0.5790418228207832,
+      "w": 0.227570915222168,
+      "h": 0.04027137977276074
+     },
+     "height": 0.04027137977276074,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobile: +49 175 987 65 43",
+     "box": {
+      "x": 0.06203760018203141,
+      "y": 0.6312941795733834,
+      "w": 0.2190982246398926,
+      "h": 0.04239394581916256
+     },
+     "height": 0.04239394581916256,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "hello@funkelfels-de.example",
+     "box": {
+      "x": 0.062090629548685605,
+      "y": 0.6863783460599419,
+      "w": 0.17234237670898436,
+      "h": 0.038168144962502204
+     },
+     "height": 0.038168144962502204,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Ehrenfeldgürtel 76 | 50823 Köln",
+     "box": {
+      "x": 0.0649016405924927,
+      "y": 0.7334077253425394,
+      "w": 0.258348388671875,
+      "h": 0.04726794327548112
+     },
+     "height": 0.04726794327548112,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "xing.com/profile/LisaMarie_Kowalczyk",
+     "box": {
+      "x": 0.06576133857163019,
+      "y": 0.7717599336365847,
+      "w": 0.32669548034667967,
+      "h": 0.06093655221710803
+     },
+     "height": 0.06093655221710803,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lisa-Marie",
+   "middle": "",
+   "family": "Kowalczyk",
+   "suffix": "",
+   "full": "Lisa-Marie Kowalczyk"
+  },
+  "otherName": null,
+  "company": "Kreativagentur Funkelfels GmbH",
+  "department": null,
+  "title": "Senior Account Manager",
+  "phones": [
+   {
+    "printed": "+49 221 42 13 37-15",
+    "e164": "+4922142133715",
+    "type": "work",
+    "label": "Office:",
+    "ext": null
+   },
+   {
+    "printed": "+49 175 987 65 43",
+    "e164": "+491759876543",
+    "type": "mobile",
+    "label": "Mobile:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "lisa-marie.kowalczyk@funkelfels-de.example",
+   "hello@funkelfels-de.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "xing",
+    "value": "xing.com/profile/LisaMarie_Kowalczyk"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Ehrenfeldgürtel 76",
+    "extra": "",
+    "pobox": "",
+    "postcode": "50823",
+    "city": "Köln",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls"
+ ],
+ "accept": {
+  "company": [
+   "funkelfels"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "merged-columns",
+  "two-emails",
+  "xing",
+  "logo-with-asterisk",
+  "absent-url",
+  "street-word-guertel",
+  "hyphenated-given"
+ ],
+ "notes": "OCR merged the title (left column) and the e-mail (right column) into one line separated by spaces. No website is printed (domain only in e-mails). \"Gürtel\" is a Cologne street type not in common keyword lists.",
+ "o3": {
+  "source": "blind-1/cards/mx-03.json",
+  "images": [
+   {
+    "name": "b1-mx-03",
+    "font": "Baskerville",
+    "rotation": 1.86,
+    "noise": 13,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

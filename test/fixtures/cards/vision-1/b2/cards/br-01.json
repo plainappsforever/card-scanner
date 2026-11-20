@@ -1,0 +1,270 @@
+{
+ "id": "br-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pt"
+ ],
+ "card_country": "BR",
+ "layout": "landscape",
+ "input": {
+  "region": "PT",
+  "uiLang": "pt-BR",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "pt-BR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "oriá",
+     "box": {
+      "x": 0.058550853254942116,
+      "y": 0.0433194434934121,
+      "w": 0.11822245597839356,
+      "h": 0.11580003274453654
+     },
+     "height": 0.11580003274453654,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f1",
+     "text": "tecnologia",
+     "box": {
+      "x": 0.06516570070945178,
+      "y": 0.1907505410322885,
+      "w": 0.14156738281249998,
+      "h": 0.04582636696951736
+     },
+     "height": 0.04582636696951736,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Rafael Oliveira Santos",
+     "box": {
+      "x": 0.06658756465248676,
+      "y": 0.25992637032803856,
+      "w": 0.34063552856445306,
+      "h": 0.05139477556736782
+     },
+     "height": 0.05139477556736782,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Diretor Comercial",
+     "box": {
+      "x": 0.06950252253562013,
+      "y": 0.3401756888814711,
+      "w": 0.24188011169433593,
+      "h": 0.042693872709532066
+     },
+     "height": 0.042693872709532066,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Oriá Tecnologia Ltda.",
+     "box": {
+      "x": 0.06800224232336596,
+      "y": 0.4116767530144494,
+      "w": 0.26941841125488286,
+      "h": 0.04945160339237631
+     },
+     "height": 0.04945160339237631,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Av. Paulista, 1578 - conj. 1203",
+     "box": {
+      "x": 0.06937534234493352,
+      "y": 0.47703422064064993,
+      "w": 0.4297145462036133,
+      "h": 0.06633495640110332
+     },
+     "height": 0.06633495640110332,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Bela Vista - São Paulo - SP",
+     "box": {
+      "x": 0.07091333290101545,
+      "y": 0.5512089080023663,
+      "w": 0.3567556762695312,
+      "h": 0.04863358096266346
+     },
+     "height": 0.04863358096266346,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "CEP 01310-200",
+     "box": {
+      "x": 0.070844355365285,
+      "y": 0.6269016581294317,
+      "w": 0.2187191581726074,
+      "h": 0.04609596038877273
+     },
+     "height": 0.04609596038877273,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Tel.: (11) 3456-7890",
+     "box": {
+      "x": 0.06938033241742055,
+      "y": 0.6961693444621834,
+      "w": 0.29154617309570313,
+      "h": 0.05296812830744557
+     },
+     "height": 0.05296812830744557,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Cel./WhatsApp: (11) 98765-4321",
+     "box": {
+      "x": 0.07092217474146366,
+      "y": 0.7644338981245388,
+      "w": 0.4687148666381836,
+      "h": 0.05875179482242776
+     },
+     "height": 0.05875179482242776,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "rafael@oriatecnologia-com-br.example",
+     "box": {
+      "x": 0.07377128807403452,
+      "y": 0.8378621733825101,
+      "w": 0.39605369567871096,
+      "h": 0.054437154968733026
+     },
+     "height": 0.054437154968733026,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f11",
+     "text": "CNPJ 12.345.678/0001-95",
+     "box": {
+      "x": 0.07250448736220587,
+      "y": 0.9160596434220478,
+      "w": 0.18208444595336915,
+      "h": 0.027919940506629493
+     },
+     "height": 0.027919940506629493,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rafael",
+   "middle": "Oliveira",
+   "family": "Santos",
+   "suffix": "",
+   "full": "Rafael Oliveira Santos"
+  },
+  "otherName": null,
+  "company": "Oriá Tecnologia Ltda.",
+  "department": null,
+  "title": "Diretor Comercial",
+  "phones": [
+   {
+    "printed": "(11) 3456-7890",
+    "e164": "+551134567890",
+    "type": "work",
+    "label": "Tel.:",
+    "ext": null
+   },
+   {
+    "printed": "(11) 98765-4321",
+    "e164": "+5511987654321",
+    "type": "mobile",
+    "label": "Cel./WhatsApp:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "rafael@oriatecnologia-com-br.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Av. Paulista, 1578",
+    "extra": "conj. 1203",
+    "pobox": "",
+    "postcode": "01310-200",
+    "city": "São Paulo",
+    "region": "SP",
+    "country": "",
+    "countryCode": "BR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.family": [
+   "Oliveira Santos"
+  ],
+  "company": [
+   "oriá tecnologia"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "registry-id",
+  "region-from-address",
+  "combined-label",
+  "logo-text",
+  "diacritic-lost"
+ ],
+ "notes": "National \"(11) …\" numbers are Brazilian (address, .br). CNPJ 12.345.678/0001-95 is not a phone. Family Santos (Oliveira Santos accepted). City São Paulo, district Bela Vista.",
+ "o3": {
+  "source": "blind-2/cards/br-01.json",
+  "images": [
+   {
+    "name": "b2-br-01",
+    "font": "Verdana",
+    "rotation": 0.95,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "pt-BR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 104
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,522 @@
+{
+ "id": "de-19",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "pl"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hausmeisterservice Kaczmarek",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.5567,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Hausmeisterservice",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.3634,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Kaczmarek",
+       "box": {
+        "x": 0.445,
+        "y": 0.07,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Inh. Zbigniew Kaczmarek",
+     "box": {
+      "x": 0.07,
+      "y": 0.19,
+      "w": 0.3354,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Inh.",
+       "box": {
+        "x": 0.07,
+        "y": 0.19,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Zbigniew",
+       "box": {
+        "x": 0.1393,
+        "y": 0.19,
+        "w": 0.1211,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Kaczmarek",
+       "box": {
+        "x": 0.2692,
+        "y": 0.19,
+        "w": 0.1363,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Lindenweg 4, 04157 Leipzig",
+     "box": {
+      "x": 0.07,
+      "y": 0.4,
+      "w": 0.3328,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Lindenweg",
+       "box": {
+        "x": 0.07,
+        "y": 0.4,
+        "w": 0.1211,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "4,",
+       "box": {
+        "x": 0.1989,
+        "y": 0.4,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "04157",
+       "box": {
+        "x": 0.2336,
+        "y": 0.4,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Leipzig",
+       "box": {
+        "x": 0.3086,
+        "y": 0.4,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Tel./Fax 0341 9 11 22 33",
+     "box": {
+      "x": 0.07,
+      "y": 0.458,
+      "w": 0.2945,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Tel./Fax",
+       "box": {
+        "x": 0.07,
+        "y": 0.458,
+        "w": 0.1077,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "0341",
+       "box": {
+        "x": 0.1854,
+        "y": 0.458,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.247,
+        "y": 0.458,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.2683,
+        "y": 0.458,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.3029,
+        "y": 0.458,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.3376,
+        "y": 0.458,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Mobil 0157 / 39 87 65 43",
+     "box": {
+      "x": 0.07,
+      "y": 0.516,
+      "w": 0.2888,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.516,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "0157",
+       "box": {
+        "x": 0.1451,
+        "y": 0.516,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.2067,
+        "y": 0.516,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "39",
+       "box": {
+        "x": 0.2279,
+        "y": 0.516,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "87",
+       "box": {
+        "x": 0.2626,
+        "y": 0.516,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "65",
+       "box": {
+        "x": 0.2972,
+        "y": 0.516,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "43",
+       "box": {
+        "x": 0.3319,
+        "y": 0.516,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "hausmeister-kaczmarek @ web.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.574,
+      "w": 0.3924,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "hausmeister-kaczmarek",
+       "box": {
+        "x": 0.07,
+        "y": 0.574,
+        "w": 0.2826,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "@",
+       "box": {
+        "x": 0.3604,
+        "y": 0.574,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "web.de",
+       "box": {
+        "x": 0.3816,
+        "y": 0.574,
+        "w": 0.0808,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "IBAN DE89 3704 0044 0532 0130 00 · Sparkasse Leipzig",
+     "box": {
+      "x": 0.07,
+      "y": 0.82,
+      "w": 0.4865,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "IBAN",
+       "box": {
+        "x": 0.07,
+        "y": 0.82,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "DE89",
+       "box": {
+        "x": 0.1162,
+        "y": 0.82,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "3704",
+       "box": {
+        "x": 0.1624,
+        "y": 0.82,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0044",
+       "box": {
+        "x": 0.2086,
+        "y": 0.82,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0532",
+       "box": {
+        "x": 0.2548,
+        "y": 0.82,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0130",
+       "box": {
+        "x": 0.301,
+        "y": 0.82,
+        "w": 0.0404,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "00",
+       "box": {
+        "x": 0.3472,
+        "y": 0.82,
+        "w": 0.0202,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3732,
+        "y": 0.82,
+        "w": 0.0101,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Sparkasse",
+       "box": {
+        "x": 0.3891,
+        "y": 0.82,
+        "w": 0.0908,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Leipzig",
+       "box": {
+        "x": 0.4858,
+        "y": 0.82,
+        "w": 0.0707,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Zbigniew",
+   "middle": "",
+   "family": "Kaczmarek",
+   "suffix": "",
+   "full": "Zbigniew Kaczmarek"
+  },
+  "otherName": null,
+  "company": "Hausmeisterservice Kaczmarek",
+  "department": null,
+  "title": "Inh.",
+  "phones": [
+   {
+    "printed": "0341 9 11 22 33",
+    "e164": "+493419112233",
+    "type": "work",
+    "label": "Tel./Fax",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "0157 / 39 87 65 43",
+    "e164": "+4915739876543",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "hausmeister-kaczmarek@web-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Lindenweg 4",
+    "extra": "",
+    "pobox": "",
+    "postcode": "04157",
+    "city": "Leipzig",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "hausmeister-kaczmarek@web-de.example",
+   "ocr": "hausmeister-kaczmarek @ web.de",
+   "kinds": [
+    "spaced-at"
+   ]
+  }
+ ],
+ "traps": [
+  "iban",
+  "freemail-domain",
+  "tel-fax-combined-label",
+  "spaced-at",
+  "name-is-company",
+  "foreign-name",
+  "absent-url"
+ ],
+ "notes": "IBAN has 22 digits and must not be a phone. \"Tel./Fax\" = one number for both (work or fax accepted). web.de is a freemail provider, not the company. Title \"Inh.\" (Inhaber = owner)."
+}

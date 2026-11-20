@@ -1,0 +1,230 @@
+{
+ "id": "tr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "region": "TR",
+  "uiLang": "tr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KARAOSMANOĞLU",
+     "box": {
+      "x": 0.06512376701336287,
+      "y": 0.05957985310092839,
+      "w": 0.25195831298828125,
+      "h": 0.052232624481083345
+     },
+     "height": 0.052232624481083345,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Hukuk Bürosu",
+     "box": {
+      "x": 0.0668604654744561,
+      "y": 0.1409266410594523,
+      "w": 0.12063953399658203,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Av. Zeynep Karaosmanoğlu",
+     "box": {
+      "x": 0.06657489188678412,
+      "y": 0.26356036922941506,
+      "w": 0.4003681945800781,
+      "h": 0.06508989960070277
+     },
+     "height": 0.06508989960070277,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Kurucu Ortak",
+     "box": {
+      "x": 0.06956129471928357,
+      "y": 0.3558452400462415,
+      "w": 0.13991117477416992,
+      "h": 0.034743723261770554
+     },
+     "height": 0.034743723261770554,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Büyükdere Cad. No: 185 Kat: 7",
+     "box": {
+      "x": 0.06952500466616257,
+      "y": 0.5259906304811448,
+      "w": 0.26507944107055664,
+      "h": 0.041998367972355566
+     },
+     "height": 0.041998367972355566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "34394 Şişli / İstanbul",
+     "box": {
+      "x": 0.06908535101690141,
+      "y": 0.5717029483230178,
+      "w": 0.19622385025024416,
+      "h": 0.05068602248968768
+     },
+     "height": 0.05068602248968768,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "T: +90 212 345 67 89",
+     "box": {
+      "x": 0.06976744134535678,
+      "y": 0.6341698839833724,
+      "w": 0.191860466003418,
+      "h": 0.033991550386642366
+     },
+     "height": 0.033991550386642366,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Cep: +90 532 123 45 67",
+     "box": {
+      "x": 0.06959402712155786,
+      "y": 0.6848073875656042,
+      "w": 0.2140676689147949,
+      "h": 0.039967017744498845
+     },
+     "height": 0.039967017744498845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "zeynep@karaosmanoglu-av-tr.example",
+     "box": {
+      "x": 0.06957274212721287,
+      "y": 0.7369042173333566,
+      "w": 0.24168798446655276,
+      "h": 0.03996066605262316
+     },
+     "height": 0.03996066605262316,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Av.",
+   "given": "Zeynep",
+   "middle": "",
+   "family": "Karaosmanoğlu",
+   "suffix": "",
+   "full": "Av. Zeynep Karaosmanoğlu"
+  },
+  "otherName": null,
+  "company": "KARAOSMANOĞLU Hukuk Bürosu",
+  "department": null,
+  "title": "Kurucu Ortak",
+  "phones": [
+   {
+    "printed": "+90 212 345 67 89",
+    "e164": "+902123456789",
+    "type": "work",
+    "label": "T:",
+    "ext": null
+   },
+   {
+    "printed": "+90 532 123 45 67",
+    "e164": "+905321234567",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "zeynep@karaosmanoglu-av-tr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Büyükdere Cad. No: 185",
+    "extra": "Kat: 7",
+    "pobox": "",
+    "postcode": "34394",
+    "city": "İstanbul",
+    "region": "Şişli",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "addresses[0].city": [
+   "Şişli / İstanbul"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "slash-district-city",
+  "no-colon-numbers",
+  "kat-floor",
+  "av-prefix",
+  "av.tr-domain",
+  "dotted-capital-I",
+  "name-is-company",
+  "absent-url"
+ ],
+ "notes": "\"Şişli / İstanbul\" = district / city with a spaced slash (segment-split trap). \"No: 185\" and \"Kat: 7\" contain colons.",
+ "o3": {
+  "source": "blind-1/cards/tr-01.json",
+  "images": [
+   {
+    "name": "b1-tr-01",
+    "font": "Optima-Regular",
+    "rotation": 0.64,
+    "noise": 9,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 159
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

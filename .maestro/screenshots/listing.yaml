@@ -1,0 +1,75 @@
+appId: ${APP_ID}
+name: Store screenshots - cards list, review, card, export, my card (RELEASE_KIT 3e; run by scripts/screenshots.sh, not part of the suite)
+tags:
+  - screenshots
+---
+# env: SHOTS = "en" or "de" (file-name prefix). Needs the library built by seed.yaml. Only testIDs and the fictional names are used,
+# so the same steps run in both languages. The back button of iOS is labelled with the previous screen ("Cards" / "Karten").
+- launchApp:
+    stopApp: true
+    permissions:
+      all: unset
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 60000
+- waitForAnimationToEnd
+- takeScreenshot: ${SHOTS}-01-cards
+# 2. Review of the card read from the photo (card image, fields with "Check" marks, text on the card)
+- tapOn: ".*Dwyer.*"
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 20000
+- extendedWaitUntil:
+    notVisible:
+      id: review-reading
+    timeout: 60000
+- waitForAnimationToEnd
+- takeScreenshot: ${SHOTS}-02-review
+- tapOn: "Cards|Karten"
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+# 3. A checked card: Call / Mail / Map, event
+- tapOn: ".*Anna Weber.*"
+- extendedWaitUntil:
+    visible:
+      id: card-screen
+    timeout: 20000
+- waitForAnimationToEnd
+- takeScreenshot: ${SHOTS}-03-card
+- tapOn: "Cards|Karten"
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+# 4. Export sheet
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: export-button
+- extendedWaitUntil:
+    visible:
+      id: export-sheet
+    timeout: 15000
+- waitForAnimationToEnd
+- takeScreenshot: ${SHOTS}-04-export
+- tapOn:
+    id: export-close
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+# 5. My card as a QR code
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: my-card-button
+- extendedWaitUntil:
+    visible:
+      id: my-card-qr
+    timeout: 15000
+- waitForAnimationToEnd
+- takeScreenshot: ${SHOTS}-05-my-card

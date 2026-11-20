@@ -1,0 +1,198 @@
+{
+ "id": "ae-t35-front",
+ "group": "ae-t35",
+ "side": "front",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "AE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "AL NOOR CAPITAL",
+     "box": {
+      "x": 0.07235662342645814,
+      "y": 0.0444188775804345,
+      "w": 0.2942680740356445,
+      "h": 0.04971371654377943
+     },
+     "height": 0.04971371654377943,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Khalid Saeed Al Mansoori",
+     "box": {
+      "x": 0.0738614036938267,
+      "y": 0.172830569439671,
+      "w": 0.3508860778808594,
+      "h": 0.049718687433073505
+     },
+     "height": 0.049718687433073505,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Senior Vice President - Investments",
+     "box": {
+      "x": 0.07096284600262535,
+      "y": 0.25152274173687994,
+      "w": 0.29122171401977537,
+      "h": 0.0343906704523389
+     },
+     "height": 0.0343906704523389,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "T +971 2 633 4400",
+     "box": {
+      "x": 0.07091898003218165,
+      "y": 0.3349964108669965,
+      "w": 0.14299856185913085,
+      "h": 0.028642096574702403
+     },
+     "height": 0.028642096574702403,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "M +971 50 718 2264",
+     "box": {
+      "x": 0.07099343166158895,
+      "y": 0.38533142960457933,
+      "w": 0.15599030494689942,
+      "h": 0.028744904691188067
+     },
+     "height": 0.028744904691188067,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "khalid.almansoori@alnoorcapital-ae.example",
+     "box": {
+      "x": 0.06948442290239115,
+      "y": 0.43294447682543535,
+      "w": 0.2476655387878418,
+      "h": 0.03491674518953425
+     },
+     "height": 0.03491674518953425,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "P.O. Box 113456, Abu Dhabi, United Arab Emirates",
+     "box": {
+      "x": 0.06810107971496254,
+      "y": 0.4835333176133225,
+      "w": 0.3172361183166504,
+      "h": 0.03428357172196439
+     },
+     "height": 0.03428357172196439,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Khalid",
+   "middle": "Saeed",
+   "family": "Al Mansoori",
+   "suffix": "",
+   "full": "Khalid Saeed Al Mansoori"
+  },
+  "otherName": null,
+  "company": "AL NOOR CAPITAL",
+  "department": "Investments",
+  "title": "Senior Vice President",
+  "phones": [
+   {
+    "printed": "+971 2 633 4400",
+    "e164": "+97126334400",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+971 50 718 2264",
+    "e164": "+971507182264",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "khalid.almansoori@alnoorcapital-ae.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "P.O. Box 113456",
+    "postcode": "",
+    "city": "Abu Dhabi",
+    "region": "",
+    "country": "United Arab Emirates",
+    "countryCode": "AE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "arabic-transliteration",
+  "rtl-back",
+  "other-script-name",
+  "pobox",
+  "no-postcode",
+  "title-department-line",
+  "foreign-region",
+  "compound-family-name"
+ ],
+ "notes": "\"Al Mansoori\" is the family name (two tokens). \"Senior Vice President – Investments\" = title – department. Abu Dhabi uses a P.O. Box and no postcode.",
+ "o3": {
+  "source": "blind-3/cards/ae-t35-front.json",
+  "images": [
+   {
+    "name": "b3-ae-t35-front",
+    "font": "Optima-Regular",
+    "rotation": -0.88,
+    "noise": 14,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 125
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

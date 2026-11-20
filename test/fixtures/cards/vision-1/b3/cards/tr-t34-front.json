@@ -1,0 +1,218 @@
+{
+ "id": "tr-t34-front",
+ "group": "tr-t34",
+ "side": "front",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "tr-TR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ÇELİK TEKSTİL",
+     "box": {
+      "x": 0.06747851756336601,
+      "y": 0.04456466938535586,
+      "w": 0.3197365951538086,
+      "h": 0.0774746456661739
+     },
+     "height": 0.0774746456661739,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "San. ve Tic. A.Ş.",
+     "box": {
+      "x": 0.06831395603266721,
+      "y": 0.13416988394846374,
+      "w": 0.14680232048034667,
+      "h": 0.033991550386642366
+     },
+     "height": 0.033991550386642366,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Gökhan Çelik",
+     "box": {
+      "x": 0.06807641618912307,
+      "y": 0.2368651801358841,
+      "w": 0.20986373901367184,
+      "h": 0.057126755880112845
+     },
+     "height": 0.057126755880112845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Genel Müdür",
+     "box": {
+      "x": 0.06831395201359391,
+      "y": 0.3204633204976852,
+      "w": 0.1235465145111084,
+      "h": 0.029312464261146975
+     },
+     "height": 0.029312464261146975,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel: +90 212 438 17 20",
+     "box": {
+      "x": 0.06810934117622289,
+      "y": 0.40753451403024143,
+      "w": 0.18350999832153322,
+      "h": 0.03246380647637215
+     },
+     "height": 0.03246380647637215,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Cep: +90 532 614 28 93",
+     "box": {
+      "x": 0.06962631911436912,
+      "y": 0.45852047021944453,
+      "w": 0.18635190963745119,
+      "h": 0.03293333826838318
+     },
+     "height": 0.03293333826838318,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Merkez Mah. Atatürk Cad. No: 42",
+     "box": {
+      "x": 0.06976744048211465,
+      "y": 0.5086872583986201,
+      "w": 0.26308139801025393,
+      "h": 0.02942933355058952
+     },
+     "height": 0.02942933355058952,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "34197 Bahçelievler / İstanbul",
+     "box": {
+      "x": 0.06786678972994523,
+      "y": 0.5527564092083168,
+      "w": 0.226234188079834,
+      "h": 0.04478242130353183
+     },
+     "height": 0.04478242130353183,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gökhan",
+   "middle": "",
+   "family": "Çelik",
+   "suffix": "",
+   "full": "Gökhan Çelik"
+  },
+  "otherName": null,
+  "company": "ÇELİK TEKSTİL San. ve Tic. A.Ş.",
+  "department": null,
+  "title": "Genel Müdür",
+  "phones": [
+   {
+    "printed": "+90 212 438 17 20",
+    "e164": "+902124381720",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "+90 532 614 28 93",
+    "e164": "+905326142893",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Merkez Mah. Atatürk Cad. No: 42",
+    "extra": "Bahçelievler",
+    "pobox": "",
+    "postcode": "34197",
+    "city": "İstanbul",
+    "region": "",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "ÇELİK TEKSTİL"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "turkish-name",
+  "second-language-back",
+  "ascii-transliteration",
+  "legal-form-only-line",
+  "vat-id",
+  "foreign-region",
+  "district-extra",
+  "family-name-in-company",
+  "dotted-capital-i"
+ ],
+ "notes": "Turkish front: legal form \"San. ve Tic. A.Ş.\" alone on line 2; \"Cep\" = mobile; \"Mah.\" / \"Cad.\" street keywords; \"Bahçelievler / İstanbul\" = district / city. Capital dotted İ in the logo.",
+ "o3": {
+  "source": "blind-3/cards/tr-t34-front.json",
+  "images": [
+   {
+    "name": "b3-tr-t34-front",
+    "font": "Georgia",
+    "rotation": 0.34,
+    "noise": 7,
+    "blur": 0.6,
+    "langs": [
+     "tr-TR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 102
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

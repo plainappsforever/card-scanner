@@ -1,0 +1,236 @@
+{
+ "id": "de-07",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PETER RAUCHEL IMMOBILIEN",
+     "box": {
+      "x": 0.071220928357938,
+      "y": 0.08071748792465105,
+      "w": 0.5174418640136719,
+      "h": 0.05634814892036122
+     },
+     "height": 0.05634814892036122,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Peter Rauchel",
+     "box": {
+      "x": 0.06953419009912074,
+      "y": 0.18380762783319982,
+      "w": 0.17633859634399415,
+      "h": 0.04942510302922898
+     },
+     "height": 0.04942510302922898,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Immobilienmakler (IHK)",
+     "box": {
+      "x": 0.0665567594058657,
+      "y": 0.2669572477370439,
+      "w": 0.2899028396606445,
+      "h": 0.05063311565796835
+     },
+     "height": 0.05063311565796835,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Podbielskistraße 280",
+     "box": {
+      "x": 0.06831394964535732,
+      "y": 0.34266409293358313,
+      "w": 0.25581396102905274,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "30655 Hannover",
+     "box": {
+      "x": 0.06976743749428514,
+      "y": 0.41698841720114643,
+      "w": 0.19767442703247068,
+      "h": 0.03378378378378377
+     },
+     "height": 0.03378378378378377,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Telefon 0511 76 54 32 10",
+     "box": {
+      "x": 0.07083333972092401,
+      "y": 0.480694980678085,
+      "w": 0.3208333206176758,
+      "h": 0.04536679536679533
+     },
+     "height": 0.04536679536679533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0176 22 33 44 55",
+     "box": {
+      "x": 0.0696630760947243,
+      "y": 0.5578305510332902,
+      "w": 0.2821749877929688,
+      "h": 0.03929482095490089
+     },
+     "height": 0.03929482095490089,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "peter@rauchel-immobilien-de.example",
+     "box": {
+      "x": 0.06976743914891227,
+      "y": 0.630044843052358,
+      "w": 0.33866279602050786,
+      "h": 0.042600896827962864
+     },
+     "height": 0.042600896827962864,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "www.rauchel-immobilien.de",
+     "box": {
+      "x": 0.06976744424454974,
+      "y": 0.7017937219760388,
+      "w": 0.31976743698120125,
+      "h": 0.042600896827962864
+     },
+     "height": 0.042600896827962864,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "Erlaubnis nach § 34c GewO • USt-IdNr. DE 287 654 321",
+     "box": {
+      "x": 0.0683139498589534,
+      "y": 0.7731660232845987,
+      "w": 0.3473837280273438,
+      "h": 0.02316602316602323
+     },
+     "height": 0.02316602316602323,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Peter",
+   "middle": "",
+   "family": "Rauchel",
+   "suffix": "",
+   "full": "Peter Rauchel"
+  },
+  "otherName": null,
+  "company": "PETER RAUCHEL IMMOBILIEN",
+  "department": null,
+  "title": "Immobilienmakler (IHK)",
+  "phones": [
+   {
+    "printed": "0511 76 54 32 10",
+    "e164": "+4951176543210",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   },
+   {
+    "printed": "0176 22 33 44 55",
+    "e164": "+4917622334455",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "peter@rauchel-immobilien-de.example"
+  ],
+  "urls": [
+   "www.rauchel-immobilien.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Podbielskistraße 280",
+    "extra": "",
+    "pobox": "",
+    "postcode": "30655",
+    "city": "Hannover",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "name-is-company",
+  "vat-id",
+  "licence-number",
+  "ocr-0O"
+ ],
+ "notes": "Name = Peter Rauchel from the second line; company = the whole logo line (which contains the name). The USt-IdNr. is not a phone. House number 280 has an O for 0.",
+ "o3": {
+  "source": "blind-2/cards/de-07.json",
+  "images": [
+   {
+    "name": "b2-de-07",
+    "font": "TrebuchetMS",
+    "rotation": -0.04,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "id": "ch-x51",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "region": "CH",
+  "uiLang": "fr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hôtel du Lac",
+     "box": {
+      "x": 0.06686046148674339,
+      "y": 0.06053811601210801,
+      "w": 0.2848837280273437,
+      "h": 0.05156950784926251
+     },
+     "height": 0.05156950784926251,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Vaudrey ' depuis 1898",
+     "box": {
+      "x": 0.06516530638508997,
+      "y": 0.15267618465534882,
+      "w": 0.230159912109375,
+      "h": 0.03532951494901804
+     },
+     "height": 0.03532951494901804,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Sophie Aebischer",
+     "box": {
+      "x": 0.06778856881862218,
+      "y": 0.2482144150441019,
+      "w": 0.2583022117614746,
+      "h": 0.05432609793762433
+     },
+     "height": 0.05432609793762433,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Responsable Réception",
+     "box": {
+      "x": 0.06801572542363889,
+      "y": 0.3178666371879729,
+      "w": 0.25345952987670894,
+      "h": 0.0422571800850533
+     },
+     "height": 0.0422571800850533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Grand-Rue 80 • 1820 Vaudrey",
+     "box": {
+      "x": 0.06817947580784021,
+      "y": 0.40474758723274507,
+      "w": 0.29531553268432614,
+      "h": 0.03148611355932518
+     },
+     "height": 0.03148611355932518,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "T +41 21 963 32 81 • F +41 21 963 32 89",
+     "box": {
+      "x": 0.06674209846878341,
+      "y": 0.45436381068363185,
+      "w": 0.3607168197631836,
+      "h": 0.03242575523936153
+     },
+     "height": 0.03242575523936153,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "s.aebischer@hoteldulac-vaudrey-ch.example",
+     "box": {
+      "x": 0.06810756638544287,
+      "y": 0.5019839143557706,
+      "w": 0.31146408081054694,
+      "h": 0.0345945947418802
+     },
+     "height": 0.0345945947418802,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "www.hoteldulac-vaudrey.ch",
+     "box": {
+      "x": 0.06962725668205558,
+      "y": 0.5514055193363605,
+      "w": 0.24735137939453125,
+      "h": 0.03025793753075323
+     },
+     "height": 0.03025793753075323,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sophie",
+   "middle": "",
+   "family": "Aebischer",
+   "suffix": "",
+   "full": "Sophie Aebischer"
+  },
+  "otherName": null,
+  "company": "Hôtel du Lac",
+  "department": null,
+  "title": "Responsable Réception",
+  "phones": [
+   {
+    "printed": "+41 21 963 32 81",
+    "e164": "+41219633281",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+41 21 963 32 89",
+    "e164": "+41219633289",
+    "type": "fax",
+    "label": "F",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "s.aebischer@hoteldulac-vaudrey-ch.example"
+  ],
+  "urls": [
+   "www.hoteldulac-vaudrey.ch"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Grand-Rue 80",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1820",
+    "city": "Vaudrey",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "hotel",
+  "single-letter-labels",
+  "spaced-at",
+  "year-in-tagline",
+  "street-without-keyword"
+ ],
+ "notes": "Swiss French hotel. \"T\"/\"F\" single-letter labels; \"F\" is fax. \"depuis 1898\" is not a number to keep. \"Grand-Rue\" has no street keyword. E-mail with \" @ \".",
+ "o3": {
+  "source": "blind-3/cards/ch-x51.json",
+  "images": [
+   {
+    "name": "b3-ch-x51",
+    "font": "Menlo-Regular",
+    "rotation": 0.77,
+    "noise": 3,
+    "blur": 1.4,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 119
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

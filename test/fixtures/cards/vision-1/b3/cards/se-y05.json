@@ -1,0 +1,179 @@
+{
+ "id": "se-y05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "sv",
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "sv-SE",
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kerstin Holm",
+     "box": {
+      "x": 0.06514565797284337,
+      "y": 0.053994680930391836,
+      "w": 0.2883436775207519,
+      "h": 0.06424348602884067
+     },
+     "height": 0.06424348602884067,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Auktoriserad translator • Staatlich geprüfte Übersetzerin",
+     "box": {
+      "x": 0.06250000625366212,
+      "y": 0.1534749041509561,
+      "w": 0.3833333206176758,
+      "h": 0.038832787841443395
+     },
+     "height": 0.038832787841443395,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Schwedisch • Deutsch • Englisch",
+     "box": {
+      "x": 0.06540697267397345,
+      "y": 0.2062780266885288,
+      "w": 0.26017442703247073,
+      "h": 0.031390134892408494
+     },
+     "height": 0.031390134892408494,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "+49 157 3184 2290",
+     "box": {
+      "x": 0.06659935886767711,
+      "y": 0.3360787716707261,
+      "w": 0.15021270751953125,
+      "h": 0.032264153469483414
+     },
+     "height": 0.032264153469483414,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "kontakt@kerstinholm-se.example",
+     "box": {
+      "x": 0.06674811168512924,
+      "y": 0.38894060063865354,
+      "w": 0.19645463943481445,
+      "h": 0.028539186278825568
+     },
+     "height": 0.028539186278825568,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "kerstinholm.se",
+     "box": {
+      "x": 0.06831395435256116,
+      "y": 0.4417040360613407,
+      "w": 0.11627906799316406,
+      "h": 0.02466367662643365
+     },
+     "height": 0.02466367662643365,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kerstin",
+   "middle": "",
+   "family": "Holm",
+   "suffix": "",
+   "full": "Kerstin Holm"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Auktoriserad translator · Staatlich geprüfte Übersetzerin",
+  "phones": [
+   {
+    "printed": "+49 157 3184 2290",
+    "e164": "+4915731842290",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kontakt@kerstinholm-se.example"
+  ],
+  "urls": [
+   "kerstinholm.se"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Auktoriserad translator",
+   "Staatlich geprüfte Übersetzerin"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "name-equals-business",
+  "domain-stem-equals-name",
+  "absent-company",
+  "absent-address",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "role-email"
+ ],
+ "notes": "Freelance translator: the person is the business, no separate company. The domain stem \"kerstinholm\" equals the name, so the stem rule must not turn the name into a company. Language list is a leftover.",
+ "o3": {
+  "source": "blind-3/cards/se-y05.json",
+  "images": [
+   {
+    "name": "b3-se-y05",
+    "font": "Palatino-Roman",
+    "rotation": 0.79,
+    "noise": 9,
+    "blur": 0,
+    "langs": [
+     "sv-SE",
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 78
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

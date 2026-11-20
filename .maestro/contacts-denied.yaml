@@ -1,0 +1,76 @@
+appId: ${APP_ID}
+name: P8 - Contacts denied, one by one with the system form instead (no repeated prompt)
+tags:
+  - p8
+---
+# SPEC §9: permission denied → no repeated prompts, the state and the system-settings link, and the one-by-one path with
+# the system "new contact" form that needs no permission. The launch resets the permission (not asked yet).
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: basic
+- tapOn:
+    id: select-mode
+- tapOn: ".*Jürgen Müller.*"
+- tapOn:
+    id: selection-contacts
+- tapOn:
+    id: contacts-continue
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - tapOn: "Don’t Allow|Don't Allow"
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - tapOn: "Don’t allow|Don't allow"
+- extendedWaitUntil:
+    visible:
+      id: bulk-denied
+    timeout: 15000
+- assertVisible: "Contacts access is off\\..*"
+- assertVisible: "Open Settings"
+- takeScreenshot: p8-contacts-denied
+# the one-by-one form still opens (no permission needed), and no system prompt appears again
+- tapOn:
+    id: "form-.*"
+- waitForAnimationToEnd
+- assertNotVisible: ".*would like to access your Contacts.*"
+- assertNotVisible: ".*access your contacts\\?.*"
+- runFlow:
+    when:
+      platform: iOS
+    commands:
+      - extendedWaitUntil:
+          visible: "nothing-here-wait-for-the-remote-form"
+          timeout: 4000
+          optional: true
+      - tapOn:
+          point: 38,100
+      - tapOn:
+          text: "Discard Changes"
+          optional: true
+- runFlow:
+    when:
+      platform: Android
+    commands:
+      - back
+- extendedWaitUntil:
+    visible:
+      id: bulk-denied
+    timeout: 15000
+# Settings names the state
+- runFlow: subflows/back.yaml
+- tapOn:
+    id: selection-cancel
+    optional: true
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: settings-button
+- scrollUntilVisible:
+    element:
+      id: contacts-access
+- assertVisible: "Off"

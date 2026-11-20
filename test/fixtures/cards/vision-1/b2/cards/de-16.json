@@ -1,0 +1,221 @@
+{
+ "id": "de-16",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TELLMANN METALLBAU",
+     "box": {
+      "x": 0.06777678851047,
+      "y": 0.10816873522034476,
+      "w": 0.6144562530517579,
+      "h": 0.08499085857140976
+     },
+     "height": 0.08499085857140976,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "GmbH & Co. KG",
+     "box": {
+      "x": 0.06516941990807858,
+      "y": 0.2222901134452493,
+      "w": 0.21559139251708986,
+      "h": 0.0688726874392005
+     },
+     "height": 0.0688726874392005,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Thomas Tellmann Tel. 0231 98765-0",
+     "box": {
+      "x": 0.06664701872497507,
+      "y": 0.3001884484804961,
+      "w": 0.49176700592041006,
+      "h": 0.05303744827918566
+     },
+     "height": 0.05303744827918566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Geschäftsführender Gesellschafter",
+     "box": {
+      "x": 0.06955369093174404,
+      "y": 0.37574073909792005,
+      "w": 0.4451547622680664,
+      "h": 0.04575730106545228
+     },
+     "height": 0.04575730106545228,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Fax 0231 98765-10",
+     "box": {
+      "x": 0.5970991889633406,
+      "y": 0.43824976322690357,
+      "w": 0.25634853363037113,
+      "h": 0.04567983988169089
+     },
+     "height": 0.04567983988169089,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobil 0160 91 23 45 67",
+     "box": {
+      "x": 0.5986066879171232,
+      "y": 0.5109560715316182,
+      "w": 0.2970217895507813,
+      "h": 0.04461354362458336
+     },
+     "height": 0.04461354362458336,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Hafenstraße 9 • 44147 Dortmund",
+     "box": {
+      "x": 0.07242820041948242,
+      "y": 0.5902150920425907,
+      "w": 0.4234553909301758,
+      "h": 0.0457781272505241
+     },
+     "height": 0.0457781272505241,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "t.tellmann@tellmann-metallbau-de.example",
+     "box": {
+      "x": 0.06805022173528914,
+      "y": 0.6607676078845729,
+      "w": 0.4845429992675781,
+      "h": 0.05561222164787383
+     },
+     "height": 0.05561222164787383,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Thomas",
+   "middle": "",
+   "family": "Tellmann",
+   "suffix": "",
+   "full": "Thomas Tellmann"
+  },
+  "otherName": null,
+  "company": "TELLMANN METALLBAU GmbH & Co. KG",
+  "department": null,
+  "title": "Geschäftsführender Gesellschafter",
+  "phones": [
+   {
+    "printed": "0231 98765-0",
+    "e164": "+49231987650",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0231 98765-10",
+    "e164": "+492319876510",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "0160 91 23 45 67",
+    "e164": "+4916091234567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.tellmann@tellmann-metallbau-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hafenstraße 9",
+    "extra": "",
+    "pobox": "",
+    "postcode": "44147",
+    "city": "Dortmund",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "TELLMANN METALLBAU"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "legal-form-line",
+  "name-is-company",
+  "ext-pair",
+  "two-columns",
+  "merged-line"
+ ],
+ "notes": "The OCR joined the left column (name) and right column (Tel.) into one line: name Thomas Tellmann and the phone must both be taken from it. Company = logo + legal-form line.",
+ "o3": {
+  "source": "blind-2/cards/de-16.json",
+  "images": [
+   {
+    "name": "b2-de-16",
+    "font": "ArialMT",
+    "rotation": 0.77,
+    "noise": 2,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 110
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,304 @@
+{
+ "id": "us-c27",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "NORTHWIND FREIGHT",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.4236,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "NORTHWIND",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2243,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "FREIGHT",
+       "box": {
+        "x": 0.3192,
+        "y": 0.06,
+        "w": 0.1744,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "MARCUS O'DONNELL-REYES",
+     "box": {
+      "x": 0.07,
+      "y": 0.2,
+      "w": 0.4308,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "MARCUS",
+       "box": {
+        "x": 0.07,
+        "y": 0.2,
+        "w": 0.1175,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "O'DONNELL-REYES",
+       "box": {
+        "x": 0.2071,
+        "y": 0.2,
+        "w": 0.2937,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "VP, CUSTOMER SUCCESS",
+     "box": {
+      "x": 0.07,
+      "y": 0.275,
+      "w": 0.2492,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "VP,",
+       "box": {
+        "x": 0.07,
+        "y": 0.275,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "CUSTOMER",
+       "box": {
+        "x": 0.1198,
+        "y": 0.275,
+        "w": 0.0997,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "SUCCESS",
+       "box": {
+        "x": 0.232,
+        "y": 0.275,
+        "w": 0.0872,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "C 917.204.6618",
+     "box": {
+      "x": 0.07,
+      "y": 0.37,
+      "w": 0.1744,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "C",
+       "box": {
+        "x": 0.07,
+        "y": 0.37,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "917.204.6618",
+       "box": {
+        "x": 0.0949,
+        "y": 0.37,
+        "w": 0.1495,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "0 646.380.2210 ext. 7",
+     "box": {
+      "x": 0.07,
+      "y": 0.425,
+      "w": 0.2617,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "0",
+       "box": {
+        "x": 0.07,
+        "y": 0.425,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "646.380.2210",
+       "box": {
+        "x": 0.0949,
+        "y": 0.425,
+        "w": 0.1495,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "ext.",
+       "box": {
+        "x": 0.2569,
+        "y": 0.425,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.3192,
+        "y": 0.425,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "marcus.odonnell@northwindfreight-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.48,
+      "w": 0.3845,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "marcus.odonnell@northwindfreight-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.48,
+        "w": 0.3845,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "MARCUS",
+   "middle": "",
+   "family": "O'DONNELL-REYES",
+   "suffix": "",
+   "full": "MARCUS O'DONNELL-REYES"
+  },
+  "otherName": null,
+  "company": "NORTHWIND FREIGHT",
+  "department": "CUSTOMER SUCCESS",
+  "title": "VP",
+  "phones": [
+   {
+    "printed": "917.204.6618",
+    "e164": "+19172046618",
+    "type": "mobile",
+    "label": "C",
+    "ext": null
+   },
+   {
+    "printed": "646.380.2210 ext. 7",
+    "e164": "+16463802210",
+    "type": "work",
+    "label": null,
+    "ext": "7"
+   }
+  ],
+  "emails": [
+   "marcus.odonnell@northwindfreight-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "O 646.380.2210",
+   "ocr": "0 646.380.2210",
+   "kinds": [
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "name-caps",
+  "apostrophe-name",
+  "title-department-line",
+  "single-letter-labels",
+  "extension",
+  "foreign-region",
+  "no-address-foreign",
+  "absent-address",
+  "label-read-as-digit"
+ ],
+ "notes": "All caps. \"VP, CUSTOMER SUCCESS\" = title + department (comma, not N2). The label \"O\" (office) was read as \"0\" and looks like a leading digit: the number is 646.380.2210, not 0646…. Region DE and no address: the numbers carry no +1 and .com is no country hint, only the US number shape points to +1 (truth)."
+}

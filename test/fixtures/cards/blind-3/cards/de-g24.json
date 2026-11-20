@@ -1,0 +1,676 @@
+{
+ "id": "de-g24",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Bezirksamt Wendhorst von Karlshaven",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.43,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Bezirksamt",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1536,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Wendhorst",
+       "box": {
+        "x": 0.2389,
+        "y": 0.06,
+        "w": 0.0921,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "von",
+       "box": {
+        "x": 0.3464,
+        "y": 0.06,
+        "w": 0.0461,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Karlshaven",
+       "box": {
+        "x": 0.4079,
+        "y": 0.06,
+        "w": 0.0921,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Abteilung Stadtentwicklung und Bürgerdienste",
+     "box": {
+      "x": 0.07,
+      "y": 0.125,
+      "w": 0.3759,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "Abteilung",
+       "box": {
+        "x": 0.07,
+        "y": 0.125,
+        "w": 0.0769,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Stadtentwicklung",
+       "box": {
+        "x": 0.1554,
+        "y": 0.125,
+        "w": 0.1367,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.3007,
+        "y": 0.125,
+        "w": 0.0256,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "Bürgerdienste",
+       "box": {
+        "x": 0.3348,
+        "y": 0.125,
+        "w": 0.1111,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Amt für Umwelt und Natur",
+     "box": {
+      "x": 0.07,
+      "y": 0.179,
+      "w": 0.2563,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Amt",
+       "box": {
+        "x": 0.07,
+        "y": 0.179,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.1127,
+        "y": 0.179,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Umwelt",
+       "box": {
+        "x": 0.1554,
+        "y": 0.179,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.2302,
+        "y": 0.179,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Natur",
+       "box": {
+        "x": 0.2729,
+        "y": 0.179,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Fachbereich Naturschutz",
+     "box": {
+      "x": 0.07,
+      "y": 0.229,
+      "w": 0.2129,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Fachbereich",
+       "box": {
+        "x": 0.07,
+        "y": 0.229,
+        "w": 0.1018,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Naturschutz",
+       "box": {
+        "x": 0.1811,
+        "y": 0.229,
+        "w": 0.1018,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Ole Bergströrn",
+     "box": {
+      "x": 0.07,
+      "y": 0.335,
+      "w": 0.2492,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Ole",
+       "box": {
+        "x": 0.07,
+        "y": 0.335,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bergströrn",
+       "box": {
+        "x": 0.1412,
+        "y": 0.335,
+        "w": 0.178,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Sachbearbeiter",
+     "box": {
+      "x": 0.07,
+      "y": 0.405,
+      "w": 0.1495,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Sachbearbeiter",
+       "box": {
+        "x": 0.07,
+        "y": 0.405,
+        "w": 0.1495,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Dienstgebäude",
+     "box": {
+      "x": 0.55,
+      "y": 0.1,
+      "w": 0.1203,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Dienstgebäude",
+       "box": {
+        "x": 0.55,
+        "y": 0.1,
+        "w": 0.1203,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Storkower Str. 97",
+     "box": {
+      "x": 0.55,
+      "y": 0.146,
+      "w": 0.1695,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Storkower",
+       "box": {
+        "x": 0.55,
+        "y": 0.146,
+        "w": 0.0897,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Str.",
+       "box": {
+        "x": 0.6497,
+        "y": 0.146,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "97",
+       "box": {
+        "x": 0.6996,
+        "y": 0.146,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "Haus 4, Zimmer 2.07",
+     "box": {
+      "x": 0.55,
+      "y": 0.194,
+      "w": 0.1894,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Haus",
+       "box": {
+        "x": 0.55,
+        "y": 0.194,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "4,",
+       "box": {
+        "x": 0.5998,
+        "y": 0.194,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Zimmer",
+       "box": {
+        "x": 0.6297,
+        "y": 0.194,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "2.07",
+       "box": {
+        "x": 0.6995,
+        "y": 0.194,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "10407 Karlshaven",
+     "box": {
+      "x": 0.55,
+      "y": 0.242,
+      "w": 0.1196,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "10407",
+       "box": {
+        "x": 0.55,
+        "y": 0.242,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Karlshaven",
+       "box": {
+        "x": 0.6098,
+        "y": 0.242,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f10",
+     "text": "Postanschrift",
+     "box": {
+      "x": 0.55,
+      "y": 0.31,
+      "w": 0.1203,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Postanschrift",
+       "box": {
+        "x": 0.55,
+        "y": 0.31,
+        "w": 0.1203,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f11",
+     "text": "Postfach 73 01 13",
+     "box": {
+      "x": 0.55,
+      "y": 0.356,
+      "w": 0.1695,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Postfach",
+       "box": {
+        "x": 0.55,
+        "y": 0.356,
+        "w": 0.0798,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "73",
+       "box": {
+        "x": 0.6397,
+        "y": 0.356,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "01",
+       "box": {
+        "x": 0.6696,
+        "y": 0.356,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "13",
+       "box": {
+        "x": 0.6996,
+        "y": 0.356,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f12",
+     "text": "13062 Karlshaven",
+     "box": {
+      "x": 0.55,
+      "y": 0.404,
+      "w": 0.1196,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "13062",
+       "box": {
+        "x": 0.55,
+        "y": 0.404,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Karlshaven",
+       "box": {
+        "x": 0.6098,
+        "y": 0.404,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f13",
+     "text": "Tel. (030) 90295-6382",
+     "box": {
+      "x": 0.55,
+      "y": 0.472,
+      "w": 0.2093,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.55,
+        "y": 0.472,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "(030)",
+       "box": {
+        "x": 0.5998,
+        "y": 0.472,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "90295-6382",
+       "box": {
+        "x": 0.6596,
+        "y": 0.472,
+        "w": 0.0997,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f14",
+     "text": "ole.bergstroem@ba-wendhorst-karlshaven-de.example",
+     "box": {
+      "x": 0.55,
+      "y": 0.52,
+      "w": 0.2905,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "ole.bergstroem@ba-wendhorst-karlshaven-de.example",
+       "box": {
+        "x": 0.55,
+        "y": 0.52,
+        "w": 0.2905,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ole",
+   "middle": "",
+   "family": "Bergström",
+   "suffix": "",
+   "full": "Ole Bergström"
+  },
+  "otherName": null,
+  "company": "Bezirksamt Wendhorst von Karlshaven",
+  "department": "Amt für Umwelt und Natur",
+  "title": "Sachbearbeiter",
+  "phones": [
+   {
+    "printed": "(030) 90295-6382",
+    "e164": "+4930902956382",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ole.bergstroem@ba-wendhorst-karlshaven-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Storkower Str. 97",
+    "extra": "Haus 4, Zimmer 2.07",
+    "pobox": "",
+    "postcode": "10407",
+    "city": "Karlshaven",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   },
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postfach 73 01 13",
+    "postcode": "13062",
+    "city": "Karlshaven",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Fachbereich Naturschutz",
+   "Abteilung Stadtentwicklung und Bürgerdienste"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Ole Bergström",
+   "ocr": "Ole Bergströrn",
+   "kinds": [
+    "rn/m"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Bergström",
+   "ocr": "Bergströrn",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "government",
+  "two-column",
+  "two-addresses",
+  "pobox",
+  "pobox-digits",
+  "scandinavian-name",
+  "room-extra",
+  "department-lines",
+  "ocr-rn-m",
+  "amt"
+ ],
+ "notes": "Read column-wise: left = office hierarchy + person, right = visiting address, postal address, phone, e-mail. Two addresses (building with Haus/Zimmer, and Postfach). \"Postfach 73 01 13\" has 6 digits and is not a phone. Three department levels: Abteilung > Amt > Fachbereich (Amt = truth). \"rn\" for \"m\" in the name."
+}

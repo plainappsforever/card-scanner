@@ -1,0 +1,229 @@
+{
+ "id": "tr-y11",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "tr-TR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KARADAG & ERSOY",
+     "box": {
+      "x": 0.07267442288215101,
+      "y": 0.03571428437677049,
+      "w": 0.30232557296752927,
+      "h": 0.07432432432432434
+     },
+     "height": 0.07432432432432434,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Hukuk Bürosu",
+     "box": {
+      "x": 0.07381186344652027,
+      "y": 0.10969788344290266,
+      "w": 0.12563001632690432,
+      "h": 0.03413662118801286
+     },
+     "height": 0.03413662118801286,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Av. Elif Nur Karadağ",
+     "box": {
+      "x": 0.07246712409608659,
+      "y": 0.2166573591701374,
+      "w": 0.25041807174682623,
+      "h": 0.048079072738706374
+     },
+     "height": 0.048079072738706374,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Kurucu Ortak",
+     "box": {
+      "x": 0.07117472849918416,
+      "y": 0.28802385441029776,
+      "w": 0.11788463592529294,
+      "h": 0.02728207967456231
+     },
+     "height": 0.02728207967456231,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Istanbul Barosu Sicil No: 618423",
+     "box": {
+      "x": 0.06945429904827606,
+      "y": 0.338340276757767,
+      "w": 0.22586652755737308,
+      "h": 0.03346324243140497
+     },
+     "height": 0.03346324243140497,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel: +90 212 293 47 18 • Cep: 0533 412 87 05",
+     "box": {
+      "x": 0.06637072011767416,
+      "y": 0.4097572296566949,
+      "w": 0.313115291595459,
+      "h": 0.04356703150686614
+     },
+     "height": 0.04356703150686614,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "elif. karadag@karadagersoy-av-tr.example",
+     "box": {
+      "x": 0.068043122263377,
+      "y": 0.4652917866342082,
+      "w": 0.2185342788696289,
+      "h": 0.03375666850322001
+     },
+     "height": 0.03375666850322001,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Meşrutiyet Cad. No: 88 Kat: 4, 34430 Beyoğlu/İstanbul",
+     "box": {
+      "x": 0.06630271362044397,
+      "y": 0.5024050348838525,
+      "w": 0.3548361206054687,
+      "h": 0.04509674720322299
+     },
+     "height": 0.04509674720322299,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Ortaklar: Av. Elif Nur Karadağ • Av. Mert Ersoy • Av. Deniz Aksu",
+     "box": {
+      "x": 0.0681145485793229,
+      "y": 0.5563912709980792,
+      "w": 0.3376262664794922,
+      "h": 0.03127622052049084
+     },
+     "height": 0.03127622052049084,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Av.",
+   "given": "Elif Nur",
+   "middle": "",
+   "family": "Karadağ",
+   "suffix": "",
+   "full": "Av. Elif Nur Karadağ"
+  },
+  "otherName": null,
+  "company": "KARADAĞ & ERSOY Hukuk Bürosu",
+  "department": null,
+  "title": "Kurucu Ortak",
+  "phones": [
+   {
+    "printed": "+90 212 293 47 18",
+    "e164": "+902122934718",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "0533 412 87 05",
+    "e164": "+905334128705",
+    "type": "mobile",
+    "label": "Cep:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "elif.karadag@karadagersoy-av-tr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Meşrutiyet Cad. No: 88",
+    "extra": "Kat: 4",
+    "pobox": "",
+    "postcode": "34430",
+    "city": "İstanbul",
+    "region": "",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "law-firm",
+  "turkish-name",
+  "two-given-names",
+  "prefix-title",
+  "partner-list",
+  "member-of",
+  "registry-number",
+  "diacritic-lost",
+  "family-name-in-company",
+  "floor-extra",
+  "foreign-region"
+ ],
+ "notes": "\"Av.\" (Avukat) is a prefix; given name \"Elif Nur\" has two parts. Bar registry \"Sicil No: 618423\" (6 digits) is not a phone. The partner list repeats the holder. The logo lost the breve on Ğ. \"Kat: 4\" = floor; Beyoğlu is the district in \"Beyoğlu/İstanbul\".",
+ "o3": {
+  "source": "blind-3/cards/tr-y11.json",
+  "images": [
+   {
+    "name": "b3-tr-y11",
+    "font": "TrebuchetMS",
+    "rotation": -0.95,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "tr-TR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

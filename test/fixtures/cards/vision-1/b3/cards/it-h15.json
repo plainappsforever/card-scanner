@@ -1,0 +1,236 @@
+{
+ "id": "it-h15",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it",
+  "de"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "it-IT",
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HOTEL BERGRAST",
+     "box": {
+      "x": 0.05742763282258785,
+      "y": 0.04760209541558014,
+      "w": 0.48113162994384767,
+      "h": 0.09373221526274811
+     },
+     "height": 0.09373221526274811,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "**** S",
+     "box": {
+      "x": 0.06061789313074307,
+      "y": 0.16834795739503494,
+      "w": 0.07214394569396973,
+      "h": 0.03398916988299161
+     },
+     "height": 0.03398916988299161,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Lukas Pichler",
+     "box": {
+      "x": 0.06480630527188876,
+      "y": 0.27012829654748227,
+      "w": 0.19151866912841797,
+      "h": 0.05117724576972171
+     },
+     "height": 0.05117724576972171,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Direttore • Direktor",
+     "box": {
+      "x": 0.0679713534391328,
+      "y": 0.34960288699214814,
+      "w": 0.16778684616088865,
+      "h": 0.03282093357395488
+     },
+     "height": 0.03282093357395488,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Via Dolomiti 12 / Dolomitenstraße 12",
+     "box": {
+      "x": 0.0679851281960246,
+      "y": 0.42842947997671366,
+      "w": 0.29284835815429694,
+      "h": 0.03785576507391619
+     },
+     "height": 0.03785576507391619,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "I-39040 Castelrotto / Kastelruth (BZ)",
+     "box": {
+      "x": 0.06796810839400226,
+      "y": 0.48101015114092827,
+      "w": 0.2957140922546386,
+      "h": 0.037645152176669194
+     },
+     "height": 0.037645152176669194,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +39 0471 61 23 45",
+     "box": {
+      "x": 0.06939636491098662,
+      "y": 0.539720427296431,
+      "w": 0.17089513778686521,
+      "h": 0.03554535648537416
+     },
+     "height": 0.03554535648537416,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "info@hotel-bergrast-it.example • www.hotel-bergrast.it",
+     "box": {
+      "x": 0.06946105465623827,
+      "y": 0.5838657899001665,
+      "w": 0.35388839721679693,
+      "h": 0.04127390136129605
+     },
+     "height": 0.04127390136129605,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "P.IVA 01234560211",
+     "box": {
+      "x": 0.07087236835143405,
+      "y": 0.6392072662185304,
+      "w": 0.12862898826599123,
+      "h": 0.027862396019305957
+     },
+     "height": 0.027862396019305957,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lukas",
+   "middle": "",
+   "family": "Pichler",
+   "suffix": "",
+   "full": "Lukas Pichler"
+  },
+  "otherName": null,
+  "company": "HOTEL BERGRAST",
+  "department": null,
+  "title": "Direttore · Direktor",
+  "phones": [
+   {
+    "printed": "+39 0471 61 23 45",
+    "e164": "+390471612345",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@hotel-bergrast-it.example"
+  ],
+  "urls": [
+   "www.hotel-bergrast.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Via Dolomiti 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "39040",
+    "city": "Castelrotto",
+    "region": "BZ",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Direttore",
+   "Direktor"
+  ],
+  "addresses[0].street": [
+   "Dolomitenstraße 12"
+  ],
+  "addresses[0].city": [
+   "Kastelruth"
+  ],
+  "addresses[0].postcode": [
+   "I-39040"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "hotel",
+  "bilingual-address",
+  "vat-id",
+  "foreign-region",
+  "stars-symbol",
+  "country-prefixed-postcode",
+  "italian-leading-zero"
+ ],
+ "notes": "South Tyrol: street and town printed in Italian and German separated by \" / \" (either is right). Postcode carries \"I-\". Hotel stars read as \"**** S\". P.IVA has 11 digits and is not a phone.",
+ "o3": {
+  "source": "blind-3/cards/it-h15.json",
+  "images": [
+   {
+    "name": "b3-it-h15",
+    "font": "TimesNewRomanPSMT",
+    "rotation": 1.56,
+    "noise": 6,
+    "blur": 0.6,
+    "langs": [
+     "it-IT",
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 92
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

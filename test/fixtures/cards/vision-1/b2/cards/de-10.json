@@ -1,0 +1,237 @@
+{
+ "id": "de-10",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "fennbit",
+     "box": {
+      "x": 0.0723700065288989,
+      "y": 0.08038314898321386,
+      "w": 0.1923725891113281,
+      "h": 0.0722960026567967
+     },
+     "height": 0.0722960026567967,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Anja Petersen",
+     "box": {
+      "x": 0.07087934650812745,
+      "y": 0.216728872427717,
+      "w": 0.19970308303833006,
+      "h": 0.05278431218563351
+     },
+     "height": 0.05278431218563351,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Projektleiterin Digitalisierung",
+     "box": {
+      "x": 0.07025896587240109,
+      "y": 0.2903069269322849,
+      "w": 0.3346723937988281,
+      "h": 0.06298425298860166
+     },
+     "height": 0.06298425298860166,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "fennbit Software GmbH",
+     "box": {
+      "x": 0.07110959712640412,
+      "y": 0.3714099156400277,
+      "w": 0.28076908111572263,
+      "h": 0.0396040765475123
+     },
+     "height": 0.0396040765475123,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Am Sandtorkai 41 • 20457 Hamburg",
+     "box": {
+      "x": 0.0693761023711108,
+      "y": 0.4328382385242293,
+      "w": 0.45005775451660157,
+      "h": 0.05866968677771145
+     },
+     "height": 0.05866968677771145,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +49 40 822 15 66-31",
+     "box": {
+      "x": 0.06831395575238744,
+      "y": 0.5134529147295164,
+      "w": 0.31540697097778325,
+      "h": 0.042600896827962864
+     },
+     "height": 0.042600896827962864,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil +49 151 70 12 34 56",
+     "box": {
+      "x": 0.0709960183043982,
+      "y": 0.5862267169439667,
+      "w": 0.32311733245849616,
+      "h": 0.043713267705615455
+     },
+     "height": 0.043713267705615455,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "anja.petersen@fennbit-de.example",
+     "box": {
+      "x": 0.0666666632827792,
+      "y": 0.6602564105086345,
+      "w": 0.2958333396911621,
+      "h": 0.03846153789505535
+     },
+     "height": 0.03846153789505535,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f8",
+     "text": "fennbit.de",
+     "box": {
+      "x": 0.06959967630249757,
+      "y": 0.7276408521341666,
+      "w": 0.12687520027160643,
+      "h": 0.03951567204302342
+     },
+     "height": 0.03951567204302342,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "https://fennbit.de/team/anja-petersen",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Anja",
+   "middle": "",
+   "family": "Petersen",
+   "suffix": "",
+   "full": "Anja Petersen"
+  },
+  "otherName": null,
+  "company": "fennbit Software GmbH",
+  "department": null,
+  "title": "Projektleiterin Digitalisierung",
+  "phones": [
+   {
+    "printed": "+49 40 822 15 66-31",
+    "e164": "+4940822156631",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 151 70 12 34 56",
+    "e164": "+4915170123456",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "anja.petersen@fennbit-de.example"
+  ],
+  "urls": [
+   "fennbit.de",
+   "https://fennbit.de/team/anja-petersen"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Sandtorkai 41",
+    "extra": "",
+    "pobox": "",
+    "postcode": "20457",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Projektleiterin"
+  ],
+  "company": [
+   "fennbit"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "qr-url",
+  "ext-in-number",
+  "ocr-5S"
+ ],
+ "notes": "The QR URL is a second website (profile page). Main number has a direct-dial suffix \"-31\" that is part of the number.",
+ "o3": {
+  "source": "blind-2/cards/de-10.json",
+  "images": [
+   {
+    "name": "b2-de-10",
+    "font": "Optima-Regular",
+    "rotation": -0.51,
+    "noise": 1,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 152
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

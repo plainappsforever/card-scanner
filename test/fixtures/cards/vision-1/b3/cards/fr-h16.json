@@ -1,0 +1,233 @@
+{
+ "id": "fr-h16",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Le Comptoir des Tilleuls",
+     "box": {
+      "x": 0.07093134240119923,
+      "y": 0.0525426299715539,
+      "w": 0.42644123077392576,
+      "h": 0.05998681779073467
+     },
+     "height": 0.05998681779073467,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Brasserie lyonnaise depuis 1987",
+     "box": {
+      "x": 0.07083333312206573,
+      "y": 0.1409266414188315,
+      "w": 0.30000000000000004,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Mathilde GARNIER",
+     "box": {
+      "x": 0.07083333640991221,
+      "y": 0.2306949801812902,
+      "w": 0.29583332061767575,
+      "h": 0.04536679536679544
+     },
+     "height": 0.04536679536679544,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Chef de cuisine",
+     "box": {
+      "x": 0.0709366064975405,
+      "y": 0.3103416260293913,
+      "w": 0.14154864311218263,
+      "h": 0.030200166591806354
+     },
+     "height": 0.030200166591806354,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Réservations 04 78 37 21 90",
+     "box": {
+      "x": 0.06637278893859858,
+      "y": 0.3905185643317439,
+      "w": 0.283891716003418,
+      "h": 0.04232397779074415
+     },
+     "height": 0.04232397779074415,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "8, place des Terreaux • 69001 Lyon",
+     "box": {
+      "x": 0.06831395787023699,
+      "y": 0.45270270303634974,
+      "w": 0.2979651069641113,
+      "h": 0.031853281853281956
+     },
+     "height": 0.031853281853281956,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Du mardi au samedi • 12h-14h30 / 19h-22h30",
+     "box": {
+      "x": 0.068204979944755,
+      "y": 0.503705921512033,
+      "w": 0.35193050384521485,
+      "h": 0.031000247793308122
+     },
+     "height": 0.031000247793308122,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "lecomptoirdestilleuls.fr • Instagram @lecomptoirlyon",
+     "box": {
+      "x": 0.06668823576359326,
+      "y": 0.5510713046118719,
+      "w": 0.37385383605957034,
+      "h": 0.03081639485009391
+     },
+     "height": 0.03081639485009391,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "SIRET 812 345 678 00014",
+     "box": {
+      "x": 0.06831395430224088,
+      "y": 0.5984555982409303,
+      "w": 0.17877906799316406,
+      "h": 0.020378482848060653
+     },
+     "height": 0.020378482848060653,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "https://lecomptoirdestilleuls.fr/carte",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mathilde",
+   "middle": "",
+   "family": "GARNIER",
+   "suffix": "",
+   "full": "Mathilde GARNIER"
+  },
+  "otherName": null,
+  "company": "Le Comptoir des Tilleuls",
+  "department": null,
+  "title": "Chef de cuisine",
+  "phones": [
+   {
+    "printed": "04 78 37 21 90",
+    "e164": "+33478372190",
+    "type": "work",
+    "label": "Réservations",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "lecomptoirdestilleuls.fr",
+   "https://lecomptoirdestilleuls.fr/carte"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@lecomptoirlyon"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "8, place des Terreaux",
+    "extra": "",
+    "pobox": "",
+    "postcode": "69001",
+    "city": "Lyon",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "restaurant",
+  "family-caps-n3",
+  "unknown-phone-label",
+  "opening-hours",
+  "registry-number",
+  "year-in-tagline",
+  "qr-url",
+  "absent-email",
+  "foreign-region",
+  "labelled-handle"
+ ],
+ "notes": "French convention: family name in capitals (N3). \"Réservations\" labels the restaurant number (work). Opening hours \"12h–14h30 / 19h–22h30\" and SIRET (14 digits) are not phones. A URL QR code links to the menu page. No e-mail.",
+ "o3": {
+  "source": "blind-3/cards/fr-h16.json",
+  "images": [
+   {
+    "name": "b3-fr-h16",
+    "font": "AmericanTypewriter",
+    "rotation": -0.61,
+    "noise": 7,
+    "blur": 0.6,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 103
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

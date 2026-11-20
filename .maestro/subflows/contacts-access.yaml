@@ -1,0 +1,26 @@
+appId: ${APP_ID}
+---
+# On the bulk screen: if our explanation is shown (Contacts not asked yet on this device), continue and allow full
+# access in the system prompt; if access was granted in an earlier run, the screen goes straight to the choices.
+- runFlow:
+    when:
+      visible:
+        id: contacts-explain
+    commands:
+      - tapOn:
+          id: contacts-continue
+      - runFlow:
+          when:
+            platform: iOS
+          commands:
+            - tapOn: "Continue"
+            - tapOn: "Share All.*"
+      - runFlow:
+          when:
+            platform: Android
+          commands:
+            - tapOn: "Allow"
+- extendedWaitUntil:
+    visible:
+      id: bulk-add-button
+    timeout: 30000

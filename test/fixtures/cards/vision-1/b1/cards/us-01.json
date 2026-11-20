@@ -1,0 +1,263 @@
+{
+ "id": "us-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRIGHTLYRE",
+     "box": {
+      "x": 0.06358421309200973,
+      "y": 0.07670538839068708,
+      "w": 0.18963581085205078,
+      "h": 0.044869614383889034
+     },
+     "height": 0.044869614383889034,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ANALYTICS",
+     "box": {
+      "x": 0.06367167424908012,
+      "y": 0.15523556273365868,
+      "w": 0.10523112297058106,
+      "h": 0.031192602798285174
+     },
+     "height": 0.031192602798285174,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Marcus T. Delacroix-Whitfield",
+     "box": {
+      "x": 0.06627765971982001,
+      "y": 0.276847739536045,
+      "w": 0.4519994354248047,
+      "h": 0.07535625148463898
+     },
+     "height": 0.07535625148463898,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "VP, Enterprise Sales",
+     "box": {
+      "x": 0.06666848438393892,
+      "y": 0.3791271853424407,
+      "w": 0.20257215499877929,
+      "h": 0.04857958237636961
+     },
+     "height": 0.04857958237636961,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Brightlyre Analytics, Inc.",
+     "box": {
+      "x": 0.06945235048639777,
+      "y": 0.5454048895700851,
+      "w": 0.20117122650146485,
+      "h": 0.04094956740449296
+     },
+     "height": 0.04094956740449296,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "350 Fifth Avenue, Suite 4810",
+     "box": {
+      "x": 0.06947846820869366,
+      "y": 0.5928229244316858,
+      "w": 0.2521294975280761,
+      "h": 0.04411741941591951
+     },
+     "height": 0.04411741941591951,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "New York, NY 10118",
+     "box": {
+      "x": 0.07218705729019007,
+      "y": 0.6437108084587471,
+      "w": 0.19006362915039063,
+      "h": 0.04672166095277053
+     },
+     "height": 0.04672166095277053,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "o (212) 555-0147 × 312",
+     "box": {
+      "x": 0.0709270506129808,
+      "y": 0.6987929992990181,
+      "w": 0.20697851181030272,
+      "h": 0.03697366972227356
+     },
+     "height": 0.03697366972227356,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "C 917.555.0193",
+     "box": {
+      "x": 0.3488372093924538,
+      "y": 0.6928251126720207,
+      "w": 0.1395348834991455,
+      "h": 0.03400886380994639
+     },
+     "height": 0.03400886380994639,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "f 212-555-0148",
+     "box": {
+      "x": 0.07097906975448591,
+      "y": 0.7523118650774799,
+      "w": 0.14290422439575196,
+      "h": 0.03356130518968503
+     },
+     "height": 0.03356130518968503,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f10",
+     "text": "marcus.delacroix@brightlyre-analytics-com.example",
+     "box": {
+      "x": 0.07031022428843624,
+      "y": 0.7881244329298596,
+      "w": 0.3718065643310547,
+      "h": 0.05421155023758939
+     },
+     "height": 0.05421155023758939,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Marcus",
+   "middle": "T.",
+   "family": "Delacroix-Whitfield",
+   "suffix": "",
+   "full": "Marcus T. Delacroix-Whitfield"
+  },
+  "otherName": null,
+  "company": "Brightlyre Analytics, Inc.",
+  "department": null,
+  "title": "VP, Enterprise Sales",
+  "phones": [
+   {
+    "printed": "(212) 555-0147 x 312",
+    "e164": "+12125550147",
+    "type": "work",
+    "label": "o",
+    "ext": "312"
+   },
+   {
+    "printed": "917.555.0193",
+    "e164": "+19175550193",
+    "type": "mobile",
+    "label": "c",
+    "ext": null
+   },
+   {
+    "printed": "212-555-0148",
+    "e164": "+12125550148",
+    "type": "fax",
+    "label": "f",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "marcus.delacroix@brightlyre-analytics-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "350 Fifth Avenue",
+    "extra": "Suite 4810",
+    "pobox": "",
+    "postcode": "10118",
+    "city": "New York",
+    "region": "NY",
+    "country": "",
+    "countryCode": "US"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "BRIGHTLYRE ANALYTICS"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "single-letter-lowercase-labels",
+  "extension-x",
+  "dotted-us-phone",
+  "comma-in-title",
+  "suite",
+  "logo-split",
+  "ocr-Il",
+  "region-mismatch",
+  "middle-initial",
+  "absent-url"
+ ],
+ "notes": "Labels o/c/f (office/cell/fax). Title has a comma (\"VP, Enterprise Sales\") — not \"FAMILY, Given\". Phone region DE: numbers have no +1, so the country must come from the US address. Capital I for l in the e-mail domain.",
+ "o3": {
+  "source": "blind-1/cards/us-01.json",
+  "images": [
+   {
+    "name": "b1-us-01",
+    "font": "Optima-Regular",
+    "rotation": 1.33,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 114
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

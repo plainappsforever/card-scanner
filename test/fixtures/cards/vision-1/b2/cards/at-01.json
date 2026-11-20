@@ -1,0 +1,251 @@
+{
+ "id": "at-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "DONAU TREUHAND",
+     "box": {
+      "x": 0.07391385685889912,
+      "y": 0.07012679422580581,
+      "w": 0.4669934463500977,
+      "h": 0.06694468199976622
+     },
+     "height": 0.06694468199976622,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Steuerberatung GmbH",
+     "box": {
+      "x": 0.07100831993924374,
+      "y": 0.18262313804783858,
+      "w": 0.2808662796020508,
+      "h": 0.04992103024339123
+     },
+     "height": 0.04992103024339123,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Mag. Elisabeth Gruber",
+     "box": {
+      "x": 0.07122093429960501,
+      "y": 0.25965251052554583,
+      "w": 0.30232557296752927,
+      "h": 0.05212355212355213
+     },
+     "height": 0.05212355212355213,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Prokuristin",
+     "box": {
+      "x": 0.07111098170943762,
+      "y": 0.3331613275099954,
+      "w": 0.13103384971618653,
+      "h": 0.039955371134989814
+     },
+     "height": 0.039955371134989814,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Schottenring 16/3/12",
+     "box": {
+      "x": 0.06939049162329951,
+      "y": 0.4070496683097887,
+      "w": 0.25648118972778317,
+      "h": 0.05089273047723364
+     },
+     "height": 0.05089273047723364,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "1010 Wien",
+     "box": {
+      "x": 0.07114394001238326,
+      "y": 0.48585225486625394,
+      "w": 0.12515398025512692,
+      "h": 0.0350219476176965
+     },
+     "height": 0.0350219476176965,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +43 1 533 47 80-0, DW 15",
+     "box": {
+      "x": 0.0679867486017437,
+      "y": 0.5507437286220305,
+      "w": 0.3755968475341797,
+      "h": 0.05474396746130983
+     },
+     "height": 0.05474396746130983,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mobil +43 664 123 45 67",
+     "box": {
+      "x": 0.06948422963992612,
+      "y": 0.6239684155517503,
+      "w": 0.3086503028869629,
+      "h": 0.047095943141627905
+     },
+     "height": 0.047095943141627905,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "e.gruber@donau-treuhand-at.example",
+     "box": {
+      "x": 0.06821073039920446,
+      "y": 0.6951255240917138,
+      "w": 0.3374018478393555,
+      "h": 0.04729240373294785
+     },
+     "height": 0.04729240373294785,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "FN 234567 x, HG Wien • UID ATU12345678",
+     "box": {
+      "x": 0.06675232794533535,
+      "y": 0.7710345145876695,
+      "w": 0.27202941894531246,
+      "h": 0.025750696889221936
+     },
+     "height": 0.025750696889221936,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Mag.",
+   "given": "Elisabeth",
+   "middle": "",
+   "family": "Gruber",
+   "suffix": "",
+   "full": "Mag. Elisabeth Gruber"
+  },
+  "otherName": null,
+  "company": "DONAU TREUHAND Steuerberatung GmbH",
+  "department": null,
+  "title": "Prokuristin",
+  "phones": [
+   {
+    "printed": "+43 1 533 47 80-0",
+    "e164": "+43153347800",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "15",
+    "e164": "+431533478015",
+    "type": "work",
+    "label": "DW",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+43 664 123 45 67",
+    "e164": "+436641234567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "e.gruber@donau-treuhand-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Schottenring 16/3/12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1010",
+    "city": "Wien",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "DONAU TREUHAND"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "durchwahl-composed",
+  "registry-id",
+  "vat-id",
+  "region-from-plus-cc",
+  "ocr-1l",
+  "ocr-0O"
+ ],
+ "notes": "\"DW 15\" (Durchwahl) completes +43 1 533 47 80-0 to +43 1 533 47 80 15. Mag. is a prefix. Stiege/Tür notation 16/3/12 belongs to the street. FN and UID are not phones.",
+ "o3": {
+  "source": "blind-2/cards/at-01.json",
+  "images": [
+   {
+    "name": "b2-at-01",
+    "font": "Optima-Regular",
+    "rotation": -0.58,
+    "noise": 9,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 86
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

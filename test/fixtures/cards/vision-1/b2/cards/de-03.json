@@ -1,0 +1,213 @@
+{
+ "id": "de-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Bäckerei Schrambeck",
+     "box": {
+      "x": 0.07626356954297296,
+      "y": 0.09909074904269022,
+      "w": 0.436166877746582,
+      "h": 0.08436751641822138
+     },
+     "height": 0.08436751641822138,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Seit 1952 in Familienbesitz",
+     "box": {
+      "x": 0.0722023226391273,
+      "y": 0.2219796993648897,
+      "w": 0.32361968994140633,
+      "h": 0.049253040298992135
+     },
+     "height": 0.049253040298992135,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Anke Schrambeck",
+     "box": {
+      "x": 0.07078299596143253,
+      "y": 0.29441488700207286,
+      "w": 0.19562772750854493,
+      "h": 0.04919149516632204
+     },
+     "height": 0.04919149516632204,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Hauptstraße 112",
+     "box": {
+      "x": 0.07213157801343265,
+      "y": 0.37392584347561575,
+      "w": 0.20885871887207033,
+      "h": 0.050938304326709205
+     },
+     "height": 0.050938304326709205,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "68259 Mannheim",
+     "box": {
+      "x": 0.06781014568014548,
+      "y": 0.4446073124758858,
+      "w": 0.21179714202880862,
+      "h": 0.04811574685527553
+     },
+     "height": 0.04811574685527553,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 0621 43 21 50 • Fax 0621 43 21 51",
+     "box": {
+      "x": 0.06663808820700645,
+      "y": 0.519478722918868,
+      "w": 0.4583779525756836,
+      "h": 0.0488932731068733
+     },
+     "height": 0.0488932731068733,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "bestellung@baeckerei-schrambeck-de.example",
+     "box": {
+      "x": 0.06788723252195879,
+      "y": 0.5938157709791994,
+      "w": 0.3990241622924805,
+      "h": 0.05298866728558038
+     },
+     "height": 0.05298866728558038,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mo-Fr 6:00-18:30 • Sa 6:00-13:00",
+     "box": {
+      "x": 0.0664667219858854,
+      "y": 0.6609601556559227,
+      "w": 0.4150453567504883,
+      "h": 0.051532671718523826
+     },
+     "height": 0.051532671718523826,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Anke",
+   "middle": "",
+   "family": "Schrambeck",
+   "suffix": "",
+   "full": "Anke Schrambeck"
+  },
+  "otherName": null,
+  "company": "Bäckerei Schrambeck",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "0621 43 21 50",
+    "e164": "+49621432150",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0621 43 21 51",
+    "e164": "+49621432151",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "bestellung@baeckerei-schrambeck-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hauptstraße 112",
+    "extra": "",
+    "pobox": "",
+    "postcode": "68259",
+    "city": "Mannheim",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "tagline-not-title",
+  "ext-pair",
+  "opening-hours",
+  "name-is-company",
+  "year-in-tagline",
+  "absent-title",
+  "diacritic-lost"
+ ],
+ "notes": "Title is absent: the tagline must stay a leftover. Tel …50 / Fax …51 on one line split at \"·\". The opening hours \"6:00–18:30\" are not a phone. Company keeps its umlaut in truth (OCR lost it).",
+ "o3": {
+  "source": "blind-2/cards/de-03.json",
+  "images": [
+   {
+    "name": "b2-de-03",
+    "font": "TrebuchetMS",
+    "rotation": -1.33,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 125
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

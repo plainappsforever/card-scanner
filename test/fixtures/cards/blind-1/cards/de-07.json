@@ -1,0 +1,303 @@
+{
+ "id": "de-07",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Jannik Oberländer",
+     "box": {
+      "x": 0.08,
+      "y": 0.28,
+      "w": 0.502,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "Jannik",
+       "box": {
+        "x": 0.08,
+        "y": 0.28,
+        "w": 0.1817,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "Oberländer",
+       "box": {
+        "x": 0.2792,
+        "y": 0.28,
+        "w": 0.3028,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Fotograf & Videograf",
+     "box": {
+      "x": 0.08,
+      "y": 0.4105,
+      "w": 0.3222,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Fotograf",
+       "box": {
+        "x": 0.08,
+        "y": 0.4105,
+        "w": 0.1346,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2243,
+        "y": 0.4105,
+        "w": 0.0168,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Videograf",
+       "box": {
+        "x": 0.2508,
+        "y": 0.4105,
+        "w": 0.1514,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "0176 / 23 45 67 89",
+     "box": {
+      "x": 0.08,
+      "y": 0.64,
+      "w": 0.2405,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "0176",
+       "box": {
+        "x": 0.08,
+        "y": 0.64,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.1493,
+        "y": 0.64,
+        "w": 0.0151,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.1732,
+        "y": 0.64,
+        "w": 0.0303,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.2122,
+        "y": 0.64,
+        "w": 0.0303,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.2512,
+        "y": 0.64,
+        "w": 0.0303,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.2902,
+        "y": 0.64,
+        "w": 0.0303,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "hallo@jannikoberlaender-de.example",
+     "box": {
+      "x": 0.08,
+      "y": 0.7053,
+      "w": 0.3937,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "hallo@jannikoberlaender-de.example",
+       "box": {
+        "x": 0.08,
+        "y": 0.7053,
+        "w": 0.3937,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "jannikoberlaender.de",
+     "box": {
+      "x": 0.08,
+      "y": 0.7705,
+      "w": 0.3028,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "jannikoberlaender.de",
+       "box": {
+        "x": 0.08,
+        "y": 0.7705,
+        "w": 0.3028,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Instagram: @jannik.shoots",
+     "box": {
+      "x": 0.08,
+      "y": 0.8358,
+      "w": 0.3721,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Instagram:",
+       "box": {
+        "x": 0.08,
+        "y": 0.8358,
+        "w": 0.1514,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "@jannik.shoots",
+       "box": {
+        "x": 0.2401,
+        "y": 0.8358,
+        "w": 0.212,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jannik",
+   "middle": "",
+   "family": "Oberländer",
+   "suffix": "",
+   "full": "Jannik Oberländer"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Fotograf & Videograf",
+  "phones": [
+   {
+    "printed": "0176 / 23 45 67 89",
+    "e164": "+4917623456789",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "hallo@jannikoberlaender-de.example"
+  ],
+  "urls": [
+   "jannikoberlaender.de"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@jannik.shoots"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "no-company",
+  "domain-equals-name",
+  "unlabelled-mobile",
+  "slash-inside-phone",
+  "labelled-handle",
+  "absent-address",
+  "absent-company"
+ ],
+ "notes": "The web domain is the person's name (ä→ae); the \"domain stem = company\" rule must not turn the name into a company. No address."
+}

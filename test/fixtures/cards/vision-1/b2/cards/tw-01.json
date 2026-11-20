@@ -1,0 +1,235 @@
+{
+ "id": "tw-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "zh",
+  "en"
+ ],
+ "card_country": "TW",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "zh-Hant",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "台灣精密科技股份有限公司",
+     "box": {
+      "x": 0.07122092799757627,
+      "y": 0.10313901364569411,
+      "w": 0.3968023300170898,
+      "h": 0.05419689347845236
+     },
+     "height": 0.05419689347845236,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Taiwan Precision Technology Corp.",
+     "box": {
+      "x": 0.06831394987878607,
+      "y": 0.19498069484570735,
+      "w": 0.4098837280273438,
+      "h": 0.04054054054054057
+     },
+     "height": 0.04054054054054057,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "林志明 Jimmy Lin",
+     "box": {
+      "x": 0.06937051217116685,
+      "y": 0.2565407060763675,
+      "w": 0.32635383605957036,
+      "h": 0.07029561370496118
+     },
+     "height": 0.07029561370496118,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "業務經理 Sales Manager",
+     "box": {
+      "x": 0.06964510454784716,
+      "y": 0.35407139904016904,
+      "w": 0.28948810577392575,
+      "h": 0.045409519239742346
+     },
+     "height": 0.045409519239742346,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "114台北市內湖區瑞光路88號5樓",
+     "box": {
+      "x": 0.06666666014737956,
+      "y": 0.4166666670554713,
+      "w": 0.4166666793823242,
+      "h": 0.057692306842583085
+     },
+     "height": 0.057692306842583085,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "TEL：+886-2-2799-1234 ext.568",
+     "box": {
+      "x": 0.06831394589362443,
+      "y": 0.4999999992307069,
+      "w": 0.3866279220581055,
+      "h": 0.04054054054054046
+     },
+     "height": 0.04054054054054046,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Mobile:0912-345-678",
+     "box": {
+      "x": 0.07108618719527428,
+      "y": 0.5687062231904435,
+      "w": 0.2808041572570801,
+      "h": 0.03994168830194067
+     },
+     "height": 0.03994168830194067,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "jimmy.lin@tpyt-com-tw.example",
+     "box": {
+      "x": 0.06831395305676928,
+      "y": 0.6457399095218094,
+      "w": 0.28343023300170894,
+      "h": 0.04055352744908869
+     },
+     "height": 0.04055352744908869,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "統一編號 12345678",
+     "box": {
+      "x": 0.06976744367385809,
+      "y": 0.7152466371537441,
+      "w": 0.12209301948547363,
+      "h": 0.02242152387110874
+     },
+     "height": 0.02242152387110874,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jimmy",
+   "middle": "",
+   "family": "Lin",
+   "suffix": "",
+   "full": "Jimmy Lin"
+  },
+  "otherName": "林志明",
+  "company": "Taiwan Precision Technology Corp.",
+  "department": null,
+  "title": "Sales Manager",
+  "phones": [
+   {
+    "printed": "+886-2-2799-1234 ext. 568",
+    "e164": "+886227991234",
+    "type": "work",
+    "label": "TEL",
+    "ext": "568"
+   },
+   {
+    "printed": "0912-345-678",
+    "e164": "+886912345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jimmy.lin@tpyt-com-tw.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "內湖區瑞光路88號",
+    "extra": "5樓",
+    "pobox": "",
+    "postcode": "114",
+    "city": "台北市",
+    "region": "",
+    "country": "",
+    "countryCode": "TW"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "台灣精密科技股份有限公司"
+  ],
+  "title": [
+   "業務經理"
+  ],
+  "addresses[0].street": [
+   "瑞光路88號"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "second-script",
+  "extension",
+  "tax-id",
+  "region-from-plus-cc",
+  "region-trap-valid-elsewhere",
+  "ocr-rnm"
+ ],
+ "notes": "UI German → Latin name Jimmy Lin primary, 林志明 = otherName. 統一編號 12345678 is the business id. Postcode 114 is glued to 台北市. .corn = OCR of .com.",
+ "o3": {
+  "source": "blind-2/cards/tw-01.json",
+  "images": [
+   {
+    "name": "b2-tw-01",
+    "font": "TrebuchetMS",
+    "rotation": 0.16,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "zh-Hant",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 186
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

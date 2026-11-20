@@ -1,0 +1,242 @@
+{
+ "id": "at-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hrdlicka & Partner",
+     "box": {
+      "x": 0.05656843181935038,
+      "y": 0.05971449310744548,
+      "w": 0.2618631362915039,
+      "h": 0.091333345096544
+     },
+     "height": 0.091333345096544,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Steuerberatung GmbH",
+     "box": {
+      "x": 0.06214132553596313,
+      "y": 0.1626369287725522,
+      "w": 0.18396972656250002,
+      "h": 0.039823653615119414
+     },
+     "height": 0.039823653615119414,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Mag. Leopold Hrdlicka",
+     "box": {
+      "x": 0.06127962226901303,
+      "y": 0.28235032101160296,
+      "w": 0.3942590713500977,
+      "h": 0.09474476700123668
+     },
+     "height": 0.09474476700123668,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Steuerberater",
+     "box": {
+      "x": 0.06789052339804623,
+      "y": 0.3964277068414409,
+      "w": 0.13454360008239746,
+      "h": 0.03745283767523455
+     },
+     "height": 0.03745283767523455,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Wipplingerstraße 21/3/12",
+     "box": {
+      "x": 0.07217037647266761,
+      "y": 0.5756877107810543,
+      "w": 0.22217401504516604,
+      "h": 0.0473637838621398
+     },
+     "height": 0.0473637838621398,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "1010 Wien • Österreich",
+     "box": {
+      "x": 0.07216813736213573,
+      "y": 0.630779245562622,
+      "w": 0.18983287811279298,
+      "h": 0.038632197729869255
+     },
+     "height": 0.038632197729869255,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "T +43 1 533 24 87-0",
+     "box": {
+      "x": 0.07223837327442069,
+      "y": 0.6825049770233826,
+      "w": 0.1781776809692383,
+      "h": 0.037559266256089296
+     },
+     "height": 0.037559266256089296,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "M +43 664 123 45 67",
+     "box": {
+      "x": 0.07369987608076219,
+      "y": 0.7320528336209509,
+      "w": 0.19419050216674805,
+      "h": 0.03913199303233028
+     },
+     "height": 0.03913199303233028,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "office@hrdlicka-stb-at.example",
+     "box": {
+      "x": 0.07508583036567604,
+      "y": 0.7877690482474318,
+      "w": 0.189970703125,
+      "h": 0.04246203595606979
+     },
+     "height": 0.04246203595606979,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "FN 123456a • UID ATU12345678",
+     "box": {
+      "x": 0.07434463908361558,
+      "y": 0.8295966754374828,
+      "w": 0.288765754699707,
+      "h": 0.049854155212755824
+     },
+     "height": 0.049854155212755824,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Mag.",
+   "given": "Leopold",
+   "middle": "",
+   "family": "Hrdlicka",
+   "suffix": "",
+   "full": "Mag. Leopold Hrdlicka"
+  },
+  "otherName": null,
+  "company": "Hrdlicka & Partner Steuerberatung GmbH",
+  "department": null,
+  "title": "Steuerberater",
+  "phones": [
+   {
+    "printed": "+43 1 533 24 87-0",
+    "e164": "+43153324870",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+43 664 123 45 67",
+    "e164": "+436641234567",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "office@hrdlicka-stb-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Wipplingerstraße 21/3/12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1010",
+    "city": "Wien",
+    "region": "",
+    "country": "Österreich",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Hrdlicka & Partner"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "ocr-5S",
+  "at-postcode-4digit",
+  "door-number-slashes",
+  "firmenbuch-and-uid",
+  "mag-prefix",
+  "name-is-company",
+  "company-split-lines"
+ ],
+ "notes": "Austrian 4-digit postcode; \"21/3/12\" = house/stair/door. FN and UID numbers are not phones.",
+ "o3": {
+  "source": "blind-1/cards/at-01.json",
+  "images": [
+   {
+    "name": "b1-at-01",
+    "font": "TimesNewRomanPSMT",
+    "rotation": 1.81,
+    "noise": 2,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 134
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

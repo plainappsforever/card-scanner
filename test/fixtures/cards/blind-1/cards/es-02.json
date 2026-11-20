@@ -1,0 +1,371 @@
+{
+ "id": "es-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ca",
+  "es"
+ ],
+ "card_country": "ES",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Jordi Puigdomènech i Vilaró",
+     "box": {
+      "x": 0.08,
+      "y": 0.15,
+      "w": 0.5195,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Jordi",
+       "box": {
+        "x": 0.08,
+        "y": 0.15,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Puigdomènech",
+       "box": {
+        "x": 0.1926,
+        "y": 0.15,
+        "w": 0.2423,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "i",
+       "box": {
+        "x": 0.4465,
+        "y": 0.15,
+        "w": 0.0202,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Vilaró",
+       "box": {
+        "x": 0.4783,
+        "y": 0.15,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Arquitecte",
+     "box": {
+      "x": 0.08,
+      "y": 0.237,
+      "w": 0.1413,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Arquitecte",
+       "box": {
+        "x": 0.08,
+        "y": 0.237,
+        "w": 0.1413,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "C/ de Provença, 286, 3r 2a",
+     "box": {
+      "x": 0.08,
+      "y": 0.49,
+      "w": 0.3054,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "C/",
+       "box": {
+        "x": 0.08,
+        "y": 0.49,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.1129,
+        "y": 0.49,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Provença,",
+       "box": {
+        "x": 0.1459,
+        "y": 0.49,
+        "w": 0.1151,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "286,",
+       "box": {
+        "x": 0.2683,
+        "y": 0.49,
+        "w": 0.0511,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "3r",
+       "box": {
+        "x": 0.3269,
+        "y": 0.49,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "2a",
+       "box": {
+        "x": 0.3598,
+        "y": 0.49,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "08008 Barcelona",
+     "box": {
+      "x": 0.08,
+      "y": 0.5451,
+      "w": 0.1864,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "08008",
+       "box": {
+        "x": 0.08,
+        "y": 0.5451,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Barcelona",
+       "box": {
+        "x": 0.1513,
+        "y": 0.5451,
+        "w": 0.1151,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "M. 6S4 32 10 98",
+     "box": {
+      "x": 0.08,
+      "y": 0.6002,
+      "w": 0.1702,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "M.",
+       "box": {
+        "x": 0.08,
+        "y": 0.6002,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "6S4",
+       "box": {
+        "x": 0.1129,
+        "y": 0.6002,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "32",
+       "box": {
+        "x": 0.1587,
+        "y": 0.6002,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "10",
+       "box": {
+        "x": 0.1916,
+        "y": 0.6002,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "98",
+       "box": {
+        "x": 0.2246,
+        "y": 0.6002,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "jordi@puigdomenech-arq-cat.example",
+     "box": {
+      "x": 0.08,
+      "y": 0.6553,
+      "w": 0.3324,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "jordi@puigdomenech-arq-cat.example",
+       "box": {
+        "x": 0.08,
+        "y": 0.6553,
+        "w": 0.3324,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "puigdomenech-arq.cat",
+     "box": {
+      "x": 0.08,
+      "y": 0.7104,
+      "w": 0.2557,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "puigdomenech-arq.cat",
+       "box": {
+        "x": 0.08,
+        "y": 0.7104,
+        "w": 0.2557,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "ES",
+  "uiLang": "es"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jordi",
+   "middle": "",
+   "family": "Puigdomènech i Vilaró",
+   "suffix": "",
+   "full": "Jordi Puigdomènech i Vilaró"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Arquitecte",
+  "phones": [
+   {
+    "printed": "654 32 10 98",
+    "e164": "+34654321098",
+    "type": "mobile",
+    "label": "M.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jordi@puigdomenech-arq-cat.example"
+  ],
+  "urls": [
+   "puigdomenech-arq.cat"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "C/ de Provença, 286",
+    "extra": "3r 2a",
+    "pobox": "",
+    "postcode": "08008",
+    "city": "Barcelona",
+    "region": "",
+    "country": "",
+    "countryCode": "ES"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "654 32 10 98",
+   "ocr": "6S4 32 10 98",
+   "kinds": [
+    "5/S"
+   ]
+  }
+ ],
+ "traps": [
+  "ocr-5S",
+  "catalan-i-surname",
+  "C/-street-abbrev",
+  "floor-door",
+  "cat-tld",
+  "absent-company",
+  "leading-zero-postcode"
+ ],
+ "notes": "Catalan double surname joined by \"i\". \"C/\" = carrer (street). \"3r 2a\" = 3rd floor, door 2. No company."
+}

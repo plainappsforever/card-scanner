@@ -1,0 +1,557 @@
+{
+ "id": "de-09",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "S C H R E I N E R E I",
+     "box": {
+      "x": 0.07,
+      "y": 0.0912,
+      "w": 0.2964,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "S",
+       "box": {
+        "x": 0.07,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "C",
+       "box": {
+        "x": 0.0978,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "H",
+       "box": {
+        "x": 0.1256,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "R",
+       "box": {
+        "x": 0.1535,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.1813,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "I",
+       "box": {
+        "x": 0.2091,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "N",
+       "box": {
+        "x": 0.2369,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.2648,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "R",
+       "box": {
+        "x": 0.2926,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "E",
+       "box": {
+        "x": 0.3204,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "I",
+       "box": {
+        "x": 0.3482,
+        "y": 0.0912,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "TANNHOLZ",
+     "box": {
+      "x": 0.07,
+      "y": 0.1632,
+      "w": 0.2392,
+      "h": 0.11
+     },
+     "height": 0.11,
+     "words": [
+      {
+       "text": "TANNHOLZ",
+       "box": {
+        "x": 0.07,
+        "y": 0.1632,
+        "w": 0.2392,
+        "h": 0.11
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Meisterbetrieb seit 1988",
+     "box": {
+      "x": 0.07,
+      "y": 0.2952,
+      "w": 0.418,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Meisterbetrieb",
+       "box": {
+        "x": 0.07,
+        "y": 0.2952,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "seit",
+       "box": {
+        "x": 0.3334,
+        "y": 0.2952,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1988",
+       "box": {
+        "x": 0.4155,
+        "y": 0.2952,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Herrnann Tannholz",
+     "box": {
+      "x": 0.07,
+      "y": 0.3672,
+      "w": 0.316,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Herrnann",
+       "box": {
+        "x": 0.07,
+        "y": 0.3672,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Tannholz",
+       "box": {
+        "x": 0.2556,
+        "y": 0.3672,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Schreinermeister",
+     "box": {
+      "x": 0.07,
+      "y": 0.4492,
+      "w": 0.2899,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Schreinermeister",
+       "box": {
+        "x": 0.07,
+        "y": 0.4492,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Gewerbepark 3 · 97222 Rimpar",
+     "box": {
+      "x": 0.07,
+      "y": 0.5212,
+      "w": 0.4736,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Gewerbepark",
+       "box": {
+        "x": 0.07,
+        "y": 0.5212,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.279,
+        "y": 0.5212,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3068,
+        "y": 0.5212,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "97222",
+       "box": {
+        "x": 0.3346,
+        "y": 0.5212,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Rimpar",
+       "box": {
+        "x": 0.4349,
+        "y": 0.5212,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Tel 09365 8O 71 4O",
+     "box": {
+      "x": 0.07,
+      "y": 0.5932,
+      "w": 0.2925,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.5932,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "09365",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5932,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8O",
+       "box": {
+        "x": 0.2344,
+        "y": 0.5932,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "71",
+       "box": {
+        "x": 0.2803,
+        "y": 0.5932,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4O",
+       "box": {
+        "x": 0.3262,
+        "y": 0.5932,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Mobil0171 5 55 12 34",
+     "box": {
+      "x": 0.07,
+      "y": 0.6652,
+      "w": 0.3287,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil0171",
+       "box": {
+        "x": 0.07,
+        "y": 0.6652,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "5",
+       "box": {
+        "x": 0.2428,
+        "y": 0.6652,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "55",
+       "box": {
+        "x": 0.2706,
+        "y": 0.6652,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.3165,
+        "y": 0.6652,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.3625,
+        "y": 0.6652,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "info@schreinerei-tannholz-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7372,
+      "w": 0.4711,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "info@schreinerei-tannholz-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7372,
+        "w": 0.4711,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Hermann",
+   "middle": "",
+   "family": "Tannholz",
+   "suffix": "",
+   "full": "Hermann Tannholz"
+  },
+  "otherName": null,
+  "company": "Schreinerei Tannholz",
+  "department": null,
+  "title": "Schreinermeister",
+  "phones": [
+   {
+    "printed": "09365 80 71 40",
+    "e164": "+499365807140",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "0171 5 55 12 34",
+    "e164": "+491715551234",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@schreinerei-tannholz-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gewerbepark 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "97222",
+    "city": "Rimpar",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [
+  "company"
+ ],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Hermann Tannholz",
+   "ocr": "Herrnann Tannholz",
+   "kinds": [
+    "rn/m"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Hermann",
+   "ocr": "Herrnann",
+   "kinds": [
+    "rn/m"
+   ]
+  },
+  {
+   "path": "phones[0].printed",
+   "printed": "09365 80 71 40",
+   "ocr": "09365 8O 71 4O",
+   "kinds": [
+    "0/O"
+   ]
+  },
+  {
+   "path": "text",
+   "printed": "Mobil 0171",
+   "ocr": "Mobil0171",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "logo-letter-spaced",
+  "tagline-not-title",
+  "year-in-tagline",
+  "glued-label",
+  "name-is-company",
+  "ocr-rnm",
+  "ocr-0O",
+  "dropped-space"
+ ],
+ "notes": "Company composed from the letter-spaced logo and TANNHOLZ. \"Meisterbetrieb seit 1988\" is a tagline, the title is Schreinermeister. \"Herrnann\" = Hermann."
+}

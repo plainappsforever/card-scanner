@@ -1,0 +1,358 @@
+{
+ "id": "se-y05",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "sv",
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "sv-SE",
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kerstin Ho|m",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3418,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Kerstin",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1994,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Ho|m",
+       "box": {
+        "x": 0.2979,
+        "y": 0.06,
+        "w": 0.1139,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Auktoriserad translator · Staatlich geprüfte Übersetzerin",
+     "box": {
+      "x": 0.07,
+      "y": 0.16,
+      "w": 0.5276,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Auktoriserad",
+       "box": {
+        "x": 0.07,
+        "y": 0.16,
+        "w": 0.1111,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "translator",
+       "box": {
+        "x": 0.1903,
+        "y": 0.16,
+        "w": 0.0926,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2921,
+        "y": 0.16,
+        "w": 0.0093,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Staatlich",
+       "box": {
+        "x": 0.3107,
+        "y": 0.16,
+        "w": 0.0833,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "geprüfte",
+       "box": {
+        "x": 0.4032,
+        "y": 0.16,
+        "w": 0.074,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Übersetzerin",
+       "box": {
+        "x": 0.4865,
+        "y": 0.16,
+        "w": 0.1111,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Schwedisch · Deutsch · Englisch",
+     "box": {
+      "x": 0.07,
+      "y": 0.206,
+      "w": 0.3532,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Schwedisch",
+       "box": {
+        "x": 0.07,
+        "y": 0.206,
+        "w": 0.1139,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1953,
+        "y": 0.206,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Deutsch",
+       "box": {
+        "x": 0.2181,
+        "y": 0.206,
+        "w": 0.0798,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3093,
+        "y": 0.206,
+        "w": 0.0114,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Englisch",
+       "box": {
+        "x": 0.3321,
+        "y": 0.206,
+        "w": 0.0911,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "+49 157 3184 2290",
+     "box": {
+      "x": 0.07,
+      "y": 0.338,
+      "w": 0.1937,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.07,
+        "y": 0.338,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "157",
+       "box": {
+        "x": 0.1156,
+        "y": 0.338,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "3184",
+       "box": {
+        "x": 0.1612,
+        "y": 0.338,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "2290",
+       "box": {
+        "x": 0.2181,
+        "y": 0.338,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "kontakt@kerstinholm-se.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.39,
+      "w": 0.235,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "kontakt@kerstinholm-se.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.39,
+        "w": 0.235,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "kerstinholm.se",
+     "box": {
+      "x": 0.07,
+      "y": 0.44,
+      "w": 0.1495,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "kerstinholm.se",
+       "box": {
+        "x": 0.07,
+        "y": 0.44,
+        "w": 0.1495,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kerstin",
+   "middle": "",
+   "family": "Holm",
+   "suffix": "",
+   "full": "Kerstin Holm"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Auktoriserad translator · Staatlich geprüfte Übersetzerin",
+  "phones": [
+   {
+    "printed": "+49 157 3184 2290",
+    "e164": "+4915731842290",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kontakt@kerstinholm-se.example"
+  ],
+  "urls": [
+   "kerstinholm.se"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Auktoriserad translator",
+   "Staatlich geprüfte Übersetzerin"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Kerstin Holm",
+   "ocr": "Kerstin Ho|m",
+   "kinds": [
+    "1/l"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Holm",
+   "ocr": "Ho|m",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "name-equals-business",
+  "domain-stem-equals-name",
+  "absent-company",
+  "absent-address",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "role-email"
+ ],
+ "notes": "Freelance translator: the person is the business, no separate company. The domain stem \"kerstinholm\" equals the name, so the stem rule must not turn the name into a company. Language list is a leftover."
+}

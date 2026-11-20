@@ -1,0 +1,235 @@
+{
+ "id": "hk-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "zh"
+ ],
+ "card_country": "HK",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "zh-Hant",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "海線航運（香港）有限公司",
+     "box": {
+      "x": 0.061870111721877875,
+      "y": 0.07241790008453841,
+      "w": 0.27604726791381834,
+      "h": 0.05629326662041512
+     },
+     "height": 0.05629326662041512,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Harbourline Shipping （HK） Limited",
+     "box": {
+      "x": 0.062110257942893196,
+      "y": 0.1317737671821524,
+      "w": 0.2989371871948242,
+      "h": 0.04723976385639439
+     },
+     "height": 0.04723976385639439,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Kelvin WONG Ka-Ming",
+     "box": {
+      "x": 0.06510439498639191,
+      "y": 0.2702372027583644,
+      "w": 0.40607330322265617,
+      "h": 0.06017740536840721
+     },
+     "height": 0.06017740536840721,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "黃家明",
+     "box": {
+      "x": 0.0676710226671096,
+      "y": 0.3701449252619,
+      "w": 0.0841145420074463,
+      "h": 0.05003943498530439
+     },
+     "height": 0.05003943498530439,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Operations Manager",
+     "box": {
+      "x": 0.06791265433421573,
+      "y": 0.4581275611650911,
+      "w": 0.18398353576660154,
+      "h": 0.04314556637325806
+     },
+     "height": 0.04314556637325806,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Unit 1203, 12/E, Tower 2, Times Square",
+     "box": {
+      "x": 0.07028563232965493,
+      "y": 0.5876115060201124,
+      "w": 0.3176912307739258,
+      "h": 0.050970055421807214
+     },
+     "height": 0.050970055421807214,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "1 Matheson Street, Causeway Bay, Hong Kong",
+     "box": {
+      "x": 0.07031309572293783,
+      "y": 0.632900226597149,
+      "w": 0.3676353073120117,
+      "h": 0.05018098013741634
+     },
+     "height": 0.05018098013741634,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "T+852 2345 6789 M +852 9123 4567",
+     "box": {
+      "x": 0.07035753792768588,
+      "y": 0.6782059293601013,
+      "w": 0.3220092391967773,
+      "h": 0.053102091932849094
+     },
+     "height": 0.053102091932849094,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "kelvin.wong@harbourline-com-hk.example",
+     "box": {
+      "x": 0.07055213016648441,
+      "y": 0.7299020548113682,
+      "w": 0.2839208793640136,
+      "h": 0.04247685288830616
+     },
+     "height": 0.04247685288830616,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kelvin",
+   "middle": "Ka-Ming",
+   "family": "WONG",
+   "suffix": "",
+   "full": "Kelvin WONG Ka-Ming"
+  },
+  "otherName": "黃家明",
+  "company": "Harbourline Shipping (HK) Limited",
+  "department": null,
+  "title": "Operations Manager",
+  "phones": [
+   {
+    "printed": "+852 2345 6789",
+    "e164": "+85223456789",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+852 9123 4567",
+    "e164": "+85291234567",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "kelvin.wong@harbourline-com-hk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "1 Matheson Street",
+    "extra": "Unit 1203, 12/F, Tower 2, Times Square",
+    "pobox": "",
+    "postcode": "",
+    "city": "Causeway Bay",
+    "region": "",
+    "country": "Hong Kong",
+    "countryCode": "HK"
+   }
+  ]
+ },
+ "absent": [
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "海線航運(香港)有限公司"
+  ],
+  "name.given": [
+   "Ka-Ming"
+  ],
+  "addresses[0].city": [
+   "Hong Kong"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "hk-no-postcode",
+  "english-plus-chinese-given",
+  "caps-family-in-middle",
+  "floor-12/F",
+  "unit-line",
+  "other-name-script",
+  "two-phones-one-line"
+ ],
+ "notes": "Hong Kong style: English given name, family in caps, Chinese given name romanised after it. Hong Kong has no postcode. \"12/F\" = 12th floor.",
+ "o3": {
+  "source": "blind-1/cards/hk-01.json",
+  "images": [
+   {
+    "name": "b1-hk-01",
+    "font": "Georgia",
+    "rotation": 1.67,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "zh-Hant",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 224
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

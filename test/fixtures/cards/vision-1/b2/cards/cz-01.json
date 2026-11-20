@@ -1,0 +1,226 @@
+{
+ "id": "cz-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "cs"
+ ],
+ "card_country": "CZ",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "cs-CZ",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "MORAVSKÁ STROJÍRNA a.s.",
+     "box": {
+      "x": 0.06357033936866006,
+      "y": 0.09806518342954396,
+      "w": 0.4584688949584961,
+      "h": 0.06705036678829701
+     },
+     "height": 0.06705036678829701,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ing. Tomáš Dvořák, Ph.D.",
+     "box": {
+      "x": 0.06230929514731727,
+      "y": 0.20075162736673247,
+      "w": 0.328836784362793,
+      "h": 0.06201541561877866
+     },
+     "height": 0.06201541561877866,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "obchodní ředitel",
+     "box": {
+      "x": 0.06330888537434476,
+      "y": 0.2845156781599283,
+      "w": 0.1901892852783203,
+      "h": 0.0494494419760686
+     },
+     "height": 0.0494494419760686,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Hybešova 42",
+     "box": {
+      "x": 0.06783120764300139,
+      "y": 0.363881513183541,
+      "w": 0.1361098289489746,
+      "h": 0.04050665012197607
+     },
+     "height": 0.04050665012197607,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "602 00 Brno",
+     "box": {
+      "x": 0.06648137065379384,
+      "y": 0.43305297342356397,
+      "w": 0.14305569648742675,
+      "h": 0.04146985749940624
+     },
+     "height": 0.04146985749940624,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "tel.: +420 543 210 987",
+     "box": {
+      "x": 0.06468484711095676,
+      "y": 0.5000373823273798,
+      "w": 0.24418224334716795,
+      "h": 0.05397400248464923
+     },
+     "height": 0.05397400248464923,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "mobil: +420 602 345 678",
+     "box": {
+      "x": 0.06924440317502366,
+      "y": 0.570905957026841,
+      "w": 0.2728993225097656,
+      "h": 0.05167765967173921
+     },
+     "height": 0.05167765967173921,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "tomas.dvorak@moravska-strojirna-cz.example",
+     "box": {
+      "x": 0.06943933844448293,
+      "y": 0.6388266864406775,
+      "w": 0.4090826797485352,
+      "h": 0.051601115340891957
+     },
+     "height": 0.051601115340891957,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "ICO: 12345678 - DIČ: CZ12345678",
+     "box": {
+      "x": 0.07230737151495624,
+      "y": 0.718314495757967,
+      "w": 0.18965822219848633,
+      "h": 0.03261374322604027
+     },
+     "height": 0.03261374322604027,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ing.",
+   "given": "Tomáš",
+   "middle": "",
+   "family": "Dvořák",
+   "suffix": "Ph.D.",
+   "full": "Ing. Tomáš Dvořák, Ph.D."
+  },
+  "otherName": null,
+  "company": "MORAVSKÁ STROJÍRNA a.s.",
+  "department": null,
+  "title": "obchodní ředitel",
+  "phones": [
+   {
+    "printed": "+420 543 210 987",
+    "e164": "+420543210987",
+    "type": "work",
+    "label": "tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+420 602 345 678",
+    "e164": "+420602345678",
+    "type": "mobile",
+    "label": "mobil:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "tomas.dvorak@moravska-strojirna-cz.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hybešova 42",
+    "extra": "",
+    "pobox": "",
+    "postcode": "602 00",
+    "city": "Brno",
+    "region": "",
+    "country": "",
+    "countryCode": "CZ"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "credential-suffix",
+  "registry-id",
+  "vat-id",
+  "postcode-like-phone",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Postcode 602 00 is not part of a phone; IČO 12345678 and DIČ are not phones. Title \"obchodní ředitel\" (lower case, as printed).",
+ "o3": {
+  "source": "blind-2/cards/cz-01.json",
+  "images": [
+   {
+    "name": "b2-cz-01",
+    "font": "AvenirNext-Regular",
+    "rotation": 1.48,
+    "noise": 12,
+    "blur": 1.4,
+    "langs": [
+     "cs-CZ",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 102
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

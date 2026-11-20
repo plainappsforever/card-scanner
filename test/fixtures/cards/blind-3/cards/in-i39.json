@@ -1,0 +1,609 @@
+{
+ "id": "in-i39",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VARUNAM AUTO COMPONENTS PVT. LTD.",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.5447,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "VARUNAM",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1282,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "AUTO",
+       "box": {
+        "x": 0.2142,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "COMPONENTS",
+       "box": {
+        "x": 0.2943,
+        "y": 0.06,
+        "w": 0.1602,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "PVT.",
+       "box": {
+        "x": 0.4705,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "LTD.",
+       "box": {
+        "x": 0.5506,
+        "y": 0.06,
+        "w": 0.0641,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "R. Venkatesh, 8.E., MBA",
+     "box": {
+      "x": 0.07,
+      "y": 0.175,
+      "w": 0.4094,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "R.",
+       "box": {
+        "x": 0.07,
+        "y": 0.175,
+        "w": 0.0356,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Venkatesh,",
+       "box": {
+        "x": 0.1234,
+        "y": 0.175,
+        "w": 0.178,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8.E.,",
+       "box": {
+        "x": 0.3192,
+        "y": 0.175,
+        "w": 0.089,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "MBA",
+       "box": {
+        "x": 0.426,
+        "y": 0.175,
+        "w": 0.0534,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Vice President – Supply Chain",
+     "box": {
+      "x": 0.07,
+      "y": 0.245,
+      "w": 0.3407,
+      "h": 0.033
+     },
+     "height": 0.033,
+     "words": [
+      {
+       "text": "Vice",
+       "box": {
+        "x": 0.07,
+        "y": 0.245,
+        "w": 0.047,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "President",
+       "box": {
+        "x": 0.1287,
+        "y": 0.245,
+        "w": 0.1057,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.2462,
+        "y": 0.245,
+        "w": 0.0117,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "Supply",
+       "box": {
+        "x": 0.2697,
+        "y": 0.245,
+        "w": 0.0705,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "Chain",
+       "box": {
+        "x": 0.352,
+        "y": 0.245,
+        "w": 0.0587,
+        "h": 0.033
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Tel +91 44 2815 4470 · Mobile +91 98410 23675",
+     "box": {
+      "x": 0.07,
+      "y": 0.328,
+      "w": 0.4486,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.328,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "+91",
+       "box": {
+        "x": 0.1099,
+        "y": 0.328,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "44",
+       "box": {
+        "x": 0.1498,
+        "y": 0.328,
+        "w": 0.0199,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "2815",
+       "box": {
+        "x": 0.1797,
+        "y": 0.328,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "4470",
+       "box": {
+        "x": 0.2295,
+        "y": 0.328,
+        "w": 0.0399,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2793,
+        "y": 0.328,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.2993,
+        "y": 0.328,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "+91",
+       "box": {
+        "x": 0.3691,
+        "y": 0.328,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "98410",
+       "box": {
+        "x": 0.4089,
+        "y": 0.328,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "23675",
+       "box": {
+        "x": 0.4688,
+        "y": 0.328,
+        "w": 0.0498,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "venkatesh.r@varunamauto-in.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.376,
+      "w": 0.2691,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "venkatesh.r@varunamauto-in.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.376,
+        "w": 0.2691,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "No. 12, Gandhi Mandapam Road, Kotturpuram",
+     "box": {
+      "x": 0.07,
+      "y": 0.424,
+      "w": 0.3941,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.07,
+        "y": 0.424,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "12,",
+       "box": {
+        "x": 0.1084,
+        "y": 0.424,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Gandhi",
+       "box": {
+        "x": 0.1469,
+        "y": 0.424,
+        "w": 0.0577,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Mandapam",
+       "box": {
+        "x": 0.2142,
+        "y": 0.424,
+        "w": 0.0769,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Road,",
+       "box": {
+        "x": 0.3007,
+        "y": 0.424,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Kotturpuram",
+       "box": {
+        "x": 0.3584,
+        "y": 0.424,
+        "w": 0.1057,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Chennai – 600 085, Tamil Nadu",
+     "box": {
+      "x": 0.07,
+      "y": 0.471,
+      "w": 0.2787,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "Chennai",
+       "box": {
+        "x": 0.07,
+        "y": 0.471,
+        "w": 0.0673,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.1469,
+        "y": 0.471,
+        "w": 0.0096,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "600",
+       "box": {
+        "x": 0.1661,
+        "y": 0.471,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "085,",
+       "box": {
+        "x": 0.2045,
+        "y": 0.471,
+        "w": 0.0384,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Tamil",
+       "box": {
+        "x": 0.2526,
+        "y": 0.471,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Nadu",
+       "box": {
+        "x": 0.3103,
+        "y": 0.471,
+        "w": 0.0384,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "CIN U34300TN2004PTC052817 · GSTIN 33AABCS1429B1Z5",
+     "box": {
+      "x": 0.07,
+      "y": 0.518,
+      "w": 0.3838,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "CIN",
+       "box": {
+        "x": 0.07,
+        "y": 0.518,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "U34300TN2004PTC052817",
+       "box": {
+        "x": 0.1013,
+        "y": 0.518,
+        "w": 0.1645,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2736,
+        "y": 0.518,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "GSTIN",
+       "box": {
+        "x": 0.2893,
+        "y": 0.518,
+        "w": 0.0392,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "33AABCS1429B1Z5",
+       "box": {
+        "x": 0.3363,
+        "y": 0.518,
+        "w": 0.1175,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Venkatesh",
+   "middle": "R.",
+   "family": "",
+   "suffix": "B.E., MBA",
+   "full": "R. Venkatesh, B.E., MBA"
+  },
+  "otherName": null,
+  "company": "VARUNAM AUTO COMPONENTS PVT. LTD.",
+  "department": "Supply Chain",
+  "title": "Vice President",
+  "phones": [
+   {
+    "printed": "+91 44 2815 4470",
+    "e164": "+914428154470",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+91 98410 23675",
+    "e164": "+919841023675",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "venkatesh.r@varunamauto-in.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "No. 12, Gandhi Mandapam Road",
+    "extra": "Kotturpuram",
+    "pobox": "",
+    "postcode": "600 085",
+    "city": "Chennai",
+    "region": "Tamil Nadu",
+    "country": "",
+    "countryCode": "IN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "name.suffix": [
+   "MBA"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "R. Venkatesh, B.E., MBA",
+   "ocr": "R. Venkatesh, 8.E., MBA",
+   "kinds": [
+    "8/B"
+   ]
+  },
+  {
+   "path": "name.suffix",
+   "printed": "B.E., MBA",
+   "ocr": "8.E., MBA",
+   "kinds": [
+    "8/B"
+   ]
+  }
+ ],
+ "traps": [
+  "indian-initials",
+  "credential-suffix",
+  "ocr-8B",
+  "registry-number",
+  "vat-id",
+  "title-department-line",
+  "pin-with-space",
+  "foreign-region",
+  "family-empty",
+  "person-name-in-street"
+ ],
+ "notes": "Tamil naming: initial \"R.\" (father's name) + given name \"Venkatesh\", no family name (e-mail venkatesh.r confirms). Degrees \"B.E., MBA\" with \"8\" for \"B\". PIN \"600 085\" printed with a space. CIN and GSTIN are not phones. \"Gandhi\" in the street is not a name."
+}

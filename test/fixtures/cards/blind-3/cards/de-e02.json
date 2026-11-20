@@ -1,0 +1,493 @@
+{
+ "id": "de-e02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Dachdeckerei",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2136,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Dachdeckerei",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.2136,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "HINRICHS",
+     "box": {
+      "x": 0.07,
+      "y": 0.115,
+      "w": 0.2848,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "HINRICHS",
+       "box": {
+        "x": 0.07,
+        "y": 0.115,
+        "w": 0.2848,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Bedachungen · Fassaden · Bauklempnerei",
+     "box": {
+      "x": 0.07,
+      "y": 0.235,
+      "w": 0.4735,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Bedachungen",
+       "box": {
+        "x": 0.07,
+        "y": 0.235,
+        "w": 0.1371,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2195,
+        "y": 0.235,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Fassaden",
+       "box": {
+        "x": 0.2444,
+        "y": 0.235,
+        "w": 0.0997,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3566,
+        "y": 0.235,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Bauklempnerei",
+       "box": {
+        "x": 0.3815,
+        "y": 0.235,
+        "w": 0.162,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "HAUKE HINRICHS",
+     "box": {
+      "x": 0.07,
+      "y": 0.33,
+      "w": 0.2741,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "HAUKE",
+       "box": {
+        "x": 0.07,
+        "y": 0.33,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "HINRICHS",
+       "box": {
+        "x": 0.1875,
+        "y": 0.33,
+        "w": 0.1566,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Dachdeckermeister",
+     "box": {
+      "x": 0.07,
+      "y": 0.405,
+      "w": 0.2421,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Dachdeckermeister",
+       "box": {
+        "x": 0.07,
+        "y": 0.405,
+        "w": 0.2421,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Tel./Fax 04841 7 23 18",
+     "box": {
+      "x": 0.07,
+      "y": 0.495,
+      "w": 0.3133,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Tel./Fax",
+       "box": {
+        "x": 0.07,
+        "y": 0.495,
+        "w": 0.1139,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "04841",
+       "box": {
+        "x": 0.1982,
+        "y": 0.495,
+        "w": 0.0712,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.2836,
+        "y": 0.495,
+        "w": 0.0142,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "23",
+       "box": {
+        "x": 0.3121,
+        "y": 0.495,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "18",
+       "box": {
+        "x": 0.3548,
+        "y": 0.495,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0160 92 31 774",
+     "box": {
+      "x": 0.07,
+      "y": 0.555,
+      "w": 0.2848,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.555,
+        "w": 0.0712,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "0160",
+       "box": {
+        "x": 0.1554,
+        "y": 0.555,
+        "w": 0.057,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "92",
+       "box": {
+        "x": 0.2266,
+        "y": 0.555,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "31",
+       "box": {
+        "x": 0.2694,
+        "y": 0.555,
+        "w": 0.0285,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "774",
+       "box": {
+        "x": 0.3121,
+        "y": 0.555,
+        "w": 0.0427,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Suderstraße 42 · 25813 Husum",
+     "box": {
+      "x": 0.07,
+      "y": 0.615,
+      "w": 0.3489,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Suderstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.615,
+        "w": 0.1371,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "42",
+       "box": {
+        "x": 0.2195,
+        "y": 0.615,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2569,
+        "y": 0.615,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "25813",
+       "box": {
+        "x": 0.2818,
+        "y": 0.615,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Husum",
+       "box": {
+        "x": 0.3566,
+        "y": 0.615,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "www.dach-hinrichs.de",
+     "box": {
+      "x": 0.07,
+      "y": 0.67,
+      "w": 0.2492,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "www.dach-hinrichs.de",
+       "box": {
+        "x": 0.07,
+        "y": 0.67,
+        "w": 0.2492,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "USt-IdNr. DE287445190",
+     "box": {
+      "x": 0.07,
+      "y": 0.725,
+      "w": 0.2093,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "USt-IdNr.",
+       "box": {
+        "x": 0.07,
+        "y": 0.725,
+        "w": 0.0897,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "DE287445190",
+       "box": {
+        "x": 0.1697,
+        "y": 0.725,
+        "w": 0.1096,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "HAUKE",
+   "middle": "",
+   "family": "HINRICHS",
+   "suffix": "",
+   "full": "HAUKE HINRICHS"
+  },
+  "otherName": null,
+  "company": "Dachdeckerei HINRICHS",
+  "department": null,
+  "title": "Dachdeckermeister",
+  "phones": [
+   {
+    "printed": "04841 7 23 18",
+    "e164": "+49484172318",
+    "type": "work",
+    "label": "Tel./Fax",
+    "ext": null,
+    "type_accept": [
+     "fax"
+    ]
+   },
+   {
+    "printed": "0160 92 31 774",
+    "e164": "+491609231774",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.dach-hinrichs.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Süderstraße 42",
+    "extra": "",
+    "pobox": "",
+    "postcode": "25813",
+    "city": "Husum",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].street",
+   "printed": "Süderstraße 42",
+   "ocr": "Suderstraße 42",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "trade",
+  "name-caps",
+  "family-name-in-company",
+  "combined-label",
+  "vat-id",
+  "diacritic-lost",
+  "tagline",
+  "absent-email"
+ ],
+ "notes": "Name in capitals; the logo \"HINRICHS\" repeats the family name and belongs to the company, not the name. \"Tel./Fax\" is one number for both (work, fax also right). USt-IdNr. is not a phone. No e-mail on the card."
+}

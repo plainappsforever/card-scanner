@@ -1,0 +1,444 @@
+{
+ "id": "it-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Studio Legale Varsetti & Associati",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.5435,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Studio",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1009,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Legale",
+       "box": {
+        "x": 0.1806,
+        "y": 0.07,
+        "w": 0.1009,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Varsetti",
+       "box": {
+        "x": 0.2913,
+        "y": 0.07,
+        "w": 0.1346,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.4356,
+        "y": 0.07,
+        "w": 0.0168,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Associati",
+       "box": {
+        "x": 0.4621,
+        "y": 0.07,
+        "w": 0.1514,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Avv. Chiara VARSETTI",
+     "box": {
+      "x": 0.07,
+      "y": 0.26,
+      "w": 0.3867,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Avv.",
+       "box": {
+        "x": 0.07,
+        "y": 0.26,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Chiara",
+       "box": {
+        "x": 0.1624,
+        "y": 0.26,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "VARSETTI",
+       "box": {
+        "x": 0.2952,
+        "y": 0.26,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Piazza di Spagna, 81 – 00187 Roma",
+     "box": {
+      "x": 0.07,
+      "y": 0.46,
+      "w": 0.369,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Piazza",
+       "box": {
+        "x": 0.07,
+        "y": 0.46,
+        "w": 0.0727,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "di",
+       "box": {
+        "x": 0.1497,
+        "y": 0.46,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Spagna,",
+       "box": {
+        "x": 0.1809,
+        "y": 0.46,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "81",
+       "box": {
+        "x": 0.2727,
+        "y": 0.46,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.3039,
+        "y": 0.46,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "00187",
+       "box": {
+        "x": 0.323,
+        "y": 0.46,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Roma",
+       "box": {
+        "x": 0.3905,
+        "y": 0.46,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "T. 06 6789 1234 – F. 06 6789 1235",
+     "box": {
+      "x": 0.07,
+      "y": 0.5122,
+      "w": 0.3587,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "T.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5122,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "06",
+       "box": {
+        "x": 0.1012,
+        "y": 0.5122,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.1324,
+        "y": 0.5122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "1234",
+       "box": {
+        "x": 0.1879,
+        "y": 0.5122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.2433,
+        "y": 0.5122,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "F.",
+       "box": {
+        "x": 0.2624,
+        "y": 0.5122,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "06",
+       "box": {
+        "x": 0.2936,
+        "y": 0.5122,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.3248,
+        "y": 0.5122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "1235",
+       "box": {
+        "x": 0.3803,
+        "y": 0.5122,
+        "w": 0.0485,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "chiara.varsetti@studiovarsetti-it.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.5644,
+      "w": 0.3997,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "chiara.varsetti@studiovarsetti-it.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.5644,
+        "w": 0.3997,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "PEC:varsetti@pec-studiovarsetti-it.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6166,
+      "w": 0.4118,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "PEC:varsetti@pec-studiovarsetti-it.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6166,
+        "w": 0.4118,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "www.studiovarsetti.it",
+     "box": {
+      "x": 0.07,
+      "y": 0.6688,
+      "w": 0.2544,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "www.studiovarsetti.it",
+       "box": {
+        "x": 0.07,
+        "y": 0.6688,
+        "w": 0.2544,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Avv.",
+   "given": "Chiara",
+   "middle": "",
+   "family": "VARSETTI",
+   "suffix": "",
+   "full": "Avv. Chiara VARSETTI"
+  },
+  "otherName": null,
+  "company": "Studio Legale Varsetti & Associati",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "06 6789 1234",
+    "e164": "+390667891234",
+    "type": "work",
+    "label": "T.",
+    "ext": null
+   },
+   {
+    "printed": "06 6789 1235",
+    "e164": "+390667891235",
+    "type": "fax",
+    "label": "F.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "chiara.varsetti@studiovarsetti-it.example",
+   "varsetti@pec-studiovarsetti-it.example"
+  ],
+  "urls": [
+   "www.studiovarsetti.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Piazza di Spagna, 81",
+    "extra": "",
+    "pobox": "",
+    "postcode": "00187",
+    "city": "Roma",
+    "region": "",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "PEC: varsetti",
+   "ocr": "PEC:varsetti",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "two-emails",
+  "pec-second-email",
+  "prefix-only-no-title",
+  "piazza-street",
+  "single-letter-labels",
+  "en-dash-separators",
+  "caps-family",
+  "region-mismatch",
+  "absent-title",
+  "glued-label"
+ ],
+ "notes": "Second e-mail is a PEC (certified mail) address glued to its label. \"Avv.\" is the only role indication; no separate title. Italian national numbers without +39 while phone_region = DE: country from the Italian address."
+}

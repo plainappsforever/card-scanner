@@ -1,0 +1,539 @@
+{
+ "id": "uk-x49",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KEEN SPARK",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.299,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "BRIGHT",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1495,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "SPARK",
+       "box": {
+        "x": 0.2444,
+        "y": 0.06,
+        "w": 0.1246,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "ELECTRICAL",
+     "box": {
+      "x": 0.07,
+      "y": 0.135,
+      "w": 0.1602,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "ELECTRICAL",
+       "box": {
+        "x": 0.07,
+        "y": 0.135,
+        "w": 0.1602,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Ltd",
+     "box": {
+      "x": 0.07,
+      "y": 0.185,
+      "w": 0.032,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Ltd",
+       "box": {
+        "x": 0.07,
+        "y": 0.185,
+        "w": 0.032,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Callum McA||ister",
+     "box": {
+      "x": 0.07,
+      "y": 0.275,
+      "w": 0.3026,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Callum",
+       "box": {
+        "x": 0.07,
+        "y": 0.275,
+        "w": 0.1068,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "McA||ister",
+       "box": {
+        "x": 0.1946,
+        "y": 0.275,
+        "w": 0.178,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "Approved Electrician",
+     "box": {
+      "x": 0.07,
+      "y": 0.345,
+      "w": 0.235,
+      "h": 0.033
+     },
+     "height": 0.033,
+     "words": [
+      {
+       "text": "Approved",
+       "box": {
+        "x": 0.07,
+        "y": 0.345,
+        "w": 0.094,
+        "h": 0.033
+       }
+      },
+      {
+       "text": "Electrician",
+       "box": {
+        "x": 0.1757,
+        "y": 0.345,
+        "w": 0.1293,
+        "h": 0.033
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "T: 0131 552 7781 | M: 07912 445 830",
+     "box": {
+      "x": 0.07,
+      "y": 0.428,
+      "w": 0.3738,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "T:",
+       "box": {
+        "x": 0.07,
+        "y": 0.428,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0131",
+       "box": {
+        "x": 0.102,
+        "y": 0.428,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "552",
+       "box": {
+        "x": 0.1554,
+        "y": 0.428,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "7781",
+       "box": {
+        "x": 0.1982,
+        "y": 0.428,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "|",
+       "box": {
+        "x": 0.2516,
+        "y": 0.428,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "M:",
+       "box": {
+        "x": 0.2729,
+        "y": 0.428,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "07912",
+       "box": {
+        "x": 0.305,
+        "y": 0.428,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "445",
+       "box": {
+        "x": 0.369,
+        "y": 0.428,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "830",
+       "box": {
+        "x": 0.4118,
+        "y": 0.428,
+        "w": 0.032,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "callum@keensparkelectrical-co-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.478,
+      "w": 0.3268,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "callum@keensparkelectrical-co-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.478,
+        "w": 0.3268,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Unit 4, Pilrig Industrial Estate, Edinburgh EH6 5RS",
+     "box": {
+      "x": 0.07,
+      "y": 0.525,
+      "w": 0.4721,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Unit",
+       "box": {
+        "x": 0.07,
+        "y": 0.525,
+        "w": 0.037,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "4,",
+       "box": {
+        "x": 0.1163,
+        "y": 0.525,
+        "w": 0.0185,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Pilrig",
+       "box": {
+        "x": 0.1441,
+        "y": 0.525,
+        "w": 0.0555,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Industrial",
+       "box": {
+        "x": 0.2089,
+        "y": 0.525,
+        "w": 0.0926,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Estate,",
+       "box": {
+        "x": 0.3107,
+        "y": 0.525,
+        "w": 0.0648,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Edinburgh",
+       "box": {
+        "x": 0.3847,
+        "y": 0.525,
+        "w": 0.0833,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "EH6",
+       "box": {
+        "x": 0.4773,
+        "y": 0.525,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "5RS",
+       "box": {
+        "x": 0.5143,
+        "y": 0.525,
+        "w": 0.0278,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "NICEIC Approved Contractor · Company No. SC512345",
+     "box": {
+      "x": 0.07,
+      "y": 0.571,
+      "w": 0.3838,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "NICEIC",
+       "box": {
+        "x": 0.07,
+        "y": 0.571,
+        "w": 0.047,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Approved",
+       "box": {
+        "x": 0.1248,
+        "y": 0.571,
+        "w": 0.0627,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Contractor",
+       "box": {
+        "x": 0.1953,
+        "y": 0.571,
+        "w": 0.0783,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2815,
+        "y": 0.571,
+        "w": 0.0078,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Company",
+       "box": {
+        "x": 0.2971,
+        "y": 0.571,
+        "w": 0.0548,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.3598,
+        "y": 0.571,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "SC512345",
+       "box": {
+        "x": 0.3911,
+        "y": 0.571,
+        "w": 0.0627,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Callum",
+   "middle": "",
+   "family": "McAllister",
+   "suffix": "",
+   "full": "Callum McAllister"
+  },
+  "otherName": null,
+  "company": "KEEN SPARK ELECTRICAL Ltd",
+  "department": null,
+  "title": "Approved Electrician",
+  "phones": [
+   {
+    "printed": "0131 552 7781",
+    "e164": "+441315527781",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "07912 445 830",
+    "e164": "+447912445830",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "callum@keensparkelectrical-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Pilrig Industrial Estate",
+    "extra": "Unit 4",
+    "pobox": "",
+    "postcode": "EH6 5RS",
+    "city": "Edinburgh",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Callum McAllister",
+   "ocr": "Callum McA||ister",
+   "kinds": [
+    "1/l"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "McAllister",
+   "ocr": "McA||ister",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "trade",
+  "legal-form-only-line",
+  "ocr-pipe-for-l",
+  "member-of",
+  "registry-number",
+  "unit-extra",
+  "pipe-separator",
+  "foreign-region",
+  "company-split-lines"
+ ],
+ "notes": "Company spans three lines, the last is only \"Ltd\". OCR read \"ll\" in McAllister as \"||\" (and \"|\" is also a segment separator in the phone line). Scottish company number SC512345 is not a phone."
+}

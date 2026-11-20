@@ -1,0 +1,226 @@
+{
+ "id": "nl-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "nl"
+ ],
+ "card_country": "NL",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "nl-NL",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Van der Berg Waterbouw B.V.",
+     "box": {
+      "x": 0.07006530898994232,
+      "y": 0.048721328187622426,
+      "w": 0.41813442230224607,
+      "h": 0.08088857879049538
+     },
+     "height": 0.08088857879049538,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ir. Pieter-Jan van der Berg",
+     "box": {
+      "x": 0.06596358817599814,
+      "y": 0.22788129376558963,
+      "w": 0.4599397659301758,
+      "h": 0.0811891629428938
+     },
+     "height": 0.0811891629428938,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Projectleider",
+     "box": {
+      "x": 0.07259558214165214,
+      "y": 0.32439909933873345,
+      "w": 0.1338786029815674,
+      "h": 0.037300455984461744
+     },
+     "height": 0.037300455984461744,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Postbus 1234",
+     "box": {
+      "x": 0.06939130236967062,
+      "y": 0.49297055999908745,
+      "w": 0.12294462203979489,
+      "h": 0.03481578826904297
+     },
+     "height": 0.03481578826904297,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "3000 BA Rotterdam",
+     "box": {
+      "x": 0.06818329127146208,
+      "y": 0.5479156033509465,
+      "w": 0.17470085144042968,
+      "h": 0.030985257800481558
+     },
+     "height": 0.030985257800481558,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "T +31 10 123 4567",
+     "box": {
+      "x": 0.06650399767726962,
+      "y": 0.5959387270459348,
+      "w": 0.16357467651367186,
+      "h": 0.03839870953651925
+     },
+     "height": 0.03839870953651925,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "M +31 6 1234 5678",
+     "box": {
+      "x": 0.06795311868391725,
+      "y": 0.6452718927414612,
+      "w": 0.17217584609985354,
+      "h": 0.03922177097512025
+     },
+     "height": 0.03922177097512025,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "pieterjan@vdb-waterbouw-nl.example",
+     "box": {
+      "x": 0.0665977545190615,
+      "y": 0.6964108965285774,
+      "w": 0.25924905776977536,
+      "h": 0.03964887714754206
+     },
+     "height": 0.03964887714754206,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "KvK 12345678 • BTW NL123456789B01",
+     "box": {
+      "x": 0.06655593181075424,
+      "y": 0.7456141398085929,
+      "w": 0.3653933715820312,
+      "h": 0.044203787696867836
+     },
+     "height": 0.044203787696867836,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "ir.",
+   "given": "Pieter-Jan",
+   "middle": "",
+   "family": "van der Berg",
+   "suffix": "",
+   "full": "ir. Pieter-Jan van der Berg"
+  },
+  "otherName": null,
+  "company": "Van der Berg Waterbouw B.V.",
+  "department": null,
+  "title": "Projectleider",
+  "phones": [
+   {
+    "printed": "+31 10 123 4567",
+    "e164": "+31101234567",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+31 6 1234 5678",
+    "e164": "+31612345678",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "pieterjan@vdb-waterbouw-nl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postbus 1234",
+    "postcode": "3000 BA",
+    "city": "Rotterdam",
+    "region": "",
+    "country": "",
+    "countryCode": "NL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "nl-postcode-letters",
+  "postbus",
+  "lowercase-tussenvoegsel",
+  "kvk-btw",
+  "name-is-company",
+  "ir-prefix",
+  "ocr-1l",
+  "absent-url"
+ ],
+ "notes": "Dutch postcode \"3000 BA\" (digits + letters). \"van der\" is part of the family name (capital \"Van\" in the company).",
+ "o3": {
+  "source": "blind-1/cards/nl-01.json",
+  "images": [
+   {
+    "name": "b1-nl-01",
+    "font": "Georgia",
+    "rotation": -1.09,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "nl-NL",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 106
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

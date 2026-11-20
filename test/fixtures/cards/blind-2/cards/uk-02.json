@@ -1,0 +1,594 @@
+{
+ "id": "uk-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Shah & Kapoor LLP",
+     "box": {
+      "x": 0.07,
+      "y": 0.0675,
+      "w": 0.3959,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Shah",
+       "box": {
+        "x": 0.07,
+        "y": 0.0675,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.185,
+        "y": 0.0675,
+        "w": 0.0254,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Kapoor",
+       "box": {
+        "x": 0.224,
+        "y": 0.0675,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "LLP",
+       "box": {
+        "x": 0.3898,
+        "y": 0.0675,
+        "w": 0.0761,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Chartered Certified Accountants · Est. 1996",
+     "box": {
+      "x": 0.07,
+      "y": 0.1595,
+      "w": 0.737,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Chartered",
+       "box": {
+        "x": 0.07,
+        "y": 0.1595,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Certified",
+       "box": {
+        "x": 0.2428,
+        "y": 0.1595,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Accountants",
+       "box": {
+        "x": 0.4155,
+        "y": 0.1595,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.6245,
+        "y": 0.1595,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Est.",
+       "box": {
+        "x": 0.6524,
+        "y": 0.1595,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1996",
+       "box": {
+        "x": 0.7345,
+        "y": 0.1595,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Priya Shah FCCA",
+     "box": {
+      "x": 0.07,
+      "y": 0.2315,
+      "w": 0.3059,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Priya",
+       "box": {
+        "x": 0.07,
+        "y": 0.2315,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Shah",
+       "box": {
+        "x": 0.1904,
+        "y": 0.2315,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "FCCA",
+       "box": {
+        "x": 0.289,
+        "y": 0.2315,
+        "w": 0.087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Partner",
+     "box": {
+      "x": 0.07,
+      "y": 0.3135,
+      "w": 0.1268,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Partner",
+       "box": {
+        "x": 0.07,
+        "y": 0.3135,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Unit 4, Cobalt Court",
+     "box": {
+      "x": 0.07,
+      "y": 0.3855,
+      "w": 0.3371,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Unit",
+       "box": {
+        "x": 0.07,
+        "y": 0.3855,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4,",
+       "box": {
+        "x": 0.1522,
+        "y": 0.3855,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Cobalt",
+       "box": {
+        "x": 0.1981,
+        "y": 0.3855,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Court",
+       "box": {
+        "x": 0.3165,
+        "y": 0.3855,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "21 Lever Street",
+     "box": {
+      "x": 0.07,
+      "y": 0.4575,
+      "w": 0.2549,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "21",
+       "box": {
+        "x": 0.07,
+        "y": 0.4575,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Lever",
+       "box": {
+        "x": 0.1159,
+        "y": 0.4575,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Street",
+       "box": {
+        "x": 0.2162,
+        "y": 0.4575,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Manchester Ml 1BN",
+     "box": {
+      "x": 0.07,
+      "y": 0.5295,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Manchester",
+       "box": {
+        "x": 0.07,
+        "y": 0.5295,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Ml",
+       "box": {
+        "x": 0.2609,
+        "y": 0.5295,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1BN",
+       "box": {
+        "x": 0.3068,
+        "y": 0.5295,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Tel: 0161 832 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.6015,
+      "w": 0.3009,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6015,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0161",
+       "box": {
+        "x": 0.1522,
+        "y": 0.6015,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "832",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6015,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6015,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "Mob: 07723 456789",
+     "box": {
+      "x": 0.07,
+      "y": 0.6735,
+      "w": 0.2912,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mob:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6735,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "07723",
+       "box": {
+        "x": 0.1522,
+        "y": 0.6735,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "456789",
+       "box": {
+        "x": 0.2525,
+        "y": 0.6735,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "priya@shahkapoor-co-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7455,
+      "w": 0.3986,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "priya@shahkapoor-co-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7455,
+        "w": 0.3986,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f10",
+     "text": "VAT Reg. No. 123 4567 89",
+     "box": {
+      "x": 0.07,
+      "y": 0.8175,
+      "w": 0.1964,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "VAT",
+       "box": {
+        "x": 0.07,
+        "y": 0.8175,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Reg.",
+       "box": {
+        "x": 0.102,
+        "y": 0.8175,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.1431,
+        "y": 0.8175,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.1751,
+        "y": 0.8175,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2072,
+        "y": 0.8175,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.2483,
+        "y": 0.8175,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "IN",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Priya",
+   "middle": "",
+   "family": "Shah",
+   "suffix": "FCCA",
+   "full": "Priya Shah FCCA"
+  },
+  "otherName": null,
+  "company": "Shah & Kapoor LLP",
+  "department": null,
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "0161 832 4567",
+    "e164": "+441618324567",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "07723 456789",
+    "e164": "+447723456789",
+    "type": "mobile",
+    "label": "Mob:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "priya@shahkapoor-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "21 Lever Street",
+    "extra": "Unit 4, Cobalt Court",
+    "pobox": "",
+    "postcode": "M1 1BN",
+    "city": "Manchester",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].postcode",
+   "printed": "M1 1BN",
+   "ocr": "Ml 1BN",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "credential-suffix",
+  "tagline-not-title",
+  "year-in-tagline",
+  "vat-id",
+  "region-from-address",
+  "name-is-company",
+  "ocr-1l"
+ ],
+ "notes": "Region IN: the Manchester address (and .co.uk) makes 0161… and 07723… British. FCCA is a suffix, not a company. Address extra \"Unit 4, Cobalt Court\"."
+}

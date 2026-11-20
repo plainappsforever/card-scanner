@@ -1,0 +1,216 @@
+{
+ "id": "eg-t37",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "EG",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SAHEL PHARMA",
+     "box": {
+      "x": 0.0695524355455408,
+      "y": 0.05653416783762999,
+      "w": 0.25184186935424807,
+      "h": 0.05206578118460525
+     },
+     "height": 0.05206578118460525,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Distribution S.A.E.",
+     "box": {
+      "x": 0.0683139516648993,
+      "y": 0.13223938155476245,
+      "w": 0.14244186401367187,
+      "h": 0.031853281853281845
+     },
+     "height": 0.031853281853281845,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Mostafa Abdel Rahman",
+     "box": {
+      "x": 0.06950854793316232,
+      "y": 0.2347883294645765,
+      "w": 0.2838619422912598,
+      "h": 0.04841552646003633
+     },
+     "height": 0.04841552646003633,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Regional Sales Manager - Delta",
+     "box": {
+      "x": 0.06815721167219443,
+      "y": 0.30911417269992536,
+      "w": 0.24887639999389646,
+      "h": 0.03666675965298105
+     },
+     "height": 0.03666675965298105,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel +20 2 2735 8410",
+     "box": {
+      "x": 0.06817195227424985,
+      "y": 0.39671503549424014,
+      "w": 0.14418004989624023,
+      "h": 0.02505305374911404
+     },
+     "height": 0.02505305374911404,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mob +20 100 482 7731",
+     "box": {
+      "x": 0.0697674459334263,
+      "y": 0.4459459462081772,
+      "w": 0.1642441749572754,
+      "h": 0.027148223751760403
+     },
+     "height": 0.027148223751760403,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "m.abdelrahman@sahelpharma-com-eg.example",
+     "box": {
+      "x": 0.0683139528736345,
+      "y": 0.4910313896389976,
+      "w": 0.22965116500854488,
+      "h": 0.03139013489240838
+     },
+     "height": 0.03139013489240838,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "14 Gamal Abdel Nasser St., Heliopolis, Cairo",
+     "box": {
+      "x": 0.06976743881385676,
+      "y": 0.5444015442308838,
+      "w": 0.28052326202392575,
+      "h": 0.027347334563501913
+     },
+     "height": 0.027347334563501913,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mostafa",
+   "middle": "",
+   "family": "Abdel Rahman",
+   "suffix": "",
+   "full": "Mostafa Abdel Rahman"
+  },
+  "otherName": null,
+  "company": "SAHEL PHARMA Distribution S.A.E.",
+  "department": null,
+  "title": "Regional Sales Manager – Delta",
+  "phones": [
+   {
+    "printed": "+20 2 2735 8410",
+    "e164": "+20227358410",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+20 100 482 7731",
+    "e164": "+201004827731",
+    "type": "mobile",
+    "label": "Mob",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "m.abdelrahman@sahelpharma-com-eg.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "14 Gamal Abdel Nasser St.",
+    "extra": "Heliopolis",
+    "pobox": "",
+    "postcode": "",
+    "city": "Cairo",
+    "region": "",
+    "country": "",
+    "countryCode": "EG"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Regional Sales Manager"
+  ],
+  "company": [
+   "SAHEL PHARMA"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "arabic-transliteration",
+  "compound-family-name",
+  "no-postcode",
+  "foreign-region",
+  "person-name-in-street",
+  "company-split-lines"
+ ],
+ "notes": "\"Abdel Rahman\" is one family name in two tokens (e-mail m.abdelrahman confirms); N4 would wrongly make \"Abdel\" a middle name. Street named after a person (\"Gamal Abdel Nasser\") must not become the name. No Egyptian postcode printed.",
+ "o3": {
+  "source": "blind-3/cards/eg-t37.json",
+  "images": [
+   {
+    "name": "b3-eg-t37",
+    "font": "Futura-Medium",
+    "rotation": 0.46,
+    "noise": 2,
+    "blur": 0.6,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 84
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

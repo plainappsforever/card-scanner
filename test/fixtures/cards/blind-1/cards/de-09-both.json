@@ -1,0 +1,859 @@
+{
+ "id": "de-09-both",
+ "group": "de-09",
+ "side": "both",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "≡ KELLMAR ≡",
+     "box": {
+      "x": 0.06,
+      "y": 0.07,
+      "w": 0.2733,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "≡",
+       "box": {
+        "x": 0.06,
+        "y": 0.07,
+        "w": 0.0269,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "KELLMAR",
+       "box": {
+        "x": 0.1024,
+        "y": 0.07,
+        "w": 0.1884,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "≡",
+       "box": {
+        "x": 0.3064,
+        "y": 0.07,
+        "w": 0.0269,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Antriebstechnik GmbH",
+     "box": {
+      "x": 0.06,
+      "y": 0.17,
+      "w": 0.2635,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Antriebstechnik",
+       "box": {
+        "x": 0.06,
+        "y": 0.17,
+        "w": 0.2019,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.2696,
+        "y": 0.17,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dr.-Ing. Thorsten Ebersbach",
+     "box": {
+      "x": 0.06,
+      "y": 0.35,
+      "w": 0.572,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Dr.-Ing.",
+       "box": {
+        "x": 0.06,
+        "y": 0.35,
+        "w": 0.175,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Thorsten",
+       "box": {
+        "x": 0.2476,
+        "y": 0.35,
+        "w": 0.175,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Ebersbach",
+       "box": {
+        "x": 0.4352,
+        "y": 0.35,
+        "w": 0.1968,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Leiter Entwicklung",
+     "box": {
+      "x": 0.06,
+      "y": 0.4442,
+      "w": 0.2661,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Leiter",
+       "box": {
+        "x": 0.06,
+        "y": 0.4442,
+        "w": 0.0908,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Entwicklung",
+       "box": {
+        "x": 0.1596,
+        "y": 0.4442,
+        "w": 0.1666,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Tel. +49 711 98 76 54-21",
+     "box": {
+      "x": 0.06,
+      "y": 0.63,
+      "w": 0.2945,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.06,
+        "y": 0.63,
+        "w": 0.0538,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1216,
+        "y": 0.63,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "711",
+       "box": {
+        "x": 0.1697,
+        "y": 0.63,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "98",
+       "box": {
+        "x": 0.2179,
+        "y": 0.63,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "76",
+       "box": {
+        "x": 0.2526,
+        "y": 0.63,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "54-21",
+       "box": {
+        "x": 0.2872,
+        "y": 0.63,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Mobil +49 l70 3 21 45 67",
+     "box": {
+      "x": 0.06,
+      "y": 0.688,
+      "w": 0.2888,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.06,
+        "y": 0.688,
+        "w": 0.0673,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1351,
+        "y": 0.688,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "l70",
+       "box": {
+        "x": 0.1832,
+        "y": 0.688,
+        "w": 0.0404,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.2313,
+        "y": 0.688,
+        "w": 0.0135,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.2526,
+        "y": 0.688,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.2872,
+        "y": 0.688,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3219,
+        "y": 0.688,
+        "w": 0.0269,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "t.ebersbach@kellmar-antriebe-de.example",
+     "box": {
+      "x": 0.06,
+      "y": 0.746,
+      "w": 0.4172,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "t.ebersbach@kellmar-antriebe-de.example",
+       "box": {
+        "x": 0.06,
+        "y": 0.746,
+        "w": 0.4172,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "www.kellmar-antriebe.de",
+     "box": {
+      "x": 0.06,
+      "y": 0.804,
+      "w": 0.3096,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "www.kellmar-antriebe.de",
+       "box": {
+        "x": 0.06,
+        "y": 0.804,
+        "w": 0.3096,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "KELLMAR Drive Systems",
+     "box": {
+      "x": 0.06,
+      "y": 0.07,
+      "w": 0.4747,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "KELLMAR",
+       "box": {
+        "x": 0.06,
+        "y": 0.07,
+        "w": 0.1649,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Drive",
+       "box": {
+        "x": 0.2385,
+        "y": 0.07,
+        "w": 0.1178,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Systems",
+       "box": {
+        "x": 0.3698,
+        "y": 0.07,
+        "w": 0.1649,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b1",
+     "text": "Dr.-Ing. Thorsten Ebersbach",
+     "box": {
+      "x": 0.06,
+      "y": 0.24,
+      "w": 0.528,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dr.-Ing.",
+       "box": {
+        "x": 0.06,
+        "y": 0.24,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Thorsten",
+       "box": {
+        "x": 0.2332,
+        "y": 0.24,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ebersbach",
+       "box": {
+        "x": 0.4063,
+        "y": 0.24,
+        "w": 0.1817,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b2",
+     "text": "Head of Development",
+     "box": {
+      "x": 0.06,
+      "y": 0.327,
+      "w": 0.2749,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Head",
+       "box": {
+        "x": 0.06,
+        "y": 0.327,
+        "w": 0.0606,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "of",
+       "box": {
+        "x": 0.1293,
+        "y": 0.327,
+        "w": 0.0303,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Development",
+       "box": {
+        "x": 0.1683,
+        "y": 0.327,
+        "w": 0.1666,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b3",
+     "text": "Phone +49 711 98 76 54-21",
+     "box": {
+      "x": 0.06,
+      "y": 0.49,
+      "w": 0.2926,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Phone",
+       "box": {
+        "x": 0.06,
+        "y": 0.49,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1313,
+        "y": 0.49,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "711",
+       "box": {
+        "x": 0.177,
+        "y": 0.49,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "98",
+       "box": {
+        "x": 0.2228,
+        "y": 0.49,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "76",
+       "box": {
+        "x": 0.2557,
+        "y": 0.49,
+        "w": 0.0256,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "54-21",
+       "box": {
+        "x": 0.2887,
+        "y": 0.49,
+        "w": 0.0639,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b4",
+     "text": "Mobile +49 170 3214567",
+     "box": {
+      "x": 0.06,
+      "y": 0.5451,
+      "w": 0.2651,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.06,
+        "y": 0.5451,
+        "w": 0.0767,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1441,
+        "y": 0.5451,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "170",
+       "box": {
+        "x": 0.1898,
+        "y": 0.5451,
+        "w": 0.0384,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "3214567",
+       "box": {
+        "x": 0.2356,
+        "y": 0.5451,
+        "w": 0.0895,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b5",
+     "text": "linkedin.com/in/thorsten-ebersbach",
+     "box": {
+      "x": 0.06,
+      "y": 0.6002,
+      "w": 0.4347,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "linkedin.com/in/thorsten-ebersbach",
+       "box": {
+        "x": 0.06,
+        "y": 0.6002,
+        "w": 0.4347,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b6",
+     "text": "Kellmar Antriebstechnik GmbH · Heilbronner Str. 150 · 70191 Stuttgart · Germany",
+     "box": {
+      "x": 0.06,
+      "y": 0.82,
+      "w": 0.8005,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Kellmar",
+       "box": {
+        "x": 0.06,
+        "y": 0.82,
+        "w": 0.0754,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Antriebstechnik",
+       "box": {
+        "x": 0.1416,
+        "y": 0.82,
+        "w": 0.1615,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.3093,
+        "y": 0.82,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3586,
+        "y": 0.82,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Heilbronner",
+       "box": {
+        "x": 0.3756,
+        "y": 0.82,
+        "w": 0.1184,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Str.",
+       "box": {
+        "x": 0.5002,
+        "y": 0.82,
+        "w": 0.0431,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "150",
+       "box": {
+        "x": 0.5495,
+        "y": 0.82,
+        "w": 0.0323,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.588,
+        "y": 0.82,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "70191",
+       "box": {
+        "x": 0.605,
+        "y": 0.82,
+        "w": 0.0538,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Stuttgart",
+       "box": {
+        "x": 0.665,
+        "y": 0.82,
+        "w": 0.0969,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.7681,
+        "y": 0.82,
+        "w": 0.0108,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Germany",
+       "box": {
+        "x": 0.7851,
+        "y": 0.82,
+        "w": 0.0754,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr.-Ing.",
+   "given": "Thorsten",
+   "middle": "",
+   "family": "Ebersbach",
+   "suffix": "",
+   "full": "Dr.-Ing. Thorsten Ebersbach"
+  },
+  "otherName": null,
+  "company": "Kellmar Antriebstechnik GmbH",
+  "department": null,
+  "title": "Leiter Entwicklung",
+  "phones": [
+   {
+    "printed": "+49 711 98 76 54-21",
+    "e164": "+4971198765421",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 170 3 21 45 67",
+    "e164": "+491703214567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.ebersbach@kellmar-antriebe-de.example"
+  ],
+  "urls": [
+   "www.kellmar-antriebe.de"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/thorsten-ebersbach"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Heilbronner Str. 150",
+    "extra": "",
+    "pobox": "",
+    "postcode": "70191",
+    "city": "Stuttgart",
+    "region": "",
+    "country": "Germany",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department"
+ ],
+ "accept": {
+  "title": [
+   "Head of Development"
+  ],
+  "company": [
+   "KELLMAR Drive Systems"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[1].printed",
+   "printed": "+49 170 3 21 45 67",
+   "ocr": "+49 l70 3 21 45 67",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "second-language-back",
+  "stray-symbols-logo",
+  "company-in-address-line",
+  "same-phone-printed-differently",
+  "prefix-degree",
+  "ocr-1l",
+  "two-sided",
+  "combined"
+ ],
+ "notes": "Front German, back English. The same two numbers are printed differently on each side (dedupe by E.164). Logo has stray \"≡\" glyphs. Both-sides fixture: German UI, so the German title is primary; English title accepted."
+}

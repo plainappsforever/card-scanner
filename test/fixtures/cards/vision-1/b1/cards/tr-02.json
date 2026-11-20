@@ -1,0 +1,242 @@
+{
+ "id": "tr-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Çevrik Tekstil",
+     "box": {
+      "x": 0.06974107180907659,
+      "y": 0.06704314324986627,
+      "w": 0.1337736701965332,
+      "h": 0.038559453367726704
+     },
+     "height": 0.038559453367726704,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "San. ve Tic. Ltd. Şti.",
+     "box": {
+      "x": 0.0697674414527942,
+      "y": 0.14573991026124544,
+      "w": 0.14389534950256347,
+      "h": 0.029147982137083583
+     },
+     "height": 0.029147982137083583,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Mehmet Emin Çevrik",
+     "box": {
+      "x": 0.07122092595941375,
+      "y": 0.2757847533651512,
+      "w": 0.2601744270324707,
+      "h": 0.04274806460818725
+     },
+     "height": 0.04274806460818725,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Satış Müdürü",
+     "box": {
+      "x": 0.06965335799948404,
+      "y": 0.360563202226317,
+      "w": 0.1209719753265381,
+      "h": 0.035463432547668816
+     },
+     "height": 0.035463432547668816,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Organize Sanayi Bölgesi 3. Cad. No: 12",
+     "box": {
+      "x": 0.0697674397920844,
+      "y": 0.5067264574998356,
+      "w": 0.3008720970153808,
+      "h": 0.02705732643834413
+     },
+     "height": 0.02705732643834413,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "16140 Nilüfer/Bursa",
+     "box": {
+      "x": 0.06966271759172298,
+      "y": 0.5546446574290942,
+      "w": 0.15141070365905762,
+      "h": 0.026211273716223338
+     },
+     "height": 0.026211273716223338,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel: 0224 411 22 33 Faks: 0224 411 22 34",
+     "box": {
+      "x": 0.06831395585532966,
+      "y": 0.6071428571820365,
+      "w": 0.31976743698120114,
+      "h": 0.027386290686471138
+     },
+     "height": 0.027386290686471138,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "GSM: 0533 765 43 21",
+     "box": {
+      "x": 0.06976744444920742,
+      "y": 0.6591928253525995,
+      "w": 0.1613372039794922,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "info@cevriktekstil-com-tr.example • www.cevriktekstil.com.tr",
+     "box": {
+      "x": 0.06686045926113696,
+      "y": 0.7084942085620214,
+      "w": 0.3691860580444336,
+      "h": 0.025096525096525046
+     },
+     "height": 0.025096525096525046,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mehmet Emin",
+   "middle": "",
+   "family": "Çevrik",
+   "suffix": "",
+   "full": "Mehmet Emin Çevrik"
+  },
+  "otherName": null,
+  "company": "Çevrik Tekstil San. ve Tic. Ltd. Şti.",
+  "department": null,
+  "title": "Satış Müdürü",
+  "phones": [
+   {
+    "printed": "0224 411 22 33",
+    "e164": "+902244112233",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "0224 411 22 34",
+    "e164": "+902244112234",
+    "type": "fax",
+    "label": "Faks:",
+    "ext": null
+   },
+   {
+    "printed": "0533 765 43 21",
+    "e164": "+905337654321",
+    "type": "mobile",
+    "label": "GSM:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@cevriktekstil-com-tr.example"
+  ],
+  "urls": [
+   "www.cevriktekstil.com.tr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Organize Sanayi Bölgesi 3. Cad. No: 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "16140",
+    "city": "Bursa",
+    "region": "Nilüfer",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Çevrik Tekstil"
+  ],
+  "addresses[0].city": [
+   "Nilüfer/Bursa"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "compound-given",
+  "name-is-company",
+  "ltd-sti",
+  "slash-no-space-city",
+  "faks-label",
+  "gsm-label",
+  "ordinal-in-street",
+  "ocr-1l",
+  "region-mismatch"
+ ],
+ "notes": "Two given names; family name is also the company word. Turkish national numbers (0224…) with phone_region = DE.",
+ "o3": {
+  "source": "blind-1/cards/tr-02.json",
+  "images": [
+   {
+    "name": "b1-tr-02",
+    "font": "AvenirNext-Regular",
+    "rotation": 0.02,
+    "noise": 13,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 136
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

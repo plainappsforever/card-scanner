@@ -1,0 +1,488 @@
+{
+ "id": "at-u20-front",
+ "group": "at-u20",
+ "side": "front",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "TU Graz",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.1744,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "TU",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0498,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Graz",
+       "box": {
+        "x": 0.1447,
+        "y": 0.06,
+        "w": 0.0997,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Technische Universität Graz",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.3076,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "Technische",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.1139,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Universität",
+       "box": {
+        "x": 0.1953,
+        "y": 0.15,
+        "w": 0.1253,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "Graz",
+       "box": {
+        "x": 0.332,
+        "y": 0.15,
+        "w": 0.0456,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Fakultät für Elektrotechnik und Informationstechnik",
+     "box": {
+      "x": 0.07,
+      "y": 0.212,
+      "w": 0.4539,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Fakultät",
+       "box": {
+        "x": 0.07,
+        "y": 0.212,
+        "w": 0.0712,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.1501,
+        "y": 0.212,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Elektrotechnik",
+       "box": {
+        "x": 0.1857,
+        "y": 0.212,
+        "w": 0.1246,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.3192,
+        "y": 0.212,
+        "w": 0.0267,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Informationstechnik",
+       "box": {
+        "x": 0.3548,
+        "y": 0.212,
+        "w": 0.1691,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Institut für Elektrische Anlagen und Netze",
+     "box": {
+      "x": 0.07,
+      "y": 0.257,
+      "w": 0.4037,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "Institut",
+       "box": {
+        "x": 0.07,
+        "y": 0.257,
+        "w": 0.0769,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.1565,
+        "y": 0.257,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Elektrische",
+       "box": {
+        "x": 0.195,
+        "y": 0.257,
+        "w": 0.1057,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Anlagen",
+       "box": {
+        "x": 0.3103,
+        "y": 0.257,
+        "w": 0.0673,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.3872,
+        "y": 0.257,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Netze",
+       "box": {
+        "x": 0.4256,
+        "y": 0.257,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Univ.-Prof. Dipl.-Ing. Dr.techn. Matthias Edlinger",
+     "box": {
+      "x": 0.07,
+      "y": 0.344,
+      "w": 0.712,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Univ.-Prof.",
+       "box": {
+        "x": 0.07,
+        "y": 0.344,
+        "w": 0.1566,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Dipl.-Ing.",
+       "box": {
+        "x": 0.2409,
+        "y": 0.344,
+        "w": 0.1424,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Dr.techn.",
+       "box": {
+        "x": 0.3975,
+        "y": 0.344,
+        "w": 0.1282,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Matthias",
+       "box": {
+        "x": 0.5399,
+        "y": 0.344,
+        "w": 0.1139,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Edlinger",
+       "box": {
+        "x": 0.6681,
+        "y": 0.344,
+        "w": 0.1139,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "lnstitutsvorstand",
+     "box": {
+      "x": 0.07,
+      "y": 0.404,
+      "w": 0.1937,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "lnstitutsvorstand",
+       "box": {
+        "x": 0.07,
+        "y": 0.404,
+        "w": 0.1937,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Inffeldgasse 18/I, 8010 Graz",
+     "box": {
+      "x": 0.07,
+      "y": 0.486,
+      "w": 0.2691,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "Inffeldgasse",
+       "box": {
+        "x": 0.07,
+        "y": 0.486,
+        "w": 0.1153,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "18/I,",
+       "box": {
+        "x": 0.1949,
+        "y": 0.486,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "8010",
+       "box": {
+        "x": 0.2526,
+        "y": 0.486,
+        "w": 0.0384,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Graz",
+       "box": {
+        "x": 0.3007,
+        "y": 0.486,
+        "w": 0.0384,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Tel. +43 316 873-7550",
+     "box": {
+      "x": 0.07,
+      "y": 0.533,
+      "w": 0.2019,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.533,
+        "w": 0.0385,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.1181,
+        "y": 0.533,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "316",
+       "box": {
+        "x": 0.1565,
+        "y": 0.533,
+        "w": 0.0288,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "873-7550",
+       "box": {
+        "x": 0.195,
+        "y": 0.533,
+        "w": 0.0769,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Univ.-Prof. Dipl.-Ing. Dr.techn.",
+   "given": "Matthias",
+   "middle": "",
+   "family": "Edlinger",
+   "suffix": "",
+   "full": "Univ.-Prof. Dipl.-Ing. Dr.techn. Matthias Edlinger"
+  },
+  "otherName": null,
+  "company": "Technische Universität Graz",
+  "department": "Institut für Elektrische Anlagen und Netze",
+  "title": "Institutsvorstand",
+  "phones": [
+   {
+    "printed": "+43 316 873-7550",
+    "e164": "+433168737550",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Inffeldgasse 18/I",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8010",
+    "city": "Graz",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "TU Graz"
+  ],
+  "department": [
+   "Fakultät für Elektrotechnik und Informationstechnik"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "title",
+   "printed": "Institutsvorstand",
+   "ocr": "lnstitutsvorstand",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "two-sided",
+  "academic",
+  "prefix-stack",
+  "faculty-line",
+  "orcid",
+  "second-language-back",
+  "foreign-region",
+  "ocr-1l",
+  "roman-numeral-door",
+  "gasse-street"
+ ],
+ "notes": "Prefix stack \"Univ.-Prof. Dipl.-Ing. Dr.techn.\" (three titles). Logo \"TU Graz\" + full name. Title begins with \"l\" for \"I\". \"18/I\" = house 18, staircase I."
+}

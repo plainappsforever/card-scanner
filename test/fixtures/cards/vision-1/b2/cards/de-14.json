@@ -1,0 +1,211 @@
+{
+ "id": "de-14",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "PHYSIOTHERAPIE WOLF",
+     "box": {
+      "x": 0.06660164382624714,
+      "y": 0.11089821857504356,
+      "w": 0.5615666580200196,
+      "h": 0.0656355706881373
+     },
+     "height": 0.0656355706881373,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Termine nach Vereinbarung",
+     "box": {
+      "x": 0.06813114269367027,
+      "y": 0.21814623591060855,
+      "w": 0.3288768005371094,
+      "h": 0.04664563580369396
+     },
+     "height": 0.04664563580369396,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Sandra Wolf, B.Sc.",
+     "box": {
+      "x": 0.0683139551135396,
+      "y": 0.2934362930416543,
+      "w": 0.2659883689880371,
+      "h": 0.0608237958782889
+     },
+     "height": 0.0608237958782889,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Physiotherapeutin • Manualtherapie",
+     "box": {
+      "x": 0.06801302755527733,
+      "y": 0.36828852288250946,
+      "w": 0.4337815475463867,
+      "h": 0.05878759258962507
+     },
+     "height": 0.05878759258962507,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f4",
+     "text": "Königsbrücker Str. 58",
+     "box": {
+      "x": 0.0709048764714295,
+      "y": 0.44590525944458403,
+      "w": 0.2536634826660156,
+      "h": 0.051479917695623656
+     },
+     "height": 0.051479917695623656,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "01099 Dresden",
+     "box": {
+      "x": 0.06831395768876104,
+      "y": 0.5222007717075893,
+      "w": 0.17732557296752932,
+      "h": 0.03385303931806993
+     },
+     "height": 0.03385303931806993,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 0351 8 76 54 32 • Fax 0351 8 76 54 33",
+     "box": {
+      "x": 0.07084141228578054,
+      "y": 0.580387713122573,
+      "w": 0.4702817916870117,
+      "h": 0.055566920276774456
+     },
+     "height": 0.055566920276774456,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Mo-Fr 7:30-19:00",
+     "box": {
+      "x": 0.07267442262510691,
+      "y": 0.6636771292510961,
+      "w": 0.21075580596923826,
+      "h": 0.04035874591370803
+     },
+     "height": 0.04035874591370803,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sandra",
+   "middle": "",
+   "family": "Wolf",
+   "suffix": "B.Sc.",
+   "full": "Sandra Wolf, B.Sc."
+  },
+  "otherName": null,
+  "company": "PHYSIOTHERAPIE WOLF",
+  "department": null,
+  "title": "Physiotherapeutin",
+  "phones": [
+   {
+    "printed": "0351 8 76 54 32",
+    "e164": "+493518765432",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0351 8 76 54 33",
+    "e164": "+493518765433",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Königsbrücker Str. 58",
+    "extra": "",
+    "pobox": "",
+    "postcode": "01099",
+    "city": "Dresden",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "tagline-not-title",
+  "credential-suffix",
+  "ext-pair",
+  "opening-hours",
+  "name-is-company",
+  "absent-emails",
+  "ocr-0O"
+ ],
+ "notes": "Postcode 01099 (Dresden). Title Physiotherapeutin; \"Manualtherapie\" is a specialism (leftover), the tagline is not a title. B.Sc. is a suffix.",
+ "o3": {
+  "source": "blind-2/cards/de-14.json",
+  "images": [
+   {
+    "name": "b2-de-14",
+    "font": "Didot",
+    "rotation": 0.62,
+    "noise": 11,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 106
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

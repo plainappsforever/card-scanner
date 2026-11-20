@@ -1,0 +1,551 @@
+{
+ "id": "ch-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRUNELL TREUHAND AG",
+     "box": {
+      "x": 0.07,
+      "y": 0.0891,
+      "w": 0.4584,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "BRUNELL",
+       "box": {
+        "x": 0.07,
+        "y": 0.0891,
+        "w": 0.1776,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "TREUHAND",
+       "box": {
+        "x": 0.2611,
+        "y": 0.0891,
+        "w": 0.2029,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "AG",
+       "box": {
+        "x": 0.4776,
+        "y": 0.0891,
+        "w": 0.0507,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Reto Brunell, lic. oec. HSG",
+     "box": {
+      "x": 0.07,
+      "y": 0.1811,
+      "w": 0.5466,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Reto",
+       "box": {
+        "x": 0.07,
+        "y": 0.1811,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Brunell,",
+       "box": {
+        "x": 0.1686,
+        "y": 0.1811,
+        "w": 0.1739,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "lic.",
+       "box": {
+        "x": 0.3542,
+        "y": 0.1811,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "oec.",
+       "box": {
+        "x": 0.4528,
+        "y": 0.1811,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "HSG",
+       "box": {
+        "x": 0.5514,
+        "y": 0.1811,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Partner",
+     "box": {
+      "x": 0.07,
+      "y": 0.2631,
+      "w": 0.1268,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Partner",
+       "box": {
+        "x": 0.07,
+        "y": 0.2631,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Bahnhofstrasse 42",
+     "box": {
+      "x": 0.07,
+      "y": 0.3351,
+      "w": 0.2996,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Bahnhofstrasse",
+       "box": {
+        "x": 0.07,
+        "y": 0.3351,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "42",
+       "box": {
+        "x": 0.3334,
+        "y": 0.3351,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "8001 Zurich",
+     "box": {
+      "x": 0.07,
+      "y": 0.4071,
+      "w": 0.1909,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "8001",
+       "box": {
+        "x": 0.07,
+        "y": 0.4071,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Zurich",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4071,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "T +41 44 211 34 56",
+     "box": {
+      "x": 0.07,
+      "y": 0.4791,
+      "w": 0.2841,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.4791,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+41",
+       "box": {
+        "x": 0.0978,
+        "y": 0.4791,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "44",
+       "box": {
+        "x": 0.1619,
+        "y": 0.4791,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "211",
+       "box": {
+        "x": 0.2078,
+        "y": 0.4791,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.2719,
+        "y": 0.4791,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.3178,
+        "y": 0.4791,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "D +41 44 211 34 61",
+     "box": {
+      "x": 0.07,
+      "y": 0.5511,
+      "w": 0.2841,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "D",
+       "box": {
+        "x": 0.07,
+        "y": 0.5511,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+41",
+       "box": {
+        "x": 0.0978,
+        "y": 0.5511,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "44",
+       "box": {
+        "x": 0.1619,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "211",
+       "box": {
+        "x": 0.2078,
+        "y": 0.5511,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.2719,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.3178,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "M +41 79 345 67 89",
+     "box": {
+      "x": 0.07,
+      "y": 0.6231,
+      "w": 0.2841,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "M",
+       "box": {
+        "x": 0.07,
+        "y": 0.6231,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+41",
+       "box": {
+        "x": 0.0978,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "79",
+       "box": {
+        "x": 0.1619,
+        "y": 0.6231,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.2078,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.2719,
+        "y": 0.6231,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.3178,
+        "y": 0.6231,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "reto.brunell@brunell-treuhand-ch.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6951,
+      "w": 0.5798,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "reto.brunell@brunell-treuhand-ch.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6951,
+        "w": 0.5798,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "MWST CHE-123.456.789",
+     "box": {
+      "x": 0.07,
+      "y": 0.7671,
+      "w": 0.177,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "MWST",
+       "box": {
+        "x": 0.07,
+        "y": 0.7671,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "CHE-123.456.789",
+       "box": {
+        "x": 0.1111,
+        "y": 0.7671,
+        "w": 0.1359,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Reto",
+   "middle": "",
+   "family": "Brunell",
+   "suffix": "lic. oec. HSG",
+   "full": "Reto Brunell, lic. oec. HSG"
+  },
+  "otherName": null,
+  "company": "BRUNELL TREUHAND AG",
+  "department": null,
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "+41 44 211 34 56",
+    "e164": "+41442113456",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+41 44 211 34 61",
+    "e164": "+41442113461",
+    "type": "work",
+    "label": "D",
+    "ext": null
+   },
+   {
+    "printed": "+41 79 345 67 89",
+    "e164": "+41793456789",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "reto.brunell@brunell-treuhand-ch.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bahnhofstrasse 42",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8001",
+    "city": "Zürich",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].city",
+   "printed": "Zürich",
+   "ocr": "Zurich",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "credential-suffix",
+  "vat-id",
+  "name-is-company",
+  "ext-pair",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Suffix \"lic. oec. HSG\" is not part of the family name. D = direct line (work). CHE-123.456.789 is the VAT number. Swiss spelling \"strasse\"."
+}

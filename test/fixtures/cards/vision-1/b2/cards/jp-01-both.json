@@ -1,0 +1,367 @@
+{
+ "id": "jp-01-both",
+ "group": "jp-01",
+ "side": "both",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "株式会社きりはねシステム",
+     "box": {
+      "x": 0.06179169029659448,
+      "y": 0.10439744223630432,
+      "w": 0.43180835723876954,
+      "h": 0.08091149643121076
+     },
+     "height": 0.08091149643121076,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "営業部 部長",
+     "box": {
+      "x": 0.06653723928696724,
+      "y": 0.21101644013857157,
+      "w": 0.1517618179321289,
+      "h": 0.04868340952516059
+     },
+     "height": 0.04868340952516059,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "山田 太郎",
+     "box": {
+      "x": 0.06650911203137824,
+      "y": 0.285402363610718,
+      "w": 0.22316152572631834,
+      "h": 0.08621899961964974
+     },
+     "height": 0.08621899961964974,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "〒150-0002 東京都渋谷区渋谷2-21-1",
+     "box": {
+      "x": 0.0661035895485299,
+      "y": 0.39050195339116844,
+      "w": 0.46777492523193365,
+      "h": 0.06987926674625589
+     },
+     "height": 0.06987926674625589,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "渋谷スクエアビル18階",
+     "box": {
+      "x": 0.06915017952313061,
+      "y": 0.47296209658768174,
+      "w": 0.2831845283508301,
+      "h": 0.05701973815682304
+     },
+     "height": 0.05701973815682304,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "TEL 03-1234-5678 FAX 03-1234-5679",
+     "box": {
+      "x": 0.0677873435645927,
+      "y": 0.539960885000079,
+      "w": 0.4763599395751953,
+      "h": 0.062232485148897454
+     },
+     "height": 0.062232485148897454,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "携帯 090-1234-5678",
+     "box": {
+      "x": 0.07232474298572036,
+      "y": 0.6241516581678181,
+      "w": 0.24492244720458986,
+      "h": 0.048961783007765325
+     },
+     "height": 0.048961783007765325,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "t.yamada@kirihane-sys-co-jp.example",
+     "box": {
+      "x": 0.0707537174857855,
+      "y": 0.6864453227290793,
+      "w": 0.3512874221801757,
+      "h": 0.05917958955507019
+     },
+     "height": 0.05917958955507019,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Kirihane System Co., Ltd.",
+     "box": {
+      "x": 0.07195889034328509,
+      "y": 0.09898585196509724,
+      "w": 0.38374862670898435,
+      "h": 0.07895667764671066
+     },
+     "height": 0.07895667764671066,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b1",
+     "text": "Taro Yamada",
+     "box": {
+      "x": 0.07227726188114865,
+      "y": 0.19052898650479044,
+      "w": 0.2813493537902832,
+      "h": 0.06793366804086098
+     },
+     "height": 0.06793366804086098,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b2",
+     "text": "General Manager, Sales Department",
+     "box": {
+      "x": 0.07219439634952905,
+      "y": 0.3023331718160145,
+      "w": 0.43397865295410154,
+      "h": 0.06273103220582477
+     },
+     "height": 0.06273103220582477,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b3",
+     "text": "Shibuya Square Bldg. 18F, 2-21-1 Shibuya",
+     "box": {
+      "x": 0.06937867120329724,
+      "y": 0.37551257329338195,
+      "w": 0.49926937103271485,
+      "h": 0.06180406077027789
+     },
+     "height": 0.06180406077027789,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b4",
+     "text": "Shibuya-ku, Tokyo 150-0002, Japan",
+     "box": {
+      "x": 0.06640270637920487,
+      "y": 0.44457615696539676,
+      "w": 0.4412562561035156,
+      "h": 0.06675731997692447
+     },
+     "height": 0.06675731997692447,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b5",
+     "text": "Tel +81-3-1234-5678 Mobile +81-90-1234-5678",
+     "box": {
+      "x": 0.06801203272211474,
+      "y": 0.5193485522807065,
+      "w": 0.6095914840698241,
+      "h": 0.05582510826670528
+     },
+     "height": 0.05582510826670528,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b6",
+     "text": "t.yamada@kirihane-sys-co-jp.example",
+     "box": {
+      "x": 0.06643558010788798,
+      "y": 0.591075979402472,
+      "w": 0.3105078887939453,
+      "h": 0.05527980907543284
+     },
+     "height": 0.05527980907543284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "b7",
+     "text": "www.kirihane-sys.co.jp",
+     "box": {
+      "x": 0.06773390830019106,
+      "y": 0.6593296589319381,
+      "w": 0.2470723152160645,
+      "h": 0.05941764360229018
+     },
+     "height": 0.05941764360229018,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Taro",
+   "middle": "",
+   "family": "Yamada",
+   "suffix": "",
+   "full": "Taro Yamada"
+  },
+  "otherName": "山田 太郎",
+  "company": "Kirihane System Co., Ltd.",
+  "department": "Sales Department",
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "03-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "TEL",
+    "ext": null
+   },
+   {
+    "printed": "03-1234-5679",
+    "e164": "+81312345679",
+    "type": "fax",
+    "label": "FAX",
+    "ext": null
+   },
+   {
+    "printed": "090-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "携帯",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihane-sys-co-jp.example"
+  ],
+  "urls": [
+   "www.kirihane-sys.co.jp"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2-21-1 Shibuya",
+    "extra": "Shibuya Square Bldg. 18F",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "Shibuya-ku",
+    "region": "Tokyo",
+    "country": "Japan",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "General Manager, Sales Department",
+   "部長"
+  ],
+  "department": [
+   "営業部"
+  ],
+  "company": [
+   "株式会社きりはねシステム"
+  ],
+  "addresses[0].street": [
+   "渋谷2-21-1"
+  ],
+  "addresses[0].city": [
+   "渋谷区"
+  ],
+  "addresses[0].region": [
+   "東京都"
+  ],
+  "addresses[0].extra": [
+   "渋谷スクエアビル18階"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "title-dept-one-line",
+  "ext-pair",
+  "region-from-address",
+  "spaced-at"
+ ],
+ "notes": "Both sides, UI German → Latin values primary, Japanese name = otherName; Japanese variants accepted. One address, three phones (fax only on the front).",
+ "o3": {
+  "source": "blind-2/cards/jp-01-both.json",
+  "images": [
+   {
+    "name": "b2-jp-01-front",
+    "font": "HelveticaNeue",
+    "rotation": 1.6,
+    "noise": 3,
+    "blur": 0,
+    "langs": [
+     "ja-JP",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 264
+   },
+   {
+    "name": "b2-jp-01-back",
+    "font": "Optima-Regular",
+    "rotation": -0.92,
+    "noise": 4,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 86
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

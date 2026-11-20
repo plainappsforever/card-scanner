@@ -1,0 +1,168 @@
+{
+ "id": "de-13",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Jonas Albrecht",
+     "box": {
+      "x": 0.0654069703832264,
+      "y": 0.13677129947632938,
+      "w": 0.37354652404785155,
+      "h": 0.07174888080611652
+     },
+     "height": 0.07174888080611652,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Service Designer",
+     "box": {
+      "x": 0.07179465709456888,
+      "y": 0.24019523251573394,
+      "w": 0.2456085205078125,
+      "h": 0.05597169426877535
+     },
+     "height": 0.05597169426877535,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "jonas@albrecht-design.example",
+     "box": {
+      "x": 0.06559251086154774,
+      "y": 0.3091511032535488,
+      "w": 0.30207468032836915,
+      "h": 0.07751713020000683
+     },
+     "height": 0.07751713020000683,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "albrecht.design",
+     "box": {
+      "x": 0.0686355150381965,
+      "y": 0.3736551698540911,
+      "w": 0.21620319366455082,
+      "h": 0.07364485898993656
+     },
+     "height": 0.07364485898993656,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "linkedin.com/in/jonasalbrecht",
+     "box": {
+      "x": 0.06781588122215088,
+      "y": 0.4539347245586556,
+      "w": 0.42388454437255857,
+      "h": 0.06406788476185443
+     },
+     "height": 0.06406788476185443,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Berlin • Lissabon",
+     "box": {
+      "x": 0.06934650973778184,
+      "y": 0.5274830632558604,
+      "w": 0.2291256904602051,
+      "h": 0.04865276859533829
+     },
+     "height": 0.04865276859533829,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jonas",
+   "middle": "",
+   "family": "Albrecht",
+   "suffix": "",
+   "full": "Jonas Albrecht"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Service Designer",
+  "phones": [],
+  "emails": [
+   "jonas@albrecht-design.example"
+  ],
+  "urls": [
+   "albrecht.design"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/jonasalbrecht"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "phones",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "cities-not-address",
+  "new-gtld",
+  "absent-company",
+  "absent-phones",
+  "absent-addresses",
+  "ocr-1l"
+ ],
+ "notes": "Phones, company and address are absent. \"Berlin · Lissabon\" are where he works, not an address. The e-mail domain must be repaired to albrecht.design (same as the printed website).",
+ "o3": {
+  "source": "blind-2/cards/de-13.json",
+  "images": [
+   {
+    "name": "b2-de-13",
+    "font": "HoeflerText-Regular",
+    "rotation": -1.3,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 78
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

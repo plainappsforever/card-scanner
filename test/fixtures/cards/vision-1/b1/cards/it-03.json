@@ -1,0 +1,220 @@
+{
+ "id": "it-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "it"
+ ],
+ "card_country": "IT",
+ "layout": "portrait",
+ "input": {
+  "region": "IT",
+  "uiLang": "it",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Trattoria",
+     "box": {
+      "x": 0.3154021105940461,
+      "y": 0.09796472815141799,
+      "w": 0.2276622521831263,
+      "h": 0.03131354570388789
+     },
+     "height": 0.03131354570388789,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "da Gino",
+     "box": {
+      "x": 0.3200311169881293,
+      "y": 0.1587348669572065,
+      "w": 0.2633607488801581,
+      "h": 0.04185070037841798
+     },
+     "height": 0.04185070037841798,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "di Gino Pellegrini",
+     "box": {
+      "x": 0.3065621323545104,
+      "y": 0.29608084212775265,
+      "w": 0.26363749853892676,
+      "h": 0.029466357231140106
+     },
+     "height": 0.029466357231140106,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Cucina toscana dal 1974",
+     "box": {
+      "x": 0.2841387543344903,
+      "y": 0.39720799069352997,
+      "w": 0.3129842750814431,
+      "h": 0.02424667119979862
+     },
+     "height": 0.02424667119979862,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Viale Mazzini 14/B",
+     "box": {
+      "x": 0.32204419395929523,
+      "y": 0.5648753586153837,
+      "w": 0.2707282401419974,
+      "h": 0.026095092296600342
+     },
+     "height": 0.026095092296600342,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "50132 Firenze",
+     "box": {
+      "x": 0.3721973070172822,
+      "y": 0.606104651396636,
+      "w": 0.20627803139704987,
+      "h": 0.018895348310470572
+     },
+     "height": 0.018895348310470572,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Prenotazioni 055 234 5678",
+     "box": {
+      "x": 0.25714230183473846,
+      "y": 0.6406378030319624,
+      "w": 0.36900577029666387,
+      "h": 0.027291142940521262
+     },
+     "height": 0.027291142940521262,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "trattoria-da-gino.it",
+     "box": {
+      "x": 0.31987372087229693,
+      "y": 0.6810801654984985,
+      "w": 0.24831587743575045,
+      "h": 0.0276256632804871
+     },
+     "height": 0.0276256632804871,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Chiuso il lunedì",
+     "box": {
+      "x": 0.38493405075121784,
+      "y": 0.8761961178067662,
+      "w": 0.20556534579361724,
+      "h": 0.021172791719436646
+     },
+     "height": 0.021172791719436646,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gino",
+   "middle": "",
+   "family": "Pellegrini",
+   "suffix": "",
+   "full": "Gino Pellegrini"
+  },
+  "otherName": null,
+  "company": "Trattoria da Gino",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "055 234 5678",
+    "e164": "+390552345678",
+    "type": "work",
+    "label": "Prenotazioni",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "trattoria-da-gino.it"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Viale Mazzini 14/B",
+    "extra": "",
+    "pobox": "",
+    "postcode": "50132",
+    "city": "Firenze",
+    "region": "",
+    "country": "",
+    "countryCode": "IT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "portrait",
+  "name-after-di",
+  "given-name-in-company",
+  "company-split-lines",
+  "absent-email",
+  "closed-day",
+  "year-slogan",
+  "absent-title"
+ ],
+ "notes": "\"di Gino Pellegrini\" = owner; \"di\" is not part of the name. Company \"Trattoria\" / \"da Gino\" on two lines. No e-mail.",
+ "o3": {
+  "source": "blind-1/cards/it-03.json",
+  "images": [
+   {
+    "name": "b1-it-03",
+    "font": "Didot",
+    "rotation": 1.9,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 175
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,26 @@
+appId: ${APP_ID}
+---
+# Review screen open for a freshly read card: "Looks right", then back to the Cards list (same steps as release/core.yaml).
+# wait until the extractor has filled the e-mail field (confirming earlier saved a card with empty fields on a slow Mac)
+- scrollUntilVisible:
+    element: ".*@.*"
+    timeout: 60000
+- waitForAnimationToEnd
+- scrollUntilVisible:
+    element:
+      id: confirm-button
+- tapOn:
+    id: confirm-button
+- assertVisible:
+    id: review-confirmed
+# the Done button is already on screen after "Looks right"; scrolling to centre it failed once on a slow Mac (V1_LOG)
+- extendedWaitUntil:
+    visible:
+      id: done-button
+    timeout: 20000
+- tapOn:
+    id: done-button
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000

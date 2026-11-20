@@ -1,0 +1,237 @@
+{
+ "id": "ch-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "region": "FR",
+  "uiLang": "fr",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "LEMAIRE & CIE",
+     "box": {
+      "x": 0.07393586481825781,
+      "y": 0.045524934678893514,
+      "w": 0.3550352478027343,
+      "h": 0.10850169944026766
+     },
+     "height": 0.10850169944026766,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Banque privée depuis 1862",
+     "box": {
+      "x": 0.07789542981263416,
+      "y": 0.15957005390015389,
+      "w": 0.36738506317138675,
+      "h": 0.05823256886603745
+     },
+     "height": 0.05823256886603745,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Camille Rochat",
+     "box": {
+      "x": 0.07356954488155072,
+      "y": 0.23338376854118736,
+      "w": 0.24100856781005858,
+      "h": 0.05426736780115082
+     },
+     "height": 0.05426736780115082,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Directrice adjointe",
+     "box": {
+      "x": 0.07337975804655564,
+      "y": 0.31261495666952244,
+      "w": 0.23844009399414065,
+      "h": 0.055451823937846756
+     },
+     "height": 0.055451823937846756,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Gestion de fortune",
+     "box": {
+      "x": 0.07214454443757042,
+      "y": 0.3850897339655768,
+      "w": 0.24678535461425782,
+      "h": 0.04824360917433812
+     },
+     "height": 0.04824360917433812,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Rue du Rhône 62",
+     "box": {
+      "x": 0.07064981106668312,
+      "y": 0.4544459862060798,
+      "w": 0.22934293746948242,
+      "h": 0.05060477790685236
+     },
+     "height": 0.05060477790685236,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "1204 Genève",
+     "box": {
+      "x": 0.06930010137288496,
+      "y": 0.5270491571668093,
+      "w": 0.18131044387817385,
+      "h": 0.046013695853097114
+     },
+     "height": 0.046013695853097114,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Tél. +41 22 818 40 00",
+     "box": {
+      "x": 0.06666666621212122,
+      "y": 0.6023166022486147,
+      "w": 0.30000000000000004,
+      "h": 0.04536679536679533
+     },
+     "height": 0.04536679536679533,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Ligne directe +41 22 818 40 27",
+     "box": {
+      "x": 0.06626135657462619,
+      "y": 0.6754427254978337,
+      "w": 0.4081032180786133,
+      "h": 0.05661205159190996
+     },
+     "height": 0.05661205159190996,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "camille.rochat@lemaire-cie-ch.example",
+     "box": {
+      "x": 0.06333340843950797,
+      "y": 0.742775650266872,
+      "w": 0.42424129486083983,
+      "h": 0.06418540394904526
+     },
+     "height": 0.06418540394904526,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Camille",
+   "middle": "",
+   "family": "Rochat",
+   "suffix": "",
+   "full": "Camille Rochat"
+  },
+  "otherName": null,
+  "company": "LEMAIRE & CIE",
+  "department": "Gestion de fortune",
+  "title": "Directrice adjointe",
+  "phones": [
+   {
+    "printed": "+41 22 818 40 00",
+    "e164": "+41228184000",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "+41 22 818 40 27",
+    "e164": "+41228184027",
+    "type": "work",
+    "label": "Ligne directe",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "camille.rochat@lemaire-cie-ch.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Rue du Rhône 62",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1204",
+    "city": "Genève",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "tagline-not-title",
+  "year-in-tagline",
+  "glued-label",
+  "ext-pair",
+  "region-from-plus-cc",
+  "dropped-space"
+ ],
+ "notes": "Title Directrice adjointe, department Gestion de fortune. The tagline is not a title. Region FR, numbers carry +41.",
+ "o3": {
+  "source": "blind-2/cards/ch-02.json",
+  "images": [
+   {
+    "name": "b2-ch-02",
+    "font": "Verdana",
+    "rotation": -1.83,
+    "noise": 6,
+    "blur": 0.6,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 147
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "id": "in-i40",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "kaverilabs.in",
+     "box": {
+      "x": 0.07083333628553205,
+      "y": 0.057692306318666065,
+      "w": 0.3166666603088379,
+      "h": 0.07051282315640839
+     },
+     "height": 0.07051282315640839,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Priya N. Raghavan",
+     "box": {
+      "x": 0.07267441875860647,
+      "y": 0.21718146646483572,
+      "w": 0.279069766998291,
+      "h": 0.04739252480760958
+     },
+     "height": 0.04739252480760958,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Co-founder & CTO",
+     "box": {
+      "x": 0.06961570990228796,
+      "y": 0.2884831031767241,
+      "w": 0.17764005661010743,
+      "h": 0.033630045224340765
+     },
+     "height": 0.033630045224340765,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "+91 99860 41237",
+     "box": {
+      "x": 0.06831395169020862,
+      "y": 0.3878923767644815,
+      "w": 0.15697674751281737,
+      "h": 0.027165538095599406
+     },
+     "height": 0.027165538095599406,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "priya@kaverilabs-in.example",
+     "box": {
+      "x": 0.06976744300837169,
+      "y": 0.44170403611326414,
+      "w": 0.15988371849060057,
+      "h": 0.02466367662643376
+     },
+     "height": 0.02466367662643376,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "linkedin.com/in/priyanraghavan",
+     "box": {
+      "x": 0.06816817727283528,
+      "y": 0.4881760666202464,
+      "w": 0.23282409667968748,
+      "h": 0.030077818277719937
+     },
+     "height": 0.030077818277719937,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Priya",
+   "middle": "N.",
+   "family": "Raghavan",
+   "suffix": "",
+   "full": "Priya N. Raghavan"
+  },
+  "otherName": null,
+  "company": "kaverilabs.in",
+  "department": null,
+  "title": "Co-founder & CTO",
+  "phones": [
+   {
+    "printed": "+91 99860 41237",
+    "e164": "+919986041237",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "priya@kaverilabs-in.example"
+  ],
+  "urls": [
+   "kaverilabs.in"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/priyanraghavan"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "startup",
+  "company-only-domain",
+  "indian-initials",
+  "unlabelled-mobile",
+  "foreign-region",
+  "no-address-foreign",
+  "absent-address"
+ ],
+ "notes": "Company printed only as the domain \"kaverilabs.in\" (also the URL). Middle initial \"N.\". Unlabelled +91 9… is a mobile. No address.",
+ "o3": {
+  "source": "blind-3/cards/in-i40.json",
+  "images": [
+   {
+    "name": "b3-in-i40",
+    "font": "Verdana",
+    "rotation": -0.26,
+    "noise": 6,
+    "blur": 1,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 69
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

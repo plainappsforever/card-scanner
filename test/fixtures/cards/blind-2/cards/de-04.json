@@ -1,0 +1,462 @@
+{
+ "id": "de-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ELEKTRO KAYA",
+     "box": {
+      "x": 0.07,
+      "y": 0.1173,
+      "w": 0.418,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "ELEKTRO",
+       "box": {
+        "x": 0.07,
+        "y": 0.1173,
+        "w": 0.2536,
+        "h": 0.1
+       }
+      },
+      {
+       "text": "KAYA",
+       "box": {
+        "x": 0.3431,
+        "y": 0.1173,
+        "w": 0.1449,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "e.K.",
+     "box": {
+      "x": 0.07,
+      "y": 0.2393,
+      "w": 0.058,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "e.K.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2393,
+        "w": 0.058,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Murat Kaya",
+     "box": {
+      "x": 0.07,
+      "y": 0.3013,
+      "w": 0.2246,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "Murat",
+       "box": {
+        "x": 0.07,
+        "y": 0.3013,
+        "w": 0.1178,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "Kaya",
+       "box": {
+        "x": 0.2004,
+        "y": 0.3013,
+        "w": 0.0942,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Elektromeister",
+     "box": {
+      "x": 0.07,
+      "y": 0.3883,
+      "w": 0.2536,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Elektromeister",
+       "box": {
+        "x": 0.07,
+        "y": 0.3883,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Am Bachgraben 7",
+     "box": {
+      "x": 0.07,
+      "y": 0.4603,
+      "w": 0.2549,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Am",
+       "box": {
+        "x": 0.07,
+        "y": 0.4603,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bachgraben",
+       "box": {
+        "x": 0.1159,
+        "y": 0.4603,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.3068,
+        "y": 0.4603,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "85049 Ingolstadt",
+     "box": {
+      "x": 0.07,
+      "y": 0.5323,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "85049",
+       "box": {
+        "x": 0.07,
+        "y": 0.5323,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Ingolstadt",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5323,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Tel. 0841 9 87 6O",
+     "box": {
+      "x": 0.07,
+      "y": 0.6043,
+      "w": 0.2744,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6043,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0841",
+       "box": {
+        "x": 0.1522,
+        "y": 0.6043,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6043,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "87",
+       "box": {
+        "x": 0.2622,
+        "y": 0.6043,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6O",
+       "box": {
+        "x": 0.3081,
+        "y": 0.6043,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Mobil/Fax:0172 3 45 67 89 / 0841 9 87 65",
+     "box": {
+      "x": 0.07,
+      "y": 0.6763,
+      "w": 0.649,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil/Fax:0172",
+       "box": {
+        "x": 0.07,
+        "y": 0.6763,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.3334,
+        "y": 0.6763,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3612,
+        "y": 0.6763,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.4071,
+        "y": 0.6763,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.4531,
+        "y": 0.6763,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.499,
+        "y": 0.6763,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "0841",
+       "box": {
+        "x": 0.5268,
+        "y": 0.6763,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.609,
+        "y": 0.6763,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "87",
+       "box": {
+        "x": 0.6368,
+        "y": 0.6763,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "65",
+       "box": {
+        "x": 0.6828,
+        "y": 0.6763,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Murat",
+   "middle": "",
+   "family": "Kaya",
+   "suffix": "",
+   "full": "Murat Kaya"
+  },
+  "otherName": null,
+  "company": "ELEKTRO KAYA e.K.",
+  "department": null,
+  "title": "Elektromeister",
+  "phones": [
+   {
+    "printed": "0841 9 87 60",
+    "e164": "+4984198760",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0172 3 45 67 89",
+    "e164": "+491723456789",
+    "type": "mobile",
+    "label": "Mobil/Fax",
+    "ext": null
+   },
+   {
+    "printed": "0841 9 87 65",
+    "e164": "+4984198765",
+    "type": "fax",
+    "label": "Mobil/Fax",
+    "ext": null,
+    "type_accept": [
+     "work"
+    ]
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Bachgraben 7",
+    "extra": "",
+    "pobox": "",
+    "postcode": "85049",
+    "city": "Ingolstadt",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "0841 9 87 60",
+   "ocr": "0841 9 87 6O",
+   "kinds": [
+    "0/O"
+   ]
+  },
+  {
+   "path": "text",
+   "printed": "Mobil/Fax: 0172",
+   "ocr": "Mobil/Fax:0172",
+   "kinds": [
+    "dropped-space"
+   ]
+  }
+ ],
+ "traps": [
+  "combined-label",
+  "glued-label",
+  "legal-form-line",
+  "name-is-company",
+  "ext-pair",
+  "absent-emails",
+  "ocr-0O",
+  "dropped-space"
+ ],
+ "notes": "\"Mobil/Fax:\" covers two numbers: the 0172 number is the mobile, the 0841 number the fax. Tel 0841 98760 and Fax 0841 98765 share the base. \"e.K.\" alone on a line belongs to the company."
+}

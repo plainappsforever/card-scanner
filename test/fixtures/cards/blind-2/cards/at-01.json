@@ -1,0 +1,577 @@
+{
+ "id": "at-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "DONAU TREUHAND",
+     "box": {
+      "x": 0.07,
+      "y": 0.0831,
+      "w": 0.4414,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "DONAU",
+       "box": {
+        "x": 0.07,
+        "y": 0.0831,
+        "w": 0.1631,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "TREUHAND",
+       "box": {
+        "x": 0.2505,
+        "y": 0.0831,
+        "w": 0.2609,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Steuerberatung GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.1951,
+      "w": 0.3358,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Steuerberatung",
+       "box": {
+        "x": 0.07,
+        "y": 0.1951,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.3334,
+        "y": 0.1951,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Mag. Elisabeth Gruber",
+     "box": {
+      "x": 0.07,
+      "y": 0.2671,
+      "w": 0.4364,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Mag.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2671,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Elisabeth",
+       "box": {
+        "x": 0.1686,
+        "y": 0.2671,
+        "w": 0.1957,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Gruber",
+       "box": {
+        "x": 0.3759,
+        "y": 0.2671,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Prokuristin",
+     "box": {
+      "x": 0.07,
+      "y": 0.3491,
+      "w": 0.1993,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Prokuristin",
+       "box": {
+        "x": 0.07,
+        "y": 0.3491,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Schottenring 16/3/12",
+     "box": {
+      "x": 0.07,
+      "y": 0.4211,
+      "w": 0.3539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Schottenring",
+       "box": {
+        "x": 0.07,
+        "y": 0.4211,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "16/3/12",
+       "box": {
+        "x": 0.2971,
+        "y": 0.4211,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "lOlO Wien",
+     "box": {
+      "x": 0.07,
+      "y": 0.4931,
+      "w": 0.1546,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "lOlO",
+       "box": {
+        "x": 0.07,
+        "y": 0.4931,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Wien",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4931,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +43 1 533 47 80-0, DW 15",
+     "box": {
+      "x": 0.07,
+      "y": 0.5651,
+      "w": 0.4665,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5651,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5651,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5651,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "533",
+       "box": {
+        "x": 0.2441,
+        "y": 0.5651,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "47",
+       "box": {
+        "x": 0.3081,
+        "y": 0.5651,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "80-0,",
+       "box": {
+        "x": 0.3541,
+        "y": 0.5651,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "DW",
+       "box": {
+        "x": 0.4544,
+        "y": 0.5651,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.5003,
+        "y": 0.5651,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Mobil +43 664 123 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.6371,
+      "w": 0.3746,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.6371,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+43",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6371,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "664",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6371,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6371,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3625,
+        "y": 0.6371,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.4084,
+        "y": 0.6371,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "e.gruber@donau-treuhand-at.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7091,
+      "w": 0.4711,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "e.gruber@donau-treuhand-at.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7091,
+        "w": 0.4711,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "FN 234567 x, HG Wien · UID ATU12345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.7811,
+      "w": 0.3148,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "FN",
+       "box": {
+        "x": 0.07,
+        "y": 0.7811,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "234567",
+       "box": {
+        "x": 0.093,
+        "y": 0.7811,
+        "w": 0.0544,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "x,",
+       "box": {
+        "x": 0.1522,
+        "y": 0.7811,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "HG",
+       "box": {
+        "x": 0.1751,
+        "y": 0.7811,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Wien",
+       "box": {
+        "x": 0.1981,
+        "y": 0.7811,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2392,
+        "y": 0.7811,
+        "w": 0.0091,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "UID",
+       "box": {
+        "x": 0.2531,
+        "y": 0.7811,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "ATU12345678",
+       "box": {
+        "x": 0.2851,
+        "y": 0.7811,
+        "w": 0.0996,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Mag.",
+   "given": "Elisabeth",
+   "middle": "",
+   "family": "Gruber",
+   "suffix": "",
+   "full": "Mag. Elisabeth Gruber"
+  },
+  "otherName": null,
+  "company": "DONAU TREUHAND Steuerberatung GmbH",
+  "department": null,
+  "title": "Prokuristin",
+  "phones": [
+   {
+    "printed": "+43 1 533 47 80-0",
+    "e164": "+43153347800",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "15",
+    "e164": "+431533478015",
+    "type": "work",
+    "label": "DW",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+43 664 123 45 67",
+    "e164": "+436641234567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "e.gruber@donau-treuhand-at.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Schottenring 16/3/12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1010",
+    "city": "Wien",
+    "region": "",
+    "country": "",
+    "countryCode": "AT"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "DONAU TREUHAND"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "addresses[0].postcode",
+   "printed": "1010",
+   "ocr": "lOlO",
+   "kinds": [
+    "1/l",
+    "0/O"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "durchwahl-composed",
+  "registry-id",
+  "vat-id",
+  "region-from-plus-cc",
+  "ocr-1l",
+  "ocr-0O"
+ ],
+ "notes": "\"DW 15\" (Durchwahl) completes +43 1 533 47 80-0 to +43 1 533 47 80 15. Mag. is a prefix. Stiege/Tür notation 16/3/12 belongs to the street. FN and UID are not phones."
+}

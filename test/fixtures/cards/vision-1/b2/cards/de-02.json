@@ -1,0 +1,259 @@
+{
+ "id": "de-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRANDT & KOLLEGEN",
+     "box": {
+      "x": 0.061046513184161454,
+      "y": 0.051158301721896726,
+      "w": 0.5450581359863281,
+      "h": 0.11293436293436299
+     },
+     "height": 0.11293436293436299,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Rechtsanwälte PartG mbB",
+     "box": {
+      "x": 0.06658363799695913,
+      "y": 0.18976909289996435,
+      "w": 0.2854170799255371,
+      "h": 0.04198691835734836
+     },
+     "height": 0.04198691835734836,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "RA Dr. Julia Brandt, LL.M.",
+     "box": {
+      "x": 0.06250000935782875,
+      "y": 0.2564102562413,
+      "w": 0.38333332061767583,
+      "h": 0.06410256315842566
+     },
+     "height": 0.06410256315842566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Fachanwältin für Arbeitsrecht",
+     "box": {
+      "x": 0.06801492969958943,
+      "y": 0.34424414178360085,
+      "w": 0.3349427032470703,
+      "h": 0.04650270248471999
+     },
+     "height": 0.04650270248471999,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Maximilianstraße 31, 80539 München",
+     "box": {
+      "x": 0.0694696754766338,
+      "y": 0.4136696046968307,
+      "w": 0.43240581512451165,
+      "h": 0.06181761104627914
+     },
+     "height": 0.06181761104627914,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. +49 89 21 09 87-0",
+     "box": {
+      "x": 0.06621485288573904,
+      "y": 0.4840118831728333,
+      "w": 0.2644675636291504,
+      "h": 0.06088721706139988
+     },
+     "height": 0.06088721706139988,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Durchwahl -12 • Sekretariat -13",
+     "box": {
+      "x": 0.07086438922189345,
+      "y": 0.5550966216151306,
+      "w": 0.36119750976562504,
+      "h": 0.05052774201028598
+     },
+     "height": 0.05052774201028598,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fax +49 89 21 09 87-99",
+     "box": {
+      "x": 0.06956905200666881,
+      "y": 0.6331395907389281,
+      "w": 0.28677497863769535,
+      "h": 0.047217947175604014
+     },
+     "height": 0.047217947175604014,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "j.brandt@brandt-kollegen-de.example",
+     "box": {
+      "x": 0.06935570981020855,
+      "y": 0.7009957656334074,
+      "w": 0.33507354736328127,
+      "h": 0.055620616927570365
+     },
+     "height": 0.055620616927570365,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "www.brandt-kollegen.de",
+     "box": {
+      "x": 0.07241695351763212,
+      "y": 0.7797958523534743,
+      "w": 0.2664932441711426,
+      "h": 0.04895503364474618
+     },
+     "height": 0.04895503364474618,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "RA Dr.",
+   "given": "Julia",
+   "middle": "",
+   "family": "Brandt",
+   "suffix": "LL.M.",
+   "full": "RA Dr. Julia Brandt, LL.M."
+  },
+  "otherName": null,
+  "company": "BRANDT & KOLLEGEN Rechtsanwälte PartG mbB",
+  "department": null,
+  "title": "Fachanwältin für Arbeitsrecht",
+  "phones": [
+   {
+    "printed": "+49 89 21 09 87-0",
+    "e164": "+49892109870",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-12",
+    "e164": "+498921098712",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "-13",
+    "e164": "+498921098713",
+    "type": "work",
+    "label": "Sekretariat",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "+49 89 21 09 87-99",
+    "e164": "+498921098799",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "j.brandt@brandt-kollegen-de.example"
+  ],
+  "urls": [
+   "www.brandt-kollegen.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Maximilianstraße 31",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80539",
+    "city": "München",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "BRANDT & KOLLEGEN"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "prefix-title",
+  "credential-suffix",
+  "durchwahl-composed",
+  "ext-pair",
+  "name-is-company",
+  "legal-form-line",
+  "ocr-1l"
+ ],
+ "notes": "RA (Rechtsanwältin) is a prefix, LL.M. a suffix — neither is the company or a given name. -12 and -13 are complete numbers on the base +49 89 2109870 (German direct dial). Company = both logo lines; \"Brandt\" in the name must not make the name line the company.",
+ "o3": {
+  "source": "blind-2/cards/de-02.json",
+  "images": [
+   {
+    "name": "b2-de-02",
+    "font": "Futura-Medium",
+    "rotation": 0.92,
+    "noise": 7,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 94
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

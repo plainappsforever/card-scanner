@@ -1,0 +1,298 @@
+{
+ "id": "kr-02-back",
+ "group": "kr-02",
+ "side": "back",
+ "card_langs": [
+  "en",
+  "ko"
+ ],
+ "card_country": "KR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ko-KR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "사림바이오 주식회사",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.3009,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "사림바이오",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.1618,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "주식회사",
+       "box": {
+        "x": 0.2415,
+        "y": 0.07,
+        "w": 0.1294,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "이지훈",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.165,
+      "h": 0.085
+     },
+     "height": 0.085,
+     "words": [
+      {
+       "text": "이지훈",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.165,
+        "h": 0.085
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "항체발굴팀 책임연구원",
+     "box": {
+      "x": 0.07,
+      "y": 0.36,
+      "w": 0.2666,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "항체발굴팀",
+       "box": {
+        "x": 0.07,
+        "y": 0.36,
+        "w": 0.1294,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "책임연구원",
+       "box": {
+        "x": 0.2072,
+        "y": 0.36,
+        "w": 0.1294,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "경기도 성남시 분당구 판교로 123 (13494)",
+     "box": {
+      "x": 0.07,
+      "y": 0.54,
+      "w": 0.4114,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "경기도",
+       "box": {
+        "x": 0.07,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "성남시",
+       "box": {
+        "x": 0.1426,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "분당구",
+       "box": {
+        "x": 0.2152,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "판교로",
+       "box": {
+        "x": 0.2878,
+        "y": 0.54,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.3604,
+        "y": 0.54,
+        "w": 0.0343,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "(13494)",
+       "box": {
+        "x": 0.4013,
+        "y": 0.54,
+        "w": 0.0801,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "휴대폰 010-2345-6789",
+     "box": {
+      "x": 0.07,
+      "y": 0.5893,
+      "w": 0.2213,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "휴대폰",
+       "box": {
+        "x": 0.07,
+        "y": 0.5893,
+        "w": 0.066,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "010-2345-6789",
+       "box": {
+        "x": 0.1426,
+        "y": 0.5893,
+        "w": 0.1487,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "jihoon.lee@sarimbio-com.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6386,
+      "w": 0.2517,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "jihoon.lee@sarimbio-com.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6386,
+        "w": 0.2517,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "지훈",
+   "middle": "",
+   "family": "이",
+   "suffix": "",
+   "full": "이지훈"
+  },
+  "otherName": null,
+  "company": "사림바이오 주식회사",
+  "department": "항체발굴팀",
+  "title": "책임연구원",
+  "phones": [
+   {
+    "printed": "010-2345-6789",
+    "e164": "+821023456789",
+    "type": "mobile",
+    "label": "휴대폰",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jihoon.lee@sarimbio-com.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "판교로 123",
+    "extra": "분당구",
+    "pobox": "",
+    "postcode": "13494",
+    "city": "성남시",
+    "region": "경기도",
+    "country": "",
+    "countryCode": "KR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "latin-family-first",
+  "comma-phd-suffix",
+  "korean-back",
+  "korean-legal-form-suffix",
+  "address-two-scripts",
+  "other-name-n7",
+  "two-sided"
+ ],
+ "notes": "English front writes the name family-first (\"Lee Ji-hoon\"); the e-mail jihoon.lee confirms Lee = family. \", Ph.D.\" is a suffix, not \"FAMILY, Given\". Back: Korean with the same data; UI English -> Latin primary."
+}

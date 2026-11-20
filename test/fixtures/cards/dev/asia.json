@@ -1,0 +1,1124 @@
+[
+ {
+  "id": "jp-01",
+  "lang": "ja",
+  "region": "JP",
+  "layout": "Japanese horizontal, name split by space",
+  "front": [
+   [
+    "株式会社山田製造",
+    0.05
+   ],
+   [
+    "営業部 部長",
+    0.035
+   ],
+   [
+    "山田 太郎",
+    0.08
+   ],
+   [
+    "〒100-0005",
+    0.03
+   ],
+   [
+    "東京都千代田区丸の内1-2-3 丸の内ビル5F",
+    0.03
+   ],
+   [
+    "TEL 03-1234-5678 FAX 03-1234-5679",
+    0.03
+   ],
+   [
+    "yamada@yamada-seizo-co-jp.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "太郎",
+    "family": "山田"
+   },
+   "company": "株式会社山田製造",
+   "title": "部長", "department": "営業部",
+   "phones": [
+    {
+     "number": "+81312345678",
+     "type": "work"
+    },
+    {
+     "number": "+81312345679",
+     "type": "fax"
+    }
+   ],
+   "emails": [
+    "yamada@yamada-seizo-co-jp.example"
+   ],
+   "addresses": [
+    {
+     "street": "丸の内1-2-3 丸の内ビル5F",
+     "postcode": "100-0005",
+     "city": "千代田区",
+     "region": "東京都",
+     "country": "JP"
+    }
+   ]
+  }
+ },
+ {
+  "id": "jp-02",
+  "lang": "ja",
+  "region": "JP",
+  "layout": "Japanese two-sided: front Japanese, back English",
+  "front": [
+   [
+    "きりはねデザイン株式会社",
+    0.05
+   ],
+   [
+    "代表取締役",
+    0.035
+   ],
+   [
+    "佐藤花子",
+    0.08
+   ],
+   [
+    "〒530-0001 大阪府大阪市北区梅田2-4-9",
+    0.03
+   ],
+   [
+    "電話 06-6345-1234",
+    0.03
+   ],
+   [
+    "携帯 090-1234-5678",
+    0.03
+   ],
+   [
+    "hanako.sato@kirihane-design-jp.example",
+    0.03
+   ]
+  ],
+  "back": [
+   [
+    "Kirihane Design Co., Ltd.",
+    0.05
+   ],
+   [
+    "Hanako Sato",
+    0.07
+   ],
+   [
+    "President & CEO",
+    0.035
+   ],
+   [
+    "2-4-9 Umeda, Kita-ku, Osaka 530-0001",
+    0.03
+   ],
+   [
+    "+81 6 6345 1234",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "花子",
+    "family": "佐藤"
+   },
+   "otherName": "Hanako Sato",
+   "company": "きりはねデザイン株式会社",
+   "title": "代表取締役",
+   "phones": [
+    {
+     "number": "+81663451234",
+     "type": "work"
+    },
+    {
+     "number": "+819012345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "hanako.sato@kirihane-design-jp.example"
+   ],
+   "addresses": [
+    {
+     "street": "梅田2-4-9",
+     "postcode": "530-0001",
+     "city": "大阪市",
+     "region": "大阪府",
+     "country": "JP"
+    }
+   ]
+  },
+  "uiLang": "ja"
+ },
+ {
+  "id": "jp-03",
+  "lang": "ja",
+  "region": "JP",
+  "layout": "Japanese name not in family list (cannot split reliably)",
+  "notes": "uncommon name",
+  "front": [
+   [
+    "東雲システム合同会社",
+    0.05
+   ],
+   [
+    "エンジニア",
+    0.035
+   ],
+   [
+    "東雲蒼汰",
+    0.08
+   ],
+   [
+    "〒060-0001 北海道札幌市中央区北一条西3-2",
+    0.03
+   ],
+   [
+    "TEL 011-222-3344",
+    0.03
+   ],
+   [
+    "sota@shinonome-sys-jp.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "蒼汰",
+    "family": "東雲"
+   },
+   "company": "東雲システム合同会社",
+   "title": "エンジニア",
+   "phones": [
+    {
+     "number": "+81112223344",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "sota@shinonome-sys-jp.example"
+   ],
+   "addresses": [
+    {
+     "street": "北一条西3-2",
+     "postcode": "060-0001",
+     "city": "札幌市",
+     "region": "北海道",
+     "country": "JP"
+    }
+   ]
+  }
+ },
+ {
+  "id": "jp-04",
+  "lang": "ja",
+  "region": "JP",
+  "layout": "English-only Japanese company card, family name in caps",
+  "front": [
+   [
+    "Kenji WATANABE",
+    0.07
+   ],
+   [
+    "Manager, Overseas Sales Dept.",
+    0.035
+   ],
+   [
+    "Tokai Precision Co., Ltd.",
+    0.05
+   ],
+   [
+    "1-1 Sakae, Naka-ku, Nagoya 460-0008, Japan",
+    0.03
+   ],
+   [
+    "Tel: +81-52-123-4567",
+    0.03
+   ],
+   [
+    "k.watanabe@tokai-precision-co-jp.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Kenji",
+    "family": "WATANABE"
+   },
+   "company": "Tokai Precision Co., Ltd.",
+   "title": "Manager", "department": "Overseas Sales Dept.",
+   "phones": [
+    {
+     "number": "+81521234567",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "k.watanabe@tokai-precision-co-jp.example"
+   ],
+   "addresses": [
+    {
+     "street": "1-1 Sakae, Naka-ku",
+     "postcode": "460-0008",
+     "city": "Nagoya",
+     "country": "JP"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cn-01",
+  "lang": "zh",
+  "region": "CN",
+  "layout": "Chinese, no postcode, address keyword only",
+  "front": [
+   [
+    "上海瑞珩科技有限公司",
+    0.05
+   ],
+   [
+    "王伟",
+    0.08
+   ],
+   [
+    "总经理",
+    0.035
+   ],
+   [
+    "地址：上海市浦东新区世纪大道100号",
+    0.03
+   ],
+   [
+    "电话：021-6888 1234",
+    0.03
+   ],
+   [
+    "手机：138 0013 8000",
+    0.03
+   ],
+   [
+    "邮箱：wang.wei@ruihengkj-cn.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "伟",
+    "family": "王"
+   },
+   "company": "上海瑞珩科技有限公司",
+   "title": "总经理",
+   "phones": [
+    {
+     "number": "+862168881234",
+     "type": "work"
+    },
+    {
+     "number": "+8613800138000",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "wang.wei@ruihengkj-cn.example"
+   ],
+   "addresses": [
+    {
+     "street": "浦东新区世纪大道100号",
+     "city": "上海市",
+     "country": "CN"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cn-02",
+  "lang": "zh",
+  "region": "CN",
+  "layout": "Chinese compound surname, two-sided English back",
+  "front": [
+   [
+    "欧阳明华",
+    0.08
+   ],
+   [
+    "市场总监",
+    0.035
+   ],
+   [
+    "深圳腾跃电子有限公司",
+    0.05
+   ],
+   [
+    "手机 139 2233 4455",
+    0.03
+   ],
+   [
+    "ouyang@tengyue-elec-com.example",
+    0.03
+   ]
+  ],
+  "back": [
+   [
+    "Minghua Ouyang",
+    0.07
+   ],
+   [
+    "Marketing Director",
+    0.035
+   ],
+   [
+    "Shenzhen Tengyue Electronics Co., Ltd.",
+    0.04
+   ],
+   [
+    "Mobile +86 139 2233 4455",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "明华",
+    "family": "欧阳"
+   },
+   "otherName": "Minghua Ouyang",
+   "company": "深圳腾跃电子有限公司",
+   "title": "市场总监",
+   "phones": [
+    {
+     "number": "+8613922334455",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "ouyang@tengyue-elec-com.example"
+   ]
+  },
+  "uiLang": "zh-CN"
+ },
+ {
+  "id": "cn-03",
+  "lang": "zh",
+  "region": "CN",
+  "layout": "Chinese with WeChat ID and fax",
+  "front": [
+   [
+    "李静",
+    0.08
+   ],
+   [
+    "销售经理",
+    0.035
+   ],
+   [
+    "北京远航物流有限公司",
+    0.05
+   ],
+   [
+    "电话 010-8765 4321  传真 010-8765 4322",
+    0.03
+   ],
+   [
+    "微信: lijing_yh88",
+    0.03
+   ],
+   [
+    "lijing@yuanhang-log-cn.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "静",
+    "family": "李"
+   },
+   "company": "北京远航物流有限公司",
+   "title": "销售经理",
+   "phones": [
+    {
+     "number": "+861087654321",
+     "type": "work"
+    },
+    {
+     "number": "+861087654322",
+     "type": "fax"
+    }
+   ],
+   "emails": [
+    "lijing@yuanhang-log-cn.example"
+   ],
+   "socials": [
+    {
+     "service": "wechat",
+     "value": "lijing_yh88"
+    }
+   ]
+  }
+ },
+ {
+  "id": "kr-01",
+  "lang": "ko",
+  "region": "KR",
+  "layout": "Korean, (주) company",
+  "front": [
+   [
+    "(주)별솔소프트",
+    0.05
+   ],
+   [
+    "김민준",
+    0.08
+   ],
+   [
+    "부장",
+    0.035
+   ],
+   [
+    "서울특별시 강남구 테헤란로 152",
+    0.03
+   ],
+   [
+    "Tel 02-1234-5678",
+    0.03
+   ],
+   [
+    "Mobile 010-1234-5678",
+    0.03
+   ],
+   [
+    "minjun.kim@byeolsolsoft-co-kr.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "민준",
+    "family": "김"
+   },
+   "company": "(주)별솔소프트",
+   "title": "부장",
+   "phones": [
+    {
+     "number": "+82212345678",
+     "type": "work"
+    },
+    {
+     "number": "+821012345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "minjun.kim@byeolsolsoft-co-kr.example"
+   ],
+   "addresses": [
+    {
+     "street": "강남구 테헤란로 152",
+     "city": "서울특별시",
+     "country": "KR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "kr-02",
+  "lang": "ko",
+  "region": "KR",
+  "layout": "Korean compound family name, KakaoTalk",
+  "front": [
+   [
+    "남궁서연",
+    0.08
+   ],
+   [
+    "팀장",
+    0.035
+   ],
+   [
+    "주식회사 푸른바다",
+    0.05
+   ],
+   [
+    "휴대폰 010-9876-5432",
+    0.03
+   ],
+   [
+    "seoyeon@purunbada-kr.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "서연",
+    "family": "남궁"
+   },
+   "company": "주식회사 푸른바다",
+   "title": "팀장",
+   "phones": [
+    {
+     "number": "+821098765432",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "seoyeon@purunbada-kr.example"
+   ]
+  }
+ },
+ {
+  "id": "kr-03",
+  "lang": "ko",
+  "region": "KR",
+  "layout": "Korean English-only card, family first in Latin",
+  "front": [
+   [
+    "Park Ji-hoon",
+    0.07
+   ],
+   [
+    "Senior Researcher",
+    0.035
+   ],
+   [
+    "Sorae Materials Co., Ltd.",
+    0.05
+   ],
+   [
+    "Tel +82 31 789 1234",
+    0.03
+   ],
+   [
+    "jihoon.park@soraemat-com.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Ji-hoon",
+    "family": "Park"
+   },
+   "company": "Sorae Materials Co., Ltd.",
+   "title": "Senior Researcher",
+   "phones": [
+    {
+     "number": "+82317891234",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "jihoon.park@soraemat-com.example"
+   ]
+  }
+ },
+ {
+  "id": "in-01",
+  "lang": "en",
+  "region": "IN",
+  "layout": "India, PIN code",
+  "front": [
+   [
+    "Rajesh Kumar Iyer",
+    0.07
+   ],
+   [
+    "General Manager - Operations",
+    0.04
+   ],
+   [
+    "Varunam Textiles Pvt. Ltd.",
+    0.05
+   ],
+   [
+    "No. 45, Anna Salai, Teynampet",
+    0.035
+   ],
+   [
+    "Chennai - 600 018",
+    0.035
+   ],
+   [
+    "Ph: +91 44 2434 5678",
+    0.035
+   ],
+   [
+    "Mob: +91 98400 12345",
+    0.035
+   ],
+   [
+    "rajesh.iyer@varunamtextiles-in.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Rajesh Kumar",
+    "family": "Iyer"
+   },
+   "company": "Varunam Textiles Pvt. Ltd.",
+   "title": "General Manager", "department": "Operations",
+   "phones": [
+    {
+     "number": "+914424345678",
+     "type": "work"
+    },
+    {
+     "number": "+919840012345",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "rajesh.iyer@varunamtextiles-in.example"
+   ],
+   "addresses": [
+    {
+     "street": "No. 45, Anna Salai, Teynampet",
+     "postcode": "600018",
+     "city": "Chennai",
+     "country": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "id": "in-02",
+  "lang": "hi",
+  "region": "IN",
+  "layout": "Hindi front, English back",
+  "front": [
+   [
+    "अनीता वर्मा",
+    0.07
+   ],
+   [
+    "प्रबंधक",
+    0.04
+   ],
+   [
+    "वर्मा ट्रेडर्स",
+    0.05
+   ],
+   [
+    "मोबाइल +91 98765 43210",
+    0.035
+   ]
+  ],
+  "back": [
+   [
+    "Anita Verma",
+    0.07
+   ],
+   [
+    "Manager",
+    0.04
+   ],
+   [
+    "Verma Traders",
+    0.05
+   ],
+   [
+    "anita@vermatraders-in.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Anita",
+    "family": "Verma"
+   },
+   "otherName": "अनीता वर्मा",
+   "company": "Verma Traders",
+   "title": "Manager",
+   "phones": [
+    {
+     "number": "+919876543210",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "anita@vermatraders-in.example"
+   ]
+  }
+ },
+ {
+  "id": "id-01",
+  "lang": "id",
+  "region": "ID",
+  "layout": "Indonesia, PT prefix, Jl.",
+  "front": [
+   [
+    "PT Rawa Bersama Tbk",
+    0.055
+   ],
+   [
+    "Siti Rahayu",
+    0.07
+   ],
+   [
+    "Manajer Pemasaran",
+    0.04
+   ],
+   [
+    "Jl. Jend. Sudirman Kav. 52-53",
+    0.035
+   ],
+   [
+    "Jakarta 12190",
+    0.035
+   ],
+   [
+    "Telp. (021) 5790 1234",
+    0.035
+   ],
+   [
+    "HP 0812 3456 7890",
+    0.035
+   ],
+   [
+    "siti.rahayu@rawabersama-co-id.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Siti",
+    "family": "Rahayu"
+   },
+   "company": "PT Rawa Bersama Tbk",
+   "title": "Manajer Pemasaran",
+   "phones": [
+    {
+     "number": "+622157901234",
+     "type": "work"
+    },
+    {
+     "number": "+6281234567890",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "siti.rahayu@rawabersama-co-id.example"
+   ],
+   "addresses": [
+    {
+     "street": "Jl. Jend. Sudirman Kav. 52-53",
+     "postcode": "12190",
+     "city": "Jakarta",
+     "country": "ID"
+    }
+   ]
+  }
+ },
+ {
+  "id": "id-02",
+  "lang": "id",
+  "region": "ID",
+  "layout": "Indonesian single-name person, uncommon",
+  "notes": "uncommon name",
+  "front": [
+   [
+    "Wiranto Soekarnoputro",
+    0.07
+   ],
+   [
+    "Direktur",
+    0.04
+   ],
+   [
+    "CV Sinar Tebing",
+    0.05
+   ],
+   [
+    "Ponsel: 0813-1122-3344",
+    0.035
+   ],
+   [
+    "wiranto@sinartebing-id.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Wiranto",
+    "family": "Soekarnoputro"
+   },
+   "company": "CV Sinar Tebing",
+   "title": "Direktur",
+   "phones": [
+    {
+     "number": "+6281311223344",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "wiranto@sinartebing-id.example"
+   ]
+  }
+ },
+ {
+  "id": "vn-01",
+  "lang": "vi",
+  "region": "VN",
+  "layout": "Vietnamese, family first",
+  "front": [
+   [
+    "CÔNG TY TNHH ÁNH QUẾ",
+    0.05
+   ],
+   [
+    "Nguyễn Văn An",
+    0.07
+   ],
+   [
+    "Giám đốc",
+    0.04
+   ],
+   [
+    "123 Đường Lê Lợi, Quận 1, TP. Hồ Chí Minh",
+    0.03
+   ],
+   [
+    "ĐT: (028) 3822 1234",
+    0.03
+   ],
+   [
+    "DĐ: 0903 123 456",
+    0.03
+   ],
+   [
+    "an.nguyen@anhque-vn.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "An",
+    "middle": "Văn",
+    "family": "Nguyễn"
+   },
+   "company": "CÔNG TY TNHH ÁNH QUẾ",
+   "title": "Giám đốc",
+   "phones": [
+    {
+     "number": "+842838221234",
+     "type": "work"
+    },
+    {
+     "number": "+84903123456",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "an.nguyen@anhque-vn.example"
+   ],
+   "addresses": [
+    {
+     "street": "123 Đường Lê Lợi, Quận 1",
+     "city": "TP. Hồ Chí Minh",
+     "country": "VN"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vn-02",
+  "lang": "vi",
+  "region": "VN",
+  "layout": "Vietnamese, Hanoi",
+  "front": [
+   [
+    "Trần Thị Thu Hà",
+    0.07
+   ],
+   [
+    "Trưởng phòng Kinh doanh",
+    0.04
+   ],
+   [
+    "Công ty Cổ phần Sông Lũy",
+    0.05
+   ],
+   [
+    "Số 8 Phố Tràng Tiền, Hoàn Kiếm, Hà Nội",
+    0.03
+   ],
+   [
+    "Mobile: 0912 345 678",
+    0.03
+   ],
+   [
+    "ha.tran@songluy-com-vn.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Hà",
+    "middle": "Thị Thu",
+    "family": "Trần"
+   },
+   "company": "Công ty Cổ phần Sông Lũy",
+   "title": "Trưởng phòng Kinh doanh",
+   "phones": [
+    {
+     "number": "+84912345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "ha.tran@songluy-com-vn.example"
+   ],
+   "addresses": [
+    {
+     "street": "Số 8 Phố Tràng Tiền, Hoàn Kiếm",
+     "city": "Hà Nội",
+     "country": "VN"
+    }
+   ]
+  }
+ },
+ {
+  "id": "sa-01",
+  "lang": "ar",
+  "region": "SA",
+  "layout": "Arabic + English on one side, RTL lines",
+  "front": [
+   [
+    "شركة الأفق للتقنية",
+    0.05
+   ],
+   [
+    "محمد العتيبي",
+    0.07
+   ],
+   [
+    "مدير المبيعات",
+    0.04
+   ],
+   [
+    "Mohammed Al-Otaibi",
+    0.05
+   ],
+   [
+    "Sales Director",
+    0.035
+   ],
+   [
+    "Al Nawres Technology Co.",
+    0.035
+   ],
+   [
+    "Tel +966 11 234 5678",
+    0.03
+   ],
+   [
+    "Mobile +966 55 123 4567",
+    0.03
+   ],
+   [
+    "m.otaibi@alnawres-sa.example",
+    0.03
+   ],
+   [
+    "King Fahd Road, Riyadh 12271",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Mohammed",
+    "family": "Al-Otaibi"
+   },
+   "otherName": "محمد العتيبي",
+   "company": "Al Nawres Technology Co.",
+   "title": "Sales Director",
+   "phones": [
+    {
+     "number": "+966112345678",
+     "type": "work"
+    },
+    {
+     "number": "+966551234567",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "m.otaibi@alnawres-sa.example"
+   ],
+   "addresses": [
+    {
+     "street": "King Fahd Road",
+     "postcode": "12271",
+     "city": "Riyadh",
+     "country": "SA"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ae-01",
+  "lang": "en",
+  "region": "AE",
+  "layout": "Dubai, P.O. Box",
+  "front": [
+   [
+    "Amber Horizon Trading LLC",
+    0.055
+   ],
+   [
+    "Fatima Al Mansouri",
+    0.07
+   ],
+   [
+    "Procurement Manager",
+    0.04
+   ],
+   [
+    "P.O. Box 123456, Dubai, UAE",
+    0.035
+   ],
+   [
+    "T +971 4 321 4567",
+    0.035
+   ],
+   [
+    "M +971 50 123 4567",
+    0.035
+   ],
+   [
+    "fatima@amberhorizon-ae.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Fatima",
+    "family": "Al Mansouri"
+   },
+   "company": "Amber Horizon Trading LLC",
+   "title": "Procurement Manager",
+   "phones": [
+    {
+     "number": "+97143214567",
+     "type": "work"
+    },
+    {
+     "number": "+971501234567",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "fatima@amberhorizon-ae.example"
+   ],
+   "addresses": [
+    {
+     "street": "P.O. Box 123456",
+     "city": "Dubai",
+     "country": "AE"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,175 @@
+{
+ "id": "de-08",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "portrait",
+ "input": {
+  "region": "CH",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lena Vollbrink",
+     "box": {
+      "x": 0.059126210586300895,
+      "y": 0.20146197536943855,
+      "w": 0.5965457754245597,
+      "h": 0.05579697847366327
+     },
+     "height": 0.05579697847366327,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "Fotografin",
+     "box": {
+      "x": 0.06026442526647548,
+      "y": 0.28595944149683494,
+      "w": 0.21808977753039033,
+      "h": 0.03252944231033328
+     },
+     "height": 0.03252944231033328,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "• 0157 31 24 56 78",
+     "box": {
+      "x": 0.0665880336890324,
+      "y": 0.32889295371621374,
+      "w": 0.4432994003001326,
+      "h": 0.035787117481231756
+     },
+     "height": 0.035787117481231756,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "hallo@lenavollbrink-de.example",
+     "box": {
+      "x": 0.0618727263984346,
+      "y": 0.380379277918079,
+      "w": 0.49511683401453904,
+      "h": 0.039291467666626056
+     },
+     "height": 0.039291467666626056,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "lenavollbrink.de",
+     "box": {
+      "x": 0.060538118978090597,
+      "y": 0.4331395351369902,
+      "w": 0.36322869849481176,
+      "h": 0.03052325487136831
+     },
+     "height": 0.03052325487136831,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "instagram.com/lenavollbrink.foto",
+     "box": {
+      "x": 0.04867947398509711,
+      "y": 0.4784072343272653,
+      "w": 0.6876243090537524,
+      "h": 0.042737269401550315
+     },
+     "height": 0.042737269401550315,
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Lena",
+   "middle": "",
+   "family": "Vollbrink",
+   "suffix": "",
+   "full": "Lena Vollbrink"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Fotografin",
+  "phones": [
+   {
+    "printed": "0157 31 24 56 78",
+    "e164": "+4915731245678",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "hallo@lenavollbrink-de.example"
+  ],
+  "urls": [
+   "lenavollbrink.de"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "instagram.com/lenavollbrink.foto"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "name-equals-domain",
+  "region-from-cctld",
+  "portrait",
+  "absent-company",
+  "absent-addresses",
+  "stray-icon"
+ ],
+ "notes": "Company is ABSENT — \"Lena Vollbrink\" matches the domain stem but is the person. Phone region CH: 0157… is not Swiss; the .de ccTLD gives DE → +49 157 31245678. The \"&\" is the phone icon.",
+ "o3": {
+  "source": "blind-2/cards/de-08.json",
+  "images": [
+   {
+    "name": "b2-de-08",
+    "font": "ArialMT",
+    "rotation": 1.4,
+    "noise": 8,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 80
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

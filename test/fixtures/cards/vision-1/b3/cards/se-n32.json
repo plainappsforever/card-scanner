@@ -1,0 +1,203 @@
+{
+ "id": "se-n32",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en",
+  "sv"
+ ],
+ "card_country": "SE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US",
+    "sv-SE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VINDKRAFT HAVSMARK AB",
+     "box": {
+      "x": 0.05337279143728182,
+      "y": 0.055195790869554284,
+      "w": 0.46441532135009767,
+      "h": 0.07755308998137367
+     },
+     "height": 0.07755308998137367,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Rasa Kazlauskiené",
+     "box": {
+      "x": 0.06322433982529489,
+      "y": 0.19746856622534992,
+      "w": 0.30092208862304687,
+      "h": 0.06006801818788743
+     },
+     "height": 0.06006801818788743,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Head of Procurement, Nordic Region",
+     "box": {
+      "x": 0.06193583119920522,
+      "y": 0.2692357580403274,
+      "w": 0.33032218933105467,
+      "h": 0.05273607983092077
+     },
+     "height": 0.05273607983092077,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel +46 60 17 82 40",
+     "box": {
+      "x": 0.0652240166488943,
+      "y": 0.3688716759389493,
+      "w": 0.15157710075378417,
+      "h": 0.031458394407765655
+     },
+     "height": 0.031458394407765655,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Mobil +46 73 924 18 56",
+     "box": {
+      "x": 0.06653393419805992,
+      "y": 0.415831313042603,
+      "w": 0.1852496910095215,
+      "h": 0.036287648337228084
+     },
+     "height": 0.036287648337228084,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "rasa.kazlauskiene@vindkrafthavsmark-se.example",
+     "box": {
+      "x": 0.06781521552773313,
+      "y": 0.457635684212945,
+      "w": 0.29015699386596683,
+      "h": 0.04273676411985883
+     },
+     "height": 0.04273676411985883,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Storgatan 18, 852 30 Sundsvall",
+     "box": {
+      "x": 0.06923029094273588,
+      "y": 0.5086284809309354,
+      "w": 0.21918922424316406,
+      "h": 0.04446124294089526
+     },
+     "height": 0.04446124294089526,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Rasa",
+   "middle": "",
+   "family": "Kazlauskienė",
+   "suffix": "",
+   "full": "Rasa Kazlauskienė"
+  },
+  "otherName": null,
+  "company": "VINDKRAFT HAVSMARK AB",
+  "department": null,
+  "title": "Head of Procurement, Nordic Region",
+  "phones": [
+   {
+    "printed": "+46 60 17 82 40",
+    "e164": "+4660178240",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+46 73 924 18 56",
+    "e164": "+46739241856",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "rasa.kazlauskiene@vindkrafthavsmark-se.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Storgatan 18",
+    "extra": "",
+    "pobox": "",
+    "postcode": "852 30",
+    "city": "Sundsvall",
+    "region": "",
+    "country": "",
+    "countryCode": "SE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Head of Procurement"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "baltic-name",
+  "diacritic-lost",
+  "foreign-region",
+  "postcode-with-space",
+  "street-without-keyword",
+  "title-with-region"
+ ],
+ "notes": "Lithuanian name at a Swedish company, ė lost. \"Nordic Region\" after the comma is a region, not a department. \"-gatan\" street suffix not in the SPEC list; postcode \"852 30\".",
+ "o3": {
+  "source": "blind-3/cards/se-n32.json",
+  "images": [
+   {
+    "name": "b3-se-n32",
+    "font": "Georgia",
+    "rotation": 1.9,
+    "noise": 9,
+    "blur": 1,
+    "langs": [
+     "en-US",
+     "sv-SE"
+    ],
+    "dropped": [],
+    "visionMs": 92
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

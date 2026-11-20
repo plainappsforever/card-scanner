@@ -1,0 +1,420 @@
+{
+ "id": "se-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "sv"
+ ],
+ "card_country": "SE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "sv-SE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "nordglimma",
+     "box": {
+      "x": 0.07,
+      "y": 0.0957,
+      "w": 0.3479,
+      "h": 0.12
+     },
+     "height": 0.12,
+     "words": [
+      {
+       "text": "nordglimma",
+       "box": {
+        "x": 0.07,
+        "y": 0.0957,
+        "w": 0.3479,
+        "h": 0.12
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Nordglimma Design AB",
+     "box": {
+      "x": 0.07,
+      "y": 0.2377,
+      "w": 0.3093,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Nordglimma",
+       "box": {
+        "x": 0.07,
+        "y": 0.2377,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Design",
+       "box": {
+        "x": 0.2246,
+        "y": 0.2377,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "AB",
+       "box": {
+        "x": 0.3431,
+        "y": 0.2377,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Erik Lindstrom",
+     "box": {
+      "x": 0.07,
+      "y": 0.3097,
+      "w": 0.2943,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Erik",
+       "box": {
+        "x": 0.07,
+        "y": 0.3097,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Lindstrom",
+       "box": {
+        "x": 0.1686,
+        "y": 0.3097,
+        "w": 0.1957,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "VD",
+     "box": {
+      "x": 0.07,
+      "y": 0.3917,
+      "w": 0.0362,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "VD",
+       "box": {
+        "x": 0.07,
+        "y": 0.3917,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Stockholm · Göteborg",
+     "box": {
+      "x": 0.07,
+      "y": 0.4637,
+      "w": 0.3455,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Stockholm",
+       "box": {
+        "x": 0.07,
+        "y": 0.4637,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2428,
+        "y": 0.4637,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Göteborg",
+       "box": {
+        "x": 0.2706,
+        "y": 0.4637,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel 08-123 456 70",
+     "box": {
+      "x": 0.07,
+      "y": 0.5357,
+      "w": 0.2828,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.5357,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "08-123",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5357,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "456",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5357,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "70",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5357,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 070-123 45 67",
+     "box": {
+      "x": 0.07,
+      "y": 0.6077,
+      "w": 0.319,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.6077,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "070-123",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6077,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "45",
+       "box": {
+        "x": 0.3068,
+        "y": 0.6077,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "67",
+       "box": {
+        "x": 0.3528,
+        "y": 0.6077,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "erik@nordglimma-se.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6797,
+      "w": 0.2899,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "erik@nordglimma-se.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6797,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Org.nr 556123-4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.7517,
+      "w": 0.1589,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Org.nr",
+       "box": {
+        "x": 0.07,
+        "y": 0.7517,
+        "w": 0.0544,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "556123-4567",
+       "box": {
+        "x": 0.1292,
+        "y": 0.7517,
+        "w": 0.0996,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Erik",
+   "middle": "",
+   "family": "Lindström",
+   "suffix": "",
+   "full": "Erik Lindström"
+  },
+  "otherName": null,
+  "company": "Nordglimma Design AB",
+  "department": null,
+  "title": "VD",
+  "phones": [
+   {
+    "printed": "08-123 456 70",
+    "e164": "+46812345670",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "070-123 45 67",
+    "e164": "+46701234567",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "erik@nordglimma-se.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Erik Lindström",
+   "ocr": "Erik Lindstrom",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Lindström",
+   "ocr": "Lindstrom",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "region-from-cctld",
+  "registry-id",
+  "short-title",
+  "region-trap-valid-elsewhere",
+  "cities-not-address",
+  "absent-addresses",
+  "diacritic-lost"
+ ],
+ "notes": "\"VD\" (verkställande direktör) is the title. 08-123 456 70 is Stockholm: +46 8 123 456 70. Org.nr 556123-4567 is not a phone. No address: the city names are a leftover and the .se ccTLD gives the country."
+}

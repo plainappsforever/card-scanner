@@ -1,0 +1,290 @@
+{
+ "id": "fr-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "fr"
+ ],
+ "card_country": "FR",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "fr-FR",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "VALMONT",
+     "box": {
+      "x": 0.07780757084110715,
+      "y": 0.01652122164971559,
+      "w": 0.25996015548706053,
+      "h": 0.08267546252394276
+     },
+     "height": 0.08267546252394276,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "EMBALLAGES",
+     "box": {
+      "x": 0.07542526532270612,
+      "y": 0.1519238844462869,
+      "w": 0.1631160163879395,
+      "h": 0.03854677944109697
+     },
+     "height": 0.03854677944109697,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Jean-Baptiste MOREAU",
+     "box": {
+      "x": 0.07350849788159138,
+      "y": 0.2168799309369399,
+      "w": 0.4227509689331055,
+      "h": 0.07069022867210129
+     },
+     "height": 0.07069022867210129,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Directeur Commercial",
+     "box": {
+      "x": 0.07206250410623852,
+      "y": 0.3010975768472769,
+      "w": 0.3252898406982422,
+      "h": 0.05531279736964401
+     },
+     "height": 0.05531279736964401,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "18, rue de la Pépinière",
+     "box": {
+      "x": 0.07195595642092784,
+      "y": 0.37335907859018347,
+      "w": 0.374854736328125,
+      "h": 0.06600706917899002
+     },
+     "height": 0.06600706917899002,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "75008 Paris",
+     "box": {
+      "x": 0.0680969016708837,
+      "y": 0.4468501015551849,
+      "w": 0.18808174133300778,
+      "h": 0.041285095067558175
+     },
+     "height": 0.041285095067558175,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tél. +33 (0) 1 42 68 53 00",
+     "box": {
+      "x": 0.06589652092686243,
+      "y": 0.5091914141435698,
+      "w": 0.4392062759399414,
+      "h": 0.07585943803824058
+     },
+     "height": 0.07585943803824058,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Fax 01 42 68 53 01",
+     "box": {
+      "x": 0.06584445634176063,
+      "y": 0.5825262425884643,
+      "w": 0.30172620773315434,
+      "h": 0.061752485032247284
+     },
+     "height": 0.061752485032247284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Portable 06 12 34 56 78",
+     "box": {
+      "x": 0.06629041357104157,
+      "y": 0.6567515251648668,
+      "w": 0.39072746276855463,
+      "h": 0.05834645378083336
+     },
+     "height": 0.05834645378083336,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "jb.moreau@valmont-emballages-fr.example",
+     "box": {
+      "x": 0.06337002852715024,
+      "y": 0.7295046760656291,
+      "w": 0.524445915222168,
+      "h": 0.07121928594287297
+     },
+     "height": 0.07121928594287297,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f10",
+     "text": "Une société du Groupe Arvel",
+     "box": {
+      "x": 0.06064614421427812,
+      "y": 0.8016686372068307,
+      "w": 0.2669205665588379,
+      "h": 0.04410942917164684
+     },
+     "height": 0.04410942917164684,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f11",
+     "text": "Valmont Emballages SAS • RCS Paris B 732 829 320",
+     "box": {
+      "x": 0.05917389537742967,
+      "y": 0.8529297529932691,
+      "w": 0.3670932006835937,
+      "h": 0.04408018561403726
+     },
+     "height": 0.04408018561403726,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f12",
+     "text": "SIRET 732 829 320 00074 • TVA FR40732829320",
+     "box": {
+      "x": 0.05919226696394013,
+      "y": 0.8987605890809547,
+      "w": 0.3147343826293945,
+      "h": 0.03759339969590825
+     },
+     "height": 0.03759339969590825,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Jean-Baptiste",
+   "middle": "",
+   "family": "MOREAU",
+   "suffix": "",
+   "full": "Jean-Baptiste MOREAU"
+  },
+  "otherName": null,
+  "company": "VALMONT EMBALLAGES",
+  "department": null,
+  "title": "Directeur Commercial",
+  "phones": [
+   {
+    "printed": "+33 (0)1 42 68 53 00",
+    "e164": "+33142685300",
+    "type": "work",
+    "label": "Tél.",
+    "ext": null
+   },
+   {
+    "printed": "01 42 68 53 01",
+    "e164": "+33142685301",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "06 12 34 56 78",
+    "e164": "+33612345678",
+    "type": "mobile",
+    "label": "Portable",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "jb.moreau@valmont-emballages-fr.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "18, rue de la Pépinière",
+    "extra": "",
+    "pobox": "",
+    "postcode": "75008",
+    "city": "Paris",
+    "region": "",
+    "country": "",
+    "countryCode": "FR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Valmont Emballages SAS"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "all-caps-family",
+  "group-line-not-company",
+  "trunk-in-brackets",
+  "registry-id",
+  "vat-id",
+  "ext-pair",
+  "region-from-address",
+  "diacritic-lost"
+ ],
+ "notes": "N3: MOREAU is the family name. \"Groupe Arvel\" is not the company. SIRET (14 digits), RCS and TVA are not phones. Region DE: national 01/06 numbers are French by address.",
+ "o3": {
+  "source": "blind-2/cards/fr-01.json",
+  "images": [
+   {
+    "name": "b2-fr-01",
+    "font": "Menlo-Regular",
+    "rotation": -1.91,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "fr-FR",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 126
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,371 @@
+{
+ "id": "cn-01-front",
+ "group": "cn-01",
+ "side": "front",
+ "card_langs": [
+  "zh",
+  "en"
+ ],
+ "card_country": "CN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "zh-Hans",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "深圳市华光电子有限公司",
+     "box": {
+      "x": 0.07,
+      "y": 0.0696,
+      "w": 0.4982,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "深圳市华光电子有限公司",
+       "box": {
+        "x": 0.07,
+        "y": 0.0696,
+        "w": 0.4982,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "王建国",
+     "box": {
+      "x": 0.07,
+      "y": 0.1616,
+      "w": 0.1941,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "王建国",
+       "box": {
+        "x": 0.07,
+        "y": 0.1616,
+        "w": 0.1941,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "销售总监",
+     "box": {
+      "x": 0.07,
+      "y": 0.2836,
+      "w": 0.1294,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "销售总监",
+       "box": {
+        "x": 0.07,
+        "y": 0.2836,
+        "w": 0.1294,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "地址：深圳市南山区科技园科苑路15号",
+     "box": {
+      "x": 0.07,
+      "y": 0.3556,
+      "w": 0.5539,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "地址：深圳市南山区科技园科苑路15号",
+       "box": {
+        "x": 0.07,
+        "y": 0.3556,
+        "w": 0.5539,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "邮编：518057",
+     "box": {
+      "x": 0.07,
+      "y": 0.4276,
+      "w": 0.2058,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "邮编：518057",
+       "box": {
+        "x": 0.07,
+        "y": 0.4276,
+        "w": 0.2058,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "电话：0755-8612 3456",
+     "box": {
+      "x": 0.07,
+      "y": 0.4996,
+      "w": 0.3423,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "电话：0755-8612",
+       "box": {
+        "x": 0.07,
+        "y": 0.4996,
+        "w": 0.2601,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3456",
+       "box": {
+        "x": 0.3398,
+        "y": 0.4996,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "传真：0755-8612 3457",
+     "box": {
+      "x": 0.07,
+      "y": 0.5716,
+      "w": 0.3423,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "传真：0755-8612",
+       "box": {
+        "x": 0.07,
+        "y": 0.5716,
+        "w": 0.2601,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "3457",
+       "box": {
+        "x": 0.3398,
+        "y": 0.5716,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "手机：139 2345 6789",
+     "box": {
+      "x": 0.07,
+      "y": 0.6436,
+      "w": 0.3158,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "手机：139",
+       "box": {
+        "x": 0.07,
+        "y": 0.6436,
+        "w": 0.1514,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2345",
+       "box": {
+        "x": 0.2311,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "6789",
+       "box": {
+        "x": 0.3133,
+        "y": 0.6436,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "邮箱：wangjg@huaguang-elec-cn.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7156,
+      "w": 0.5138,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "邮箱：wangjg@huaguang-elec-cn.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7156,
+        "w": 0.5138,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "微信：wjg_huaguang",
+     "box": {
+      "x": 0.07,
+      "y": 0.7876,
+      "w": 0.3145,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "微信：wjg_huaguang",
+       "box": {
+        "x": 0.07,
+        "y": 0.7876,
+        "w": 0.3145,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "建国",
+   "middle": "",
+   "family": "王",
+   "suffix": "",
+   "full": "王建国"
+  },
+  "otherName": null,
+  "company": "深圳市华光电子有限公司",
+  "department": null,
+  "title": "销售总监",
+  "phones": [
+   {
+    "printed": "0755-8612 3456",
+    "e164": "+8675586123456",
+    "type": "work",
+    "label": "电话",
+    "ext": null
+   },
+   {
+    "printed": "0755-8612 3457",
+    "e164": "+8675586123457",
+    "type": "fax",
+    "label": "传真",
+    "ext": null
+   },
+   {
+    "printed": "139 2345 6789",
+    "e164": "+8613923456789",
+    "type": "mobile",
+    "label": "手机",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "wangjg@huaguang-elec-cn.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "wechat",
+    "value": "wjg_huaguang"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "科苑路15号",
+    "extra": "南山区科技园",
+    "pobox": "",
+    "postcode": "518057",
+    "city": "深圳市",
+    "region": "",
+    "country": "",
+    "countryCode": "CN"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls"
+ ],
+ "accept": {
+  "addresses[0].street": [
+   "南山区科技园科苑路15号"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "ext-pair",
+  "handle-social",
+  "region-from-address"
+ ],
+ "notes": "Chinese front alone: labels with full-width colons (电话：, 传真：, 手机：, 邮箱：, 微信：). Name 王建国 → family 王. National numbers + region DE → Chinese by address. WeChat id is a social."
+}

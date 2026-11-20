@@ -1,0 +1,291 @@
+{
+ "id": "de-h17-back",
+ "group": "de-h17",
+ "side": "back",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Ingrid Sørensen",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3204,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Ingrid",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1282,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Sørensen",
+       "box": {
+        "x": 0.2195,
+        "y": 0.06,
+        "w": 0.1709,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Leitung Bankett & Veranstaltungen",
+     "box": {
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.4229,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Leitung",
+       "box": {
+        "x": 0.07,
+        "y": 0.14,
+        "w": 0.0897,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Bankett",
+       "box": {
+        "x": 0.1725,
+        "y": 0.14,
+        "w": 0.0897,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.275,
+        "y": 0.14,
+        "w": 0.0128,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "Veranstaltungen",
+       "box": {
+        "x": 0.3007,
+        "y": 0.14,
+        "w": 0.1922,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Mobi| 0151 42 87 33 19",
+     "box": {
+      "x": 0.07,
+      "y": 0.246,
+      "w": 0.2741,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Mobi|",
+       "box": {
+        "x": 0.07,
+        "y": 0.246,
+        "w": 0.0623,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0151",
+       "box": {
+        "x": 0.1448,
+        "y": 0.246,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "42",
+       "box": {
+        "x": 0.2071,
+        "y": 0.246,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "87",
+       "box": {
+        "x": 0.2444,
+        "y": 0.246,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.2818,
+        "y": 0.246,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "19",
+       "box": {
+        "x": 0.3192,
+        "y": 0.246,
+        "w": 0.0249,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "Durchwahl -214",
+     "box": {
+      "x": 0.07,
+      "y": 0.301,
+      "w": 0.1744,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Durchwahl",
+       "box": {
+        "x": 0.07,
+        "y": 0.301,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "-214",
+       "box": {
+        "x": 0.1946,
+        "y": 0.301,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "i.sorensen@hotel-seeblick-brunnsee-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.356,
+      "w": 0.4329,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "i.sorensen@hotel-seeblick-brunnsee-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.356,
+        "w": 0.4329,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ingrid",
+   "middle": "",
+   "family": "Sørensen",
+   "suffix": "",
+   "full": "Ingrid Sørensen"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Leitung Bankett & Veranstaltungen",
+  "phones": [
+   {
+    "printed": "0151 42 87 33 19",
+    "e164": "+4915142873319",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "i.sorensen@hotel-seeblick-brunnsee-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "Mobil",
+   "ocr": "Mobi|",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "tagline",
+  "cross-side-extension",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "suffix-only-number"
+ ],
+ "notes": "Back only: the person. \"Durchwahl -214\" cannot be resolved without the front base number and is not in the truth for this side (an unresolved extra phone is not scored as right). The label \"Mobil\" was read \"Mobi|\"."
+}

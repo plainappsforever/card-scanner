@@ -1,0 +1,209 @@
+{
+ "id": "uk-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Thistle Wellbeing Clinic",
+     "box": {
+      "x": 0.08121107283547097,
+      "y": 0.09608644382265874,
+      "w": 0.3288356399536133,
+      "h": 0.05517322216254872
+     },
+     "height": 0.05517322216254872,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dr Isla MacLennan",
+     "box": {
+      "x": 0.07968443981762956,
+      "y": 0.32256907741059826,
+      "w": 0.31304676055908204,
+      "h": 0.052272583066726774
+     },
+     "height": 0.052272583066726774,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Consultant Clinical Psychologist",
+     "box": {
+      "x": 0.07972945048964107,
+      "y": 0.41443346362102096,
+      "w": 0.30857088088989254,
+      "h": 0.04240438836882021
+     },
+     "height": 0.04240438836882021,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "DClinPsy, CPsychol",
+     "box": {
+      "x": 0.0797271294269829,
+      "y": 0.47270572225795726,
+      "w": 0.16898235321044922,
+      "h": 0.039990865125619335
+     },
+     "height": 0.039990865125619335,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "2nd Floor, 14 Queen Street",
+     "box": {
+      "x": 0.07703488534799575,
+      "y": 0.6524663679940398,
+      "w": 0.23255813598632813,
+      "h": 0.03811659131731304
+     },
+     "height": 0.03811659131731304,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Edinburgh EH2 1JX",
+     "box": {
+      "x": 0.07848836954656864,
+      "y": 0.7017374510140874,
+      "w": 0.18023256301879886,
+      "h": 0.035930710869866544
+     },
+     "height": 0.035930710869866544,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel: 0131 496 0055",
+     "box": {
+      "x": 0.07848837323522581,
+      "y": 0.7577220075798915,
+      "w": 0.1598837184906006,
+      "h": 0.029273508138177973
+     },
+     "height": 0.029273508138177973,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "isla@thistlewellbeing-scot.example • thistlewellbeing.scot",
+     "box": {
+      "x": 0.07475269901025594,
+      "y": 0.8009740584341025,
+      "w": 0.4296050643920899,
+      "h": 0.04625906078971953
+     },
+     "height": 0.04625906078971953,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Isla",
+   "middle": "",
+   "family": "MacLennan",
+   "suffix": "",
+   "full": "Dr Isla MacLennan"
+  },
+  "otherName": null,
+  "company": "Thistle Wellbeing Clinic",
+  "department": null,
+  "title": "Consultant Clinical Psychologist",
+  "phones": [
+   {
+    "printed": "0131 496 0055",
+    "e164": "+441314960055",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "isla@thistlewellbeing-scot.example"
+  ],
+  "urls": [
+   "thistlewellbeing.scot"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "14 Queen Street",
+    "extra": "2nd Floor",
+    "pobox": "",
+    "postcode": "EH2 1JX",
+    "city": "Edinburgh",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "name.suffix": [
+   "DClinPsy, CPsychol"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "dr-without-dot",
+  "mac-capitalisation",
+  "floor-before-street",
+  "scot-tld",
+  "postnominal-line",
+  "region-mismatch"
+ ],
+ "notes": "Phone region is DE but the number is a UK national number without +44: the country must come from the UK postcode.",
+ "o3": {
+  "source": "blind-1/cards/uk-03.json",
+  "images": [
+   {
+    "name": "b1-uk-03",
+    "font": "TimesNewRomanPSMT",
+    "rotation": -0.5,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 82
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

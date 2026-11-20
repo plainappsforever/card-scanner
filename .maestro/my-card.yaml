@@ -1,0 +1,38 @@
+appId: ${APP_ID}
+name: U8 - my card QR and share
+tags:
+  - p7
+---
+- runFlow:
+    file: subflows/seed.yaml
+    env:
+      SET: empty
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: my-card-button
+# my card survives the seed (it is not a library card): edit it when it exists
+- tapOn:
+    id: my-card-edit
+    optional: true
+- tapOn:
+    id: my-card-given
+- eraseText: 30
+- inputText: "Tilda"
+- tapOn:
+    id: my-card-family
+- eraseText: 30
+- inputText: "Größe-Tester"
+- tapOn:
+    id: my-card-email
+- eraseText: 40
+- inputText: "tilda@example.org"
+- tapOn: "Fill in your details.*"
+- scrollUntilVisible:
+    element:
+      id: my-card-save
+- tapOn:
+    id: my-card-save
+- assertVisible:
+    id: my-card-qr
+- takeScreenshot: u8-qr

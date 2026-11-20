@@ -1,0 +1,558 @@
+{
+ "id": "mex-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "MX",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "es-MX"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ACEROS DEL VARUEL",
+     "box": {
+      "x": 0.07,
+      "y": 0.0861,
+      "w": 0.4369,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "ACEROS",
+       "box": {
+        "x": 0.07,
+        "y": 0.0861,
+        "w": 0.1739,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "DEL",
+       "box": {
+        "x": 0.2595,
+        "y": 0.0861,
+        "w": 0.087,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "VARUEL",
+       "box": {
+        "x": 0.362,
+        "y": 0.0861,
+        "w": 0.1449,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "S.A. de C.V.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1881,
+      "w": 0.2006,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "S.A.",
+       "box": {
+        "x": 0.07,
+        "y": 0.1881,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.1522,
+        "y": 0.1881,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "C.V.",
+       "box": {
+        "x": 0.1981,
+        "y": 0.1881,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Lic. Daniela Garza Trevino",
+     "box": {
+      "x": 0.07,
+      "y": 0.2601,
+      "w": 0.535,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Lic.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2601,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Daniela",
+       "box": {
+        "x": 0.1686,
+        "y": 0.2601,
+        "w": 0.1522,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Garza",
+       "box": {
+        "x": 0.3324,
+        "y": 0.2601,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Trevino",
+       "box": {
+        "x": 0.4528,
+        "y": 0.2601,
+        "w": 0.1522,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Gerente de Compras",
+     "box": {
+      "x": 0.07,
+      "y": 0.3421,
+      "w": 0.3093,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Gerente",
+       "box": {
+        "x": 0.07,
+        "y": 0.3421,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3421,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Compras",
+       "box": {
+        "x": 0.2525,
+        "y": 0.3421,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Av. Constitución 2050 Ote.",
+     "box": {
+      "x": 0.07,
+      "y": 0.4141,
+      "w": 0.4458,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Av.",
+       "box": {
+        "x": 0.07,
+        "y": 0.4141,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Constitución",
+       "box": {
+        "x": 0.1341,
+        "y": 0.4141,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2050",
+       "box": {
+        "x": 0.3612,
+        "y": 0.4141,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Ote.",
+       "box": {
+        "x": 0.4434,
+        "y": 0.4141,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "Col. Centro, 64000 Monterrey, N.L.",
+     "box": {
+      "x": 0.07,
+      "y": 0.4861,
+      "w": 0.5824,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Col.",
+       "box": {
+        "x": 0.07,
+        "y": 0.4861,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Centro,",
+       "box": {
+        "x": 0.1522,
+        "y": 0.4861,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "64000",
+       "box": {
+        "x": 0.2887,
+        "y": 0.4861,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Monterrey,",
+       "box": {
+        "x": 0.389,
+        "y": 0.4861,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "N.L.",
+       "box": {
+        "x": 0.5799,
+        "y": 0.4861,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +52 (81) 8123 4567",
+     "box": {
+      "x": 0.07,
+      "y": 0.5581,
+      "w": 0.3831,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5581,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+52",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5581,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "(81)",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5581,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "8123",
+       "box": {
+        "x": 0.2984,
+        "y": 0.5581,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.3806,
+        "y": 0.5581,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "Cel. 81 1234 5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.6301,
+      "w": 0.2828,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Cel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6301,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "81",
+       "box": {
+        "x": 0.1522,
+        "y": 0.6301,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "1234",
+       "box": {
+        "x": 0.1981,
+        "y": 0.6301,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "5678",
+       "box": {
+        "x": 0.2803,
+        "y": 0.6301,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f8",
+     "text": "dgarza@acerosdelvaruel-com-mx.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7021,
+      "w": 0.5073,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "dgarza@acerosdelvaruel-com-mx.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7021,
+        "w": 0.5073,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f9",
+     "text": "RFC ANO850101AB1",
+     "box": {
+      "x": 0.07,
+      "y": 0.7741,
+      "w": 0.1407,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "RFC",
+       "box": {
+        "x": 0.07,
+        "y": 0.7741,
+        "w": 0.0272,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "ANO850101AB1",
+       "box": {
+        "x": 0.102,
+        "y": 0.7741,
+        "w": 0.1087,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "US",
+  "uiLang": "es"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Lic.",
+   "given": "Daniela",
+   "middle": "",
+   "family": "Garza Treviño",
+   "suffix": "",
+   "full": "Lic. Daniela Garza Treviño"
+  },
+  "otherName": null,
+  "company": "ACEROS DEL VARUEL S.A. de C.V.",
+  "department": "Compras",
+  "title": "Gerente",
+  "phones": [
+   {
+    "printed": "+52 (81) 8123 4567",
+    "e164": "+528181234567",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "81 1234 5678",
+    "e164": "+528112345678",
+    "type": "mobile",
+    "label": "Cel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "dgarza@acerosdelvaruel-com-mx.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Av. Constitución 2050 Ote.",
+    "extra": "Col. Centro",
+    "pobox": "",
+    "postcode": "64000",
+    "city": "Monterrey",
+    "region": "N.L.",
+    "country": "",
+    "countryCode": "MX"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Gerente de Compras"
+  ],
+  "company": [
+   "ACEROS DEL VARUEL"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Lic. Daniela Garza Treviño",
+   "ocr": "Lic. Daniela Garza Trevino",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Garza Treviño",
+   "ocr": "Garza Trevino",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "two-given-two-family",
+  "legal-form-line",
+  "tax-id",
+  "title-dept-one-line",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "With region US the 10-digit mobile looks NANP but 811 is not a US area code; card has +52 and a Monterrey address → +52 81 1234 5678. Family Garza Treviño. RFC is not a phone."
+}

@@ -1,0 +1,148 @@
+{
+ "id": "de-h17-front",
+ "group": "de-h17",
+ "side": "front",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HOTEL SEEBLICK",
+     "box": {
+      "x": 0.2614171860569948,
+      "y": 0.0413661745054128,
+      "w": 0.45254245758056644,
+      "h": 0.10190569019685847
+     },
+     "height": 0.10190569019685847,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Ankommen. Durchatmen.",
+     "box": {
+      "x": 0.34244263345219755,
+      "y": 0.15955450108745695,
+      "w": 0.27564418792724615,
+      "h": 0.05065093169341217
+     },
+     "height": 0.05065093169341217,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Seestraße 3 • 82319 Brunnsee",
+     "box": {
+      "x": 0.3149929406156475,
+      "y": 0.32365648260077196,
+      "w": 0.2754941749572754,
+      "h": 0.042645824461830184
+     },
+     "height": 0.042645824461830184,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tel. 08151 97 76-0 • www.hotel-seeblick-brunnsee.de",
+     "box": {
+      "x": 0.20000575440469134,
+      "y": 0.37113547312623796,
+      "w": 0.4589040756225585,
+      "h": 0.05577032722561526
+     },
+     "height": 0.05577032722561526,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "HOTEL SEEBLICK",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "08151 97 76-0",
+    "e164": "+49815197760",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.hotel-seeblick-brunnsee.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Seestraße 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "82319",
+    "city": "Brunnsee",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "department",
+  "title",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "two-sided",
+  "hotel",
+  "tagline",
+  "cross-side-extension",
+  "scandinavian-name",
+  "ocr-pipe-for-l",
+  "suffix-only-number"
+ ],
+ "notes": "Front only: hotel, tagline, address, switchboard; no person.",
+ "o3": {
+  "source": "blind-3/cards/de-h17-front.json",
+  "images": [
+   {
+    "name": "b3-de-h17-front",
+    "font": "ArialMT",
+    "rotation": 1.95,
+    "noise": 5,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 103
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "id": "de-17",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Gisela Hoffmeister",
+     "box": {
+      "x": 0.2634,
+      "y": 0.3,
+      "w": 0.4731,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "Gisela",
+       "box": {
+        "x": 0.2634,
+        "y": 0.3,
+        "w": 0.1615,
+        "h": 0.08
+       }
+      },
+      {
+       "text": "Hoffmeister",
+       "box": {
+        "x": 0.4405,
+        "y": 0.3,
+        "w": 0.2961,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Heilpraktikerin",
+     "box": {
+      "x": 0.3738,
+      "y": 0.416,
+      "w": 0.2524,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Heilpraktikerin",
+       "box": {
+        "x": 0.3738,
+        "y": 0.416,
+        "w": 0.2524,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Termine nach Vereinbarung",
+     "box": {
+      "x": 0.3293,
+      "y": 0.7,
+      "w": 0.3413,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Termine",
+       "box": {
+        "x": 0.3293,
+        "y": 0.7,
+        "w": 0.0989,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "nach",
+       "box": {
+        "x": 0.4364,
+        "y": 0.7,
+        "w": 0.0565,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Vereinbarung",
+       "box": {
+        "x": 0.5011,
+        "y": 0.7,
+        "w": 0.1696,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "0 61 51 / 7 89 01",
+     "box": {
+      "x": 0.3978,
+      "y": 0.7609,
+      "w": 0.2044,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "0",
+       "box": {
+        "x": 0.3978,
+        "y": 0.7609,
+        "w": 0.0141,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.4201,
+        "y": 0.7609,
+        "w": 0.0283,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "51",
+       "box": {
+        "x": 0.4565,
+        "y": 0.7609,
+        "w": 0.0283,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "/",
+       "box": {
+        "x": 0.4929,
+        "y": 0.7609,
+        "w": 0.0141,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "7",
+       "box": {
+        "x": 0.5152,
+        "y": 0.7609,
+        "w": 0.0141,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.5375,
+        "y": 0.7609,
+        "w": 0.0283,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "01",
+       "box": {
+        "x": 0.5739,
+        "y": 0.7609,
+        "w": 0.0283,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Gisela",
+   "middle": "",
+   "family": "Hoffmeister",
+   "suffix": "",
+   "full": "Gisela Hoffmeister"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Heilpraktikerin",
+  "phones": [
+   {
+    "printed": "0 61 51 / 7 89 01",
+    "e164": "+49615178901",
+    "type": "work",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "emails",
+  "urls",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "minimal-card",
+  "spaced-area-code",
+  "unlabelled-landline",
+  "absent-company",
+  "absent-email",
+  "absent-address",
+  "absent-url"
+ ],
+ "notes": "Only name, profession and one landline. Area code printed with spaces (\"0 61 51\")."
+}

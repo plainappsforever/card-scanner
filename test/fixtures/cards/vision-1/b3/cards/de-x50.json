@@ -1,0 +1,207 @@
+{
+ "id": "de-x50",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "GASTHAUS",
+     "box": {
+      "x": 0.4430859346305405,
+      "y": 0.05833514114897598,
+      "w": 0.13852320671081547,
+      "h": 0.036564193637214526
+     },
+     "height": 0.036564193637214526,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "ZUM LoWEN",
+     "box": {
+      "x": 0.3754805532438638,
+      "y": 0.10140078472488012,
+      "w": 0.3085774803161621,
+      "h": 0.07746433567356426
+     },
+     "height": 0.07746433567356426,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "seit 1874",
+     "box": {
+      "x": 0.4465563473378279,
+      "y": 0.19897466304900302,
+      "w": 0.08394782066345219,
+      "h": 0.04486947446256062
+     },
+     "height": 0.04486947446256062,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Inh. Ralf Kübler",
+     "box": {
+      "x": 0.07122092597140188,
+      "y": 0.28923766755266667,
+      "w": 0.18895349502563474,
+      "h": 0.0470852023386128
+     },
+     "height": 0.0470852023386128,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Hauptstraße 21 • 79588 Ellmerich-Kirchen",
+     "box": {
+      "x": 0.07057714168587946,
+      "y": 0.3836201771661427,
+      "w": 0.3224092483520508,
+      "h": 0.04931876097866916
+     },
+     "height": 0.04931876097866916,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 07628 9 41 20",
+     "box": {
+      "x": 0.0677650125145592,
+      "y": 0.43289777684503283,
+      "w": 0.1435690879821777,
+      "h": 0.03872123924461568
+     },
+     "height": 0.03872123924461568,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Ruhetag Montag • Küche 11.30-14 & 17.30-21.30 Uhr",
+     "box": {
+      "x": 0.06586005065497566,
+      "y": 0.4785610726257865,
+      "w": 0.3597684097290039,
+      "h": 0.057236216703436926
+     },
+     "height": 0.057236216703436926,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "www.loewen-ellmerich.de",
+     "box": {
+      "x": 0.06649030856271182,
+      "y": 0.5313357803842812,
+      "w": 0.17807092666625976,
+      "h": 0.03568833030789054
+     },
+     "height": 0.03568833030789054,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ralf",
+   "middle": "",
+   "family": "Kübler",
+   "suffix": "",
+   "full": "Ralf Kübler"
+  },
+  "otherName": null,
+  "company": "GASTHAUS ZUM LÖWEN",
+  "department": null,
+  "title": "Inh.",
+  "phones": [
+   {
+    "printed": "07628 9 41 20",
+    "e164": "+49762894120",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   }
+  ],
+  "emails": [],
+  "urls": [
+   "www.loewen-ellmerich.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hauptstraße 21",
+    "extra": "",
+    "pobox": "",
+    "postcode": "79588",
+    "city": "Ellmerich-Kirchen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "emails",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "restaurant",
+  "ocr-0O-in-word",
+  "diacritic-lost",
+  "ocr-1l",
+  "opening-hours",
+  "year-in-tagline",
+  "absent-email",
+  "inh-as-title",
+  "hyphenated-city"
+ ],
+ "notes": "Logo \"ZUM LÖWEN\" read as \"ZUM L0WEN\" (Ö lost its dots and became 0). \"Inh.\" (owner) read as \"lnh.\" stands before the name and is the title. Kitchen hours \"11.30–14\" are not phones. No e-mail.",
+ "o3": {
+  "source": "blind-3/cards/de-x50.json",
+  "images": [
+   {
+    "name": "b3-de-x50",
+    "font": "Georgia",
+    "rotation": -1.91,
+    "noise": 8,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 79
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "id": "ru-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ru"
+ ],
+ "card_country": "RU",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "en",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ru-RU",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ООО «Северный Вереск»",
+     "box": {
+      "x": 0.062116264349347396,
+      "y": 0.06211156996296341,
+      "w": 0.35259876251220706,
+      "h": 0.06431097229475224
+     },
+     "height": 0.06431097229475224,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Смирнова Екатерина Андреевна",
+     "box": {
+      "x": 0.06628963179140052,
+      "y": 0.21657481821337488,
+      "w": 0.6218999481201171,
+      "h": 0.08541338416140054
+     },
+     "height": 0.08541338416140054,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Руководитель отдела продаж",
+     "box": {
+      "x": 0.06814483680858782,
+      "y": 0.3271736441269595,
+      "w": 0.3419611740112305,
+      "h": 0.04762667394512854
+     },
+     "height": 0.04762667394512854,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "125009, Москва, ул. Тверская, д. 12, стр. 2, офис 305",
+     "box": {
+      "x": 0.06788711641406905,
+      "y": 0.49705444567499113,
+      "w": 0.5009141540527343,
+      "h": 0.05890571380674148
+     },
+     "height": 0.05890571380674148,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Тел.: +7 (495) 123-45-67",
+     "box": {
+      "x": 0.07077835978864108,
+      "y": 0.5551786146664005,
+      "w": 0.2115987205505371,
+      "h": 0.04635914320190904
+     },
+     "height": 0.04635914320190904,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Моб.: +7 (916) 765-43-21",
+     "box": {
+      "x": 0.07222360695275057,
+      "y": 0.6017969281484525,
+      "w": 0.22768285751342773,
+      "h": 0.04961423063830517
+     },
+     "height": 0.04961423063830517,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "e.smirnova@seververesk-ru.example",
+     "box": {
+      "x": 0.07069418458423367,
+      "y": 0.6516840364708745,
+      "w": 0.24945270538330083,
+      "h": 0.0443930165648001
+     },
+     "height": 0.0443930165648001,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "www.seververesk.ru",
+     "box": {
+      "x": 0.07232597785382433,
+      "y": 0.7125664453794438,
+      "w": 0.17506547927856445,
+      "h": 0.0321940455197367
+     },
+     "height": 0.0321940455197367,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "ИНН 7701234567",
+     "box": {
+      "x": 0.07383907655211598,
+      "y": 0.7548926249680584,
+      "w": 0.17359218597412107,
+      "h": 0.04335224122154213
+     },
+     "height": 0.04335224122154213,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Екатерина",
+   "middle": "Андреевна",
+   "family": "Смирнова",
+   "suffix": "",
+   "full": "Смирнова Екатерина Андреевна"
+  },
+  "otherName": null,
+  "company": "ООО «Северный Вереск»",
+  "department": null,
+  "title": "Руководитель отдела продаж",
+  "phones": [
+   {
+    "printed": "+7 (495) 123-45-67",
+    "e164": "+74951234567",
+    "type": "work",
+    "label": "Тел.:",
+    "ext": null
+   },
+   {
+    "printed": "+7 (916) 765-43-21",
+    "e164": "+79167654321",
+    "type": "mobile",
+    "label": "Моб.:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "e.smirnova@seververesk-ru.example"
+  ],
+  "urls": [
+   "www.seververesk.ru"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "ул. Тверская, д. 12",
+    "extra": "стр. 2, офис 305",
+    "pobox": "",
+    "postcode": "125009",
+    "city": "Москва",
+    "region": "",
+    "country": "",
+    "countryCode": "RU"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "cyrillic",
+  "family-first-with-patronymic",
+  "guillemets-company",
+  "postcode-first",
+  "inn-10digits",
+  "initial-email"
+ ],
+ "notes": "Russian order: family, given, patronymic. Postcode comes first in the address line. ИНН (10 digits) is a tax id.",
+ "o3": {
+  "source": "blind-1/cards/ru-01.json",
+  "images": [
+   {
+    "name": "b1-ru-01",
+    "font": "HoeflerText-Regular",
+    "rotation": 1.44,
+    "noise": 2,
+    "blur": 0.6,
+    "langs": [
+     "ru-RU",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 133
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

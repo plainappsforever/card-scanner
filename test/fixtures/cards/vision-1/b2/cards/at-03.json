@@ -1,0 +1,171 @@
+{
+ "id": "at-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "AT",
+ "layout": "portrait",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Valentina Moser",
+     "box": {
+      "x": 0.06278027616635445,
+      "y": 0.18749999898931557,
+      "w": 0.744394604303662,
+      "h": 0.05687500000000001
+     },
+     "height": 0.05687500000000001,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Grafikdesignerin",
+     "box": {
+      "x": 0.06854150225398677,
+      "y": 0.2718858138925191,
+      "w": 0.3673625047602709,
+      "h": 0.040032787322997976
+     },
+     "height": 0.040032787322997976,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Atelier im 7. Bezirk",
+     "box": {
+      "x": 0.06410256151611891,
+      "y": 0.325000000763634,
+      "w": 0.4423076968395572,
+      "h": 0.04187500000000011
+     },
+     "height": 0.04187500000000011,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "0664 230 45 67",
+     "box": {
+      "x": 0.06944364676292837,
+      "y": 0.3747396299862984,
+      "w": 0.32748041926203547,
+      "h": 0.033950972557067916
+     },
+     "height": 0.033950972557067916,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "studio@valentinamoser-at.example",
+     "box": {
+      "x": 0.06928284987231831,
+      "y": 0.42401828270850295,
+      "w": 0.5543212890625,
+      "h": 0.029798429012298566
+     },
+     "height": 0.029798429012298566,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "valentinamoser.at",
+     "box": {
+      "x": 0.06710853992055343,
+      "y": 0.47355523498851504,
+      "w": 0.39054016348938225,
+      "h": 0.029624047279357968
+     },
+     "height": 0.029624047279357968,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Valentina",
+   "middle": "",
+   "family": "Moser",
+   "suffix": "",
+   "full": "Valentina Moser"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Grafikdesignerin",
+  "phones": [
+   {
+    "printed": "0664 230 45 67",
+    "e164": "+436642304567",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "studio@valentinamoser-at.example"
+  ],
+  "urls": [
+   "valentinamoser.at"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "socials",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "name-equals-domain",
+  "region-from-cctld",
+  "portrait",
+  "absent-company",
+  "absent-addresses",
+  "ocr-0O"
+ ],
+ "notes": "0664 is an Austrian mobile prefix; with region DE the number is not valid German — the .at ccTLD gives AT. \"Atelier im 7. Bezirk\" is not an address. Company absent (domain = her name).",
+ "o3": {
+  "source": "blind-2/cards/at-03.json",
+  "images": [
+   {
+    "name": "b2-at-03",
+    "font": "HoeflerText-Regular",
+    "rotation": -0.04,
+    "noise": 14,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 191
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

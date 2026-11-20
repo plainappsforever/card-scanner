@@ -1,0 +1,204 @@
+{
+ "id": "jp-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "KUMO ROBOTICS",
+     "box": {
+      "x": 0.07351479420625263,
+      "y": 0.12227143932373297,
+      "w": 0.42852046966552737,
+      "h": 0.07151586760885476
+     },
+     "height": 0.07151586760885476,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Kumo Robotics K.K.",
+     "box": {
+      "x": 0.07344396403156007,
+      "y": 0.2227415165256248,
+      "w": 0.28233724594116216,
+      "h": 0.06052040777611456
+     },
+     "height": 0.06052040777611456,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Kenji Watanabe",
+     "box": {
+      "x": 0.07072345415461015,
+      "y": 0.3086594481976601,
+      "w": 0.26836532592773443,
+      "h": 0.058598179614681944
+     },
+     "height": 0.058598179614681944,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Hardware Engineer, R&D Center",
+     "box": {
+      "x": 0.07063006094912165,
+      "y": 0.39002390216193294,
+      "w": 0.45305549621582036,
+      "h": 0.06490487205475914
+     },
+     "height": 0.06490487205475914,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Mobile +81 80-1234-5678",
+     "box": {
+      "x": 0.07025555668532317,
+      "y": 0.45962037817493995,
+      "w": 0.3344628524780274,
+      "h": 0.05671977996826172
+     },
+     "height": 0.05671977996826172,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Support 0120-987-654",
+     "box": {
+      "x": 0.0693058201787294,
+      "y": 0.5331422489936681,
+      "w": 0.32065746307373044,
+      "h": 0.05263088476703892
+     },
+     "height": 0.05263088476703892,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "kenji.watanabe@kumo-robotics-com.example",
+     "box": {
+      "x": 0.06785357198019966,
+      "y": 0.6049190423003984,
+      "w": 0.5037600708007812,
+      "h": 0.05752480260193571
+     },
+     "height": 0.05752480260193571,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "https://www.kumo-robotics.com/en/",
+    "side": "front"
+   }
+  ]
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kenji",
+   "middle": "",
+   "family": "Watanabe",
+   "suffix": "",
+   "full": "Kenji Watanabe"
+  },
+  "otherName": null,
+  "company": "Kumo Robotics K.K.",
+  "department": "R&D Center",
+  "title": "Hardware Engineer",
+  "phones": [
+   {
+    "printed": "+81 80-1234-5678",
+    "e164": "+818012345678",
+    "type": "mobile",
+    "label": "Mobile",
+    "ext": null
+   },
+   {
+    "printed": "0120-987-654",
+    "e164": "+81120987654",
+    "type": "work",
+    "label": "Support",
+    "ext": null,
+    "type_accept": [
+     "other"
+    ]
+   }
+  ],
+  "emails": [
+   "kenji.watanabe@kumo-robotics-com.example"
+  ],
+  "urls": [
+   "https://www.kumo-robotics.com/en/"
+  ],
+  "socials": [],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "socials",
+  "addresses"
+ ],
+ "accept": {
+  "title": [
+   "Hardware Engineer, R&D Center"
+  ],
+  "company": [
+   "KUMO ROBOTICS"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "qr-url",
+  "toll-free",
+  "region-from-other-number",
+  "title-dept-one-line",
+  "legal-form-unknown",
+  "absent-addresses"
+ ],
+ "notes": "Region DE and no address: 0120-987-654 is Japanese because the card's other number has +81 (SPEC: +cc on the card first). \"K.K.\" (kabushiki kaisha) is a legal form not in the usual lists. URL only in the QR code.",
+ "o3": {
+  "source": "blind-2/cards/jp-03.json",
+  "images": [
+   {
+    "name": "b2-jp-03",
+    "font": "AmericanTypewriter",
+    "rotation": -1.26,
+    "noise": 1,
+    "blur": 1.4,
+    "langs": [
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 95
+   }
+  ],
+  "qrExpected": 1,
+  "qrDecoded": 1
+ }
+}

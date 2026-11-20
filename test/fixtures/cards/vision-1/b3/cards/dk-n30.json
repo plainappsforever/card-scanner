@@ -1,0 +1,203 @@
+{
+ "id": "dk-n30",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "da"
+ ],
+ "card_country": "DK",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "da-DK",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Mette Kjærgaard Arkitekter ApS",
+     "box": {
+      "x": 0.07250566527377914,
+      "y": 0.0535913632125985,
+      "w": 0.36365322113037113,
+      "h": 0.047796912174887574
+     },
+     "height": 0.047796912174887574,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Mette Kjærgaard",
+     "box": {
+      "x": 0.07089690675549715,
+      "y": 0.18121080913448173,
+      "w": 0.26948114395141604,
+      "h": 0.0581023683879367
+     },
+     "height": 0.0581023683879367,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Arkitekt MAA",
+     "box": {
+      "x": 0.06976744075621738,
+      "y": 0.2596525092075588,
+      "w": 0.11918604850769043,
+      "h": 0.02992277992277992
+     },
+     "height": 0.02992277992277992,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Tlf. +45 33 12 48 90 • Mobil +45 26 83 41 07",
+     "box": {
+      "x": 0.06966272335257663,
+      "y": 0.3466401819901518,
+      "w": 0.3272425079345703,
+      "h": 0.029082651764269496
+     },
+     "height": 0.029082651764269496,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "mette@kjaergaard-ark-dk.example",
+     "box": {
+      "x": 0.0683139525517001,
+      "y": 0.39910313903109373,
+      "w": 0.16279069900512694,
+      "h": 0.026905829381758672
+     },
+     "height": 0.026905829381758672,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Overgaden oven Vandet 48, 1415 København K",
+     "box": {
+      "x": 0.0696657121492948,
+      "y": 0.44569158531574427,
+      "w": 0.31557468414306644,
+      "h": 0.03312222469727499
+     },
+     "height": 0.03312222469727499,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "CVR 3456 7812",
+     "box": {
+      "x": 0.06808206567008777,
+      "y": 0.49233309021953575,
+      "w": 0.09782134056091309,
+      "h": 0.024077406260958112
+     },
+     "height": 0.024077406260958112,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mette",
+   "middle": "",
+   "family": "Kjærgaard",
+   "suffix": "",
+   "full": "Mette Kjærgaard"
+  },
+  "otherName": null,
+  "company": "Mette Kjærgaard Arkitekter ApS",
+  "department": null,
+  "title": "Arkitekt MAA",
+  "phones": [
+   {
+    "printed": "+45 33 12 48 90",
+    "e164": "+4533124890",
+    "type": "work",
+    "label": "Tlf.",
+    "ext": null
+   },
+   {
+    "printed": "+45 26 83 41 07",
+    "e164": "+4526834107",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mette@kjaergaard-ark-dk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Overgaden oven Vandet 48",
+    "extra": "",
+    "pobox": "",
+    "postcode": "1415",
+    "city": "København K",
+    "region": "",
+    "country": "",
+    "countryCode": "DK"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Arkitekt"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "name-equals-company",
+  "scandinavian-name",
+  "registry-number-phone-like",
+  "credential-in-title",
+  "street-without-keyword",
+  "foreign-region",
+  "city-with-district-letter"
+ ],
+ "notes": "Company = the person's full name + \"Arkitekter ApS\"; the name line below repeats it. CVR \"3456 7812\" has 8 digits like a Danish phone number but is the company register. MAA = member of the Danish architects' association. City \"København K\" (K = district letter).",
+ "o3": {
+  "source": "blind-3/cards/dk-n30.json",
+  "images": [
+   {
+    "name": "b3-dk-n30",
+    "font": "Baskerville",
+    "rotation": -0.48,
+    "noise": 3,
+    "blur": 0.6,
+    "langs": [
+     "da-DK",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 98
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

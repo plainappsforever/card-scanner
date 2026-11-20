@@ -1,0 +1,494 @@
+{
+ "id": "uk-m08",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "GB",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "MARLOWE STREET",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2777,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "HARLEY",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1282,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "STREET",
+       "box": {
+        "x": 0.2195,
+        "y": 0.06,
+        "w": 0.1282,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "DERMATOLOGY CLINIC",
+     "box": {
+      "x": 0.07,
+      "y": 0.125,
+      "w": 0.2884,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "DERMATOLOGY",
+       "box": {
+        "x": 0.07,
+        "y": 0.125,
+        "w": 0.1762,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "CLINIC",
+       "box": {
+        "x": 0.2623,
+        "y": 0.125,
+        "w": 0.0961,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dr Aisha Rahman MBBS MRCP",
+     "box": {
+      "x": 0.07,
+      "y": 0.23,
+      "w": 0.4895,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Dr",
+       "box": {
+        "x": 0.07,
+        "y": 0.23,
+        "w": 0.0392,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Aisha",
+       "box": {
+        "x": 0.1287,
+        "y": 0.23,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Rahman",
+       "box": {
+        "x": 0.2462,
+        "y": 0.23,
+        "w": 0.1175,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "MBBS",
+       "box": {
+        "x": 0.3833,
+        "y": 0.23,
+        "w": 0.0783,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "MRCP",
+       "box": {
+        "x": 0.4812,
+        "y": 0.23,
+        "w": 0.0783,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Consultant Dermatologist",
+     "box": {
+      "x": 0.07,
+      "y": 0.305,
+      "w": 0.3247,
+      "h": 0.038
+     },
+     "height": 0.038,
+     "words": [
+      {
+       "text": "Consultant",
+       "box": {
+        "x": 0.07,
+        "y": 0.305,
+        "w": 0.1353,
+        "h": 0.038
+       }
+      },
+      {
+       "text": "Dermatologist",
+       "box": {
+        "x": 0.2188,
+        "y": 0.305,
+        "w": 0.1759,
+        "h": 0.038
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "GMC No. 7012345",
+     "box": {
+      "x": 0.07,
+      "y": 0.363,
+      "w": 0.1602,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "GMC",
+       "box": {
+        "x": 0.07,
+        "y": 0.363,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "No.",
+       "box": {
+        "x": 0.1127,
+        "y": 0.363,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "7012345",
+       "box": {
+        "x": 0.1554,
+        "y": 0.363,
+        "w": 0.0748,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Appointments 020 7935 8840",
+     "box": {
+      "x": 0.07,
+      "y": 0.433,
+      "w": 0.324,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Appointments",
+       "box": {
+        "x": 0.07,
+        "y": 0.433,
+        "w": 0.1495,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "020",
+       "box": {
+        "x": 0.232,
+        "y": 0.433,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "7935",
+       "box": {
+        "x": 0.2818,
+        "y": 0.433,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "8840",
+       "box": {
+        "x": 0.3442,
+        "y": 0.433,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Direct 020 7935 8841",
+     "box": {
+      "x": 0.07,
+      "y": 0.488,
+      "w": 0.2492,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Direct",
+       "box": {
+        "x": 0.07,
+        "y": 0.488,
+        "w": 0.0748,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "020",
+       "box": {
+        "x": 0.1572,
+        "y": 0.488,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "7935",
+       "box": {
+        "x": 0.2071,
+        "y": 0.488,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "8841",
+       "box": {
+        "x": 0.2694,
+        "y": 0.488,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "a.rahman@marlowestreetderm-co-uk.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.543,
+      "w": 0.3311,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "a.rahman@marlowestreetderm-co-uk.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.543,
+        "w": 0.3311,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "10 Marlowe Street · London W1G 9PF",
+     "box": {
+      "x": 0.07,
+      "y": 0.593,
+      "w": 0.3524,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "10",
+       "box": {
+        "x": 0.07,
+        "y": 0.593,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Harley",
+       "box": {
+        "x": 0.102,
+        "y": 0.593,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Street",
+       "box": {
+        "x": 0.1768,
+        "y": 0.593,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2515,
+        "y": 0.593,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "London",
+       "box": {
+        "x": 0.2729,
+        "y": 0.593,
+        "w": 0.0641,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "W1G",
+       "box": {
+        "x": 0.3476,
+        "y": 0.593,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "9PF",
+       "box": {
+        "x": 0.3904,
+        "y": 0.593,
+        "w": 0.032,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dr",
+   "given": "Aisha",
+   "middle": "",
+   "family": "Rahman",
+   "suffix": "MBBS MRCP",
+   "full": "Dr Aisha Rahman MBBS MRCP"
+  },
+  "otherName": null,
+  "company": "MARLOWE STREET DERMATOLOGY CLINIC",
+  "department": null,
+  "title": "Consultant Dermatologist",
+  "phones": [
+   {
+    "printed": "020 7935 8840",
+    "e164": "+442079358840",
+    "type": "work",
+    "label": "Appointments",
+    "ext": null
+   },
+   {
+    "printed": "020 7935 8841",
+    "e164": "+442079358841",
+    "type": "work",
+    "label": "Direct",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "a.rahman@marlowestreetderm-co-uk.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "10 Marlowe Street",
+    "extra": "",
+    "pobox": "",
+    "postcode": "W1G 9PF",
+    "city": "London",
+    "region": "",
+    "country": "",
+    "countryCode": "GB"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "medical",
+  "credential-suffix",
+  "registry-number",
+  "foreign-region",
+  "prefix-no-dot",
+  "company-split-lines",
+  "unknown-phone-label",
+  "street-in-company"
+ ],
+ "notes": "UK convention \"Dr\" without dot; two credentials after the name. GMC No. (7 digits) is a registration, not a phone. \"Appointments\" labels the clinic number (work). Company contains a street name."
+}

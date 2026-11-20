@@ -1,0 +1,254 @@
+{
+ "id": "de-e01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ELEKTRO STAUDEL",
+     "box": {
+      "x": 0.07360227139417062,
+      "y": 0.041296646074383214,
+      "w": 0.5504757690429687,
+      "h": 0.08939860870479166
+     },
+     "height": 0.08939860870479166,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "GmbH & Co. KG",
+     "box": {
+      "x": 0.07059016483166665,
+      "y": 0.14321395314979402,
+      "w": 0.18444461822509767,
+      "h": 0.052363566910438086
+     },
+     "height": 0.052363566910438086,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Strom. Licht. Sicherheit.",
+     "box": {
+      "x": 0.07094732712916013,
+      "y": 0.2081996667828131,
+      "w": 0.22735836029052736,
+      "h": 0.041270480653033736
+     },
+     "height": 0.041270480653033736,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Josef Staudel",
+     "box": {
+      "x": 0.06946240163356628,
+      "y": 0.3054005797718805,
+      "w": 0.20259025573730471,
+      "h": 0.051719643434502416
+     },
+     "height": 0.051719643434502416,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Elektromeister • Geschäftsführer",
+     "box": {
+      "x": 0.06954025846030905,
+      "y": 0.38312212199831186,
+      "w": 0.35078125,
+      "h": 0.04375014433989666
+     },
+     "height": 0.04375014433989666,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 089 612345-0 • Fax -59",
+     "box": {
+      "x": 0.06686046413761737,
+      "y": 0.4749034754365462,
+      "w": 0.28779069900512694,
+      "h": 0.04079159254272935
+     },
+     "height": 0.04079159254272935,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Mobil 0171 3 98 22 41",
+     "box": {
+      "x": 0.06806342501732893,
+      "y": 0.5328247738783807,
+      "w": 0.24033704757690427,
+      "h": 0.04283431874278887
+     },
+     "height": 0.04283431874278887,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "info@elektro-staudel-de.example • www.elektro-staudel.de",
+     "box": {
+      "x": 0.06516224970394088,
+      "y": 0.5932023911079431,
+      "w": 0.42925327301025396,
+      "h": 0.044204459687457565
+     },
+     "height": 0.044204459687457565,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "Rosenheimer Landstraße 117 • 85521 Ottobrunn",
+     "box": {
+      "x": 0.06660727609691296,
+      "y": 0.6486408916817528,
+      "w": 0.43073173522949215,
+      "h": 0.04202484071945134
+     },
+     "height": 0.04202484071945134,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "Mitglied der Elektro-Innung München",
+     "box": {
+      "x": 0.06513873190905088,
+      "y": 0.7236761764890917,
+      "w": 0.2868520927429199,
+      "h": 0.03888489564873532
+     },
+     "height": 0.03888489564873532,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Josef",
+   "middle": "",
+   "family": "Staudel",
+   "suffix": "",
+   "full": "Josef Staudel"
+  },
+  "otherName": null,
+  "company": "ELEKTRO STAUDEL GmbH & Co. KG",
+  "department": null,
+  "title": "Elektromeister · Geschäftsführer",
+  "phones": [
+   {
+    "printed": "089 612345-0",
+    "e164": "+49896123450",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-59",
+    "e164": "+498961234559",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "0171 3 98 22 41",
+    "e164": "+491713982241",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@elektro-staudel-de.example"
+  ],
+  "urls": [
+   "www.elektro-staudel.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Rosenheimer Landstraße 117",
+    "extra": "",
+    "pobox": "",
+    "postcode": "85521",
+    "city": "Ottobrunn",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "ELEKTRO STAUDEL"
+  ],
+  "title": [
+   "Geschäftsführer"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "trade",
+  "legal-form-only-line",
+  "tagline",
+  "shared-base",
+  "suffix-only-number",
+  "member-of",
+  "ocr-pipe-for-l"
+ ],
+ "notes": "Legal form \"GmbH & Co. KG\" is its own line under the logo; the fax is printed only as \"-59\" after the base 089 612345-0 and is 089 61234559; the member-of line and the tagline are leftovers; \"|\" for \"l\" in the title.",
+ "o3": {
+  "source": "blind-3/cards/de-e01.json",
+  "images": [
+   {
+    "name": "b3-de-e01",
+    "font": "ArialMT",
+    "rotation": -0.95,
+    "noise": 4,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 262
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

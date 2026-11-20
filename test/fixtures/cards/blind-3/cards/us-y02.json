@@ -1,0 +1,248 @@
+{
+ "id": "us-y02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "US",
+ "layout": "portrait",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "pixelpond",
+     "box": {
+      "x": 0.3087,
+      "y": 0.12,
+      "w": 0.3825,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "pixelpond",
+       "box": {
+        "x": 0.3087,
+        "y": 0.12,
+        "w": 0.3825,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "hey, I'm Sam",
+     "box": {
+      "x": 0.296,
+      "y": 0.29,
+      "w": 0.408,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "hey,",
+       "box": {
+        "x": 0.296,
+        "y": 0.29,
+        "w": 0.136,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "I'm",
+       "box": {
+        "x": 0.466,
+        "y": 0.29,
+        "w": 0.102,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Sam",
+       "box": {
+        "x": 0.602,
+        "y": 0.29,
+        "w": 0.102,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Design Lead",
+     "box": {
+      "x": 0.3598,
+      "y": 0.35,
+      "w": 0.2805,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Design",
+       "box": {
+        "x": 0.3598,
+        "y": 0.35,
+        "w": 0.153,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Lead",
+       "box": {
+        "x": 0.5383,
+        "y": 0.35,
+        "w": 0.102,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "sam@pixelpond-co.example",
+     "box": {
+      "x": 0.3096,
+      "y": 0.48,
+      "w": 0.3808,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "sam@pixelpond-co.example",
+       "box": {
+        "x": 0.3096,
+        "y": 0.48,
+        "w": 0.3808,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "IG @sam.draws · github.com/samdraws",
+     "box": {
+      "x": 0.143,
+      "y": 0.528,
+      "w": 0.714,
+      "h": 0.024
+     },
+     "height": 0.024,
+     "words": [
+      {
+       "text": "IG",
+       "box": {
+        "x": 0.143,
+        "y": 0.528,
+        "w": 0.0408,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "@sam.draws",
+       "box": {
+        "x": 0.2042,
+        "y": 0.528,
+        "w": 0.204,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4286,
+        "y": 0.528,
+        "w": 0.0204,
+        "h": 0.024
+       }
+      },
+      {
+       "text": "github.com/samdraws",
+       "box": {
+        "x": 0.4694,
+        "y": 0.528,
+        "w": 0.3876,
+        "h": 0.024
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "en"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Sam",
+   "middle": "",
+   "family": "",
+   "suffix": "",
+   "full": "Sam"
+  },
+  "otherName": null,
+  "company": "pixelpond",
+  "department": null,
+  "title": "Design Lead",
+  "phones": [],
+  "emails": [
+   "sam@pixelpond-co.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "@sam.draws"
+   },
+   {
+    "service": "github",
+    "value": "github.com/samdraws"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "phones",
+  "urls",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "startup",
+  "first-name-only",
+  "greeting-line",
+  "lowercase-logo",
+  "labelled-handle",
+  "absent-phone",
+  "absent-address",
+  "portrait",
+  "company-equals-domain-stem"
+ ],
+ "notes": "The name is inside a greeting \"hey, I'm Sam\" (an emoji after it was dropped by OCR). Company = logo = e-mail domain stem. No phone, no address."
+}

@@ -1,0 +1,155 @@
+appId: ${APP_ID}
+name: Store screenshots - build the demo library in the PRODUCTION build through the real UI (run by scripts/screenshots.sh, not part of the suite)
+tags:
+  - screenshots
+---
+# A production build has no seed route (D49), so the demo library is typed in like a user would: a fresh install, the event
+# "Hannover Messe", five pasted cards (all invented people and companies) that are confirmed, one card from a photo of an
+# invented business card (the picture must be in the simulator's photo library: scripts/screenshots.sh adds it) that is left
+# for later = the "To check" card, and "My card". The device language must be English while this runs.
+- launchApp:
+    clearState: true
+    stopApp: true
+    permissions:
+      all: unset
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 90000
+# the event first, so every card below carries it
+- tapOn:
+    id: events-button
+- tapOn:
+    id: event-name-input
+- inputText: "Hannover Messe"
+- tapOn:
+    id: event-create
+- runFlow: ../subflows/back.yaml
+- extendedWaitUntil:
+    visible:
+      id: event-banner
+    timeout: 10000
+# five typed cards, oldest first (the list shows the newest on top)
+- runFlow:
+    file: paste-lines.yaml
+    env:
+      L1: "Clara Richter"
+      L2: "Account Manager"
+      L3: "ACME Packaging AG"
+      L4: "c.richter@acme-packaging-ch.example"
+      L5: "+41 44 555 01 99"
+- runFlow: confirm-card.yaml
+- runFlow:
+    file: paste-lines.yaml
+    env:
+      L1: "Lukas Hoffmann"
+      L2: "Managing Director"
+      L3: "Northwind Energy GmbH"
+      L4: "l.hoffmann@northwind-energy-de.example"
+      L5: "+49 89 5550 4410"
+- runFlow: confirm-card.yaml
+- runFlow:
+    file: paste-lines.yaml
+    env:
+      L1: "Mia Fischer"
+      L2: "Product Designer"
+      L3: "ACME Creative Studio"
+      L4: "mia.fischer@acme-creative-de.example"
+      L5: "+49 40 5550 7712"
+- runFlow: confirm-card.yaml
+- runFlow:
+    file: paste-lines.yaml
+    env:
+      L1: "Jonas Becker"
+      L2: "Projektleiter"
+      L3: "Northwind Logistik AG"
+      L4: "j.becker@northwind-logistik-de.example"
+      L5: "+49 40 5550 0123"
+- runFlow: confirm-card.yaml
+- runFlow:
+    file: paste-lines.yaml
+    env:
+      L1: "Anna Weber"
+      L2: "Head of Sales"
+      L3: "ACME Robotics GmbH"
+      L4: "anna.weber@acme-robotics-de.example"
+      L5: "+49 30 1234567"
+- runFlow: confirm-card.yaml
+# a card from a photo (real OCR + extractor), left for later
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-photos
+# the picker shows "Loading..." for a while on a busy Mac
+- extendedWaitUntil:
+    visible: ".*(Select up to|Photos|Recent).*"
+    timeout: 120000
+- waitForAnimationToEnd
+# iOS 27 picker: nothing in the accessibility tree, first grid cell by position, check mark top right (release/photo-import.yaml).
+# On the first opening a "Private Access to Photos" banner pushes the grid down: its X (top right of the banner) closes it.
+- runFlow:
+    when:
+      visible: ".*Private Access.*"
+    commands:
+      - tapOn:
+          point: "91%,21%"
+- tapOn:
+    point: "16%,27%"
+- tapOn:
+    text: "Done"
+    optional: true
+- tapOn:
+    point: "90%,15%"
+    optional: true
+- extendedWaitUntil:
+    visible:
+      id: review-screen
+    timeout: 60000
+- extendedWaitUntil:
+    notVisible:
+      id: review-reading
+    timeout: 90000
+# leave through the header back button (labelled "Cards" or, when Events was the previous screen, "Events"): the unchecked card stays as a draft = the "To check" card
+# (the Later button opened the Events screen in the first runs)
+- tapOn: "Cards|Events"
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000
+# my card (the QR screen)
+- tapOn:
+    id: menu-button
+- tapOn:
+    id: my-card-button
+- tapOn:
+    id: my-card-given
+- inputText: "Sofia"
+- tapOn:
+    id: my-card-family
+- inputText: "Lindgren"
+- tapOn:
+    id: my-card-company
+- inputText: "Northwind Studio"
+- tapOn:
+    id: my-card-title
+- inputText: "Founder"
+- tapOn:
+    id: my-card-phone
+- inputText: "+49 30 5550 1188"
+- tapOn:
+    id: my-card-email
+- inputText: "sofia.lindgren@northwind-studio.example"
+# iOS: a tap on static text closes the keyboard
+- tapOn: "Fill in your details.*"
+- scrollUntilVisible:
+    element:
+      id: my-card-save
+- tapOn:
+    id: my-card-save
+- assertVisible:
+    id: my-card-qr
+- runFlow: ../subflows/back.yaml
+- extendedWaitUntil:
+    visible:
+      id: cards-screen
+    timeout: 15000

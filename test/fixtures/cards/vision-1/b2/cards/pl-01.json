@@ -1,0 +1,242 @@
+{
+ "id": "pl-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "pl"
+ ],
+ "card_country": "PL",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "pl-PL",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ZELMETA",
+     "box": {
+      "x": 0.0682418139271234,
+      "y": 0.07350166526173041,
+      "w": 0.22252799987792965,
+      "h": 0.07945406851160941
+     },
+     "height": 0.07945406851160941,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Sp. z o.o.",
+     "box": {
+      "x": 0.06804323767892552,
+      "y": 0.2125032670373519,
+      "w": 0.16472177505493163,
+      "h": 0.04579347072881168
+     },
+     "height": 0.04579347072881168,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "mgr inż. Katarzyna Wójcik",
+     "box": {
+      "x": 0.06807225058910746,
+      "y": 0.2721906022786915,
+      "w": 0.5077428436279297,
+      "h": 0.06411081115251349
+     },
+     "height": 0.06411081115251349,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Kierownik Działu Zakupów",
+     "box": {
+      "x": 0.06813982212814335,
+      "y": 0.358332718040397,
+      "w": 0.40152053833007817,
+      "h": 0.054222342590567685
+     },
+     "height": 0.054222342590567685,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "ul. Wielicka 28",
+     "box": {
+      "x": 0.06801513201931673,
+      "y": 0.4275678576711306,
+      "w": 0.2622695732116699,
+      "h": 0.05333992321058578
+     },
+     "height": 0.05333992321058578,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "30-552 Kraków",
+     "box": {
+      "x": 0.06831395337872173,
+      "y": 0.5000000005122992,
+      "w": 0.2296511650085449,
+      "h": 0.0448430477422177
+     },
+     "height": 0.0448430477422177,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "tel. +48 12 345 67 89",
+     "box": {
+      "x": 0.06976745021076525,
+      "y": 0.5739910318800436,
+      "w": 0.3546511459350586,
+      "h": 0.04956109183175217
+     },
+     "height": 0.04956109183175217,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "kom. +48 501 234 567",
+     "box": {
+      "x": 0.06951532077522454,
+      "y": 0.645092007584645,
+      "w": 0.33344463348388675,
+      "h": 0.05364314193431008
+     },
+     "height": 0.05364314193431008,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "k.wojcik@zelmeta-pl.example",
+     "box": {
+      "x": 0.06963368545739453,
+      "y": 0.7162259952050565,
+      "w": 0.3084666824340821,
+      "h": 0.05369970329019558
+     },
+     "height": 0.05369970329019558,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f9",
+     "text": "NIP 677-123-45-67 • KRS 0000123456 : REGON 123456785",
+     "box": {
+      "x": 0.06831395877167384,
+      "y": 0.7934362937149629,
+      "w": 0.38517440795898433,
+      "h": 0.02316602316602312
+     },
+     "height": 0.02316602316602312,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "mgr inż.",
+   "given": "Katarzyna",
+   "middle": "",
+   "family": "Wójcik",
+   "suffix": "",
+   "full": "mgr inż. Katarzyna Wójcik"
+  },
+  "otherName": null,
+  "company": "ZELMETA Sp. z o.o.",
+  "department": "Działu Zakupów",
+  "title": "Kierownik",
+  "phones": [
+   {
+    "printed": "+48 12 345 67 89",
+    "e164": "+48123456789",
+    "type": "work",
+    "label": "tel.",
+    "ext": null
+   },
+   {
+    "printed": "+48 501 234 567",
+    "e164": "+48501234567",
+    "type": "mobile",
+    "label": "kom.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.wojcik@zelmeta-pl.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "ul. Wielicka 28",
+    "extra": "",
+    "pobox": "",
+    "postcode": "30-552",
+    "city": "Kraków",
+    "region": "",
+    "country": "",
+    "countryCode": "PL"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Kierownik Działu Zakupów"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "title-dept-one-line",
+  "tax-id",
+  "registry-id",
+  "legal-form-line",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Prefix mgr inż. (two tokens). NIP 677-123-45-67 has 10 digits and dashes — not a phone; neither are KRS or REGON. Company ZELMETA Sp. z o.o.",
+ "o3": {
+  "source": "blind-2/cards/pl-01.json",
+  "images": [
+   {
+    "name": "b2-pl-01",
+    "font": "Menlo-Regular",
+    "rotation": 0.3,
+    "noise": 8,
+    "blur": 0.6,
+    "langs": [
+     "pl-PL",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 174
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

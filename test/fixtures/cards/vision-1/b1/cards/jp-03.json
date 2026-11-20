@@ -1,0 +1,237 @@
+{
+ "id": "jp-03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "渡辺機工株式会社",
+     "box": {
+      "x": 0.07122093282079923,
+      "y": 0.053811659969930314,
+      "w": 0.2238372039794922,
+      "h": 0.0448430477422177
+     },
+     "height": 0.0448430477422177,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f1",
+     "text": "WATANABE KIKO CO.， LTD.",
+     "box": {
+      "x": 0.06976744489074399,
+      "y": 0.13899613929888832,
+      "w": 0.2194767379760742,
+      "h": 0.031853281853281956
+     },
+     "height": 0.031853281853281956,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "製造部課長",
+     "box": {
+      "x": 0.0697152294496022,
+      "y": 0.26194014119866305,
+      "w": 0.11202302932739258,
+      "h": 0.03665783414509305
+     },
+     "height": 0.03665783414509305,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f3",
+     "text": "わたなべけんじ",
+     "box": {
+      "x": 0.06976744023529764,
+      "y": 0.35617760572055723,
+      "w": 0.10901163101196289,
+      "h": 0.02316602316602312
+     },
+     "height": 0.02316602316602312,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f4",
+     "text": "渡辺",
+     "box": {
+      "x": 0.07122093036120511,
+      "y": 0.3967181456384441,
+      "w": 0.12063953399658203,
+      "h": 0.07637602390009468
+     },
+     "height": 0.07637602390009468,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f5",
+     "text": "健二",
+     "box": {
+      "x": 0.18168604739851005,
+      "y": 0.3986486483814925,
+      "w": 0.1308139514923096,
+      "h": 0.07444552196959264
+     },
+     "height": 0.07444552196959264,
+     "dir": "ltr",
+     "conf": 0.30000001192092896
+    },
+    {
+     "id": "f6",
+     "text": "Kenji Watanabe",
+     "box": {
+      "x": 0.06976743734574603,
+      "y": 0.5444015436576087,
+      "w": 0.1686046600341797,
+      "h": 0.036679536679536606
+     },
+     "height": 0.036679536679536606,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "〒460-0008 名古屋市中区栄3-4-5",
+     "box": {
+      "x": 0.07083333312500002,
+      "y": 0.6794871797425505,
+      "w": 0.28750000000000003,
+      "h": 0.038659537620986284
+     },
+     "height": 0.038659537620986284,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "TEL 052-123-4567",
+     "box": {
+      "x": 0.06831395319391294,
+      "y": 0.7306949804842657,
+      "w": 0.158430233001709,
+      "h": 0.027152553028121473
+     },
+     "height": 0.027152553028121473,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "k-watanabe@watanabe-kiko-co-jp.example",
+     "box": {
+      "x": 0.06831395407864278,
+      "y": 0.7825112108622263,
+      "w": 0.27470930099487306,
+      "h": 0.027334348575488887
+     },
+     "height": 0.027334348575488887,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kenji",
+   "middle": "",
+   "family": "Watanabe",
+   "suffix": "",
+   "full": "Kenji Watanabe"
+  },
+  "otherName": "渡辺　健二",
+  "company": "渡辺機工株式会社",
+  "department": "製造部",
+  "title": "課長",
+  "phones": [
+   {
+    "printed": "052-123-4567",
+    "e164": "+81521234567",
+    "type": "work",
+    "label": "TEL",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k-watanabe@watanabe-kiko-co-jp.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "栄3-4-5",
+    "extra": "",
+    "pobox": "",
+    "postcode": "460-0008",
+    "city": "名古屋市中区",
+    "region": "",
+    "country": "",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "WATANABE KIKO CO., LTD."
+  ],
+  "addresses[0].city": [
+   "名古屋市"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "furigana-line",
+  "ideographic-space",
+  "three-name-lines",
+  "company-in-two-scripts",
+  "other-name-n7",
+  "name-is-company",
+  "absent-url"
+ ],
+ "notes": "Three name lines: furigana reading (hiragana, not a name field), kanji name with an ideographic space U+3000, romaji. UI German -> Latin primary, kanji = otherName. Hyphenated e-mail local part k-watanabe.",
+ "o3": {
+  "source": "blind-1/cards/jp-03.json",
+  "images": [
+   {
+    "name": "b1-jp-03",
+    "font": "ArialMT",
+    "rotation": -0.16,
+    "noise": 9,
+    "blur": 1.4,
+    "langs": [
+     "ja-JP",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 158
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

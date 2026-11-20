@@ -1,0 +1,206 @@
+{
+ "id": "de-14",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "sv"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "sv-SE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "NORDSCHIMMER",
+     "box": {
+      "x": 0.07916666964040431,
+      "y": 0.07051282093632727,
+      "w": 0.2791666603088379,
+      "h": 0.06410256315842555
+     },
+     "height": 0.06410256315842555,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Media KG",
+     "box": {
+      "x": 0.08272056720574003,
+      "y": 0.16042874047691225,
+      "w": 0.10054723739624025,
+      "h": 0.03340260862843869
+     },
+     "height": 0.03340260862843869,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Markus Lindqvist",
+     "box": {
+      "x": 0.08063530865130765,
+      "y": 0.33620454283197354,
+      "w": 0.2834779739379883,
+      "h": 0.06848955706739979
+     },
+     "height": 0.06848955706739979,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Art Director",
+     "box": {
+      "x": 0.07955810270379178,
+      "y": 0.4326108021744268,
+      "w": 0.14182043075561523,
+      "h": 0.03847002154611712
+     },
+     "height": 0.03847002154611712,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Große Elbstraße 145",
+     "box": {
+      "x": 0.07816676712052775,
+      "y": 0.615849691377437,
+      "w": 0.19117061614990236,
+      "h": 0.041893795190170446
+     },
+     "height": 0.041893795190170446,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "22767 Hamburg",
+     "box": {
+      "x": 0.0784883680282238,
+      "y": 0.6726457401845398,
+      "w": 0.16424419403076174,
+      "h": 0.03811659131731304
+     },
+     "height": 0.03811659131731304,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Tel +49 40 3570 1188",
+     "box": {
+      "x": 0.07687796242494649,
+      "y": 0.7305206195778161,
+      "w": 0.20524763107299804,
+      "h": 0.03817294279120609
+     },
+     "height": 0.03817294279120609,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "markus.lindqvist@nordschimmer-media-de.example",
+     "box": {
+      "x": 0.0708333331047454,
+      "y": 0.7820512823933249,
+      "w": 0.36250000000000004,
+      "h": 0.05128205052674051
+     },
+     "height": 0.05128205052674051,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Markus",
+   "middle": "",
+   "family": "Lindqvist",
+   "suffix": "",
+   "full": "Markus Lindqvist"
+  },
+  "otherName": null,
+  "company": "NORDSCHIMMER Media KG",
+  "department": null,
+  "title": "Art Director",
+  "phones": [
+   {
+    "printed": "+49 40 3570 1188",
+    "e164": "+494035701188",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "markus.lindqvist@nordschimmer-media-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Große Elbstraße 145",
+    "extra": "",
+    "pobox": "",
+    "postcode": "22767",
+    "city": "Hamburg",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "ocr-dropped-space",
+  "glued-label",
+  "caps-logo-split",
+  "email-confirms-name",
+  "english-title"
+ ],
+ "notes": "OCR dropped the space in the name; the e-mail local part markus.lindqvist shows the split.",
+ "o3": {
+  "source": "blind-1/cards/de-14.json",
+  "images": [
+   {
+    "name": "b1-de-14",
+    "font": "Georgia",
+    "rotation": -0.65,
+    "noise": 2,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "sv-SE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 89
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

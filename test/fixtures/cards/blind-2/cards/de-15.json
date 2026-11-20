@@ -1,0 +1,597 @@
+{
+ "id": "de-15",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Hartmann Roth & Partner mbB",
+     "box": {
+      "x": 0.07,
+      "y": 0.0891,
+      "w": 0.6377,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Hartmann",
+       "box": {
+        "x": 0.07,
+        "y": 0.0891,
+        "w": 0.2029,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Roth",
+       "box": {
+        "x": 0.2865,
+        "y": 0.0891,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.4016,
+        "y": 0.0891,
+        "w": 0.0254,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Partner",
+       "box": {
+        "x": 0.4405,
+        "y": 0.0891,
+        "w": 0.1776,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "mbB",
+       "box": {
+        "x": 0.6316,
+        "y": 0.0891,
+        "w": 0.0761,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Wirtschaftsprüfung · Steuerberatung",
+     "box": {
+      "x": 0.07,
+      "y": 0.1811,
+      "w": 0.6173,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Wirtschaftsprüfung",
+       "box": {
+        "x": 0.07,
+        "y": 0.1811,
+        "w": 0.3261,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4058,
+        "y": 0.1811,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Steuerberatung",
+       "box": {
+        "x": 0.4336,
+        "y": 0.1811,
+        "w": 0.2536,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Dipl.-Kfm. Martin Roth, WP, StB, RA",
+     "box": {
+      "x": 0.07,
+      "y": 0.2531,
+      "w": 0.7105,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Dipl.-Kfm.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2531,
+        "w": 0.2174,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Martin",
+       "box": {
+        "x": 0.2991,
+        "y": 0.2531,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Roth,",
+       "box": {
+        "x": 0.4412,
+        "y": 0.2531,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "WP,",
+       "box": {
+        "x": 0.5615,
+        "y": 0.2531,
+        "w": 0.0652,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "StB,",
+       "box": {
+        "x": 0.6384,
+        "y": 0.2531,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "RA",
+       "box": {
+        "x": 0.737,
+        "y": 0.2531,
+        "w": 0.0435,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Partner",
+     "box": {
+      "x": 0.07,
+      "y": 0.3351,
+      "w": 0.1268,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Partner",
+       "box": {
+        "x": 0.07,
+        "y": 0.3351,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Bockenheimer Landstraße 51–53",
+     "box": {
+      "x": 0.07,
+      "y": 0.4071,
+      "w": 0.5086,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Bockenheimer",
+       "box": {
+        "x": 0.07,
+        "y": 0.4071,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Landstraße",
+       "box": {
+        "x": 0.2971,
+        "y": 0.4071,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "51–53",
+       "box": {
+        "x": 0.488,
+        "y": 0.4071,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "60325 Frankfurt am Main",
+     "box": {
+      "x": 0.07,
+      "y": 0.4791,
+      "w": 0.3915,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "60325",
+       "box": {
+        "x": 0.07,
+        "y": 0.4791,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Frankfurt",
+       "box": {
+        "x": 0.1703,
+        "y": 0.4791,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "am",
+       "box": {
+        "x": 0.3431,
+        "y": 0.4791,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Main",
+       "box": {
+        "x": 0.389,
+        "y": 0.4791,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 69 97 12 34-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.5511,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5511,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5511,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "69",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "97",
+       "box": {
+        "x": 0.2622,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.3081,
+        "y": 0.5511,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34-0",
+       "box": {
+        "x": 0.3541,
+        "y": 0.5511,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Durchwahl -55 · Fax -99",
+     "box": {
+      "x": 0.07,
+      "y": 0.6231,
+      "w": 0.3831,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Durchwahl",
+       "box": {
+        "x": 0.07,
+        "y": 0.6231,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "-55",
+       "box": {
+        "x": 0.2428,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3068,
+        "y": 0.6231,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.3346,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "-99",
+       "box": {
+        "x": 0.3987,
+        "y": 0.6231,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "m.roth@hrp-wpg-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6951,
+      "w": 0.2899,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "m.roth@hrp-wpg-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6951,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "Partnerschaftsregister AG Frankfurt PR 2187",
+     "box": {
+      "x": 0.07,
+      "y": 0.7671,
+      "w": 0.3727,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "Partnerschaftsregister",
+       "box": {
+        "x": 0.07,
+        "y": 0.7671,
+        "w": 0.1993,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "AG",
+       "box": {
+        "x": 0.2741,
+        "y": 0.7671,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "Frankfurt",
+       "box": {
+        "x": 0.2971,
+        "y": 0.7671,
+        "w": 0.0815,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "PR",
+       "box": {
+        "x": 0.3835,
+        "y": 0.7671,
+        "w": 0.0181,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "2187",
+       "box": {
+        "x": 0.4065,
+        "y": 0.7671,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Dipl.-Kfm.",
+   "given": "Martin",
+   "middle": "",
+   "family": "Roth",
+   "suffix": "WP, StB, RA",
+   "full": "Dipl.-Kfm. Martin Roth, WP, StB, RA"
+  },
+  "otherName": null,
+  "company": "Hartmann Roth & Partner mbB",
+  "department": null,
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "+49 69 97 12 34-0",
+    "e164": "+49699712340",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-55",
+    "e164": "+496997123455",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "-99",
+    "e164": "+496997123499",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null,
+    "composed": true
+   }
+  ],
+  "emails": [
+   "m.roth@hrp-wpg-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bockenheimer Landstraße 51–53",
+    "extra": "",
+    "pobox": "",
+    "postcode": "60325",
+    "city": "Frankfurt am Main",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "credential-suffix",
+  "prefix-title",
+  "durchwahl-composed",
+  "registry-id",
+  "name-is-company"
+ ],
+ "notes": "WP, StB and RA are suffixes, not a company. -55 and -99 complete to +49 69 9712345 5 / …99. Title \"Partner\" must not be swallowed by the \"& Partner\" company rule. PR 2187 is a register number."
+}

@@ -1,0 +1,571 @@
+{
+ "id": "mex-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "es"
+ ],
+ "card_country": "MX",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Textiles del Valdoro S.A. de C.V.",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.5345,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Textiles",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.148,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "del",
+       "box": {
+        "x": 0.2287,
+        "y": 0.07,
+        "w": 0.0555,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Valdoro",
+       "box": {
+        "x": 0.2949,
+        "y": 0.07,
+        "w": 0.0925,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "S.A.",
+       "box": {
+        "x": 0.3981,
+        "y": 0.07,
+        "w": 0.074,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.4828,
+        "y": 0.07,
+        "w": 0.037,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "C.V.",
+       "box": {
+        "x": 0.5305,
+        "y": 0.07,
+        "w": 0.074,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Lic. Guadalupe Itzel Ramírez Chávez",
+     "box": {
+      "x": 0.07,
+      "y": 0.24,
+      "w": 0.65,
+      "h": 0.058
+     },
+     "height": 0.058,
+     "words": [
+      {
+       "text": "Lic.",
+       "box": {
+        "x": 0.07,
+        "y": 0.24,
+        "w": 0.0781,
+        "h": 0.058
+       }
+      },
+      {
+       "text": "Guadalupe",
+       "box": {
+        "x": 0.1593,
+        "y": 0.24,
+        "w": 0.1756,
+        "h": 0.058
+       }
+      },
+      {
+       "text": "Itzel",
+       "box": {
+        "x": 0.3462,
+        "y": 0.24,
+        "w": 0.0976,
+        "h": 0.058
+       }
+      },
+      {
+       "text": "Ramírez",
+       "box": {
+        "x": 0.4551,
+        "y": 0.24,
+        "w": 0.1366,
+        "h": 0.058
+       }
+      },
+      {
+       "text": "Chávez",
+       "box": {
+        "x": 0.6029,
+        "y": 0.24,
+        "w": 0.1171,
+        "h": 0.058
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Gerente de Ventas",
+     "box": {
+      "x": 0.07,
+      "y": 0.3241,
+      "w": 0.2283,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Gerente",
+       "box": {
+        "x": 0.07,
+        "y": 0.3241,
+        "w": 0.0989,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "de",
+       "box": {
+        "x": 0.1771,
+        "y": 0.3241,
+        "w": 0.0283,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Ventas",
+       "box": {
+        "x": 0.2135,
+        "y": 0.3241,
+        "w": 0.0848,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Blvd. Adolfo López Mateos 2105 Pte.",
+     "box": {
+      "x": 0.07,
+      "y": 0.49,
+      "w": 0.3873,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Blvd.",
+       "box": {
+        "x": 0.07,
+        "y": 0.49,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Adolfo",
+       "box": {
+        "x": 0.1357,
+        "y": 0.49,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "López",
+       "box": {
+        "x": 0.2131,
+        "y": 0.49,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Mateos",
+       "box": {
+        "x": 0.2788,
+        "y": 0.49,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "2105",
+       "box": {
+        "x": 0.3563,
+        "y": 0.49,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Pte.",
+       "box": {
+        "x": 0.4102,
+        "y": 0.49,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Col. Jardines del Moral",
+     "box": {
+      "x": 0.07,
+      "y": 0.5407,
+      "w": 0.2559,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Col.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5407,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Jardines",
+       "box": {
+        "x": 0.1239,
+        "y": 0.5407,
+        "w": 0.0942,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "del",
+       "box": {
+        "x": 0.2249,
+        "y": 0.5407,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Moral",
+       "box": {
+        "x": 0.267,
+        "y": 0.5407,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "37160 León, Gto.",
+     "box": {
+      "x": 0.07,
+      "y": 0.5915,
+      "w": 0.1785,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "37160",
+       "box": {
+        "x": 0.07,
+        "y": 0.5915,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "León,",
+       "box": {
+        "x": 0.1357,
+        "y": 0.5915,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Gto.",
+       "box": {
+        "x": 0.2014,
+        "y": 0.5915,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. (477) 123 4567 · Cel. 477 987 6543",
+     "box": {
+      "x": 0.07,
+      "y": 0.6422,
+      "w": 0.4194,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.6422,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "(477)",
+       "box": {
+        "x": 0.1239,
+        "y": 0.6422,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "123",
+       "box": {
+        "x": 0.1896,
+        "y": 0.6422,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "4567",
+       "box": {
+        "x": 0.2317,
+        "y": 0.6422,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2856,
+        "y": 0.6422,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Cel.",
+       "box": {
+        "x": 0.3042,
+        "y": 0.6422,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "477",
+       "box": {
+        "x": 0.3581,
+        "y": 0.6422,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "987",
+       "box": {
+        "x": 0.4002,
+        "y": 0.6422,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "6543",
+       "box": {
+        "x": 0.4423,
+        "y": 0.6422,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "gramirez@textilesvaldoro-com-mx.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.693,
+      "w": 0.3415,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "gramirez@textilesvaldoro-com-mx.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.693,
+        "w": 0.3415,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "www.textilesvaldoro.com.mx",
+     "box": {
+      "x": 0.07,
+      "y": 0.7437,
+      "w": 0.2826,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "www.textilesvaldoro.com.mx",
+       "box": {
+        "x": 0.07,
+        "y": 0.7437,
+        "w": 0.2826,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "MX",
+  "uiLang": "es"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Lic.",
+   "given": "Guadalupe Itzel",
+   "middle": "",
+   "family": "Ramírez Chávez",
+   "suffix": "",
+   "full": "Lic. Guadalupe Itzel Ramírez Chávez"
+  },
+  "otherName": null,
+  "company": "Textiles del Valdoro S.A. de C.V.",
+  "department": null,
+  "title": "Gerente de Ventas",
+  "phones": [
+   {
+    "printed": "(477) 123 4567",
+    "e164": "+524771234567",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "477 987 6543",
+    "e164": "+524779876543",
+    "type": "mobile",
+    "label": "Cel.",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "gramirez@textilesvaldoro-com-mx.example"
+  ],
+  "urls": [
+   "www.textilesvaldoro.com.mx"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Blvd. Adolfo López Mateos 2105 Pte.",
+    "extra": "Col. Jardines del Moral",
+    "pobox": "",
+    "postcode": "37160",
+    "city": "León",
+    "region": "Gto.",
+    "country": "",
+    "countryCode": "MX"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "name.given": [
+   "Guadalupe"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "lic-prefix",
+  "sa-de-cv",
+  "colonia-line",
+  "street-named-after-person",
+  "region-abbrev",
+  "two-surnames",
+  "person-name-in-street"
+ ],
+ "notes": "Mexico: \"Lic.\" prefix, S.A. de C.V., colonia line between street and postcode, street named after a person (name trap)."
+}

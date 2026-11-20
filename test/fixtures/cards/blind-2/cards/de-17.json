@@ -1,0 +1,537 @@
+{
+ "id": "de-17",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Lornetal Verpackungen GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.1002,
+      "w": 0.6106,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Lornetal",
+       "box": {
+        "x": 0.07,
+        "y": 0.1002,
+        "w": 0.1776,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Verpackungen",
+       "box": {
+        "x": 0.2611,
+        "y": 0.1002,
+        "w": 0.3044,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.5791,
+        "y": 0.1002,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Ingrid",
+     "box": {
+      "x": 0.07,
+      "y": 0.1922,
+      "w": 0.1304,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Ingrid",
+       "box": {
+        "x": 0.07,
+        "y": 0.1922,
+        "w": 0.1304,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Sommer-Wellbrock",
+     "box": {
+      "x": 0.07,
+      "y": 0.2742,
+      "w": 0.3479,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Sommer-Wellbrock",
+       "box": {
+        "x": 0.07,
+        "y": 0.2742,
+        "w": 0.3479,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Key Account Managerin",
+     "box": {
+      "x": 0.07,
+      "y": 0.3562,
+      "w": 0.3636,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Key",
+       "box": {
+        "x": 0.07,
+        "y": 0.3562,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Account",
+       "box": {
+        "x": 0.1341,
+        "y": 0.3562,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Managerin",
+       "box": {
+        "x": 0.2706,
+        "y": 0.3562,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Pagenstecherstraße 70 · 49090 Osnabrück",
+     "box": {
+      "x": 0.07,
+      "y": 0.4282,
+      "w": 0.6729,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Pagenstecherstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.4282,
+        "w": 0.3261,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "70",
+       "box": {
+        "x": 0.4058,
+        "y": 0.4282,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4518,
+        "y": 0.4282,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "49090",
+       "box": {
+        "x": 0.4796,
+        "y": 0.4282,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Osnabrück",
+       "box": {
+        "x": 0.5799,
+        "y": 0.4282,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Postfach 11 62 · 49001 Osnabrück",
+     "box": {
+      "x": 0.07,
+      "y": 0.5002,
+      "w": 0.5377,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Postfach",
+       "box": {
+        "x": 0.07,
+        "y": 0.5002,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.2246,
+        "y": 0.5002,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "62",
+       "box": {
+        "x": 0.2706,
+        "y": 0.5002,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5002,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "49001",
+       "box": {
+        "x": 0.3444,
+        "y": 0.5002,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Osnabrück",
+       "box": {
+        "x": 0.4446,
+        "y": 0.5002,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel. +49 541 9 63 21-0",
+     "box": {
+      "x": 0.07,
+      "y": 0.5722,
+      "w": 0.3565,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.5722,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1522,
+        "y": 0.5722,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "541",
+       "box": {
+        "x": 0.2162,
+        "y": 0.5722,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "9",
+       "box": {
+        "x": 0.2803,
+        "y": 0.5722,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "63",
+       "box": {
+        "x": 0.3081,
+        "y": 0.5722,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "21-0",
+       "box": {
+        "x": 0.3541,
+        "y": 0.5722,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "Mobil +49 175 2 34 56 78",
+     "box": {
+      "x": 0.07,
+      "y": 0.6442,
+      "w": 0.3844,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.6442,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.1703,
+        "y": 0.6442,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "175",
+       "box": {
+        "x": 0.2344,
+        "y": 0.6442,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2",
+       "box": {
+        "x": 0.2984,
+        "y": 0.6442,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.3262,
+        "y": 0.6442,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "56",
+       "box": {
+        "x": 0.3722,
+        "y": 0.6442,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "78",
+       "box": {
+        "x": 0.4181,
+        "y": 0.6442,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "i.sornmer-wellbrock@lornetal-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7162,
+      "w": 0.5435,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "i.sornmer-wellbrock@lornetal-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7162,
+        "w": 0.5435,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ingrid",
+   "middle": "",
+   "family": "Sommer-Wellbrock",
+   "suffix": "",
+   "full": "Ingrid Sommer-Wellbrock"
+  },
+  "otherName": null,
+  "company": "Lornetal Verpackungen GmbH",
+  "department": null,
+  "title": "Key Account Managerin",
+  "phones": [
+   {
+    "printed": "+49 541 9 63 21-0",
+    "e164": "+49541963210",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "+49 175 2 34 56 78",
+    "e164": "+491752345678",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "i.sommer-wellbrock@lornetal-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Pagenstecherstraße 70",
+    "extra": "",
+    "pobox": "",
+    "postcode": "49090",
+    "city": "Osnabrück",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   },
+   {
+    "street": "",
+    "extra": "",
+    "pobox": "Postfach 11 62",
+    "postcode": "49001",
+    "city": "Osnabrück",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "emails[0]",
+   "printed": "i.sommer-wellbrock@lornetal-de.example",
+   "ocr": "i.sornmer-wellbrock@lornetal-de.example",
+   "kinds": [
+    "rn/m"
+   ]
+  }
+ ],
+ "traps": [
+  "name-split-lines",
+  "two-addresses",
+  "pobox",
+  "ocr-rnm"
+ ],
+ "notes": "Two addresses: street (49090) and PO box (Postfach 11 62, 49001). \"11 62\" is not a phone. Given Ingrid, family Sommer-Wellbrock (printed on two lines)."
+}

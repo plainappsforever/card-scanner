@@ -1,0 +1,686 @@
+{
+ "id": "de-k42",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BEDACHUNGEN",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.1958,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "BEDACHUNGEN",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1958,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "WÖHRLE GmbH",
+     "box": {
+      "x": 0.07,
+      "y": 0.115,
+      "w": 0.2741,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "WÖHRLE",
+       "box": {
+        "x": 0.07,
+        "y": 0.115,
+        "w": 0.1495,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "GmbH",
+       "box": {
+        "x": 0.2444,
+        "y": 0.115,
+        "w": 0.0997,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Steil- und Flachdach · Dachbegrünung",
+     "box": {
+      "x": 0.07,
+      "y": 0.205,
+      "w": 0.3588,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "Steil-",
+       "box": {
+        "x": 0.07,
+        "y": 0.205,
+        "w": 0.0598,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.1398,
+        "y": 0.205,
+        "w": 0.0299,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Flachdach",
+       "box": {
+        "x": 0.1796,
+        "y": 0.205,
+        "w": 0.0897,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2793,
+        "y": 0.205,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "Dachbegrünung",
+       "box": {
+        "x": 0.2992,
+        "y": 0.205,
+        "w": 0.1296,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Klaus-Dieter Wöhrle",
+     "box": {
+      "x": 0.07,
+      "y": 0.283,
+      "w": 0.3044,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Klaus-Dieter",
+       "box": {
+        "x": 0.07,
+        "y": 0.283,
+        "w": 0.1923,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Wöhrle",
+       "box": {
+        "x": 0.2783,
+        "y": 0.283,
+        "w": 0.0961,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Dachdeckermeister · Gebäudeenergieberater (HWK)",
+     "box": {
+      "x": 0.07,
+      "y": 0.348,
+      "w": 0.43,
+      "h": 0.026
+     },
+     "height": 0.026,
+     "words": [
+      {
+       "text": "Dachdeckermeister",
+       "box": {
+        "x": 0.07,
+        "y": 0.348,
+        "w": 0.1555,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2347,
+        "y": 0.348,
+        "w": 0.0091,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "Gebäudeenergieberater",
+       "box": {
+        "x": 0.253,
+        "y": 0.348,
+        "w": 0.1921,
+        "h": 0.026
+       }
+      },
+      {
+       "text": "(HWK)",
+       "box": {
+        "x": 0.4543,
+        "y": 0.348,
+        "w": 0.0457,
+        "h": 0.026
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Tel. 0341 2 15 88 40 Gohliser Straße 12",
+     "box": {
+      "x": 0.07,
+      "y": 0.434,
+      "w": 0.82,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Tel.",
+       "box": {
+        "x": 0.07,
+        "y": 0.434,
+        "w": 0.0841,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0341",
+       "box": {
+        "x": 0.1751,
+        "y": 0.434,
+        "w": 0.0841,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "2",
+       "box": {
+        "x": 0.2803,
+        "y": 0.434,
+        "w": 0.021,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.3223,
+        "y": 0.434,
+        "w": 0.0421,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "88",
+       "box": {
+        "x": 0.3854,
+        "y": 0.434,
+        "w": 0.0421,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "40",
+       "box": {
+        "x": 0.4485,
+        "y": 0.434,
+        "w": 0.0421,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Gohliser",
+       "box": {
+        "x": 0.5115,
+        "y": 0.434,
+        "w": 0.1682,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Straße",
+       "box": {
+        "x": 0.7008,
+        "y": 0.434,
+        "w": 0.1262,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.8479,
+        "y": 0.434,
+        "w": 0.0421,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f6",
+     "text": "Fax 0341 2 15 88 49 04155 Leipzig",
+     "box": {
+      "x": 0.07,
+      "y": 0.484,
+      "w": 0.78,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Fax",
+       "box": {
+        "x": 0.07,
+        "y": 0.484,
+        "w": 0.0709,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0341",
+       "box": {
+        "x": 0.1645,
+        "y": 0.484,
+        "w": 0.0945,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "2",
+       "box": {
+        "x": 0.2827,
+        "y": 0.484,
+        "w": 0.0236,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "15",
+       "box": {
+        "x": 0.33,
+        "y": 0.484,
+        "w": 0.0473,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "88",
+       "box": {
+        "x": 0.4009,
+        "y": 0.484,
+        "w": 0.0473,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "49",
+       "box": {
+        "x": 0.4718,
+        "y": 0.484,
+        "w": 0.0473,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "04155",
+       "box": {
+        "x": 0.5427,
+        "y": 0.484,
+        "w": 0.1182,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Leipzig",
+       "box": {
+        "x": 0.6845,
+        "y": 0.484,
+        "w": 0.1655,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f7",
+     "text": "Mobil 0172 3 41 90 26",
+     "box": {
+      "x": 0.07,
+      "y": 0.534,
+      "w": 0.2243,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Mobil",
+       "box": {
+        "x": 0.07,
+        "y": 0.534,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "0172",
+       "box": {
+        "x": 0.1341,
+        "y": 0.534,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "3",
+       "box": {
+        "x": 0.1875,
+        "y": 0.534,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "41",
+       "box": {
+        "x": 0.2089,
+        "y": 0.534,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "90",
+       "box": {
+        "x": 0.2409,
+        "y": 0.534,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "26",
+       "box": {
+        "x": 0.2729,
+        "y": 0.534,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "info@woehrle-dach-de.example",
+     "box": {
+      "x": 0.55,
+      "y": 0.8,
+      "w": 0.1994,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "info@woehrle-dach-de.example",
+       "box": {
+        "x": 0.55,
+        "y": 0.8,
+        "w": 0.1994,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f9",
+     "text": "www.woehrle-dach.de",
+     "box": {
+      "x": 0.55,
+      "y": 0.848,
+      "w": 0.1894,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "www.woehrle-dach.de",
+       "box": {
+        "x": 0.55,
+        "y": 0.848,
+        "w": 0.1894,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f10",
+     "text": "Mitglied der Dachdecker-Innung Leipzig",
+     "box": {
+      "x": 0.07,
+      "y": 0.92,
+      "w": 0.2976,
+      "h": 0.022
+     },
+     "height": 0.022,
+     "words": [
+      {
+       "text": "Mitglied",
+       "box": {
+        "x": 0.07,
+        "y": 0.92,
+        "w": 0.0627,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "der",
+       "box": {
+        "x": 0.1405,
+        "y": 0.92,
+        "w": 0.0235,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Dachdecker-Innung",
+       "box": {
+        "x": 0.1718,
+        "y": 0.92,
+        "w": 0.1331,
+        "h": 0.022
+       }
+      },
+      {
+       "text": "Leipzig",
+       "box": {
+        "x": 0.3128,
+        "y": 0.92,
+        "w": 0.0548,
+        "h": 0.022
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Klaus-Dieter",
+   "middle": "",
+   "family": "Wöhrle",
+   "suffix": "",
+   "full": "Klaus-Dieter Wöhrle"
+  },
+  "otherName": null,
+  "company": "BEDACHUNGEN WÖHRLE GmbH",
+  "department": null,
+  "title": "Dachdeckermeister · Gebäudeenergieberater (HWK)",
+  "phones": [
+   {
+    "printed": "0341 2 15 88 40",
+    "e164": "+493412158840",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "0341 2 15 88 49",
+    "e164": "+493412158849",
+    "type": "fax",
+    "label": "Fax",
+    "ext": null
+   },
+   {
+    "printed": "0172 3 41 90 26",
+    "e164": "+491723419026",
+    "type": "mobile",
+    "label": "Mobil",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@woehrle-dach-de.example"
+  ],
+  "urls": [
+   "www.woehrle-dach.de"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gohliser Straße 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "04155",
+    "city": "Leipzig",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Dachdeckermeister"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[0].printed",
+   "printed": "0341 2 15 88 40",
+   "ocr": "Tel. 0341 2 15 88 40 Gohliser Straße 12",
+   "kinds": [
+    "merged-line"
+   ]
+  },
+  {
+   "path": "phones[1].printed",
+   "printed": "0341 2 15 88 49",
+   "ocr": "Fax 0341 2 15 88 49 04155 Leipzig",
+   "kinds": [
+    "merged-line"
+   ]
+  },
+  {
+   "path": "addresses[0].street",
+   "printed": "Gohliser Straße 12",
+   "ocr": "Tel. 0341 2 15 88 40 Gohliser Straße 12",
+   "kinds": [
+    "merged-line"
+   ]
+  },
+  {
+   "path": "addresses[0].postcode",
+   "printed": "04155",
+   "ocr": "Fax 0341 2 15 88 49 04155 Leipzig",
+   "kinds": [
+    "merged-line"
+   ]
+  }
+ ],
+ "traps": [
+  "trade",
+  "two-column",
+  "merged-line",
+  "member-of",
+  "tagline",
+  "family-name-in-company",
+  "postcode-leading-zero",
+  "credential-in-title"
+ ],
+ "notes": "Two-column card: OCR merged the left phone column with the right address column into single lines (\"Tel. … Gohliser Straße 12\", \"Fax … 04155 Leipzig\"). The postcode 04155 must not be glued onto the fax number. The name repeats in the company logo. \"(HWK)\" belongs to the title."
+}

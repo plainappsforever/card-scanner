@@ -1,0 +1,484 @@
+{
+ "id": "eg-t37",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "EG",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "SAHEL PHARMA",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.2545,
+      "h": 0.065
+     },
+     "height": 0.065,
+     "words": [
+      {
+       "text": "NILE",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.0925,
+        "h": 0.065
+       }
+      },
+      {
+       "text": "PHARMA",
+       "box": {
+        "x": 0.1857,
+        "y": 0.06,
+        "w": 0.1388,
+        "h": 0.065
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Distribution S.A.E.",
+     "box": {
+      "x": 0.07,
+      "y": 0.13,
+      "w": 0.2367,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Distribution",
+       "box": {
+        "x": 0.07,
+        "y": 0.13,
+        "w": 0.1495,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "S.A.E.",
+       "box": {
+        "x": 0.232,
+        "y": 0.13,
+        "w": 0.0747,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Mostafa Abdel Rahman",
+     "box": {
+      "x": 0.07,
+      "y": 0.235,
+      "w": 0.3916,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Mostafa",
+       "box": {
+        "x": 0.07,
+        "y": 0.235,
+        "w": 0.1371,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Abdel",
+       "box": {
+        "x": 0.2266,
+        "y": 0.235,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Rahman",
+       "box": {
+        "x": 0.3441,
+        "y": 0.235,
+        "w": 0.1175,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Regional Sales Manager – Delta",
+     "box": {
+      "x": 0.07,
+      "y": 0.31,
+      "w": 0.3631,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "Regional",
+       "box": {
+        "x": 0.07,
+        "y": 0.31,
+        "w": 0.0968,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.1789,
+        "y": 0.31,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Manager",
+       "box": {
+        "x": 0.2515,
+        "y": 0.31,
+        "w": 0.0847,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "–",
+       "box": {
+        "x": 0.3484,
+        "y": 0.31,
+        "w": 0.0121,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Delta",
+       "box": {
+        "x": 0.3726,
+        "y": 0.31,
+        "w": 0.0605,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Tel +20 2 2735 8410",
+     "box": {
+      "x": 0.07,
+      "y": 0.394,
+      "w": 0.2029,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.394,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+20",
+       "box": {
+        "x": 0.1127,
+        "y": 0.394,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "2",
+       "box": {
+        "x": 0.1554,
+        "y": 0.394,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "2735",
+       "box": {
+        "x": 0.1768,
+        "y": 0.394,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "8410",
+       "box": {
+        "x": 0.2302,
+        "y": 0.394,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "Mob +20 100 482 7731",
+     "box": {
+      "x": 0.07,
+      "y": 0.444,
+      "w": 0.2136,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Mob",
+       "box": {
+        "x": 0.07,
+        "y": 0.444,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+20",
+       "box": {
+        "x": 0.1127,
+        "y": 0.444,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "100",
+       "box": {
+        "x": 0.1554,
+        "y": 0.444,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "482",
+       "box": {
+        "x": 0.1982,
+        "y": 0.444,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "7731",
+       "box": {
+        "x": 0.2409,
+        "y": 0.444,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "m.abdelrahman@sahelpharma-com-eg.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.494,
+      "w": 0.309,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "m.abdelrahman@sahelpharma-com-eg.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.494,
+        "w": 0.309,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "14 Gamal Abdel Nasser St., Heliopolis, Cairo",
+     "box": {
+      "x": 0.07,
+      "y": 0.542,
+      "w": 0.4229,
+      "h": 0.027
+     },
+     "height": 0.027,
+     "words": [
+      {
+       "text": "14",
+       "box": {
+        "x": 0.07,
+        "y": 0.542,
+        "w": 0.0192,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Gamal",
+       "box": {
+        "x": 0.0988,
+        "y": 0.542,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Abdel",
+       "box": {
+        "x": 0.1565,
+        "y": 0.542,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Nasser",
+       "box": {
+        "x": 0.2142,
+        "y": 0.542,
+        "w": 0.0577,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "St.,",
+       "box": {
+        "x": 0.2815,
+        "y": 0.542,
+        "w": 0.0384,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Heliopolis,",
+       "box": {
+        "x": 0.3295,
+        "y": 0.542,
+        "w": 0.1057,
+        "h": 0.027
+       }
+      },
+      {
+       "text": "Cairo",
+       "box": {
+        "x": 0.4448,
+        "y": 0.542,
+        "w": 0.0481,
+        "h": 0.027
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mostafa",
+   "middle": "",
+   "family": "Abdel Rahman",
+   "suffix": "",
+   "full": "Mostafa Abdel Rahman"
+  },
+  "otherName": null,
+  "company": "SAHEL PHARMA Distribution S.A.E.",
+  "department": null,
+  "title": "Regional Sales Manager – Delta",
+  "phones": [
+   {
+    "printed": "+20 2 2735 8410",
+    "e164": "+20227358410",
+    "type": "work",
+    "label": "Tel",
+    "ext": null
+   },
+   {
+    "printed": "+20 100 482 7731",
+    "e164": "+201004827731",
+    "type": "mobile",
+    "label": "Mob",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "m.abdelrahman@sahelpharma-com-eg.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "14 Gamal Abdel Nasser St.",
+    "extra": "Heliopolis",
+    "pobox": "",
+    "postcode": "",
+    "city": "Cairo",
+    "region": "",
+    "country": "",
+    "countryCode": "EG"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "Regional Sales Manager"
+  ],
+  "company": [
+   "SAHEL PHARMA"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "arabic-transliteration",
+  "compound-family-name",
+  "no-postcode",
+  "foreign-region",
+  "person-name-in-street",
+  "company-split-lines"
+ ],
+ "notes": "\"Abdel Rahman\" is one family name in two tokens (e-mail m.abdelrahman confirms); N4 would wrongly make \"Abdel\" a middle name. Street named after a person (\"Gamal Abdel Nasser\") must not become the name. No Egyptian postcode printed."
+}

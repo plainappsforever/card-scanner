@@ -1,0 +1,268 @@
+{
+ "id": "in-i40",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "en"
+ ],
+ "card_country": "IN",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "kaverilabs.in",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3702,
+      "h": 0.08
+     },
+     "height": 0.08,
+     "words": [
+      {
+       "text": "kaverilabs.in",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.3702,
+        "h": 0.08
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Priya N. Raghavan",
+     "box": {
+      "x": 0.07,
+      "y": 0.22,
+      "w": 0.3329,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Priya",
+       "box": {
+        "x": 0.07,
+        "y": 0.22,
+        "w": 0.0979,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "N.",
+       "box": {
+        "x": 0.1875,
+        "y": 0.22,
+        "w": 0.0392,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Raghavan",
+       "box": {
+        "x": 0.2462,
+        "y": 0.22,
+        "w": 0.1567,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Co-founder & CTO",
+     "box": {
+      "x": 0.07,
+      "y": 0.295,
+      "w": 0.1994,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Co-founder",
+       "box": {
+        "x": 0.07,
+        "y": 0.295,
+        "w": 0.1246,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "&",
+       "box": {
+        "x": 0.2071,
+        "y": 0.295,
+        "w": 0.0125,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "CTO",
+       "box": {
+        "x": 0.232,
+        "y": 0.295,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "+91 99860 41237",
+     "box": {
+      "x": 0.07,
+      "y": 0.39,
+      "w": 0.1709,
+      "h": 0.032
+     },
+     "height": 0.032,
+     "words": [
+      {
+       "text": "+91",
+       "box": {
+        "x": 0.07,
+        "y": 0.39,
+        "w": 0.0342,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "99860",
+       "box": {
+        "x": 0.1156,
+        "y": 0.39,
+        "w": 0.057,
+        "h": 0.032
+       }
+      },
+      {
+       "text": "41237",
+       "box": {
+        "x": 0.1839,
+        "y": 0.39,
+        "w": 0.057,
+        "h": 0.032
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "priya@kaverilabs-in.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.442,
+      "w": 0.2029,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "priya@kaverilabs-in.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.442,
+        "w": 0.2029,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "linkedin.com/in/priyanraghavan",
+     "box": {
+      "x": 0.07,
+      "y": 0.492,
+      "w": 0.299,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "linkedin.com/in/priyanraghavan",
+       "box": {
+        "x": 0.07,
+        "y": 0.492,
+        "w": 0.299,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Priya",
+   "middle": "N.",
+   "family": "Raghavan",
+   "suffix": "",
+   "full": "Priya N. Raghavan"
+  },
+  "otherName": null,
+  "company": "kaverilabs.in",
+  "department": null,
+  "title": "Co-founder & CTO",
+  "phones": [
+   {
+    "printed": "+91 99860 41237",
+    "e164": "+919986041237",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "priya@kaverilabs-in.example"
+  ],
+  "urls": [
+   "kaverilabs.in"
+  ],
+  "socials": [
+   {
+    "service": "linkedin",
+    "value": "linkedin.com/in/priyanraghavan"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "addresses"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "startup",
+  "company-only-domain",
+  "indian-initials",
+  "unlabelled-mobile",
+  "foreign-region",
+  "no-address-foreign",
+  "absent-address"
+ ],
+ "notes": "Company printed only as the domain \"kaverilabs.in\" (also the URL). Middle initial \"N.\". Unlabelled +91 9… is a mobile. No address."
+}

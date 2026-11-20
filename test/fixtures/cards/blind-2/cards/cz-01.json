@@ -1,0 +1,519 @@
+{
+ "id": "cz-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "cs"
+ ],
+ "card_country": "CZ",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "cs-CZ"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "MORAVSKÁ STROJÍRNA a.s.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1107,
+      "w": 0.5598,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "MORAVSKÁ",
+       "box": {
+        "x": 0.07,
+        "y": 0.1107,
+        "w": 0.2029,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "STROJÍRNA",
+       "box": {
+        "x": 0.2865,
+        "y": 0.1107,
+        "w": 0.2283,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "a.s.",
+       "box": {
+        "x": 0.5284,
+        "y": 0.1107,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "Ing. Tomas Dvorak, Ph.D.",
+     "box": {
+      "x": 0.07,
+      "y": 0.2027,
+      "w": 0.4915,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Ing.",
+       "box": {
+        "x": 0.07,
+        "y": 0.2027,
+        "w": 0.087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Tomas",
+       "box": {
+        "x": 0.1686,
+        "y": 0.2027,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Dvorak,",
+       "box": {
+        "x": 0.289,
+        "y": 0.2027,
+        "w": 0.1522,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Ph.D.",
+       "box": {
+        "x": 0.4528,
+        "y": 0.2027,
+        "w": 0.1087,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "obchodní ředitel",
+     "box": {
+      "x": 0.07,
+      "y": 0.2847,
+      "w": 0.2815,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "obchodní",
+       "box": {
+        "x": 0.07,
+        "y": 0.2847,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "ředitel",
+       "box": {
+        "x": 0.2246,
+        "y": 0.2847,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Hybešova 42",
+     "box": {
+      "x": 0.07,
+      "y": 0.3567,
+      "w": 0.1909,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Hybešova",
+       "box": {
+        "x": 0.07,
+        "y": 0.3567,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "42",
+       "box": {
+        "x": 0.2246,
+        "y": 0.3567,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "602 00 Brno",
+     "box": {
+      "x": 0.07,
+      "y": 0.4287,
+      "w": 0.1825,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "602",
+       "box": {
+        "x": 0.07,
+        "y": 0.4287,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "00",
+       "box": {
+        "x": 0.1341,
+        "y": 0.4287,
+        "w": 0.0362,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Brno",
+       "box": {
+        "x": 0.18,
+        "y": 0.4287,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "tel.: +420 543 210 987",
+     "box": {
+      "x": 0.07,
+      "y": 0.5007,
+      "w": 0.3649,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "tel.:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5007,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+420",
+       "box": {
+        "x": 0.1703,
+        "y": 0.5007,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "543",
+       "box": {
+        "x": 0.2525,
+        "y": 0.5007,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "210",
+       "box": {
+        "x": 0.3165,
+        "y": 0.5007,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "987",
+       "box": {
+        "x": 0.3806,
+        "y": 0.5007,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "mobil: +420 602 345 678",
+     "box": {
+      "x": 0.07,
+      "y": 0.5727,
+      "w": 0.3831,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "mobil:",
+       "box": {
+        "x": 0.07,
+        "y": 0.5727,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+420",
+       "box": {
+        "x": 0.1884,
+        "y": 0.5727,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "602",
+       "box": {
+        "x": 0.2706,
+        "y": 0.5727,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "345",
+       "box": {
+        "x": 0.3346,
+        "y": 0.5727,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "678",
+       "box": {
+        "x": 0.3987,
+        "y": 0.5727,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "tomas.dvorak@moravska-strojirna-cz.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6447,
+      "w": 0.616,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "tomas.dvorak@moravska-strojirna-cz.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6447,
+        "w": 0.616,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "IČO: 12345678 · DIČ: CZ12345678",
+     "box": {
+      "x": 0.07,
+      "y": 0.7167,
+      "w": 0.264,
+      "h": 0.025
+     },
+     "height": 0.025,
+     "words": [
+      {
+       "text": "IČO:",
+       "box": {
+        "x": 0.07,
+        "y": 0.7167,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "12345678",
+       "box": {
+        "x": 0.1111,
+        "y": 0.7167,
+        "w": 0.0725,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.1884,
+        "y": 0.7167,
+        "w": 0.0091,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "DIČ:",
+       "box": {
+        "x": 0.2023,
+        "y": 0.7167,
+        "w": 0.0362,
+        "h": 0.025
+       }
+      },
+      {
+       "text": "CZ12345678",
+       "box": {
+        "x": 0.2434,
+        "y": 0.7167,
+        "w": 0.0906,
+        "h": 0.025
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "Ing.",
+   "given": "Tomáš",
+   "middle": "",
+   "family": "Dvořák",
+   "suffix": "Ph.D.",
+   "full": "Ing. Tomáš Dvořák, Ph.D."
+  },
+  "otherName": null,
+  "company": "MORAVSKÁ STROJÍRNA a.s.",
+  "department": null,
+  "title": "obchodní ředitel",
+  "phones": [
+   {
+    "printed": "+420 543 210 987",
+    "e164": "+420543210987",
+    "type": "work",
+    "label": "tel.:",
+    "ext": null
+   },
+   {
+    "printed": "+420 602 345 678",
+    "e164": "+420602345678",
+    "type": "mobile",
+    "label": "mobil:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "tomas.dvorak@moravska-strojirna-cz.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Hybešova 42",
+    "extra": "",
+    "pobox": "",
+    "postcode": "602 00",
+    "city": "Brno",
+    "region": "",
+    "country": "",
+    "countryCode": "CZ"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "name.full",
+   "printed": "Ing. Tomáš Dvořák, Ph.D.",
+   "ocr": "Ing. Tomas Dvorak, Ph.D.",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.given",
+   "printed": "Tomáš",
+   "ocr": "Tomas",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  },
+  {
+   "path": "name.family",
+   "printed": "Dvořák",
+   "ocr": "Dvorak",
+   "kinds": [
+    "diacritic-lost"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "prefix-title",
+  "credential-suffix",
+  "registry-id",
+  "vat-id",
+  "postcode-like-phone",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Postcode 602 00 is not part of a phone; IČO 12345678 and DIČ are not phones. Title \"obchodní ředitel\" (lower case, as printed)."
+}

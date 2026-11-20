@@ -1,0 +1,239 @@
+{
+ "id": "de-13",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "tr"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "ACME",
+     "box": {
+      "x": 0.0637318270913795,
+      "y": 0.0414311611863184,
+      "w": 0.2243096733093262,
+      "h": 0.08627703751376237
+     },
+     "height": 0.08627703751376237,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Werkzeugmaschinen Vertriebs GmbH",
+     "box": {
+      "x": 0.061891238569079195,
+      "y": 0.19173800931328477,
+      "w": 0.33859825134277344,
+      "h": 0.05426919414269882
+     },
+     "height": 0.05426919414269882,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Kemal Yıldırım",
+     "box": {
+      "x": 0.060594678280118615,
+      "y": 0.3649046830656657,
+      "w": 0.21897165298461913,
+      "h": 0.053943654284974274
+     },
+     "height": 0.053943654284974274,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Technischer Vertrieb",
+     "box": {
+      "x": 0.0592260597661878,
+      "y": 0.46072263969189986,
+      "w": 0.1896369171142578,
+      "h": 0.03807447131536179
+     },
+     "height": 0.03807447131536179,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Gutenbergstr. 3a",
+     "box": {
+      "x": 0.057792298281178954,
+      "y": 0.6189867673743221,
+      "w": 0.13874573707580565,
+      "h": 0.03541855646376435
+     },
+     "height": 0.03541855646376435,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "42697 Solingen",
+     "box": {
+      "x": 0.05585600623035106,
+      "y": 0.6688065735352733,
+      "w": 0.13389101028442382,
+      "h": 0.04228220390997339
+     },
+     "height": 0.04228220390997339,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "T: 0212 / 2 33 44-0 F: -19",
+     "box": {
+      "x": 0.0564532437129553,
+      "y": 0.7283802092194742,
+      "w": 0.22134927749633787,
+      "h": 0.03481447006284499
+     },
+     "height": 0.03481447006284499,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "M: 0152 23 45 67 89",
+     "box": {
+      "x": 0.0564105558580132,
+      "y": 0.779917189915901,
+      "w": 0.18224105834960935,
+      "h": 0.03622426213444896
+     },
+     "height": 0.03622426213444896,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "k.yildirim@acme-wzm-de.example",
+     "box": {
+      "x": 0.05509811045402604,
+      "y": 0.8395914955950688,
+      "w": 0.2139363861083984,
+      "h": 0.03296649594104428
+     },
+     "height": 0.03296649594104428,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Kemal",
+   "middle": "",
+   "family": "Yıldırım",
+   "suffix": "",
+   "full": "Kemal Yıldırım"
+  },
+  "otherName": null,
+  "company": "ACME Werkzeugmaschinen Vertriebs GmbH",
+  "department": "Technischer Vertrieb",
+  "title": null,
+  "phones": [
+   {
+    "printed": "0212 / 2 33 44-0",
+    "e164": "+49212233440",
+    "type": "work",
+    "label": "T:",
+    "ext": null
+   },
+   {
+    "printed": "-19",
+    "e164": "+492122334419",
+    "type": "fax",
+    "label": "F:",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "0152 23 45 67 89",
+    "e164": "+4915223456789",
+    "type": "mobile",
+    "label": "M:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "k.yildirim@acme-wzm-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Gutenbergstr. 3a",
+    "extra": "",
+    "pobox": "",
+    "postcode": "42697",
+    "city": "Solingen",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "title",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Werkzeugmaschinen Vertriebs GmbH",
+   "ACME"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "logo-word",
+  "company-before-name",
+  "fax-as-extension-suffix",
+  "double-space-segments",
+  "dotless-i",
+  "absent-title",
+  "ocr-0O"
+ ],
+ "notes": "\"F: -19\" is the fax as an extension of the T: number (+492122334419). \"Technischer Vertrieb\" is a department; no job title.",
+ "o3": {
+  "source": "blind-1/cards/de-13.json",
+  "images": [
+   {
+    "name": "b1-de-13",
+    "font": "GillSans",
+    "rotation": -0.9,
+    "noise": 8,
+    "blur": 1,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 96
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

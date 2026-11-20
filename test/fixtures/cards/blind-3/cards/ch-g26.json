@@ -1,0 +1,426 @@
+{
+ "id": "ch-g26",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "de-DE"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Kanton Rheinfels",
+     "box": {
+      "x": 0.07,
+      "y": 0.06,
+      "w": 0.3204,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Kanton",
+       "box": {
+        "x": 0.07,
+        "y": 0.06,
+        "w": 0.1068,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Rheinfels",
+       "box": {
+        "x": 0.1946,
+        "y": 0.06,
+        "w": 0.1958,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Bau- und Verkehrsdepartement",
+     "box": {
+      "x": 0.07,
+      "y": 0.13,
+      "w": 0.3489,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Bau-",
+       "box": {
+        "x": 0.07,
+        "y": 0.13,
+        "w": 0.0498,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "und",
+       "box": {
+        "x": 0.1323,
+        "y": 0.13,
+        "w": 0.0374,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Verkehrsdepartement",
+       "box": {
+        "x": 0.1821,
+        "y": 0.13,
+        "w": 0.2368,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Amt für Mobilität",
+     "box": {
+      "x": 0.07,
+      "y": 0.205,
+      "w": 0.2723,
+      "h": 0.045
+     },
+     "height": 0.045,
+     "words": [
+      {
+       "text": "Amt",
+       "box": {
+        "x": 0.07,
+        "y": 0.205,
+        "w": 0.0481,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "für",
+       "box": {
+        "x": 0.1341,
+        "y": 0.205,
+        "w": 0.0481,
+        "h": 0.045
+       }
+      },
+      {
+       "text": "Mobilität",
+       "box": {
+        "x": 0.1981,
+        "y": 0.205,
+        "w": 0.1442,
+        "h": 0.045
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f3",
+     "text": "Abteilung Verkehrsplanung",
+     "box": {
+      "x": 0.07,
+      "y": 0.27,
+      "w": 0.3115,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Abteilung",
+       "box": {
+        "x": 0.07,
+        "y": 0.27,
+        "w": 0.1121,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Verkehrsplanung",
+       "box": {
+        "x": 0.1946,
+        "y": 0.27,
+        "w": 0.1869,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f4",
+     "text": "Münsterplatz 11 · Büro 3.14",
+     "box": {
+      "x": 0.07,
+      "y": 0.375,
+      "w": 0.2884,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Münsterplatz",
+       "box": {
+        "x": 0.07,
+        "y": 0.375,
+        "w": 0.1282,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "11",
+       "box": {
+        "x": 0.2089,
+        "y": 0.375,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2409,
+        "y": 0.375,
+        "w": 0.0107,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Büro",
+       "box": {
+        "x": 0.2623,
+        "y": 0.375,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "3.14",
+       "box": {
+        "x": 0.3157,
+        "y": 0.375,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f5",
+     "text": "4001 Basel",
+     "box": {
+      "x": 0.07,
+      "y": 0.425,
+      "w": 0.1068,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "4001",
+       "box": {
+        "x": 0.07,
+        "y": 0.425,
+        "w": 0.0427,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "Basel",
+       "box": {
+        "x": 0.1234,
+        "y": 0.425,
+        "w": 0.0534,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f6",
+     "text": "Telefon +41 61 267 82 00",
+     "box": {
+      "x": 0.07,
+      "y": 0.475,
+      "w": 0.2563,
+      "h": 0.03
+     },
+     "height": 0.03,
+     "words": [
+      {
+       "text": "Telefon",
+       "box": {
+        "x": 0.07,
+        "y": 0.475,
+        "w": 0.0748,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "+41",
+       "box": {
+        "x": 0.1554,
+        "y": 0.475,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "61",
+       "box": {
+        "x": 0.1981,
+        "y": 0.475,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "267",
+       "box": {
+        "x": 0.2302,
+        "y": 0.475,
+        "w": 0.032,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "82",
+       "box": {
+        "x": 0.2729,
+        "y": 0.475,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      },
+      {
+       "text": "00",
+       "box": {
+        "x": 0.3049,
+        "y": 0.475,
+        "w": 0.0214,
+        "h": 0.03
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f7",
+     "text": "mobilitaet@kt-rheinfels-ch.example · www.mobilitaet.kt-rheinfels.ch",
+     "box": {
+      "x": 0.07,
+      "y": 0.525,
+      "w": 0.3888,
+      "h": 0.028
+     },
+     "height": 0.028,
+     "words": [
+      {
+       "text": "mobilitaet@kt-rheinfels-ch.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.525,
+        "w": 0.1595,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2395,
+        "y": 0.525,
+        "w": 0.01,
+        "h": 0.028
+       }
+      },
+      {
+       "text": "www.mobilitaet.kt-rheinfels.ch",
+       "box": {
+        "x": 0.2594,
+        "y": 0.525,
+        "w": 0.1994,
+        "h": 0.028
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "region": "CH",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": null,
+  "otherName": null,
+  "company": "Kanton Rheinfels",
+  "department": "Amt für Mobilität",
+  "title": null,
+  "phones": [
+   {
+    "printed": "+41 61 267 82 00",
+    "e164": "+41612678200",
+    "type": "work",
+    "label": "Telefon",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "mobilitaet@kt-rheinfels-ch.example"
+  ],
+  "urls": [
+   "www.mobilitaet.kt-rheinfels.ch"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Münsterplatz 11",
+    "extra": "Büro 3.14",
+    "pobox": "",
+    "postcode": "4001",
+    "city": "Basel",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "name",
+  "otherName",
+  "title",
+  "socials"
+ ],
+ "accept": {
+  "department": [
+   "Bau- und Verkehrsdepartement",
+   "Abteilung Verkehrsplanung"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "government",
+  "amt",
+  "absent-name",
+  "department-lines",
+  "room-extra",
+  "hyphenated-department"
+ ],
+ "notes": "Office card without a person: no name and no title. Three administrative levels (Departement > Amt > Abteilung); \"Amt für Mobilität\" (largest) is truth. \"Büro 3.14\" is a room, not a number to parse."
+}

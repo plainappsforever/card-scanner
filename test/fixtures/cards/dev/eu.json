@@ -1,0 +1,1044 @@
+[
+ {
+  "id": "fr-01",
+  "lang": "fr",
+  "region": "FR",
+  "layout": "French, family name in caps",
+  "front": [
+   [
+    "Lumière Conseil SARL",
+    0.055
+   ],
+   [
+    "Évariste LEMAIRE",
+    0.07
+   ],
+   [
+    "Directeur général",
+    0.04
+   ],
+   [
+    "12, rue de la Paix",
+    0.035
+   ],
+   [
+    "75002 Paris",
+    0.035
+   ],
+   [
+    "Tél. : +33 1 42 68 53 00",
+    0.035
+   ],
+   [
+    "Port. : +33 6 12 34 56 78",
+    0.035
+   ],
+   [
+    "e.lemaire@lumiere-conseil-fr.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Évariste",
+    "family": "LEMAIRE"
+   },
+   "company": "Lumière Conseil SARL",
+   "title": "Directeur général",
+   "phones": [
+    {
+     "number": "+33142685300",
+     "type": "work"
+    },
+    {
+     "number": "+33612345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "e.lemaire@lumiere-conseil-fr.example"
+   ],
+   "addresses": [
+    {
+     "street": "12, rue de la Paix",
+     "postcode": "75002",
+     "city": "Paris",
+     "country": "FR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "fr-02",
+  "lang": "fr",
+  "region": "FR",
+  "layout": "CEDEX, family first in caps",
+  "front": [
+   [
+    "DUBOIS-MARCHAND Clémence",
+    0.065
+   ],
+   [
+    "Responsable des achats",
+    0.04
+   ],
+   [
+    "Groupe Valtiane SA",
+    0.05
+   ],
+   [
+    "BP 4321",
+    0.035
+   ],
+   [
+    "33000 Bordeaux CEDEX",
+    0.035
+   ],
+   [
+    "Tél 05 56 00 12 34",
+    0.035
+   ],
+   [
+    "clemence.dubois-marchand@valtiane-fr.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Clémence",
+    "family": "DUBOIS-MARCHAND"
+   },
+   "company": "Groupe Valtiane SA",
+   "title": "Responsable des achats",
+   "phones": [
+    {
+     "number": "+33556001234",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "clemence.dubois-marchand@valtiane-fr.example"
+   ],
+   "addresses": [
+    {
+     "street": "BP 4321",
+     "postcode": "33000",
+     "city": "Bordeaux",
+     "country": "FR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "it-01",
+  "lang": "it",
+  "region": "IT",
+  "layout": "Italian, province in brackets",
+  "front": [
+   [
+    "Ferro & Figli S.r.l.",
+    0.055
+   ],
+   [
+    "Ing. Aurelio Scarpetta",
+    0.07
+   ],
+   [
+    "Direttore tecnico",
+    0.04
+   ],
+   [
+    "Via Giuseppe Verdi, 18",
+    0.035
+   ],
+   [
+    "20121 Milano (MI)",
+    0.035
+   ],
+   [
+    "Tel. +39 02 8765 4321",
+    0.035
+   ],
+   [
+    "Cell. +39 347 123 4567",
+    0.035
+   ],
+   [
+    "a.scarpetta@ferrofigli-it.example",
+    0.035
+   ],
+   [
+    "P.IVA 01234567890",
+    0.025
+   ]
+  ],
+  "truth": {
+   "name": {
+    "prefix": "Ing.",
+    "given": "Aurelio",
+    "family": "Scarpetta"
+   },
+   "company": "Ferro & Figli S.r.l.",
+   "title": "Direttore tecnico",
+   "phones": [
+    {
+     "number": "+390287654321",
+     "type": "work"
+    },
+    {
+     "number": "+393471234567",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "a.scarpetta@ferrofigli-it.example"
+   ],
+   "addresses": [
+    {
+     "street": "Via Giuseppe Verdi, 18",
+     "postcode": "20121",
+     "city": "Milano",
+     "region": "MI",
+     "country": "IT"
+    }
+   ]
+  }
+ },
+ {
+  "id": "it-02",
+  "lang": "it",
+  "region": "IT",
+  "layout": "Italian, Dott.ssa",
+  "front": [
+   [
+    "Dott.ssa Benedetta Quaglia",
+    0.065
+   ],
+   [
+    "Responsabile commerciale",
+    0.04
+   ],
+   [
+    "Cantine Quaglia S.p.A.",
+    0.05
+   ],
+   [
+    "Piazza del Duomo 3 - 50122 Firenze",
+    0.035
+   ],
+   [
+    "T +39 055 123 4567",
+    0.035
+   ],
+   [
+    "benedetta.quaglia@cantinequaglia-it.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "prefix": "Dott.ssa",
+    "given": "Benedetta",
+    "family": "Quaglia"
+   },
+   "company": "Cantine Quaglia S.p.A.",
+   "title": "Responsabile commerciale",
+   "phones": [
+    {
+     "number": "+390551234567",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "benedetta.quaglia@cantinequaglia-it.example"
+   ],
+   "addresses": [
+    {
+     "street": "Piazza del Duomo 3",
+     "postcode": "50122",
+     "city": "Firenze",
+     "country": "IT"
+    }
+   ]
+  }
+ },
+ {
+  "id": "es-01",
+  "lang": "es",
+  "region": "ES",
+  "layout": "Spanish, two family names",
+  "front": [
+   [
+    "Castrovel Renovables S.L.",
+    0.055
+   ],
+   [
+    "María José García López",
+    0.065
+   ],
+   [
+    "Gerente de Proyectos",
+    0.04
+   ],
+   [
+    "Calle de Alcalá, 45",
+    0.035
+   ],
+   [
+    "28014 Madrid",
+    0.035
+   ],
+   [
+    "Tel. +34 91 123 45 67",
+    0.035
+   ],
+   [
+    "Móvil +34 612 34 56 78",
+    0.035
+   ],
+   [
+    "mjgarcia@castrovelrenovables-es.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "María José",
+    "family": "García López"
+   },
+   "company": "Castrovel Renovables S.L.",
+   "title": "Gerente de Proyectos",
+   "phones": [
+    {
+     "number": "+34911234567",
+     "type": "work"
+    },
+    {
+     "number": "+34612345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "mjgarcia@castrovelrenovables-es.example"
+   ],
+   "addresses": [
+    {
+     "street": "Calle de Alcalá, 45",
+     "postcode": "28014",
+     "city": "Madrid",
+     "country": "ES"
+    }
+   ]
+  }
+ },
+ {
+  "id": "mx-01",
+  "lang": "es",
+  "region": "MX",
+  "layout": "Mexico, C.P., uncommon name",
+  "notes": "uncommon name",
+  "front": [
+   [
+    "Itzel Xóchitl Ramírez Cuauhtémoc",
+    0.06
+   ],
+   [
+    "Directora de Mercadotecnia",
+    0.04
+   ],
+   [
+    "Grupo Tlaloc S.A. de C.V.",
+    0.05
+   ],
+   [
+    "Av. Paseo de la Reforma 250, Col. Juárez",
+    0.035
+   ],
+   [
+    "C.P. 06600 Ciudad de México",
+    0.035
+   ],
+   [
+    "Tel. +52 55 1234 5678",
+    0.035
+   ],
+   [
+    "itzel.ramirez@grupotlaloc-mx.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Itzel Xóchitl",
+    "family": "Ramírez Cuauhtémoc"
+   },
+   "company": "Grupo Tlaloc S.A. de C.V.",
+   "title": "Directora de Mercadotecnia",
+   "phones": [
+    {
+     "number": "+525512345678",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "itzel.ramirez@grupotlaloc-mx.example"
+   ],
+   "addresses": [
+    {
+     "street": "Av. Paseo de la Reforma 250, Col. Juárez",
+     "postcode": "06600",
+     "city": "Ciudad de México",
+     "country": "MX"
+    }
+   ]
+  }
+ },
+ {
+  "id": "pt-01",
+  "lang": "pt",
+  "region": "PT",
+  "layout": "Portugal",
+  "front": [
+   [
+    "Gonçalo Vasconcelos",
+    0.07
+   ],
+   [
+    "Diretor Comercial",
+    0.04
+   ],
+   [
+    "Tejo Cortiça, Lda.",
+    0.05
+   ],
+   [
+    "Rua Augusta, 120",
+    0.035
+   ],
+   [
+    "1100-053 Lisboa",
+    0.035
+   ],
+   [
+    "Tel. +351 21 123 4567",
+    0.035
+   ],
+   [
+    "Tlm. +351 912 345 678",
+    0.035
+   ],
+   [
+    "goncalo@tejocortica-pt.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Gonçalo",
+    "family": "Vasconcelos"
+   },
+   "company": "Tejo Cortiça, Lda.",
+   "title": "Diretor Comercial",
+   "phones": [
+    {
+     "number": "+351211234567",
+     "type": "work"
+    },
+    {
+     "number": "+351912345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "goncalo@tejocortica-pt.example"
+   ],
+   "addresses": [
+    {
+     "street": "Rua Augusta, 120",
+     "postcode": "1100-053",
+     "city": "Lisboa",
+     "country": "PT"
+    }
+   ]
+  }
+ },
+ {
+  "id": "br-01",
+  "lang": "pt",
+  "region": "BR",
+  "layout": "Brazil, CEP, city/state",
+  "front": [
+   [
+    "Soluções Zelares Ltda.",
+    0.055
+   ],
+   [
+    "Thiago Nascimento Borges",
+    0.065
+   ],
+   [
+    "Gerente de TI",
+    0.04
+   ],
+   [
+    "Av. Paulista, 1578 - Bela Vista",
+    0.035
+   ],
+   [
+    "São Paulo/SP - CEP 01310-200",
+    0.035
+   ],
+   [
+    "(11) 3555-0123 | (11) 98765-4321",
+    0.035
+   ],
+   [
+    "thiago.borges@solucoeszelares-com-br.example",
+    0.03
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Thiago",
+    "family": "Nascimento Borges"
+   },
+   "company": "Soluções Zelares Ltda.",
+   "title": "Gerente de TI",
+   "phones": [
+    {
+     "number": "+551135550123",
+     "type": "work"
+    },
+    {
+     "number": "+5511987654321",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "thiago.borges@solucoeszelares-com-br.example"
+   ],
+   "addresses": [
+    {
+     "street": "Av. Paulista, 1578 - Bela Vista",
+     "postcode": "01310-200",
+     "city": "São Paulo",
+     "region": "SP",
+     "country": "BR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "nl-01",
+  "lang": "nl",
+  "region": "NL",
+  "layout": "Dutch, postcode letters",
+  "front": [
+   [
+    "Fenna Hoekstra",
+    0.07
+   ],
+   [
+    "Accountmanager",
+    0.04
+   ],
+   [
+    "Windmolen Techniek B.V.",
+    0.05
+   ],
+   [
+    "Keizersgracht 123",
+    0.035
+   ],
+   [
+    "1015 CJ Amsterdam",
+    0.035
+   ],
+   [
+    "T +31 20 555 1234",
+    0.035
+   ],
+   [
+    "M +31 6 1234 5678",
+    0.035
+   ],
+   [
+    "f.hoekstra@windmolentechniek-nl.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Fenna",
+    "family": "Hoekstra"
+   },
+   "company": "Windmolen Techniek B.V.",
+   "title": "Accountmanager",
+   "phones": [
+    {
+     "number": "+31205551234",
+     "type": "work"
+    },
+    {
+     "number": "+31612345678",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "f.hoekstra@windmolentechniek-nl.example"
+   ],
+   "addresses": [
+    {
+     "street": "Keizersgracht 123",
+     "postcode": "1015 CJ",
+     "city": "Amsterdam",
+     "country": "NL"
+    }
+   ]
+  }
+ },
+ {
+  "id": "nl-02",
+  "lang": "nl",
+  "region": "NL",
+  "layout": "particle in family name",
+  "front": [
+   [
+    "Pieter van der Hoorst",
+    0.07
+   ],
+   [
+    "Directeur",
+    0.04
+   ],
+   [
+    "Van der Hoorst Bouw",
+    0.05
+   ],
+   [
+    "Stationsplein 8, 3511 ED Utrecht",
+    0.035
+   ],
+   [
+    "030 - 123 45 67",
+    0.035
+   ],
+   [
+    "pieter@vdhoorstbouw-nl.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Pieter",
+    "family": "van der Hoorst"
+   },
+   "company": "Van der Hoorst Bouw",
+   "title": "Directeur",
+   "phones": [
+    {
+     "number": "+31301234567",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "pieter@vdhoorstbouw-nl.example"
+   ],
+   "addresses": [
+    {
+     "street": "Stationsplein 8",
+     "postcode": "3511 ED",
+     "city": "Utrecht",
+     "country": "NL"
+    }
+   ]
+  }
+ },
+ {
+  "id": "be-01",
+  "lang": "fr",
+  "region": "BE",
+  "layout": "Belgium, B- prefix",
+  "front": [
+   [
+    "Anouk Vermeulen",
+    0.07
+   ],
+   [
+    "Chargée d'affaires",
+    0.04
+   ],
+   [
+    "Waasmont Logistics NV",
+    0.05
+   ],
+   [
+    "Avenue Louise 54",
+    0.035
+   ],
+   [
+    "B-1050 Bruxelles",
+    0.035
+   ],
+   [
+    "+32 2 555 12 34",
+    0.035
+   ],
+   [
+    "anouk.vermeulen@waasmontlogistics-be.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Anouk",
+    "family": "Vermeulen"
+   },
+   "company": "Waasmont Logistics NV",
+   "title": "Chargée d'affaires",
+   "phones": [
+    {
+     "number": "+3225551234",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "anouk.vermeulen@waasmontlogistics-be.example"
+   ],
+   "addresses": [
+    {
+     "street": "Avenue Louise 54",
+     "postcode": "1050",
+     "city": "Bruxelles",
+     "country": "BE"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tr-01",
+  "lang": "tr",
+  "region": "TR",
+  "layout": "Turkish, district/city",
+  "front": [
+   [
+    "Korvan Teknoloji A.Ş.",
+    0.055
+   ],
+   [
+    "Ünal Öztürk",
+    0.07
+   ],
+   [
+    "Satış Müdürü",
+    0.04
+   ],
+   [
+    "Büyükdere Cad. No: 123",
+    0.035
+   ],
+   [
+    "34394 Şişli/İstanbul",
+    0.035
+   ],
+   [
+    "Tel: +90 212 555 12 34",
+    0.035
+   ],
+   [
+    "Cep: +90 532 123 45 67",
+    0.035
+   ],
+   [
+    "unal.ozturk@korvantek-com-tr.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Ünal",
+    "family": "Öztürk"
+   },
+   "company": "Korvan Teknoloji A.Ş.",
+   "title": "Satış Müdürü",
+   "phones": [
+    {
+     "number": "+902125551234",
+     "type": "work"
+    },
+    {
+     "number": "+905321234567",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "unal.ozturk@korvantek-com-tr.example"
+   ],
+   "addresses": [
+    {
+     "street": "Büyükdere Cad. No: 123",
+     "postcode": "34394",
+     "city": "İstanbul",
+     "region": "Şişli",
+     "country": "TR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tr-02",
+  "lang": "tr",
+  "region": "TR",
+  "layout": "Turkish, uncommon name, OCR '0' as 'O' in mobile",
+  "notes": "OCR error; uncommon name",
+  "front": [
+   [
+    "Nilüfer Karaosmanoğlu",
+    0.07
+   ],
+   [
+    "Genel Müdür Yardımcısı",
+    0.04
+   ],
+   [
+    "Ovaç Tekstil San. ve Tic. Ltd. Şti.",
+    0.045
+   ],
+   [
+    "Atatürk Bulvarı No: 45",
+    0.035
+   ],
+   [
+    "35210 Konak/İzmir",
+    0.035
+   ],
+   [
+    "GSM: +90 5O5 987 65 43",
+    0.035
+   ],
+   [
+    "nilufer@ovactekstil-com-tr.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Nilüfer",
+    "family": "Karaosmanoğlu"
+   },
+   "company": "Ovaç Tekstil San. ve Tic. Ltd. Şti.",
+   "title": "Genel Müdür Yardımcısı",
+   "phones": [
+    {
+     "number": "+905059876543",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "nilufer@ovactekstil-com-tr.example"
+   ],
+   "addresses": [
+    {
+     "street": "Atatürk Bulvarı No: 45",
+     "postcode": "35210",
+     "city": "İzmir",
+     "region": "Konak",
+     "country": "TR"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ru-01",
+  "lang": "ru",
+  "region": "RU",
+  "layout": "Russian, family first with patronymic",
+  "front": [
+   [
+    "ООО «Северный Вереск»",
+    0.05
+   ],
+   [
+    "Иванов Дмитрий Сергеевич",
+    0.06
+   ],
+   [
+    "Генеральный директор",
+    0.04
+   ],
+   [
+    "123056, г. Москва, ул. Тверская, д. 12",
+    0.035
+   ],
+   [
+    "Тел.: +7 495 123-45-67",
+    0.035
+   ],
+   [
+    "Моб.: +7 916 123-45-67",
+    0.035
+   ],
+   [
+    "d.ivanov@sevveresk-ru.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Дмитрий",
+    "middle": "Сергеевич",
+    "family": "Иванов"
+   },
+   "company": "ООО «Северный Вереск»",
+   "title": "Генеральный директор",
+   "phones": [
+    {
+     "number": "+74951234567",
+     "type": "work"
+    },
+    {
+     "number": "+79161234567",
+     "type": "mobile"
+    }
+   ],
+   "emails": [
+    "d.ivanov@sevveresk-ru.example"
+   ],
+   "addresses": [
+    {
+     "street": "ул. Тверская, д. 12",
+     "postcode": "123056",
+     "city": "Москва",
+     "country": "RU"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ru-02",
+  "lang": "ru",
+  "region": "RU",
+  "layout": "Russian, given name first, English back side",
+  "front": [
+   [
+    "Светлана Кузнецова",
+    0.07
+   ],
+   [
+    "Менеджер по продажам",
+    0.04
+   ],
+   [
+    "АО «Ормаш-Сервис»",
+    0.05
+   ],
+   [
+    "Тел. +7 343 210-11-22",
+    0.035
+   ],
+   [
+    "s.kuznetsova@ormash-service-ru.example",
+    0.035
+   ]
+  ],
+  "back": [
+   [
+    "Svetlana Kuznetsova",
+    0.07
+   ],
+   [
+    "Sales Manager",
+    0.04
+   ],
+   [
+    "Ormash-Service JSC",
+    0.05
+   ],
+   [
+    "Phone +7 343 210-11-22",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Светлана",
+    "family": "Кузнецова"
+   },
+   "otherName": "Svetlana Kuznetsova",
+   "company": "АО «Ормаш-Сервис»",
+   "title": "Менеджер по продажам",
+   "phones": [
+    {
+     "number": "+73432101122",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "s.kuznetsova@ormash-service-ru.example"
+   ]
+  },
+  "uiLang": "ru"
+ },
+ {
+  "id": "pl-01",
+  "lang": "pl",
+  "region": "PL",
+  "layout": "Polish, sp. z o.o.",
+  "notes": "uncommon name",
+  "front": [
+   [
+    "Leokadia Wróblewska",
+    0.07
+   ],
+   [
+    "Kierownik Działu Eksportu",
+    0.04
+   ],
+   [
+    "Burszlak sp. z o.o.",
+    0.05
+   ],
+   [
+    "ul. Długa 22",
+    0.035
+   ],
+   [
+    "80-827 Gdańsk",
+    0.035
+   ],
+   [
+    "tel. +48 58 555 12 34",
+    0.035
+   ],
+   [
+    "l.wroblewska@burszlak-pl.example",
+    0.035
+   ]
+  ],
+  "truth": {
+   "name": {
+    "given": "Leokadia",
+    "family": "Wróblewska"
+   },
+   "company": "Burszlak sp. z o.o.",
+   "title": "Kierownik Działu Eksportu",
+   "phones": [
+    {
+     "number": "+48585551234",
+     "type": "work"
+    }
+   ],
+   "emails": [
+    "l.wroblewska@burszlak-pl.example"
+   ],
+   "addresses": [
+    {
+     "street": "ul. Długa 22",
+     "postcode": "80-827",
+     "city": "Gdańsk",
+     "country": "PL"
+    }
+   ]
+  }
+ }
+]

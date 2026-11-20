@@ -1,0 +1,194 @@
+{
+ "id": "de-24",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "mlkit",
+   "langs": [
+    "latin"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "HELIOTROP",
+     "box": {
+      "x": 0.3486,
+      "y": 0.12,
+      "w": 0.3028,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "HELIOTROP",
+       "box": {
+        "x": 0.3486,
+        "y": 0.12,
+        "w": 0.3028,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f1",
+     "text": "Messebau · Events",
+     "box": {
+      "x": 0.4049,
+      "y": 0.26,
+      "w": 0.1902,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Messebau",
+       "box": {
+        "x": 0.4049,
+        "y": 0.26,
+        "w": 0.0942,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5059,
+        "y": 0.26,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Events",
+       "box": {
+        "x": 0.5245,
+        "y": 0.26,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    },
+    {
+     "id": "f2",
+     "text": "Scan me",
+     "box": {
+      "x": 0.4613,
+      "y": 0.88,
+      "w": 0.0775,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Scan",
+       "box": {
+        "x": 0.4613,
+        "y": 0.88,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "me",
+       "box": {
+        "x": 0.5152,
+        "y": 0.88,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr"
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "MECARD:N:Achterkamp,Fenna;ORG:Heliotrop Messebau GmbH;TEL:+4917612398745;EMAIL:f.achterkamp@heliotrop-messebau-de.example;ADR:,,Am Messesee 3,Hannover,,30521,Deutschland;;",
+    "box": {
+     "x": 0.38,
+     "y": 0.38,
+     "w": 0.24,
+     "h": 0.4
+    }
+   }
+  ],
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Fenna",
+   "middle": "",
+   "family": "Achterkamp",
+   "suffix": "",
+   "full": "Achterkamp,Fenna"
+  },
+  "otherName": null,
+  "company": "Heliotrop Messebau GmbH",
+  "department": null,
+  "title": null,
+  "phones": [
+   {
+    "printed": "+4917612398745",
+    "e164": "+4917612398745",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "f.achterkamp@heliotrop-messebau-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Am Messesee 3",
+    "extra": "",
+    "pobox": "",
+    "postcode": "30521",
+    "city": "Hannover",
+    "region": "",
+    "country": "Deutschland",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "title",
+  "urls",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "HELIOTROP"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "qr-only",
+  "mecard-qr",
+  "absent-printed-name",
+  "logo-word",
+  "slogan",
+  "mecard-name-comma",
+  "mecard-adr"
+ ],
+ "notes": "Nothing but a logo, a slogan and \"Scan me\" is printed; all contact data is in the MECARD (N = family,given). OCR alone gives no name; \"Scan me\" and \"HELIOTROP\" must not become the name. name.full is the MECARD N value."
+}

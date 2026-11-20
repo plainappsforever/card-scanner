@@ -1,0 +1,764 @@
+{
+ "id": "jp-01-both",
+ "group": "jp-01",
+ "side": "both",
+ "card_langs": [
+  "ja",
+  "en"
+ ],
+ "card_country": "JP",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "ja-JP",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "株式会社きりはねシステム",
+     "box": {
+      "x": 0.07,
+      "y": 0.1128,
+      "w": 0.4982,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "株式会社きりはねシステム",
+       "box": {
+        "x": 0.07,
+        "y": 0.1128,
+        "w": 0.4982,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "営業部 部長",
+     "box": {
+      "x": 0.07,
+      "y": 0.2048,
+      "w": 0.1715,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "営業部",
+       "box": {
+        "x": 0.07,
+        "y": 0.2048,
+        "w": 0.0971,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "部長",
+       "box": {
+        "x": 0.1768,
+        "y": 0.2048,
+        "w": 0.0647,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "山田 太郎",
+     "box": {
+      "x": 0.07,
+      "y": 0.2768,
+      "w": 0.2782,
+      "h": 0.1
+     },
+     "height": 0.1,
+     "words": [
+      {
+       "text": "山田",
+       "box": {
+        "x": 0.07,
+        "y": 0.2768,
+        "w": 0.1294,
+        "h": 0.1
+       }
+      },
+      {
+       "text": "太郎",
+       "box": {
+        "x": 0.2188,
+        "y": 0.2768,
+        "w": 0.1294,
+        "h": 0.1
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "〒150-0002 東京都渋谷区渋谷2-21-1",
+     "box": {
+      "x": 0.07,
+      "y": 0.3988,
+      "w": 0.5545,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "〒150-0002",
+       "box": {
+        "x": 0.07,
+        "y": 0.3988,
+        "w": 0.1773,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "東京都渋谷区渋谷2-21-1",
+       "box": {
+        "x": 0.257,
+        "y": 0.3988,
+        "w": 0.3675,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "渋谷スクエアビル18階",
+     "box": {
+      "x": 0.07,
+      "y": 0.4708,
+      "w": 0.3274,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "渋谷スクエアビル18階",
+       "box": {
+        "x": 0.07,
+        "y": 0.4708,
+        "w": 0.3274,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "TEL 03-1234-5678 FAX 03-1234-5679",
+     "box": {
+      "x": 0.07,
+      "y": 0.5428,
+      "w": 0.5726,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "TEL",
+       "box": {
+        "x": 0.07,
+        "y": 0.5428,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "03-1234-5678",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5428,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "FAX",
+       "box": {
+        "x": 0.3612,
+        "y": 0.5428,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "03-1234-5679",
+       "box": {
+        "x": 0.4252,
+        "y": 0.5428,
+        "w": 0.2174,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "携帯 090-1234-5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.6148,
+      "w": 0.3099,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "携帯",
+       "box": {
+        "x": 0.07,
+        "y": 0.6148,
+        "w": 0.0647,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "090-1234-5678",
+       "box": {
+        "x": 0.1444,
+        "y": 0.6148,
+        "w": 0.2355,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "t.yamada@kirihane-sys-co-jp.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.6868,
+      "w": 0.4529,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "t.yamada@kirihane-sys-co-jp.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.6868,
+        "w": 0.4529,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Kirihane System Co., Ltd.",
+     "box": {
+      "x": 0.07,
+      "y": 0.1158,
+      "w": 0.5481,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Kirihane",
+       "box": {
+        "x": 0.07,
+        "y": 0.1158,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "System",
+       "box": {
+        "x": 0.2358,
+        "y": 0.1158,
+        "w": 0.1522,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Co.,",
+       "box": {
+        "x": 0.4016,
+        "y": 0.1158,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.5166,
+        "y": 0.1158,
+        "w": 0.1015,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b1",
+     "text": "Taro Yamada",
+     "box": {
+      "x": 0.07,
+      "y": 0.2078,
+      "w": 0.3436,
+      "h": 0.09
+     },
+     "height": 0.09,
+     "words": [
+      {
+       "text": "Taro",
+       "box": {
+        "x": 0.07,
+        "y": 0.2078,
+        "w": 0.1304,
+        "h": 0.09
+       }
+      },
+      {
+       "text": "Yamada",
+       "box": {
+        "x": 0.2179,
+        "y": 0.2078,
+        "w": 0.1957,
+        "h": 0.09
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b2",
+     "text": "General Manager, Sales Department",
+     "box": {
+      "x": 0.07,
+      "y": 0.3198,
+      "w": 0.5726,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "General",
+       "box": {
+        "x": 0.07,
+        "y": 0.3198,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Manager,",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3198,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Sales",
+       "box": {
+        "x": 0.3612,
+        "y": 0.3198,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Department",
+       "box": {
+        "x": 0.4615,
+        "y": 0.3198,
+        "w": 0.1812,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b3",
+     "text": "Shibuya Square Bldg. 18F, 2-21-1 Shibuya",
+     "box": {
+      "x": 0.07,
+      "y": 0.3918,
+      "w": 0.6826,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Shibuya",
+       "box": {
+        "x": 0.07,
+        "y": 0.3918,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Square",
+       "box": {
+        "x": 0.2065,
+        "y": 0.3918,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Bldg.",
+       "box": {
+        "x": 0.3249,
+        "y": 0.3918,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "18F,",
+       "box": {
+        "x": 0.4252,
+        "y": 0.3918,
+        "w": 0.0725,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "2-21-1",
+       "box": {
+        "x": 0.5074,
+        "y": 0.3918,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Shibuya",
+       "box": {
+        "x": 0.6258,
+        "y": 0.3918,
+        "w": 0.1268,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b4",
+     "text": "Shibuya-ku, Tokyo 150-0002, Japan",
+     "box": {
+      "x": 0.07,
+      "y": 0.4638,
+      "w": 0.5726,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Shibuya-ku,",
+       "box": {
+        "x": 0.07,
+        "y": 0.4638,
+        "w": 0.1993,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Tokyo",
+       "box": {
+        "x": 0.279,
+        "y": 0.4638,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "150-0002,",
+       "box": {
+        "x": 0.3793,
+        "y": 0.4638,
+        "w": 0.1631,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Japan",
+       "box": {
+        "x": 0.5521,
+        "y": 0.4638,
+        "w": 0.0906,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b5",
+     "text": "Tel +81-3-1234-5678 Mobile +81-90-1234-5678",
+     "box": {
+      "x": 0.07,
+      "y": 0.5358,
+      "w": 0.7538,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Tel",
+       "box": {
+        "x": 0.07,
+        "y": 0.5358,
+        "w": 0.0544,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+81-3-1234-5678",
+       "box": {
+        "x": 0.1341,
+        "y": 0.5358,
+        "w": 0.2718,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "Mobile",
+       "box": {
+        "x": 0.4155,
+        "y": 0.5358,
+        "w": 0.1087,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "+81-90-1234-5678",
+       "box": {
+        "x": 0.5339,
+        "y": 0.5358,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b6",
+     "text": "t.yamada @ kirihane-sys.co.jp",
+     "box": {
+      "x": 0.07,
+      "y": 0.6078,
+      "w": 0.4724,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "t.yamada",
+       "box": {
+        "x": 0.07,
+        "y": 0.6078,
+        "w": 0.1449,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "@",
+       "box": {
+        "x": 0.2246,
+        "y": 0.6078,
+        "w": 0.0181,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "kirihane-sys.co.jp",
+       "box": {
+        "x": 0.2525,
+        "y": 0.6078,
+        "w": 0.2899,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "b7",
+     "text": "www.kirihane-sys.co.jp",
+     "box": {
+      "x": 0.07,
+      "y": 0.6798,
+      "w": 0.3624,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "www.kirihane-sys.co.jp",
+       "box": {
+        "x": 0.07,
+        "y": 0.6798,
+        "w": 0.3624,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Taro",
+   "middle": "",
+   "family": "Yamada",
+   "suffix": "",
+   "full": "Taro Yamada"
+  },
+  "otherName": "山田 太郎",
+  "company": "Kirihane System Co., Ltd.",
+  "department": "Sales Department",
+  "title": "General Manager",
+  "phones": [
+   {
+    "printed": "03-1234-5678",
+    "e164": "+81312345678",
+    "type": "work",
+    "label": "TEL",
+    "ext": null
+   },
+   {
+    "printed": "03-1234-5679",
+    "e164": "+81312345679",
+    "type": "fax",
+    "label": "FAX",
+    "ext": null
+   },
+   {
+    "printed": "090-1234-5678",
+    "e164": "+819012345678",
+    "type": "mobile",
+    "label": "携帯",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "t.yamada@kirihane-sys-co-jp.example"
+  ],
+  "urls": [
+   "www.kirihane-sys.co.jp"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "2-21-1 Shibuya",
+    "extra": "Shibuya Square Bldg. 18F",
+    "pobox": "",
+    "postcode": "150-0002",
+    "city": "Shibuya-ku",
+    "region": "Tokyo",
+    "country": "Japan",
+    "countryCode": "JP"
+   }
+  ]
+ },
+ "absent": [
+  "socials"
+ ],
+ "accept": {
+  "title": [
+   "General Manager, Sales Department",
+   "部長"
+  ],
+  "department": [
+   "営業部"
+  ],
+  "company": [
+   "株式会社きりはねシステム"
+  ],
+  "addresses[0].street": [
+   "渋谷2-21-1"
+  ],
+  "addresses[0].city": [
+   "渋谷区"
+  ],
+  "addresses[0].region": [
+   "東京都"
+  ],
+  "addresses[0].extra": [
+   "渋谷スクエアビル18階"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "text",
+   "printed": "t.yamada@kirihane-sys-co-jp.example",
+   "ocr": "t.yamada @ kirihane-sys.co.jp",
+   "kinds": [
+    "spaced-at"
+   ]
+  }
+ ],
+ "traps": [
+  "region-mismatch",
+  "two-sided",
+  "second-script",
+  "family-first",
+  "title-dept-one-line",
+  "ext-pair",
+  "region-from-address",
+  "spaced-at"
+ ],
+ "notes": "Both sides, UI German → Latin values primary, Japanese name = otherName; Japanese variants accepted. One address, three phones (fax only on the front)."
+}

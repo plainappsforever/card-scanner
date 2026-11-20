@@ -1,0 +1,255 @@
+{
+ "id": "de-e03",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Haustechnik Tezkan GmbH",
+     "box": {
+      "x": 0.06503161376111959,
+      "y": 0.056556604794742005,
+      "w": 0.48479480743408204,
+      "h": 0.06021072321416787
+     },
+     "height": 0.06021072321416787,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Sanitär • Heizung Solar",
+     "box": {
+      "x": 0.06526774148512128,
+      "y": 0.15612947339720806,
+      "w": 0.2285222625732422,
+      "h": 0.03719218265135782
+     },
+     "height": 0.03719218265135782,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Murat Tezkan",
+     "box": {
+      "x": 0.06806335015986048,
+      "y": 0.24209361849572186,
+      "w": 0.1820430374145508,
+      "h": 0.046161500643579156
+     },
+     "height": 0.046161500643579156,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Installateur- und Heizungsbauermeister",
+     "box": {
+      "x": 0.06666666976579386,
+      "y": 0.3204633199031277,
+      "w": 0.31666666030883794,
+      "h": 0.038610038610038644
+     },
+     "height": 0.038610038610038644,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "Tel. 0221 9 87 65-0 • Durchwahl -14",
+     "box": {
+      "x": 0.06802162924157158,
+      "y": 0.3912474567636741,
+      "w": 0.32764945983886723,
+      "h": 0.04266155640591074
+     },
+     "height": 0.04266155640591074,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "Mobil/WhatsApp 0152 28 41 90 67",
+     "box": {
+      "x": 0.06632682188006968,
+      "y": 0.44817477119118365,
+      "w": 0.31328979492187503,
+      "h": 0.049540678046384734
+     },
+     "height": 0.049540678046384734,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "Kundendienst 24/7: 0221 9 87 65-55",
+     "box": {
+      "x": 0.06953517768063584,
+      "y": 0.5122885278907571,
+      "w": 0.3115641975402832,
+      "h": 0.038925767405152745
+     },
+     "height": 0.038925767405152745,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "m.tezkan@haustechnik-tezkan-de.example",
+     "box": {
+      "x": 0.06959643482228117,
+      "y": 0.5732107123758486,
+      "w": 0.24309219360351564,
+      "h": 0.03536897092252167
+     },
+     "height": 0.03536897092252167,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "Venloer Str. 512 • 50825 Köln",
+     "box": {
+      "x": 0.07094313102619917,
+      "y": 0.6233667703152397,
+      "w": 0.2490840911865235,
+      "h": 0.03663024386844127
+     },
+     "height": 0.03663024386844127,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "IBAN DE89 3704 0044 0532 0130 00 • BIC COBADEFFXXX",
+     "box": {
+      "x": 0.06957656260792916,
+      "y": 0.6756244991469839,
+      "w": 0.3971908187866211,
+      "h": 0.032824547594578646
+     },
+     "height": 0.032824547594578646,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Murat",
+   "middle": "",
+   "family": "Tezkan",
+   "suffix": "",
+   "full": "Murat Tezkan"
+  },
+  "otherName": null,
+  "company": "Haustechnik Tezkan GmbH",
+  "department": null,
+  "title": "Installateur- und Heizungsbauermeister",
+  "phones": [
+   {
+    "printed": "0221 9 87 65-0",
+    "e164": "+49221987650",
+    "type": "work",
+    "label": "Tel.",
+    "ext": null
+   },
+   {
+    "printed": "-14",
+    "e164": "+492219876514",
+    "type": "work",
+    "label": "Durchwahl",
+    "ext": null,
+    "composed": true
+   },
+   {
+    "printed": "0152 28 41 90 67",
+    "e164": "+4915228419067",
+    "type": "mobile",
+    "label": "Mobil/WhatsApp",
+    "ext": null
+   },
+   {
+    "printed": "0221 9 87 65-55",
+    "e164": "+492219876555",
+    "type": "work",
+    "label": "Kundendienst 24/7",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "m.tezkan@haustechnik-tezkan-de.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Venloer Str. 512",
+    "extra": "",
+    "pobox": "",
+    "postcode": "50825",
+    "city": "Köln",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "trade",
+  "turkish-name",
+  "tagline",
+  "shared-base",
+  "suffix-only-number",
+  "combined-label",
+  "iban",
+  "spaced-at",
+  "digits-in-label"
+ ],
+ "notes": "Turkish dotless ı in the name (e-mail uses plain i). Durchwahl -14 replaces the -0 of the base. \"Mobil/WhatsApp\" is a mobile; \"24/7\" in the label is not part of the number. IBAN/BIC are not phones.",
+ "o3": {
+  "source": "blind-3/cards/de-e03.json",
+  "images": [
+   {
+    "name": "b3-de-e03",
+    "font": "Baskerville",
+    "rotation": 0.9,
+    "noise": 4,
+    "blur": 0,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 108
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

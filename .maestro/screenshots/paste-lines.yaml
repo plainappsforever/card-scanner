@@ -1,0 +1,24 @@
+appId: ${APP_ID}
+---
+# Paste a five-line contact text (env L1..L5, all required) and read it into Review. One line at a time (Maestro's inputText
+# drops "\n" on Android). Own copy of ../subflows/paste-card.yaml: that file declares empty defaults for L2..L5, and on Maestro 2.10
+# those defaults won over the values passed in, so only the first line was typed (V1_LOG).
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-paste
+- tapOn:
+    id: paste-input
+- inputText: ${L1}
+- pressKey: Enter
+- inputText: ${L2}
+- pressKey: Enter
+- inputText: ${L3}
+- pressKey: Enter
+- inputText: ${L4}
+- pressKey: Enter
+- inputText: ${L5}
+- tapOn:
+    id: paste-read
+- assertVisible:
+    id: review-screen

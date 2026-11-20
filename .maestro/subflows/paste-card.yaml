@@ -1,0 +1,44 @@
+appId: ${APP_ID}
+env:
+  L2: ""
+  L3: ""
+  L4: ""
+  L5: ""
+---
+# Paste a contact text (env L1..L5, empty lines skipped) and read it into Review. One line at a time: Maestro's
+# inputText drops "\n" on Android (L14).
+- tapOn:
+    id: add-menu
+- tapOn:
+    id: choice-paste
+- tapOn:
+    id: paste-input
+- inputText: ${L1}
+- runFlow:
+    when:
+      true: ${L2 !== ''}
+    commands:
+      - pressKey: Enter
+      - inputText: ${L2}
+- runFlow:
+    when:
+      true: ${L3 !== ''}
+    commands:
+      - pressKey: Enter
+      - inputText: ${L3}
+- runFlow:
+    when:
+      true: ${L4 !== ''}
+    commands:
+      - pressKey: Enter
+      - inputText: ${L4}
+- runFlow:
+    when:
+      true: ${L5 !== ''}
+    commands:
+      - pressKey: Enter
+      - inputText: ${L5}
+- tapOn:
+    id: paste-read
+- assertVisible:
+    id: review-screen

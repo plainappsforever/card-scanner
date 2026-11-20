@@ -1,0 +1,206 @@
+{
+ "id": "mx-04",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de",
+  "en"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Raphael Odenwälder",
+     "box": {
+      "x": 0.07501502238176219,
+      "y": 0.1689596094264635,
+      "w": 0.3761528778076172,
+      "h": 0.06685305194044666
+     },
+     "height": 0.06685305194044666,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Dipl. Inf. (FH)",
+     "box": {
+      "x": 0.07532481528389781,
+      "y": 0.27670141031766704,
+      "w": 0.15174634933471678,
+      "h": 0.041929690534083464
+     },
+     "height": 0.041929690534083464,
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f2",
+     "text": "Freelance Cloud Architect",
+     "box": {
+      "x": 0.0767508668495013,
+      "y": 0.3299187349625148,
+      "w": 0.3189204597473144,
+      "h": 0.043036232583771206
+     },
+     "height": 0.043036232583771206,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "AWS • Azure • Kubernetes • Terraform",
+     "box": {
+      "x": 0.07825758246086459,
+      "y": 0.5086167398881479,
+      "w": 0.34060691833496093,
+      "h": 0.03913422993251259
+     },
+     "height": 0.03913422993251259,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "+49 (0) 176 / 98 76 54 32",
+     "box": {
+      "x": 0.07816458607033304,
+      "y": 0.6505118565380738,
+      "w": 0.25508325576782226,
+      "h": 0.04272577661344901
+     },
+     "height": 0.04272577661344901,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "raphael@odenwaelder-dev.example",
+     "box": {
+      "x": 0.08088791945479258,
+      "y": 0.700330584047841,
+      "w": 0.27709583282470707,
+      "h": 0.04783699227115823
+     },
+     "height": 0.04783699227115823,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "github.com/rodenwaelder",
+     "box": {
+      "x": 0.08099302290414351,
+      "y": 0.7577999959392624,
+      "w": 0.2740262985229492,
+      "h": 0.0449934226665718
+     },
+     "height": 0.0449934226665718,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "Remote • Karlsruhe",
+     "box": {
+      "x": 0.08256944086964371,
+      "y": 0.8154658967098686,
+      "w": 0.2069207763671875,
+      "h": 0.036589946525897754
+     },
+     "height": 0.036589946525897754,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Raphael",
+   "middle": "",
+   "family": "Odenwälder",
+   "suffix": "",
+   "full": "Raphael Odenwälder"
+  },
+  "otherName": null,
+  "company": null,
+  "department": null,
+  "title": "Freelance Cloud Architect",
+  "phones": [
+   {
+    "printed": "+49 (0)176 / 98 76 54 32",
+    "e164": "+4917698765432",
+    "type": "mobile",
+    "label": null,
+    "ext": null
+   }
+  ],
+  "emails": [
+   "raphael@odenwaelder-dev.example"
+  ],
+  "urls": [],
+  "socials": [
+   {
+    "service": "github",
+    "value": "github.com/rodenwaelder"
+   }
+  ],
+  "addresses": []
+ },
+ "absent": [
+  "otherName",
+  "company",
+  "department",
+  "urls",
+  "addresses"
+ ],
+ "accept": {
+  "name.prefix": [
+   "Dipl.-Inf. (FH)"
+  ]
+ },
+ "composed": [],
+ "traps": [
+  "degree-line-below-name",
+  "keyword-slogan",
+  "city-only-not-address",
+  "dev-tld",
+  "github",
+  "trunk-0-paren-and-slash",
+  "absent-company",
+  "absent-address"
+ ],
+ "notes": "Degree printed on its own line below the name. \"Remote · Karlsruhe\" is not a postal address (no street/postcode). Domain stem equals family name.",
+ "o3": {
+  "source": "blind-1/cards/mx-04.json",
+  "images": [
+   {
+    "name": "b1-mx-04",
+    "font": "AmericanTypewriter",
+    "rotation": 1.14,
+    "noise": 2,
+    "blur": 1.4,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 93
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

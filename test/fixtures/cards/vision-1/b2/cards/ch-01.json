@@ -1,0 +1,245 @@
+{
+ "id": "ch-01",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "CH",
+ "layout": "landscape",
+ "input": {
+  "region": "DE",
+  "uiLang": "de",
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "BRUNELL TREUHAND AG",
+     "box": {
+      "x": 0.06497884906597022,
+      "y": 0.0823227616001192,
+      "w": 0.553204574584961,
+      "h": 0.06601528403381585
+     },
+     "height": 0.06601528403381585,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f1",
+     "text": "Reto Brunell, lic. oec. HSG",
+     "box": {
+      "x": 0.06646125956070272,
+      "y": 0.17784124913112653,
+      "w": 0.4255128479003906,
+      "h": 0.07550981514242161
+     },
+     "height": 0.07550981514242161,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f2",
+     "text": "Partner",
+     "box": {
+      "x": 0.06820505055843942,
+      "y": 0.27057246829921344,
+      "w": 0.0990550136566162,
+      "h": 0.03733039914871272
+     },
+     "height": 0.03733039914871272,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f3",
+     "text": "Bahnhofstrasse 42",
+     "box": {
+      "x": 0.0681966395539753,
+      "y": 0.3395714811844983,
+      "w": 0.23135429382324219,
+      "h": 0.04192354688313016
+     },
+     "height": 0.04192354688313016,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f4",
+     "text": "8001 Zürich",
+     "box": {
+      "x": 0.0696012765577246,
+      "y": 0.4146099855950627,
+      "w": 0.15583106994628906,
+      "h": 0.03673387770487069
+     },
+     "height": 0.03673387770487069,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f5",
+     "text": "T +41 44 211 34 56",
+     "box": {
+      "x": 0.06950797509668093,
+      "y": 0.48402748418233577,
+      "w": 0.23024059295654298,
+      "h": 0.046556178207102894
+     },
+     "height": 0.046556178207102894,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f6",
+     "text": "D +41 44 211 34 61",
+     "box": {
+      "x": 0.07241315216275858,
+      "y": 0.5532231016854444,
+      "w": 0.24324079513549807,
+      "h": 0.048916584736591995
+     },
+     "height": 0.048916584736591995,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f7",
+     "text": "M +41 79 345 67 89",
+     "box": {
+      "x": 0.07092159011453184,
+      "y": 0.6282697458000102,
+      "w": 0.24049812316894534,
+      "h": 0.050517457792657594
+     },
+     "height": 0.050517457792657594,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f8",
+     "text": "reto.brunell@brunell-treuhand-ch.example",
+     "box": {
+      "x": 0.07223501529837811,
+      "y": 0.6912797789038105,
+      "w": 0.43405254364013673,
+      "h": 0.05494051090078467
+     },
+     "height": 0.05494051090078467,
+     "dir": "ltr",
+     "conf": 1
+    },
+    {
+     "id": "f9",
+     "text": "MWST CHE-123.456.789",
+     "box": {
+      "x": 0.07267442048605986,
+      "y": 0.7731660230804789,
+      "w": 0.15552325248718263,
+      "h": 0.025096525096525046
+     },
+     "height": 0.025096525096525046,
+     "dir": "ltr",
+     "conf": 1
+    }
+   ]
+  }
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Reto",
+   "middle": "",
+   "family": "Brunell",
+   "suffix": "lic. oec. HSG",
+   "full": "Reto Brunell, lic. oec. HSG"
+  },
+  "otherName": null,
+  "company": "BRUNELL TREUHAND AG",
+  "department": null,
+  "title": "Partner",
+  "phones": [
+   {
+    "printed": "+41 44 211 34 56",
+    "e164": "+41442113456",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   },
+   {
+    "printed": "+41 44 211 34 61",
+    "e164": "+41442113461",
+    "type": "work",
+    "label": "D",
+    "ext": null
+   },
+   {
+    "printed": "+41 79 345 67 89",
+    "e164": "+41793456789",
+    "type": "mobile",
+    "label": "M",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "reto.brunell@brunell-treuhand-ch.example"
+  ],
+  "urls": [],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Bahnhofstrasse 42",
+    "extra": "",
+    "pobox": "",
+    "postcode": "8001",
+    "city": "Zürich",
+    "region": "",
+    "country": "",
+    "countryCode": "CH"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "urls",
+  "socials"
+ ],
+ "accept": {},
+ "composed": [],
+ "traps": [
+  "region-mismatch",
+  "credential-suffix",
+  "vat-id",
+  "name-is-company",
+  "ext-pair",
+  "region-from-plus-cc",
+  "diacritic-lost"
+ ],
+ "notes": "Suffix \"lic. oec. HSG\" is not part of the family name. D = direct line (work). CHE-123.456.789 is the VAT number. Swiss spelling \"strasse\".",
+ "o3": {
+  "source": "blind-2/cards/ch-01.json",
+  "images": [
+   {
+    "name": "b2-ch-01",
+    "font": "Georgia",
+    "rotation": 1.03,
+    "noise": 12,
+    "blur": 0.6,
+    "langs": [
+     "de-DE",
+     "en-US"
+    ],
+    "dropped": [],
+    "visionMs": 87
+   }
+  ],
+  "qrExpected": 0,
+  "qrDecoded": 0
+ }
+}

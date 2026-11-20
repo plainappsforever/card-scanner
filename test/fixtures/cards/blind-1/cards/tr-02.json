@@ -1,0 +1,601 @@
+{
+ "id": "tr-02",
+ "group": null,
+ "side": "single",
+ "card_langs": [
+  "tr"
+ ],
+ "card_country": "TR",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Çevrik Tekstil",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.2327,
+      "h": 0.055
+     },
+     "height": 0.055,
+     "words": [
+      {
+       "text": "Çevrik",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.0925,
+        "h": 0.055
+       }
+      },
+      {
+       "text": "Tekstil",
+       "box": {
+        "x": 0.1732,
+        "y": 0.07,
+        "w": 0.1295,
+        "h": 0.055
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "San. ve Tic. Ltd. Şti.",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.2323,
+      "h": 0.034
+     },
+     "height": 0.034,
+     "words": [
+      {
+       "text": "San.",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "ve",
+       "box": {
+        "x": 0.1224,
+        "y": 0.15,
+        "w": 0.0229,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Tic.",
+       "box": {
+        "x": 0.1518,
+        "y": 0.15,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Ltd.",
+       "box": {
+        "x": 0.2042,
+        "y": 0.15,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      },
+      {
+       "text": "Şti.",
+       "box": {
+        "x": 0.2566,
+        "y": 0.15,
+        "w": 0.0458,
+        "h": 0.034
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Mehmet Emin Çevrik",
+     "box": {
+      "x": 0.07,
+      "y": 0.28,
+      "w": 0.3261,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Mehmet",
+       "box": {
+        "x": 0.07,
+        "y": 0.28,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Emin",
+       "box": {
+        "x": 0.2028,
+        "y": 0.28,
+        "w": 0.0808,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Çevrik",
+       "box": {
+        "x": 0.2952,
+        "y": 0.28,
+        "w": 0.1009,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Satış Müdürü",
+     "box": {
+      "x": 0.07,
+      "y": 0.367,
+      "w": 0.1636,
+      "h": 0.042
+     },
+     "height": 0.042,
+     "words": [
+      {
+       "text": "Satış",
+       "box": {
+        "x": 0.07,
+        "y": 0.367,
+        "w": 0.0707,
+        "h": 0.042
+       }
+      },
+      {
+       "text": "Müdürü",
+       "box": {
+        "x": 0.1488,
+        "y": 0.367,
+        "w": 0.0848,
+        "h": 0.042
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Organize Sanayi Bölgesi 3. Cad. No: 12",
+     "box": {
+      "x": 0.07,
+      "y": 0.51,
+      "w": 0.4176,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Organize",
+       "box": {
+        "x": 0.07,
+        "y": 0.51,
+        "w": 0.0942,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Sanayi",
+       "box": {
+        "x": 0.171,
+        "y": 0.51,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Bölgesi",
+       "box": {
+        "x": 0.2485,
+        "y": 0.51,
+        "w": 0.0824,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "3.",
+       "box": {
+        "x": 0.3377,
+        "y": 0.51,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Cad.",
+       "box": {
+        "x": 0.368,
+        "y": 0.51,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "No:",
+       "box": {
+        "x": 0.4219,
+        "y": 0.51,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "12",
+       "box": {
+        "x": 0.4641,
+        "y": 0.51,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "16140 Nilüfer/Bursa",
+     "box": {
+      "x": 0.07,
+      "y": 0.5607,
+      "w": 0.2188,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "16140",
+       "box": {
+        "x": 0.07,
+        "y": 0.5607,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Nilüfer/Bursa",
+       "box": {
+        "x": 0.1357,
+        "y": 0.5607,
+        "w": 0.1531,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "Tel: 0224 411 22 33  Faks: 0224 411 22 34",
+     "box": {
+      "x": 0.07,
+      "y": 0.6115,
+      "w": 0.433,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Tel:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6115,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0224",
+       "box": {
+        "x": 0.1239,
+        "y": 0.6115,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "411",
+       "box": {
+        "x": 0.1778,
+        "y": 0.6115,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.2199,
+        "y": 0.6115,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "33",
+       "box": {
+        "x": 0.2503,
+        "y": 0.6115,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Faks:",
+       "box": {
+        "x": 0.2874,
+        "y": 0.6115,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0224",
+       "box": {
+        "x": 0.3531,
+        "y": 0.6115,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "411",
+       "box": {
+        "x": 0.407,
+        "y": 0.6115,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "22",
+       "box": {
+        "x": 0.4491,
+        "y": 0.6115,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "34",
+       "box": {
+        "x": 0.4795,
+        "y": 0.6115,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "GSM: 0533 765 43 2l",
+     "box": {
+      "x": 0.07,
+      "y": 0.6622,
+      "w": 0.2038,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "GSM:",
+       "box": {
+        "x": 0.07,
+        "y": 0.6622,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "0533",
+       "box": {
+        "x": 0.1239,
+        "y": 0.6622,
+        "w": 0.0471,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "765",
+       "box": {
+        "x": 0.1778,
+        "y": 0.6622,
+        "w": 0.0353,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "43",
+       "box": {
+        "x": 0.2199,
+        "y": 0.6622,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "2l",
+       "box": {
+        "x": 0.2503,
+        "y": 0.6622,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 0.5
+    },
+    {
+     "id": "f8",
+     "text": "info@cevriktekstil-com-tr.example · www.cevriktekstil.com.tr",
+     "box": {
+      "x": 0.07,
+      "y": 0.713,
+      "w": 0.5789,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "info@cevriktekstil-com-tr.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.713,
+        "w": 0.2826,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.3594,
+        "y": 0.713,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "www.cevriktekstil.com.tr",
+       "box": {
+        "x": 0.378,
+        "y": 0.713,
+        "w": 0.2709,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Mehmet Emin",
+   "middle": "",
+   "family": "Çevrik",
+   "suffix": "",
+   "full": "Mehmet Emin Çevrik"
+  },
+  "otherName": null,
+  "company": "Çevrik Tekstil San. ve Tic. Ltd. Şti.",
+  "department": null,
+  "title": "Satış Müdürü",
+  "phones": [
+   {
+    "printed": "0224 411 22 33",
+    "e164": "+902244112233",
+    "type": "work",
+    "label": "Tel:",
+    "ext": null
+   },
+   {
+    "printed": "0224 411 22 34",
+    "e164": "+902244112234",
+    "type": "fax",
+    "label": "Faks:",
+    "ext": null
+   },
+   {
+    "printed": "0533 765 43 21",
+    "e164": "+905337654321",
+    "type": "mobile",
+    "label": "GSM:",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "info@cevriktekstil-com-tr.example"
+  ],
+  "urls": [
+   "www.cevriktekstil.com.tr"
+  ],
+  "socials": [],
+  "addresses": [
+   {
+    "street": "Organize Sanayi Bölgesi 3. Cad. No: 12",
+    "extra": "",
+    "pobox": "",
+    "postcode": "16140",
+    "city": "Bursa",
+    "region": "Nilüfer",
+    "country": "",
+    "countryCode": "TR"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department",
+  "socials"
+ ],
+ "accept": {
+  "company": [
+   "Çevrik Tekstil"
+  ],
+  "addresses[0].city": [
+   "Nilüfer/Bursa"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [
+  {
+   "path": "phones[2].printed",
+   "printed": "0533 765 43 21",
+   "ocr": "0533 765 43 2l",
+   "kinds": [
+    "1/l"
+   ]
+  }
+ ],
+ "traps": [
+  "compound-given",
+  "name-is-company",
+  "ltd-sti",
+  "slash-no-space-city",
+  "faks-label",
+  "gsm-label",
+  "ordinal-in-street",
+  "ocr-1l",
+  "region-mismatch"
+ ],
+ "notes": "Two given names; family name is also the company word. Turkish national numbers (0224…) with phone_region = DE."
+}

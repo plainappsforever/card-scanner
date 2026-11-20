@@ -1,0 +1,573 @@
+{
+ "id": "de-12-both",
+ "group": "de-12",
+ "side": "both",
+ "card_langs": [
+  "de"
+ ],
+ "card_country": "DE",
+ "layout": "landscape",
+ "input": {
+  "front": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "f0",
+     "text": "Brandstetter Interior Design",
+     "box": {
+      "x": 0.07,
+      "y": 0.07,
+      "w": 0.5482,
+      "h": 0.06
+     },
+     "height": 0.06,
+     "words": [
+      {
+       "text": "Brandstetter",
+       "box": {
+        "x": 0.07,
+        "y": 0.07,
+        "w": 0.2423,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Interior",
+       "box": {
+        "x": 0.3239,
+        "y": 0.07,
+        "w": 0.1615,
+        "h": 0.06
+       }
+      },
+      {
+       "text": "Design",
+       "box": {
+        "x": 0.4971,
+        "y": 0.07,
+        "w": 0.1211,
+        "h": 0.06
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f1",
+     "text": "UG (haftungsbeschränkt)",
+     "box": {
+      "x": 0.07,
+      "y": 0.15,
+      "w": 0.2659,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "UG",
+       "box": {
+        "x": 0.07,
+        "y": 0.15,
+        "w": 0.0236,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "(haftungsbeschränkt)",
+       "box": {
+        "x": 0.1003,
+        "y": 0.15,
+        "w": 0.2355,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f2",
+     "text": "Ottilie",
+     "box": {
+      "x": 0.07,
+      "y": 0.31,
+      "w": 0.1649,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Ottilie",
+       "box": {
+        "x": 0.07,
+        "y": 0.31,
+        "w": 0.1649,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f3",
+     "text": "Brandstetter-Nakamura",
+     "box": {
+      "x": 0.07,
+      "y": 0.4115,
+      "w": 0.4946,
+      "h": 0.07
+     },
+     "height": 0.07,
+     "words": [
+      {
+       "text": "Brandstetter-Nakamura",
+       "box": {
+        "x": 0.07,
+        "y": 0.4115,
+        "w": 0.4946,
+        "h": 0.07
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f4",
+     "text": "Geschäftsführende Gesell-",
+     "box": {
+      "x": 0.07,
+      "y": 0.55,
+      "w": 0.3308,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "Geschäftsführende",
+       "box": {
+        "x": 0.07,
+        "y": 0.55,
+        "w": 0.2288,
+        "h": 0.04
+       }
+      },
+      {
+       "text": "Gesell-",
+       "box": {
+        "x": 0.3066,
+        "y": 0.55,
+        "w": 0.0942,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f5",
+     "text": "schafterin",
+     "box": {
+      "x": 0.07,
+      "y": 0.608,
+      "w": 0.1346,
+      "h": 0.04
+     },
+     "height": 0.04,
+     "words": [
+      {
+       "text": "schafterin",
+       "box": {
+        "x": 0.07,
+        "y": 0.608,
+        "w": 0.1346,
+        "h": 0.04
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f6",
+     "text": "T +49 89 21 89 74-50",
+     "box": {
+      "x": 0.07,
+      "y": 0.72,
+      "w": 0.2166,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "T",
+       "box": {
+        "x": 0.07,
+        "y": 0.72,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "+49",
+       "box": {
+        "x": 0.0891,
+        "y": 0.72,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.1324,
+        "y": 0.72,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "21",
+       "box": {
+        "x": 0.1636,
+        "y": 0.72,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "89",
+       "box": {
+        "x": 0.1949,
+        "y": 0.72,
+        "w": 0.0242,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "74-50",
+       "box": {
+        "x": 0.2261,
+        "y": 0.72,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f7",
+     "text": "ottilie@brandstetter-interior-de.example",
+     "box": {
+      "x": 0.07,
+      "y": 0.7722,
+      "w": 0.3876,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "ottilie@brandstetter-interior-de.example",
+       "box": {
+        "x": 0.07,
+        "y": 0.7722,
+        "w": 0.3876,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "f8",
+     "text": "Leopoldstraße 244 · 80807 München",
+     "box": {
+      "x": 0.07,
+      "y": 0.8244,
+      "w": 0.3792,
+      "h": 0.036
+     },
+     "height": 0.036,
+     "words": [
+      {
+       "text": "Leopoldstraße",
+       "box": {
+        "x": 0.07,
+        "y": 0.8244,
+        "w": 0.1575,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "244",
+       "box": {
+        "x": 0.2345,
+        "y": 0.8244,
+        "w": 0.0363,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.2778,
+        "y": 0.8244,
+        "w": 0.0121,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "80807",
+       "box": {
+        "x": 0.2969,
+        "y": 0.8244,
+        "w": 0.0606,
+        "h": 0.036
+       }
+      },
+      {
+       "text": "München",
+       "box": {
+        "x": 0.3644,
+        "y": 0.8244,
+        "w": 0.0848,
+        "h": 0.036
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "back": {
+   "engine": "vision",
+   "langs": [
+    "de-DE",
+    "en-US"
+   ],
+   "lines": [
+    {
+     "id": "b0",
+     "text": "Räume, die erzählen.",
+     "box": {
+      "x": 0.3389,
+      "y": 0.1,
+      "w": 0.3222,
+      "h": 0.05
+     },
+     "height": 0.05,
+     "words": [
+      {
+       "text": "Räume,",
+       "box": {
+        "x": 0.3389,
+        "y": 0.1,
+        "w": 0.1009,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "die",
+       "box": {
+        "x": 0.4495,
+        "y": 0.1,
+        "w": 0.0505,
+        "h": 0.05
+       }
+      },
+      {
+       "text": "erzählen.",
+       "box": {
+        "x": 0.5097,
+        "y": 0.1,
+        "w": 0.1514,
+        "h": 0.05
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b1",
+     "text": "Wohnen · Hotel · Gastronomie",
+     "box": {
+      "x": 0.3451,
+      "y": 0.27,
+      "w": 0.3098,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "Wohnen",
+       "box": {
+        "x": 0.3451,
+        "y": 0.27,
+        "w": 0.0707,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.4225,
+        "y": 0.27,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Hotel",
+       "box": {
+        "x": 0.4411,
+        "y": 0.27,
+        "w": 0.0589,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "·",
+       "box": {
+        "x": 0.5068,
+        "y": 0.27,
+        "w": 0.0118,
+        "h": 0.035
+       }
+      },
+      {
+       "text": "Gastronomie",
+       "box": {
+        "x": 0.5254,
+        "y": 0.27,
+        "w": 0.1295,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    },
+    {
+     "id": "b2",
+     "text": "instagram.com/brandstetter.interior",
+     "box": {
+      "x": 0.2939,
+      "y": 0.88,
+      "w": 0.4122,
+      "h": 0.035
+     },
+     "height": 0.035,
+     "words": [
+      {
+       "text": "instagram.com/brandstetter.interior",
+       "box": {
+        "x": 0.2939,
+        "y": 0.88,
+        "w": 0.4122,
+        "h": 0.035
+       }
+      }
+     ],
+     "dir": "ltr",
+     "conf": 1.0
+    }
+   ]
+  },
+  "qr": [
+   {
+    "format": "qr",
+    "text": "https://brandstetter-interior.de/portfolio",
+    "box": {
+     "x": 0.38,
+     "y": 0.4,
+     "w": 0.24,
+     "h": 0.4
+    },
+    "side": "back"
+   }
+  ],
+  "region": "DE",
+  "uiLang": "de"
+ },
+ "truth": {
+  "name": {
+   "prefix": "",
+   "given": "Ottilie",
+   "middle": "",
+   "family": "Brandstetter-Nakamura",
+   "suffix": "",
+   "full": "Ottilie Brandstetter-Nakamura"
+  },
+  "otherName": null,
+  "company": "Brandstetter Interior Design UG (haftungsbeschränkt)",
+  "department": null,
+  "title": "Geschäftsführende Gesellschafterin",
+  "phones": [
+   {
+    "printed": "+49 89 21 89 74-50",
+    "e164": "+498921897450",
+    "type": "work",
+    "label": "T",
+    "ext": null
+   }
+  ],
+  "emails": [
+   "ottilie@brandstetter-interior-de.example"
+  ],
+  "urls": [
+   "https://brandstetter-interior.de/portfolio"
+  ],
+  "socials": [
+   {
+    "service": "instagram",
+    "value": "instagram.com/brandstetter.interior"
+   }
+  ],
+  "addresses": [
+   {
+    "street": "Leopoldstraße 244",
+    "extra": "",
+    "pobox": "",
+    "postcode": "80807",
+    "city": "München",
+    "region": "",
+    "country": "",
+    "countryCode": "DE"
+   }
+  ]
+ },
+ "absent": [
+  "otherName",
+  "department"
+ ],
+ "accept": {
+  "company": [
+   "Brandstetter Interior Design"
+  ]
+ },
+ "composed": [],
+ "ocr_damage": [],
+ "traps": [
+  "name-split-lines",
+  "hyphenated-title-split",
+  "ug-legal-form",
+  "qr-url",
+  "slogan-only-back",
+  "absent-name-on-back",
+  "two-sided",
+  "combined"
+ ],
+ "notes": "Given and family name on separate lines; title hyphenated across two lines (\"Gesell-\" / \"schafterin\"). Back has only a slogan, an Instagram URL and a QR with a portfolio URL (no name, no phone): back-only fixture has almost everything absent."
+}
